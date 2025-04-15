@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Disallow admin and private routes
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://mastellagroup.com/sitemap.xml
+
+# Crawl-delay to prevent overwhelming the server
+Crawl-delay: 10

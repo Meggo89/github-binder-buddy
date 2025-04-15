@@ -1,0 +1,46 @@
+{
+  "name": "mastella-advisory",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev": "NODE_OPTIONS='--max-old-space-size=8192' vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "sitemap": "node generate-sitemap.js",
+    "analyze": "madge --circular src/main.tsx"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.7",
+    "lucide-react": "^0.344.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet-async": "^2.0.4",
+    "react-router-dom": "^6.22.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^8.56.0",
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.18",
+    "esbuild": "^0.20.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "globals": "^15.0.0",
+    "madge": "^6.1.0",
+    "postcss": "^8.4.35",
+    "sitemap": "^7.1.1",
+    "tailwindcss": "^3.4.1",
+    "terser": "^5.27.2",
+    "typescript": "^5.2.2",
+    "typescript-eslint": "^7.0.2",
+    "vite": "^5.1.4",
+    "vite-plugin-compression": "^0.5.1"
+  }
+}
