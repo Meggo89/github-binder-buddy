@@ -30,7 +30,7 @@ export default defineConfig({
     emptyOutDir: true,
   },
   server: {
-    port: 3001,
+    port: 8080,
     strictPort: true,
     headers: {
       'Cache-Control': 'public, max-age=31536000',

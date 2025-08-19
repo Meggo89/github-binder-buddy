@@ -12,7 +12,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "sitemap": "node generate-sitemap.js",
-    "analyze": "madge --circular src/main.tsx"
+    "analyze": "madge --circular src/main.tsx",
+    "build:dev": "vite build --mode development"
+
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.39.7",
