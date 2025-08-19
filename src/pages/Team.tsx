@@ -45,7 +45,7 @@ export default function Team() {
                 name: "Leo Meggitt",
                 title: "Managing Director",
                 image: "/lovable-uploads/5a8b577b-26fe-4020-b9c9-cecef8f4f735.png",
-                imagePosition: "object-top",
+                imagePosition: "object-[center_30%]",
                 description: "20+ years experience in M&A, fundraising, executive search and leadership consulting. Investor and advisor to early-stage companies."
               },
               {
