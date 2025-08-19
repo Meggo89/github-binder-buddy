@@ -14,10 +14,10 @@
     "sitemap": "node generate-sitemap.js",
     "analyze": "madge --circular src/main.tsx",
     "build:dev": "vite build --mode development"
-
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.39.7",
+    "lovable-tagger": "^1.1.9",
     "lucide-react": "^0.344.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

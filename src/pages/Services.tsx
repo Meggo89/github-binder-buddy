@@ -1,5 +1,4 @@
-import React from 'react';
-import { ArrowLeft, Calculator, Handshake, BarChart3, Banknote, FileText, Users, Target, Briefcase } from 'lucide-react';
+import { ArrowLeft, Calculator, Handshake, BarChart3, Banknote, Users, Target, Briefcase } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Services() {

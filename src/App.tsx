@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { Routes, Route, Link, useLocation } from 'react-router-dom';
-import { BarChart3, Calculator, Handshake, LineChart, Banknote, Menu, X } from 'lucide-react';
+import { useState } from 'react';
+import { Routes, Route, Link } from 'react-router-dom';
+import { BarChart3, Calculator, Handshake, Banknote, Menu, X } from 'lucide-react';
 import About from './pages/About';
 import Process from './pages/Process';
 import Services from './pages/Services';
@@ -57,7 +57,7 @@ function Footer() {
   );
 }
 
-function MobileNav({ isOpen, setIsOpen }) {
+function MobileNav({ isOpen, setIsOpen }: { isOpen: boolean; setIsOpen: (open: boolean) => void }) {
   return (
     <div 
       className={`fixed inset-0 bg-navy-dark/95 z-50 transform transition-transform duration-300 ${
@@ -124,7 +124,7 @@ function MobileNav({ isOpen, setIsOpen }) {
   );
 }
 
-function NavigationBar({ isMobile = false, onMobileMenuClick = null }) {
+function NavigationBar({ isMobile = false, onMobileMenuClick }: { isMobile?: boolean; onMobileMenuClick?: () => void }) {
   return (
     <nav className="container mx-auto px-6 py-4 flex items-center justify-between relative z-20">
       <Link to="/" className="flex items-center space-x-2">

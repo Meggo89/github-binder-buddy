@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowLeft, Calculator, HelpCircle, Info, Mail, AlertCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { saveValuationLead, getLocalValuationLeads, testSupabaseConnection } from '../utils/supabase';
-import { sendEmailNotification, getLocalEmailNotifications } from '../utils/emailService';
+import { saveValuationLead, testSupabaseConnection } from '../utils/supabase';
+import { sendEmailNotification } from '../utils/emailService';
 
 type ValuationInputs = {
   revenue: number;

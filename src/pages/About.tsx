@@ -1,11 +1,8 @@
-import React from 'react';
 import { ArrowLeft } from 'lucide-react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function About() {
-  const location = useLocation();
-  
-  const handleTeamClick = (e) => {
+  const handleTeamClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     window.location.href = '/#team';
   };

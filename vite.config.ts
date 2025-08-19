@@ -1,10 +1,13 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import viteCompression from 'vite-plugin-compression';
+import { componentTagger } from "lovable-tagger";
+import path from 'path';
 
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
+    mode === 'development' && componentTagger(),
     viteCompression({
       algorithm: 'gzip',
       ext: '.gz',
@@ -13,7 +16,12 @@ export default defineConfig({
       algorithm: 'brotliCompress',
       ext: '.br',
     }),
-  ],
+  ].filter(Boolean),
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+    },
+  },
   build: {
     rollupOptions: {
       output: {
@@ -30,6 +38,7 @@ export default defineConfig({
     emptyOutDir: true,
   },
   server: {
+    host: "::",
     port: 8080,
     strictPort: true,
     headers: {
@@ -50,10 +59,9 @@ export default defineConfig({
       tsconfigRaw: {
         compilerOptions: {
           target: 'esnext',
-          module: 'esnext',
           moduleResolution: 'bundler'
         }
       }
     }
   }
-});
+}));
