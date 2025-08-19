@@ -291,7 +291,7 @@ function Home() {
                 name: "Leo Meggitt",
                 title: "Managing Director",
                 image: "/lovable-uploads/5a8b577b-26fe-4020-b9c9-cecef8f4f735.png",
-                imagePosition: "object-[center_20%]",
+                imagePosition: "object-[center_10%]",
                 description: "20+ years experience in M&A, fundraising, executive search and leadership consulting. Investor and advisor to early-stage companies."
               },
               {
