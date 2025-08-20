@@ -176,7 +176,7 @@ function Home() {
               M&A Excellence in the Lower Mid-Market
             </h1>
             <p className="text-lg md:text-xl mb-8 text-sand-light">
-              M&A and capital raising services combined to help SME owners plan and achieve their exit for greater value and increased efficiency.
+              M&A and capital raising services combined to help founders and business owners plan and achieve their exit for greater value and increased efficiency.
             </p>
             <div className="space-x-4">
               <Link to="/about" className="inline-block border-2 border-sand px-6 py-3 rounded-lg font-semibold hover:bg-navy-light transition">
