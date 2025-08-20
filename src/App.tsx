@@ -173,10 +173,10 @@ function Home() {
         <div className="container mx-auto px-6 py-24 relative z-20">
           <div className="max-w-2xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              M&A Excellence in the Lower Mid-Market
+              M&A and Capital Raising Services Combined
             </h1>
             <p className="text-lg md:text-xl mb-8 text-sand-light">
-              Strategic mergers and acquisitions expertise combined with cutting-edge technology to help SME owners plan and achieve their exit for greater value and increased efficiency.
+              Strategic mergers and acquisitions expertise combined with capital raising services to help SME owners plan and achieve their exit for greater value and increased efficiency.
             </p>
             <div className="space-x-4">
               <Link to="/about" className="inline-block border-2 border-sand px-6 py-3 rounded-lg font-semibold hover:bg-navy-light transition">
