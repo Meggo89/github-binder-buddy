@@ -94,7 +94,7 @@ export default function Services() {
               {
                 icon: <Handshake className="h-8 w-8 text-navy" />,
                 title: "Deal Structuring",
-                description: "Strategic deal structuring to maximize value and optimize transaction terms.",
+                description: "Strategic deal structuring to maximise value and optimise transaction terms.",
                 features: [
                   "Tax-efficient structures",
                   "Risk mitigation",

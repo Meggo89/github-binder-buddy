@@ -48,7 +48,7 @@ export default function About() {
             <div>
               <h2 className="text-2xl font-semibold text-navy mb-4">Our Story</h2>
               <p className="text-navy-light mb-6">
-                Founded with a vision to revolutionize M&A advisory services for SMEs, Mastella Advisory combines decades of traditional M&A expertise with cutting-edge technology. Our approach makes world-class M&A advisory services accessible to small and medium-sized enterprises, ensuring they receive the same level of expertise typically reserved for larger corporations.
+                Founded with a vision to revolutionise M&A advisory services for SMEs, Mastella Advisory combines decades of traditional M&A expertise with cutting-edge technology. Our approach makes world-class M&A advisory services accessible to small and medium-sized enterprises, ensuring they receive the same level of expertise typically reserved for larger corporations.
               </p>
               <p className="text-navy-light mb-6">
                 Our team of seasoned professionals brings together experience from leading financial institutions, consulting firms, and successful entrepreneurs. This diverse expertise allows us to understand the unique challenges and opportunities faced by SME owners in today's dynamic business environment.
@@ -97,7 +97,7 @@ export default function About() {
               <div className="bg-white p-6 rounded-xl shadow-sm">
                 <h3 className="text-xl font-semibold text-navy mb-3">Technology-Driven</h3>
                 <p className="text-navy-light">
-                  We utilize advanced analytics and proprietary tools to streamline the M&A process, providing deeper insights and faster execution.
+                  We utilise advanced analytics and proprietary tools to streamline the M&A process, providing deeper insights and faster execution.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-sm">

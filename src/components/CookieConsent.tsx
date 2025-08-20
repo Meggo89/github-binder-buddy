@@ -160,7 +160,7 @@ export function CookieConsent() {
             <div className="flex-1">
               <h3 className="text-lg font-semibold text-navy mb-2">We Value Your Privacy</h3>
               <p className="text-navy-light">
-                We use cookies to enhance your browsing experience, serve personalized content, and analyze our traffic. 
+                We use cookies to enhance your browsing experience, serve personalised content, and analyse our traffic. 
                 By clicking "Accept All", you consent to our use of cookies.
               </p>
             </div>

@@ -44,7 +44,7 @@ export default function Process() {
             <div>
               <h2 className="text-2xl font-semibold text-navy mb-4">Strategic Approach to M&A</h2>
               <p className="text-navy-light mb-6">
-                Our comprehensive M&A process is designed to maximize value while minimizing risks for our clients. We combine traditional advisory expertise with cutting-edge technology to ensure efficient and successful transactions.
+                Our comprehensive M&A process is designed to maximise value while minimising risks for our clients. We combine traditional advisory expertise with cutting-edge technology to ensure efficient and successful transactions.
               </p>
               <p className="text-navy-light">
                 Each step is carefully managed by our experienced team, ensuring thorough evaluation, strategic positioning, and optimal execution of your M&A transaction.
@@ -109,7 +109,7 @@ export default function Process() {
                 icon: <FileText className="h-12 w-12 text-navy" />,
                 step: "3",
                 title: "Deal Preparation",
-                description: "We prepare comprehensive documentation and optimize your company's presentation to potential buyers. This phase ensures you're fully prepared for due diligence and negotiations.",
+                description: "We prepare comprehensive documentation and optimise your company's presentation to potential buyers. This phase ensures you're fully prepared for due diligence and negotiations.",
                 details: [
                   "Information memorandum creation",
                   "Due diligence preparation",

@@ -7,7 +7,7 @@ const blogPosts = [
   {
     id: 5,
     title: "Comprehensive Guide to Business Exits",
-    excerpt: "A detailed exploration of business exit strategies, timing considerations, and key steps to maximize value during the exit process.",
+    excerpt: "A detailed exploration of business exit strategies, timing considerations, and key steps to maximise value during the exit process.",
     content: `
       <h2><strong>Comprehensive Guide to Business Exits</strong></h2>
       <p>Preparing for an exit is a critical phase for small to medium-sized companies (SMEs), as it can significantly impact the owner's financial future and the business's legacy. Exit strategies are diverse and may include selling to an outside buyer, transferring ownership to family members, or engaging in a management buyout. The choice of strategy is influenced by the owner's personal goals, the company's market position, and the overall economic landscape, making careful planning essential for a successful transition.</p>
@@ -68,7 +68,7 @@ const blogPosts = [
       </ul>
 
       <h3><strong>Conclusion</strong></h3>
-      <p>A successful business exit requires careful planning, preparation, and execution. By understanding your options, timing the market correctly, enhancing business value, and managing the process effectively, you can maximize the chances of achieving your desired outcome. Professional guidance throughout the journey is essential to navigate the complexities and optimize results.</p>
+      <p>A successful business exit requires careful planning, preparation, and execution. By understanding your options, timing the market correctly, enhancing business value, and managing the process effectively, you can maximise the chances of achieving your desired outcome. Professional guidance throughout the journey is essential to navigate the complexities and optimise results.</p>
     `,
     author: "Leo Meggitt",
     date: "March 25, 2024",
@@ -90,7 +90,7 @@ const blogPosts = [
         <li>Review thousands of contracts and legal documents in hours rather than weeks</li>
         <li>Identify potential risks and red flags automatically</li>
         <li>Extract and categorize key terms and obligations</li>
-        <li>Analyze historical financial data for patterns and anomalies</li>
+        <li>Analyse historical financial data for patterns and anomalies</li>
         <li>Assess regulatory compliance across multiple jurisdictions</li>
       </ul>
       <p>This technological advancement has reduced due diligence time by up to 50% while significantly improving accuracy and comprehensiveness.</p>
