@@ -7,6 +7,7 @@ import Services from './pages/Services';
 import Contact from './pages/Contact';
 import Team from './pages/Team';
 import Insights from './pages/Insights';
+import CaseStudies from './pages/CaseStudies';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import { CookieConsent } from './components/CookieConsent';
 
@@ -31,6 +32,7 @@ function Footer() {
               <li><Link to="/process" className="hover:text-sand-light">Our Process</Link></li>
               <li><Link to="/team" className="hover:text-sand-light">Our Team</Link></li>
               <li><Link to="/insights" className="hover:text-sand-light">Insights</Link></li>
+              <li><Link to="/case-studies" className="hover:text-sand-light">Case Studies</Link></li>
             </ul>
           </div>
           <div>
@@ -113,6 +115,13 @@ function MobileNav({ isOpen, setIsOpen }: { isOpen: boolean; setIsOpen: (open: b
           Insights
         </Link>
         <Link 
+          to="/case-studies" 
+          className="text-white text-xl hover:text-sand-light"
+          onClick={() => setIsOpen(false)}
+        >
+          Case Studies
+        </Link>
+        <Link 
           to="/contact" 
           className="bg-sand text-navy px-6 py-3 rounded-lg font-semibold hover:bg-sand-light transition"
           onClick={() => setIsOpen(false)}
@@ -136,6 +145,7 @@ function NavigationBar({ isMobile = false, onMobileMenuClick }: { isMobile?: boo
         <Link to="/process" className="hover:text-sand-light">Process</Link>
         <Link to="/team" className="hover:text-sand-light">Team</Link>
         <Link to="/insights" className="hover:text-sand-light">Insights</Link>
+        <Link to="/case-studies" className="hover:text-sand-light">Case Studies</Link>
         <Link to="/contact" className="bg-sand text-navy px-4 py-2 rounded-lg font-semibold hover:bg-sand-light transition">
           Contact Us
         </Link>
@@ -181,6 +191,9 @@ function Home() {
             <div className="space-x-4">
               <Link to="/about" className="inline-block border-2 border-sand px-6 py-3 rounded-lg font-semibold hover:bg-navy-light transition">
                 Learn More
+              </Link>
+              <Link to="/case-studies" className="inline-block border-2 border-sand px-6 py-3 rounded-lg font-semibold hover:bg-navy-light transition">
+                Case Studies
               </Link>
               <Link to="/contact" className="inline-block bg-sand text-navy px-6 py-3 rounded-lg font-semibold hover:bg-sand-light transition">
                 Contact Us
@@ -344,6 +357,7 @@ function App() {
         <Route path="/process" element={<Process />} />
         <Route path="/team" element={<Team />} />
         <Route path="/insights" element={<Insights />} />
+        <Route path="/case-studies" element={<CaseStudies />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
