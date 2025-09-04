@@ -59,7 +59,7 @@ export default function Team() {
                 name: "Erik Vynkier",
                 title: "Senior Advisor",
                 image: "https://imgur.com/XNXxtRV.jpg",
-                description: "Highly experienced in financial services, asset management and private equity. Has worked on deals across multiple sectors and geograhies."
+                description: "Highly experienced in financial services, asset management and private equity. Has worked on deals across multiple sectors and geographies."
               }
             ].map((member, index) => (
               <div key={index} className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition">
