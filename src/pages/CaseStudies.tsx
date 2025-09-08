@@ -102,7 +102,7 @@ export default function CaseStudies() {
                 <span className="bg-sand-dark text-white px-3 py-1 rounded-full text-sm font-medium">Series A & Sale</span>
                 <span className="bg-navy-light text-white px-2 py-1 rounded text-xs">Current</span>
               </div>
-              <h3 className="text-xl font-bold text-navy mb-3">Relational Intelligence AI</h3>
+              <h3 className="text-xl font-bold text-navy mb-3">Human Capital AI</h3>
               <p className="text-navy-light">
                 Advised across two successful raises, securing backing from institutional and individual investors.
               </p>
