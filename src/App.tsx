@@ -188,13 +188,13 @@ function Home() {
           <img 
             src={londonSkyline} 
             alt="London skyline" 
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-center"
           />
         </div>
 
         <NavigationBar isMobile={true} onMobileMenuClick={() => setIsMobileMenuOpen(true)} />
         
-        <div className="container mx-auto px-6 py-24 relative z-20">
+        <div className="container mx-auto px-6 py-16 relative z-20">
           <div className="max-w-2xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               M&A Excellence in the Lower Mid-Market
