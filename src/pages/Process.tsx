@@ -2,6 +2,7 @@
 import { ArrowLeft, Calculator, LineChart, FileText, Handshake } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import mastellaLogo from '../assets/mastella-logo.png';
+import londonSkyline from '../assets/london-skyline.jpg';
 
 export default function Process() {
   return (
@@ -10,8 +11,8 @@ export default function Process() {
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-r from-navy/95 to-navy/80 z-10"></div>
           <img 
-            src="https://i.imgur.com/4asBOEH.jpg" 
-            alt="Business background" 
+            src={londonSkyline} 
+            alt="London skyline" 
             className="w-full h-full object-cover"
           />
         </div>

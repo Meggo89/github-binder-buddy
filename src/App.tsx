@@ -14,6 +14,7 @@ import { CookieConsent } from './components/CookieConsent';
 import mastellaLogo from './assets/mastella-logo.png';
 import francisMartin from './assets/francis-martin.jpg';
 import erikVynkier from './assets/erik-vynkier.jpg';
+import londonSkyline from './assets/london-skyline.jpg';
 
 function Footer() {
   return (
@@ -184,6 +185,11 @@ function Home() {
       <header className="bg-gradient-to-r from-navy-dark to-navy text-white relative">
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-r from-navy/95 to-navy/80 z-10"></div>
+          <img 
+            src={londonSkyline} 
+            alt="London skyline" 
+            className="w-full h-full object-cover"
+          />
         </div>
 
         <NavigationBar isMobile={true} onMobileMenuClick={() => setIsMobileMenuOpen(true)} />

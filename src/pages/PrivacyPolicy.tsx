@@ -1,6 +1,8 @@
 
 import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import mastellaLogo from '../assets/mastella-logo.png';
+import londonSkyline from '../assets/london-skyline.jpg';
 
 export default function PrivacyPolicy() {
   return (
@@ -9,14 +11,14 @@ export default function PrivacyPolicy() {
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-r from-navy/95 to-navy/80 z-10"></div>
           <img 
-            src="https://imgur.com/4asBOEH.jpg" 
-            alt="Business background" 
+            src={londonSkyline} 
+            alt="London skyline" 
             className="w-full h-full object-cover"
           />
         </div>
         <nav className="container mx-auto px-6 py-4 flex items-center justify-between relative z-20">
           <Link to="/" className="flex items-center space-x-2">
-            <img src="https://imgur.com/ijfbn8c.jpg" alt="Mastella Advisory" className="h-48 w-auto" />
+            <img src={mastellaLogo} alt="Mastella Advisory" className="h-48 w-auto" />
           </Link>
           <div className="hidden md:flex space-x-8">
             <Link to="/" className="hover:text-sand-light">Home</Link>
@@ -128,7 +130,7 @@ export default function PrivacyPolicy() {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <img src="https://imgur.com/ijfbn8c.jpg" alt="Mastella Advisory" className="h-32 w-auto" />
+                <img src={mastellaLogo} alt="Mastella Advisory" className="h-32 w-auto" />
               </div>
               <p className="text-sm">
                 Specialised M&A advisory for small to medium companies, combining expert guidance with advanced technology.
