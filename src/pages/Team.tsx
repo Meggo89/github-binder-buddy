@@ -1,5 +1,8 @@
 import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import mastellaLogo from '../assets/mastella-logo.png';
+import francisMartin from '../assets/francis-martin.jpg';
+import erikVynkier from '../assets/erik-vynkier.jpg';
 
 export default function Team() {
   return (
@@ -15,7 +18,7 @@ export default function Team() {
         </div>
         <nav className="container mx-auto px-6 py-4 flex items-center justify-between relative z-20">
           <Link to="/" className="flex items-center space-x-2">
-            <img src="https://i.imgur.com/ijfbn8c.jpg" alt="Mastella Advisory" className="h-48 w-auto" />
+            <img src={mastellaLogo} alt="Mastella Advisory" className="h-48 w-auto" />
           </Link>
           <div className="hidden md:flex space-x-8">
             <Link to="/" className="hover:text-sand-light">Home</Link>
@@ -51,14 +54,14 @@ export default function Team() {
               {
                 name: "Francis Martin CBE",
                 title: "Director",
-                image: "https://i.imgur.com/c4ZQ4xf.jpg",
+                image: francisMartin,
                 imagePosition: "object-[center_35%]",
                 description: "Distinguished advisor with 25+ years in strategic consulting. Former President of British Chambers of Commerce and recipient of Commander of the British Empire."
               },
               {
                 name: "Erik Vynkier",
                 title: "Senior Advisor",
-                image: "https://i.imgur.com/XNXxtRV.jpg",
+                image: erikVynkier,
                 description: "Highly experienced in financial services, asset management and private equity. Has worked on deals across multiple sectors and geographies."
               }
             ].map((member, index) => (
@@ -86,7 +89,7 @@ export default function Team() {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <img src="https://i.imgur.com/ijfbn8c.jpg" alt="Mastella Advisory" className="h-32 w-auto" />
+                <img src={mastellaLogo} alt="Mastella Advisory" className="h-32 w-auto" />
               </div>
               <p className="text-sm">
                 Specialised M&A advisory for small to medium companies, combining expert guidance with advanced technology.

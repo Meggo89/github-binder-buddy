@@ -1,5 +1,6 @@
-import { ArrowLeft, Calculator, Handshake, BarChart3, Banknote, Users, Target, Briefcase } from 'lucide-react';
+import { ArrowLeft, Calculator, Handshake, BarChart3, Banknote, Users, Target, Briefcase, UserSearch } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import mastellaLogo from '../assets/mastella-logo.png';
 
 export default function Services() {
   return (
@@ -15,7 +16,7 @@ export default function Services() {
         </div>
         <nav className="container mx-auto px-6 py-4 flex items-center justify-between relative z-20">
           <Link to="/" className="flex items-center space-x-2">
-            <img src="https://i.imgur.com/ijfbn8c.jpg" alt="Mastella Advisory" className="h-48 w-auto" />
+            <img src={mastellaLogo} alt="Mastella Advisory" className="h-48 w-auto" />
           </Link>
           <div className="hidden md:flex space-x-8">
             <Link to="/" className="hover:text-sand-light">Home</Link>
@@ -123,6 +124,17 @@ export default function Services() {
                   "Digital due diligence",
                   "Real-time reporting"
                 ]
+              },
+              {
+                icon: <UserSearch className="h-8 w-8 text-navy" />,
+                title: "Executive Search & Interim Solutions",
+                description: "Strategic leadership placement and interim management for companies pre and post exit.",
+                features: [
+                  "C-suite recruitment",
+                  "Interim management",
+                  "Pre-exit leadership",
+                  "Post-exit integration"
+                ]
               }
             ].map((service, index) => (
               <div key={index} className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
@@ -178,8 +190,7 @@ export default function Services() {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <img src="https://i.imgur.com/ijfbn8c.jpg" alt="Mastella Advisory" className="h-32 w-auto" />
-                <span className="text-lg font-bold text-white">Mastella Advisory</span>
+                <img src={mastellaLogo} alt="Mastella Advisory" className="h-32 w-auto" />
               </div>
               <p className="text-sm">
                 Specialised M&A advisory for small to medium companies, combining expert guidance with advanced technology.

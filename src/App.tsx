@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
-import { BarChart3, Calculator, Handshake, Banknote, Menu, X } from 'lucide-react';
+import { BarChart3, Calculator, Handshake, Banknote, Menu, X, Users } from 'lucide-react';
 import About from './pages/About';
 import Process from './pages/Process';
 import Services from './pages/Services';
@@ -220,7 +220,7 @@ function Home() {
               Explore our comprehensive M&A services →
             </Link>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
             {[
               {
                 icon: <Calculator className="h-8 w-8 text-navy" />,
@@ -241,6 +241,11 @@ function Home() {
                 icon: <BarChart3 className="h-8 w-8 text-navy" />,
                 title: "Technology Integration",
                 description: "Advanced M&A tools and analytics to streamline the transaction process"
+              },
+              {
+                icon: <Users className="h-8 w-8 text-navy" />,
+                title: "Executive Search",
+                description: "Strategic leadership placement and interim solutions for pre and post exit success"
               }
             ].map((service, index) => (
               <div key={index} className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
