@@ -18,7 +18,7 @@ function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <img src="https://imgur.com/ijfbn8c.jpg" alt="Mastella Advisory" className="h-32 w-auto" />
+              <img src="https://i.imgur.com/ijfbn8c.jpg" alt="Mastella Advisory" className="h-32 w-auto" />
             </div>
             <p className="text-sm">
               Specialised M&A advisory for small to medium companies, combining expert guidance with advanced technology.
@@ -137,7 +137,7 @@ function NavigationBar({ isMobile = false, onMobileMenuClick }: { isMobile?: boo
   return (
     <nav className="container mx-auto px-6 py-4 flex items-center justify-between relative z-20">
       <Link to="/" className="flex items-center space-x-2">
-        <img src="https://imgur.com/ijfbn8c.jpg" alt="Mastella Advisory" className="h-48 w-auto" />
+        <img src="https://i.imgur.com/ijfbn8c.jpg" alt="Mastella Advisory" className="h-48 w-auto" />
       </Link>
       <div className="hidden md:flex space-x-8">
         <Link to="/about" className="hover:text-sand-light">About</Link>
@@ -172,7 +172,7 @@ function Home() {
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-r from-navy/95 to-navy/80 z-10"></div>
           <img 
-            src="https://imgur.com/4asBOEH.jpg" 
+            src="https://i.imgur.com/4asBOEH.jpg" 
             alt="Business background" 
             className="w-full h-full object-cover"
           />
@@ -310,15 +310,15 @@ function Home() {
               {
                 name: "Francis Martin CBE",
                 title: "Director",
-                image: "https://imgur.com/c4ZQ4xf.jpg",
+                image: "https://i.imgur.com/c4ZQ4xf.jpg",
                 imagePosition: "object-[center_35%]",
                 description: "Distinguished advisor with 25+ years in strategic consulting. Former President of British Chambers of Commerce and recipient of Commander of the British Empire."
               },
               {
                 name: "Erik Vynkier",
                 title: "Senior Advisor",
-                image: "https://imgur.com/XNXxtRV.jpg",
-                description: "Highly experienced in financial services, asset management and private equity. Has worked on deals across multiple sectors and geograhies."
+                image: "https://i.imgur.com/XNXxtRV.jpg",
+                description: "Highly experienced in financial services, asset management and private equity. Has worked on deals across multiple sectors and geographies."
               }
             ].map((member, index) => (
               <div key={index} className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition">
