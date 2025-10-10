@@ -15,7 +15,7 @@ export default function CaseStudies() {
       {/* Header */}
       <header className="bg-gradient-to-r from-navy-dark to-navy text-white relative">
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-gradient-to-r from-navy/95 to-navy/80 z-10"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-navy/60 to-navy/50 z-10"></div>
           <img 
             src={londonSkyline} 
             alt="London skyline" 
