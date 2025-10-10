@@ -9,6 +9,7 @@ import Team from './pages/Team';
 import Insights from './pages/Insights';
 import CaseStudies from './pages/CaseStudies';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import ExecutiveSearch from './pages/ExecutiveSearch';
 import { CookieConsent } from './components/CookieConsent';
 import mastellaLogo from './assets/mastella-logo.png';
 import francisMartin from './assets/francis-martin.jpg';
@@ -36,6 +37,7 @@ function Footer() {
               <li><Link to="/team" className="hover:text-sand-light">Our Team</Link></li>
               <li><Link to="/insights" className="hover:text-sand-light">Insights</Link></li>
               <li><Link to="/case-studies" className="hover:text-sand-light">Case Studies</Link></li>
+              <li><Link to="/executive-search" className="hover:text-sand-light">Executive Search</Link></li>
             </ul>
           </div>
           <div>
@@ -125,6 +127,13 @@ function MobileNav({ isOpen, setIsOpen }: { isOpen: boolean; setIsOpen: (open: b
           Case Studies
         </Link>
         <Link 
+          to="/executive-search" 
+          className="text-white text-xl hover:text-sand-light"
+          onClick={() => setIsOpen(false)}
+        >
+          Executive Search
+        </Link>
+        <Link 
           to="/contact" 
           className="bg-sand text-navy px-6 py-3 rounded-lg font-semibold hover:bg-sand-light transition"
           onClick={() => setIsOpen(false)}
@@ -149,6 +158,7 @@ function NavigationBar({ isMobile = false, onMobileMenuClick }: { isMobile?: boo
         <Link to="/team" className="hover:text-sand-light">Team</Link>
         <Link to="/insights" className="hover:text-sand-light">Insights</Link>
         <Link to="/case-studies" className="hover:text-sand-light">Case Studies</Link>
+        <Link to="/executive-search" className="hover:text-sand-light">Executive Search</Link>
         <Link to="/contact" className="bg-sand text-navy px-4 py-2 rounded-lg font-semibold hover:bg-sand-light transition">
           Contact Us
         </Link>
@@ -358,6 +368,7 @@ function App() {
         <Route path="/case-studies" element={<CaseStudies />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/executive-search" element={<ExecutiveSearch />} />
       </Routes>
       <CookieConsent />
     </>
