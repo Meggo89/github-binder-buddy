@@ -86,20 +86,20 @@ export default function Team() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-6xl mx-auto">
             {[
               {
-                name: "Sarah Mitchell",
-                title: "Senior Consultant",
-                initials: "SM",
+                name: "Priya Sharma",
+                title: "Consultant",
+                initials: "PS",
                 description: "Specializes in technology sector transactions and cross-border M&A. Former investment banker with expertise in digital transformation strategies."
               },
               {
                 name: "Rebecca Thompson",
-                title: "Consultant",
+                title: "Senior Analyst",
                 initials: "RT",
                 description: "Focused on healthcare and life sciences M&A. Brings deep industry knowledge and operational experience from leading advisory firms."
               },
               {
                 name: "James Whitmore",
-                title: "Consultant",
+                title: "Analyst",
                 initials: "JW",
                 description: "Expert in manufacturing and industrial sectors. Extensive background in private equity and strategic advisory for mid-market companies."
               }
