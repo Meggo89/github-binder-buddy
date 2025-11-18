@@ -43,7 +43,7 @@ export default function Team() {
           
           <h1 className="text-4xl font-bold text-navy mb-12">Our Leadership Team</h1>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-6xl mx-auto mb-12">
             {[
               {
                 name: "Leo Meggitt",
@@ -72,6 +72,44 @@ export default function Team() {
                   alt={member.name}
                   className={`w-full h-64 object-cover ${member.imagePosition || 'object-center'}`}
                 />
+                <div className="p-8">
+                  <div className="mb-6">
+                    <h3 className="text-2xl font-semibold text-navy">{member.name}</h3>
+                    <p className="text-navy-light font-medium">{member.title}</p>
+                  </div>
+                  <p className="text-navy-light">{member.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-6xl mx-auto">
+            {[
+              {
+                name: "Sarah Mitchell",
+                title: "Senior Consultant",
+                initials: "SM",
+                description: "Specializes in technology sector transactions and cross-border M&A. Former investment banker with expertise in digital transformation strategies."
+              },
+              {
+                name: "Rebecca Thompson",
+                title: "Consultant",
+                initials: "RT",
+                description: "Focused on healthcare and life sciences M&A. Brings deep industry knowledge and operational experience from leading advisory firms."
+              },
+              {
+                name: "James Whitmore",
+                title: "Consultant",
+                initials: "JW",
+                description: "Expert in manufacturing and industrial sectors. Extensive background in private equity and strategic advisory for mid-market companies."
+              }
+            ].map((member, index) => (
+              <div key={index} className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition">
+                <div className="w-full h-64 bg-gradient-to-br from-navy to-navy-light flex items-center justify-center">
+                  <div className="w-32 h-32 rounded-full bg-sand flex items-center justify-center">
+                    <span className="text-4xl font-bold text-navy">{member.initials}</span>
+                  </div>
+                </div>
                 <div className="p-8">
                   <div className="mb-6">
                     <h3 className="text-2xl font-semibold text-navy">{member.name}</h3>
