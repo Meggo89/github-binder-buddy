@@ -1,5 +1,6 @@
 import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { User } from 'lucide-react';
 import mastellaLogo from '../assets/mastella-logo.png';
 import francisMartin from '../assets/francis-martin.jpg';
 import erikVynkier from '../assets/erik-vynkier.jpg';
@@ -106,8 +107,8 @@ export default function Team() {
             ].map((member, index) => (
               <div key={index} className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition">
                 <div className="w-full h-64 bg-gradient-to-br from-navy to-navy-light flex items-center justify-center">
-                  <div className="w-32 h-32 rounded-full bg-sand flex items-center justify-center">
-                    <span className="text-4xl font-bold text-navy">{member.initials}</span>
+                  <div className="w-32 h-32 rounded-full bg-sand/30 backdrop-blur-sm flex items-center justify-center border-4 border-sand">
+                    <User className="w-16 h-16 text-sand" strokeWidth={1.5} />
                   </div>
                 </div>
                 <div className="p-8">
