@@ -42,7 +42,7 @@ export default function Team() {
             Back to Home
           </Link>
           
-          <h1 className="text-4xl font-bold text-navy mb-12">Our Leadership Team</h1>
+          <h1 className="text-4xl font-bold text-navy mb-12">Our Team</h1>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-6xl mx-auto mb-12">
             {[
@@ -90,19 +90,19 @@ export default function Team() {
                 name: "Priya Sharma",
                 title: "Consultant",
                 initials: "PS",
-                description: "Specializes in technology sector transactions and cross-border M&A. Former investment banker with expertise in digital transformation strategies."
+                description: "Specializes in technology transactions and cross-border M&A. Former investment banker with expertise in digital transformation and growth strategies."
               },
               {
                 name: "Rebecca Thompson",
                 title: "Senior Analyst",
                 initials: "RT",
-                description: "Focused on healthcare and life sciences M&A. Brings deep industry knowledge and operational experience from leading advisory firms."
+                description: "Brings deep industry knowledge and operational experience from leading advisory firms. Focused on delivering value through strategic M&A execution."
               },
               {
                 name: "James Whitmore",
                 title: "Analyst",
                 initials: "JW",
-                description: "Expert in manufacturing and industrial sectors. Extensive background in private equity and strategic advisory for mid-market companies."
+                description: "Extensive background in private equity and strategic advisory for mid-market companies. Skilled in financial analysis and deal structuring."
               }
             ].map((member, index) => (
               <div key={index} className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition">
