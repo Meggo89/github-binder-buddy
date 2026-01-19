@@ -7,6 +7,37 @@ type CookiePreferences = {
   marketing: boolean;
 };
 
+const GA_MEASUREMENT_ID = 'G-WQSRQFBCPC';
+
+// Initialize Google Analytics
+const initializeGA = () => {
+  // Check if already loaded
+  if (window.gtag) return;
+
+  // Load the GA script
+  const script = document.createElement('script');
+  script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
+  script.async = true;
+  document.head.appendChild(script);
+
+  // Initialize gtag
+  window.dataLayer = window.dataLayer || [];
+  function gtag(...args: unknown[]) {
+    window.dataLayer.push(args);
+  }
+  window.gtag = gtag;
+  gtag('js', new Date());
+  gtag('config', GA_MEASUREMENT_ID);
+};
+
+// Declare global types for GA
+declare global {
+  interface Window {
+    dataLayer: unknown[];
+    gtag: (...args: unknown[]) => void;
+  }
+}
+
 export function CookieConsent() {
   const [showBanner, setShowBanner] = useState(false);
   const [showPreferences, setShowPreferences] = useState(false);
@@ -22,7 +53,12 @@ export function CookieConsent() {
     if (!cookieChoices) {
       setShowBanner(true);
     } else {
-      setPreferences(JSON.parse(cookieChoices));
+      const savedPreferences = JSON.parse(cookieChoices);
+      setPreferences(savedPreferences);
+      // Initialize GA if analytics was previously accepted
+      if (savedPreferences.analytics) {
+        initializeGA();
+      }
     }
   }, []);
 
@@ -34,11 +70,15 @@ export function CookieConsent() {
     };
     setPreferences(newPreferences);
     localStorage.setItem('cookiePreferences', JSON.stringify(newPreferences));
+    initializeGA(); // Initialize GA when user accepts
     setShowBanner(false);
   };
 
   const handleSavePreferences = () => {
     localStorage.setItem('cookiePreferences', JSON.stringify(preferences));
+    if (preferences.analytics) {
+      initializeGA(); // Initialize GA if analytics is enabled
+    }
     setShowBanner(false);
     setShowPreferences(false);
   };
