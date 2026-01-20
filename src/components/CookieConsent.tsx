@@ -9,6 +9,12 @@ type CookiePreferences = {
 
 const GA_MEASUREMENT_ID = 'G-WQSRQFBCPC';
 
+const isDebugMode = () => {
+  if (typeof window === 'undefined') return false;
+  const params = new URLSearchParams(window.location.search);
+  return params.has('gtm_debug') || params.get('debug_mode') === 'true';
+};
+
 // Initialize Google Analytics
 const initializeGA = () => {
   // Check if already loaded
@@ -26,8 +32,16 @@ const initializeGA = () => {
     window.dataLayer.push(args);
   }
   window.gtag = gtag;
+  const debugMode = isDebugMode();
+  if (debugMode) {
+    gtag('set', 'debug_mode', true);
+  }
   gtag('js', new Date());
-  gtag('config', GA_MEASUREMENT_ID);
+  if (debugMode) {
+    gtag('config', GA_MEASUREMENT_ID, { debug_mode: true });
+  } else {
+    gtag('config', GA_MEASUREMENT_ID);
+  }
 };
 
 // Declare global types for GA
