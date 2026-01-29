@@ -12,7 +12,7 @@ export default function ExecutiveSearch() {
         description="Expert executive search and interim management solutions for companies pre and post exit. Strategic leadership placement to maximize business value and ensure seamless transitions."
       />
       
-      <div className="min-h-screen bg-white">
+      <div className="min-h-screen bg-white page-enter">
         <header className="bg-gradient-to-r from-navy-dark to-navy text-white relative">
           <div className="absolute inset-0">
             <div className="absolute inset-0 bg-gradient-to-r from-navy/60 to-navy/50 z-10"></div>
@@ -27,13 +27,13 @@ export default function ExecutiveSearch() {
             <Link to="/" className="flex items-center space-x-2">
               <img src={mastellaLogo} alt="Mastella Advisory" className="h-48 w-auto" />
             </Link>
-            <div className="hidden md:flex space-x-8">
-              <Link to="/about" className="hover:text-sand-light">About</Link>
-              <Link to="/services" className="hover:text-sand-light">Services</Link>
-              <Link to="/process" className="hover:text-sand-light">Process</Link>
-              <Link to="/team" className="hover:text-sand-light">Team</Link>
-              <Link to="/executive-search" className="text-sand-light">Executive Search</Link>
-              <Link to="/contact" className="bg-sand text-navy px-4 py-2 rounded-lg font-semibold hover:bg-sand-light transition">
+            <div className="hidden md:flex space-x-8 items-center">
+              <Link to="/about" className="hover:text-sand-light transition">About</Link>
+              <Link to="/services" className="hover:text-sand-light transition">Services</Link>
+              <Link to="/case-studies" className="hover:text-sand-light transition">Our Work</Link>
+              <Link to="/team" className="hover:text-sand-light transition">Team</Link>
+              <Link to="/insights" className="hover:text-sand-light transition">Insights</Link>
+              <Link to="/contact" className="bg-accent text-navy px-4 py-2 rounded-lg font-semibold hover:bg-accent-light transition-all duration-200">
                 Contact Us
               </Link>
             </div>

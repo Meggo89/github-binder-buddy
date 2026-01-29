@@ -1,3 +1,56 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased text-navy;
+  }
+
+  /* Improved focus states for accessibility */
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-accent;
+  }
+}
+
+@layer components {
+  /* Primary CTA Button - Gold accent */
+  .btn-primary {
+    @apply inline-block bg-accent text-navy px-6 py-3 rounded-lg font-semibold
+           hover:bg-accent-light transition-all duration-200
+           hover:shadow-lg hover:-translate-y-0.5;
+  }
+
+  /* Secondary CTA Button */
+  .btn-secondary {
+    @apply inline-block border-2 border-sand px-6 py-3 rounded-lg font-semibold
+           hover:bg-navy-light transition-all duration-200;
+  }
+
+  /* Card hover effect */
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+  }
+}
+
+@layer utilities {
+  /* Page transition animation */
+  .page-enter {
+    animation: pageEnter 0.4s ease-out;
+  }
+
+  @keyframes pageEnter {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

@@ -94,7 +94,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white page-enter">
       <header className="bg-gradient-to-r from-navy-dark to-navy text-white relative">
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-r from-navy/60 to-navy/50 z-10"></div>
@@ -108,12 +108,12 @@ export default function Contact() {
           <Link to="/" className="flex items-center space-x-2">
             <img src={mastellaLogo} alt="Mastella Advisory" className="h-48 w-auto" />
           </Link>
-          <div className="hidden md:flex space-x-8">
-            <Link to="/" className="hover:text-sand-light">Home</Link>
-            <Link to="/about" className="hover:text-sand-light">About</Link>
-            <Link to="/services" className="hover:text-sand-light">Services</Link>
-            <Link to="/process" className="hover:text-sand-light">Process</Link>
-            <Link to="/#team" className="hover:text-sand-light">Team</Link>
+          <div className="hidden md:flex space-x-8 items-center">
+            <Link to="/about" className="hover:text-sand-light transition">About</Link>
+            <Link to="/services" className="hover:text-sand-light transition">Services</Link>
+            <Link to="/case-studies" className="hover:text-sand-light transition">Our Work</Link>
+            <Link to="/team" className="hover:text-sand-light transition">Team</Link>
+            <Link to="/insights" className="hover:text-sand-light transition">Insights</Link>
           </div>
         </nav>
       </header>
