@@ -1,11 +1,17 @@
 import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { SEO } from '../components/SEO';
 import mastellaLogo from '../assets/mastella-logo.png';
 import londonSkyline from '../assets/london-skyline.jpg';
 
 export default function About() {
   return (
     <div className="min-h-screen bg-white page-enter">
+      <SEO
+        title="About Us - Our Story & Mission"
+        description="Mastella Advisory combines decades of M&A expertise with modern technology to deliver world-class exit advisory for SMEs worth £5M to £50M."
+        canonical="https://mastellagroup.com/about"
+      />
       <header className="bg-gradient-to-r from-navy-dark to-navy text-white relative">
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-r from-navy/60 to-navy/50 z-10"></div>
@@ -32,7 +38,7 @@ export default function About() {
         </nav>
       </header>
 
-      <main className="py-20">
+      <main id="main-content" className="py-20">
         <div className="container mx-auto px-6">
           <Link to="/" className="inline-flex items-center text-navy hover:text-navy-light mb-8">
             <ArrowLeft className="h-5 w-5 mr-2" />

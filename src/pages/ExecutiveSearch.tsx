@@ -49,7 +49,7 @@ export default function ExecutiveSearch() {
           </div>
         </header>
 
-        <main className="py-20">
+        <main id="main-content" className="py-20">
           <div className="container mx-auto px-6">
             <Link to="/" className="inline-flex items-center text-navy hover:text-navy-light mb-8">
               <ArrowLeft className="h-5 w-5 mr-2" />

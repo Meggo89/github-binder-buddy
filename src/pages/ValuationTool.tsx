@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowLeft, Calculator, HelpCircle, Info, Mail, AlertCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { SEO } from '../components/SEO';
 import { saveValuationLead, testSupabaseConnection } from '../utils/supabase';
 import { sendEmailNotification } from '../utils/emailService';
 import mastellaLogo from '../assets/mastella-logo.png';
@@ -303,6 +304,11 @@ export default function ValuationTool() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title="Business Valuation Calculator"
+        description="Get a free estimated valuation for your business based on industry standards and key financial metrics. Powered by Mastella Advisory."
+        canonical="https://mastellagroup.com/valuation"
+      />
       <header className="bg-gradient-to-r from-navy-dark to-navy text-white relative">
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-r from-navy/60 to-navy/50 z-10"></div>
@@ -341,7 +347,7 @@ export default function ValuationTool() {
         </div>
       </header>
 
-      <main className="py-20">
+      <main id="main-content" className="py-20">
         <div className="container mx-auto px-6">
           <Link to="/" className="inline-flex items-center text-navy hover:text-navy-light mb-8">
             <ArrowLeft className="h-5 w-5 mr-2" />

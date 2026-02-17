@@ -157,7 +157,7 @@ export default function CaseStudies() {
       </header>
 
       {/* Main Content */}
-      <main className="py-20">
+      <main id="main-content" className="py-20">
         <div className="container mx-auto px-6">
           {/* Stats Bar */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16 max-w-4xl mx-auto">
@@ -175,6 +175,7 @@ export default function CaseStudies() {
           </div>
 
           {/* Case Studies Grid */}
+          <h2 className="sr-only">Selected Transactions</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {caseStudies.map((study, index) => (
               <div key={index} className="bg-white border border-sand rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group">
@@ -220,7 +221,7 @@ export default function CaseStudies() {
 
           {/* Call to Action */}
           <div className="text-center mt-20 bg-sand-light rounded-2xl p-12 max-w-3xl mx-auto">
-            <h3 className="text-2xl font-bold text-navy mb-4">Ready to plan your exit?</h3>
+            <h2 className="text-2xl font-bold text-navy mb-4">Ready to plan your exit?</h2>
             <p className="text-navy-light mb-8 max-w-lg mx-auto">
               Every successful transaction starts with a conversation. Let us understand your goals and show you what is possible.
             </p>

@@ -2,6 +2,7 @@ import { useState, FormEvent } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Routes, Route, Link } from 'react-router-dom';
 import { BarChart3, Calculator, Handshake, Banknote, Menu, X, Users, Download, CheckCircle2, ChevronDown } from 'lucide-react';
+import { SEO } from './components/SEO';
 import About from './pages/About';
 import Process from './pages/Process';
 import Services from './pages/Services';
@@ -78,6 +79,9 @@ function MobileNav({ isOpen, setIsOpen }: { isOpen: boolean; setIsOpen: (open: b
 
       {/* Menu panel */}
       <div
+        role="dialog"
+        aria-label="Navigation menu"
+        aria-modal="true"
         className={`fixed inset-y-0 right-0 w-full max-w-sm bg-navy-dark z-50 transform transition-transform duration-300 ease-out ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
@@ -145,6 +149,7 @@ function NavigationBar({ isMobile = false, onMobileMenuClick }: { isMobile?: boo
         <button
           className="md:hidden text-white"
           onClick={onMobileMenuClick}
+          aria-label="Open menu"
         >
           <Menu className="h-6 w-6" />
         </button>
@@ -176,20 +181,28 @@ function LeadMagnetForm() {
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
       <p className="text-white font-semibold text-center mb-2">Get your free copy</p>
-      <input
-        type="text"
-        placeholder="Your name"
-        required
-        className="w-full px-4 py-3 rounded-lg bg-navy border border-sand/30 text-white placeholder-sand-dark focus:outline-none focus:border-accent"
-      />
-      <input
-        type="email"
-        placeholder="Work email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-        required
-        className="w-full px-4 py-3 rounded-lg bg-navy border border-sand/30 text-white placeholder-sand-dark focus:outline-none focus:border-accent"
-      />
+      <div>
+        <label htmlFor="lead-name" className="sr-only">Your name</label>
+        <input
+          type="text"
+          id="lead-name"
+          placeholder="Your name"
+          required
+          className="w-full px-4 py-3 rounded-lg bg-navy border border-sand/30 text-white placeholder-sand-dark focus:outline-none focus:border-accent"
+        />
+      </div>
+      <div>
+        <label htmlFor="lead-email" className="sr-only">Work email</label>
+        <input
+          type="email"
+          id="lead-email"
+          placeholder="Work email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          required
+          className="w-full px-4 py-3 rounded-lg bg-navy border border-sand/30 text-white placeholder-sand-dark focus:outline-none focus:border-accent"
+        />
+      </div>
       <button
         type="submit"
         className="w-full bg-accent text-navy px-6 py-3 rounded-lg font-semibold hover:bg-accent-light transition-all duration-200"
@@ -207,13 +220,18 @@ function Home() {
 
   return (
     <div className="min-h-screen bg-white page-enter">
+      <SEO
+        title="Exit Advisory & M&A for Growth Companies"
+        description="Strategic exit and M&A advisory for founders building companies worth £5M to £50M. Expert guidance from first conversation to final signature."
+        canonical="https://mastellagroup.com"
+      />
       {/* Hero Section */}
       <header className="bg-gradient-to-r from-navy-dark to-navy text-white relative">
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-r from-navy/60 to-navy/50 z-10"></div>
-          <img 
-            src={londonSkyline} 
-            alt="London skyline" 
+          <img
+            src={londonSkyline}
+            alt="London skyline"
             className="w-full h-full object-cover object-center"
           />
         </div>
@@ -259,6 +277,7 @@ function Home() {
         </div>
       </header>
 
+      <main id="main-content">
       {/* Services Preview Section */}
       <section id="services" className="py-20 bg-sand-light">
         <div className="container mx-auto px-6">
@@ -498,6 +517,7 @@ function Home() {
 
       {/* FAQ Section */}
       <FAQSection />
+      </main>
 
       <Footer />
 
@@ -596,6 +616,9 @@ function FAQSection() {
 function App() {
   return (
     <>
+      <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:top-4 focus:left-4 focus:bg-accent focus:text-navy focus:px-4 focus:py-2 focus:rounded-lg focus:font-semibold">
+        Skip to main content
+      </a>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

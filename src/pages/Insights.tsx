@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { ArrowLeft, Calendar, Clock, User } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { SEO } from '../components/SEO';
 import mastellaLogo from '../assets/mastella-logo.png';
 import londonSkyline from '../assets/london-skyline.jpg';
 
@@ -443,10 +444,15 @@ export default function Insights() {
 
   return (
     <div className="min-h-screen bg-white page-enter">
+      <SEO
+        title="M&A Insights & Analysis"
+        description="Expert perspectives on mergers, acquisitions, business exits, and strategic growth from Mastella Advisory's team of experienced M&A advisors."
+        canonical="https://mastellagroup.com/insights"
+      />
       <header className="bg-gradient-to-r from-navy-dark to-navy text-white relative">
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-r from-navy/60 to-navy/50 z-10"></div>
-          <img 
+          <img
             src={londonSkyline} 
             alt="London skyline" 
             className="w-full h-full object-cover"
@@ -480,7 +486,7 @@ export default function Insights() {
         </div>
       </header>
 
-      <main className="py-20">
+      <main id="main-content" className="py-20">
         <div className="container mx-auto px-6">
           <Link to="/" className="inline-flex items-center text-navy hover:text-navy-light mb-8">
             <ArrowLeft className="h-5 w-5 mr-2" />
@@ -555,10 +561,14 @@ export default function Insights() {
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {blogPosts.map((post) => (
-                <article 
-                  key={post.id} 
-                  className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition cursor-pointer"
+                <article
+                  key={post.id}
+                  className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition cursor-pointer focus-within:ring-2 focus-within:ring-navy"
                   onClick={() => setSelectedPost(post)}
+                  onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setSelectedPost(post); } }}
+                  tabIndex={0}
+                  role="button"
+                  aria-label={`Read article: ${post.title}`}
                 >
                   <div className="relative h-48">
                     <img
