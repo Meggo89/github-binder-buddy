@@ -45,7 +45,8 @@ export default function Process() {
                 <div>
                   <p className="font-mono text-xs text-accent tracking-widest mb-1">AI LANE</p>
                   <p className="text-sand-light leading-relaxed">
-                    Analysis, drafting, tracking, benchmarking - everything that is structured enough to automate.
+                    Our own M&amp;A agents - analysis, drafting, tracking, benchmarking. Built specifically for the
+                    lower mid-market, not bolted on.
                   </p>
                 </div>
               </div>

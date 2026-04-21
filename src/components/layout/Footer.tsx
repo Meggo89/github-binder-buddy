@@ -49,7 +49,7 @@ export function Footer() {
         <div className="border-t border-white/10 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-sand-dark">
           <p>© {new Date().getFullYear()} Mastella Advisory. All rights reserved.</p>
           <p className="font-mono tracking-wider">
-            <span className="text-accent/80">●</span> Built for the AI era
+            <span className="text-accent/80">●</span> Bespoke M&amp;A agents + matched specialists
           </p>
         </div>
       </div>

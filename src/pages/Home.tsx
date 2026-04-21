@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, ArrowUpRight, Download, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, Download, CheckCircle2, Cpu } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { PageLayout } from '../components/layout';
 import { FAQSection } from '../components/FAQSection';
@@ -190,6 +190,74 @@ export default function Home() {
               </FadeIn>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Bespoke agents */}
+      <section className="bg-navy-deepest text-white py-24 md:py-32 relative overflow-hidden">
+        <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
+          <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-accent/10 blur-3xl"></div>
+          <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-sand/5 blur-3xl"></div>
+        </div>
+        <div className="container mx-auto px-6 relative">
+          <div className="grid md:grid-cols-12 gap-12 items-start mb-16">
+            <div className="md:col-span-5">
+              <FadeIn>
+                <p className="eyebrow mb-6">Built, not bolted on</p>
+                <h2 className="font-serif text-display-md text-white leading-tight mb-6 text-balance">
+                  Our own M&amp;A agents. Built for this work.
+                </h2>
+              </FadeIn>
+            </div>
+            <div className="md:col-span-7 space-y-6 text-body-lg text-sand-light leading-relaxed">
+              <FadeIn delay={0.1}>
+                <p>
+                  Generic AI can summarise documents and draft emails. What an exit process actually needs is specialist
+                  work: financial statements normalised against sector benchmarks, buyer universes mapped by transaction
+                  behaviour, every term of every offer benchmarked against live market norms.
+                </p>
+              </FadeIn>
+              <FadeIn delay={0.2}>
+                <p>
+                  We have built our own agents for each of these jobs, purpose-built for lower mid-market M&amp;A. Not a
+                  chat wrapper. Not a dashboard over someone else&apos;s model. Agents that know this specific work
+                  because we built them around it.
+                </p>
+              </FadeIn>
+              <FadeIn delay={0.3}>
+                <p className="text-white font-medium">
+                  &ldquo;We use AI&rdquo; is what most firms now say. &ldquo;We have agents built for this&rdquo; is a
+                  different claim.
+                </p>
+              </FadeIn>
+            </div>
+          </div>
+
+          {/* Named agents */}
+          <FadeIn delay={0.35}>
+            <div className="mt-14">
+              <p className="font-mono text-xs text-accent tracking-widest mb-6 uppercase">Our M&amp;A agents</p>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
+                {[
+                  { name: 'Readiness', job: 'Exit-gap diagnostic' },
+                  { name: 'Valuation', job: 'Comparables at scale' },
+                  { name: 'IM Drafter', job: 'First draft, fast' },
+                  { name: 'Buyer Map', job: 'Acquirer universe' },
+                  { name: 'Diligence', job: 'Data-room + Q&A' },
+                  { name: 'Terms', job: 'Offer benchmarking' },
+                ].map((agent) => (
+                  <div key={agent.name} className="rounded-lg border border-accent/25 bg-accent/[0.04] p-4">
+                    <div className="flex items-center gap-2 mb-2">
+                      <Cpu className="h-3.5 w-3.5 text-accent" />
+                      <p className="font-mono text-[10px] text-accent tracking-widest uppercase">Agent</p>
+                    </div>
+                    <p className="font-serif text-lg text-white leading-tight mb-1">{agent.name}</p>
+                    <p className="text-xs text-sand-light/80 leading-relaxed">{agent.job}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </FadeIn>
         </div>
       </section>
 

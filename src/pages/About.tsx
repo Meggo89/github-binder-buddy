@@ -85,8 +85,9 @@ export default function About() {
               <FadeIn delay={0.3}>
                 <p className="text-navy font-medium">
                   Mastella is what an advisory firm looks like when you start from that premise rather than bolt it on
-                  afterwards: senior advisors paired with an AI layer that handles the structured work, with fees that
-                  reflect the actual cost of delivery.
+                  afterwards: senior advisors paired with agents we have built ourselves - purpose-built for lower
+                  mid-market M&amp;A, not a chat wrapper over someone else&apos;s model - and fees that reflect the
+                  actual cost of delivery.
                 </p>
               </FadeIn>
             </div>
