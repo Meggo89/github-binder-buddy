@@ -29,12 +29,11 @@ export default defineConfig(() => ({
     port: 8080,
     strictPort: true,
     headers: {
-      'Cache-Control': 'public, max-age=31536000',
+      // Dev server must never cache; Netlify handles caching + security in production.
+      'Cache-Control': 'no-store, no-cache, must-revalidate',
       'X-Content-Type-Options': 'nosniff',
       'X-Frame-Options': 'DENY',
-      'X-XSS-Protection': '1; mode=block',
       'Referrer-Policy': 'strict-origin-when-cross-origin',
-      'Permissions-Policy': 'camera=(), microphone=(), geolocation=()',
     },
   },
   optimizeDeps: {
