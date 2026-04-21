@@ -1,4 +1,5 @@
-import { CapabilityBadge, Connector, IllustrationFrame, Label, Node, ILLUSTRATION_TOKENS } from './primitives';
+import { CapabilityBadge, Connector, IllustrationFrame, Label, Node } from './primitives';
+import { ILLUSTRATION_TOKENS } from './tokens';
 
 const centerX = 400;
 const centerY = 250;

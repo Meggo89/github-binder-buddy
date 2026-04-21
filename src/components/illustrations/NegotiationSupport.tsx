@@ -1,4 +1,5 @@
-import { CapabilityBadge, Connector, IllustrationFrame, Label, ILLUSTRATION_TOKENS } from './primitives';
+import { CapabilityBadge, Connector, IllustrationFrame, Label } from './primitives';
+import { ILLUSTRATION_TOKENS } from './tokens';
 
 const terms = [
   { label: 'HEADLINE PRICE', offerValue: 0.78, marketMin: 0.55, marketMax: 0.85, flag: false },

@@ -1,4 +1,5 @@
-import { CapabilityBadge, Connector, IllustrationFrame, Label, ILLUSTRATION_TOKENS } from './primitives';
+import { CapabilityBadge, Connector, IllustrationFrame, Label } from './primitives';
+import { ILLUSTRATION_TOKENS } from './tokens';
 
 export function IMProductionIllustration() {
   const sheetLines = (offsetX: number, offsetY: number, tone: string, count = 10) =>

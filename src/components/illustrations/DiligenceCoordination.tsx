@@ -1,4 +1,5 @@
-import { CapabilityBadge, Connector, DataGrid, IllustrationFrame, Label, Node, ILLUSTRATION_TOKENS } from './primitives';
+import { CapabilityBadge, Connector, DataGrid, IllustrationFrame, Label, Node } from './primitives';
+import { ILLUSTRATION_TOKENS } from './tokens';
 
 export function DiligenceCoordinationIllustration() {
   // Data room matrix: some cells marked "resolved" (ai-owned) vs others pending
