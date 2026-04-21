@@ -10,7 +10,7 @@ const members = [
     name: 'Leo Meggitt',
     title: 'Managing Director',
     image: '/lovable-uploads/5a8b577b-26fe-4020-b9c9-cecef8f4f735.png',
-    imagePosition: 'object-[center_25%]',
+    imageFit: 'object-cover object-[center_25%]',
     linkedin: 'https://www.linkedin.com/in/leomeggitt/',
     description:
       '20+ years experience in M&A, fundraising, executive search and leadership consulting. Investor and advisor to early-stage companies.',
@@ -19,7 +19,7 @@ const members = [
     name: 'Francis Martin CBE',
     title: 'Director',
     image: francisMartin,
-    imagePosition: 'object-[center_30%]',
+    imageFit: 'object-contain object-top',
     linkedin: 'https://www.linkedin.com/in/francis-martin-cbe-54aborb/',
     description:
       'Distinguished advisor with 25+ years in strategic consulting. Former President of British Chambers of Commerce and recipient of Commander of the British Empire.',
@@ -28,7 +28,7 @@ const members = [
     name: 'Erik Vynkier',
     title: 'Senior Advisor',
     image: erikVynkier,
-    imagePosition: 'object-[center_30%]',
+    imageFit: 'object-contain object-top',
     linkedin: 'https://www.linkedin.com/in/erikvynkier/',
     description:
       'Highly experienced in financial services, asset management and private equity. Has worked on deals across multiple sectors and geographies.',
@@ -70,7 +70,7 @@ export default function Team() {
                         src={member.image}
                         alt={member.name}
                         loading="lazy"
-                        className={`block w-full h-full object-cover ${member.imagePosition || 'object-center'} transition-transform duration-700 group-hover:scale-105`}
+                        className={`block w-full h-full ${member.imageFit} transition-transform duration-700 group-hover:scale-105`}
                       />
                     </div>
                     <h2 className="font-serif text-2xl md:text-3xl text-navy mb-1 leading-tight">{member.name}</h2>

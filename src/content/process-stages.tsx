@@ -50,7 +50,7 @@ export const processStages: ProcessStage[] = [
   {
     slug: 'information-memorandum',
     number: '03',
-    title: 'Information Memorandum',
+    title: 'Investor Memorandum',
     lead: 'The document that frames the business for the market. Sharper first drafts, more iterations, higher production quality.',
     aiCapability:
       'First-draft IM generation from structured data and founder interviews. Market sizing and competitive landscape analysis. Investment thesis and growth narrative drafting.',

@@ -1,9 +1,9 @@
-import { CapabilityBadge, Connector, IllustrationFrame, Label } from './primitives';
+import { CapabilityBadge, IllustrationFrame, Label } from './primitives';
 import { ILLUSTRATION_TOKENS } from './tokens';
 
 type StageDetail = {
   short: string;
-  label: string;
+  label: string[]; // one entry per line
   human: [string, string];
   ai: [string, string];
 };
@@ -11,37 +11,37 @@ type StageDetail = {
 const stages: StageDetail[] = [
   {
     short: '01',
-    label: 'READINESS',
+    label: ['READINESS'],
     human: ['Team strength', 'Founder motivation'],
     ai: ['Sector benchmarks', 'Financial gaps'],
   },
   {
     short: '02',
-    label: 'VALUATION',
+    label: ['VALUATION'],
     human: ['Defensible frame', 'Buyer-specific value'],
     ai: ['1000s of comparables', 'Addback detection'],
   },
   {
     short: '03',
-    label: 'IM',
+    label: ['INVESTOR', 'MEMORANDUM'],
     human: ['Narrative', 'Founder voice'],
     ai: ['First draft', 'Market sizing'],
   },
   {
     short: '04',
-    label: 'BUYERS',
+    label: ['BUYERS'],
     human: ['Warm intros', 'Priority relationships'],
     ai: ['Systematic mapping', 'Outreach at scale'],
   },
   {
     short: '05',
-    label: 'DILIGENCE',
+    label: ['DILIGENCE'],
     human: ['Competitive tension', 'Advance / hold calls'],
     ai: ['Data-room', 'Q&A tracking'],
   },
   {
     short: '06',
-    label: 'COMPLETION',
+    label: ['COMPLETION'],
     human: ['Negotiation lead', 'Pushback judgment'],
     ai: ['Term benchmarks', 'Scenario models'],
   },
@@ -58,12 +58,24 @@ export function ProcessOverviewIllustration() {
   const pillHeight = 22;
   const pillGap = 6;
 
+  // Label geometry
+  const labelLineHeight = 12;
+  const labelFirstLineY = timelineY - 56; // first line baseline
+  const labelTextColor = ILLUSTRATION_TOKENS.colors.text;
+
+  // Human pill positions (unchanged)
+  const humanPill2Y = timelineY - 110; // move labels up slightly to give label more room
+  const humanPill1Y = humanPill2Y - (pillHeight + pillGap);
+
+  // AI pill positions
+  const aiPill1Y = timelineY + 80 - pillHeight;
+  const aiPill2Y = aiPill1Y + pillHeight + pillGap;
+
   return (
     <IllustrationFrame
       ariaLabel="The six-stage AI-enabled M&A process, with specific human and AI tasks called out at each stage"
       viewBox={`0 0 ${viewW} ${viewH}`}
     >
-      {/* Soft backdrop highlights for depth */}
       <defs>
         <linearGradient id="humanBand" x1="0" y1="0" x2="1" y2="0">
           <stop offset="0%" stopColor="rgba(212, 197, 178, 0)" />
@@ -85,29 +97,27 @@ export function ProcessOverviewIllustration() {
       </defs>
 
       {/* Lane bands */}
-      <rect x={0} y={60} width={viewW} height={140} fill="url(#humanBand)" />
+      <rect x={0} y={30} width={viewW} height={140} fill="url(#humanBand)" />
       <rect x={0} y={360} width={viewW} height={140} fill="url(#aiBand)" />
 
       {/* Lane section headers */}
       <g>
-        <rect x={24} y={82} width={56} height={20} rx={10} fill={ILLUSTRATION_TOKENS.colors.humanSoft} stroke={ILLUSTRATION_TOKENS.colors.human} strokeWidth={1} />
-        <text x={52} y={96} textAnchor="middle" fill={ILLUSTRATION_TOKENS.colors.human} fontSize="9" fontFamily="'JetBrains Mono', monospace" fontWeight="600" letterSpacing="0.15em">HUMAN</text>
+        <rect x={24} y={60} width={56} height={20} rx={10} fill={ILLUSTRATION_TOKENS.colors.humanSoft} stroke={ILLUSTRATION_TOKENS.colors.human} strokeWidth={1} />
+        <text x={52} y={74} textAnchor="middle" fill={ILLUSTRATION_TOKENS.colors.human} fontSize="9" fontFamily="'JetBrains Mono', monospace" fontWeight="600" letterSpacing="0.15em">HUMAN</text>
       </g>
       <g>
         <rect x={24} y={462} width={56} height={20} rx={10} fill={ILLUSTRATION_TOKENS.colors.aiSoft} stroke={ILLUSTRATION_TOKENS.colors.ai} strokeWidth={1} />
         <text x={52} y={476} textAnchor="middle" fill={ILLUSTRATION_TOKENS.colors.ai} fontSize="9" fontFamily="'JetBrains Mono', monospace" fontWeight="600" letterSpacing="0.15em">AI</text>
       </g>
 
-      {/* Main flow line with gradient for colour */}
+      {/* Main flow line */}
       <line x1={startX} y1={timelineY} x2={endX} y2={timelineY} stroke="url(#flowLine)" strokeWidth={2} />
 
-      {/* Subtle tick rule above and below each segment */}
+      {/* Mid-segment ticks */}
       {stages.slice(0, -1).map((_, i) => {
         const midX = startX + stepX * i + stepX / 2;
         return (
-          <g key={`tick-${i}`}>
-            <line x1={midX} y1={timelineY - 4} x2={midX} y2={timelineY + 4} stroke={ILLUSTRATION_TOKENS.colors.line} strokeWidth={1} />
-          </g>
+          <line key={`tick-${i}`} x1={midX} y1={timelineY - 4} x2={midX} y2={timelineY + 4} stroke={ILLUSTRATION_TOKENS.colors.line} strokeWidth={1} />
         );
       })}
 
@@ -115,33 +125,67 @@ export function ProcessOverviewIllustration() {
         const x = startX + stepX * i;
         const pillX = x - pillWidth / 2;
 
-        // Human pills stack above
-        const humanPill2Y = timelineY - 80;
-        const humanPill1Y = humanPill2Y - (pillHeight + pillGap);
-
-        // AI pills stack below
-        const aiPill1Y = timelineY + 80 - pillHeight;
-        const aiPill2Y = aiPill1Y + pillHeight + pillGap;
+        // Compute label block extents — leave a gap for the connector line
+        const labelLines = stage.label.length;
+        const labelTop = labelFirstLineY - 10;
+        const labelBottom = labelFirstLineY + (labelLines - 1) * labelLineHeight + 4;
 
         return (
           <g key={stage.short}>
-            {/* Connector lines from center to lanes */}
-            <Connector x1={x} y1={timelineY - 22} x2={x} y2={humanPill2Y + pillHeight} tone="human" />
-            <Connector x1={x} y1={timelineY + 22} x2={x} y2={aiPill1Y} tone="ai" />
+            {/* Connector line from node up to label (bottom of gap) */}
+            <line
+              x1={x}
+              y1={timelineY - 22}
+              x2={x}
+              y2={labelBottom}
+              stroke={ILLUSTRATION_TOKENS.colors.human}
+              strokeWidth={ILLUSTRATION_TOKENS.stroke}
+            />
+            {/* Connector line from top of label (gap) to bottom of pill */}
+            <line
+              x1={x}
+              y1={labelTop}
+              x2={x}
+              y2={humanPill2Y + pillHeight}
+              stroke={ILLUSTRATION_TOKENS.colors.human}
+              strokeWidth={ILLUSTRATION_TOKENS.stroke}
+            />
 
-            {/* Stage central node — dual-ring for richer colour */}
+            {/* AI-side connector (no label in the way) */}
+            <line
+              x1={x}
+              y1={timelineY + 22}
+              x2={x}
+              y2={aiPill1Y}
+              stroke={ILLUSTRATION_TOKENS.colors.ai}
+              strokeWidth={ILLUSTRATION_TOKENS.stroke}
+            />
+
+            {/* Stage central node */}
             <circle cx={x} cy={timelineY} r={26} fill="rgba(255, 255, 255, 0.04)" stroke={ILLUSTRATION_TOKENS.colors.lineStrong} strokeWidth={1.5} />
             <circle cx={x} cy={timelineY} r={20} fill={i === 0 || i === stages.length - 1 ? 'rgba(201, 162, 39, 0.18)' : 'rgba(255, 255, 255, 0.03)'} stroke={ILLUSTRATION_TOKENS.colors.ai} strokeWidth={1} />
             <text x={x} y={timelineY + 3} textAnchor="middle" fill="white" fontSize="11" fontFamily="'JetBrains Mono', monospace" fontWeight="700" letterSpacing="0.05em">
               {stage.short}
             </text>
 
-            {/* Stage name above node (between node and pills) */}
-            <text x={x} y={timelineY - 44} textAnchor="middle" fill={ILLUSTRATION_TOKENS.colors.text} fontSize="10" fontFamily="'JetBrains Mono', monospace" fontWeight="600" letterSpacing="0.12em">
-              {stage.label}
-            </text>
+            {/* Stage name (multiline-capable) */}
+            {stage.label.map((line, idx) => (
+              <text
+                key={idx}
+                x={x}
+                y={labelFirstLineY + idx * labelLineHeight}
+                textAnchor="middle"
+                fill={labelTextColor}
+                fontSize="10"
+                fontFamily="'JetBrains Mono', monospace"
+                fontWeight="600"
+                letterSpacing="0.12em"
+              >
+                {line}
+              </text>
+            ))}
 
-            {/* Human pills above */}
+            {/* Human pills */}
             {[
               { y: humanPill1Y, text: stage.human[0] },
               { y: humanPill2Y, text: stage.human[1] },
@@ -170,7 +214,7 @@ export function ProcessOverviewIllustration() {
               </g>
             ))}
 
-            {/* AI pills below */}
+            {/* AI pills */}
             {[
               { y: aiPill1Y, text: stage.ai[0] },
               { y: aiPill2Y, text: stage.ai[1] },
@@ -202,14 +246,14 @@ export function ProcessOverviewIllustration() {
         );
       })}
 
-      {/* Footer legend */}
-      <g transform={`translate(${viewW / 2 - 130}, 520)`}>
+      {/* Footer legend — widened spacing so badges don't bleed into text */}
+      <g transform={`translate(${viewW / 2 - 220}, 530)`}>
         <CapabilityBadge x={0} y={0} kind="human" />
         <Label x={64} y={13} tone="muted" size={9}>
           judgment &amp; relationships
         </Label>
-        <CapabilityBadge x={170} y={0} kind="ai" />
-        <Label x={214} y={13} tone="muted" size={9}>
+        <CapabilityBadge x={260} y={0} kind="ai" />
+        <Label x={306} y={13} tone="muted" size={9}>
           structured work at speed
         </Label>
       </g>
