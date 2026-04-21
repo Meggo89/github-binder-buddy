@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { ChevronDown } from 'lucide-react';
+import { Plus, Minus } from 'lucide-react';
 
 export type FAQItem = {
   question: string;
@@ -9,34 +9,34 @@ export type FAQItem = {
 
 const DEFAULT_FAQ: FAQItem[] = [
   {
-    question: 'How long does a typical business exit take?',
+    question: 'How does AI actually change the advisory relationship?',
     answer:
-      'Most exits take between 6 and 18 months from initial preparation to completion. The timeline depends on the complexity of the business, market conditions, and the type of transaction. We recommend founders begin planning at least 12 to 24 months before their target exit date.',
+      'Your day-to-day contact is still a senior advisor. AI changes what gets done in the background — financial normalisation, buyer mapping, IM drafting, diligence tracking, term benchmarking. The work that used to take weeks of analyst time happens much faster, so senior time is spent on positioning, relationships and negotiation rather than production.',
   },
   {
     question: 'What size of business do you work with?',
     answer:
-      'We specialise in small to medium enterprises with revenues between £2m and £50m, or valuations in the £5m to £50m range. This includes founder-led businesses, family-owned companies, and PE-backed firms seeking an exit or capital raise.',
+      'Lower mid-market: revenues roughly £2m–£50m or enterprise values in the £5m–£50m range. Founder-led businesses, family-owned companies, and PE-backed firms seeking an exit or capital raise.',
   },
   {
-    question: 'How do you charge for your services?',
+    question: 'How long does a typical exit take?',
     answer:
-      'Our fee structure typically combines a modest retainer with a success fee tied to the completion of the transaction. This aligns our incentives with yours and means the majority of our compensation is contingent on achieving a successful outcome.',
+      'Most exits run 6–12 months from engagement to completion, shorter than the traditional 9–18 month range — primarily because readiness gaps are surfaced earlier and IM production is faster. We recommend starting exit planning 12–24 months before target completion so remediation time is on your side.',
   },
   {
-    question: 'Do I need to have my financials in perfect order before engaging you?',
+    question: 'How do you charge?',
     answer:
-      'No. Part of our exit planning process involves identifying gaps in your financial reporting and helping you address them. We work with your accountants and advisors to ensure your financials are presented in the best possible light for potential buyers or investors.',
+      'A modest retainer combined with a success fee at completion. Because the work is materially more efficient to deliver, our total fee load on transactions is typically meaningfully lower than traditional 5–7% lower mid-market rates. We quote the full structure upfront.',
   },
   {
-    question: 'What makes Mastella different from other M&A advisors?',
+    question: 'Do I need my financials in perfect order before engaging?',
     answer:
-      'We combine deep sector expertise with a founder-first approach. Our team has over 50 years of combined experience, and we work exclusively in the lower mid-market where we understand the personal and professional dynamics of owner-managed businesses. We are hands-on, accessible, and committed to achieving the best outcome for each client.',
+      'No. Identifying and closing the gaps in your financial reporting is part of the engagement. We work with your accountants and advisors to get financials into the form acquirers expect.',
   },
   {
     question: 'Can you help with fundraising as well as exits?',
     answer:
-      'Yes. We advise on seed rounds, Series A, growth capital, and pre-exit funding. Many of our clients engage us initially for a capital raise and later return for exit advisory as their business matures.',
+      'Yes. We advise on seed, Series A, growth capital, and pre-exit funding. Many clients engage us first for a capital raise and return for exit advisory as the business matures.',
   },
 ];
 
@@ -48,8 +48,8 @@ interface FAQSectionProps {
 
 export function FAQSection({
   items = DEFAULT_FAQ,
-  title = 'Frequently Asked Questions',
-  subtitle = 'Common questions from founders considering an exit or capital raise.',
+  title = 'Founder questions we hear most often.',
+  subtitle = 'Direct answers, no hedging.',
 }: FAQSectionProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
@@ -67,42 +67,43 @@ export function FAQSection({
   };
 
   return (
-    <section id="faq" className="py-20 bg-sand-light">
+    <section id="faq" className="bg-sand-light py-24 md:py-32">
       <Helmet>
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Helmet>
       <div className="container mx-auto px-6">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-navy mb-4">{title}</h2>
-          <p className="text-navy-light max-w-2xl mx-auto">{subtitle}</p>
+        <div className="max-w-3xl mb-14">
+          <p className="eyebrow text-navy-light mb-6">FAQ</p>
+          <h2 className="font-serif text-display-md text-navy leading-tight mb-4 text-balance">{title}</h2>
+          <p className="text-body-lg text-navy-light">{subtitle}</p>
         </div>
-        <div className="max-w-3xl mx-auto space-y-3">
-          {items.map((faq, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-xl border border-sand overflow-hidden transition-shadow hover:shadow-md"
-            >
-              <button
-                onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                className="w-full flex items-center justify-between p-6 text-left"
-                aria-expanded={openIndex === index}
-              >
-                <span className="font-semibold text-navy pr-4">{faq.question}</span>
-                <ChevronDown
-                  className={`h-5 w-5 text-navy-light flex-shrink-0 transition-transform duration-200 ${
-                    openIndex === index ? 'rotate-180' : ''
+        <div className="max-w-3xl divide-y divide-navy/10 border-t border-b border-navy/10">
+          {items.map((faq, index) => {
+            const open = openIndex === index;
+            return (
+              <div key={index}>
+                <button
+                  onClick={() => setOpenIndex(open ? null : index)}
+                  className="w-full flex items-start justify-between py-6 text-left gap-6 group"
+                  aria-expanded={open}
+                >
+                  <span className="font-serif text-lg md:text-xl text-navy group-hover:text-accent-dark transition-colors">
+                    {faq.question}
+                  </span>
+                  <span className="flex-shrink-0 mt-1 text-navy-light group-hover:text-accent-dark transition-colors">
+                    {open ? <Minus className="h-5 w-5" /> : <Plus className="h-5 w-5" />}
+                  </span>
+                </button>
+                <div
+                  className={`overflow-hidden transition-all duration-300 ease-out ${
+                    open ? 'max-h-96 pb-6' : 'max-h-0'
                   }`}
-                />
-              </button>
-              <div
-                className={`overflow-hidden transition-all duration-300 ${
-                  openIndex === index ? 'max-h-96 pb-6' : 'max-h-0'
-                }`}
-              >
-                <p className="px-6 text-navy-light">{faq.answer}</p>
+                >
+                  <p className="text-navy-light leading-relaxed pr-12">{faq.answer}</p>
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

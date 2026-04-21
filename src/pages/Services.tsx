@@ -1,136 +1,162 @@
-import { ArrowLeft, Calculator, Handshake, BarChart3, Banknote, Users, Target, Briefcase, UserSearch } from 'lucide-react';
+import { ArrowRight, Handshake, Banknote, ClipboardCheck, UserSearch, Cpu, User } from 'lucide-react';
+import { ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import { SEO } from '../components/SEO';
 import { PageLayout } from '../components/layout';
+import { FadeIn, Stagger, StaggerItem } from '../components/ui/motion';
 
-const coreServices = [
+type Service = {
+  icon: ReactNode;
+  title: string;
+  lead: string;
+  aiLayer: string;
+  humanLayer: string;
+  outcome: string;
+};
+
+const services: Service[] = [
   {
-    icon: <Calculator className="h-8 w-8 text-navy" />,
-    title: 'M&A Advisory',
-    description: 'Comprehensive guidance through the entire M&A process, from valuation to deal closure.',
-    features: ['Business valuation', 'Market analysis', 'Deal structuring', 'Negotiation support'],
+    icon: <Handshake className="h-6 w-6 text-accent" />,
+    title: 'Sell-side Advisory',
+    lead: 'Full-service exit advisory for founders taking a business to market — minority sale, majority sale, or full exit.',
+    aiLayer:
+      'Readiness assessment, financial normalisation, IM drafting, systematic buyer identification, data-room orchestration, term-sheet benchmarking.',
+    humanLayer:
+      'Strategy. Narrative. Relationship management with priority buyers. Negotiation leadership. Calls that move deals forward.',
+    outcome: 'Broader buyer pools, faster to market, terms benchmarked end-to-end.',
   },
   {
-    icon: <Handshake className="h-8 w-8 text-navy" />,
-    title: 'Deal Structuring',
-    description: 'Strategic deal structuring to maximise value and optimise transaction terms.',
-    features: ['Tax-efficient structures', 'Risk mitigation', 'Terms optimization', 'Regulatory compliance'],
-  },
-  {
-    icon: <Banknote className="h-8 w-8 text-navy" />,
+    icon: <Banknote className="h-6 w-6 text-accent" />,
     title: 'Fundraising',
-    description: 'Access to capital markets and strategic investors for growth and expansion.',
-    features: ['Equity financing', 'Debt financing', 'Investor matching', 'Pitch preparation'],
+    lead: 'Seed, Series A, growth capital, and pre-exit funding for lower mid-market businesses.',
+    aiLayer:
+      'Investor mapping, market and competitor analysis, pitch deck and supporting model first drafts, round benchmarking.',
+    humanLayer:
+      'Positioning the story. Warm introductions where they matter. Guiding founders through valuation and term negotiations.',
+    outcome: 'Well-qualified investor conversations. Less dilution, cleaner terms.',
   },
   {
-    icon: <BarChart3 className="h-8 w-8 text-navy" />,
-    title: 'Technology Integration',
-    description: 'Advanced M&A tools and analytics to streamline the transaction process.',
-    features: ['Data analytics', 'Process automation', 'Digital due diligence', 'Real-time reporting'],
+    icon: <ClipboardCheck className="h-6 w-6 text-accent" />,
+    title: 'Exit Readiness Consulting',
+    lead: 'For founders 12–24 months out from a potential sale. Diagnose the gaps early, fix them while time is on your side.',
+    aiLayer:
+      'Automated readiness assessment across financials, contracts, operations, team, and IP. Benchmarking against successful exits in your sector.',
+    humanLayer:
+      'Founder coaching. Prioritisation of remediation. Calls with accountants and lawyers to get the work actually done.',
+    outcome: 'Avoid the issues that cost founders value or kill deals at diligence.',
   },
   {
-    icon: <UserSearch className="h-8 w-8 text-navy" />,
-    title: 'Executive Search & Interim Solutions',
-    description: 'Strategic leadership placement and interim management for companies pre and post exit.',
-    features: ['C-suite recruitment', 'Interim management', 'Pre-exit leadership', 'Post-exit integration'],
+    icon: <UserSearch className="h-6 w-6 text-accent" />,
+    title: 'Executive Search',
+    lead: 'Leadership placement for the pre-exit period — CFO, COO, CRO — and interim management for transitions.',
+    aiLayer:
+      'Market mapping of candidate universe. Analysis of track records against specific pre-exit requirements. Structured evaluation.',
+    humanLayer:
+      'Approach and attraction of senior candidates. Judgment on fit. Onboarding and early-impact support.',
+    outcome: 'A leadership team that makes the business more valuable to acquirers.',
   },
 ];
 
-const supportingServices = [
-  {
-    icon: <Target className="h-8 w-8 text-navy" />,
-    title: 'Strategic Planning',
-    description: 'Development of comprehensive M&A strategies aligned with your business objectives.',
-  },
-  {
-    icon: <Users className="h-8 w-8 text-navy" />,
-    title: 'Post-Merger Integration',
-    description: 'Expert guidance for smooth integration and synergy realization after the deal.',
-  },
-  {
-    icon: <Briefcase className="h-8 w-8 text-navy" />,
-    title: 'Transaction Support',
-    description: 'Full-service support throughout the entire transaction lifecycle.',
-  },
-];
+function Hero() {
+  return (
+    <div className="max-w-3xl">
+      <p className="eyebrow mb-6">What we do</p>
+      <h1 className="font-serif text-display-lg text-white leading-[1.05] mb-8 text-balance">
+        Four services. One delivery model.
+      </h1>
+      <p className="text-body-lg text-sand-light max-w-2xl leading-relaxed">
+        Every engagement runs on the same two-lane model: AI handles what can be machined, senior advisors handle what
+        requires judgment. Below is where we apply it.
+      </p>
+    </div>
+  );
+}
 
 export default function Services() {
   return (
-    <PageLayout>
+    <PageLayout hero={<Hero />} heroTone="ink" mainClassName="">
       <SEO
-        title="Our Services - M&A Advisory, Fundraising & Valuations"
-        description="End-to-end M&A advisory, fundraising, business valuations, deal structuring, and executive search services tailored for SMEs across the UK."
+        title="Services — Sell-side, Fundraising, Exit Readiness, Executive Search"
+        description="Sell-side M&A advisory, fundraising, exit readiness consulting, and executive search — all delivered through an AI-enabled model that combines machine speed with senior judgment."
         canonical="https://mastellagroup.com/services"
       />
-      <div className="container mx-auto px-6">
-        <Link to="/" className="inline-flex items-center text-navy hover:text-navy-light mb-8">
-          <ArrowLeft className="h-5 w-5 mr-2" />
-          Back to Home
-        </Link>
 
-        <h1 className="text-4xl font-bold text-navy mb-12">Our Services</h1>
+      <section className="bg-white py-24 md:py-32">
+        <div className="container mx-auto px-6">
+          <Stagger className="max-w-6xl mx-auto space-y-24">
+            {services.map((service, i) => (
+              <StaggerItem key={service.title}>
+                <div className="grid md:grid-cols-12 gap-12 items-start">
+                  <div className="md:col-span-5">
+                    <div className="flex items-center gap-3 mb-6">
+                      <span className="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-accent/10 border border-accent/30">
+                        {service.icon}
+                      </span>
+                      <p className="font-mono text-xs text-accent-dark tracking-widest">
+                        {String(i + 1).padStart(2, '0')} / {String(services.length).padStart(2, '0')}
+                      </p>
+                    </div>
+                    <h2 className="font-serif text-display-md text-navy leading-[1.1] mb-5 text-balance">
+                      {service.title}
+                    </h2>
+                    <p className="text-body-lg text-navy-light leading-relaxed">{service.lead}</p>
+                  </div>
 
-        <div className="grid md:grid-cols-2 gap-12 mb-20">
-          <div>
-            <h2 className="text-2xl font-semibold text-navy mb-4">Comprehensive M&amp;A Solutions</h2>
-            <p className="text-navy-light mb-6">
-              We provide end-to-end M&amp;A advisory services tailored for small to medium-sized enterprises. Our approach combines traditional expertise with innovative technology to deliver optimal outcomes for our clients.
-            </p>
-            <p className="text-navy-light">
-              Each service is delivered by our experienced team of professionals, ensuring the highest quality of execution and attention to detail throughout the entire process.
-            </p>
-            <div className="mt-8">
-              <Link to="/contact" className="bg-navy text-white px-6 py-3 rounded-lg font-semibold hover:bg-navy-light transition inline-block">
-                Schedule a Consultation
+                  <div className="md:col-span-7 space-y-5">
+                    <div className="rounded-xl border border-navy/10 bg-sand-light p-6">
+                      <div className="flex items-center gap-2 mb-3">
+                        <Cpu className="h-4 w-4 text-accent-dark" />
+                        <p className="font-mono text-xs text-accent-dark tracking-widest">AI-DELIVERED</p>
+                      </div>
+                      <p className="text-navy-light leading-relaxed">{service.aiLayer}</p>
+                    </div>
+
+                    <div className="rounded-xl border border-navy/10 bg-white p-6">
+                      <div className="flex items-center gap-2 mb-3">
+                        <User className="h-4 w-4 text-navy" />
+                        <p className="font-mono text-xs text-navy tracking-widest">HUMAN-LED</p>
+                      </div>
+                      <p className="text-navy-light leading-relaxed">{service.humanLayer}</p>
+                    </div>
+
+                    <div className="rounded-xl bg-ink text-white p-6 flex items-start gap-4">
+                      <ArrowRight className="h-5 w-5 text-accent mt-0.5 flex-shrink-0" />
+                      <p className="text-sand-light leading-relaxed">
+                        <span className="font-mono text-xs text-accent tracking-widest mr-2">OUTCOME ·</span>
+                        {service.outcome}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </StaggerItem>
+            ))}
+          </Stagger>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="bg-navy-deepest text-white py-24">
+        <div className="container mx-auto px-6">
+          <FadeIn>
+            <div className="max-w-3xl">
+              <h2 className="font-serif text-display-md text-white mb-6 leading-tight text-balance">
+                Not sure which one fits yet?
+              </h2>
+              <p className="text-body-lg text-sand-light mb-10 leading-relaxed">
+                Most founders do not start with a clear answer. Book a short conversation and we&apos;ll tell you honestly
+                which of these — if any — is the right starting point for your business.
+              </p>
+              <Link
+                to="/contact"
+                className="inline-flex items-center gap-2 bg-accent text-navy-deepest px-7 py-3.5 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:-translate-y-0.5"
+              >
+                Book a confidential conversation
+                <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
-          </div>
-
-          <div className="bg-sand-light p-8 rounded-xl">
-            <h2 className="text-2xl font-semibold text-navy mb-4">Why Choose Our Services</h2>
-            <ul className="space-y-4">
-              {['Tailored solutions for SMEs', 'Technology-driven approach', 'Experienced advisory team', 'Proven track record'].map((item) => (
-                <li key={item} className="flex items-start space-x-3">
-                  <span className="text-navy mt-1">•</span>
-                  <p className="text-navy-light">{item}</p>
-                </li>
-              ))}
-            </ul>
-          </div>
+          </FadeIn>
         </div>
-
-        <div className="grid md:grid-cols-2 gap-8 mb-20">
-          {coreServices.map((service, index) => (
-            <div key={index} className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
-              <div className="flex items-center space-x-4 mb-4">
-                {service.icon}
-                <h3 className="text-xl font-semibold text-navy">{service.title}</h3>
-              </div>
-              <p className="text-navy-light mb-6">{service.description}</p>
-              <ul className="space-y-3">
-                {service.features.map((feature, idx) => (
-                  <li key={idx} className="flex items-center space-x-2">
-                    <div className="w-2 h-2 bg-sand rounded-full"></div>
-                    <span className="text-navy-light">{feature}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-
-        <div className="grid md:grid-cols-3 gap-8">
-          {supportingServices.map((service, index) => (
-            <div key={index} className="bg-sand-light p-6 rounded-xl">
-              <div className="flex items-center space-x-3 mb-4">
-                {service.icon}
-                <h3 className="text-lg font-semibold text-navy">{service.title}</h3>
-              </div>
-              <p className="text-navy-light">{service.description}</p>
-            </div>
-          ))}
-        </div>
-      </div>
+      </section>
     </PageLayout>
   );
 }

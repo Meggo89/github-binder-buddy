@@ -1,13 +1,23 @@
+import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { SEO } from '../components/SEO';
 import { PageLayout } from '../components/layout';
-import { TrendingUp, Building2, Leaf, Cpu, Truck, Wheat, GraduationCap, Landmark } from 'lucide-react';
+import { FadeIn, Stagger, StaggerItem } from '../components/ui/motion';
 
-const caseStudies = [
+type CaseStudy = {
+  tag: string;
+  value?: string;
+  status?: string;
+  title: string;
+  sector: string;
+  challenge: string;
+  approach: string;
+  outcome: string;
+};
+
+const caseStudies: CaseStudy[] = [
   {
-    icon: <Cpu className="h-6 w-6" />,
     tag: 'Seed Funding',
-    tagStyle: 'bg-navy text-white',
     value: '£2m',
     title: 'HR Tech Platform',
     sector: 'Technology',
@@ -19,10 +29,8 @@ const caseStudies = [
       'Secured approximately £2m in seed funding from a diversified investor base, enabling the company to triple its engineering team and launch in two new verticals.',
   },
   {
-    icon: <Building2 className="h-6 w-6" />,
     tag: 'Full Sale',
-    tagStyle: 'bg-accent text-navy',
-    value: 'Target price achieved',
+    value: 'Target achieved',
     title: 'Institutional Asset Manager',
     sector: 'Financial Services',
     challenge:
@@ -33,22 +41,18 @@ const caseStudies = [
       "Completed a full sale to a strategic acquirer at the founder's target valuation, with a structured earn-out that protected long-term client relationships.",
   },
   {
-    icon: <TrendingUp className="h-6 w-6" />,
     tag: 'Majority Sale',
-    tagStyle: 'bg-navy-light text-white',
     title: 'DFM Platform',
     sector: 'Wealth Management',
     challenge:
       'A discretionary fund manager with strong performance but limited distribution sought a partner to accelerate growth while preserving its investment philosophy.',
     approach:
-      'Identified PE-backed consolidators in the wealth management space. Ran a competitive process that attracted four serious offers, enabling the founders to negotiate from a position of strength.',
+      'Identified PE-backed consolidators in the wealth management space. Ran a competitive process that attracted four serious offers, enabling founders to negotiate from strength.',
     outcome:
       'Majority sale to a PE-backed asset manager at a premium multiple, with founders retaining a meaningful minority stake to participate in future upside.',
   },
   {
-    icon: <Leaf className="h-6 w-6" />,
     tag: 'Seed Round',
-    tagStyle: 'bg-navy text-white',
     value: '£1.5m+',
     title: 'Food Manufacturer',
     sector: 'Consumer Goods',
@@ -57,12 +61,10 @@ const caseStudies = [
     approach:
       "Positioned the company's sustainability credentials and margin profile to attract impact-oriented investors. Structured the round to balance founder dilution with growth ambitions.",
     outcome:
-      'Raised over £1.5m from family offices and HNW investors, funding a new production line and enabling the company to secure listings with two major UK supermarket chains.',
+      'Raised over £1.5m from family offices and HNW investors, funding a new production line and enabling listings with two major UK supermarket chains.',
   },
   {
-    icon: <Cpu className="h-6 w-6" />,
     tag: 'Series A & Sale',
-    tagStyle: 'bg-sand-dark text-white',
     status: 'Current',
     title: 'Human Capital AI',
     sector: 'Artificial Intelligence',
@@ -74,9 +76,7 @@ const caseStudies = [
       'Successfully closed two funding rounds from institutional and individual investors, with ongoing advisory on a strategic minority sale to a corporate partner.',
   },
   {
-    icon: <Landmark className="h-6 w-6" />,
     tag: 'Capital Raise',
-    tagStyle: 'bg-navy text-white',
     title: 'Alternative Fund Manager',
     sector: 'Infrastructure',
     challenge:
@@ -87,50 +87,42 @@ const caseStudies = [
       'Secured institutional commitments enabling the fund to execute on its first three acquisitions in the UK infrastructure sector.',
   },
   {
-    icon: <Truck className="h-6 w-6" />,
     tag: 'Majority Sale',
-    tagStyle: 'bg-navy-light text-white',
     title: 'Logistics Business',
     sector: 'Transport & Logistics',
     challenge:
-      'A family-owned logistics company with 30+ years of trading history sought an exit. The founders wanted to ensure continuity for long-standing employees and customers.',
+      'A family-owned logistics company with 30+ years of trading history sought an exit. The founders wanted continuity for long-standing employees and customers.',
     approach:
       'Guided the family through a structured sale process, prioritising buyers who would invest in the business long-term. Managed complex family dynamics and succession planning.',
     outcome:
       "Completed a majority sale to a respected PE investor who committed to preserving the company's culture, retaining all employees, and investing in fleet modernisation.",
   },
   {
-    icon: <Wheat className="h-6 w-6" />,
     tag: 'Buy-side Advisory',
-    tagStyle: 'bg-sand-dark text-white',
     status: 'Ongoing',
     title: 'Agricultural Group',
     sector: 'Agriculture',
     challenge:
-      'A global agricultural group needed to expand its UK and European footprint through targeted acquisitions, but lacked local market knowledge and deal origination capability.',
+      'A global agricultural group needed to expand its UK and European footprint through targeted acquisitions but lacked local market knowledge and deal origination capability.',
     approach:
       "Embedded within the group's corporate development team, mapping the UK and European market, identifying acquisition targets, and managing the full deal pipeline.",
     outcome:
-      'Currently supporting the execution of targeted acquisitions, with two deals in advanced due diligence and a pipeline of 15+ qualified targets.',
+      'Supporting execution of targeted acquisitions, with two deals in advanced due diligence and a pipeline of 15+ qualified targets.',
   },
   {
-    icon: <GraduationCap className="h-6 w-6" />,
     tag: 'Series A',
-    tagStyle: 'bg-navy text-white',
     value: '£1m',
     title: 'Edtech Platform',
     sector: 'Education Technology',
     challenge:
       'An education technology platform with strong user engagement needed Series A capital to expand its content library and enter the corporate training market.',
     approach:
-      'Crafted a growth narrative that combined B2C traction with B2B potential. Targeted VCs and HNW investors with sector expertise in education and workplace learning.',
+      'Crafted a growth narrative combining B2C traction with B2B potential. Targeted VCs and HNW investors with sector expertise in education and workplace learning.',
     outcome:
       'Closed a £1m Series A round and continuing to advise on subsequent capital events as the company scales into corporate training.',
   },
   {
-    icon: <Landmark className="h-6 w-6" />,
     tag: 'Series A',
-    tagStyle: 'bg-navy text-white',
     title: 'Neobank',
     sector: 'Fintech',
     challenge:
@@ -144,95 +136,118 @@ const caseStudies = [
 
 function Hero() {
   return (
-    <>
-      <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Work</h1>
-      <p className="text-lg md:text-xl text-sand-light max-w-2xl">
-        Real outcomes for real founders. From seed raises to full exits, here is how we have helped business owners navigate complex transactions and achieve their goals.
+    <div className="max-w-3xl">
+      <p className="eyebrow mb-6">Our work</p>
+      <h1 className="font-serif text-display-lg text-white leading-[1.05] mb-8 text-balance">
+        Real outcomes for real founders.
+      </h1>
+      <p className="text-body-lg text-sand-light max-w-2xl leading-relaxed">
+        From seed raises to full exits across ten sectors. A selection of transactions we have led or are currently
+        leading.
       </p>
-    </>
+    </div>
   );
 }
 
 export default function CaseStudies() {
   return (
-    <PageLayout hero={<Hero />}>
+    <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="Case Studies - Successful Exit and M&A Transactions"
-        description="Explore our successful exit advisory, M&A transactions, and capital raises. See how Mastella Advisory has helped founders achieve their goals."
+        title="Our Work — Selected Transactions"
+        description="Real outcomes for real founders. Exit advisory, M&A transactions, and capital raises led by Mastella Advisory across ten sectors."
         canonical="https://mastellagroup.com/case-studies"
       />
 
-      <div className="container mx-auto px-6">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16 max-w-4xl mx-auto">
-          {[
-            { stat: '£50M+', label: 'Transaction Value Advised' },
-            { stat: '20+', label: 'Deals Completed' },
-            { stat: '8', label: 'Sectors Covered' },
-            { stat: '95%', label: 'Client Retention' },
-          ].map((item, i) => (
-            <div key={i} className="text-center p-4">
-              <p className="text-3xl font-bold text-navy">{item.stat}</p>
-              <p className="text-navy-light text-sm mt-1">{item.label}</p>
+      {/* Stats */}
+      <section className="bg-white py-16 md:py-20 border-b border-navy/10">
+        <div className="container mx-auto px-6">
+          <FadeIn>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
+              {[
+                { stat: '£50M+', label: 'Transaction value advised' },
+                { stat: '20+', label: 'Deals completed' },
+                { stat: '10', label: 'Sectors covered' },
+                { stat: '95%', label: 'Client retention' },
+              ].map((item) => (
+                <div key={item.label} className="text-center">
+                  <p className="font-serif text-4xl md:text-5xl text-navy mb-2 tracking-tight">{item.stat}</p>
+                  <p className="font-mono text-xs text-navy-light tracking-widest uppercase">{item.label}</p>
+                </div>
+              ))}
             </div>
-          ))}
+          </FadeIn>
         </div>
+      </section>
 
-        <h2 className="sr-only">Selected Transactions</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          {caseStudies.map((study, index) => (
-            <div
-              key={index}
-              className="bg-white border border-sand rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group"
-            >
-              <div className="flex items-center justify-between mb-5">
-                <div className="flex items-center space-x-3">
-                  <span className={`${study.tagStyle} px-3 py-1 rounded-full text-sm font-medium`}>{study.tag}</span>
-                  {study.status && (
-                    <span className="bg-navy-light text-white px-2 py-1 rounded text-xs">{study.status}</span>
-                  )}
-                </div>
-                {study.value && <span className="text-accent-dark font-bold text-lg">{study.value}</span>}
-              </div>
+      {/* Case studies grid */}
+      <section className="bg-white py-20 md:py-24">
+        <div className="container mx-auto px-6">
+          <Stagger className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
+            {caseStudies.map((study) => (
+              <StaggerItem key={study.title}>
+                <div className="bg-white border border-navy/10 rounded-xl p-8 h-full hover:border-accent/40 hover:shadow-xl transition-all duration-300">
+                  <div className="flex items-center justify-between mb-6">
+                    <div className="flex items-center gap-3">
+                      <span className="bg-navy text-white px-3 py-1 rounded-full text-xs font-mono tracking-widest uppercase">
+                        {study.tag}
+                      </span>
+                      {study.status && (
+                        <span className="bg-accent/10 text-accent-dark border border-accent/30 px-2 py-1 rounded text-xs font-mono tracking-widest uppercase">
+                          {study.status}
+                        </span>
+                      )}
+                    </div>
+                    {study.value && (
+                      <span className="font-serif text-xl text-accent-dark tracking-tight">{study.value}</span>
+                    )}
+                  </div>
 
-              <div className="flex items-center space-x-3 mb-4">
-                <div className="text-navy transition-transform duration-300 group-hover:scale-110">{study.icon}</div>
-                <div>
-                  <h3 className="text-xl font-bold text-navy">{study.title}</h3>
-                  <p className="text-navy-light text-sm">{study.sector}</p>
-                </div>
-              </div>
+                  <h3 className="font-serif text-2xl text-navy mb-1 leading-tight">{study.title}</h3>
+                  <p className="text-xs font-mono text-navy-light tracking-widest uppercase mb-6">{study.sector}</p>
 
-              <div className="space-y-3 text-sm">
-                <div>
-                  <p className="font-semibold text-navy mb-1">Challenge</p>
-                  <p className="text-navy-light">{study.challenge}</p>
+                  <div className="space-y-5 text-sm">
+                    <div>
+                      <p className="font-mono text-xs text-navy tracking-widest uppercase mb-1.5">Challenge</p>
+                      <p className="text-navy-light leading-relaxed">{study.challenge}</p>
+                    </div>
+                    <div>
+                      <p className="font-mono text-xs text-navy tracking-widest uppercase mb-1.5">Approach</p>
+                      <p className="text-navy-light leading-relaxed">{study.approach}</p>
+                    </div>
+                    <div>
+                      <p className="font-mono text-xs text-accent-dark tracking-widest uppercase mb-1.5">Outcome</p>
+                      <p className="text-navy leading-relaxed font-medium">{study.outcome}</p>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <p className="font-semibold text-navy mb-1">Our Approach</p>
-                  <p className="text-navy-light">{study.approach}</p>
-                </div>
-                <div>
-                  <p className="font-semibold text-accent-dark mb-1">Outcome</p>
-                  <p className="text-navy-light">{study.outcome}</p>
-                </div>
-              </div>
+              </StaggerItem>
+            ))}
+          </Stagger>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="bg-navy-deepest text-white py-24">
+        <div className="container mx-auto px-6">
+          <FadeIn>
+            <div className="max-w-3xl">
+              <h2 className="font-serif text-display-md text-white mb-6 leading-tight text-balance">
+                Your transaction is the one we have not run yet.
+              </h2>
+              <p className="text-body-lg text-sand-light mb-10 leading-relaxed">
+                Every transaction starts with a conversation. Let us understand your goals and tell you what is possible.
+              </p>
+              <Link
+                to="/contact"
+                className="inline-flex items-center gap-2 bg-accent text-navy-deepest px-7 py-3.5 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:-translate-y-0.5"
+              >
+                Book a confidential conversation
+                <ArrowRight className="h-4 w-4" />
+              </Link>
             </div>
-          ))}
+          </FadeIn>
         </div>
-
-        <div className="text-center mt-20 bg-sand-light rounded-2xl p-12 max-w-3xl mx-auto">
-          <h2 className="text-2xl font-bold text-navy mb-4">Ready to plan your exit?</h2>
-          <p className="text-navy-light mb-8 max-w-lg mx-auto">
-            Every successful transaction starts with a conversation. Let us understand your goals and show you what is possible.
-          </p>
-          <Link
-            to="/contact"
-            className="inline-block bg-accent text-navy px-8 py-4 rounded-lg font-semibold hover:bg-accent-light transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5"
-          >
-            Book a Free Consultation
-          </Link>
-        </div>
-      </div>
+      </section>
     </PageLayout>
   );
 }

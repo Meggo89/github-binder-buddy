@@ -1,7 +1,7 @@
-import { ArrowLeft } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Linkedin } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { PageLayout } from '../components/layout';
+import { FadeIn, Stagger, StaggerItem } from '../components/ui/motion';
 import francisMartin from '../assets/francis-martin.jpg';
 import erikVynkier from '../assets/erik-vynkier.jpg';
 
@@ -34,53 +34,63 @@ const members = [
   },
 ];
 
+function Hero() {
+  return (
+    <div className="max-w-3xl">
+      <p className="eyebrow mb-6">The team</p>
+      <h1 className="font-serif text-display-lg text-white leading-[1.05] mb-8 text-balance">
+        Senior advisors, technically-enabled delivery.
+      </h1>
+      <p className="text-body-lg text-sand-light max-w-2xl leading-relaxed">
+        Every engagement is led by one of the people below. No junior teams between you and the work that matters.
+      </p>
+    </div>
+  );
+}
+
 export default function Team() {
   return (
-    <PageLayout>
+    <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="Our Team - Experienced M&A Advisors"
+        title="Our Team — Senior M&A Advisors"
         description="Meet the Mastella Advisory leadership team. Over 50 years of combined experience in M&A, fundraising, executive search, and strategic consulting."
         canonical="https://mastellagroup.com/team"
       />
-      <div className="container mx-auto px-6">
-        <Link to="/" className="inline-flex items-center text-navy hover:text-navy-light mb-8">
-          <ArrowLeft className="h-5 w-5 mr-2" />
-          Back to Home
-        </Link>
 
-        <h1 className="text-4xl font-bold text-navy mb-12">Our Team</h1>
-        <h2 className="sr-only">Leadership</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-6xl mx-auto">
-          {members.map((member, index) => (
-            <div key={index} className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition">
-              <img
-                src={member.image}
-                alt={member.name}
-                loading="lazy"
-                className={`w-full h-64 object-cover ${member.imagePosition || 'object-center'}`}
-              />
-              <div className="p-8">
-                <div className="mb-6">
-                  <h3 className="text-2xl font-semibold text-navy">{member.name}</h3>
-                  <p className="text-navy-light font-medium">{member.title}</p>
-                </div>
-                <p className="text-navy-light mb-4">{member.description}</p>
-                <a
-                  href={member.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center text-navy hover:text-navy-light transition"
-                >
-                  <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-                  </svg>
-                  Connect on LinkedIn
-                </a>
-              </div>
-            </div>
-          ))}
+      <section className="bg-white py-24 md:py-32">
+        <div className="container mx-auto px-6">
+          <Stagger className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+            {members.map((member) => (
+              <StaggerItem key={member.name}>
+                <FadeIn>
+                  <article className="group">
+                    <div className="aspect-[4/5] overflow-hidden rounded-xl mb-6 bg-sand-light">
+                      <img
+                        src={member.image}
+                        alt={member.name}
+                        loading="lazy"
+                        className={`w-full h-full object-cover ${member.imagePosition || 'object-center'} transition-transform duration-700 group-hover:scale-105`}
+                      />
+                    </div>
+                    <h2 className="font-serif text-2xl md:text-3xl text-navy mb-1 leading-tight">{member.name}</h2>
+                    <p className="text-accent-dark font-medium tracking-wide text-sm mb-4">{member.title}</p>
+                    <p className="text-navy-light leading-relaxed mb-5">{member.description}</p>
+                    <a
+                      href={member.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-sm text-navy hover:text-accent-dark transition-colors font-medium"
+                    >
+                      <Linkedin className="h-4 w-4" />
+                      Connect on LinkedIn
+                    </a>
+                  </article>
+                </FadeIn>
+              </StaggerItem>
+            ))}
+          </Stagger>
         </div>
-      </div>
+      </section>
     </PageLayout>
   );
 }
