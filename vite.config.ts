@@ -30,7 +30,10 @@ export default defineConfig(() => ({
   server: {
     host: "::",
     port: 8080,
-    strictPort: true,
+    // Fall back to next free port instead of crashing if 8080 is held by an
+    // orphaned node process (happens when a previous dev terminal is closed
+    // without Ctrl+C). Terminal will print whichever port is actually used.
+    strictPort: false,
     headers: {
       // Dev server must never cache; Netlify handles caching + security in production.
       'Cache-Control': 'no-store, no-cache, must-revalidate',
