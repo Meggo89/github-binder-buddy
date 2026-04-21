@@ -5,42 +5,80 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   body {
-    @apply antialiased text-navy;
+    @apply font-sans text-navy bg-white;
+    font-feature-settings: "ss01", "cv01", "cv11";
   }
 
-  /* Improved focus states for accessibility */
+  /* Serif display family uses slightly tighter tracking */
+  .font-serif, .font-display {
+    font-feature-settings: "lnum", "kern";
+  }
+
   *:focus-visible {
-    @apply outline-2 outline-offset-2 outline-accent;
+    @apply outline-2 outline-offset-2 outline-accent rounded-sm;
+  }
+
+  /* Selection color */
+  ::selection {
+    @apply bg-accent/30 text-navy-deepest;
   }
 }
 
 @layer components {
-  /* Primary CTA Button - Gold accent */
   .btn-primary {
-    @apply inline-block bg-accent text-navy px-6 py-3 rounded-lg font-semibold
+    @apply inline-flex items-center justify-center bg-accent text-navy-deepest px-6 py-3 rounded-md font-semibold tracking-wide
            hover:bg-accent-light transition-all duration-200
-           hover:shadow-lg hover:-translate-y-0.5;
+           hover:shadow-lg hover:shadow-accent/20 hover:-translate-y-0.5;
   }
 
-  /* Secondary CTA Button */
   .btn-secondary {
-    @apply inline-block border-2 border-sand px-6 py-3 rounded-lg font-semibold
-           hover:bg-navy-light transition-all duration-200;
+    @apply inline-flex items-center justify-center border border-sand/30 text-white px-6 py-3 rounded-md font-medium tracking-wide
+           hover:bg-white/5 hover:border-sand/60 transition-all duration-200;
   }
 
-  /* Card hover effect */
   .card-hover {
     @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+  }
+
+  .eyebrow {
+    @apply text-xs font-mono uppercase tracking-[0.2em] text-accent;
+  }
+
+  .rule {
+    @apply h-px w-12 bg-accent;
+  }
+
+  .prose-article {
+    @apply max-w-none text-navy-light leading-relaxed;
+  }
+  .prose-article h2 {
+    @apply font-serif text-3xl md:text-4xl text-navy mt-12 mb-6 leading-tight tracking-tight;
+  }
+  .prose-article h3 {
+    @apply font-serif text-2xl text-navy mt-10 mb-4 leading-snug;
+  }
+  .prose-article h4 {
+    @apply font-semibold text-lg text-navy mt-8 mb-3;
+  }
+  .prose-article p {
+    @apply my-5 text-base md:text-lg;
+  }
+  .prose-article ul {
+    @apply list-disc pl-6 my-5 space-y-2;
+  }
+  .prose-article strong {
+    @apply text-navy font-semibold;
   }
 }
 
 @layer utilities {
-  /* Page transition animation */
   .page-enter {
-    animation: pageEnter 0.4s ease-out;
+    animation: pageEnter 0.5s cubic-bezier(0.22, 1, 0.36, 1);
   }
 
   @keyframes pageEnter {
@@ -52,5 +90,36 @@
       opacity: 1;
       transform: translateY(0);
     }
+  }
+
+  /* Subtle grain texture overlay */
+  .grain::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 3px 3px;
+    pointer-events: none;
+    mix-blend-mode: overlay;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .page-enter {
+    animation: none;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
