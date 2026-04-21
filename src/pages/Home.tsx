@@ -9,6 +9,7 @@ import { ProcessOverviewIllustration } from '../components/illustrations';
 import { processStages } from '../content/process-stages';
 import { useScrollTracking } from '../hooks/useScrollTracking';
 import { trackCTA } from '../utils/trackCTA';
+import leoMeggitt from '../assets/leo-meggitt.jpg';
 import francisMartin from '../assets/francis-martin.jpg';
 import erikVynkier from '../assets/erik-vynkier.jpg';
 
@@ -16,9 +17,7 @@ const teamPreview = [
   {
     name: 'Leo Meggitt',
     title: 'Managing Director',
-    image: '/lovable-uploads/5a8b577b-26fe-4020-b9c9-cecef8f4f735.png',
-    // Portrait source (ratio 0.67) - fits a portrait frame cleanly
-    imageFit: 'object-cover object-[center_25%]',
+    image: leoMeggitt,
     description:
       '20+ years in M&A, fundraising, executive search and leadership consulting. Investor and advisor to early-stage companies.',
   },
@@ -26,8 +25,6 @@ const teamPreview = [
     name: 'Francis Martin CBE',
     title: 'Director',
     image: francisMartin,
-    // Landscape source (ratio 1.30) - contain inside the frame so the face matches Leo's visual scale
-    imageFit: 'object-contain object-top',
     description:
       'Distinguished advisor with 25+ years in strategic consulting. Former President of the British Chambers of Commerce.',
   },
@@ -35,8 +32,6 @@ const teamPreview = [
     name: 'Erik Vynkier',
     title: 'Senior Advisor',
     image: erikVynkier,
-    // Landscape source (ratio 1.18)
-    imageFit: 'object-contain object-top',
     description:
       'Deep experience in financial services, asset management and private equity across multiple sectors and geographies.',
   },
@@ -402,12 +397,12 @@ export default function Home() {
             {teamPreview.map((member) => (
               <StaggerItem key={member.name}>
                 <div className="group">
-                  <div className="w-full h-80 md:h-[420px] overflow-hidden rounded-xl mb-5 bg-sand-light">
+                  <div className="w-full aspect-[4/5] overflow-hidden rounded-xl mb-5 bg-sand-light">
                     <img
                       src={member.image}
                       alt={member.name}
                       loading="lazy"
-                      className={`block w-full h-full ${member.imageFit} transition-transform duration-700 group-hover:scale-105`}
+                      className="block w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
                     />
                   </div>
                   <h3 className="font-serif text-2xl text-navy mb-1">{member.name}</h3>
