@@ -1,4 +1,4 @@
-// Shared design tokens for all illustrations — extracted so HMR
+// Shared design tokens for all illustrations - extracted so HMR
 // recognises primitives.tsx as a pure-component module.
 
 export const ILLUSTRATION_TOKENS = {

@@ -33,7 +33,7 @@ function Hero() {
         Start with a confidential conversation.
       </h1>
       <p className="text-body-lg text-sand-light max-w-2xl leading-relaxed">
-        Forty-five minutes. No obligation. You leave with a clearer view of what an exit process — or a capital raise —
+        Forty-five minutes. No obligation. You leave with a clearer view of what an exit process - or a capital raise -
         would actually look like for your business.
       </p>
     </div>
@@ -81,7 +81,7 @@ export default function Contact() {
   return (
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="Contact — Book a Confidential Conversation"
+        title="Contact - Book a Confidential Conversation"
         description="Schedule a confidential, no-obligation conversation with Mastella Advisory. Discuss your exit strategy, valuation, or fundraising needs."
         canonical="https://mastellagroup.com/contact"
       />

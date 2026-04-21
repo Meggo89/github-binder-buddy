@@ -17,7 +17,7 @@ const teamPreview = [
     name: 'Leo Meggitt',
     title: 'Managing Director',
     image: '/lovable-uploads/5a8b577b-26fe-4020-b9c9-cecef8f4f735.png',
-    imagePosition: 'object-[center_30%]',
+    imagePosition: 'object-[center_25%]',
     description:
       '20+ years in M&A, fundraising, executive search and leadership consulting. Investor and advisor to early-stage companies.',
   },
@@ -25,7 +25,7 @@ const teamPreview = [
     name: 'Francis Martin CBE',
     title: 'Director',
     image: francisMartin,
-    imagePosition: 'object-[center_35%]',
+    imagePosition: 'object-[center_30%]',
     description:
       'Distinguished advisor with 25+ years in strategic consulting. Former President of the British Chambers of Commerce.',
   },
@@ -33,8 +33,27 @@ const teamPreview = [
     name: 'Erik Vynkier',
     title: 'Senior Advisor',
     image: erikVynkier,
+    imagePosition: 'object-[center_30%]',
     description:
       'Deep experience in financial services, asset management and private equity across multiple sectors and geographies.',
+  },
+];
+
+const matchingSteps = [
+  {
+    eyebrow: 'Step 01',
+    title: 'We match you',
+    body: 'On first conversation we pair you with a sector-specialist advisor chosen for your transaction type, stage, and buyer universe. Never a generalist on the rota.',
+  },
+  {
+    eyebrow: 'Resident or bench',
+    title: 'One named advisor leads',
+    body: 'Either a resident Mastella partner or a vetted specialist from our wider bench of senior practitioners across sectors and deal types.',
+  },
+  {
+    eyebrow: 'Plus the AI layer',
+    title: 'Tech does the rest',
+    body: 'Financial normalisation, buyer mapping, IM drafting, data-room orchestration, term benchmarking - handled in the background at machine speed.',
   },
 ];
 
@@ -52,7 +71,7 @@ const founderImpact = [
   {
     metric: 'days',
     label: 'Valuation turnaround',
-    description: 'Defensible valuation analysis across thousands of comparables — delivered in days, not weeks.',
+    description: 'Defensible valuation analysis across thousands of comparables - delivered in days, not weeks.',
   },
   {
     metric: '100%',
@@ -94,7 +113,7 @@ function Hero() {
         <span className="text-accent italic">rebuilt for the AI era.</span>
       </h1>
       <p className="text-body-lg md:text-xl text-sand-light max-w-2xl mb-10 leading-relaxed">
-        Sharper analysis. Broader buyer reach. Faster outcomes. Fees that reflect how the work actually gets done —
+        Sharper analysis. Broader buyer reach. Faster outcomes. Fees that reflect how the work actually gets done -
         not how it was done thirty years ago.
       </p>
       <div className="flex flex-wrap gap-4">
@@ -129,7 +148,7 @@ export default function Home() {
         canonical="https://mastellagroup.com"
       />
 
-      {/* Positioning — why traditional M&A is being disrupted */}
+      {/* Positioning - why traditional M&A is being disrupted */}
       <section className="bg-ink text-white py-24 md:py-32 relative overflow-hidden">
         <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-accent/5 blur-3xl"></div>
@@ -155,7 +174,7 @@ export default function Home() {
               <FadeIn delay={0.2}>
                 <p>
                   That work is now partly automatable. Financial normalisation, comparable transaction analysis,
-                  IM drafting, buyer mapping, data-room orchestration, term benchmarking — all of it can be done faster
+                  IM drafting, buyer mapping, data-room orchestration, term benchmarking - all of it can be done faster
                   and more rigorously with AI than without it.
                 </p>
               </FadeIn>
@@ -182,7 +201,7 @@ export default function Home() {
               </h2>
               <p className="text-body-lg text-sand-light leading-relaxed">
                 Each stage in an M&amp;A process has work that benefits from automation and work that requires
-                judgment. We run both lanes in parallel — and keep them visibly separate so founders can see where each
+                judgment. We run both lanes in parallel - and keep them visibly separate so founders can see where each
                 piece of the engagement is happening.
               </p>
             </div>
@@ -212,6 +231,44 @@ export default function Home() {
               </StaggerItem>
             ))}
           </Stagger>
+        </div>
+      </section>
+
+      {/* Matched specialist */}
+      <section className="bg-ink text-white py-24 md:py-32 relative overflow-hidden">
+        <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
+          <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-[500px] h-[500px] rounded-full bg-accent/5 blur-3xl"></div>
+          <div className="absolute top-1/2 right-1/4 -translate-y-1/2 w-[500px] h-[500px] rounded-full bg-sand/5 blur-3xl"></div>
+        </div>
+        <div className="container mx-auto px-6 relative">
+          <FadeIn>
+            <div className="max-w-3xl mb-16">
+              <p className="eyebrow mb-6">Matched from day one</p>
+              <h2 className="font-serif text-display-md text-white leading-tight mb-6 text-balance">
+                The right specialist for your deal, not the generalist on the rota.
+              </h2>
+              <p className="text-body-lg text-sand-light leading-relaxed">
+                Mastella is deliberately small. Every engagement is led personally by someone senior who has done your
+                kind of transaction before. No teams of junior analysts between you and the work that matters.
+              </p>
+            </div>
+          </FadeIn>
+
+          <Stagger className="grid md:grid-cols-3 gap-px bg-white/10 rounded-2xl overflow-hidden max-w-6xl">
+            {matchingSteps.map((card) => (
+              <StaggerItem key={card.title} className="bg-ink p-8 md:p-10">
+                <p className="font-mono text-xs text-accent tracking-widest mb-5">{card.eyebrow}</p>
+                <h3 className="font-serif text-2xl text-white mb-4 leading-snug">{card.title}</h3>
+                <p className="text-sand-light leading-relaxed text-sm">{card.body}</p>
+              </StaggerItem>
+            ))}
+          </Stagger>
+
+          <FadeIn delay={0.2}>
+            <p className="font-serif text-2xl md:text-3xl text-accent italic text-center mt-16 max-w-3xl mx-auto leading-snug text-balance">
+              &ldquo;The AI is the leverage. The matched advisor is the difference.&rdquo;
+            </p>
+          </FadeIn>
         </div>
       </section>
 
@@ -274,12 +331,12 @@ export default function Home() {
             {teamPreview.map((member) => (
               <StaggerItem key={member.name}>
                 <div className="group">
-                  <div className="aspect-[4/5] overflow-hidden rounded-xl mb-5 bg-sand-light">
+                  <div className="w-full h-80 md:h-[420px] overflow-hidden rounded-xl mb-5 bg-sand-light">
                     <img
                       src={member.image}
                       alt={member.name}
                       loading="lazy"
-                      className={`w-full h-full object-cover ${member.imagePosition || 'object-center'} transition-transform duration-700 group-hover:scale-105`}
+                      className={`block w-full h-full object-cover ${member.imagePosition || 'object-center'} transition-transform duration-700 group-hover:scale-105`}
                     />
                   </div>
                   <h3 className="font-serif text-2xl text-navy mb-1">{member.name}</h3>

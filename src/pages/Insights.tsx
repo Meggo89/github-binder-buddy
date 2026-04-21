@@ -25,7 +25,7 @@ export default function Insights() {
   return (
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="Insights — M&A Analysis from Mastella"
+        title="Insights - M&A Analysis from Mastella"
         description="Long-form analysis on exits, fundraising, valuation, and how AI is reshaping M&A advisory. Written by the Mastella team."
         canonical="https://mastellagroup.com/insights"
       />

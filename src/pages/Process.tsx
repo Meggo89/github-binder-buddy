@@ -15,7 +15,7 @@ function Hero() {
       </h1>
       <p className="text-body-lg text-sand-light max-w-2xl leading-relaxed">
         Six stages from initial readiness assessment to completion. At each stage we are explicit about what AI is
-        doing and what a senior advisor is doing — because the split is where the advantage comes from.
+        doing and what a senior advisor is doing - because the split is where the advantage comes from.
       </p>
     </div>
   );
@@ -26,7 +26,7 @@ export default function Process() {
     <PageLayout hero={<Hero />} heroTone="ink" mainClassName="">
       <SEO
         title="Our AI-Enabled M&A Process"
-        description="Six stages from readiness to completion. We are explicit at every stage about what AI does and what senior advisors do — from automated financial normalisation to human-led negotiation."
+        description="Six stages from readiness to completion. We are explicit at every stage about what AI does and what senior advisors do - from automated financial normalisation to human-led negotiation."
         canonical="https://mastellagroup.com/process"
       />
 
@@ -45,7 +45,7 @@ export default function Process() {
                 <div>
                   <p className="font-mono text-xs text-accent tracking-widest mb-1">AI LANE</p>
                   <p className="text-sand-light leading-relaxed">
-                    Analysis, drafting, tracking, benchmarking — everything that is structured enough to automate.
+                    Analysis, drafting, tracking, benchmarking - everything that is structured enough to automate.
                   </p>
                 </div>
               </div>
@@ -54,7 +54,7 @@ export default function Process() {
                 <div>
                   <p className="font-mono text-xs text-sand tracking-widest mb-1">HUMAN LANE</p>
                   <p className="text-sand-light leading-relaxed">
-                    Positioning, relationships, negotiation — everything that still genuinely requires judgment.
+                    Positioning, relationships, negotiation - everything that still genuinely requires judgment.
                   </p>
                 </div>
               </div>

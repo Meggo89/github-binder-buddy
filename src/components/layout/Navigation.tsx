@@ -83,7 +83,7 @@ export function Navigation() {
   return (
     <>
       <nav className="container mx-auto px-6 py-5 flex items-center justify-between relative z-20">
-        <Link to="/" className="flex items-center" aria-label="Mastella Advisory — home">
+        <Link to="/" className="flex items-center" aria-label="Mastella Advisory - home">
           <img src={mastellaLogo} alt="Mastella Advisory" className="h-24 md:h-28 w-auto" />
         </Link>
         <div className="hidden md:flex space-x-7 items-center">

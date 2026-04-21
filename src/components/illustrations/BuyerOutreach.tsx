@@ -38,14 +38,14 @@ export function BuyerOutreachIllustration() {
         OUTREACH
       </Label>
 
-      {/* Connectors to inner ring (priority — human-led, solid) */}
+      {/* Connectors to inner ring (priority - human-led, solid) */}
       {buyers
         .filter((b) => b.priority)
         .map((b, i) => (
           <Connector key={`p${i}`} x1={hubX + 48} y1={hubY} x2={b.x - b.r} y2={b.y} tone="human" />
         ))}
 
-      {/* Connectors to outer ring (systematic — AI-led, dashed) */}
+      {/* Connectors to outer ring (systematic - AI-led, dashed) */}
       {buyers
         .filter((b) => !b.priority)
         .map((b, i) => (

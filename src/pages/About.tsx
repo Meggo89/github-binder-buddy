@@ -7,11 +7,11 @@ import { FadeIn, Stagger, StaggerItem } from '../components/ui/motion';
 const principles = [
   {
     title: 'Two lanes, always visible',
-    body: 'AI on one side, senior advisors on the other. Every engagement is explicit about which lane a piece of work is in. Founders always know who — or what — is doing what.',
+    body: 'AI on one side, senior advisors on the other. Every engagement is explicit about which lane a piece of work is in. Founders always know who - or what - is doing what.',
   },
   {
     title: 'Judgment is not automatable',
-    body: 'Positioning a business for a buyer, leading a negotiation, telling a founder a term is worse than it looks — these still require people with experience. We do not pretend otherwise.',
+    body: 'Positioning a business for a buyer, leading a negotiation, telling a founder a term is worse than it looks - these still require people with experience. We do not pretend otherwise.',
   },
   {
     title: 'Fees reflect the work',
@@ -43,7 +43,7 @@ export default function About() {
   return (
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="About Mastella — The AI-enabled M&A thesis"
+        title="About Mastella - The AI-enabled M&A thesis"
         description="A lower mid-market advisory firm built around a specific thesis: traditional M&A has been slow to adopt the technology that has transformed adjacent professional services. Mastella is the response."
         canonical="https://mastellagroup.com/about"
       />
@@ -63,7 +63,7 @@ export default function About() {
             <div className="md:col-span-8 space-y-6 text-body-lg text-navy-light leading-relaxed">
               <FadeIn>
                 <p>
-                  Adjacent professional services — consulting, audit, legal research — have quietly absorbed a generation
+                  Adjacent professional services - consulting, audit, legal research - have quietly absorbed a generation
                   of AI tooling. M&amp;A advisory, especially in the lower mid-market, has not.
                 </p>
               </FadeIn>
@@ -78,7 +78,7 @@ export default function About() {
                 <p>
                   Those activities are now, to a significant extent, machinable. Models can normalise financials,
                   analyse thousands of comparable transactions, draft an IM, map a buyer universe, orchestrate a data
-                  room, and benchmark term sheets against market norms — faster than a team of analysts and often more
+                  room, and benchmark term sheets against market norms - faster than a team of analysts and often more
                   thoroughly.
                 </p>
               </FadeIn>
@@ -118,6 +118,45 @@ export default function About() {
               </StaggerItem>
             ))}
           </Stagger>
+        </div>
+      </section>
+
+      {/* The bench */}
+      <section className="bg-white py-24 md:py-32 border-t border-navy/10">
+        <div className="container mx-auto px-6">
+          <div className="max-w-5xl mx-auto grid md:grid-cols-12 gap-12 md:gap-16">
+            <div className="md:col-span-4">
+              <FadeIn>
+                <p className="eyebrow text-navy-light mb-6">The bench</p>
+                <h2 className="font-serif text-display-md text-navy leading-tight text-balance">
+                  A small team with deeper reach.
+                </h2>
+              </FadeIn>
+            </div>
+            <div className="md:col-span-8 space-y-6 text-body-lg text-navy-light leading-relaxed">
+              <FadeIn>
+                <p>
+                  We are a deliberately small resident team. Keeping the firm small is what makes seniority-only
+                  delivery possible. But a small team alone cannot cover every sector and deal type that lower
+                  mid-market founders need.
+                </p>
+              </FadeIn>
+              <FadeIn delay={0.1}>
+                <p>
+                  So we run a vetted bench: a network of senior specialists who have been through exits and raises
+                  across financial services, technology, consumer, industrials, infrastructure, healthcare and more. At
+                  engagement we match you with either a resident partner or the right bench specialist for your
+                  transaction type and buyer universe.
+                </p>
+              </FadeIn>
+              <FadeIn delay={0.2}>
+                <p className="text-navy font-medium">
+                  Tech plus the right specialist. That is the equation. AI gives us leverage; the matched advisor gives
+                  you someone who has already done your kind of deal.
+                </p>
+              </FadeIn>
+            </div>
+          </div>
         </div>
       </section>
 

@@ -18,7 +18,7 @@ const services: Service[] = [
   {
     icon: <Handshake className="h-6 w-6 text-accent" />,
     title: 'Sell-side Advisory',
-    lead: 'Full-service exit advisory for founders taking a business to market — minority sale, majority sale, or full exit.',
+    lead: 'Full-service exit advisory for founders taking a business to market - minority sale, majority sale, or full exit.',
     aiLayer:
       'Readiness assessment, financial normalisation, IM drafting, systematic buyer identification, data-room orchestration, term-sheet benchmarking.',
     humanLayer:
@@ -48,7 +48,7 @@ const services: Service[] = [
   {
     icon: <UserSearch className="h-6 w-6 text-accent" />,
     title: 'Executive Search',
-    lead: 'Leadership placement for the pre-exit period — CFO, COO, CRO — and interim management for transitions.',
+    lead: 'Leadership placement for the pre-exit period - CFO, COO, CRO - and interim management for transitions.',
     aiLayer:
       'Market mapping of candidate universe. Analysis of track records against specific pre-exit requirements. Structured evaluation.',
     humanLayer:
@@ -76,8 +76,8 @@ export default function Services() {
   return (
     <PageLayout hero={<Hero />} heroTone="ink" mainClassName="">
       <SEO
-        title="Services — Sell-side, Fundraising, Exit Readiness, Executive Search"
-        description="Sell-side M&A advisory, fundraising, exit readiness consulting, and executive search — all delivered through an AI-enabled model that combines machine speed with senior judgment."
+        title="Services - Sell-side, Fundraising, Exit Readiness, Executive Search"
+        description="Sell-side M&A advisory, fundraising, exit readiness consulting, and executive search - all delivered through an AI-enabled model that combines machine speed with senior judgment."
         canonical="https://mastellagroup.com/services"
       />
 
@@ -144,7 +144,7 @@ export default function Services() {
               </h2>
               <p className="text-body-lg text-sand-light mb-10 leading-relaxed">
                 Most founders do not start with a clear answer. Book a short conversation and we&apos;ll tell you honestly
-                which of these — if any — is the right starting point for your business.
+                which of these - if any - is the right starting point for your business.
               </p>
               <Link
                 to="/contact"

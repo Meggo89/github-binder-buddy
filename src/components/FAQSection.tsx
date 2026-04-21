@@ -11,7 +11,7 @@ const DEFAULT_FAQ: FAQItem[] = [
   {
     question: 'How does AI actually change the advisory relationship?',
     answer:
-      'Your day-to-day contact is still a senior advisor. AI changes what gets done in the background — financial normalisation, buyer mapping, IM drafting, diligence tracking, term benchmarking. The work that used to take weeks of analyst time happens much faster, so senior time is spent on positioning, relationships and negotiation rather than production.',
+      'Your day-to-day contact is still a senior advisor. AI changes what gets done in the background - financial normalisation, buyer mapping, IM drafting, diligence tracking, term benchmarking. The work that used to take weeks of analyst time happens much faster, so senior time is spent on positioning, relationships and negotiation rather than production.',
   },
   {
     question: 'What size of business do you work with?',
@@ -21,7 +21,7 @@ const DEFAULT_FAQ: FAQItem[] = [
   {
     question: 'How long does a typical exit take?',
     answer:
-      'Most exits run 6–12 months from engagement to completion, shorter than the traditional 9–18 month range — primarily because readiness gaps are surfaced earlier and IM production is faster. We recommend starting exit planning 12–24 months before target completion so remediation time is on your side.',
+      'Most exits run 6–12 months from engagement to completion, shorter than the traditional 9–18 month range - primarily because readiness gaps are surfaced earlier and IM production is faster. We recommend starting exit planning 12–24 months before target completion so remediation time is on your side.',
   },
   {
     question: 'How do you charge?',

@@ -41,7 +41,7 @@ function Hero() {
       </h1>
       <p className="text-body-lg text-sand-light max-w-2xl leading-relaxed">
         The right leadership team can make or break an exit. We place the executives who make a business more valuable
-        to acquirers — and the interim managers who bridge transitions.
+        to acquirers - and the interim managers who bridge transitions.
       </p>
     </div>
   );
@@ -82,10 +82,10 @@ export default function ExecutiveSearch() {
                     business more attractive to buyers.
                   </p>
                   <ul className="space-y-2 text-sm text-navy-light font-mono tracking-wide">
-                    <li>— CFO</li>
-                    <li>— COO</li>
-                    <li>— CRO</li>
-                    <li>— Head of Sales &amp; Marketing</li>
+                    <li>- CFO</li>
+                    <li>- COO</li>
+                    <li>- CRO</li>
+                    <li>- Head of Sales &amp; Marketing</li>
                   </ul>
                 </div>
               </FadeIn>
@@ -98,10 +98,10 @@ export default function ExecutiveSearch() {
                     or stabilise through the pre-exit phase.
                   </p>
                   <ul className="space-y-2 text-sm text-navy-light font-mono tracking-wide">
-                    <li>— Bridge transitions</li>
-                    <li>— Operational improvements</li>
-                    <li>— Financial systems</li>
-                    <li>— Growth initiatives</li>
+                    <li>- Bridge transitions</li>
+                    <li>- Operational improvements</li>
+                    <li>- Financial systems</li>
+                    <li>- Growth initiatives</li>
                   </ul>
                 </div>
               </FadeIn>

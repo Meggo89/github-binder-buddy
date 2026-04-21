@@ -25,7 +25,7 @@ export const processStages: ProcessStage[] = [
     slug: 'exit-readiness',
     number: '01',
     title: 'Exit Readiness Assessment',
-    lead: 'We establish where the business actually stands against acquirer expectations — months before due diligence would force the question.',
+    lead: 'We establish where the business actually stands against acquirer expectations - months before due diligence would force the question.',
     aiCapability:
       'Automated analysis of financials, customer contracts, customer concentration, and operational structure. Pattern recognition against thousands of successful exits in similar sectors identifies the readiness gaps that cost founders the most at deal time.',
     humanTouchpoint:

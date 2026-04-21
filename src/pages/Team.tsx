@@ -10,7 +10,7 @@ const members = [
     name: 'Leo Meggitt',
     title: 'Managing Director',
     image: '/lovable-uploads/5a8b577b-26fe-4020-b9c9-cecef8f4f735.png',
-    imagePosition: 'object-[center_30%]',
+    imagePosition: 'object-[center_25%]',
     linkedin: 'https://www.linkedin.com/in/leomeggitt/',
     description:
       '20+ years experience in M&A, fundraising, executive search and leadership consulting. Investor and advisor to early-stage companies.',
@@ -19,7 +19,7 @@ const members = [
     name: 'Francis Martin CBE',
     title: 'Director',
     image: francisMartin,
-    imagePosition: 'object-[center_35%]',
+    imagePosition: 'object-[center_30%]',
     linkedin: 'https://www.linkedin.com/in/francis-martin-cbe-54aborb/',
     description:
       'Distinguished advisor with 25+ years in strategic consulting. Former President of British Chambers of Commerce and recipient of Commander of the British Empire.',
@@ -28,6 +28,7 @@ const members = [
     name: 'Erik Vynkier',
     title: 'Senior Advisor',
     image: erikVynkier,
+    imagePosition: 'object-[center_30%]',
     linkedin: 'https://www.linkedin.com/in/erikvynkier/',
     description:
       'Highly experienced in financial services, asset management and private equity. Has worked on deals across multiple sectors and geographies.',
@@ -52,7 +53,7 @@ export default function Team() {
   return (
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="Our Team — Senior M&A Advisors"
+        title="Our Team - Senior M&A Advisors"
         description="Meet the Mastella Advisory leadership team. Over 50 years of combined experience in M&A, fundraising, executive search, and strategic consulting."
         canonical="https://mastellagroup.com/team"
       />
@@ -64,12 +65,12 @@ export default function Team() {
               <StaggerItem key={member.name}>
                 <FadeIn>
                   <article className="group">
-                    <div className="aspect-[4/5] overflow-hidden rounded-xl mb-6 bg-sand-light">
+                    <div className="w-full h-80 md:h-[440px] overflow-hidden rounded-xl mb-6 bg-sand-light">
                       <img
                         src={member.image}
                         alt={member.name}
                         loading="lazy"
-                        className={`w-full h-full object-cover ${member.imagePosition || 'object-center'} transition-transform duration-700 group-hover:scale-105`}
+                        className={`block w-full h-full object-cover ${member.imagePosition || 'object-center'} transition-transform duration-700 group-hover:scale-105`}
                       />
                     </div>
                     <h2 className="font-serif text-2xl md:text-3xl text-navy mb-1 leading-tight">{member.name}</h2>
@@ -89,6 +90,34 @@ export default function Team() {
               </StaggerItem>
             ))}
           </Stagger>
+        </div>
+      </section>
+
+      {/* The wider bench */}
+      <section className="bg-sand-light py-24 md:py-32 border-t border-navy/5">
+        <div className="container mx-auto px-6">
+          <div className="max-w-5xl mx-auto grid md:grid-cols-12 gap-12 md:gap-16">
+            <div className="md:col-span-5">
+              <p className="eyebrow text-navy-light mb-6">The wider bench</p>
+              <h2 className="font-serif text-display-md text-navy leading-tight text-balance">
+                Matched to a named specialist for your deal.
+              </h2>
+            </div>
+            <div className="md:col-span-7 space-y-5 text-body-lg text-navy-light leading-relaxed">
+              <p>
+                We keep the resident team deliberately small. That is how we guarantee senior-only delivery. But no
+                three-person team can cover every sector and deal type that founders in the lower mid-market need.
+              </p>
+              <p>
+                So we run a vetted bench - senior practitioners with deep expertise across financial services,
+                technology, consumer, industrials, infrastructure, healthcare and more. At engagement we match you with
+                either a resident partner or the right bench specialist for your transaction.
+              </p>
+              <p className="text-navy font-medium">
+                Tech plus the right specialist. That is the equation.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </PageLayout>

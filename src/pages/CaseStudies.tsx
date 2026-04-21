@@ -153,7 +153,7 @@ export default function CaseStudies() {
   return (
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="Our Work — Selected Transactions"
+        title="Our Work - Selected Transactions"
         description="Real outcomes for real founders. Exit advisory, M&A transactions, and capital raises led by Mastella Advisory across ten sectors."
         canonical="https://mastellagroup.com/case-studies"
       />
