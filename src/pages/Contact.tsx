@@ -3,7 +3,27 @@ import { Mail, Phone, MapPin, CheckCircle, Loader2 } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { PageLayout } from '../components/layout';
 import { FadeIn } from '../components/ui/motion';
-import { submitContactRequest, ContactRequest } from '../utils/contactService';
+import { submitNetlifyForm } from '../utils/netlifyForms';
+
+type FormData = {
+  name: string;
+  company: string;
+  email: string;
+  phone: string;
+  interest: string;
+  message: string;
+};
+
+type Status = 'idle' | 'submitting' | 'success' | 'error';
+
+const initialFormData: FormData = {
+  name: '',
+  company: '',
+  email: '',
+  phone: '',
+  interest: '',
+  message: '',
+};
 
 function Hero() {
   return (
@@ -24,21 +44,9 @@ const inputClasses =
   'w-full bg-white border border-navy/20 rounded-md px-4 py-3 text-navy placeholder:text-navy-light/60 focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 transition-all';
 
 export default function Contact() {
-  const [formData, setFormData] = useState<ContactRequest>({
-    name: '',
-    company: '',
-    email: '',
-    phone: '',
-    interest: '',
-    message: '',
-  });
-
-  const [formStatus, setFormStatus] = useState({
-    submitted: false,
-    submitting: false,
-    error: false,
-    message: '',
-  });
+  const [formData, setFormData] = useState<FormData>(initialFormData);
+  const [status, setStatus] = useState<Status>('idle');
+  const [errorMessage, setErrorMessage] = useState('');
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
@@ -51,43 +59,22 @@ export default function Contact() {
     e.preventDefault();
 
     if (!formData.name || !formData.email || !formData.message || !formData.interest || !formData.company) {
-      setFormStatus({
-        submitted: false,
-        submitting: false,
-        error: true,
-        message: 'Please fill in all required fields.',
-      });
+      setStatus('error');
+      setErrorMessage('Please fill in all required fields.');
       return;
     }
 
-    setFormStatus({
-      submitted: false,
-      submitting: true,
-      error: false,
-      message: 'Sending your message…',
-    });
+    setStatus('submitting');
+    setErrorMessage('');
 
     try {
-      const result = await submitContactRequest(formData);
-      if (result.success) {
-        setFormStatus({
-          submitted: true,
-          submitting: false,
-          error: false,
-          message: result.message,
-        });
-        setFormData({ name: '', company: '', email: '', phone: '', interest: '', message: '' });
-      } else {
-        setFormStatus({ submitted: false, submitting: false, error: true, message: result.message });
-      }
-    } catch (error) {
-      console.error('Error submitting contact form:', error);
-      setFormStatus({
-        submitted: false,
-        submitting: false,
-        error: true,
-        message: 'An unexpected error occurred. Please try again later.',
-      });
+      await submitNetlifyForm('contact', formData);
+      setStatus('success');
+      setFormData(initialFormData);
+    } catch (err) {
+      console.error('contact form error', err);
+      setStatus('error');
+      setErrorMessage('Something went wrong. Please try again or email leo@mastellagroup.com directly.');
     }
   };
 
@@ -157,25 +144,42 @@ export default function Contact() {
             <div className="md:col-span-7">
               <FadeIn delay={0.1}>
                 <div className="bg-sand-light rounded-2xl p-8 md:p-10 border border-navy/10">
-                  {formStatus.submitted ? (
+                  {status === 'success' ? (
                     <div className="text-center py-12">
                       <div className="mx-auto w-16 h-16 bg-accent/20 rounded-full flex items-center justify-center mb-6">
                         <CheckCircle className="h-8 w-8 text-accent-dark" />
                       </div>
                       <h3 className="font-serif text-2xl text-navy mb-3">Message received.</h3>
-                      <p className="text-navy-light mb-8 max-w-sm mx-auto">{formStatus.message}</p>
+                      <p className="text-navy-light mb-8 max-w-sm mx-auto">
+                        Leo will reply to you directly, usually within one working day.
+                      </p>
                       <button
-                        onClick={() => setFormStatus((prev) => ({ ...prev, submitted: false }))}
+                        onClick={() => setStatus('idle')}
                         className="text-sm text-navy font-medium hover:text-accent-dark transition-colors"
                       >
                         Send another message
                       </button>
                     </div>
                   ) : (
-                    <form onSubmit={handleSubmit} className="space-y-5">
-                      {formStatus.error && (
+                    <form
+                      name="contact"
+                      method="POST"
+                      data-netlify="true"
+                      netlify-honeypot="bot-field"
+                      onSubmit={handleSubmit}
+                      className="space-y-5"
+                    >
+                      {/* Hidden fields for Netlify */}
+                      <input type="hidden" name="form-name" value="contact" />
+                      <p className="hidden">
+                        <label>
+                          Don&apos;t fill this out if you&apos;re human: <input name="bot-field" />
+                        </label>
+                      </p>
+
+                      {status === 'error' && (
                         <div className="p-4 bg-red-50 border border-red-200 text-red-800 rounded-md text-sm">
-                          {formStatus.message}
+                          {errorMessage}
                         </div>
                       )}
 
@@ -232,10 +236,10 @@ export default function Contact() {
 
                       <button
                         type="submit"
-                        disabled={formStatus.submitting}
+                        disabled={status === 'submitting'}
                         className="w-full bg-navy-deepest text-white px-6 py-3.5 rounded-md font-semibold tracking-wide hover:bg-navy-dark transition-all duration-200 disabled:opacity-60 flex items-center justify-center gap-2"
                       >
-                        {formStatus.submitting ? (
+                        {status === 'submitting' ? (
                           <>
                             <Loader2 className="h-4 w-4 animate-spin" />
                             Sending…
@@ -244,9 +248,7 @@ export default function Contact() {
                           'Send message'
                         )}
                       </button>
-                      <p className="text-xs text-navy-light text-center">
-                        All enquiries are confidential.
-                      </p>
+                      <p className="text-xs text-navy-light text-center">All enquiries are confidential.</p>
                     </form>
                   )}
                 </div>
