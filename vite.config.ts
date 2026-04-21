@@ -8,6 +8,9 @@ export default defineConfig(() => ({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
+    // Force a single copy of React across framer-motion and the app.
+    // Without this, Vite's dep pre-bundler can ship two Reacts and hooks throw.
+    dedupe: ['react', 'react-dom'],
   },
   build: {
     rollupOptions: {
@@ -37,6 +40,14 @@ export default defineConfig(() => ({
     },
   },
   optimizeDeps: {
+    include: [
+      'react',
+      'react-dom',
+      'react/jsx-runtime',
+      'react/jsx-dev-runtime',
+      'react-dom/client',
+      'framer-motion',
+    ],
     esbuildOptions: {
       target: 'esnext',
       supported: {
