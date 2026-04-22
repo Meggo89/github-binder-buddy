@@ -31,7 +31,6 @@ export function Footer() {
                   leo@mastellagroup.com
                 </a>
               </li>
-              <li>+44 (0)20 7123 4567</li>
               <li className="pt-2 leading-relaxed">
                 International House<br />
                 101 King's Cross Rd<br />
