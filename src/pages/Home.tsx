@@ -107,7 +107,7 @@ function Hero() {
     <div className="max-w-4xl">
       <p className="eyebrow mb-6">Lower mid-market · £5M–£50M</p>
       <h1 className="font-serif text-display-xl text-white mb-8 text-balance leading-[1.05]">
-        M&amp;A advisory,<br />
+        Business exits,<br />
         <span className="text-accent italic">rebuilt for the AI era.</span>
       </h1>
       <p className="text-body-lg md:text-xl text-sand-light max-w-2xl mb-10 leading-relaxed">
@@ -141,7 +141,7 @@ export default function Home() {
   return (
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="M&A Advisory Rebuilt for the AI Era"
+        title="Business Exits Rebuilt for the AI Era"
         description="Strategic exit and M&A advisory for founders building companies worth £5M to £50M. AI-enabled delivery producing faster, sharper, lower-cost outcomes than traditional advisors."
         canonical="https://mastellagroup.com"
       />
