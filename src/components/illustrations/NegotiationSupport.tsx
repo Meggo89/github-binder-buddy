@@ -17,7 +17,7 @@ export function NegotiationSupportIllustration() {
   const barGap = 56;
 
   return (
-    <IllustrationFrame ariaLabel="Negotiation support: term sheet benchmarked against market norms, outliers flagged for human judgment">
+    <IllustrationFrame ariaLabel="Negotiation support: term sheet benchmarked against market norms, outliers flagged for human judgement">
       {/* X-axis market range header */}
       <Label x={barStartX} y={50} tone="muted" size={9}>
         FOUNDER-FRIENDLY

@@ -42,7 +42,7 @@ const stages: StageDetail[] = [
   {
     short: '06',
     label: ['COMPLETION'],
-    human: ['Negotiation lead', 'Pushback judgment'],
+    human: ['Negotiation lead', 'Pushback judgement'],
     ai: ['Term benchmarks', 'Scenario models'],
   },
 ];
@@ -250,7 +250,7 @@ export function ProcessOverviewIllustration() {
       <g transform={`translate(${viewW / 2 - 220}, 530)`}>
         <CapabilityBadge x={0} y={0} kind="human" />
         <Label x={64} y={13} tone="muted" size={9}>
-          judgment &amp; relationships
+          judgement &amp; relationships
         </Label>
         <CapabilityBadge x={260} y={0} kind="ai" />
         <Label x={306} y={13} tone="muted" size={9}>

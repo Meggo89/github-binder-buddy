@@ -66,7 +66,7 @@ function Hero() {
       </h1>
       <p className="text-body-lg text-sand-light max-w-2xl leading-relaxed">
         Every engagement runs on the same two-lane model: AI handles what can be machined, senior advisors handle what
-        requires judgment. Below is where we apply it.
+        requires judgement. Below is where we apply it.
       </p>
     </div>
   );
@@ -77,7 +77,7 @@ export default function Services() {
     <PageLayout hero={<Hero />} heroTone="ink" mainClassName="">
       <SEO
         title="Services - Sell-side, Fundraising, Exit Readiness, Executive Search"
-        description="Sell-side M&A advisory, fundraising, exit readiness consulting, and executive search - all delivered through an AI-enabled model that combines machine speed with senior judgment."
+        description="Sell-side M&A advisory, fundraising, exit readiness consulting, and executive search - all delivered through an AI-enabled model that combines machine speed with senior judgement."
         canonical="https://mastellagroup.com/services"
       />
 

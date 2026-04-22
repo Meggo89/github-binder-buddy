@@ -55,7 +55,7 @@ export const processStages: ProcessStage[] = [
     aiCapability:
       'First-draft IM generation from structured data and founder interviews. Market sizing and competitive landscape analysis. Investment thesis and growth narrative drafting.',
     humanTouchpoint:
-      'Strategic positioning. Narrative judgment. Sense-checking against buyer perspectives. Founder collaboration on the story being told.',
+      'Strategic positioning. Narrative judgement. Sense-checking against buyer perspectives. Founder collaboration on the story being told.',
     benefit: 'IM timeline compressed from 6–8 weeks to 2–3',
     benefitMetric: '2–3 wks',
     illustration: <IMProductionIllustration />,

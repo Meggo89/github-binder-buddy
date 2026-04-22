@@ -55,7 +55,7 @@ export default function Process() {
                 <div>
                   <p className="font-mono text-xs text-sand tracking-widest mb-1">HUMAN LANE</p>
                   <p className="text-sand-light leading-relaxed">
-                    Positioning, relationships, negotiation - everything that still genuinely requires judgment.
+                    Positioning, relationships, negotiation - everything that still genuinely requires judgement.
                   </p>
                 </div>
               </div>

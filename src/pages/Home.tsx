@@ -179,7 +179,7 @@ export default function Home() {
               <FadeIn delay={0.3}>
                 <p className="text-white font-medium">
                   Mastella is built around that insight. We use AI to do the work that used to consume weeks, so
-                  experienced advisors can spend their time on what still requires judgment: positioning, relationships,
+                  experienced advisors can spend their time on what still requires judgement: positioning, relationships,
                   negotiation, and the calls that actually move deals.
                 </p>
               </FadeIn>
@@ -263,11 +263,11 @@ export default function Home() {
             <div className="max-w-3xl mb-16">
               <p className="eyebrow mb-6">The process</p>
               <h2 className="font-serif text-display-md text-white leading-tight mb-6 text-balance">
-                Six stages. AI on one side, human judgment on the other.
+                Six stages. AI on one side, human judgement on the other.
               </h2>
               <p className="text-body-lg text-sand-light leading-relaxed">
                 Each stage in an M&amp;A process has work that benefits from automation and work that requires
-                judgment. We run both lanes in parallel - and keep them visibly separate so founders can see where each
+                judgement. We run both lanes in parallel - and keep them visibly separate so founders can see where each
                 piece of the engagement is happening.
               </p>
             </div>

@@ -8,7 +8,7 @@ export function DiligenceCoordinationIllustration() {
   ];
 
   return (
-    <IllustrationFrame ariaLabel="Diligence coordination: a structured data room with automated status tracking, human judgment layered on process orchestration">
+    <IllustrationFrame ariaLabel="Diligence coordination: a structured data room with automated status tracking, human judgement layered on process orchestration">
       <Label x={80} y={40} tone="ai" size={9}>
         DATA ROOM · AUTO-ORGANISED
       </Label>

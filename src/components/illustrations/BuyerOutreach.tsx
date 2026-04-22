@@ -88,7 +88,7 @@ export function BuyerOutreachIllustration() {
       </Label>
       <CapabilityBadge x={40} y={70} kind="human" />
       <Label x={102} y={83} tone="muted" size={10}>
-        relationships &amp; judgment
+        relationships &amp; judgement
       </Label>
     </IllustrationFrame>
   );
