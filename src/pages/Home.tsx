@@ -151,21 +151,21 @@ export default function Home() {
       />
 
       {/* Positioning - why traditional M&A is being disrupted */}
-      <section className="bg-ink text-white py-24 md:py-32 relative overflow-hidden">
+      <section className="bg-sand-light py-24 md:py-32 relative overflow-hidden">
         <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-accent/5 blur-3xl"></div>
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-accent/10 blur-3xl"></div>
         </div>
         <div className="container mx-auto px-6 relative">
           <div className="grid md:grid-cols-12 gap-12 items-start">
             <div className="md:col-span-5">
               <FadeIn>
-                <p className="eyebrow mb-6">The shift</p>
-                <h2 className="font-serif text-display-md text-white leading-tight mb-6 text-balance">
+                <p className="eyebrow mb-6 text-navy-light">The shift</p>
+                <h2 className="font-serif text-display-md text-navy leading-tight mb-6 text-balance">
                   Traditional M&amp;A has been slow to change. Adjacent professional services haven&apos;t.
                 </h2>
               </FadeIn>
             </div>
-            <div className="md:col-span-7 space-y-6 text-body-lg text-sand-light leading-relaxed">
+            <div className="md:col-span-7 space-y-6 text-body-lg text-navy-light leading-relaxed">
               <FadeIn delay={0.1}>
                 <p>
                   The 5–7% fee structure on lower mid-market deals reflects the manual nature of how the work used to get
@@ -181,7 +181,7 @@ export default function Home() {
                 </p>
               </FadeIn>
               <FadeIn delay={0.3}>
-                <p className="text-white font-medium">
+                <p className="text-navy font-medium">
                   Mastella is built around that insight. We use AI to do the work that used to consume weeks, so
                   experienced advisors can spend their time on what still requires judgement: positioning, relationships,
                   negotiation, and the calls that actually move deals.
