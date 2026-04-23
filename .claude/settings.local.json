@@ -9,7 +9,13 @@
       "Bash(npm run dev:*)",
       "Bash(cmd /c \"for /f \"\"tokens=5\"\" %a in \\(''netstat -ano ^| findstr :8080 ^| findstr LISTENING''\\) do taskkill /PID %a /F\")",
       "Bash(powershell -Command \"Stop-Process -Id 73272 -Force\")",
-      "Bash(powershell -Command \"Select-String -Path ''c:\\\\Users\\\\Leo PC\\\\Desktop\\\\github-binder-buddy\\\\src\\\\App.tsx'' -Pattern ''Plan Your Exit|bg-accent text-navy|Exit Readiness Checklist|What Our Clients Say|Frequently Asked'' | Select-Object -First 5\")"
+      "Bash(powershell -Command \"Select-String -Path ''c:\\\\Users\\\\Leo PC\\\\Desktop\\\\github-binder-buddy\\\\src\\\\App.tsx'' -Pattern ''Plan Your Exit|bg-accent text-navy|Exit Readiness Checklist|What Our Clients Say|Frequently Asked'' | Select-Object -First 5\")",
+      "Bash(python -c:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(rm \"c:/Users/Leo PC/Desktop/github-binder-buddy/src/pages/ValuationTool.tsx\")",
+      "Bash(rm -rf \"c:/Users/Leo PC/Desktop/github-binder-buddy/.bolt\")",
+      "Bash(npm install *)"
     ]
   }
 }
