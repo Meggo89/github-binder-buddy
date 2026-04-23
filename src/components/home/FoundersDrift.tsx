@@ -6,17 +6,17 @@ const modules = import.meta.glob<{ default: string }>('../../assets/founders/*.j
   eager: true,
 });
 
-const ALL_PHOTOS = Object.entries(modules)
+const PHOTOS = Object.entries(modules)
   .sort(([a], [b]) => a.localeCompare(b))
   .map(([, mod]) => mod.default);
 
-// Hand-shuffled index order so diverse faces are spread throughout the strip,
-// clamped to however many images actually exist.
-const ORDER = [22, 3, 14, 0, 18, 9, 23, 5, 12, 20, 2, 16, 7, 21, 11, 4, 17, 8, 19, 1, 13, 6, 15, 10];
-
-const PHOTOS = ORDER
-  .map((i) => ALL_PHOTOS[i])
-  .filter((url): url is string => Boolean(url));
+// Rotate the array by `n`. Used to give each row a different starting point so
+// faces spread evenly across the strip even with variable photo counts.
+function rotate<T>(arr: T[], n: number): T[] {
+  if (arr.length === 0) return arr;
+  const k = ((n % arr.length) + arr.length) % arr.length;
+  return [...arr.slice(k), ...arr.slice(0, k)];
+}
 
 function Row({ photos, speed, dir }: { photos: string[]; speed: number; dir: 1 | -1 }) {
   const [reduced, setReduced] = useState(false);
@@ -69,10 +69,13 @@ function Row({ photos, speed, dir }: { photos: string[]; speed: number; dir: 1 |
 }
 
 export function FoundersDrift() {
+  // Each row carries the full set, started at a different offset, so faces
+  // read differently in each row as they drift.
+  const n = PHOTOS.length;
   const rows: { photos: string[]; speed: number; dir: 1 | -1 }[] = [
-    { photos: PHOTOS.slice(0, 12), speed: 30, dir: 1 },
-    { photos: PHOTOS.slice(6, 18), speed: 40, dir: -1 },
-    { photos: PHOTOS.slice(12, 24), speed: 35, dir: 1 },
+    { photos: PHOTOS, speed: 30, dir: 1 },
+    { photos: rotate(PHOTOS, Math.floor(n / 3)).reverse(), speed: 40, dir: -1 },
+    { photos: rotate(PHOTOS, Math.floor((2 * n) / 3)), speed: 35, dir: 1 },
   ];
 
   return (
