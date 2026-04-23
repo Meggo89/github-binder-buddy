@@ -1,7 +1,9 @@
 import { Linkedin } from 'lucide-react';
 import { SEO } from '../components/SEO';
+import { StructuredData } from '../components/StructuredData';
 import { PageLayout } from '../components/layout';
 import { FadeIn, Stagger, StaggerItem } from '../components/ui/motion';
+import { SITE, canonicalFor } from '../seo/site-meta';
 import leoMeggitt from '../assets/leo-meggitt.jpg';
 import francisMartin from '../assets/francis-martin.jpg';
 import erikVynkier from '../assets/erik-vynkier.jpg';
@@ -48,6 +50,25 @@ function Hero() {
 }
 
 export default function Team() {
+  const personSchemas = members.map((m) => ({
+    '@type': 'Person',
+    name: m.name,
+    jobTitle: m.title,
+    worksFor: { '@id': `${SITE.domain}/#organization` },
+    url: m.linkedin,
+    sameAs: [m.linkedin],
+    image: `${SITE.domain}${m.image}`,
+    description: m.description,
+  }));
+
+  const breadcrumb = {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE.domain },
+      { '@type': 'ListItem', position: 2, name: 'Team', item: canonicalFor('/team') },
+    ],
+  };
+
   return (
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
@@ -55,6 +76,7 @@ export default function Team() {
         description="Meet the Mastella Advisory leadership team. Over 50 years of combined experience in M&A, fundraising, executive search, and strategic consulting."
         canonical="https://mastellagroup.com/team"
       />
+      <StructuredData data={[...personSchemas, breadcrumb]} />
 
       <section className="bg-white py-24 md:py-32">
         <div className="container mx-auto px-6">

@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async';
+import { SITE, fullTitle } from '../seo/site-meta';
 
 interface SEOProps {
   title?: string;
@@ -9,38 +10,39 @@ interface SEOProps {
 }
 
 export function SEO({
-  title = 'Mastella Advisory | M&A Excellence in the Lower Mid-Market',
-  description = 'Expert M&A advisory services for SMEs, combining traditional expertise with innovative technology. Specialising in business exits, valuations, and strategic acquisitions across the UK.',
-  canonical = 'https://mastellagroup.com',
+  title = SITE.defaultTitle,
+  description = SITE.defaultDescription,
+  canonical = SITE.domain,
   type = 'website',
-  image = 'https://mastellagroup.com/og-image.jpg',
+  image = SITE.defaultOgImage,
 }: SEOProps) {
-  const siteTitle = title.includes('Mastella Advisory') ? title : `${title} | Mastella Advisory`;
+  const siteTitle = fullTitle(title);
 
   return (
     <Helmet>
-      {/* Basic Meta Tags */}
+      {/* Basic */}
       <title>{siteTitle}</title>
       <meta name="description" content={description} />
       <link rel="canonical" href={canonical} />
 
-      {/* Open Graph Meta Tags */}
+      {/* Open Graph */}
       <meta property="og:title" content={siteTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:type" content={type} />
       <meta property="og:url" content={canonical} />
       <meta property="og:image" content={image} />
-      <meta property="og:site_name" content="Mastella Advisory" />
+      <meta property="og:site_name" content={SITE.name} />
+      <meta property="og:locale" content={SITE.locale} />
 
-      {/* Twitter Card Tags */}
+      {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={siteTitle} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
 
-      {/* Additional Meta Tags */}
-      <meta name="author" content="Mastella Advisory" />
-      <meta name="robots" content="index, follow" />
+      {/* Additional */}
+      <meta name="author" content={SITE.name} />
+      <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
       <meta name="geo.region" content="GB" />
       <meta name="geo.placename" content="London" />
     </Helmet>

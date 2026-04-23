@@ -12,59 +12,95 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
-    <title>Mastella Advisory | Exit Advisory for Growth Companies</title>
-    <meta name="description" content="Expert M&A advisory services for SMEs, combining traditional expertise with innovative technology. Specialising in business exits, valuations, and strategic acquisitions across the UK." />
-    
+    <title>Business Exits Rebuilt for the AI Era | Mastella Advisory</title>
+    <meta name="description" content="AI-enabled exit and M&A advisory for founders building companies worth £5M to £50M. Sharper analysis, broader buyer reach, faster outcomes." />
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://mastellagroup.com" />
-    <meta property="og:title" content="Mastella Advisory | M&A Excellence in the Lower Mid-Market" />
-    <meta property="og:description" content="Expert M&A advisory services for SMEs, combining traditional expertise with innovative technology. Specialising in business exits, valuations, and strategic acquisitions across the UK." />
-    <meta property="og:image" content="https://imgur.com/4asBOEH.jpg" />
+    <meta property="og:title" content="Business Exits Rebuilt for the AI Era | Mastella Advisory" />
+    <meta property="og:description" content="AI-enabled exit and M&A advisory for founders building companies worth £5M to £50M. Sharper analysis, broader buyer reach, faster outcomes." />
+    <meta property="og:image" content="https://mastellagroup.com/og-image.jpg" />
     <meta property="og:site_name" content="Mastella Advisory" />
-    
+    <meta property="og:locale" content="en_GB" />
+
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content="https://mastellagroup.com" />
-    <meta name="twitter:title" content="Mastella Advisory | M&A Excellence in the Lower Mid-Market" />
-    <meta name="twitter:description" content="Expert M&A advisory services for SMEs, combining traditional expertise with innovative technology." />
-    <meta name="twitter:image" content="https://imgur.com/4asBOEH.jpg" />
-    
-    <!-- Keywords and Other Meta -->
-    <meta name="keywords" content="M&A advisory, mergers and acquisitions, SME exit planning, business valuation, mid-market M&A, technology-driven M&A, UK M&A consultancy, business sale preparation" />
+    <meta name="twitter:title" content="Business Exits Rebuilt for the AI Era | Mastella Advisory" />
+    <meta name="twitter:description" content="AI-enabled exit and M&A advisory for founders building companies worth £5M to £50M." />
+    <meta name="twitter:image" content="https://mastellagroup.com/og-image.jpg" />
+
+    <!-- Crawl + locale -->
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <meta name="language" content="English" />
     <meta name="author" content="Mastella Advisory" />
     <meta name="geo.region" content="GB" />
     <meta name="geo.placename" content="London" />
     <link rel="canonical" href="https://mastellagroup.com" />
-    
-    <!-- Structured Data -->
+
+    <!-- Google Search Console verification. Replace value when GSC issues the token. -->
+    <!-- <meta name="google-site-verification" content="REPLACE_WITH_GSC_TOKEN" /> -->
+
+    <!-- Structured Data: Organization + WebSite + ProfessionalService -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      "name": "Mastella Advisory",
-      "description": "Expert M&A advisory services for SMEs, combining traditional expertise with innovative technology.",
-      "url": "https://mastellagroup.com",
-      "logo": "https://mastellagroup.com/logo.svg",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "101 King's Cross Rd",
-        "addressLocality": "London",
-        "postalCode": "WC1X 9LP",
-        "addressCountry": "GB"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "51.5290",
-        "longitude": "-0.1182"
-      },
-      "openingHours": "Mo,Tu,We,Th,Fr 09:00-17:30",
-      "telephone": "+44-20-7123-4567",
-      "sameAs": [
-        "https://www.linkedin.com/company/mastella-advisory",
-        "https://twitter.com/mastellaadvisory"
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://mastellagroup.com/#organization",
+          "name": "Mastella Advisory",
+          "url": "https://mastellagroup.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://mastellagroup.com/favicon.svg",
+            "width": 512,
+            "height": 512
+          },
+          "email": "leo@mastellagroup.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "International House, 101 King's Cross Rd",
+            "addressLocality": "London",
+            "postalCode": "WC1X 9LP",
+            "addressCountry": "GB"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/company/mastella-advisory"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://mastellagroup.com/#website",
+          "url": "https://mastellagroup.com",
+          "name": "Mastella Advisory",
+          "inLanguage": "en-GB",
+          "publisher": { "@id": "https://mastellagroup.com/#organization" }
+        },
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://mastellagroup.com/#service",
+          "name": "Mastella Advisory",
+          "description": "AI-enabled exit and M&A advisory for lower mid-market founders building companies worth £5M to £50M.",
+          "url": "https://mastellagroup.com",
+          "image": "https://mastellagroup.com/og-image.jpg",
+          "areaServed": { "@type": "Country", "name": "United Kingdom" },
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "International House, 101 King's Cross Rd",
+            "addressLocality": "London",
+            "postalCode": "WC1X 9LP",
+            "addressCountry": "GB"
+          },
+          "openingHoursSpecification": [{
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+            "opens": "09:00",
+            "closes": "17:30"
+          }],
+          "provider": { "@id": "https://mastellagroup.com/#organization" }
+        }
       ]
     }
     </script>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, CheckCircle, Loader2 } from 'lucide-react';
+import { Mail, MapPin, CheckCircle, Loader2 } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { PageLayout } from '../components/layout';
 import { FadeIn } from '../components/ui/motion';
@@ -110,16 +110,6 @@ export default function Contact() {
                         <a href="mailto:leo@mastellagroup.com" className="text-navy hover:text-accent-dark transition-colors">
                           leo@mastellagroup.com
                         </a>
-                      </div>
-                    </div>
-
-                    <div className="flex items-start gap-4">
-                      <div className="w-10 h-10 rounded-lg bg-accent/10 border border-accent/30 flex items-center justify-center flex-shrink-0">
-                        <Phone className="h-4 w-4 text-accent-dark" />
-                      </div>
-                      <div>
-                        <p className="font-mono text-xs text-navy-light tracking-widest mb-1">PHONE</p>
-                        <p className="text-navy">+44 (0)20 7123 4567</p>
                       </div>
                     </div>
 

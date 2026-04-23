@@ -103,8 +103,7 @@ export default function PrivacyPolicy() {
                 International House<br />
                 101 King&apos;s Cross Rd<br />
                 London, WC1X 9LP<br />
-                Email: leo@mastellagroup.com<br />
-                Phone: +44 (0)20 7123 4567
+                Email: leo@mastellagroup.com
               </p>
             </div>
           </div>

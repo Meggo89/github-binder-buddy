@@ -2,8 +2,10 @@ import { ArrowRight, Handshake, Banknote, ClipboardCheck, UserSearch, Cpu, User 
 import { ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import { SEO } from '../components/SEO';
+import { StructuredData } from '../components/StructuredData';
 import { PageLayout } from '../components/layout';
 import { FadeIn, Stagger, StaggerItem } from '../components/ui/motion';
+import { SITE, canonicalFor } from '../seo/site-meta';
 
 type Service = {
   icon: ReactNode;
@@ -73,6 +75,23 @@ function Hero() {
 }
 
 export default function Services() {
+  const serviceSchemas = services.map((s) => ({
+    '@type': 'Service',
+    name: s.title,
+    description: s.lead,
+    provider: { '@id': `${SITE.domain}/#organization` },
+    areaServed: { '@type': 'Country', name: 'United Kingdom' },
+    serviceType: s.title,
+  }));
+
+  const breadcrumb = {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE.domain },
+      { '@type': 'ListItem', position: 2, name: 'Services', item: canonicalFor('/services') },
+    ],
+  };
+
   return (
     <PageLayout hero={<Hero />} heroTone="ink" mainClassName="">
       <SEO
@@ -80,6 +99,7 @@ export default function Services() {
         description="Sell-side M&A advisory, fundraising, exit readiness consulting, and executive search - all delivered through an AI-enabled model that combines machine speed with senior judgement."
         canonical="https://mastellagroup.com/services"
       />
+      <StructuredData data={[...serviceSchemas, breadcrumb]} />
 
       <section className="bg-white py-24 md:py-32">
         <div className="container mx-auto px-6">

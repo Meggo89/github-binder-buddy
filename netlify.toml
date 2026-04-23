@@ -5,17 +5,50 @@
 [build.environment]
   NODE_VERSION = "20"
 
+# Baseline security + crawl headers, applied to every response.
+# Cache-Control is handled per path below (NOT here) so HTML shells re-fetch.
 [[headers]]
   for = "/*"
   [headers.values]
     X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
     Content-Security-Policy = "default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' https: data:; font-src 'self' data: https://fonts.gstatic.com; form-action 'self'; connect-src 'self' https://www.google-analytics.com;"
-    Cache-Control = "public, max-age=31536000"
 
+# HTML shells must revalidate every time so deploys are picked up immediately.
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# The SPA fallback serves / as HTML; same rule.
+[[headers]]
+  for = "/"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Fingerprinted JS/CSS/images get long cache.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Sitemap and robots should refresh daily.
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/robots.txt"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
+# SPA fallback for client-side routes that don't have a prerendered index.html.
+# The prerender step emits /about/index.html, /services/index.html, etc., which
+# Netlify serves directly - the fallback only fires for unknown paths.
 [[redirects]]
   from = "/*"
   to = "/index.html"

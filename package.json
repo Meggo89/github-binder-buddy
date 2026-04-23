@@ -8,10 +8,12 @@
   },
   "scripts": {
     "dev": "cross-env NODE_OPTIONS=--max-old-space-size=8192 vite",
-    "build": "vite build",
+    "prebuild": "tsx scripts/build-sitemap.ts",
+    "build": "vite build && tsx scripts/prerender.ts",
     "lint": "eslint .",
     "preview": "vite preview",
-    "sitemap": "node generate-sitemap.js",
+    "sitemap": "tsx scripts/build-sitemap.ts",
+    "prerender": "tsx scripts/prerender.ts",
     "analyze": "madge --circular src/main.tsx",
     "build:dev": "vite build --mode development"
   },
@@ -40,6 +42,7 @@
     "sitemap": "^7.1.1",
     "tailwindcss": "^3.4.1",
     "terser": "^5.27.2",
+    "tsx": "^4.21.0",
     "typescript": "^5.2.2",
     "typescript-eslint": "^7.0.2",
     "vite": "^5.1.4"
