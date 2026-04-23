@@ -1,9 +1,22 @@
 import { useEffect, useRef, useState } from 'react';
 
-// 24 founder portraits, hand-shuffled so diverse faces are distributed throughout.
-// Images live in public/founders/ so they ship cleanly through Vite's static pipeline.
+// Vite glob import: picks up every jpg in src/assets/founders and fingerprints
+// each URL at build time. Eager so the module resolves synchronously.
+const modules = import.meta.glob<{ default: string }>('../../assets/founders/*.jpg', {
+  eager: true,
+});
+
+const ALL_PHOTOS = Object.entries(modules)
+  .sort(([a], [b]) => a.localeCompare(b))
+  .map(([, mod]) => mod.default);
+
+// Hand-shuffled index order so diverse faces are spread throughout the strip,
+// clamped to however many images actually exist.
 const ORDER = [22, 3, 14, 0, 18, 9, 23, 5, 12, 20, 2, 16, 7, 21, 11, 4, 17, 8, 19, 1, 13, 6, 15, 10];
-const PHOTOS = ORDER.map((i) => `/founders/founder-${String(i + 1).padStart(2, '0')}.jpg`);
+
+const PHOTOS = ORDER
+  .map((i) => ALL_PHOTOS[i])
+  .filter((url): url is string => Boolean(url));
 
 function Row({ photos, speed, dir }: { photos: string[]; speed: number; dir: 1 | -1 }) {
   const [reduced, setReduced] = useState(false);
