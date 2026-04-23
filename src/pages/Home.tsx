@@ -12,6 +12,10 @@ import { trackCTA } from '../utils/trackCTA';
 import leoMeggitt from '../assets/leo-meggitt.jpg';
 import francisMartin from '../assets/francis-martin.jpg';
 import erikVynkier from '../assets/erik-vynkier.jpg';
+import { TypedHeroTagline } from '../components/home/TypedHero';
+import { FoundersDrift } from '../components/home/FoundersDrift';
+import { AIHumanSplit } from '../components/home/AIHumanSplit';
+import { MarketPulse } from '../components/home/MarketPulse';
 
 const teamPreview = [
   {
@@ -108,7 +112,7 @@ function Hero() {
       <p className="eyebrow mb-6">Lower mid-market · £5M–£50M</p>
       <h1 className="font-serif text-display-xl text-white mb-8 text-balance leading-[1.05]">
         Business exits,<br />
-        <span className="text-accent italic">rebuilt for the AI era.</span>
+        <TypedHeroTagline />
       </h1>
       <p className="text-body-lg md:text-xl text-sand-light max-w-2xl mb-10 leading-relaxed">
         Sharper analysis. Broader buyer reach. Faster outcomes. Fees that reflect how the work actually gets done -
@@ -188,6 +192,9 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Founders drift - human counterweight to the AI narrative */}
+      <FoundersDrift />
+
       {/* Bespoke agents */}
       <section className="bg-navy-deepest text-white py-24 md:py-32 relative overflow-hidden">
         <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
@@ -251,6 +258,13 @@ export default function Home() {
                   </div>
                 ))}
               </div>
+            </div>
+          </FadeIn>
+
+          {/* AI/Human ratio bar - auto-cycling through the tasks */}
+          <FadeIn delay={0.4}>
+            <div className="mt-12">
+              <AIHumanSplit />
             </div>
           </FadeIn>
         </div>
@@ -492,6 +506,9 @@ export default function Home() {
       </section>
 
       <FAQSection />
+
+      {/* Market pulse - pre-footer live band */}
+      <MarketPulse />
     </PageLayout>
   );
 }
