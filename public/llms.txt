@@ -1,6 +1,6 @@
 # Mastella Advisory
 
-> Off-market M&A advisory for UK owner-managed SMEs with £2–50M turnover. Based in London, UK.
+> Off-market M&A advisory for UK owner-managed SMEs with £5–100M turnover. Based in London, UK.
 
 ## About
 
@@ -29,7 +29,7 @@ Mastella Advisory provides end-to-end M&A advisory services for small to medium 
 
 ## Target Audience
 
-UK owner-managed SMEs with £2–50M turnover. Founder-led businesses, family-owned companies, and PE-backed firms seeking an exit or capital raise.
+UK owner-managed SMEs with £5–100M turnover. Founder-led businesses, family-owned companies, and PE-backed firms seeking an exit or capital raise.
 
 ## Location
 

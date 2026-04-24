@@ -9,7 +9,7 @@ export function Footer() {
           <div>
             <img src={mastellaLogo} alt="Mastella Advisory" className="h-24 w-auto mb-6" />
             <p className="text-sm leading-relaxed max-w-xs">
-              Business exits, rebuilt for the AI era. Strategic exit advisory for UK SMEs with £2M–£50M turnover.
+              Business exits, rebuilt for the AI era. Strategic exit advisory for UK SMEs with £5M–£100M turnover.
             </p>
           </div>
           <div>
