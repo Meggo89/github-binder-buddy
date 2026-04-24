@@ -8,7 +8,7 @@ export const SITE = {
   domain: 'https://mastellagroup.com',
   defaultTitle: 'Business Exits Rebuilt for the AI Era | Mastella Advisory',
   defaultDescription:
-    'AI-enabled exit and M&A advisory for founders building companies worth £5M to £50M. Sharper analysis, broader buyer reach, faster outcomes.',
+    'AI-enabled M&A advisory for UK SMEs with £2–50M turnover. Sharper analysis, broader buyer reach, faster outcomes than traditional advisors.',
   defaultOgImage: 'https://mastellagroup.com/og-image.jpg',
   locale: 'en_GB',
   lastmod: '2026-04-23',
@@ -30,15 +30,15 @@ export const ROUTES: RouteMeta[] = [
     path: '/',
     title: 'Business Exits Rebuilt for the AI Era',
     description:
-      'AI-enabled exit and M&A advisory for founders building companies worth £5M to £50M. Sharper analysis, broader buyer reach, faster outcomes.',
+      'AI-enabled M&A advisory for UK SMEs with £2–50M turnover. Sharper analysis, broader buyer reach, faster outcomes than traditional advisors.',
     priority: 1.0,
     changefreq: 'weekly',
   },
   {
     path: '/about',
-    title: 'About Mastella - The AI-enabled M&A thesis',
+    title: 'About Mastella Advisory | M&A for UK SMEs £2–50M Turnover',
     description:
-      'A lower mid-market advisory firm built around a specific thesis: M&A has been slow to adopt the technology that transformed adjacent professional services. Mastella is the response.',
+      'Off-market M&A advisory for UK owner-managed SMEs with £2–50M turnover. Confidential sell-side, fundraising and exit readiness, led by senior advisors.',
     priority: 0.8,
     changefreq: 'monthly',
   },

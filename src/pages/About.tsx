@@ -18,8 +18,8 @@ const principles = [
     body: 'When the machinable parts of a process actually get machined, the hours add up differently. Our fee structures reflect that. We publish them, we do not hide behind them.',
   },
   {
-    title: 'Lower mid-market, not everything',
-    body: 'We work with businesses valued £5M–£50M. Outside that range other advisors are better placed. Saying what we are not is part of saying what we are.',
+    title: 'UK SMEs, not everything',
+    body: 'We work with UK SMEs with £2M–£50M turnover. Outside that range other advisors are better placed. Saying what we are not is part of saying what we are.',
   },
 ];
 
@@ -43,8 +43,8 @@ export default function About() {
   return (
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="About Mastella - The AI-enabled M&A thesis"
-        description="A lower mid-market advisory firm built around a specific thesis: traditional M&A has been slow to adopt the technology that has transformed adjacent professional services. Mastella is the response."
+        title="About Mastella Advisory | M&A for UK SMEs £2–50M Turnover"
+        description="Off-market M&A advisory for UK owner-managed SMEs with £2–50M turnover. Confidential sell-side, fundraising and exit readiness, led by senior advisors."
         canonical="https://mastellagroup.com/about"
       />
 
@@ -69,7 +69,7 @@ export default function About() {
               </FadeIn>
               <FadeIn delay={0.1}>
                 <p>
-                  The 5–7% fee structure on a £5M–£50M deal reflects the manual nature of how that work used to get
+                  The 5–7% fee structure on a £2M–£50M deal reflects the manual nature of how that work used to get
                   done: financial normalisation by hand, information memoranda written over six to eight weeks, buyer
                   outreach run from a rolodex, diligence coordinated in email.
                 </p>
@@ -176,7 +176,7 @@ export default function About() {
             <div className="md:col-span-7 space-y-6 text-body-lg text-sand-light leading-relaxed">
               <FadeIn delay={0.1}>
                 <p>
-                  Businesses valued £5M to £50M. Founder-led, family-owned, or PE-backed. Planning an exit in the next
+                  UK owner-managed SMEs with £2M–£50M turnover. Founder-led, family-owned, or PE-backed. Planning an exit in the next
                   6–24 months, running a current capital raise, or simply wanting to know what their business is
                   actually worth and what the path would look like.
                 </p>
