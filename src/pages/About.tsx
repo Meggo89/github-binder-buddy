@@ -28,12 +28,11 @@ function Hero() {
     <div className="max-w-3xl">
       <p className="eyebrow mb-6">About</p>
       <h1 className="font-serif text-display-lg text-white leading-[1.05] mb-8 text-balance">
-        M&amp;A advisory has been slow to change. That is our opportunity.
+        We find buyers other advisors don&apos;t reach.
       </h1>
       <p className="text-body-lg text-sand-light max-w-2xl leading-relaxed">
-        Mastella is a lower mid-market advisory firm built around a specific thesis: the work that used to justify
-        5–7% fees can largely be done faster and more rigorously with AI, and senior advisor time is better spent
-        where it genuinely matters.
+        Mastella is an M&amp;A advisory firm for UK owner-managed SMEs with £5M–£50M turnover. Off-market buyer
+        sourcing, confidential processes, senior-led throughout.
       </p>
     </div>
   );

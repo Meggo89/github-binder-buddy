@@ -115,8 +115,8 @@ function Hero() {
         <TypedHeroTagline />
       </h1>
       <p className="text-body-lg md:text-xl text-sand-light max-w-2xl mb-10 leading-relaxed">
-        Sharper analysis. Broader buyer reach. Faster outcomes. Fees that reflect how the work actually gets done -
-        not how it was done thirty years ago.
+        Off-market sourcing that finds buyers other advisors don&apos;t reach. Confidential, senior-led throughout. Fees
+        aligned to outcomes.
       </p>
       <div className="flex flex-wrap gap-4">
         <Link
@@ -145,8 +145,8 @@ export default function Home() {
   return (
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="Business Exits Rebuilt for the AI Era"
-        description="AI-enabled M&A advisory for UK SMEs with £5–50M turnover. Sharper analysis, broader buyer reach, faster outcomes than traditional advisors."
+        title="Off-market M&A for UK SME owners"
+        description="Off-market M&A for UK SME owners with £5–50M turnover. We find buyers other advisors don't reach. Confidential sell-side, fundraising and exit readiness."
         canonical="https://mastellagroup.com"
       />
 

@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 
 const PHRASES = [
+  'found off-market.',
+  'led by senior advisors.',
+  'confidential from first conversation.',
   'rebuilt for the AI era.',
-  'led by people who have done this.',
-  'faster, sharper, senior-led.',
-  'ten weeks faster than traditional.',
 ];
 
 export function TypedHeroTagline() {
@@ -43,7 +43,7 @@ export function TypedHeroTagline() {
   }, [cc, phase, pi, reduced]);
 
   if (reduced) {
-    return <span className="italic text-accent">rebuilt for the AI era.</span>;
+    return <span className="italic text-accent">found off-market.</span>;
   }
 
   return (

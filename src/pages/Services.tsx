@@ -64,11 +64,10 @@ function Hero() {
     <div className="max-w-3xl">
       <p className="eyebrow mb-6">What we do</p>
       <h1 className="font-serif text-display-lg text-white leading-[1.05] mb-8 text-balance">
-        Four services. One delivery model.
+        Four services. Senior-led throughout.
       </h1>
       <p className="text-body-lg text-sand-light max-w-2xl leading-relaxed">
-        Every engagement runs on the same two-lane model: AI handles what can be machined, senior advisors handle what
-        requires judgement. Below is where we apply it.
+        Every engagement is led by a senior advisor matched to your sector and deal type. Below is where we apply it.
       </p>
     </div>
   );
@@ -95,8 +94,8 @@ export default function Services() {
   return (
     <PageLayout hero={<Hero />} heroTone="ink" mainClassName="">
       <SEO
-        title="Services - Sell-side, Fundraising, Exit Readiness, Executive Search"
-        description="Sell-side M&A advisory, fundraising, exit readiness consulting, and executive search - all delivered through an AI-enabled model that combines machine speed with senior judgement."
+        title="M&A Services for UK SME Owners - Sell-side, Fundraising, Exit Readiness"
+        description="M&A services for UK SME owners: sell-side, fundraising, exit readiness and executive search. Confidential, senior-led, focused on £5–50M turnover."
         canonical="https://mastellagroup.com/services"
       />
       <StructuredData data={[...serviceSchemas, breadcrumb]} />

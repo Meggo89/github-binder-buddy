@@ -14,8 +14,8 @@ function Hero() {
         How the work actually gets done.
       </h1>
       <p className="text-body-lg text-sand-light max-w-2xl leading-relaxed">
-        Six stages from initial readiness assessment to completion. At each stage we are explicit about what AI is
-        doing and what a senior advisor is doing - because the split is where the advantage comes from.
+        Six stages from initial readiness assessment to completion. Senior-led throughout, with off-market buyer
+        sourcing and confidential process management.
       </p>
     </div>
   );
@@ -25,8 +25,8 @@ export default function Process() {
   return (
     <PageLayout hero={<Hero />} heroTone="ink" mainClassName="">
       <SEO
-        title="Our AI-Enabled M&A Process"
-        description="Six stages from readiness to completion. We are explicit at every stage about what AI does and what senior advisors do - from automated financial normalisation to human-led negotiation."
+        title="How We Source Buyers"
+        description="How we source buyers other advisors don't reach. Six-stage senior-led M&A process for UK SME owners with £5–50M turnover."
         canonical="https://mastellagroup.com/process"
       />
 

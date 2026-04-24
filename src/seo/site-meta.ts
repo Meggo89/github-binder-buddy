@@ -6,12 +6,12 @@
 export const SITE = {
   name: 'Mastella Advisory',
   domain: 'https://mastellagroup.com',
-  defaultTitle: 'Business Exits Rebuilt for the AI Era | Mastella Advisory',
+  defaultTitle: 'Off-market M&A for UK SME owners | Mastella Advisory',
   defaultDescription:
-    'AI-enabled M&A advisory for UK SMEs with £5–50M turnover. Sharper analysis, broader buyer reach, faster outcomes than traditional advisors.',
+    "Off-market M&A for UK SME owners with £5–50M turnover. We find buyers other advisors don't reach. Confidential sell-side, fundraising and exit readiness.",
   defaultOgImage: 'https://mastellagroup.com/og-image.jpg',
   locale: 'en_GB',
-  lastmod: '2026-04-23',
+  lastmod: '2026-04-24',
 } as const;
 
 export type RouteMeta = {
@@ -28,9 +28,9 @@ export type RouteMeta = {
 export const ROUTES: RouteMeta[] = [
   {
     path: '/',
-    title: 'Business Exits Rebuilt for the AI Era',
+    title: 'Off-market M&A for UK SME owners',
     description:
-      'AI-enabled M&A advisory for UK SMEs with £5–50M turnover. Sharper analysis, broader buyer reach, faster outcomes than traditional advisors.',
+      "Off-market M&A for UK SME owners with £5–50M turnover. We find buyers other advisors don't reach. Confidential sell-side, fundraising and exit readiness.",
     priority: 1.0,
     changefreq: 'weekly',
   },
@@ -44,17 +44,17 @@ export const ROUTES: RouteMeta[] = [
   },
   {
     path: '/services',
-    title: 'Services - Sell-side, Fundraising, Exit Readiness, Executive Search',
+    title: 'M&A Services for UK SME Owners - Sell-side, Fundraising, Exit Readiness',
     description:
-      'Sell-side M&A advisory, fundraising, exit readiness consulting, and executive search, delivered through an AI-enabled model that combines machine speed with senior judgement.',
+      'M&A services for UK SME owners: sell-side, fundraising, exit readiness and executive search. Confidential, senior-led, focused on £5–50M turnover.',
     priority: 0.8,
     changefreq: 'monthly',
   },
   {
     path: '/process',
-    title: 'Our AI-Enabled M&A Process',
+    title: 'How We Source Buyers',
     description:
-      'Six stages from readiness to completion. Explicit at every stage about what AI does and what senior advisors do, from automated financial normalisation to human-led negotiation.',
+      "How we source buyers other advisors don't reach. Six-stage senior-led M&A process for UK SME owners with £5–50M turnover.",
     priority: 0.8,
     changefreq: 'monthly',
   },
@@ -84,9 +84,9 @@ export const ROUTES: RouteMeta[] = [
   },
   {
     path: '/insights',
-    title: 'Insights - M&A Analysis from Mastella',
+    title: 'Insights - M&A Perspectives for UK SME Owners',
     description:
-      'Long-form analysis on exits, fundraising, valuation, and how AI is reshaping M&A advisory. Written by the Mastella team.',
+      'Long-form analysis on exits, fundraising and valuation for UK SME owners. Written by the Mastella team for founders, not other advisors.',
     priority: 0.8,
     changefreq: 'weekly',
   },

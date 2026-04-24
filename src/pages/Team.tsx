@@ -40,7 +40,7 @@ function Hero() {
     <div className="max-w-3xl">
       <p className="eyebrow mb-6">The team</p>
       <h1 className="font-serif text-display-lg text-white leading-[1.05] mb-8 text-balance">
-        Senior advisors, technically-enabled delivery.
+        Senior advisors. No junior teams in between.
       </h1>
       <p className="text-body-lg text-sand-light max-w-2xl leading-relaxed">
         Every engagement is led by one of the people below. No junior teams between you and the work that matters.
