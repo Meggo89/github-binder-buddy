@@ -19,7 +19,7 @@ const principles = [
   },
   {
     title: 'UK SMEs, not everything',
-    body: 'We work with UK SMEs with £5M–£100M turnover. Outside that range other advisors are better placed. Saying what we are not is part of saying what we are.',
+    body: 'We work with UK SMEs with £5M–£50M turnover. Outside that range other advisors are better placed. Saying what we are not is part of saying what we are.',
   },
 ];
 
@@ -43,8 +43,8 @@ export default function About() {
   return (
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="About Mastella Advisory | M&A for UK SMEs £5–100M Turnover"
-        description="Off-market M&A advisory for UK owner-managed SMEs with £5–100M turnover. Confidential sell-side, fundraising and exit readiness, led by senior advisors."
+        title="About Mastella Advisory | M&A for UK SMEs £5–50M Turnover"
+        description="Off-market M&A advisory for UK owner-managed SMEs with £5–50M turnover. Confidential sell-side, fundraising and exit readiness, led by senior advisors."
         canonical="https://mastellagroup.com/about"
       />
 
@@ -69,7 +69,7 @@ export default function About() {
               </FadeIn>
               <FadeIn delay={0.1}>
                 <p>
-                  The 5–7% fee structure on a £5M–£100M deal reflects the manual nature of how that work used to get
+                  The 5–7% fee structure on a £5M–£50M deal reflects the manual nature of how that work used to get
                   done: financial normalisation by hand, information memoranda written over six to eight weeks, buyer
                   outreach run from a rolodex, diligence coordinated in email.
                 </p>
@@ -176,7 +176,7 @@ export default function About() {
             <div className="md:col-span-7 space-y-6 text-body-lg text-sand-light leading-relaxed">
               <FadeIn delay={0.1}>
                 <p>
-                  UK owner-managed SMEs with £5M–£100M turnover. Founder-led, family-owned, or PE-backed. Planning an exit in the next
+                  UK owner-managed SMEs with £5M–£50M turnover. Founder-led, family-owned, or PE-backed. Planning an exit in the next
                   6–24 months, running a current capital raise, or simply wanting to know what their business is
                   actually worth and what the path would look like.
                 </p>

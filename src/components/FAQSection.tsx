@@ -16,7 +16,7 @@ const DEFAULT_FAQ: FAQItem[] = [
   {
     question: 'What size of business do you work with?',
     answer:
-      'UK owner-managed SMEs with £5M–£100M turnover. Founder-led businesses, family-owned companies, and PE-backed firms seeking an exit or capital raise.',
+      'UK owner-managed SMEs with £5M–£50M turnover. Founder-led businesses, family-owned companies, and PE-backed firms seeking an exit or capital raise.',
   },
   {
     question: 'How long does a typical exit take?',

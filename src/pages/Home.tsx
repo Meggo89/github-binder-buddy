@@ -109,7 +109,7 @@ const testimonials = [
 function Hero() {
   return (
     <div className="max-w-4xl">
-      <p className="eyebrow mb-6">UK SMEs · £5M–£100M turnover</p>
+      <p className="eyebrow mb-6">UK SMEs · £5M–£50M turnover</p>
       <h1 className="font-serif text-display-xl text-white mb-8 text-balance leading-[1.05]">
         Business exits,<br />
         <TypedHeroTagline />
@@ -146,7 +146,7 @@ export default function Home() {
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
         title="Business Exits Rebuilt for the AI Era"
-        description="AI-enabled M&A advisory for UK SMEs with £5–100M turnover. Sharper analysis, broader buyer reach, faster outcomes than traditional advisors."
+        description="AI-enabled M&A advisory for UK SMEs with £5–50M turnover. Sharper analysis, broader buyer reach, faster outcomes than traditional advisors."
         canonical="https://mastellagroup.com"
       />
 
