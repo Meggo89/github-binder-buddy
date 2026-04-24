@@ -9,7 +9,7 @@ export const SITE = {
   defaultTitle: 'Off-market M&A for UK SME owners | Mastella Advisory',
   defaultDescription:
     "Off-market M&A for UK SME owners with £5–50M turnover. We find buyers other advisors don't reach. Confidential sell-side, fundraising and exit readiness.",
-  defaultOgImage: 'https://mastellagroup.com/og-image.jpg',
+  defaultOgImage: 'https://mastellagroup.com/og-image.jpg?v=2',
   locale: 'en_GB',
   lastmod: '2026-04-24',
 } as const;
