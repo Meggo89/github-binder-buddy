@@ -115,8 +115,8 @@ function Hero() {
         <TypedHeroTagline />
       </h1>
       <p className="text-body-lg md:text-xl text-sand-light max-w-2xl mb-10 leading-relaxed">
-        Off-market sourcing that finds buyers other advisors don&apos;t reach. Confidential, senior-led throughout. Fees
-        aligned to outcomes.
+        A faster, more rigorous M&amp;A process. Proprietary technology accelerates analysis and buyer discovery;
+        senior advisors lead every conversation that matters.
       </p>
       <div className="flex flex-wrap gap-4">
         <Link
