@@ -122,20 +122,20 @@ export default function Services() {
                   </div>
 
                   <div className="md:col-span-7 space-y-5">
-                    <div className="rounded-xl border border-navy/10 bg-sand-light p-6">
-                      <div className="flex items-center gap-2 mb-3">
-                        <Cpu className="h-4 w-4 text-accent-dark" />
-                        <p className="font-mono text-xs text-accent-dark tracking-widest">AI-DELIVERED</p>
-                      </div>
-                      <p className="text-navy-light leading-relaxed">{service.aiLayer}</p>
-                    </div>
-
                     <div className="rounded-xl border border-navy/10 bg-white p-6">
                       <div className="flex items-center gap-2 mb-3">
                         <User className="h-4 w-4 text-navy" />
                         <p className="font-mono text-xs text-navy tracking-widest">HUMAN-LED</p>
                       </div>
                       <p className="text-navy-light leading-relaxed">{service.humanLayer}</p>
+                    </div>
+
+                    <div className="rounded-xl border border-navy/10 bg-sand-light p-6">
+                      <div className="flex items-center gap-2 mb-3">
+                        <Cpu className="h-4 w-4 text-accent-dark" />
+                        <p className="font-mono text-xs text-accent-dark tracking-widest">AI-DELIVERED</p>
+                      </div>
+                      <p className="text-navy-light leading-relaxed">{service.aiLayer}</p>
                     </div>
 
                     <div className="rounded-xl bg-ink text-white p-6 flex items-start gap-4">

@@ -41,21 +41,21 @@ export default function Process() {
           <FadeIn delay={0.1}>
             <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto text-sm">
               <div className="flex items-start gap-3">
+                <User className="h-5 w-5 text-sand mt-0.5 flex-shrink-0" />
+                <div>
+                  <p className="font-mono text-xs text-sand tracking-widest mb-1">HUMAN LANE</p>
+                  <p className="text-sand-light leading-relaxed">
+                    Positioning, relationships, negotiation - everything that still genuinely requires judgement.
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
                 <Cpu className="h-5 w-5 text-accent mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="font-mono text-xs text-accent tracking-widest mb-1">AI LANE</p>
                   <p className="text-sand-light leading-relaxed">
                     Our own M&amp;A agents - analysis, drafting, tracking, benchmarking. Built specifically for the
                     lower mid-market, not bolted on.
-                  </p>
-                </div>
-              </div>
-              <div className="flex items-start gap-3">
-                <User className="h-5 w-5 text-sand mt-0.5 flex-shrink-0" />
-                <div>
-                  <p className="font-mono text-xs text-sand tracking-widest mb-1">HUMAN LANE</p>
-                  <p className="text-sand-light leading-relaxed">
-                    Positioning, relationships, negotiation - everything that still genuinely requires judgement.
                   </p>
                 </div>
               </div>
@@ -92,21 +92,21 @@ export default function Process() {
                       <div className="space-y-6">
                         <div>
                           <div className="flex items-center gap-2 mb-3">
-                            <Cpu className="h-4 w-4 text-accent-dark" />
-                            <p className="font-mono text-xs text-accent-dark tracking-widest">AI CAPABILITY</p>
+                            <User className="h-4 w-4 text-navy" />
+                            <p className="font-mono text-xs text-navy tracking-widest">HUMAN INPUT</p>
                           </div>
-                          <p className="text-navy-light leading-relaxed pl-6 border-l-2 border-accent/30">
-                            {stage.aiCapability}
+                          <p className="text-navy-light leading-relaxed pl-6 border-l-2 border-navy/30">
+                            {stage.humanInput}
                           </p>
                         </div>
 
                         <div>
                           <div className="flex items-center gap-2 mb-3">
-                            <User className="h-4 w-4 text-navy" />
-                            <p className="font-mono text-xs text-navy tracking-widest">HUMAN TOUCHPOINT</p>
+                            <Cpu className="h-4 w-4 text-accent-dark" />
+                            <p className="font-mono text-xs text-accent-dark tracking-widest">AI CAPABILITY</p>
                           </div>
-                          <p className="text-navy-light leading-relaxed pl-6 border-l-2 border-navy/30">
-                            {stage.humanTouchpoint}
+                          <p className="text-navy-light leading-relaxed pl-6 border-l-2 border-accent/30">
+                            {stage.aiCapability}
                           </p>
                         </div>
                       </div>
