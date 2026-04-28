@@ -168,8 +168,8 @@ export default function Home() {
             <div className="md:col-span-7 space-y-6 text-body-lg text-navy-light leading-relaxed">
               <FadeIn delay={0.1}>
                 <p>
-                  The 5–7% fee structure on lower mid-market deals reflects the manual nature of how the work used to get
-                  done: advisors sifting through spreadsheets by hand, drafting information memoranda over six to eight
+                  The high monthly retainer fees charged on lower mid-market deals reflect the manual nature of how the
+                  work used to get done: advisors sifting through spreadsheets by hand, drafting information memoranda over six to eight
                   weeks, cold-calling a rolodex of buyers, tracking diligence in email chains.
                 </p>
               </FadeIn>
