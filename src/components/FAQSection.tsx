@@ -26,7 +26,7 @@ const DEFAULT_FAQ: FAQItem[] = [
   {
     question: 'How do you charge?',
     answer:
-      'A modest retainer combined with a success fee at completion. Because the work is materially more efficient to deliver, our total fee load on transactions is typically meaningfully lower than traditional 5–7% lower mid-market rates. We quote the full structure upfront.',
+      'Fees are agreed upfront in our first conversation, tuned to your specific situation. Traditional advisors typically charge high monthly retainer fees that reflect the manual nature of how the work used to get done. Our delivery model is different.',
   },
   {
     question: 'Do I need my financials in perfect order before engaging?',
