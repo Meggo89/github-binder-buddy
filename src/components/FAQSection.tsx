@@ -26,7 +26,7 @@ const DEFAULT_FAQ: FAQItem[] = [
   {
     question: 'How do you charge?',
     answer:
-      'Fees are agreed upfront in our first conversation, tuned to your specific situation. Traditional advisors typically charge high monthly retainer fees that reflect the manual nature of how the work used to get done. Our delivery model is different.',
+      'Fees are agreed upfront in our first conversation, tuned to your specific situation. Traditional advisors typically charge high monthly retainer fees that reflect the manual nature of how the work has always been done — and how most M&A firms still do it. Our delivery model is different.',
   },
   {
     question: 'Do I need my financials in perfect order before engaging?',

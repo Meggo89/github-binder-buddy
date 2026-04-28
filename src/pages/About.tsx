@@ -69,8 +69,9 @@ export default function About() {
               <FadeIn delay={0.1}>
                 <p>
                   The high monthly retainer fees charged on a £5M–£50M deal reflect the manual nature of how that work
-                  used to get done: financial normalisation by hand, information memoranda written over six to eight weeks, buyer
-                  outreach run from a rolodex, diligence coordinated in email.
+                  has always been done — and how most M&amp;A firms still do it: financial normalisation by hand,
+                  information memoranda written over six to eight weeks, buyer outreach run from a rolodex, diligence
+                  coordinated in email.
                 </p>
               </FadeIn>
               <FadeIn delay={0.2}>

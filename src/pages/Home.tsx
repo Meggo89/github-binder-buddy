@@ -13,6 +13,7 @@ import leoMeggitt from '../assets/leo-meggitt.jpg';
 import francisMartin from '../assets/francis-martin.jpg';
 import erikVynkier from '../assets/erik-vynkier.jpg';
 import { TypedHeroTagline } from '../components/home/TypedHero';
+import { WhatWeDo } from '../components/home/WhatWeDo';
 import { FoundersDrift } from '../components/home/FoundersDrift';
 import { AIHumanSplit } from '../components/home/AIHumanSplit';
 import { MarketPulse } from '../components/home/MarketPulse';
@@ -150,6 +151,9 @@ export default function Home() {
         canonical="https://mastellagroup.com"
       />
 
+      {/* What we do - owner-first bridge */}
+      <WhatWeDo />
+
       {/* Positioning - why traditional M&A is being disrupted */}
       <section className="bg-sand-light py-24 md:py-32 relative overflow-hidden">
         <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
@@ -169,8 +173,9 @@ export default function Home() {
               <FadeIn delay={0.1}>
                 <p>
                   The high monthly retainer fees charged on lower mid-market deals reflect the manual nature of how the
-                  work used to get done: advisors sifting through spreadsheets by hand, drafting information memoranda over six to eight
-                  weeks, cold-calling a rolodex of buyers, tracking diligence in email chains.
+                  work has always been done — and how most M&amp;A firms still do it: advisors sifting through
+                  spreadsheets by hand, drafting information memoranda over six to eight weeks, cold-calling a rolodex
+                  of buyers, tracking diligence in email chains.
                 </p>
               </FadeIn>
               <FadeIn delay={0.2}>
