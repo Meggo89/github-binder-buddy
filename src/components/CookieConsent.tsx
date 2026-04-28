@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { X } from 'lucide-react';
+import { grantAnalyticsConsent, revokeAnalyticsConsent } from '../utils/analytics';
 
 type CookiePreferences = {
   necessary: boolean;
@@ -7,72 +8,25 @@ type CookiePreferences = {
   marketing: boolean;
 };
 
-const GA_MEASUREMENT_ID = 'G-WQSRQFBCPC';
-
-const isDebugMode = () => {
-  if (typeof window === 'undefined') return false;
-  const params = new URLSearchParams(window.location.search);
-  return params.has('gtm_debug') || params.get('debug_mode') === 'true';
-};
-
-// Initialize Google Analytics
-const initializeGA = () => {
-  // Check if already loaded
-  if (window.gtag) return;
-
-  // Load the GA script
-  const script = document.createElement('script');
-  script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
-  script.async = true;
-  document.head.appendChild(script);
-
-  // Initialize gtag
-  window.dataLayer = window.dataLayer || [];
-  function gtag(...args: unknown[]) {
-    window.dataLayer.push(args);
-  }
-  window.gtag = gtag;
-  const debugMode = isDebugMode();
-  if (debugMode) {
-    gtag('set', 'debug_mode', true);
-  }
-  gtag('js', new Date());
-  if (debugMode) {
-    gtag('config', GA_MEASUREMENT_ID, { debug_mode: true });
-  } else {
-    gtag('config', GA_MEASUREMENT_ID);
-  }
-};
-
-// Declare global types for GA
-declare global {
-  interface Window {
-    dataLayer: unknown[];
-    gtag: (...args: unknown[]) => void;
-  }
-}
-
 export function CookieConsent() {
   const [showBanner, setShowBanner] = useState(false);
   const [showPreferences, setShowPreferences] = useState(false);
   const [preferences, setPreferences] = useState<CookiePreferences>({
     necessary: true, // Always true as these are essential
-    analytics: false,
+    analytics: true,
     marketing: false,
   });
 
   useEffect(() => {
-    // Check if user has already made cookie choices
+    // Banner shows once per browser. GA itself was already initialised in
+    // main.tsx via Consent Mode v2 with analytics granted by default.
     const cookieChoices = localStorage.getItem('cookiePreferences');
     if (!cookieChoices) {
       setShowBanner(true);
     } else {
-      const savedPreferences = JSON.parse(cookieChoices);
-      setPreferences(savedPreferences);
-      // Initialize GA if analytics was previously accepted
-      if (savedPreferences.analytics) {
-        initializeGA();
-      }
+      const saved = JSON.parse(cookieChoices) as CookiePreferences;
+      setPreferences(saved);
+      if (saved.analytics === false) revokeAnalyticsConsent();
     }
   }, []);
 
@@ -84,15 +38,14 @@ export function CookieConsent() {
     };
     setPreferences(newPreferences);
     localStorage.setItem('cookiePreferences', JSON.stringify(newPreferences));
-    initializeGA(); // Initialize GA when user accepts
+    grantAnalyticsConsent();
     setShowBanner(false);
   };
 
   const handleSavePreferences = () => {
     localStorage.setItem('cookiePreferences', JSON.stringify(preferences));
-    if (preferences.analytics) {
-      initializeGA(); // Initialize GA if analytics is enabled
-    }
+    if (preferences.analytics) grantAnalyticsConsent();
+    else revokeAnalyticsConsent();
     setShowBanner(false);
     setShowPreferences(false);
   };
@@ -105,6 +58,7 @@ export function CookieConsent() {
     };
     setPreferences(newPreferences);
     localStorage.setItem('cookiePreferences', JSON.stringify(newPreferences));
+    revokeAnalyticsConsent();
     setShowBanner(false);
     setShowPreferences(false);
   };
