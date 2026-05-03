@@ -10,7 +10,6 @@ import { processStages } from '../content/process-stages';
 import { useScrollTracking } from '../hooks/useScrollTracking';
 import { trackCTA } from '../utils/trackCTA';
 import leoMeggitt from '../assets/leo-meggitt.jpg';
-import francisMartin from '../assets/francis-martin.jpg';
 import erikVynkier from '../assets/erik-vynkier.jpg';
 import { TypedHeroTagline } from '../components/home/TypedHero';
 import { WhatWeDo } from '../components/home/WhatWeDo';
@@ -25,13 +24,6 @@ const teamPreview = [
     image: leoMeggitt,
     description:
       '20+ years in M&A, fundraising, executive search and leadership consulting. Investor and advisor to early-stage companies.',
-  },
-  {
-    name: 'Francis Martin CBE',
-    title: 'Director',
-    image: francisMartin,
-    description:
-      'Distinguished advisor with 25+ years in strategic consulting. Former President of the British Chambers of Commerce.',
   },
   {
     name: 'Erik Vynkier',

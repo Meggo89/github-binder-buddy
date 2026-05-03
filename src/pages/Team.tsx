@@ -5,7 +5,6 @@ import { PageLayout } from '../components/layout';
 import { FadeIn, Stagger, StaggerItem } from '../components/ui/motion';
 import { SITE, canonicalFor } from '../seo/site-meta';
 import leoMeggitt from '../assets/leo-meggitt.jpg';
-import francisMartin from '../assets/francis-martin.jpg';
 import erikVynkier from '../assets/erik-vynkier.jpg';
 
 const members = [
@@ -16,14 +15,6 @@ const members = [
     linkedin: 'https://www.linkedin.com/in/leomeggitt/',
     description:
       '20+ years experience in M&A, fundraising, executive search and leadership consulting. Investor and advisor to early-stage companies.',
-  },
-  {
-    name: 'Francis Martin CBE',
-    title: 'Director',
-    image: francisMartin,
-    linkedin: 'https://www.linkedin.com/in/francis-martin-cbe-54aborb/',
-    description:
-      'Distinguished advisor with 25+ years in strategic consulting. Former President of British Chambers of Commerce and recipient of Commander of the British Empire.',
   },
   {
     name: 'Erik Vynkier',

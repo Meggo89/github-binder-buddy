@@ -64,7 +64,7 @@ const article: Article = {
       </ul>
       <p>Companies with clear growth strategies and proven ability to execute often command higher valuations.</p>
     `,
-  author: 'Francis Martin CBE',
+  author: 'Leo Meggitt',
   date: '20 November 2025',
   readTime: '6 min read',
   image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2015',

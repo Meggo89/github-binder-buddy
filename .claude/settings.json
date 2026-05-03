@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "additionalDirectories": [
+      "c:\\Users\\Leo PC\\Desktop\\github-binder-buddy\\src\\assets"
+    ],
+    "allow": [
+      "Bash(git reset *)"
+    ]
+  }
+}
