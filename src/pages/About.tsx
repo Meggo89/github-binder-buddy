@@ -19,7 +19,7 @@ const principles = [
   },
   {
     title: 'UK SMEs, not everything',
-    body: 'We work with UK SMEs with £5M–£50M turnover. Outside that range other advisors are better placed. Saying what we are not is part of saying what we are.',
+    body: 'We work with UK SMEs worth £5M–£50M. Outside that range other advisors are better placed. Saying what we are not is part of saying what we are.',
   },
 ];
 
@@ -31,7 +31,7 @@ function Hero() {
         We find buyers other advisors don&apos;t reach.
       </h1>
       <p className="text-body-lg text-sand-light max-w-2xl leading-relaxed">
-        Mastella is an M&amp;A advisory firm for UK owner-managed SMEs with £5M–£50M turnover. Off-market buyer
+        Mastella is an M&amp;A advisory firm for UK owner-managed SMEs worth £5M–£50M. Off-market buyer
         sourcing, confidential processes, senior-led throughout.
       </p>
     </div>
@@ -42,8 +42,8 @@ export default function About() {
   return (
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="About Mastella Advisory | M&A for UK SMEs £5–50M Turnover"
-        description="Off-market M&A advisory for UK owner-managed SMEs with £5–50M turnover. Confidential sell-side, fundraising and exit readiness, led by senior advisors."
+        title="About Mastella Advisory | M&A for UK SMEs Worth £5–50M"
+        description="Off-market M&A advisory for UK owner-managed SMEs worth £5–50M. Confidential sell-side, fundraising and exit readiness, led by senior advisors."
         canonical="https://mastellagroup.com/about"
       />
 
@@ -176,7 +176,7 @@ export default function About() {
             <div className="md:col-span-7 space-y-6 text-body-lg text-sand-light leading-relaxed">
               <FadeIn delay={0.1}>
                 <p>
-                  UK owner-managed SMEs with £5M–£50M turnover. Founder-led, family-owned, or PE-backed. Planning an exit in the next
+                  UK owner-managed SMEs worth £5M–£50M. Founder-led, family-owned, or PE-backed. Planning an exit in the next
                   6–24 months, running a current capital raise, or simply wanting to know what their business is
                   actually worth and what the path would look like.
                 </p>

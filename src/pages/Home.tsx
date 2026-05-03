@@ -10,29 +10,19 @@ import { processStages } from '../content/process-stages';
 import { useScrollTracking } from '../hooks/useScrollTracking';
 import { trackCTA } from '../utils/trackCTA';
 import leoMeggitt from '../assets/leo-meggitt.jpg';
-import erikVynkier from '../assets/erik-vynkier.jpg';
 import { TypedHeroTagline } from '../components/home/TypedHero';
 import { WhatWeDo } from '../components/home/WhatWeDo';
 import { FoundersDrift } from '../components/home/FoundersDrift';
 import { AIHumanSplit } from '../components/home/AIHumanSplit';
 import { MarketPulse } from '../components/home/MarketPulse';
 
-const teamPreview = [
-  {
-    name: 'Leo Meggitt',
-    title: 'Managing Director',
-    image: leoMeggitt,
-    description:
-      '20+ years in M&A, fundraising, executive search and leadership consulting. Investor and advisor to early-stage companies.',
-  },
-  {
-    name: 'Erik Vynkier',
-    title: 'Senior Advisor',
-    image: erikVynkier,
-    description:
-      'Deep experience in financial services, asset management and private equity across multiple sectors and geographies.',
-  },
-];
+const principal = {
+  name: 'Leo Meggitt',
+  title: 'Principal & Owner',
+  image: leoMeggitt,
+  description:
+    '15 years in M&A. £400M+ transaction value advised across 30+ completed deals. Built and scaled businesses across recruitment, corporate finance and interim management before founding Mastella.',
+};
 
 const matchingSteps = [
   {
@@ -102,7 +92,7 @@ const testimonials = [
 function Hero() {
   return (
     <div className="max-w-4xl">
-      <p className="eyebrow mb-6">UK SMEs · £5M–£50M turnover</p>
+      <p className="eyebrow mb-6">UK SMEs · worth £5M–£50M</p>
       <h1 className="font-serif text-display-xl text-white mb-8 text-balance leading-[1.05]">
         Business exits,<br />
         <TypedHeroTagline />
@@ -139,7 +129,7 @@ export default function Home() {
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
         title="Off-market M&A for UK SME owners"
-        description="Off-market M&A for UK SME owners with £5–50M turnover. We find buyers other advisors don't reach. Confidential sell-side, fundraising and exit readiness."
+        description="Off-market M&A for UK SME owners worth £5–50M. We find buyers other advisors don't reach. Confidential sell-side, fundraising and exit readiness."
         canonical="https://mastellagroup.com"
       />
 
@@ -383,46 +373,39 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Team preview */}
+      {/* Principal spotlight */}
       <section className="bg-white py-24 md:py-32">
         <div className="container mx-auto px-6">
-          <FadeIn>
-            <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
-              <div className="max-w-2xl">
-                <p className="eyebrow mb-6 text-navy-light">The team</p>
-                <h2 className="font-serif text-display-md text-navy leading-tight text-balance">
-                  Deep advisory experience, sharpened by modern tools.
-                </h2>
+          <div className="max-w-6xl mx-auto grid md:grid-cols-12 gap-10 md:gap-16 items-center">
+            <FadeIn className="md:col-span-5">
+              <div className="w-full aspect-[4/5] overflow-hidden rounded-xl bg-sand-light">
+                <img
+                  src={principal.image}
+                  alt={principal.name}
+                  loading="lazy"
+                  className="block w-full h-full object-cover object-center"
+                />
               </div>
+            </FadeIn>
+
+            <FadeIn delay={0.1} className="md:col-span-7">
+              <p className="eyebrow text-navy-light mb-6">Meet the principal</p>
+              <h2 className="font-serif text-display-md text-navy leading-tight mb-3 text-balance">
+                {principal.name}
+              </h2>
+              <p className="font-mono text-xs text-accent-dark tracking-widest uppercase mb-8">
+                {principal.title}
+              </p>
+              <p className="text-body-lg text-navy-light leading-relaxed mb-10">{principal.description}</p>
               <Link
                 to="/team"
                 className="inline-flex items-center gap-2 text-navy font-medium hover:text-accent-dark transition-colors"
               >
-                Meet the team
+                Read Leo&apos;s full profile
                 <ArrowRight className="h-4 w-4" />
               </Link>
-            </div>
-          </FadeIn>
-
-          <Stagger className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {teamPreview.map((member) => (
-              <StaggerItem key={member.name}>
-                <div className="group">
-                  <div className="w-full aspect-[4/5] overflow-hidden rounded-xl mb-5 bg-sand-light">
-                    <img
-                      src={member.image}
-                      alt={member.name}
-                      loading="lazy"
-                      className="block w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
-                    />
-                  </div>
-                  <h3 className="font-serif text-2xl text-navy mb-1">{member.name}</h3>
-                  <p className="text-sm text-accent-dark font-medium mb-3 tracking-wide">{member.title}</p>
-                  <p className="text-sm text-navy-light leading-relaxed">{member.description}</p>
-                </div>
-              </StaggerItem>
-            ))}
-          </Stagger>
+            </FadeIn>
+          </div>
         </div>
       </section>
 
