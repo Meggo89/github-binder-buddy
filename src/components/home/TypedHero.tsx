@@ -7,6 +7,12 @@ const PHRASES = [
   'rebuilt for the AI era.',
 ];
 
+// The phrase that wraps to the most lines at the smallest viewport.
+// Used as an invisible sizer so the H1 reserves its maximum height
+// up-front and surrounding sections never shunt up and down as the
+// typed text rotates.
+const LONGEST_PHRASE = PHRASES.reduce((a, b) => (b.length > a.length ? b : a), '');
+
 export function TypedHeroTagline() {
   const [pi, setPi] = useState(0);
   const [cc, setCc] = useState(0);
@@ -46,14 +52,25 @@ export function TypedHeroTagline() {
     return <span className="italic text-accent">found off-market.</span>;
   }
 
+  // Stack visible + invisible sizer in the same grid cell so the
+  // container's height is always the height of the LONGEST_PHRASE
+  // at the current viewport. No layout shift as phrases rotate.
   return (
-    <span className="italic text-accent">
-      {PHRASES[pi].slice(0, cc)}
+    <span className="inline-grid align-top">
       <span
         aria-hidden="true"
-        className="inline-block w-[4px] align-text-bottom ml-1 bg-accent animate-pulse"
-        style={{ height: '0.85em' }}
-      />
+        className="invisible italic col-start-1 row-start-1"
+      >
+        {LONGEST_PHRASE}
+      </span>
+      <span className="italic text-accent col-start-1 row-start-1">
+        {PHRASES[pi].slice(0, cc)}
+        <span
+          aria-hidden="true"
+          className="inline-block w-[4px] align-text-bottom ml-1 bg-accent animate-pulse"
+          style={{ height: '0.85em' }}
+        />
+      </span>
     </span>
   );
 }
