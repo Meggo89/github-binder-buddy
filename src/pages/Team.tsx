@@ -55,7 +55,7 @@ const BIO_SECTIONS = [
 // =============================================================================
 const SUPPORT_TEAM = [
   { name: 'Sarah Mitchell', title: 'Associate', role: 'Financial analysis, valuation, IM drafting' },
-  { name: 'James Patel', title: 'Analyst', role: 'Buyer mapping, market research, sector benchmarking' },
+  { name: 'James Marshall', title: 'Analyst', role: 'Buyer mapping, market research, sector benchmarking' },
   { name: 'Olivia Chen', title: 'Analyst', role: 'Data-room coordination, diligence support, process management' },
 ];
 
