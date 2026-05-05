@@ -184,7 +184,39 @@ export default function Team() {
         </div>
       </section>
 
-{/* Specialist network */}
+      {/* In-house support team - function areas, no named individuals */}
+      <section className="bg-white py-20 md:py-24 border-t border-navy/5">
+        <div className="container mx-auto px-6">
+          <div className="max-w-6xl mx-auto">
+            <FadeIn>
+              <div className="max-w-3xl mb-12">
+                <p className="eyebrow text-navy-light mb-6">Behind the principal</p>
+                <h2 className="font-serif text-display-md text-navy leading-tight mb-6 text-balance">
+                  A small in-house support team.
+                </h2>
+                <p className="text-body-lg text-navy-light leading-relaxed">
+                  A focused team handles the structured work between conversations - the kind that benefits from
+                  time and rigour rather than seniority on every line. Leo, or an approved senior advisor, stays
+                  involved at every decision and every conversation that matters.
+                </p>
+              </div>
+            </FadeIn>
+
+            <Stagger className="grid sm:grid-cols-3 gap-5">
+              {SUPPORT_AREAS.map((a) => (
+                <StaggerItem key={a.area}>
+                  <div className="bg-sand-light rounded-xl p-6 border border-navy/10 h-full">
+                    <p className="font-serif text-xl text-navy leading-snug mb-3">{a.area}</p>
+                    <p className="text-sm text-navy-light leading-relaxed">{a.detail}</p>
+                  </div>
+                </StaggerItem>
+              ))}
+            </Stagger>
+          </div>
+        </div>
+      </section>
+
+      {/* Specialist network */}
       <section className="bg-sand-light py-24 md:py-32 border-t border-navy/5">
         <div className="container mx-auto px-6">
           <div className="max-w-5xl mx-auto grid md:grid-cols-12 gap-12 md:gap-16">
