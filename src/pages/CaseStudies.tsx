@@ -17,6 +17,17 @@ type CaseStudy = {
 
 const caseStudies: CaseStudy[] = [
   {
+    tag: 'Full Sale',
+    title: 'Cold-chain Logistics & Container Leasing Operator',
+    sector: 'Logistics & Transport',
+    challenge:
+      'A specialist cold-chain logistics business with a refrigerated container leasing arm sought a full exit after 20+ years of trading. Owners wanted continuity for long-standing customers and key staff alongside achieving strategic value.',
+    approach:
+      'Identified strategic acquirers across two adjacent buyer pools: refrigerated logistics groups looking for cold-chain capability, and container leasing platforms looking for fleet and customer book. Ran a structured competitive process and managed parallel diligence streams.',
+    outcome:
+      'Completed sale to a strategic acquirer at a premium to initial expectations, with continuity commitments on customer relationships and the operational team.',
+  },
+  {
     tag: 'Seed Funding',
     value: '£2m',
     title: 'HR Tech Platform',
