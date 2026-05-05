@@ -49,16 +49,6 @@ const BIO_SECTIONS = [
   },
 ];
 
-// =============================================================================
-// PLACEHOLDER NAMES - these analysts are FICTIONAL, used for layout review.
-// Replace with real hires (or delete this section) before going public.
-// =============================================================================
-const SUPPORT_TEAM = [
-  { name: 'Sarah Mitchell', title: 'Associate', role: 'Financial analysis, valuation, IM drafting' },
-  { name: 'James Marshall', title: 'Analyst', role: 'Buyer mapping, market research, sector benchmarking' },
-  { name: 'Olivia Chen', title: 'Analyst', role: 'Data-room coordination, diligence support, process management' },
-];
-
 function Hero() {
   return (
     <div className="max-w-3xl">
@@ -177,42 +167,7 @@ export default function Team() {
         </div>
       </section>
 
-      {/* In-house support team */}
-      <section className="bg-white py-20 md:py-24 border-t border-navy/5">
-        <div className="container mx-auto px-6">
-          <div className="max-w-6xl mx-auto">
-            <FadeIn>
-              <div className="max-w-3xl mb-12">
-                <p className="eyebrow text-navy-light mb-6">The team behind Leo</p>
-                <h2 className="font-serif text-display-md text-navy leading-tight mb-6 text-balance">
-                  A small in-house team. Senior-led throughout.
-                </h2>
-                <p className="text-body-lg text-navy-light leading-relaxed">
-                  A focused analyst team supports the work between conversations. Financial analysis, buyer
-                  research, diligence coordination - the structured work that benefits from time and rigour.
-                  Leo, or an approved senior advisor, leads every decision and every conversation that matters.
-                </p>
-              </div>
-            </FadeIn>
-
-            <Stagger className="grid sm:grid-cols-3 gap-5">
-              {SUPPORT_TEAM.map((m) => (
-                <StaggerItem key={m.name}>
-                  <div className="bg-sand-light rounded-xl p-6 border border-navy/10 h-full">
-                    <p className="font-serif text-xl text-navy leading-snug mb-1">{m.name}</p>
-                    <p className="font-mono text-[10px] text-accent-dark tracking-widest uppercase mb-4">
-                      {m.title}
-                    </p>
-                    <p className="text-sm text-navy-light leading-relaxed">{m.role}</p>
-                  </div>
-                </StaggerItem>
-              ))}
-            </Stagger>
-          </div>
-        </div>
-      </section>
-
-      {/* Specialist network */}
+{/* Specialist network */}
       <section className="bg-sand-light py-24 md:py-32 border-t border-navy/5">
         <div className="container mx-auto px-6">
           <div className="max-w-5xl mx-auto grid md:grid-cols-12 gap-12 md:gap-16">
