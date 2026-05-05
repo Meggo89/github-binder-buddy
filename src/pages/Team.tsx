@@ -30,6 +30,23 @@ const STATS = [
   { value: '10', label: 'Sectors' },
 ];
 
+// Function areas covered by the in-house support team. Function-led, no
+// names, no individual titles - so there is nothing to look up on LinkedIn.
+const SUPPORT_AREAS = [
+  {
+    area: 'Financial work',
+    detail: 'Valuation, financial normalisation, IM drafting, comparable transactions analysis.',
+  },
+  {
+    area: 'Buyer research',
+    detail: 'Sector benchmarking, market mapping, buyer universe construction.',
+  },
+  {
+    area: 'Process coordination',
+    detail: 'Data-room organisation, diligence Q&A tracking, status reporting.',
+  },
+];
+
 // Placeholder bio sections - swap with the long bio from bio-drafts.md
 const BIO_SECTIONS = [
   {
