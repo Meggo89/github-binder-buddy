@@ -27,7 +27,7 @@ export default function Process() {
       <SEO
         title="How We Source Buyers"
         description="How we source buyers other advisors don't reach. Six-stage senior-led M&A process for UK SME owners worth £5–50M."
-        canonical="https://mastellagroup.com/process"
+        canonical="https://mastellagroup.com/process/"
       />
 
       {/* Overview */}

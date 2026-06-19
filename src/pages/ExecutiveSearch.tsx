@@ -53,7 +53,7 @@ export default function ExecutiveSearch() {
       <SEO
         title="Executive Search & Interim Solutions"
         description="Strategic leadership placement and interim management for companies pre and post exit. Executives with proven track records in M&A transitions."
-        canonical="https://mastellagroup.com/executive-search"
+        canonical="https://mastellagroup.com/executive-search/"
       />
 
       {/* Pre-exit */}

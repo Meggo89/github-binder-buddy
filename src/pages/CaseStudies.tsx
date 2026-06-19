@@ -166,7 +166,7 @@ export default function CaseStudies() {
       <SEO
         title="Our Work - Selected Transactions"
         description="Real outcomes for real founders. Exit advisory, M&A transactions, and capital raises led by Mastella Advisory across ten sectors."
-        canonical="https://mastellagroup.com/case-studies"
+        canonical="https://mastellagroup.com/case-studies/"
       />
 
       {/* Stats */}

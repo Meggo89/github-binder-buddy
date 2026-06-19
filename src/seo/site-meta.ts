@@ -118,7 +118,11 @@ export function fullTitle(title: string): string {
   return title.includes(SITE.name) ? title : `${title} | ${SITE.name}`;
 }
 
+// Netlify's pretty_urls serves every non-root path with a trailing slash and
+// 301s the non-slash form. Canonicals/sitemap/OG URLs must match the served
+// form, otherwise Google reports "Page with redirect" in Search Console.
 export function canonicalFor(path: string): string {
-  if (path === '/') return SITE.domain;
-  return `${SITE.domain}${path}`;
+  if (path === '/') return `${SITE.domain}/`;
+  const trimmed = path.endsWith('/') ? path : `${path}/`;
+  return `${SITE.domain}${trimmed}`;
 }

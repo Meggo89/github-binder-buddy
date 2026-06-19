@@ -130,7 +130,7 @@ export default function Home() {
       <SEO
         title="Off-market M&A for UK SME owners"
         description="Off-market M&A for UK SME owners worth £5–50M. We find buyers other advisors don't reach. Confidential sell-side, fundraising and exit readiness."
-        canonical="https://mastellagroup.com"
+        canonical="https://mastellagroup.com/"
       />
 
       {/* What we do - owner-first bridge */}

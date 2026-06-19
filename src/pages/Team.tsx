@@ -104,7 +104,7 @@ export default function Team() {
       <SEO
         title="Leo Meggitt - Principal | Mastella Advisory"
         description="Leo Meggitt, founder of Mastella Advisory. 20+ years advising UK SME owners on sell-side M&A, fundraising and exit readiness."
-        canonical="https://mastellagroup.com/team"
+        canonical="https://mastellagroup.com/team/"
       />
       <StructuredData data={[personSchema, breadcrumb]} />
 

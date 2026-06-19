@@ -14,7 +14,7 @@ export default function InsightArticle() {
     return <Navigate to="/insights" replace />;
   }
 
-  const canonical = `https://mastellagroup.com/insights/${article.slug}`;
+  const canonical = `https://mastellagroup.com/insights/${article.slug}/`;
 
   const articleSchema = {
     '@context': 'https://schema.org',

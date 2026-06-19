@@ -26,9 +26,16 @@ function parseDate(input: string): string {
   return d.toISOString().slice(0, 10);
 }
 
+// Netlify pretty_urls serves /about as /about/ (301 from the non-slash form).
+// Sitemap URLs must match the served form to avoid GSC "Page with redirect".
+function withSlash(p: string): string {
+  if (p === '/') return '/';
+  return p.endsWith('/') ? p : `${p}/`;
+}
+
 async function run() {
   const entries: Entry[] = ROUTES.map((r) => ({
-    url: r.path,
+    url: withSlash(r.path),
     changefreq: r.changefreq,
     priority: r.priority,
     lastmod: SITE.lastmod,
@@ -36,7 +43,7 @@ async function run() {
 
   for (const a of articles) {
     entries.push({
-      url: `/insights/${a.slug}`,
+      url: `/insights/${a.slug}/`,
       changefreq: 'monthly',
       priority: 0.6,
       lastmod: parseDate(a.date),

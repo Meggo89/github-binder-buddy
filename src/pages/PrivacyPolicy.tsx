@@ -18,7 +18,7 @@ export default function PrivacyPolicy() {
       <SEO
         title="Privacy Policy"
         description="Mastella Advisory's privacy policy. How we collect, use, and protect your personal data."
-        canonical="https://mastellagroup.com/privacy-policy"
+        canonical="https://mastellagroup.com/privacy-policy/"
       />
 
       <section className="bg-white py-20 md:py-24">

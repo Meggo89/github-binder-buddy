@@ -44,7 +44,7 @@ export default function About() {
       <SEO
         title="About Mastella Advisory | M&A for UK SMEs Worth £5–50M"
         description="Off-market M&A advisory for UK owner-managed SMEs worth £5–50M. Confidential sell-side, fundraising and exit readiness, led by senior advisors."
-        canonical="https://mastellagroup.com/about"
+        canonical="https://mastellagroup.com/about/"
       />
 
       {/* Thesis */}

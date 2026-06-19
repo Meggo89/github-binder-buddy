@@ -27,7 +27,7 @@ export default function Insights() {
       <SEO
         title="Insights - M&A Perspectives for UK SME Owners"
         description="Long-form analysis on exits, fundraising and valuation for UK SME owners. Written by the Mastella team for founders, not other advisors."
-        canonical="https://mastellagroup.com/insights"
+        canonical="https://mastellagroup.com/insights/"
       />
 
       {/* Featured article */}

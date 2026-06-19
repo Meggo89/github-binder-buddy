@@ -83,7 +83,7 @@ export default function Contact() {
       <SEO
         title="Contact - Book a Confidential Conversation"
         description="Schedule a confidential, no-obligation conversation with Mastella Advisory. Discuss your exit strategy, valuation, or fundraising needs."
-        canonical="https://mastellagroup.com/contact"
+        canonical="https://mastellagroup.com/contact/"
       />
 
       <section className="bg-white py-24 md:py-32">
