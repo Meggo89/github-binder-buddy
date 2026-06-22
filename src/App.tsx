@@ -13,6 +13,11 @@ const CaseStudies = lazy(() => import('./pages/CaseStudies'));
 const Contact = lazy(() => import('./pages/Contact'));
 const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy'));
 const ExecutiveSearch = lazy(() => import('./pages/ExecutiveSearch'));
+const SectorsHub = lazy(() => import('./pages/SectorsHub'));
+const SectorPillar = lazy(() => import('./pages/SectorPillar'));
+const NicheLanding = lazy(() => import('./pages/NicheLanding'));
+const ServiceLanding = lazy(() => import('./pages/ServiceLanding'));
+const ResourceLanding = lazy(() => import('./pages/ResourceLanding'));
 
 export default function App() {
   return (
@@ -36,6 +41,11 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/executive-search" element={<ExecutiveSearch />} />
+          <Route path="/sectors" element={<SectorsHub />} />
+          <Route path="/sectors/:slug" element={<SectorPillar />} />
+          <Route path="/sectors/:pillarSlug/:slug" element={<NicheLanding />} />
+          <Route path="/services/:slug" element={<ServiceLanding />} />
+          <Route path="/resources/:slug" element={<ResourceLanding />} />
         </Routes>
       </Suspense>
       <CookieConsent />

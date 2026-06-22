@@ -6,6 +6,7 @@ import { StructuredData } from '../components/StructuredData';
 import { PageLayout } from '../components/layout';
 import { FadeIn, Stagger, StaggerItem } from '../components/ui/motion';
 import { SITE, canonicalFor } from '../seo/site-meta';
+import { SERVICE_LANDINGS, SECTORS } from '../content/landing';
 
 type Service = {
   icon: ReactNode;
@@ -150,6 +151,75 @@ export default function Services() {
               </StaggerItem>
             ))}
           </Stagger>
+        </div>
+      </section>
+
+      {/* Specialist service / intent landing pages */}
+      <section className="bg-sand-light py-20 md:py-24 border-t border-navy/10">
+        <div className="container mx-auto px-6">
+          <div className="max-w-6xl mx-auto">
+            <FadeIn>
+              <p className="eyebrow text-navy-light mb-4">Specialist services</p>
+              <h2 className="font-serif text-display-md text-navy leading-tight mb-6 text-balance">
+                Looking for something more specific?
+              </h2>
+              <p className="text-body-lg text-navy-light mb-12 max-w-3xl leading-relaxed">
+                Six commercial-intent pages covering the questions UK owners typically arrive with — from valuation and
+                management buyouts through to growth capital and exit planning.
+              </p>
+            </FadeIn>
+            <Stagger className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {SERVICE_LANDINGS.map((s) => (
+                <StaggerItem key={s.slug}>
+                  <Link
+                    to={`/services/${s.slug}/`}
+                    className="group flex items-start justify-between gap-4 rounded-xl border border-navy/10 bg-white p-5 hover:border-accent/40 hover:shadow-md transition-all h-full"
+                  >
+                    <span className="font-serif text-lg text-navy leading-snug">{s.name}</span>
+                    <ArrowRight className="h-4 w-4 text-navy-light group-hover:text-accent-dark group-hover:translate-x-0.5 transition-all mt-1 flex-shrink-0" />
+                  </Link>
+                </StaggerItem>
+              ))}
+            </Stagger>
+          </div>
+        </div>
+      </section>
+
+      {/* Sectors hub callout */}
+      <section className="bg-white py-20 md:py-24 border-t border-navy/10">
+        <div className="container mx-auto px-6">
+          <div className="max-w-6xl mx-auto">
+            <FadeIn>
+              <p className="eyebrow text-navy-light mb-4">Sectors</p>
+              <h2 className="font-serif text-display-md text-navy leading-tight mb-6 text-balance">
+                Sector-specific pages
+              </h2>
+              <p className="text-body-lg text-navy-light mb-12 max-w-3xl leading-relaxed">
+                Six sector pillars covering 34 niche pages — from cold-chain logistics and dental practices through to
+                vertical SaaS and cybersecurity services.
+              </p>
+            </FadeIn>
+            <Stagger className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
+              {SECTORS.map((s) => (
+                <StaggerItem key={s.slug}>
+                  <Link
+                    to={`/sectors/${s.slug}/`}
+                    className="group flex items-start justify-between gap-4 rounded-xl border border-navy/10 bg-white p-5 hover:border-accent/40 hover:shadow-md transition-all h-full"
+                  >
+                    <span className="font-serif text-lg text-navy leading-snug">{s.name}</span>
+                    <ArrowRight className="h-4 w-4 text-navy-light group-hover:text-accent-dark group-hover:translate-x-0.5 transition-all mt-1 flex-shrink-0" />
+                  </Link>
+                </StaggerItem>
+              ))}
+            </Stagger>
+            <Link
+              to="/sectors/"
+              className="inline-flex items-center gap-2 text-sm font-mono text-accent-dark tracking-wide hover:underline"
+            >
+              Visit the sectors hub
+              <ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
         </div>
       </section>
 

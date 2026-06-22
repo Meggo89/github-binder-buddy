@@ -3,6 +3,8 @@
 //   - scripts/prerender.ts (per-route static HTML, at build time)
 //   - scripts/build-sitemap.ts (sitemap.xml generation)
 
+import { SECTORS, NICHES, SERVICE_LANDINGS, RESOURCES } from '../content/landing';
+
 export const SITE = {
   name: 'Mastella Advisory',
   domain: 'https://mastellagroup.com',
@@ -106,6 +108,51 @@ export const ROUTES: RouteMeta[] = [
     changefreq: 'yearly',
   },
 ];
+
+// Routes for the commercial-intent landing-page architecture (Phase 4):
+// sectors hub, 6 sector pillars, 34 niche pages, 6 service/intent pages,
+// 1 resource page = 48 entries pushed in from src/content/landing.
+const LANDING_ROUTES: RouteMeta[] = [
+  {
+    path: '/sectors',
+    title: 'Sectors We Cover - UK M&A Advisory',
+    description:
+      'UK M&A advisory across six sectors: business services, healthcare, light industrials, logistics, professional services, tech-enabled services.',
+    priority: 0.8,
+    changefreq: 'monthly',
+  },
+  ...SECTORS.map<RouteMeta>((s) => ({
+    path: `/sectors/${s.slug}`,
+    title: s.title,
+    description: s.metaDescription,
+    priority: 0.7,
+    changefreq: 'monthly',
+  })),
+  ...NICHES.map<RouteMeta>((n) => ({
+    path: `/sectors/${n.pillarSlug}/${n.slug}`,
+    title: n.title,
+    description: n.metaDescription,
+    priority: 0.6,
+    changefreq: 'monthly',
+  })),
+  ...SERVICE_LANDINGS.map<RouteMeta>((s) => ({
+    path: `/services/${s.slug}`,
+    title: s.title,
+    description: s.metaDescription,
+    priority: 0.7,
+    changefreq: 'monthly',
+  })),
+  ...RESOURCES.map<RouteMeta>((r) => ({
+    path: `/resources/${r.slug}`,
+    title: r.title,
+    description: r.metaDescription,
+    ogType: 'article',
+    priority: 0.6,
+    changefreq: 'monthly',
+  })),
+];
+
+ROUTES.push(...LANDING_ROUTES);
 
 export const STATIC_ROUTES_BY_PATH = new Map(ROUTES.map((r) => [r.path, r]));
 

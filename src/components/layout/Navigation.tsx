@@ -8,6 +8,7 @@ type NavLink = { to: string; label: string };
 const NAV_LINKS: NavLink[] = [
   { to: '/about', label: 'About' },
   { to: '/services', label: 'Services' },
+  { to: '/sectors', label: 'Sectors' },
   { to: '/process', label: 'Process' },
   { to: '/case-studies', label: 'Our Work' },
   { to: '/team', label: 'Team' },
