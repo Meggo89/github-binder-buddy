@@ -27,22 +27,45 @@ export function initAnalytics() {
   document.head.appendChild(script);
 
   window.dataLayer = window.dataLayer || [];
-  function gtag(...args: unknown[]) {
-    window.dataLayer.push(args);
+  // Canonical Google snippet form: push the Arguments object, not a rest-array.
+  // gtag.js internally inspects entries for Arguments-like behaviour; some
+  // builds of the library have been observed to no-op silently when the queue
+  // contains plain Arrays instead. ~10% candidate root cause for the silent
+  // /collect drop, free defensive fix to match the official reference exactly.
+  function gtag() {
+    // eslint-disable-next-line prefer-rest-params
+    (window.dataLayer as unknown as IArguments[]).push(arguments);
   }
-  window.gtag = gtag;
+  window.gtag = gtag as unknown as (...args: unknown[]) => void;
 
   // Consent Mode v2 default. Analytics on, advertising off.
-  gtag('consent', 'default', {
+  window.gtag('consent', 'default', {
     analytics_storage: 'granted',
     ad_storage: 'denied',
     ad_user_data: 'denied',
     ad_personalization: 'denied',
   });
 
-  gtag('js', new Date());
-  gtag('config', GA_MEASUREMENT_ID, {
+  window.gtag('js', new Date());
+  // send_page_view: false so the initial config command does NOT auto-fire
+  // a page_view. usePageViewTracking() in src/hooks/usePageViewTracking.ts
+  // owns every page_view event (initial mount + every SPA route change).
+  // Without this, fixing the underlying transmission issue would cause a
+  // duplicate page_view on first load.
+  window.gtag('config', GA_MEASUREMENT_ID, {
     anonymize_ip: true,
+    send_page_view: false,
+  });
+}
+
+// Fire a page_view event manually. Used by usePageViewTracking on every
+// initial mount + SPA route change.
+export function trackPageView() {
+  if (typeof window === 'undefined' || !window.gtag) return;
+  window.gtag('event', 'page_view', {
+    page_location: window.location.href,
+    page_path: window.location.pathname + window.location.search,
+    page_title: document.title,
   });
 }
 

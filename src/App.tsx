@@ -1,6 +1,7 @@
 import { lazy, Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { CookieConsent } from './components/CookieConsent';
+import { usePageViewTracking } from './hooks/usePageViewTracking';
 
 const Home = lazy(() => import('./pages/Home'));
 const About = lazy(() => import('./pages/About'));
@@ -20,6 +21,7 @@ const ServiceLanding = lazy(() => import('./pages/ServiceLanding'));
 const ResourceLanding = lazy(() => import('./pages/ResourceLanding'));
 
 export default function App() {
+  usePageViewTracking();
   return (
     <>
       <a
