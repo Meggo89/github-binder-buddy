@@ -1,11 +1,65 @@
-import type { ContentTodo } from '../../content/landing';
+import { Fragment, ReactNode } from 'react';
+import { Link } from 'react-router-dom';
+import type { ContentTodo, SubSectionTodo } from '../../content/landing';
 
-// Renders an H2 with a {{ CONTENT_TODO }} marker plus a bulleted brief of
-// what the section should cover when the long-form copy lands. The marker
-// is rendered to the DOM (not just a comment) so it is easy to find with
-// inspect-element or a grep through the rendered output during content QA.
-export function ContentTodoSection({ todo, headingLevel = 'h2' }: { todo: ContentTodo; headingLevel?: 'h2' | 'h3' }) {
+// Render a paragraph that may contain markdown-style inline links, e.g.
+//   "We explain this on the [process page](/process/) at length."
+// Each match becomes a React Router <Link>; everything else stays text.
+function renderInlineLinks(paragraph: string): ReactNode[] {
+  const out: ReactNode[] = [];
+  const pattern = /\[([^\]]+)\]\(([^)]+)\)/g;
+  let lastIndex = 0;
+  let match;
+  let key = 0;
+  while ((match = pattern.exec(paragraph)) !== null) {
+    if (match.index > lastIndex) {
+      out.push(<Fragment key={`t${key++}`}>{paragraph.slice(lastIndex, match.index)}</Fragment>);
+    }
+    const [, label, href] = match;
+    const isExternal = /^https?:\/\//.test(href);
+    if (isExternal) {
+      out.push(
+        <a
+          key={`l${key++}`}
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-navy underline decoration-accent/40 underline-offset-4 hover:text-accent-dark"
+        >
+          {label}
+        </a>
+      );
+    } else {
+      out.push(
+        <Link
+          key={`l${key++}`}
+          to={href}
+          className="text-navy underline decoration-accent/40 underline-offset-4 hover:text-accent-dark"
+        >
+          {label}
+        </Link>
+      );
+    }
+    lastIndex = match.index + match[0].length;
+  }
+  if (lastIndex < paragraph.length) {
+    out.push(<Fragment key={`t${key++}`}>{paragraph.slice(lastIndex)}</Fragment>);
+  }
+  return out;
+}
+
+// Renders an H2/H3 section. When `body` is populated, renders the prose;
+// otherwise renders the {{ CONTENT_TODO }} marker and the bullet brief so
+// half-written pages stay visually obvious during content QA.
+export function ContentTodoSection({
+  todo,
+  headingLevel = 'h2',
+}: {
+  todo: ContentTodo | SubSectionTodo;
+  headingLevel?: 'h2' | 'h3';
+}) {
   const Heading = headingLevel;
+  const hasBody = !!todo.body && todo.body.length > 0;
   return (
     <section className="py-12 md:py-16 border-t border-navy/5">
       <div className="max-w-3xl">
@@ -18,17 +72,27 @@ export function ContentTodoSection({ todo, headingLevel = 'h2' }: { todo: Conten
         >
           {todo.heading}
         </Heading>
-        <p className="font-mono text-xs text-accent-dark tracking-widest uppercase mb-3">
-          {'{{'} CONTENT_TODO {'}}'}
-        </p>
-        <ul className="space-y-2 text-navy-light leading-relaxed">
-          {todo.cover.map((c) => (
-            <li key={c} className="flex gap-3">
-              <span className="text-accent flex-shrink-0">·</span>
-              <span>{c}</span>
-            </li>
-          ))}
-        </ul>
+        {hasBody ? (
+          <div className="space-y-5 text-body-lg text-navy-light leading-relaxed">
+            {todo.body!.map((p, i) => (
+              <p key={i}>{renderInlineLinks(p)}</p>
+            ))}
+          </div>
+        ) : (
+          <>
+            <p className="font-mono text-xs text-accent-dark tracking-widest uppercase mb-3">
+              {'{{'} CONTENT_TODO {'}}'}
+            </p>
+            <ul className="space-y-2 text-navy-light leading-relaxed">
+              {todo.cover.map((c) => (
+                <li key={c} className="flex gap-3">
+                  <span className="text-accent flex-shrink-0">·</span>
+                  <span>{c}</span>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
       </div>
     </section>
   );

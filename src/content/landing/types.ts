@@ -9,8 +9,14 @@ export type FaqQA = {
 export type ContentTodo = {
   // H2 heading exactly as it should render
   heading: string;
-  // Bullet list of what the body of this section should cover when written
+  // Bullet list of what the body of this section should cover when written.
+  // Only displayed (alongside a {{ CONTENT_TODO }} marker) when `body` is empty.
   cover: string[];
+  // Real prose for the section, as an array of paragraphs. Each string is one
+  // <p>. Inline links use markdown-style `[label](/path/)` and are parsed by
+  // ContentTodoSection. When set, suppresses the {{ CONTENT_TODO }} marker and
+  // the cover bullets — only the heading + paragraphs render.
+  body?: string[];
 };
 
 export type SubSectionTodo = {
@@ -18,6 +24,7 @@ export type SubSectionTodo = {
   // tech recruitment, finance recruitment) rather than separate URLs.
   heading: string;
   cover: string[];
+  body?: string[];
 };
 
 export type CaseStudyAnchor = {
