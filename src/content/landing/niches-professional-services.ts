@@ -1,47 +1,50 @@
-import type { NicheLanding } from './types';
+import type { NicheLanding } from "./types";
 
 export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
   {
-    slug: 'specialist-accounting-firms',
-    pillarSlug: 'professional-services',
-    name: 'Specialist accounting firms',
-    nameLower: 'specialist accounting',
-    title: 'Accountancy Firm M&A Advisor UK | Mastella Advisory',
+    slug: "specialist-accounting-firms",
+    pillarSlug: "professional-services",
+    name: "Specialist accounting firms",
+    nameLower: "specialist accounting",
+    title: "Accountancy Firm M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      'Selling a UK accountancy firm worth £5–50M? Senior-led, off-market M&A advisory. Confidential sale process for partner-led practices.',
-    h1: 'Selling an accountancy firm in the UK',
+      "Selling a UK accountancy firm worth £5–50M? Senior-led, off-market M&A advisory. Confidential sale process for partner-led practices.",
+    h1: "Selling an accountancy firm in the UK",
     intro:
-      'We advise UK partner-led accountancy firms — including specialist tax, audit, advisory and outsourced finance practices — on confidential sales. Senior-led in the £5–50M EV segment.',
+      "We advise UK partner-led accountancy firms — including specialist tax, audit, advisory and outsourced finance practices — on confidential sales. Senior-led in the £5–50M EV segment.",
     faqs: [
       {
-        q: 'What multiples do UK accountancy firms trade at?',
-        a: 'Partner-led accountancy firms typically trade at 6–10x adjusted EBITDA (or 1–1.5x recurring fee income for traditional pricing methodologies). PE consolidators have driven multiples meaningfully higher over recent years.',
+        q: "What multiples do UK accountancy firms trade at?",
+        a: "Partner-led accountancy firms typically trade at 6–10x adjusted EBITDA (or 1–1.5x recurring fee income for traditional pricing methodologies). PE consolidators have driven multiples meaningfully higher over recent years.",
       },
       {
-        q: 'Who buys UK accountancy firms?',
-        a: 'PE-backed consolidators (very active and well-funded), larger strategic firms expanding by capability or geography, and a smaller number of overseas firms entering or expanding in the UK.',
+        q: "Who buys UK accountancy firms?",
+        a: "PE-backed consolidators (very active and well-funded), larger strategic firms expanding by capability or geography, and a smaller number of overseas firms entering or expanding in the UK.",
       },
       {
-        q: 'How does the partner structure affect a sale?',
-        a: 'Partnership alignment is the single most important factor. Multi-partner equity structures need to be aligned on objectives, vesting and proceeds split well before going to market. Lack of partner alignment is the most common reason accountancy sales stall.',
+        q: "How does the partner structure affect a sale?",
+        a: "Partnership alignment is the single most important factor. Multi-partner equity structures need to be aligned on objectives, vesting and proceeds split well before going to market. Lack of partner alignment is the most common reason accountancy sales stall.",
       },
       {
-        q: 'What about client retention and concentration?',
-        a: 'Buyers diligence client concentration and contracted/recurring fee mix carefully. We help owners document client retention, fee growth and concentration cleanly pre-process.',
+        q: "What about client retention and concentration?",
+        a: "Buyers diligence client concentration and contracted/recurring fee mix carefully. We help owners document client retention, fee growth and concentration cleanly pre-process.",
       },
       {
-        q: 'How long does an accountancy firm sale typically take?',
-        a: '6–9 months end to end. Partner alignment work and consultation periods sometimes extend this.',
+        q: "How long does an accountancy firm sale typically take?",
+        a: "6–9 months end to end. Partner alignment work and consultation periods sometimes extend this.",
       },
       {
-        q: 'How does talent depth affect valuation?',
-        a: 'Significantly. PE consolidators specifically value talent depth (senior managers, directors, partner pipeline) because they need it to deliver the buy-and-build thesis.',
+        q: "How does talent depth affect valuation?",
+        a: "Significantly. PE consolidators specifically value talent depth (senior managers, directors, partner pipeline) because they need it to deliver the buy-and-build thesis.",
       },
     ],
     contentTodos: [
       {
-        heading: 'Who we work with',
-        cover: ['Partner-led accountancy firms £5–50M EV', 'Specialist tax, audit, advisory, outsourced finance'],
+        heading: "Who we work with",
+        cover: [
+          "Partner-led accountancy firms £5–50M EV",
+          "Specialist tax, audit, advisory, outsourced finance",
+        ],
         body: [
           "You are a partner or equity-holder in a UK accountancy firm worth between £5M and £50M in enterprise value. A full-service firm with a mix of audit, tax, advisory and outsourced finance work. A specialist tax practice (transaction tax, private client, international tax). A specialist audit firm. An outsourced finance / virtual CFO platform. Most likely between two and twelve equity partners, a senior management layer behind that, and 50 to 250 fee earners.",
           "The accountancy M&A market in the UK has been one of the most active professional services sub-sectors in recent years. PE-backed consolidators have driven a meaningful re-rating of multiples and have widened the buyer pool well beyond the traditional accountancy-to-accountancy merger. Strategic firms expanding by capability or geography form a second pool. A smaller number of overseas firms entering or expanding in the UK form a third.",
@@ -50,8 +53,14 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'What buyers look for',
-        cover: ['Recurring fee mix', 'Partner alignment', 'Client concentration', 'Talent depth', 'Practice management tech'],
+        heading: "What buyers look for",
+        cover: [
+          "Recurring fee mix",
+          "Partner alignment",
+          "Client concentration",
+          "Talent depth",
+          "Practice management tech",
+        ],
         body: [
           "Buyer diligence in UK accountancy firm M&A focuses on five items. Each is fixable in advance, and each consistently drives the difference between top-of-range and median outcomes.",
           "Recurring fee mix first. Audit work, retainer advisory, ongoing outsourced finance, and other contracted/recurring fee streams trade at a premium to pure transactional revenue. PE consolidators in particular pay materially differently for a firm at 70% recurring fees versus 30%. Pre-process work to surface and properly classify the recurring component is one of the highest-return preparation activities — most owner-managed firms understate it because the categorisation has never been done sharply.",
@@ -62,8 +71,11 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'Our process',
-        cover: ['Cross-link /process', 'Notes on partnership alignment and consultation periods'],
+        heading: "Our process",
+        cover: [
+          "Cross-link /process",
+          "Notes on partnership alignment and consultation periods",
+        ],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For accountancy firms, three things shape execution.",
           "Partnership alignment is built into the readiness stage, not bolted on later. Where the partner group has not yet aligned on objectives, structure, proceeds split, lock-ins and post-sale roles, the readiness work covers it explicitly. The single fastest way to derail an accountancy firm sale is to arrive at exchange with the partner group still working through these questions in real time.",
@@ -74,46 +86,46 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     ],
   },
   {
-    slug: 'legal-practices',
-    pillarSlug: 'professional-services',
-    name: 'Legal practices',
-    nameLower: 'legal',
-    title: 'Law Firm M&A Advisor UK | Mastella Advisory',
+    slug: "legal-practices",
+    pillarSlug: "professional-services",
+    name: "Legal practices",
+    nameLower: "legal",
+    title: "Law Firm M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      'Selling a UK law firm worth £5–50M? Senior-led M&A advisory. Confidential merger and sale processes for partner-led practices.',
-    h1: 'Selling a law firm in the UK',
+      "Selling a UK law firm worth £5–50M? Senior-led M&A advisory. Confidential merger and sale processes for partner-led practices.",
+    h1: "Selling a law firm in the UK",
     intro:
-      'We advise UK partner-led law firms on confidential sales, mergers and capital transactions (including ABS structures). Senior-led in the £5–50M EV segment.',
+      "We advise UK partner-led law firms on confidential sales, mergers and capital transactions (including ABS structures). Senior-led in the £5–50M EV segment.",
     faqs: [
       {
-        q: 'What multiples do UK law firms trade at?',
-        a: 'Partner-led firms typically trade at 5–9x adjusted profits (or in some segments 1–1.5x recurring revenue). PE-backed consolidators have pushed multiples higher in selected segments — particularly conveyancing, PI, specialist commercial.',
+        q: "What multiples do UK law firms trade at?",
+        a: "Partner-led firms typically trade at 5–9x adjusted profits (or in some segments 1–1.5x recurring revenue). PE-backed consolidators have pushed multiples higher in selected segments — particularly conveyancing, PI, specialist commercial.",
       },
       {
-        q: 'Who buys UK law firms?',
-        a: 'PE-backed consolidators (ABS-permitted), larger strategic firms expanding capability, alternative business structure (ABS) acquirers, and a smaller number of overseas firms.',
+        q: "Who buys UK law firms?",
+        a: "PE-backed consolidators (ABS-permitted), larger strategic firms expanding capability, alternative business structure (ABS) acquirers, and a smaller number of overseas firms.",
       },
       {
-        q: 'How does the ABS structure affect a sale?',
-        a: 'ABS-permitted ownership has materially widened the buyer pool over the last decade. Firms looking at PE sale need to be ABS-licensed or be acquired by an ABS structure. We have experience structuring around this.',
+        q: "How does the ABS structure affect a sale?",
+        a: "ABS-permitted ownership has materially widened the buyer pool over the last decade. Firms looking at PE sale need to be ABS-licensed or be acquired by an ABS structure. We have experience structuring around this.",
       },
       {
-        q: 'How does the practice area mix affect valuation?',
-        a: 'Materially. Recurring / contracted work (commercial, employment, property) trades at premiums to transactional work. Specialist niches (financial regulation, technology, specialist litigation) can command premium multiples.',
+        q: "How does the practice area mix affect valuation?",
+        a: "Materially. Recurring / contracted work (commercial, employment, property) trades at premiums to transactional work. Specialist niches (financial regulation, technology, specialist litigation) can command premium multiples.",
       },
       {
-        q: 'How long does a law firm sale typically take?',
-        a: '6–9 months end to end. SRA notifications and partner alignment work sometimes extend this.',
+        q: "How long does a law firm sale typically take?",
+        a: "6–9 months end to end. SRA notifications and partner alignment work sometimes extend this.",
       },
       {
-        q: 'What about partner equity, lock-in and goodwill?',
-        a: 'These are the central commercial terms. We help partner groups align on equity structure, lock-in length, and how goodwill is recognised pre-process.',
+        q: "What about partner equity, lock-in and goodwill?",
+        a: "These are the central commercial terms. We help partner groups align on equity structure, lock-in length, and how goodwill is recognised pre-process.",
       },
     ],
     contentTodos: [
       {
-        heading: 'Who we work with',
-        cover: ['Partner-led UK law firms £5–50M EV'],
+        heading: "Who we work with",
+        cover: ["Partner-led UK law firms £5–50M EV"],
         body: [
           "You are a partner or equity-holder in a UK law firm worth between £5M and £50M in enterprise value. A specialist commercial firm. A regional full-service firm with strong corporate, property and private client practices. A specialist litigation, insurance or financial regulation practice. A volume firm in conveyancing, personal injury or family. Most likely an LLP partnership structure with three to twenty equity partners.",
           "The buyer pool has materially widened over the last decade with the growth of ABS-permitted ownership. PE-backed consolidators (ABS structures) have been very active in volume segments — conveyancing, PI, will-writing, claims handling — and increasingly active in specialist commercial. Larger strategic firms expanding by capability or geography form a second pool. ABS-vehicle acquirers (insurer-backed, IPO platforms) form a third. A smaller number of overseas firms entering or expanding in the UK form a fourth.",
@@ -122,8 +134,14 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'What buyers look for',
-        cover: ['Practice mix', 'Partner alignment', 'Recurring revenue', 'Lock-in structures', 'Tech stack'],
+        heading: "What buyers look for",
+        cover: [
+          "Practice mix",
+          "Partner alignment",
+          "Recurring revenue",
+          "Lock-in structures",
+          "Tech stack",
+        ],
         body: [
           "Buyer diligence in UK law firm M&A is segmented heavily by sub-sector. Five items consistently dominate.",
           "Practice area mix first. Recurring / contracted work (commercial, employment, property, regulatory) trades at premiums to pure transactional revenue. Specialist niches (financial regulation, technology, specialist litigation) command premium multiples because of barriers to entry. We help firms surface and segment practice mix cleanly in the IM — the difference between a 'general commercial firm' framing and a 'specialist regulatory firm with commercial work' framing meaningfully changes which buyers engage and at what level.",
@@ -134,8 +152,11 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'Our process',
-        cover: ['Cross-link /process', 'Notes on ABS structure and SRA notifications'],
+        heading: "Our process",
+        cover: [
+          "Cross-link /process",
+          "Notes on ABS structure and SRA notifications",
+        ],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For law firms, three things shape execution.",
           "SRA-related steps and ABS structuring run alongside commercial diligence. Where the buyer is an ABS structure or the firm needs to convert to ABS, we build that into the process design from the start. SRA notifications and consent steps have their own calendar and need planning rather than reaction.",
@@ -146,46 +167,46 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     ],
   },
   {
-    slug: 'consulting-practices',
-    pillarSlug: 'professional-services',
-    name: 'Consulting practices',
-    nameLower: 'consulting',
-    title: 'Consulting Firm M&A Advisor UK | Mastella Advisory',
+    slug: "consulting-practices",
+    pillarSlug: "professional-services",
+    name: "Consulting practices",
+    nameLower: "consulting",
+    title: "Consulting Firm M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      'Selling a UK consulting firm worth £5–50M? Senior-led, off-market M&A advisory. Confidential sale for specialist consulting practice owners.',
-    h1: 'Selling a consulting firm in the UK',
+      "Selling a UK consulting firm worth £5–50M? Senior-led, off-market M&A advisory. Confidential sale for specialist consulting practice owners.",
+    h1: "Selling a consulting firm in the UK",
     intro:
-      'We advise UK owners of specialist consulting firms — strategy, management, technology, specialist sector — on confidential sales. Senior-led in the £5–50M EV segment.',
+      "We advise UK owners of specialist consulting firms — strategy, management, technology, specialist sector — on confidential sales. Senior-led in the £5–50M EV segment.",
     faqs: [
       {
-        q: 'What multiples do UK consulting firms trade at?',
-        a: 'Owner-managed consulting firms typically trade at 5–9x adjusted EBITDA. Premium multiples for specialist firms with defensible IP / methodology, blue-chip client books, and meaningful recurring / retainer revenue.',
+        q: "What multiples do UK consulting firms trade at?",
+        a: "Owner-managed consulting firms typically trade at 5–9x adjusted EBITDA. Premium multiples for specialist firms with defensible IP / methodology, blue-chip client books, and meaningful recurring / retainer revenue.",
       },
       {
-        q: 'Who buys UK consulting firms?',
-        a: 'Larger strategic consulting groups, PE consolidators in specialist niches, technology services groups for tech-adjacent consulting, and overseas firms expanding UK footprint.',
+        q: "Who buys UK consulting firms?",
+        a: "Larger strategic consulting groups, PE consolidators in specialist niches, technology services groups for tech-adjacent consulting, and overseas firms expanding UK footprint.",
       },
       {
-        q: 'How does retainer vs project revenue mix affect valuation?',
-        a: 'Materially. Retainer / recurring revenue is valued at a premium to project revenue because of visibility and stickiness. We work with owners pre-process to surface and segment this clearly.',
+        q: "How does retainer vs project revenue mix affect valuation?",
+        a: "Materially. Retainer / recurring revenue is valued at a premium to project revenue because of visibility and stickiness. We work with owners pre-process to surface and segment this clearly.",
       },
       {
-        q: 'What about partner / consultant retention?',
-        a: 'Top-consultant retention is the headline diligence concern. Buyers look at tenure, billing concentration in top consultants, restrictive covenants and post-sale lock-in arrangements.',
+        q: "What about partner / consultant retention?",
+        a: "Top-consultant retention is the headline diligence concern. Buyers look at tenure, billing concentration in top consultants, restrictive covenants and post-sale lock-in arrangements.",
       },
       {
-        q: 'How long does a consulting sale typically take?',
-        a: '6–9 months end to end.',
+        q: "How long does a consulting sale typically take?",
+        a: "6–9 months end to end.",
       },
       {
-        q: 'How is IP / methodology valued?',
-        a: 'Defensible methodology, proprietary frameworks and documented IP support premium pricing. We help owners document IP positions cleanly.',
+        q: "How is IP / methodology valued?",
+        a: "Defensible methodology, proprietary frameworks and documented IP support premium pricing. We help owners document IP positions cleanly.",
       },
     ],
     contentTodos: [
       {
-        heading: 'Who we work with',
-        cover: ['Specialist consulting firm owners £5–50M EV'],
+        heading: "Who we work with",
+        cover: ["Specialist consulting firm owners £5–50M EV"],
         body: [
           "You own a UK consulting firm worth between £5M and £50M in enterprise value. A specialist strategy or management consulting practice. A technology consulting firm with deep methodology. A specialist sector consulting business (financial services, healthcare, public sector, energy). A specialist functional consulting firm (digital, transformation, operations, change). Most likely a mix of project revenue and retainer / programmatic revenue with a recognised client book.",
           "The buyer pool sits across larger strategic consulting groups acquiring for capability or sector depth, PE consolidators in defined consulting niches, technology services groups acquiring tech-adjacent consulting capability, and overseas firms expanding UK footprint. Specialist niches (financial regulation, specialist technology, deep sector expertise) attract premium pricing and a wider buyer pool than generalist consulting at the same revenue.",
@@ -194,8 +215,14 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'What buyers look for',
-        cover: ['Retainer mix', 'IP and methodology', 'Consultant retention', 'Client concentration', 'Partner alignment'],
+        heading: "What buyers look for",
+        cover: [
+          "Retainer mix",
+          "IP and methodology",
+          "Consultant retention",
+          "Client concentration",
+          "Partner alignment",
+        ],
         body: [
           "Buyer diligence in UK consulting M&A focuses on five items.",
           "Retainer vs project revenue mix first. Retainer and programmatic revenue is valued at a meaningful premium to project revenue because of visibility and stickiness. Buyers will diligence the recurring book by client, by length, and by retention. Surfacing this cleanly in the IM is high-return work — most consulting firms understate the recurring portion because the categorisation has never been done sharply.",
@@ -206,8 +233,8 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'Our process',
-        cover: ['Cross-link /process'],
+        heading: "Our process",
+        cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For consulting firms, three things shape execution.",
           "Partnership alignment is built into the readiness phase. Where multiple partners hold equity, alignment work happens before any buyer is approached.",
@@ -218,46 +245,46 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     ],
   },
   {
-    slug: 'surveying-and-property-advisory',
-    pillarSlug: 'professional-services',
-    name: 'Surveying & property advisory',
-    nameLower: 'surveying and property advisory',
-    title: 'Surveying & Property Advisory M&A Advisor UK | Mastella',
+    slug: "surveying-and-property-advisory",
+    pillarSlug: "professional-services",
+    name: "Surveying & property advisory",
+    nameLower: "surveying and property advisory",
+    title: "Surveying & Property Advisory M&A Advisor UK | Mastella",
     metaDescription:
-      'Selling a UK surveying or property advisory firm worth £5–50M? Senior-led, off-market M&A advisory. Confidential sale for partner-led practices.',
-    h1: 'Selling a surveying or property advisory firm in the UK',
+      "Selling a UK surveying or property advisory firm worth £5–50M? Senior-led, off-market M&A advisory. Confidential sale for partner-led practices.",
+    h1: "Selling a surveying or property advisory firm in the UK",
     intro:
-      'We advise UK partner-led surveying and property advisory firms — residential and commercial — on confidential sales and mergers. Senior-led in the £5–50M EV segment.',
+      "We advise UK partner-led surveying and property advisory firms — residential and commercial — on confidential sales and mergers. Senior-led in the £5–50M EV segment.",
     faqs: [
       {
-        q: 'What multiples do UK surveying and property advisory firms trade at?',
-        a: 'Owner-managed surveying and property advisory firms typically trade at 6–9x adjusted EBITDA. Premium multiples for specialist niches (commercial valuation, specialist building surveying, planning) and businesses with blue-chip institutional clients.',
+        q: "What multiples do UK surveying and property advisory firms trade at?",
+        a: "Owner-managed surveying and property advisory firms typically trade at 6–9x adjusted EBITDA. Premium multiples for specialist niches (commercial valuation, specialist building surveying, planning) and businesses with blue-chip institutional clients.",
       },
       {
-        q: 'Who buys UK surveying and property advisory firms?',
-        a: 'Larger international property advisory groups, PE consolidators in specialist niches, and trade buyers in adjacent professional services.',
+        q: "Who buys UK surveying and property advisory firms?",
+        a: "Larger international property advisory groups, PE consolidators in specialist niches, and trade buyers in adjacent professional services.",
       },
       {
-        q: 'How does practice area mix affect valuation?',
-        a: 'Materially. Recurring / contracted advisory work (estate management, valuation panels) trades at a premium to one-off transactional work. We help owners surface the recurring component clearly.',
+        q: "How does practice area mix affect valuation?",
+        a: "Materially. Recurring / contracted advisory work (estate management, valuation panels) trades at a premium to one-off transactional work. We help owners surface the recurring component clearly.",
       },
       {
-        q: 'What about RICS regulatory standing?',
-        a: 'RICS regulation is a first-look diligence item. Clean regulatory history supports stronger pricing.',
+        q: "What about RICS regulatory standing?",
+        a: "RICS regulation is a first-look diligence item. Clean regulatory history supports stronger pricing.",
       },
       {
-        q: 'How long does a surveying sale typically take?',
-        a: '6–9 months end to end.',
+        q: "How long does a surveying sale typically take?",
+        a: "6–9 months end to end.",
       },
       {
-        q: 'How is partner / surveyor retention handled?',
-        a: 'Top-fee-earner retention is the headline diligence concern. Buyers look at tenure, billing concentration and post-sale lock-in arrangements.',
+        q: "How is partner / surveyor retention handled?",
+        a: "Top-fee-earner retention is the headline diligence concern. Buyers look at tenure, billing concentration and post-sale lock-in arrangements.",
       },
     ],
     contentTodos: [
       {
-        heading: 'Who we work with',
-        cover: ['Surveying and property advisory firms £5–50M EV'],
+        heading: "Who we work with",
+        cover: ["Surveying and property advisory firms £5–50M EV"],
         body: [
           "You are a partner or equity-holder in a UK surveying and property advisory firm worth between £5M and £50M in enterprise value. A commercial property advisory firm with valuation, transaction and management capability. A specialist building surveying or project monitoring practice. A planning or development advisory firm. A residential surveying business at scale. Most likely a partnership or LLP structure with two to twelve equity partners and a recognised client book.",
           "The buyer pool sits across larger international property advisory groups acquiring for capability or geographic fill-in, PE consolidators in defined specialist niches (commercial valuation, building surveying, planning), and trade buyers in adjacent professional services. Specialist niches command premium multiples and access wider buyer pools than generalist surveying at the same revenue.",
@@ -266,8 +293,14 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'What buyers look for',
-        cover: ['Practice mix', 'Recurring revenue', 'Surveyor retention', 'Client concentration', 'RICS standing'],
+        heading: "What buyers look for",
+        cover: [
+          "Practice mix",
+          "Recurring revenue",
+          "Surveyor retention",
+          "Client concentration",
+          "RICS standing",
+        ],
         body: [
           "Buyer diligence in UK surveying and property advisory M&A focuses on five items.",
           "Practice area mix first. Recurring contracted advisory work (estate management, valuation panels, ongoing instructions from institutional clients) trades at a premium to one-off transactional work. Specialist niches (commercial valuation, building surveying, planning) command premium multiples. Surfacing practice mix cleanly is essential.",
@@ -278,8 +311,8 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'Our process',
-        cover: ['Cross-link /process'],
+        heading: "Our process",
+        cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For surveying and property advisory firms, three things shape execution.",
           "Partnership alignment is built into the readiness phase. Where multiple partners hold equity, alignment on objectives, lock-ins and proceeds split happens before buyer engagement.",
@@ -290,46 +323,46 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     ],
   },
   {
-    slug: 'insolvency-and-restructuring',
-    pillarSlug: 'professional-services',
-    name: 'Insolvency & restructuring',
-    nameLower: 'insolvency and restructuring',
-    title: 'Insolvency & Restructuring M&A Advisor UK | Mastella',
+    slug: "insolvency-and-restructuring",
+    pillarSlug: "professional-services",
+    name: "Insolvency & restructuring",
+    nameLower: "insolvency and restructuring",
+    title: "Insolvency & Restructuring M&A Advisor UK | Mastella",
     metaDescription:
-      'Selling a UK insolvency or restructuring practice worth £5–50M? Senior-led, off-market M&A advisory. Confidential sale process.',
-    h1: 'Selling an insolvency or restructuring practice in the UK',
+      "Selling a UK insolvency or restructuring practice worth £5–50M? Senior-led, off-market M&A advisory. Confidential sale process.",
+    h1: "Selling an insolvency or restructuring practice in the UK",
     intro:
-      'We advise UK owners of insolvency and restructuring practices on confidential sales. Senior-led in the £5–50M EV segment.',
+      "We advise UK owners of insolvency and restructuring practices on confidential sales. Senior-led in the £5–50M EV segment.",
     faqs: [
       {
-        q: 'What multiples do UK insolvency practices trade at?',
-        a: 'Insolvency and restructuring practices typically trade at 6–9x adjusted EBITDA. Multiples reflect both case-pipeline visibility and the recognised cyclicality of the sector.',
+        q: "What multiples do UK insolvency practices trade at?",
+        a: "Insolvency and restructuring practices typically trade at 6–9x adjusted EBITDA. Multiples reflect both case-pipeline visibility and the recognised cyclicality of the sector.",
       },
       {
-        q: 'Who buys UK insolvency practices?',
-        a: 'PE consolidators (increasingly active in this segment), larger strategic insolvency groups, and accountancy firms expanding into restructuring.',
+        q: "Who buys UK insolvency practices?",
+        a: "PE consolidators (increasingly active in this segment), larger strategic insolvency groups, and accountancy firms expanding into restructuring.",
       },
       {
-        q: 'How does fee-earner retention affect valuation?',
-        a: 'IP holder and senior insolvency practitioner retention is the headline diligence concern. Buyers look at tenure, case allocation and post-sale lock-in arrangements.',
+        q: "How does fee-earner retention affect valuation?",
+        a: "IP holder and senior insolvency practitioner retention is the headline diligence concern. Buyers look at tenure, case allocation and post-sale lock-in arrangements.",
       },
       {
-        q: 'How is referral source diversity treated?',
-        a: 'Concentrated referral sources (e.g. one or two large lender referrers) is a flag. Diversified referral books support stronger pricing.',
+        q: "How is referral source diversity treated?",
+        a: "Concentrated referral sources (e.g. one or two large lender referrers) is a flag. Diversified referral books support stronger pricing.",
       },
       {
-        q: 'How long does an insolvency practice sale typically take?',
-        a: '6–9 months end to end.',
+        q: "How long does an insolvency practice sale typically take?",
+        a: "6–9 months end to end.",
       },
       {
-        q: 'What about regulatory licences and standing?',
-        a: 'IP licences and recognised professional body standing are first-look diligence items. Clean regulatory history supports stronger pricing.',
+        q: "What about regulatory licences and standing?",
+        a: "IP licences and recognised professional body standing are first-look diligence items. Clean regulatory history supports stronger pricing.",
       },
     ],
     contentTodos: [
       {
-        heading: 'Who we work with',
-        cover: ['Insolvency and restructuring practices £5–50M EV'],
+        heading: "Who we work with",
+        cover: ["Insolvency and restructuring practices £5–50M EV"],
         body: [
           "You are an owner or equity-holder in a UK insolvency and restructuring practice worth between £5M and £50M in enterprise value. A specialist corporate insolvency firm. A combined restructuring and turnaround advisory practice. A personal insolvency specialist. A practice combining insolvency with broader advisory and forensic accounting capability. Most likely two to twelve insolvency practitioners (IPs) holding licences, supported by a wider professional team.",
           "The buyer pool sits across PE consolidators (increasingly active in this segment as the sector has consolidated), larger strategic insolvency groups acquiring for capability or geographic fill-in, and accountancy firms expanding into restructuring. The market has tightened and the buyer pool has become more sophisticated.",
@@ -338,8 +371,13 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'What buyers look for',
-        cover: ['Referral diversity', 'IP retention', 'Case pipeline', 'Regulatory standing'],
+        heading: "What buyers look for",
+        cover: [
+          "Referral diversity",
+          "IP retention",
+          "Case pipeline",
+          "Regulatory standing",
+        ],
         body: [
           "Buyer diligence in UK insolvency and restructuring M&A focuses on five items.",
           "Referral source diversity first. Insolvency practices typically depend heavily on referrer relationships — lenders, accountants, lawyers. Concentrated referral books (50%+ from one or two sources) are a flag. Diversified referral books with multiple long-tenured sources support premium pricing.",
@@ -350,8 +388,8 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'Our process',
-        cover: ['Cross-link /process'],
+        heading: "Our process",
+        cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For insolvency and restructuring, three things shape execution.",
           "Referral source documentation and diversification is built into the readiness phase. Where concentration is high, we work with owners to broaden the book before any process.",

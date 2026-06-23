@@ -1,51 +1,51 @@
-import type { ServiceLanding } from './types';
+import type { ServiceLanding } from "./types";
 
 export const SERVICE_LANDINGS: ServiceLanding[] = [
   {
-    slug: 'exit-planning-advisor-uk',
-    name: 'Exit planning advisor (UK)',
-    title: 'Exit Planning Advisor UK | Mastella Advisory',
+    slug: "exit-planning-advisor-uk",
+    name: "Exit planning advisor (UK)",
+    title: "Exit Planning Advisor UK | Mastella Advisory",
     metaDescription:
-      'UK exit planning advisor for SME owners worth £5–50M. Senior-led readiness work 12–24 months pre-sale. Confidential, owner-aligned advisory.',
-    h1: 'Exit planning advisor for UK SME owners',
+      "UK exit planning advisor for SME owners worth £5–50M. Senior-led readiness work 12–24 months pre-sale. Confidential, owner-aligned advisory.",
+    h1: "Exit planning advisor for UK SME owners",
     intro:
-      'Most exits leave value on the table because the planning starts too late. We work with UK owners 12–24 months before a sale to diagnose the gaps that cost value at diligence and fix them while time is on your side.',
+      "Most exits leave value on the table because the planning starts too late. We work with UK owners 12–24 months before a sale to diagnose the gaps that cost value at diligence and fix them while time is on your side.",
     faqs: [
       {
-        q: 'When should I start exit planning?',
-        a: 'The single most important factor in achieving a strong outcome is starting early. We typically engage 12–24 months before a target sale window. That gives time to fix the structural items (financial reporting, customer concentration, management depth) that affect price most.',
+        q: "When should I start exit planning?",
+        a: "The single most important factor in achieving a strong outcome is starting early. We typically engage 12–24 months before a target sale window. That gives time to fix the structural items (financial reporting, customer concentration, management depth) that affect price most.",
       },
       {
-        q: 'What does exit planning actually involve?',
-        a: 'A readiness assessment across financial reporting, contracts, operations, team, IP and tax structure. We prioritise the items that materially affect buyer multiple, then work with you and your accountants/lawyers to address them.',
+        q: "What does exit planning actually involve?",
+        a: "A readiness assessment across financial reporting, contracts, operations, team, IP and tax structure. We prioritise the items that materially affect buyer multiple, then work with you and your accountants/lawyers to address them.",
       },
       {
-        q: 'How is exit planning different to running the sale itself?',
-        a: 'Exit planning is preparation — making the business demonstrably more saleable. Running the sale is the marketed process. The same advisor often runs both, which is what we do; the planning then leads naturally into a process when you are ready.',
+        q: "How is exit planning different to running the sale itself?",
+        a: "Exit planning is preparation — making the business demonstrably more saleable. Running the sale is the marketed process. The same advisor often runs both, which is what we do; the planning then leads naturally into a process when you are ready.",
       },
       {
-        q: 'How much does exit planning typically cost?',
-        a: 'Mastella works on a high monthly retainer model. Full structure is shared in the first conversation. The retainer model funds senior-led work rather than juniors running the analysis.',
+        q: "How much does exit planning typically cost?",
+        a: "Mastella works on a high monthly retainer model. Full structure is shared in the first conversation. The retainer model funds senior-led work rather than juniors running the analysis.",
       },
       {
-        q: 'Will my staff find out we are planning an exit?',
-        a: 'No — confidentiality is the default. Exit planning work happens within your trusted advisor circle. Staff are only told at the point you choose to tell them.',
+        q: "Will my staff find out we are planning an exit?",
+        a: "No — confidentiality is the default. Exit planning work happens within your trusted advisor circle. Staff are only told at the point you choose to tell them.",
       },
       {
-        q: 'What is the typical uplift from doing the planning work?',
-        a: 'Specific outcomes vary, but in our experience owners who engage 12+ months pre-sale frequently achieve materially better headline price and substantially better deal terms (earn-out, working capital mechanism, indemnity caps) than those running a process cold.',
+        q: "What is the typical uplift from doing the planning work?",
+        a: "Specific outcomes vary, but in our experience owners who engage 12+ months pre-sale frequently achieve materially better headline price and substantially better deal terms (earn-out, working capital mechanism, indemnity caps) than those running a process cold.",
       },
     ],
     contentTodos: [
       {
-        heading: 'What we look at in an exit planning engagement',
+        heading: "What we look at in an exit planning engagement",
         cover: [
-          'Financial reporting and EBITDA quality',
-          'Customer concentration and contract tail',
-          'Management team depth and founder dependency',
-          'Tax structure',
-          'IP / contract assignability',
-          'Property and lease arrangements',
+          "Financial reporting and EBITDA quality",
+          "Customer concentration and contract tail",
+          "Management team depth and founder dependency",
+          "Tax structure",
+          "IP / contract assignability",
+          "Property and lease arrangements",
         ],
         body: [
           "An exit planning engagement is structured around the diligence pack a future buyer will run. We work through it line by line — typically a six-month diagnostic phase followed by 12 to 18 months of structured remediation work alongside your accountants, lawyers and any specialists we bring in.",
@@ -56,8 +56,12 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: 'How we work alongside your accountant and lawyer',
-        cover: ['Coordination model with existing advisors', 'When we add specialists', 'How decisions are made'],
+        heading: "How we work alongside your accountant and lawyer",
+        cover: [
+          "Coordination model with existing advisors",
+          "When we add specialists",
+          "How decisions are made",
+        ],
         body: [
           "Exit planning is not a stand-alone service. It is structured coordination between you, your existing accountant and lawyer, and specialist tax and corporate finance counsel we bring in where needed. We sit in the middle of that constellation, running the workplan and keeping every piece of remediation focused on what will actually move the buyer multiple.",
           "Your existing accountants generally do the heavy lifting on accounting clean-up, statutory positions, and tax compliance. Your existing lawyers handle contract reviews, IP ownership documentation, and corporate governance. We brief both, set the timetable, and identify where specialist counsel (transaction tax, specialist property, sector-specific regulatory) needs to be added.",
@@ -65,8 +69,11 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: 'Outcomes',
-        cover: ['Concrete examples of pre-sale interventions that affect price', 'Owner testimonial-style content'],
+        heading: "Outcomes",
+        cover: [
+          "Concrete examples of pre-sale interventions that affect price",
+          "Owner testimonial-style content",
+        ],
         body: [
           "The headline outcome of a proper exit planning engagement is rarely a single dramatic uplift. It is the compound effect of doing six or seven things well that owners running a cold process tend to do badly or not at all.",
           "Owners who engage 12+ months pre-sale typically achieve materially stronger headline price and substantially better deal terms — earn-out structure, working capital mechanism, indemnity caps, tax structuring efficiency — than those running a process cold. The single most consistent observation across recent transactions is that deals which closed at or above the headline expectation were almost always preceded by structured preparation work; deals that re-traded at completion were almost always run cold.",
@@ -76,48 +83,48 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
     ],
   },
   {
-    slug: 'how-to-sell-a-business',
-    name: 'How to sell a business',
-    title: 'How to Sell a Business in the UK | Mastella Advisory',
+    slug: "how-to-sell-a-business",
+    name: "How to sell a business",
+    title: "How to Sell a Business in the UK | Mastella Advisory",
     metaDescription:
-      'Selling a UK business worth £5–50M? A senior-led, off-market guide to how the sale process actually works. Confidential M&A advisory.',
-    h1: 'How to sell a business in the UK',
+      "Selling a UK business worth £5–50M? A senior-led, off-market guide to how the sale process actually works. Confidential M&A advisory.",
+    h1: "How to sell a business in the UK",
     intro:
-      'Selling a UK business worth £5–50M is a 6–9 month process that follows a clear sequence — and a single owner-led decision tree at each stage. Here is what actually happens and where owners typically get the wrong advice.',
+      "Selling a UK business worth £5–50M is a 6–9 month process that follows a clear sequence — and a single owner-led decision tree at each stage. Here is what actually happens and where owners typically get the wrong advice.",
     faqs: [
       {
-        q: 'What are the main stages of selling a business?',
-        a: 'Six stages: (1) readiness assessment, (2) preparation (financial normalisation, IM, buyer mapping), (3) marketed approach to buyers under NDA, (4) competitive bidding, (5) selection and diligence, (6) legal documentation and exchange. End-to-end is typically 6–9 months.',
+        q: "What are the main stages of selling a business?",
+        a: "Six stages: (1) readiness assessment, (2) preparation (financial normalisation, IM, buyer mapping), (3) marketed approach to buyers under NDA, (4) competitive bidding, (5) selection and diligence, (6) legal documentation and exchange. End-to-end is typically 6–9 months.",
       },
       {
-        q: 'Should I use a broker or an M&A advisor?',
-        a: 'Brokers typically suit businesses worth under £2–3M and use database-listing models. M&A advisors run off-market processes for businesses worth £5M+, contacting curated buyer sets under NDA. The two approaches produce very different outcomes — see our resource on this.',
+        q: "Should I use a broker or an M&A advisor?",
+        a: "Brokers typically suit businesses worth under £2–3M and use database-listing models. M&A advisors run off-market processes for businesses worth £5M+, contacting curated buyer sets under NDA. The two approaches produce very different outcomes — see our resource on this.",
       },
       {
-        q: 'How is my business going to be valued?',
-        a: 'Buyers typically value owner-managed businesses on a multiple of adjusted EBITDA. The multiple varies by sector, growth rate, customer concentration and management depth. We provide an indicative range in the first conversation.',
+        q: "How is my business going to be valued?",
+        a: "Buyers typically value owner-managed businesses on a multiple of adjusted EBITDA. The multiple varies by sector, growth rate, customer concentration and management depth. We provide an indicative range in the first conversation.",
       },
       {
-        q: 'How do I keep the sale confidential?',
-        a: 'Use an off-market process — direct approaches to a curated buyer list under NDA, no public listings. This is the default approach for Mastella mandates.',
+        q: "How do I keep the sale confidential?",
+        a: "Use an off-market process — direct approaches to a curated buyer list under NDA, no public listings. This is the default approach for Mastella mandates.",
       },
       {
-        q: 'What is an earn-out and should I accept one?',
-        a: 'An earn-out is a portion of the price contingent on post-sale performance. They are very common in the lower mid-market. Whether to accept one — and on what terms — is a structuring decision that depends on your tax position, post-sale role and the buyer\'s plan for the business.',
+        q: "What is an earn-out and should I accept one?",
+        a: "An earn-out is a portion of the price contingent on post-sale performance. They are very common in the lower mid-market. Whether to accept one — and on what terms — is a structuring decision that depends on your tax position, post-sale role and the buyer's plan for the business.",
       },
       {
-        q: 'How are M&A advisor fees structured?',
-        a: 'Mastella works on a high monthly retainer model that funds senior-led delivery throughout the mandate. Full structure shared in the first conversation.',
+        q: "How are M&A advisor fees structured?",
+        a: "Mastella works on a high monthly retainer model that funds senior-led delivery throughout the mandate. Full structure shared in the first conversation.",
       },
       {
-        q: 'How long should I plan for?',
-        a: 'Allow 6–9 months from engagement to completion, plus 6–12 months of pre-process readiness work if you have not done it yet. Owners who start early consistently achieve better outcomes.',
+        q: "How long should I plan for?",
+        a: "Allow 6–9 months from engagement to completion, plus 6–12 months of pre-process readiness work if you have not done it yet. Owners who start early consistently achieve better outcomes.",
       },
     ],
     contentTodos: [
       {
-        heading: 'The six-stage process',
-        cover: ['Walk through each stage', 'Cross-link to /process'],
+        heading: "The six-stage process",
+        cover: ["Walk through each stage", "Cross-link to /process"],
         body: [
           "Selling a UK business worth £5M to £50M is a structured six-stage process that runs in a predictable sequence. The order matters; trying to compress or skip stages is what produces poor outcomes. We walk through this in more depth on [our process page](/process/), but the short version below is what every owner should expect.",
           "Stage one is readiness assessment. A clear diagnostic of where the business is against what buyers will actually diligence. Financial reporting hygiene, EBITDA quality, customer concentration, management depth, contract position, IP ownership, tax structure. If the readiness work has not been done already as part of an exit planning engagement, this stage identifies the items that need attention before going to market.",
@@ -129,8 +136,8 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: 'What to do 12 months before going to market',
-        cover: ['Readiness checklist'],
+        heading: "What to do 12 months before going to market",
+        cover: ["Readiness checklist"],
         body: [
           "The single most important factor in a strong outcome is starting preparation 12 to 24 months before the target sale window. The list below is the minimum we expect a business to have addressed before going to market.",
           "Financial reporting clean. Management accounts that reconcile cleanly to statutory accounts. EBITDA bridge documented with adjustments that are defensible to the line. KPI reporting that buyers will recognise as authoritative.",
@@ -142,8 +149,12 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: 'Common owner mistakes',
-        cover: ['Going too early', 'Going to broker network', 'Single-bidder exclusivity too early'],
+        heading: "Common owner mistakes",
+        cover: [
+          "Going too early",
+          "Going to broker network",
+          "Single-bidder exclusivity too early",
+        ],
         body: [
           "We see the same set of mistakes consistently across owners we meet for the first time. The honest version is below.",
           "Going too early. Running a process without readiness work consistently costs owners value and certainty. The marketed process amplifies whatever the business is on the day. Cleaning up the things that will be diligenced before they are diligenced costs less than re-trading at completion or losing the deal.",
@@ -156,44 +167,44 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
     ],
   },
   {
-    slug: 'management-buyout-advisor-uk',
-    name: 'Management buyout advisor (UK)',
-    title: 'Management Buyout Advisor UK | Mastella Advisory',
+    slug: "management-buyout-advisor-uk",
+    name: "Management buyout advisor (UK)",
+    title: "Management Buyout Advisor UK | Mastella Advisory",
     metaDescription:
-      'UK management buyout advisor for owners worth £5–50M. Senior-led MBO structuring, debt and equity sourcing, owner-aligned advisory.',
-    h1: 'Management buyout advisor for UK owners',
+      "UK management buyout advisor for owners worth £5–50M. Senior-led MBO structuring, debt and equity sourcing, owner-aligned advisory.",
+    h1: "Management buyout advisor for UK owners",
     intro:
-      'We advise UK owners on management buyouts and management-led transactions. Senior-led structuring, debt and equity sourcing, and negotiation on both sides where required. Focus on the £5–50M EV segment.',
+      "We advise UK owners on management buyouts and management-led transactions. Senior-led structuring, debt and equity sourcing, and negotiation on both sides where required. Focus on the £5–50M EV segment.",
     faqs: [
       {
-        q: 'When does an MBO make sense?',
-        a: 'MBOs work well when there is a credible management team ready and willing to take the business forward, the seller wants continuity for staff and customers, and there is enough EBITDA to support the debt and equity package required. Below the lower threshold of these conditions, a trade sale typically delivers better outcomes.',
+        q: "When does an MBO make sense?",
+        a: "MBOs work well when there is a credible management team ready and willing to take the business forward, the seller wants continuity for staff and customers, and there is enough EBITDA to support the debt and equity package required. Below the lower threshold of these conditions, a trade sale typically delivers better outcomes.",
       },
       {
-        q: 'How is an MBO funded?',
-        a: 'Typically a blend of senior debt (from clearing banks or alternative lenders), mezzanine / unitranche debt for larger deals, and equity from PE or family office investors. The mix is structured to deliver a workable return on management equity post-completion.',
+        q: "How is an MBO funded?",
+        a: "Typically a blend of senior debt (from clearing banks or alternative lenders), mezzanine / unitranche debt for larger deals, and equity from PE or family office investors. The mix is structured to deliver a workable return on management equity post-completion.",
       },
       {
-        q: 'How does the seller get paid?',
-        a: 'A combination of upfront cash, deferred consideration (vendor loan), and potentially earn-out. The exact mix depends on the funding structure and seller objectives.',
+        q: "How does the seller get paid?",
+        a: "A combination of upfront cash, deferred consideration (vendor loan), and potentially earn-out. The exact mix depends on the funding structure and seller objectives.",
       },
       {
-        q: 'How long does an MBO take?',
-        a: '6–9 months from engagement to completion is typical. Debt arrangement timelines drive the schedule.',
+        q: "How long does an MBO take?",
+        a: "6–9 months from engagement to completion is typical. Debt arrangement timelines drive the schedule.",
       },
       {
-        q: 'How do I avoid conflicts in advising both sides?',
-        a: 'We act either for the seller or for management — not both. The other side typically engages their own advisor. Where appropriate we make recommendations of advisors for the counter-party.',
+        q: "How do I avoid conflicts in advising both sides?",
+        a: "We act either for the seller or for management — not both. The other side typically engages their own advisor. Where appropriate we make recommendations of advisors for the counter-party.",
       },
       {
-        q: 'What about VIMBO (vendor-initiated MBO) processes?',
-        a: 'VIMBO processes — where the seller approaches management with the opportunity — can work well but need careful structuring to manage the conflict and ensure the seller gets fair value.',
+        q: "What about VIMBO (vendor-initiated MBO) processes?",
+        a: "VIMBO processes — where the seller approaches management with the opportunity — can work well but need careful structuring to manage the conflict and ensure the seller gets fair value.",
       },
     ],
     contentTodos: [
       {
-        heading: 'Who an MBO suits',
-        cover: ['Decision tree for trade sale vs MBO'],
+        heading: "Who an MBO suits",
+        cover: ["Decision tree for trade sale vs MBO"],
         body: [
           "Management buyouts work well when three conditions are present together. First, there is a credible management team — typically the MD or COO plus a senior layer — who are willing and financially able to take the business forward. Second, you (as seller) value continuity for staff, customers and culture meaningfully. Third, the business has enough EBITDA and predictable cash conversion to support the debt and equity package required to fund the deal.",
           "Where all three are present, an MBO often delivers a better seller outcome on terms (vendor loan repayment, post-sale role, cultural continuity) even if the headline price sits slightly below a competitive trade-sale process. The seller's realised net proceeds are not just the headline price — they are the headline price minus deal costs, minus tax leakage, minus discount for risk on deferred elements, plus the value of post-sale continuity for the things the seller cares about.",
@@ -202,8 +213,8 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: 'Funding structures we have seen work',
-        cover: ['Anonymised structuring examples'],
+        heading: "Funding structures we have seen work",
+        cover: ["Anonymised structuring examples"],
         body: [
           "MBO funding in the UK lower mid-market typically blends three or four sources. Senior debt from clearing banks or alternative lenders forms the base. Mezzanine or unitranche debt sits above it for larger or more complex deals. Equity from PE houses or family offices typically funds the management equity gap. Vendor loan from the seller (deferred consideration) often bridges the rest.",
           "The mix is structured to deliver a workable management equity stake (typically 15-30% post-completion, depending on the size of the deal and the management contribution), serviceable debt with covenant headroom, and a seller outcome that combines meaningful upfront cash with deferred elements that are appropriately collateralised.",
@@ -212,8 +223,12 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: 'Common pitfalls',
-        cover: ['Over-leveraging', 'Management equity stake too small to motivate', 'Seller deferred consideration risk'],
+        heading: "Common pitfalls",
+        cover: [
+          "Over-leveraging",
+          "Management equity stake too small to motivate",
+          "Seller deferred consideration risk",
+        ],
         body: [
           "MBOs that fail typically do so for one of three reasons. The honest version is below.",
           "Over-leveraging the business. The temptation is to push senior debt to the limit because it maximises immediate seller proceeds. The reality is that debt-heavy structures leave management with no operational headroom, expose the business to covenant breach in the first downturn, and put the deferred elements of seller consideration at risk. Sustainable leverage is the better outcome for everyone.",
@@ -225,44 +240,44 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
     ],
   },
   {
-    slug: 'growth-capital-advisor-uk',
-    name: 'Growth capital advisor (UK)',
-    title: 'Growth Capital Advisor UK | Mastella Advisory',
+    slug: "growth-capital-advisor-uk",
+    name: "Growth capital advisor (UK)",
+    title: "Growth Capital Advisor UK | Mastella Advisory",
     metaDescription:
-      'UK growth capital advisor for SME owners worth £5–50M. Senior-led minority and majority growth-capital rounds with strategic and PE investors.',
-    h1: 'Growth capital advisor for UK SME owners',
+      "UK growth capital advisor for SME owners worth £5–50M. Senior-led minority and majority growth-capital rounds with strategic and PE investors.",
+    h1: "Growth capital advisor for UK SME owners",
     intro:
-      'We advise UK SME owners on growth-capital rounds — minority, majority and pre-exit funding. Senior-led, focused on owners who want capital alongside a partner rather than a full exit. £5–50M EV segment.',
+      "We advise UK SME owners on growth-capital rounds — minority, majority and pre-exit funding. Senior-led, focused on owners who want capital alongside a partner rather than a full exit. £5–50M EV segment.",
     faqs: [
       {
-        q: 'When does growth capital make sense vs a full exit?',
-        a: 'Growth capital suits owners who see meaningful runway in the business but want to de-risk personally, bring in a strategic partner, or fund a buy-and-build agenda. Full exit suits owners ready to step away. The decision is owner-led; we can advise both ways.',
+        q: "When does growth capital make sense vs a full exit?",
+        a: "Growth capital suits owners who see meaningful runway in the business but want to de-risk personally, bring in a strategic partner, or fund a buy-and-build agenda. Full exit suits owners ready to step away. The decision is owner-led; we can advise both ways.",
       },
       {
-        q: 'How much equity will I have to give up?',
-        a: 'Minority growth-capital rounds typically take 20–35% equity. Majority rounds 51–70%. The exact level depends on your need for capital, your view of future value, and the structure that aligns incentives best.',
+        q: "How much equity will I have to give up?",
+        a: "Minority growth-capital rounds typically take 20–35% equity. Majority rounds 51–70%. The exact level depends on your need for capital, your view of future value, and the structure that aligns incentives best.",
       },
       {
-        q: 'Who provides growth capital in the UK lower mid-market?',
-        a: 'PE houses targeting the lower mid-market, family offices, growth-equity funds, and a small number of strategic corporate investors. Each has different return expectations and hold-period assumptions.',
+        q: "Who provides growth capital in the UK lower mid-market?",
+        a: "PE houses targeting the lower mid-market, family offices, growth-equity funds, and a small number of strategic corporate investors. Each has different return expectations and hold-period assumptions.",
       },
       {
-        q: 'What is the typical hold period for a growth-capital investor?',
-        a: 'PE growth-equity hold periods are typically 4–7 years. Family offices and corporate investors are often longer. This affects exit-route alignment, which we work through pre-process.',
+        q: "What is the typical hold period for a growth-capital investor?",
+        a: "PE growth-equity hold periods are typically 4–7 years. Family offices and corporate investors are often longer. This affects exit-route alignment, which we work through pre-process.",
       },
       {
-        q: 'How does board governance change post-investment?',
-        a: 'A growth-capital investor will typically take a board seat and put governance mechanics (reserved matters, information rights, founder lock-ins) in place. We help owners understand what to accept and what to push back on.',
+        q: "How does board governance change post-investment?",
+        a: "A growth-capital investor will typically take a board seat and put governance mechanics (reserved matters, information rights, founder lock-ins) in place. We help owners understand what to accept and what to push back on.",
       },
       {
-        q: 'How long does a growth-capital round typically take?',
-        a: '4–8 months end to end is typical, shorter than a sell-side process.',
+        q: "How long does a growth-capital round typically take?",
+        a: "4–8 months end to end is typical, shorter than a sell-side process.",
       },
     ],
     contentTodos: [
       {
-        heading: 'Minority vs majority vs pre-exit funding',
-        cover: ['Decision tree based on owner objectives'],
+        heading: "Minority vs majority vs pre-exit funding",
+        cover: ["Decision tree based on owner objectives"],
         body: [
           "Growth capital comes in three principal structures, each suited to a different owner objective. The right one depends on what you want from the next stage rather than what the market typically does.",
           "Minority growth capital. Typically 20-35% equity. The owner remains in control, takes some capital off the table, and brings in an investor who can support the next phase of growth — usually a buy-and-build agenda, a meaningful organic investment programme, or geographic expansion. This route suits owners who see real runway in the business and want a partner rather than an exit.",
@@ -272,8 +287,13 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: 'What investors look for in growth-capital opportunities',
-        cover: ['Growth trajectory', 'Defensible market position', 'Management team', 'Capital efficiency'],
+        heading: "What investors look for in growth-capital opportunities",
+        cover: [
+          "Growth trajectory",
+          "Defensible market position",
+          "Management team",
+          "Capital efficiency",
+        ],
         body: [
           "Growth-capital investors evaluate opportunities on a different set of criteria from full-exit buyers. The headline items below shape who engages with a growth-capital opportunity and on what terms.",
           "Growth trajectory. Investors want to see consistent year-on-year growth with a credible plan to maintain or accelerate it over the hold period. Slowing-growth businesses attract growth capital only where there is a clear path to re-acceleration.",
@@ -283,8 +303,8 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: 'Post-investment governance',
-        cover: ['Reserved matters', 'Information rights', 'Founder lock-ins'],
+        heading: "Post-investment governance",
+        cover: ["Reserved matters", "Information rights", "Founder lock-ins"],
         body: [
           "Growth-capital deals come with governance terms that meaningfully affect how the business runs post-investment. The major terms are below — what each typically looks like, and where the owner-led negotiating room sits.",
           "Reserved matters. The list of decisions that require investor consent (typically capital raises, M&A, leadership changes, material capex, budgets above a threshold). Standard but the specifics matter. Over-broad reserved matters give the investor effective veto on day-to-day decisions; well-negotiated reserved matters preserve the founder's operational autonomy while protecting the investor's economics.",
@@ -297,44 +317,48 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
     ],
   },
   {
-    slug: 'company-valuation-uk',
-    name: 'Company valuation (UK)',
-    title: 'Company Valuation UK | Mastella Advisory',
+    slug: "company-valuation-uk",
+    name: "Company valuation (UK)",
+    title: "Company Valuation UK | Mastella Advisory",
     metaDescription:
-      'UK company valuation for SME owners worth £5–50M. Indicative and exit-ready valuation work from a senior-led M&A advisor.',
-    h1: 'Company valuation for UK SME owners',
+      "UK company valuation for SME owners worth £5–50M. Indicative and exit-ready valuation work from a senior-led M&A advisor.",
+    h1: "Company valuation for UK SME owners",
     intro:
-      'Most owner-managed UK businesses are worth materially more than their accountant\'s asset-based valuation. We provide indicative and exit-ready valuation work grounded in current transaction multiples, sector benchmarks and buyer behaviour — not abstract methodology.',
+      "Most owner-managed UK businesses are worth materially more than their accountant's asset-based valuation. We provide indicative and exit-ready valuation work grounded in current transaction multiples, sector benchmarks and buyer behaviour — not abstract methodology.",
     faqs: [
       {
-        q: 'How is my business going to be valued by a buyer?',
-        a: 'Owner-managed UK businesses in the £5–50M EV segment are typically valued on a multiple of adjusted EBITDA. The multiple varies by sector (5x to 12x is the broad range), growth rate, customer concentration, management depth and recurring revenue mix. We provide an indicative range in the first conversation.',
+        q: "How is my business going to be valued by a buyer?",
+        a: "Owner-managed UK businesses in the £5–50M EV segment are typically valued on a multiple of adjusted EBITDA. The multiple varies by sector (5x to 12x is the broad range), growth rate, customer concentration, management depth and recurring revenue mix. We provide an indicative range in the first conversation.",
       },
       {
-        q: 'What is the difference between accountant valuations and M&A valuations?',
-        a: 'Accountant valuations are often asset-based or use generic earnings multiples. M&A valuations reflect what buyers will actually pay today, which is driven by current transaction multiples in your specific sector. The two can differ materially.',
+        q: "What is the difference between accountant valuations and M&A valuations?",
+        a: "Accountant valuations are often asset-based or use generic earnings multiples. M&A valuations reflect what buyers will actually pay today, which is driven by current transaction multiples in your specific sector. The two can differ materially.",
       },
       {
         q: 'What is "adjusted EBITDA"?',
-        a: 'Reported EBITDA adjusted for owner discretionary items (above-market salary, personal expenses), one-off items, and non-trading items. Buyers run their own adjustments — we help owners build the right bridge before going to market.',
+        a: "Reported EBITDA adjusted for owner discretionary items (above-market salary, personal expenses), one-off items, and non-trading items. Buyers run their own adjustments — we help owners build the right bridge before going to market.",
       },
       {
-        q: 'Why do multiples vary so widely by sector?',
-        a: 'Buyer competition, growth profile, regulatory barriers and capital intensity all affect what buyers will pay. Sectors with active PE consolidation (healthcare, MSP, professional services) currently command higher multiples than sectors with thinner buyer pools.',
+        q: "Why do multiples vary so widely by sector?",
+        a: "Buyer competition, growth profile, regulatory barriers and capital intensity all affect what buyers will pay. Sectors with active PE consolidation (healthcare, MSP, professional services) currently command higher multiples than sectors with thinner buyer pools.",
       },
       {
-        q: 'Do you provide valuation reports for tax / divorce / share schemes?',
-        a: 'Our valuation work is geared to commercial M&A and capital transactions, not statutory or compliance-driven valuations. For HMRC or share scheme purposes we can recommend specialist firms.',
+        q: "Do you provide valuation reports for tax / divorce / share schemes?",
+        a: "Our valuation work is geared to commercial M&A and capital transactions, not statutory or compliance-driven valuations. For HMRC or share scheme purposes we can recommend specialist firms.",
       },
       {
-        q: 'How much does an indicative valuation cost?',
-        a: 'An indicative valuation as part of an exploratory conversation is typically complimentary. Detailed valuation work for transaction or planning purposes is part of a paid mandate; structure shared in the first conversation.',
+        q: "How much does an indicative valuation cost?",
+        a: "An indicative valuation as part of an exploratory conversation is typically complimentary. Detailed valuation work for transaction or planning purposes is part of a paid mandate; structure shared in the first conversation.",
       },
     ],
     contentTodos: [
       {
-        heading: 'How buyer multiples are set',
-        cover: ['Sector benchmarks', 'Recurring revenue premium', 'Customer concentration discount'],
+        heading: "How buyer multiples are set",
+        cover: [
+          "Sector benchmarks",
+          "Recurring revenue premium",
+          "Customer concentration discount",
+        ],
         body: [
           "Buyers in the UK lower mid-market value owner-managed businesses on a multiple of adjusted EBITDA. The sector matters; the structural characteristics of the business matter more. Below is the honest version of how multiples are set in practice today.",
           "The sector base range. Different sectors trade at different base multiples because of buyer competition, growth profile, regulatory barriers and capital intensity. Healthcare services (dental, vet, mental health) currently trade at 8-12x EBITDA at the lower mid-market. Tech-enabled services trade widely from 6x EBITDA on pure services up to ARR-based valuations of 3-8x ARR for SaaS components. Professional services 5-10x. Business services 5-9x. Light industrials 5-8x. Logistics 5-10x depending on sub-segment. See [the sectors hub](/sectors/) for sector-specific detail.",
@@ -345,8 +369,12 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: 'Adjusted EBITDA bridge',
-        cover: ['Common owner adjustments', 'One-off items', 'Working capital normalisation'],
+        heading: "Adjusted EBITDA bridge",
+        cover: [
+          "Common owner adjustments",
+          "One-off items",
+          "Working capital normalisation",
+        ],
         body: [
           "Adjusted EBITDA is the basis on which most lower mid-market UK businesses are valued. It is reported EBITDA — adjusted for items that distort the view of sustainable run-rate profitability. The buyer will run their own version. Yours needs to be defensible to the line before going to market.",
           "Owner discretionary adjustments. Above-market owner salary (where the owner has taken below or above market compensation, the adjustment normalises it). Personal expenses run through the business. Family member salaries above market rate. Property rent at non-market levels. Each adjustment is straightforward to defend in principle but only with proper documentation.",
@@ -357,8 +385,8 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: 'Sector benchmarks',
-        cover: ['Cross-link to /sectors hub for detailed sector ranges'],
+        heading: "Sector benchmarks",
+        cover: ["Cross-link to /sectors hub for detailed sector ranges"],
         body: [
           "Sector-specific multiple ranges, buyer pool composition and diligence focus areas are covered in the sector pillar pages. Below is the headline orientation — for the detail in your sector, follow the link.",
           "[Healthcare services](/sectors/healthcare-services/). 7-12x EBITDA range, very active PE consolidator pool, sector-specific regulatory diligence. Dental, vet, care, mental health and specialist clinics each have distinct sub-sector dynamics.",
@@ -373,44 +401,44 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
     ],
   },
   {
-    slug: 'm-and-a-advisor-uk',
-    name: 'M&A advisor (UK)',
-    title: 'M&A Advisor UK | Mastella Advisory',
+    slug: "m-and-a-advisor-uk",
+    name: "M&A advisor (UK)",
+    title: "M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      'UK M&A advisor for SME owners worth £5–50M. Senior-led, off-market sell-side, buy-side, MBO and capital advisory. Confidential.',
-    h1: 'M&A advisor for UK SME owners',
+      "UK M&A advisor for SME owners worth £5–50M. Senior-led, off-market sell-side, buy-side, MBO and capital advisory. Confidential.",
+    h1: "M&A advisor for UK SME owners",
     intro:
-      'We are a senior-led M&A advisor for UK owner-managed businesses worth £5–50M. Confidential, off-market sell-side, buy-side, MBO and growth-capital work — focused on owners who want senior attention from first call to completion.',
+      "We are a senior-led M&A advisor for UK owner-managed businesses worth £5–50M. Confidential, off-market sell-side, buy-side, MBO and growth-capital work — focused on owners who want senior attention from first call to completion.",
     faqs: [
       {
-        q: 'What does an M&A advisor do?',
-        a: 'An M&A advisor structures and runs sale, capital and acquisition transactions for owners. The role spans preparation (readiness, financial normalisation, narrative), buyer/investor identification, marketed process management, negotiation and execution support through to completion.',
+        q: "What does an M&A advisor do?",
+        a: "An M&A advisor structures and runs sale, capital and acquisition transactions for owners. The role spans preparation (readiness, financial normalisation, narrative), buyer/investor identification, marketed process management, negotiation and execution support through to completion.",
       },
       {
-        q: 'How is an M&A advisor different from a broker?',
-        a: 'Brokers typically operate database-driven listings models and target businesses worth under £2–3M. M&A advisors run off-market processes for businesses worth £5M+, contacting curated buyer sets under NDA and managing competitive dynamics through negotiation.',
+        q: "How is an M&A advisor different from a broker?",
+        a: "Brokers typically operate database-driven listings models and target businesses worth under £2–3M. M&A advisors run off-market processes for businesses worth £5M+, contacting curated buyer sets under NDA and managing competitive dynamics through negotiation.",
       },
       {
-        q: 'What size businesses do you work with?',
-        a: 'Mastella works with UK businesses worth £5–50M in enterprise value. Below £5M we typically refer to a small set of brokers we trust rather than take a mandate we cannot deliver senior-led.',
+        q: "What size businesses do you work with?",
+        a: "Mastella works with UK businesses worth £5–50M in enterprise value. Below £5M we typically refer to a small set of brokers we trust rather than take a mandate we cannot deliver senior-led.",
       },
       {
-        q: 'How are your fees structured?',
-        a: 'Mastella works on a high monthly retainer model that funds genuinely senior-led delivery rather than juniors running the work behind a principal. Full structure is shared in the first conversation.',
+        q: "How are your fees structured?",
+        a: "Mastella works on a high monthly retainer model that funds genuinely senior-led delivery rather than juniors running the work behind a principal. Full structure is shared in the first conversation.",
       },
       {
-        q: 'What sectors do you work in?',
-        a: 'Business services, healthcare services, light industrials, logistics and distribution, professional services and tech-enabled services. See the sectors hub for detail.',
+        q: "What sectors do you work in?",
+        a: "Business services, healthcare services, light industrials, logistics and distribution, professional services and tech-enabled services. See the sectors hub for detail.",
       },
       {
-        q: 'How do I get started?',
-        a: 'Book a 45-minute confidential conversation. No obligation. We will tell you honestly whether what you want to achieve is realistic and whether Mastella is the right firm for it.',
+        q: "How do I get started?",
+        a: "Book a 45-minute confidential conversation. No obligation. We will tell you honestly whether what you want to achieve is realistic and whether Mastella is the right firm for it.",
       },
     ],
     contentTodos: [
       {
-        heading: 'What we do',
-        cover: ['Cross-link /services', 'Cross-link /process'],
+        heading: "What we do",
+        cover: ["Cross-link /services", "Cross-link /process"],
         body: [
           "Mastella is a senior-led M&A advisor for UK owner-managed businesses worth £5M to £50M in enterprise value. We work on confidential, off-market sell-side mandates, management buyouts, growth-capital rounds, and selective buy-side work for clients running active acquisition programmes. The full service detail is on [the services page](/services/) and the stage-by-stage process on [the process page](/process/).",
           "Within sell-side, we handle full sales, majority sales, minority sales, and structured transitions including dual-track processes that combine MBO and trade-sale tracks. Within growth capital, we work on minority rounds with PE and family office investors, majority rounds, and pre-exit funding designed to support a value-creation push before a planned sale.",
@@ -419,8 +447,8 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: 'Who we work with',
-        cover: ['£5–50M EV range', 'Owner-managed', 'Sector coverage'],
+        heading: "Who we work with",
+        cover: ["£5–50M EV range", "Owner-managed", "Sector coverage"],
         body: [
           "We work with owner-managed UK businesses worth between £5M and £50M in enterprise value, across six sectors: business services, healthcare services, light industrials, logistics and distribution, professional services, and tech-enabled services. See [the sectors hub](/sectors/) for the detailed sub-sector coverage.",
           "Our typical client is a founder or partner group 12 to 24 months from a target exit, growth-capital round or capital event. The financials are real, the team is credible, and the business has reached the point where a structured competitive process across the right buyer pool will materially outperform either inbound approaches or a single-buyer negotiation.",
@@ -429,8 +457,11 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: 'Why a senior-led model matters',
-        cover: ['Junior-delivery model in traditional firms', 'Why retainer funding enables seniority'],
+        heading: "Why a senior-led model matters",
+        cover: [
+          "Junior-delivery model in traditional firms",
+          "Why retainer funding enables seniority",
+        ],
         body: [
           "The traditional UK lower mid-market M&A advisor model relies on senior advisors winning mandates and then delegating the substantive delivery work to junior teams. Senior advisors reappear at key buyer meetings and at completion. Owners typically find out about this model only when they are inside it.",
           "Mastella is structured around the opposite model. Every conversation that matters runs through the principal. Buyer mapping, financial normalisation, IM drafting, negotiation, completion mechanics — none of these are delegated. A small in-house team and a proprietary technology layer support the senior delivery rather than substitute for it.",
@@ -443,7 +474,9 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
   },
 ];
 
-export const SERVICE_LANDINGS_BY_SLUG = new Map(SERVICE_LANDINGS.map((s) => [s.slug, s]));
+export const SERVICE_LANDINGS_BY_SLUG = new Map(
+  SERVICE_LANDINGS.map((s) => [s.slug, s]),
+);
 
 export function getServiceLanding(slug: string): ServiceLanding | undefined {
   return SERVICE_LANDINGS_BY_SLUG.get(slug);

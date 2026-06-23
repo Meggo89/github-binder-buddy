@@ -1,47 +1,51 @@
-import type { NicheLanding } from './types';
+import type { NicheLanding } from "./types";
 
 export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
   {
-    slug: 'hr-payroll-services',
-    pillarSlug: 'business-services',
-    name: 'HR & payroll services',
-    nameLower: 'HR and payroll services',
-    title: 'HR & Payroll Services M&A Advisor UK | Mastella Advisory',
+    slug: "hr-payroll-services",
+    pillarSlug: "business-services",
+    name: "HR & payroll services",
+    nameLower: "HR and payroll services",
+    title: "HR & Payroll Services M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      'Selling a UK HR or payroll services business worth £5–50M? Senior-led, off-market M&A advisory. Confidential process for owner-managed firms.',
-    h1: 'Selling an HR or payroll services business in the UK',
+      "Selling a UK HR or payroll services business worth £5–50M? Senior-led, off-market M&A advisory. Confidential process for owner-managed firms.",
+    h1: "Selling an HR or payroll services business in the UK",
     intro:
-      'We advise UK owners of HR outsourcing, payroll bureau and HR consulting businesses on confidential sales. Senior-led across the £5–50M EV segment.',
+      "We advise UK owners of HR outsourcing, payroll bureau and HR consulting businesses on confidential sales. Senior-led across the £5–50M EV segment.",
     faqs: [
       {
-        q: 'What multiples do HR and payroll services businesses trade at?',
-        a: 'UK payroll bureaux and HR outsourcing businesses typically trade at 6–10x adjusted EBITDA, with premium multiples for genuine SaaS or technology-enabled platforms. Pure HR consulting trades lower (4–7x) given lower revenue visibility.',
+        q: "What multiples do HR and payroll services businesses trade at?",
+        a: "UK payroll bureaux and HR outsourcing businesses typically trade at 6–10x adjusted EBITDA, with premium multiples for genuine SaaS or technology-enabled platforms. Pure HR consulting trades lower (4–7x) given lower revenue visibility.",
       },
       {
-        q: 'Who buys UK HR and payroll services businesses?',
-        a: 'PE-backed consolidators are very active in payroll bureau roll-ups. Strategic acquirers include the larger HR technology platforms and accountancy groups expanding into payroll. Genuine SaaS attracts a separate buyer pool again.',
+        q: "Who buys UK HR and payroll services businesses?",
+        a: "PE-backed consolidators are very active in payroll bureau roll-ups. Strategic acquirers include the larger HR technology platforms and accountancy groups expanding into payroll. Genuine SaaS attracts a separate buyer pool again.",
       },
       {
-        q: 'How does technology stack affect valuation?',
-        a: 'Materially. Bureaux running on owned IP or a defensible workflow attract higher multiples than those reselling third-party software. We work with owners pre-process to surface the technology story clearly.',
+        q: "How does technology stack affect valuation?",
+        a: "Materially. Bureaux running on owned IP or a defensible workflow attract higher multiples than those reselling third-party software. We work with owners pre-process to surface the technology story clearly.",
       },
       {
-        q: 'What are the key retention metrics buyers look at?',
-        a: 'Annual client retention rate, average client tenure, payroll volume growth and revenue per client are the headline metrics. Buyers typically want to see >95% annual client retention for a premium multiple.',
+        q: "What are the key retention metrics buyers look at?",
+        a: "Annual client retention rate, average client tenure, payroll volume growth and revenue per client are the headline metrics. Buyers typically want to see >95% annual client retention for a premium multiple.",
       },
       {
-        q: 'How long does an HR / payroll services sale take?',
-        a: '6–9 months is typical. Compliance diligence (data protection, employer-of-record exposure where relevant) sometimes adds a few weeks.',
+        q: "How long does an HR / payroll services sale take?",
+        a: "6–9 months is typical. Compliance diligence (data protection, employer-of-record exposure where relevant) sometimes adds a few weeks.",
       },
       {
-        q: 'Will my clients find out we are running a process?',
-        a: 'No. Our off-market approach contacts a curated buyer list under NDA. Clients learn at the point you choose to tell them, typically post-exchange.',
+        q: "Will my clients find out we are running a process?",
+        a: "No. Our off-market approach contacts a curated buyer list under NDA. Clients learn at the point you choose to tell them, typically post-exchange.",
       },
     ],
     contentTodos: [
       {
-        heading: 'Who we work with',
-        cover: ['Owner profile', 'Typical EBITDA range £0.5M–£8M', 'Single-bureau vs platform clients'],
+        heading: "Who we work with",
+        cover: [
+          "Owner profile",
+          "Typical EBITDA range £0.5M–£8M",
+          "Single-bureau vs platform clients",
+        ],
         body: [
           "You are the owner of a UK payroll bureau or HR outsourcing business worth between £5M and £50M in enterprise value. A multi-client payroll platform serving small and mid-sized employers. An outsourced HR provider with an embedded technology layer. A specialist consulting practice with retainer revenue from corporate clients. Annual client retention sits north of 90%; EBITDA somewhere between £0.5M and £5M.",
           "The phone has likely been ringing. There are 6 to 10 active PE-backed payroll consolidators acquiring in the UK at any given time, plus strategic acquirers in HR technology and accountancy looking to add payroll capability. The question is rarely whether to sell — it is whether the approach you have received reflects what the market would actually pay.",
@@ -50,8 +54,13 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'What buyers look for in HR & payroll businesses',
-        cover: ['Retention metrics', 'Tech stack', 'Compliance posture', 'Client mix by size and sector'],
+        heading: "What buyers look for in HR & payroll businesses",
+        cover: [
+          "Retention metrics",
+          "Tech stack",
+          "Compliance posture",
+          "Client mix by size and sector",
+        ],
         body: [
           "Buyer diligence in UK payroll and HR services M&A is data-driven and metric-led. Five items dominate.",
           "Annual client retention first. Buyers will diligence retention down to individual client tenure across the top 50 clients. Premium pricing requires consistent retention above 95%. Below that, the multiple discounts steeply, and below 90% the buyer pool narrows materially.",
@@ -62,8 +71,8 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'Our process',
-        cover: ['Cross-link /process', 'HR/payroll-specific diligence notes'],
+        heading: "Our process",
+        cover: ["Cross-link /process", "HR/payroll-specific diligence notes"],
         body: [
           "Our [six-stage process](/process/) runs senior-led from first conversation to completion. For HR and payroll services, three things shape execution.",
           "The buyer pool is concentrated and active. Knowing which consolidators are deploying capital today, on what terms, and where each is in their buy-and-build cycle is the difference between a process that produces real competitive tension and one that drifts into a single bilateral conversation. Our buyer mapping covers this from day one, supported by our proprietary technology layer for surfacing acquirer signals from licensed market data.",
@@ -74,46 +83,49 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
     ],
   },
   {
-    slug: 'facilities-management',
-    pillarSlug: 'business-services',
-    name: 'Facilities management',
-    nameLower: 'facilities management',
-    title: 'Facilities Management M&A Advisor UK | Mastella Advisory',
+    slug: "facilities-management",
+    pillarSlug: "business-services",
+    name: "Facilities management",
+    nameLower: "facilities management",
+    title: "Facilities Management M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      'Selling a UK facilities management business worth £5–50M? Senior-led M&A advisory. Confidential sale processes for owner-managed FM firms.',
-    h1: 'Selling a facilities management business in the UK',
+      "Selling a UK facilities management business worth £5–50M? Senior-led M&A advisory. Confidential sale processes for owner-managed FM firms.",
+    h1: "Selling a facilities management business in the UK",
     intro:
-      'We advise UK owners of facilities management businesses — hard FM, soft FM, integrated FM — on confidential sales and capital raises. Senior-led, off-market, focused on the £5–50M EV segment.',
+      "We advise UK owners of facilities management businesses — hard FM, soft FM, integrated FM — on confidential sales and capital raises. Senior-led, off-market, focused on the £5–50M EV segment.",
     faqs: [
       {
-        q: 'What multiples do UK FM businesses trade at?',
-        a: 'Owner-managed FM businesses typically trade at 5–7x adjusted EBITDA, with premium ranges (7–9x) for integrated FM platforms, specialist technical FM and businesses with long-tenor contracted revenue.',
+        q: "What multiples do UK FM businesses trade at?",
+        a: "Owner-managed FM businesses typically trade at 5–7x adjusted EBITDA, with premium ranges (7–9x) for integrated FM platforms, specialist technical FM and businesses with long-tenor contracted revenue.",
       },
       {
-        q: 'Who buys UK FM businesses?',
-        a: 'PE consolidators executing buy-and-build, larger strategic FM groups seeking capability or geographic fill-in, and infrastructure-style investors targeting long-contracted FM income streams.',
+        q: "Who buys UK FM businesses?",
+        a: "PE consolidators executing buy-and-build, larger strategic FM groups seeking capability or geographic fill-in, and infrastructure-style investors targeting long-contracted FM income streams.",
       },
       {
-        q: 'How does contract tail affect valuation?',
-        a: 'Significantly. Average weighted contract tail is one of the first numbers buyers ask for. Long-tail contracted revenue with major clients typically lifts multiples by 1–2 turns versus the same EBITDA on rolling or spot contracts.',
+        q: "How does contract tail affect valuation?",
+        a: "Significantly. Average weighted contract tail is one of the first numbers buyers ask for. Long-tail contracted revenue with major clients typically lifts multiples by 1–2 turns versus the same EBITDA on rolling or spot contracts.",
       },
       {
-        q: 'What about TUPE liabilities?',
-        a: 'TUPE exposure is a standard FM diligence area, not a deal-breaker. We work with owners pre-process to document the relevant headcount, contract assignment positions and any open TUPE risk so it can be priced cleanly rather than discounted by buyers.',
+        q: "What about TUPE liabilities?",
+        a: "TUPE exposure is a standard FM diligence area, not a deal-breaker. We work with owners pre-process to document the relevant headcount, contract assignment positions and any open TUPE risk so it can be priced cleanly rather than discounted by buyers.",
       },
       {
-        q: 'How long does an FM sale typically take?',
-        a: '6–9 months from engagement to completion. Contract diligence and customer reference checking sometimes add 2–4 weeks.',
+        q: "How long does an FM sale typically take?",
+        a: "6–9 months from engagement to completion. Contract diligence and customer reference checking sometimes add 2–4 weeks.",
       },
       {
-        q: 'Do you handle integrated FM and specialist single-service FM?',
-        a: 'Both. Single-service technical FM (M&E, fire & security, specialist cleaning) often achieves premium multiples vs broad integrated FM. We help owners decide which positioning the buyer market will pay most for.',
+        q: "Do you handle integrated FM and specialist single-service FM?",
+        a: "Both. Single-service technical FM (M&E, fire & security, specialist cleaning) often achieves premium multiples vs broad integrated FM. We help owners decide which positioning the buyer market will pay most for.",
       },
     ],
     contentTodos: [
       {
-        heading: 'Who we work with',
-        cover: ['FM owners £5–50M EV', 'Hard FM, soft FM, integrated FM, technical specialist'],
+        heading: "Who we work with",
+        cover: [
+          "FM owners £5–50M EV",
+          "Hard FM, soft FM, integrated FM, technical specialist",
+        ],
         body: [
           "You own a UK facilities management business worth between £5M and £50M in enterprise value. Hard FM (M&E, building services, specialist technical). Soft FM (cleaning, security, catering, grounds). Integrated FM across both. Or a single-service specialist with deep technical capability — fire and security, BMS, specialist cleaning, energy management.",
           "Our FM clients have spent 10 to 25 years building contracts, accreditations, and an engineer or operative base that took longer to build than it will take any buyer to value properly without help. The buyer pool is real but tiered: PE consolidators executing buy-and-build, larger strategic FM groups buying capability or geographic fill-in, and infrastructure-style investors targeting long-contracted FM cashflow.",
@@ -122,8 +134,14 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'What buyers look for in FM businesses',
-        cover: ['Contract tail and renewal rates', 'Customer concentration', 'Margin per contract', 'TUPE exposure', 'Engineer / operative retention'],
+        heading: "What buyers look for in FM businesses",
+        cover: [
+          "Contract tail and renewal rates",
+          "Customer concentration",
+          "Margin per contract",
+          "TUPE exposure",
+          "Engineer / operative retention",
+        ],
         body: [
           "Buyer diligence in UK FM M&A focuses on five items consistently. Each is fixable in advance, and each is where deals stall or re-trade if they are not.",
           "Contract tail and renewal rates first. Average weighted contract tail across the top 20 contracts is one of the first numbers buyers ask for. Books with 36+ months of tail and renewal rates above 85% command premium pricing. Books on rolling 12-month terms with churn above 20% trade at a discount regardless of headline EBITDA.",
@@ -134,8 +152,8 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'Our process',
-        cover: ['Cross-link /process', 'FM-specific diligence sequencing'],
+        heading: "Our process",
+        cover: ["Cross-link /process", "FM-specific diligence sequencing"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For FM businesses, three things shape execution.",
           "Contract diligence is heavier than commercial diligence and runs on its own calendar. Contract tail mapping, TUPE assessment, customer reference calls, site visits, accreditation audits. We design the process around this from the start so the data room arrives complete rather than the buyer running down each thread in turn.",
@@ -146,46 +164,48 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
     ],
   },
   {
-    slug: 'cleaning-services',
-    pillarSlug: 'business-services',
-    name: 'Cleaning services',
-    nameLower: 'cleaning services',
-    title: 'Cleaning Services M&A Advisor UK | Mastella Advisory',
+    slug: "cleaning-services",
+    pillarSlug: "business-services",
+    name: "Cleaning services",
+    nameLower: "cleaning services",
+    title: "Cleaning Services M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      'Selling a UK commercial or specialist cleaning business worth £5–50M? Senior-led, off-market M&A advisory. Confidential process for owner-managed firms.',
-    h1: 'Selling a cleaning services business in the UK',
+      "Selling a UK commercial or specialist cleaning business worth £5–50M? Senior-led, off-market M&A advisory. Confidential process for owner-managed firms.",
+    h1: "Selling a cleaning services business in the UK",
     intro:
-      'We advise UK owners of commercial cleaning, specialist cleaning and contract cleaning businesses on confidential sales. Senior-led, off-market, in the £5–50M EV segment.',
+      "We advise UK owners of commercial cleaning, specialist cleaning and contract cleaning businesses on confidential sales. Senior-led, off-market, in the £5–50M EV segment.",
     faqs: [
       {
-        q: 'What multiples do UK cleaning services businesses trade at?',
-        a: 'Owner-managed commercial cleaning businesses typically trade at 4–6x adjusted EBITDA. Specialist cleaning (technical, regulated, high-rise, hazmat) commands a premium, typically 6–9x.',
+        q: "What multiples do UK cleaning services businesses trade at?",
+        a: "Owner-managed commercial cleaning businesses typically trade at 4–6x adjusted EBITDA. Specialist cleaning (technical, regulated, high-rise, hazmat) commands a premium, typically 6–9x.",
       },
       {
-        q: 'Who buys UK cleaning services businesses?',
-        a: 'PE consolidators dominate the buyer landscape. Strategic acquirers include larger UK and European FM groups expanding cleaning capability, and a small number of overseas strategics building UK footprint.',
+        q: "Who buys UK cleaning services businesses?",
+        a: "PE consolidators dominate the buyer landscape. Strategic acquirers include larger UK and European FM groups expanding cleaning capability, and a small number of overseas strategics building UK footprint.",
       },
       {
-        q: 'How does the labour model affect valuation?',
-        a: 'Labour cost transparency, average wage rates, NLW headroom and supervisor-to-operative ratios are the headline metrics. Businesses paying clearly above National Living Wage with sustainable margin frequently attract a premium because the wage trajectory is already priced in.',
+        q: "How does the labour model affect valuation?",
+        a: "Labour cost transparency, average wage rates, NLW headroom and supervisor-to-operative ratios are the headline metrics. Businesses paying clearly above National Living Wage with sustainable margin frequently attract a premium because the wage trajectory is already priced in.",
       },
       {
-        q: 'What about contract concentration and contract tail?',
-        a: 'Contract concentration above 20% in a single client is a flag; <10% is ideal. Average weighted contract tail (months remaining across the book) is the second key metric. We work with owners pre-process to document both clearly.',
+        q: "What about contract concentration and contract tail?",
+        a: "Contract concentration above 20% in a single client is a flag; <10% is ideal. Average weighted contract tail (months remaining across the book) is the second key metric. We work with owners pre-process to document both clearly.",
       },
       {
-        q: 'How long does a cleaning services sale typically take?',
-        a: '6–9 months from engagement to completion is normal. Contract reviews and TUPE diligence sometimes add a few weeks.',
+        q: "How long does a cleaning services sale typically take?",
+        a: "6–9 months from engagement to completion is normal. Contract reviews and TUPE diligence sometimes add a few weeks.",
       },
       {
-        q: 'Do you handle franchise / multi-site cleaning groups?',
-        a: 'Yes. Franchise and multi-site groups have additional diligence threads (franchise agreements, master franchise terms, royalty income) which we have run before.',
+        q: "Do you handle franchise / multi-site cleaning groups?",
+        a: "Yes. Franchise and multi-site groups have additional diligence threads (franchise agreements, master franchise terms, royalty income) which we have run before.",
       },
     ],
     contentTodos: [
       {
-        heading: 'Who we work with',
-        cover: ['Commercial, specialist, technical, contract cleaning owners £5–50M EV'],
+        heading: "Who we work with",
+        cover: [
+          "Commercial, specialist, technical, contract cleaning owners £5–50M EV",
+        ],
         body: [
           "You own a UK cleaning services business worth between £5M and £50M in enterprise value. Commercial contract cleaning serving offices, retail, education or healthcare. Specialist cleaning — technical, regulated, high-rise, hazmat, post-construction. A franchise or multi-site cleaning group with master franchise IP. Some of you build the books client by client; some have grown by acquisition and integration.",
           "The buyer pool in UK cleaning is dominated by PE-backed consolidators. There are 8 to 12 active acquirers across commercial and specialist cleaning at any given time, with strategic acquirers — larger UK and European FM groups — providing a second pool for the more specialised mandates. Owners typically come to us after at least one approach, with the question of whether to test the market more widely.",
@@ -194,8 +214,14 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'What buyers look for in cleaning services businesses',
-        cover: ['Contract tail', 'Customer concentration', 'Labour model', 'Supervisor ratios', 'Operative retention'],
+        heading: "What buyers look for in cleaning services businesses",
+        cover: [
+          "Contract tail",
+          "Customer concentration",
+          "Labour model",
+          "Supervisor ratios",
+          "Operative retention",
+        ],
         body: [
           "Buyer diligence in UK cleaning M&A is sharper than the sector's reputation suggests. Five items dominate.",
           "Contract tail and renewal rates first. Average weighted contract tail across the top 20 clients is the headline metric. Books with 24+ months of weighted tail and renewal rates above 80% support premium pricing. Rolling 12-month books with churn above 25% trade meaningfully lower.",
@@ -206,8 +232,11 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'Our process',
-        cover: ['Cross-link /process', 'Sector-specific TUPE and contract diligence notes'],
+        heading: "Our process",
+        cover: [
+          "Cross-link /process",
+          "Sector-specific TUPE and contract diligence notes",
+        ],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For cleaning businesses, three things shape execution.",
           "Contract and TUPE diligence sits on a heavier calendar than headline financial diligence. Contract review across the top 20 clients, TUPE position mapping, customer reference calls, regulatory and accreditation audits where applicable. We build the process design around this from the start so the data room arrives complete.",
@@ -218,46 +247,49 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
     ],
   },
   {
-    slug: 'recruitment-agencies',
-    pillarSlug: 'business-services',
-    name: 'Recruitment agencies',
-    nameLower: 'recruitment',
-    title: 'Recruitment Agency M&A Advisor UK | Mastella Advisory',
+    slug: "recruitment-agencies",
+    pillarSlug: "business-services",
+    name: "Recruitment agencies",
+    nameLower: "recruitment",
+    title: "Recruitment Agency M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      'Selling a UK recruitment agency worth £5–50M? Senior-led, off-market M&A advisory across tech, finance and specialist recruitment.',
-    h1: 'Selling a recruitment agency in the UK',
+      "Selling a UK recruitment agency worth £5–50M? Senior-led, off-market M&A advisory across tech, finance and specialist recruitment.",
+    h1: "Selling a recruitment agency in the UK",
     intro:
-      'We advise UK owners of permanent, contract and executive search recruitment businesses on confidential sales. Senior-led in the £5–50M EV segment — including specialist tech recruitment and finance recruitment platforms.',
+      "We advise UK owners of permanent, contract and executive search recruitment businesses on confidential sales. Senior-led in the £5–50M EV segment — including specialist tech recruitment and finance recruitment platforms.",
     faqs: [
       {
-        q: 'What multiples do UK recruitment agencies trade at?',
-        a: 'A wide range. Permanent recruitment trades at 4–6x adjusted EBITDA. Contract / temp recruitment with strong NFI quality trades higher (5–8x). Specialist executive search and high-margin niche permanent businesses can reach 8–10x.',
+        q: "What multiples do UK recruitment agencies trade at?",
+        a: "A wide range. Permanent recruitment trades at 4–6x adjusted EBITDA. Contract / temp recruitment with strong NFI quality trades higher (5–8x). Specialist executive search and high-margin niche permanent businesses can reach 8–10x.",
       },
       {
-        q: 'Who buys UK recruitment agencies?',
-        a: 'PE consolidators rolling up specialist niches, larger international staffing groups, and trade buyers in adjacent or complementary specialisms. Buyer pools are highly sub-sector specific.',
+        q: "Who buys UK recruitment agencies?",
+        a: "PE consolidators rolling up specialist niches, larger international staffing groups, and trade buyers in adjacent or complementary specialisms. Buyer pools are highly sub-sector specific.",
       },
       {
-        q: 'How does perm vs contract / temp mix affect valuation?',
-        a: 'Materially. Contract / temp revenue is generally valued at a premium to perm revenue because of higher visibility and lower cyclicality. We work with owners pre-process to surface contractor margin (NFI / contractor margin per head) clearly.',
+        q: "How does perm vs contract / temp mix affect valuation?",
+        a: "Materially. Contract / temp revenue is generally valued at a premium to perm revenue because of higher visibility and lower cyclicality. We work with owners pre-process to surface contractor margin (NFI / contractor margin per head) clearly.",
       },
       {
-        q: 'What about consultant retention and key-person risk?',
-        a: 'The single biggest diligence concern in recruitment. Buyers look hard at top biller concentration, consultant tenure, leaver economics and lock-in arrangements. Sales where 30%+ of revenue depends on one or two consultants typically discount.',
+        q: "What about consultant retention and key-person risk?",
+        a: "The single biggest diligence concern in recruitment. Buyers look hard at top biller concentration, consultant tenure, leaver economics and lock-in arrangements. Sales where 30%+ of revenue depends on one or two consultants typically discount.",
       },
       {
-        q: 'How long does a recruitment agency sale typically take?',
-        a: '6–9 months end to end. Earn-out structuring negotiation often adds a few weeks given how common earn-outs are in this sector.',
+        q: "How long does a recruitment agency sale typically take?",
+        a: "6–9 months end to end. Earn-out structuring negotiation often adds a few weeks given how common earn-outs are in this sector.",
       },
       {
-        q: 'Will my consultants and clients find out?',
-        a: 'No. Off-market approach to a curated buyer list under NDA. We never list the business on databases.',
+        q: "Will my consultants and clients find out?",
+        a: "No. Off-market approach to a curated buyer list under NDA. We never list the business on databases.",
       },
     ],
     contentTodos: [
       {
-        heading: 'Who we work with',
-        cover: ['Owner-managed UK recruitment agencies £5–50M EV', 'Specialist permanent, contract, temp, executive search'],
+        heading: "Who we work with",
+        cover: [
+          "Owner-managed UK recruitment agencies £5–50M EV",
+          "Specialist permanent, contract, temp, executive search",
+        ],
         body: [
           "You own a UK recruitment agency worth between £5M and £50M in enterprise value. A specialist permanent agency in a defined sector. A contract or temp recruitment platform with a strong NFI book. A blended perm-and-contract business. A specialist executive search firm with retained mandates. You have a brand, a database, a consultant team, and — most likely — a top biller or two who carry a disproportionate share of revenue.",
           "The buyer pool in UK recruitment is segmented and active. PE consolidators rolling up specialist niches (tech, finance, life sciences, energy, construction). Larger international staffing groups buying for capability or geography. Trade buyers in adjacent specialisms looking for cross-sell. Buyer composition for a specialist tech agency looks very different from a specialist healthcare agency, which looks different again from a generalist multi-sector business.",
@@ -266,8 +298,14 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'What buyers look for in recruitment agencies',
-        cover: ['NFI quality and stability', 'Consultant retention and top-biller concentration', 'Client concentration', 'Contract terms', 'Database depth'],
+        heading: "What buyers look for in recruitment agencies",
+        cover: [
+          "NFI quality and stability",
+          "Consultant retention and top-biller concentration",
+          "Client concentration",
+          "Contract terms",
+          "Database depth",
+        ],
         body: [
           "Buyer diligence in UK recruitment M&A is sharper and more granular than in many other sectors. Five items dominate.",
           "NFI quality first. Buyers will diligence NFI by consultant, by client, by sector, by month, and through the cycle. Premium pricing requires NFI that has held or grown through the 2023-2024 market dip, with low concentration by consultant and client.",
@@ -278,8 +316,11 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'Our process',
-        cover: ['Cross-link /process', 'Recruitment-specific notes on earn-out structuring'],
+        heading: "Our process",
+        cover: [
+          "Cross-link /process",
+          "Recruitment-specific notes on earn-out structuring",
+        ],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For recruitment, three things shape execution.",
           "Earn-out structuring is more material in recruitment than in any other sub-sector we work in. Buyers expect a portion of consideration tied to post-completion NFI, and the design of the earn-out drives more outcome variance than the headline multiple. We work with owners to negotiate earn-out terms — measurement basis, cap, accelerators, leaver provisions — that protect against the asymmetric risk founders typically carry through earn-out periods.",
@@ -290,12 +331,12 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
     ],
     subSections: [
       {
-        heading: 'Tech recruitment specialists',
+        heading: "Tech recruitment specialists",
         cover: [
-          'Buyer pool specifics for tech recruitment',
-          'Why tech permanent recruitment trades at a premium to generalist',
-          'Contract / day-rate model implications for valuation',
-          'IR35 exposure points buyers diligence',
+          "Buyer pool specifics for tech recruitment",
+          "Why tech permanent recruitment trades at a premium to generalist",
+          "Contract / day-rate model implications for valuation",
+          "IR35 exposure points buyers diligence",
         ],
         body: [
           "Specialist tech recruitment commands a premium multiple over generalist recruitment because the sector's structural demand has been more durable through the cycle, and because the buyer pool — PE consolidators specifically focused on tech staffing, plus larger international tech-focused staffing groups — is unusually deep.",
@@ -304,12 +345,12 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'Finance recruitment specialists',
+        heading: "Finance recruitment specialists",
         cover: [
-          'Buyer pool specifics for finance recruitment (Big 4 alumni networks, qualified accountant pools)',
-          'Permanent vs interim mix',
-          'Public practice vs industry split',
-          'Specialist sub-niches (treasury, FP&A, audit) and how they affect multiple',
+          "Buyer pool specifics for finance recruitment (Big 4 alumni networks, qualified accountant pools)",
+          "Permanent vs interim mix",
+          "Public practice vs industry split",
+          "Specialist sub-niches (treasury, FP&A, audit) and how they affect multiple",
         ],
         body: [
           "Specialist finance recruitment — qualified accountants, finance leadership, specialist sub-functions — sits among the more defensible recruitment sub-sectors and commands consistent multi-cycle buyer interest. The active buyer pool includes PE-backed staffing consolidators with a finance focus, larger international staffing groups, and accountancy groups expanding into adjacent staffing.",

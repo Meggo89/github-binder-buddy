@@ -1,47 +1,47 @@
-import type { NicheLanding } from './types';
+import type { NicheLanding } from "./types";
 
 export const TECH_ENABLED_NICHES: NicheLanding[] = [
   {
-    slug: 'vertical-saas',
-    pillarSlug: 'tech-enabled-services',
-    name: 'Vertical SaaS',
-    nameLower: 'vertical SaaS',
-    title: 'Vertical SaaS M&A Advisor UK | Mastella Advisory',
+    slug: "vertical-saas",
+    pillarSlug: "tech-enabled-services",
+    name: "Vertical SaaS",
+    nameLower: "vertical SaaS",
+    title: "Vertical SaaS M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      'Selling a UK vertical SaaS business worth £5–50M? Senior-led, off-market M&A advisory. Confidential process for owner-managed SaaS founders.',
-    h1: 'Selling a vertical SaaS business in the UK',
+      "Selling a UK vertical SaaS business worth £5–50M? Senior-led, off-market M&A advisory. Confidential process for owner-managed SaaS founders.",
+    h1: "Selling a vertical SaaS business in the UK",
     intro:
-      'We advise UK owners of vertical SaaS businesses on confidential sales and growth-capital rounds. Senior-led in the £5–50M EV segment.',
+      "We advise UK owners of vertical SaaS businesses on confidential sales and growth-capital rounds. Senior-led in the £5–50M EV segment.",
     faqs: [
       {
-        q: 'What multiples do UK vertical SaaS businesses trade at?',
-        a: 'Vertical SaaS is valued primarily on ARR multiple — typically 3–8x ARR depending on growth, NRR, gross margin and rule-of-40 metrics. EBITDA-positive vertical SaaS at scale can command higher multiples.',
+        q: "What multiples do UK vertical SaaS businesses trade at?",
+        a: "Vertical SaaS is valued primarily on ARR multiple — typically 3–8x ARR depending on growth, NRR, gross margin and rule-of-40 metrics. EBITDA-positive vertical SaaS at scale can command higher multiples.",
       },
       {
-        q: 'Who buys UK vertical SaaS businesses?',
-        a: 'PE-backed consolidators in each vertical, larger horizontal SaaS platforms looking for vertical capability, and overseas (US, Nordic) strategics building UK footprint.',
+        q: "Who buys UK vertical SaaS businesses?",
+        a: "PE-backed consolidators in each vertical, larger horizontal SaaS platforms looking for vertical capability, and overseas (US, Nordic) strategics building UK footprint.",
       },
       {
-        q: 'What metrics matter most to buyers?',
-        a: 'NRR (net revenue retention), GRR (gross revenue retention), gross margin, CAC payback, rule of 40 and ARR growth. Buyers will diligence these from raw billing data — pre-process work to clean them is essential.',
+        q: "What metrics matter most to buyers?",
+        a: "NRR (net revenue retention), GRR (gross revenue retention), gross margin, CAC payback, rule of 40 and ARR growth. Buyers will diligence these from raw billing data — pre-process work to clean them is essential.",
       },
       {
-        q: 'How does founder dependency affect valuation?',
-        a: 'Materially. Founder dependency on technical or commercial leadership is a meaningful diligence concern. We help founders build out the senior team 12+ months pre-process.',
+        q: "How does founder dependency affect valuation?",
+        a: "Materially. Founder dependency on technical or commercial leadership is a meaningful diligence concern. We help founders build out the senior team 12+ months pre-process.",
       },
       {
-        q: 'How long does a vertical SaaS sale typically take?',
-        a: '6–9 months end to end. Technical diligence on the codebase, architecture and security sometimes adds time.',
+        q: "How long does a vertical SaaS sale typically take?",
+        a: "6–9 months end to end. Technical diligence on the codebase, architecture and security sometimes adds time.",
       },
       {
-        q: 'How is acquired vs organic ARR treated?',
-        a: 'Buyers will segment ARR by acquisition cohort and channel. Organic ARR typically commands a premium. We help founders surface the cohort analysis cleanly.',
+        q: "How is acquired vs organic ARR treated?",
+        a: "Buyers will segment ARR by acquisition cohort and channel. Organic ARR typically commands a premium. We help founders surface the cohort analysis cleanly.",
       },
     ],
     contentTodos: [
       {
-        heading: 'Who we work with',
-        cover: ['Vertical SaaS founders £5–50M EV'],
+        heading: "Who we work with",
+        cover: ["Vertical SaaS founders £5–50M EV"],
         body: [
           "You are the founder or majority shareholder of a UK vertical SaaS business worth between £5M and £50M in enterprise value. A software platform serving a defined industry vertical with deep workflow capability. ARR somewhere between £2M and £20M. EBITDA-positive at scale, or growth-stage with a credible path to profitability. A senior team behind you that can run the business if you stepped back, or a team that needs building out.",
           "The buyer pool for UK vertical SaaS is well-funded and increasingly international. PE-backed consolidators in each vertical have been active across the lower mid-market. Larger horizontal SaaS platforms acquire vertical-specific capability. US and Nordic strategics acquire UK vertical SaaS businesses for UK and European footprint. Sub-vertical specialism matters significantly — buyer composition for vertical SaaS in legal looks very different from vertical SaaS in property, healthcare or financial services.",
@@ -50,8 +50,14 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'What buyers look for',
-        cover: ['NRR / GRR', 'Rule of 40', 'CAC payback', 'Gross margin', 'Founder dependency'],
+        heading: "What buyers look for",
+        cover: [
+          "NRR / GRR",
+          "Rule of 40",
+          "CAC payback",
+          "Gross margin",
+          "Founder dependency",
+        ],
         body: [
           "Buyer diligence in UK vertical SaaS M&A is sharper, more metric-driven and more technical than in almost any other sector. Six items dominate.",
           "ARR composition and SaaS metrics first. Net revenue retention, gross revenue retention, gross margin on the recurring book, CAC payback, rule of 40, ARR growth rate and ARR cohort durability. Premium pricing requires NRR above 105-110% with low logo churn and consistent cohort retention. Buyers will calculate these from raw billing data — pre-process work to clean and present the metrics correctly is essential.",
@@ -63,8 +69,8 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'Our process',
-        cover: ['Cross-link /process', 'Notes on technical diligence'],
+        heading: "Our process",
+        cover: ["Cross-link /process", "Notes on technical diligence"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For vertical SaaS, three things shape execution.",
           "Technical diligence runs on its own calendar and is heavier than commercial diligence. Architecture review, code audit, security posture review, IP and contractor history, data governance, scalability stress-test. We design the data room to anticipate technical diligence from the start.",
@@ -75,46 +81,49 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
     ],
   },
   {
-    slug: 'it-managed-service-providers',
-    pillarSlug: 'tech-enabled-services',
-    name: 'IT managed service providers',
-    nameLower: 'IT MSP',
-    title: 'IT MSP M&A Advisor UK | Mastella Advisory',
+    slug: "it-managed-service-providers",
+    pillarSlug: "tech-enabled-services",
+    name: "IT managed service providers",
+    nameLower: "IT MSP",
+    title: "IT MSP M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      'Selling a UK IT MSP worth £5–50M? Senior-led, off-market M&A advisory. Confidential sale for owner-managed managed service providers.',
-    h1: 'Selling an IT MSP in the UK',
+      "Selling a UK IT MSP worth £5–50M? Senior-led, off-market M&A advisory. Confidential sale for owner-managed managed service providers.",
+    h1: "Selling an IT MSP in the UK",
     intro:
-      'We advise UK owners of IT managed service providers — fully-managed MSPs, MSSP, cloud-focused MSPs — on confidential sales. Senior-led in the £5–50M EV segment.',
+      "We advise UK owners of IT managed service providers — fully-managed MSPs, MSSP, cloud-focused MSPs — on confidential sales. Senior-led in the £5–50M EV segment.",
     faqs: [
       {
-        q: 'What multiples do UK MSPs trade at?',
-        a: 'UK MSPs typically trade at 6–10x adjusted EBITDA, with premium multiples for businesses with strong contracted MRR, high gross margin, low customer churn and specialist capability (MSSP, cloud-native).',
+        q: "What multiples do UK MSPs trade at?",
+        a: "UK MSPs typically trade at 6–10x adjusted EBITDA, with premium multiples for businesses with strong contracted MRR, high gross margin, low customer churn and specialist capability (MSSP, cloud-native).",
       },
       {
-        q: 'Who buys UK IT MSPs?',
-        a: 'PE-backed MSP consolidators (very active), larger MSPs executing buy-and-build, strategic technology services groups, and overseas strategics building UK MSP footprint.',
+        q: "Who buys UK IT MSPs?",
+        a: "PE-backed MSP consolidators (very active), larger MSPs executing buy-and-build, strategic technology services groups, and overseas strategics building UK MSP footprint.",
       },
       {
-        q: 'What metrics matter most?',
-        a: 'Contracted MRR, MRR growth, GP per contract, customer churn (logo and revenue), and tech-stack standardisation. Buyers will diligence each from raw data.',
+        q: "What metrics matter most?",
+        a: "Contracted MRR, MRR growth, GP per contract, customer churn (logo and revenue), and tech-stack standardisation. Buyers will diligence each from raw data.",
       },
       {
-        q: 'How does customer concentration affect valuation?',
-        a: 'Concentration above 15–20% in a single client is a flag. Most premium MSP transactions have <10% top-client concentration.',
+        q: "How does customer concentration affect valuation?",
+        a: "Concentration above 15–20% in a single client is a flag. Most premium MSP transactions have <10% top-client concentration.",
       },
       {
-        q: 'How long does an MSP sale typically take?',
-        a: '6–9 months end to end.',
+        q: "How long does an MSP sale typically take?",
+        a: "6–9 months end to end.",
       },
       {
-        q: 'How is the tech stack standardisation treated?',
-        a: 'Standardised tools (RMM, PSA, security stack) across the client base support stronger pricing because of consolidator integration economics.',
+        q: "How is the tech stack standardisation treated?",
+        a: "Standardised tools (RMM, PSA, security stack) across the client base support stronger pricing because of consolidator integration economics.",
       },
     ],
     contentTodos: [
       {
-        heading: 'Who we work with',
-        cover: ['UK MSP owners £5–50M EV', 'Fully-managed, MSSP, cloud-focused'],
+        heading: "Who we work with",
+        cover: [
+          "UK MSP owners £5–50M EV",
+          "Fully-managed, MSSP, cloud-focused",
+        ],
         body: [
           "You own a UK IT managed service provider worth between £5M and £50M in enterprise value. A fully-managed MSP serving mid-market clients. An MSSP with strong cyber capability and accreditations. A cloud-focused MSP with deep Azure or AWS specialism. A specialist sub-vertical MSP (legal IT, healthcare IT, financial services IT). Most likely a recurring MRR book with growth through cross-sell, supported by project revenue.",
           "The UK MSP M&A market has been one of the most active sub-segments of tech-enabled services over the last three years. PE-backed MSP consolidators are very active in the lower mid-market. Larger MSPs execute buy-and-build for capability or geographic fill-in. Strategic technology services groups acquire MSP capability to extend their offering. Overseas MSP consolidators acquire UK platforms for UK and European footprint.",
@@ -123,8 +132,14 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'What buyers look for',
-        cover: ['Contracted MRR', 'Gross margin', 'Customer churn', 'Tech stack', 'Engineer retention'],
+        heading: "What buyers look for",
+        cover: [
+          "Contracted MRR",
+          "Gross margin",
+          "Customer churn",
+          "Tech stack",
+          "Engineer retention",
+        ],
         body: [
           "Buyer diligence in UK MSP M&A is metric-led and increasingly sophisticated. Five items dominate.",
           "Contracted MRR and revenue composition first. The single most important metric. Premium pricing requires contracted MRR representing more than 70% of revenue with documented forward visibility. Buyers will calculate MRR from raw billing data and segment by contract type.",
@@ -135,8 +150,8 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'Our process',
-        cover: ['Cross-link /process'],
+        heading: "Our process",
+        cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For UK MSPs, three things shape execution.",
           "MRR composition and metrics presentation is built into the readiness phase. Buyers will calculate metrics from raw billing data; founders that present clean, defensible metrics in the IM materially outperform.",
@@ -147,46 +162,46 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
     ],
   },
   {
-    slug: 'digital-agencies',
-    pillarSlug: 'tech-enabled-services',
-    name: 'Digital agencies',
-    nameLower: 'digital agency',
-    title: 'Digital Agency M&A Advisor UK | Mastella Advisory',
+    slug: "digital-agencies",
+    pillarSlug: "tech-enabled-services",
+    name: "Digital agencies",
+    nameLower: "digital agency",
+    title: "Digital Agency M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      'Selling a UK digital agency worth £5–50M? Senior-led, off-market M&A advisory. Confidential sale for performance, brand and product agency owners.',
-    h1: 'Selling a digital agency in the UK',
+      "Selling a UK digital agency worth £5–50M? Senior-led, off-market M&A advisory. Confidential sale for performance, brand and product agency owners.",
+    h1: "Selling a digital agency in the UK",
     intro:
-      'We advise UK owners of digital agencies — performance, brand, product, specialist tech — on confidential sales. Senior-led in the £5–50M EV segment.',
+      "We advise UK owners of digital agencies — performance, brand, product, specialist tech — on confidential sales. Senior-led in the £5–50M EV segment.",
     faqs: [
       {
-        q: 'What multiples do UK digital agencies trade at?',
-        a: 'UK digital agencies typically trade at 5–8x adjusted EBITDA. Premium multiples for specialist capability, blue-chip retainer-led books and embedded technology offerings.',
+        q: "What multiples do UK digital agencies trade at?",
+        a: "UK digital agencies typically trade at 5–8x adjusted EBITDA. Premium multiples for specialist capability, blue-chip retainer-led books and embedded technology offerings.",
       },
       {
-        q: 'Who buys UK digital agencies?',
-        a: 'Larger UK and overseas agency groups, PE consolidators in specialist niches (performance, programmatic, MarTech-adjacent), and technology services groups for tech-adjacent agencies.',
+        q: "Who buys UK digital agencies?",
+        a: "Larger UK and overseas agency groups, PE consolidators in specialist niches (performance, programmatic, MarTech-adjacent), and technology services groups for tech-adjacent agencies.",
       },
       {
-        q: 'How does retainer vs project revenue mix affect valuation?',
-        a: 'Materially. Retainer revenue is valued at a premium to project revenue. We work with owners pre-process to surface retainer mix and length-of-relationship cleanly.',
+        q: "How does retainer vs project revenue mix affect valuation?",
+        a: "Materially. Retainer revenue is valued at a premium to project revenue. We work with owners pre-process to surface retainer mix and length-of-relationship cleanly.",
       },
       {
-        q: 'What about client concentration?',
-        a: 'Concentration above 25% in a single client is a flag. The depth of the relationship (length, embedded position, multiple stakeholder touchpoints) matters as much as the headline percentage.',
+        q: "What about client concentration?",
+        a: "Concentration above 25% in a single client is a flag. The depth of the relationship (length, embedded position, multiple stakeholder touchpoints) matters as much as the headline percentage.",
       },
       {
-        q: 'How does specialist capability affect valuation?',
-        a: 'Defensible specialist capability (particular vertical depth, specialist technology, proprietary methodology) supports premium pricing.',
+        q: "How does specialist capability affect valuation?",
+        a: "Defensible specialist capability (particular vertical depth, specialist technology, proprietary methodology) supports premium pricing.",
       },
       {
-        q: 'How long does a digital agency sale typically take?',
-        a: '6–9 months end to end.',
+        q: "How long does a digital agency sale typically take?",
+        a: "6–9 months end to end.",
       },
     ],
     contentTodos: [
       {
-        heading: 'Who we work with',
-        cover: ['UK digital agency owners £5–50M EV'],
+        heading: "Who we work with",
+        cover: ["UK digital agency owners £5–50M EV"],
         body: [
           "You own a UK digital agency worth between £5M and £50M in enterprise value. A performance marketing specialist with deep paid media capability. A brand or creative agency with a recognised reputation. A product and engineering agency building software for client brands. A specialist tech agency in MarTech, e-commerce, or platform engineering. Most likely a mix of retainer and project revenue with a recognisable client book.",
           "The buyer pool sits across larger UK and overseas agency groups acquiring for capability or specialism, PE consolidators in defined agency niches (performance, programmatic, MarTech-adjacent, e-commerce), and technology services groups for tech-adjacent agencies. The agency M&A market has matured materially, with sophisticated buyers expecting metric-led IM presentation rather than creative-led pitch.",
@@ -195,8 +210,14 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'What buyers look for',
-        cover: ['Retainer mix', 'Client concentration', 'Specialist capability', 'Senior talent retention', 'Margin profile'],
+        heading: "What buyers look for",
+        cover: [
+          "Retainer mix",
+          "Client concentration",
+          "Specialist capability",
+          "Senior talent retention",
+          "Margin profile",
+        ],
         body: [
           "Buyer diligence in UK digital agency M&A is metric-led and increasingly sophisticated. Five items dominate.",
           "Retainer vs project revenue mix first. Retainer revenue is valued at a meaningful premium to project revenue because of visibility and stickiness. Buyers will diligence the retainer book by client, by length, and by retention. We help owners surface this cleanly — most agencies understate retainer content because the categorisation has never been done sharply.",
@@ -207,8 +228,8 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'Our process',
-        cover: ['Cross-link /process'],
+        heading: "Our process",
+        cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For digital agencies, three things shape execution.",
           "Metric-led IM presentation is built into the readiness phase. Buyers expect retainer mix, margin discipline, utilisation and unit economics presented cleanly. We help owners present these in a way that matches buyer expectations.",
@@ -219,46 +240,46 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
     ],
   },
   {
-    slug: 'data-and-analytics-services',
-    pillarSlug: 'tech-enabled-services',
-    name: 'Data & analytics services',
-    nameLower: 'data and analytics services',
-    title: 'Data & Analytics M&A Advisor UK | Mastella Advisory',
+    slug: "data-and-analytics-services",
+    pillarSlug: "tech-enabled-services",
+    name: "Data & analytics services",
+    nameLower: "data and analytics services",
+    title: "Data & Analytics M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      'Selling a UK data or analytics services business worth £5–50M? Senior-led, off-market M&A advisory. Confidential sale process.',
-    h1: 'Selling a data or analytics services business in the UK',
+      "Selling a UK data or analytics services business worth £5–50M? Senior-led, off-market M&A advisory. Confidential sale process.",
+    h1: "Selling a data or analytics services business in the UK",
     intro:
-      'We advise UK owners of data and analytics services businesses — data engineering, analytics consulting, BI / visualisation, data science — on confidential sales. Senior-led in the £5–50M EV segment.',
+      "We advise UK owners of data and analytics services businesses — data engineering, analytics consulting, BI / visualisation, data science — on confidential sales. Senior-led in the £5–50M EV segment.",
     faqs: [
       {
-        q: 'What multiples do UK data and analytics services trade at?',
-        a: 'Data and analytics services typically trade at 6–10x adjusted EBITDA. Premium multiples for businesses with defensible methodology, embedded platform IP, recurring revenue and blue-chip clients.',
+        q: "What multiples do UK data and analytics services trade at?",
+        a: "Data and analytics services typically trade at 6–10x adjusted EBITDA. Premium multiples for businesses with defensible methodology, embedded platform IP, recurring revenue and blue-chip clients.",
       },
       {
-        q: 'Who buys UK data and analytics services businesses?',
-        a: 'Larger strategic consulting groups, technology services groups, PE consolidators in data/analytics niches, and the larger overseas data platforms.',
+        q: "Who buys UK data and analytics services businesses?",
+        a: "Larger strategic consulting groups, technology services groups, PE consolidators in data/analytics niches, and the larger overseas data platforms.",
       },
       {
-        q: 'How is recurring vs project revenue treated?',
-        a: 'Retainer / managed-service revenue trades at a premium to project revenue. We help owners surface the recurring component clearly.',
+        q: "How is recurring vs project revenue treated?",
+        a: "Retainer / managed-service revenue trades at a premium to project revenue. We help owners surface the recurring component clearly.",
       },
       {
-        q: 'How does the platform / SaaS component affect valuation?',
-        a: 'Businesses with embedded software / platform components are valued on a blend (services + ARR) and can attract a meaningfully wider buyer pool.',
+        q: "How does the platform / SaaS component affect valuation?",
+        a: "Businesses with embedded software / platform components are valued on a blend (services + ARR) and can attract a meaningfully wider buyer pool.",
       },
       {
-        q: 'How long does a data services sale typically take?',
-        a: '6–9 months end to end. Technical diligence sometimes adds time.',
+        q: "How long does a data services sale typically take?",
+        a: "6–9 months end to end. Technical diligence sometimes adds time.",
       },
       {
-        q: 'How does data science talent retention affect a sale?',
-        a: 'Materially. Specialist data science / engineering talent is scarce and retention is a primary diligence concern. We help owners document senior team depth and lock-in arrangements.',
+        q: "How does data science talent retention affect a sale?",
+        a: "Materially. Specialist data science / engineering talent is scarce and retention is a primary diligence concern. We help owners document senior team depth and lock-in arrangements.",
       },
     ],
     contentTodos: [
       {
-        heading: 'Who we work with',
-        cover: ['Data and analytics services owners £5–50M EV'],
+        heading: "Who we work with",
+        cover: ["Data and analytics services owners £5–50M EV"],
         body: [
           "You own a UK data and analytics services business worth between £5M and £50M in enterprise value. A specialist data engineering firm building data platforms for enterprise clients. An analytics consulting practice. A BI and visualisation specialist with deep tool expertise. A data science consultancy. A combined data and platform business with embedded software components. Most likely a mix of project, programmatic and (increasingly) managed-service revenue with a recognised client book.",
           "The buyer pool is increasingly international. Larger strategic consulting groups acquire data and analytics capability. Technology services groups acquire to extend their delivery model. PE consolidators in defined data and analytics niches have become active. Larger overseas data platforms acquire UK specialists for UK and European footprint. Embedded platform IP attracts a wider buyer pool including software acquirers.",
@@ -267,8 +288,14 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'What buyers look for',
-        cover: ['Recurring revenue', 'Platform IP', 'Senior talent retention', 'Client concentration', 'Methodology / IP'],
+        heading: "What buyers look for",
+        cover: [
+          "Recurring revenue",
+          "Platform IP",
+          "Senior talent retention",
+          "Client concentration",
+          "Methodology / IP",
+        ],
         body: [
           "Buyer diligence in UK data and analytics services M&A is technical and metric-led. Five items dominate.",
           "Recurring vs project revenue mix first. Retainer and managed-service revenue trades at a premium to project revenue. Buyers diligence the recurring book by client, by length, and by retention. Surfacing this cleanly is high-return work.",
@@ -279,8 +306,8 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'Our process',
-        cover: ['Cross-link /process'],
+        heading: "Our process",
+        cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For data and analytics services, three things shape execution.",
           "Technical diligence runs deeper than for general consulting. Architecture review, IP and methodology audit, codebase review where embedded software exists, security posture review. We design the process around this calendar from the start.",
@@ -291,46 +318,46 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
     ],
   },
   {
-    slug: 'cybersecurity-services',
-    pillarSlug: 'tech-enabled-services',
-    name: 'Cybersecurity services',
-    nameLower: 'cybersecurity services',
-    title: 'Cybersecurity Services M&A Advisor UK | Mastella Advisory',
+    slug: "cybersecurity-services",
+    pillarSlug: "tech-enabled-services",
+    name: "Cybersecurity services",
+    nameLower: "cybersecurity services",
+    title: "Cybersecurity Services M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      'Selling a UK cybersecurity services business worth £5–50M? Senior-led, off-market M&A advisory. Confidential sale for owner-managed cyber firms.',
-    h1: 'Selling a cybersecurity services business in the UK',
+      "Selling a UK cybersecurity services business worth £5–50M? Senior-led, off-market M&A advisory. Confidential sale for owner-managed cyber firms.",
+    h1: "Selling a cybersecurity services business in the UK",
     intro:
-      'We advise UK owners of cybersecurity services businesses — MSSP, consulting, GRC, penetration testing, SOC — on confidential sales. Senior-led in the £5–50M EV segment.',
+      "We advise UK owners of cybersecurity services businesses — MSSP, consulting, GRC, penetration testing, SOC — on confidential sales. Senior-led in the £5–50M EV segment.",
     faqs: [
       {
-        q: 'What multiples do UK cybersecurity services trade at?',
-        a: 'UK cybersecurity services typically trade at 7–12x adjusted EBITDA. Premium ranges for MSSPs with strong contracted MRR, specialist capability (GRC, OT security, SOC), and accreditations (NCSC CCP, Cyber Essentials Plus assessor, CREST).',
+        q: "What multiples do UK cybersecurity services trade at?",
+        a: "UK cybersecurity services typically trade at 7–12x adjusted EBITDA. Premium ranges for MSSPs with strong contracted MRR, specialist capability (GRC, OT security, SOC), and accreditations (NCSC CCP, Cyber Essentials Plus assessor, CREST).",
       },
       {
-        q: 'Who buys UK cybersecurity services businesses?',
-        a: 'PE consolidators (very active), larger MSSPs and technology services groups, and overseas strategics building UK cyber footprint.',
+        q: "Who buys UK cybersecurity services businesses?",
+        a: "PE consolidators (very active), larger MSSPs and technology services groups, and overseas strategics building UK cyber footprint.",
       },
       {
-        q: 'How do accreditations affect valuation?',
-        a: 'Materially. NCSC, CREST, ISO 27001 and government framework positions are barriers to entry and support premium pricing.',
+        q: "How do accreditations affect valuation?",
+        a: "Materially. NCSC, CREST, ISO 27001 and government framework positions are barriers to entry and support premium pricing.",
       },
       {
-        q: 'How does the contracted MRR mix affect valuation?',
-        a: 'Significantly. Contracted MRR (MSSP, managed SOC) trades at a meaningful premium to project / one-off revenue.',
+        q: "How does the contracted MRR mix affect valuation?",
+        a: "Significantly. Contracted MRR (MSSP, managed SOC) trades at a meaningful premium to project / one-off revenue.",
       },
       {
-        q: 'How long does a cybersecurity sale typically take?',
-        a: '6–9 months end to end.',
+        q: "How long does a cybersecurity sale typically take?",
+        a: "6–9 months end to end.",
       },
       {
-        q: 'How is talent retention treated?',
-        a: 'Specialist cyber talent is scarce and retention is the headline diligence concern. We help owners document senior team depth and lock-in arrangements.',
+        q: "How is talent retention treated?",
+        a: "Specialist cyber talent is scarce and retention is the headline diligence concern. We help owners document senior team depth and lock-in arrangements.",
       },
     ],
     contentTodos: [
       {
-        heading: 'Who we work with',
-        cover: ['UK cyber services owners £5–50M EV'],
+        heading: "Who we work with",
+        cover: ["UK cyber services owners £5–50M EV"],
         body: [
           "You own a UK cybersecurity services business worth between £5M and £50M in enterprise value. An MSSP with a strong managed SOC capability. A specialist cyber consulting practice. A GRC specialist with strong audit and compliance revenue. A penetration testing and red-team specialist. An OT / industrial cybersecurity specialist. Most likely a mix of contracted MRR (managed services) and project revenue with sector and accreditation specialism.",
           "The buyer pool for UK cybersecurity services has been one of the most active in tech-enabled services over the last three years. PE consolidators specifically focused on cyber acquire across MSSPs, GRC and specialist consulting. Larger MSSPs execute buy-and-build for capability or geographic fill-in. Strategic technology services groups acquire cyber capability to extend their offering. Overseas cyber strategics — particularly US and Israeli — acquire UK platforms for UK and European footprint.",
@@ -339,8 +366,14 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'What buyers look for',
-        cover: ['Contracted MRR', 'Accreditations', 'Talent depth', 'Client concentration', 'Tech stack'],
+        heading: "What buyers look for",
+        cover: [
+          "Contracted MRR",
+          "Accreditations",
+          "Talent depth",
+          "Client concentration",
+          "Tech stack",
+        ],
         body: [
           "Buyer diligence in UK cybersecurity services M&A is metric-led, accreditation-heavy and increasingly technical. Five items dominate.",
           "Contracted MRR and revenue composition first. Managed services (MSSP, managed SOC, managed GRC) revenue trades at a meaningful premium to project revenue. Premium pricing requires contracted MRR representing 60%+ of revenue with documented forward visibility.",
@@ -351,8 +384,8 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'Our process',
-        cover: ['Cross-link /process'],
+        heading: "Our process",
+        cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For cybersecurity services, three things shape execution.",
           "Accreditation and contractual diligence sits on heavier calendars than commercial diligence. Government framework status, NCSC and CREST audit history, cyber-specific accreditation review. We design the process around this from the start.",
@@ -363,46 +396,46 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
     ],
   },
   {
-    slug: 'ai-and-ml-services',
-    pillarSlug: 'tech-enabled-services',
-    name: 'AI & ML services',
-    nameLower: 'AI and ML services',
-    title: 'AI & ML Services M&A Advisor UK | Mastella Advisory',
+    slug: "ai-and-ml-services",
+    pillarSlug: "tech-enabled-services",
+    name: "AI & ML services",
+    nameLower: "AI and ML services",
+    title: "AI & ML Services M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      'Selling a UK AI or machine learning services business worth £5–50M? Senior-led, off-market M&A advisory. Confidential sale process.',
-    h1: 'Selling an AI or ML services business in the UK',
+      "Selling a UK AI or machine learning services business worth £5–50M? Senior-led, off-market M&A advisory. Confidential sale process.",
+    h1: "Selling an AI or ML services business in the UK",
     intro:
-      'We advise UK owners of AI and machine learning services businesses — applied AI consulting, ML engineering, AI product / platform — on confidential sales. Senior-led in the £5–50M EV segment.',
+      "We advise UK owners of AI and machine learning services businesses — applied AI consulting, ML engineering, AI product / platform — on confidential sales. Senior-led in the £5–50M EV segment.",
     faqs: [
       {
-        q: 'What multiples do UK AI / ML services trade at?',
-        a: 'AI / ML services are valued on a wider range — typically 6–12x EBITDA for services-led businesses, with platform / product components attracting ARR-based valuations on top (3–10x ARR depending on growth and retention).',
+        q: "What multiples do UK AI / ML services trade at?",
+        a: "AI / ML services are valued on a wider range — typically 6–12x EBITDA for services-led businesses, with platform / product components attracting ARR-based valuations on top (3–10x ARR depending on growth and retention).",
       },
       {
-        q: 'Who buys UK AI / ML services businesses?',
-        a: 'Larger consulting groups, strategic technology platforms, PE consolidators in applied AI niches, and a small but growing pool of overseas strategics. The buyer landscape is moving quickly.',
+        q: "Who buys UK AI / ML services businesses?",
+        a: "Larger consulting groups, strategic technology platforms, PE consolidators in applied AI niches, and a small but growing pool of overseas strategics. The buyer landscape is moving quickly.",
       },
       {
-        q: 'How does AI-native positioning affect valuation?',
-        a: 'Buyers are willing to pay a premium for genuine AI-native capability (proprietary models, defensible methodology, applied IP) and increasingly cautious about businesses materially exposed to disintermediation. Honest framing is essential.',
+        q: "How does AI-native positioning affect valuation?",
+        a: "Buyers are willing to pay a premium for genuine AI-native capability (proprietary models, defensible methodology, applied IP) and increasingly cautious about businesses materially exposed to disintermediation. Honest framing is essential.",
       },
       {
-        q: 'How is platform IP treated?',
-        a: 'Defensible platform IP, proprietary models and documented methodology support meaningfully stronger multiples. We help owners document IP holdings cleanly.',
+        q: "How is platform IP treated?",
+        a: "Defensible platform IP, proprietary models and documented methodology support meaningfully stronger multiples. We help owners document IP holdings cleanly.",
       },
       {
-        q: 'How long does an AI / ML services sale typically take?',
-        a: '6–9 months end to end. Technical diligence on models, training data and architecture sometimes adds time.',
+        q: "How long does an AI / ML services sale typically take?",
+        a: "6–9 months end to end. Technical diligence on models, training data and architecture sometimes adds time.",
       },
       {
-        q: 'How is specialist talent retention treated?',
-        a: 'AI / ML specialist talent is exceptionally scarce. Senior team depth, lock-in arrangements and equity / retention plans are headline diligence items.',
+        q: "How is specialist talent retention treated?",
+        a: "AI / ML specialist talent is exceptionally scarce. Senior team depth, lock-in arrangements and equity / retention plans are headline diligence items.",
       },
     ],
     contentTodos: [
       {
-        heading: 'Who we work with',
-        cover: ['UK AI and ML services owners £5–50M EV'],
+        heading: "Who we work with",
+        cover: ["UK AI and ML services owners £5–50M EV"],
         body: [
           "You own a UK AI or machine learning services business worth between £5M and £50M in enterprise value. An applied AI consultancy with deep ML engineering capability. A specialist AI product or platform business with embedded software components. A specialist computer vision, NLP or specialist ML domain business. A specialist AI-augmented services business in a defined vertical. Most likely a mix of project, programmatic, and (increasingly) platform-based revenue with a recognised client book.",
           "The buyer pool is moving quickly. Larger consulting groups acquire AI / ML capability to extend their delivery model. Strategic technology platforms acquire applied AI capability for product integration. PE consolidators in defined applied AI niches have emerged over the last 18 months. Overseas strategics — particularly US — acquire UK platforms for UK and European applied AI capability.",
@@ -411,8 +444,14 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'What buyers look for',
-        cover: ['AI-native positioning', 'Platform IP', 'Specialist talent', 'Client concentration', 'Recurring vs project mix'],
+        heading: "What buyers look for",
+        cover: [
+          "AI-native positioning",
+          "Platform IP",
+          "Specialist talent",
+          "Client concentration",
+          "Recurring vs project mix",
+        ],
         body: [
           "Buyer diligence in UK AI / ML services M&A is technical, strategic and reputation-sensitive. Five items dominate.",
           "AI-native positioning first. Buyers pay a premium for genuine AI-native capability — proprietary models, defensible methodology, applied IP, demonstrable client outcomes — and have become increasingly cautious about businesses materially exposed to disintermediation by general-purpose AI tools. Honest framing is essential. We help founders articulate AI position honestly: where it is defensible capability, where it is part of the delivery model, and where the strategic answer to general-purpose AI exposure is.",
@@ -423,8 +462,8 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'Our process',
-        cover: ['Cross-link /process'],
+        heading: "Our process",
+        cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For AI / ML services, three things shape execution.",
           "Technical diligence runs deep and on its own calendar. Model architecture review, training data review, IP and contractor history, codebase audit, security posture review. We design the process around this calendar from the start.",

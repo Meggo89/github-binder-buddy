@@ -1,47 +1,47 @@
-import type { NicheLanding } from './types';
+import type { NicheLanding } from "./types";
 
 export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
   {
-    slug: 'specialist-manufacturing',
-    pillarSlug: 'light-industrials',
-    name: 'Specialist manufacturing',
-    nameLower: 'specialist manufacturing',
-    title: 'Specialist Manufacturing M&A Advisor UK | Mastella Advisory',
+    slug: "specialist-manufacturing",
+    pillarSlug: "light-industrials",
+    name: "Specialist manufacturing",
+    nameLower: "specialist manufacturing",
+    title: "Specialist Manufacturing M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      'Selling a UK specialist manufacturing business worth £5–50M? Senior-led, off-market M&A advisory. Confidential process for owner-managed manufacturers.',
-    h1: 'Selling a specialist manufacturing business in the UK',
+      "Selling a UK specialist manufacturing business worth £5–50M? Senior-led, off-market M&A advisory. Confidential process for owner-managed manufacturers.",
+    h1: "Selling a specialist manufacturing business in the UK",
     intro:
-      'We advise UK owners of specialist manufacturing businesses on confidential sales. Senior-led, off-market, in the £5–50M EV segment.',
+      "We advise UK owners of specialist manufacturing businesses on confidential sales. Senior-led, off-market, in the £5–50M EV segment.",
     faqs: [
       {
-        q: 'What multiples do UK specialist manufacturers trade at?',
-        a: 'Owner-managed specialist manufacturers typically trade at 5–8x adjusted EBITDA, with premium multiples (8–12x) for businesses with defensible IP, blue-chip customer relationships, meaningful international revenue and clear operating leverage.',
+        q: "What multiples do UK specialist manufacturers trade at?",
+        a: "Owner-managed specialist manufacturers typically trade at 5–8x adjusted EBITDA, with premium multiples (8–12x) for businesses with defensible IP, blue-chip customer relationships, meaningful international revenue and clear operating leverage.",
       },
       {
-        q: 'Who buys UK specialist manufacturers?',
-        a: 'Strategic UK and overseas acquirers (German, US, Japanese strategics are frequent buyers of UK specialist manufacturing), PE consolidators executing buy-and-build, and direct PE houses for platform deals.',
+        q: "Who buys UK specialist manufacturers?",
+        a: "Strategic UK and overseas acquirers (German, US, Japanese strategics are frequent buyers of UK specialist manufacturing), PE consolidators executing buy-and-build, and direct PE houses for platform deals.",
       },
       {
-        q: 'How does IP affect valuation?',
-        a: 'Materially. Registered IP (patents), defensible know-how and process IP all support premium pricing. We work with owners pre-process to document IP holdings cleanly and ensure ownership is unambiguous.',
+        q: "How does IP affect valuation?",
+        a: "Materially. Registered IP (patents), defensible know-how and process IP all support premium pricing. We work with owners pre-process to document IP holdings cleanly and ensure ownership is unambiguous.",
       },
       {
-        q: 'How is customer concentration handled?',
-        a: 'Concentration is common in specialist manufacturing — single OEM relationships often represent 25–40% of revenue. What matters is the depth of the relationship (length, switching cost, design-in position), which we work with owners to document properly.',
+        q: "How is customer concentration handled?",
+        a: "Concentration is common in specialist manufacturing — single OEM relationships often represent 25–40% of revenue. What matters is the depth of the relationship (length, switching cost, design-in position), which we work with owners to document properly.",
       },
       {
-        q: 'How long does a specialist manufacturing sale typically take?',
-        a: '6–9 months end to end. International strategics add 4–8 weeks for regulatory / tax structuring.',
+        q: "How long does a specialist manufacturing sale typically take?",
+        a: "6–9 months end to end. International strategics add 4–8 weeks for regulatory / tax structuring.",
       },
       {
-        q: 'How are capex requirements treated?',
-        a: 'Buyers normalise EBITDA for sustainable capex. We help owners build a clean capex bridge that distinguishes maintenance from growth capex.',
+        q: "How are capex requirements treated?",
+        a: "Buyers normalise EBITDA for sustainable capex. We help owners build a clean capex bridge that distinguishes maintenance from growth capex.",
       },
     ],
     contentTodos: [
       {
-        heading: 'Who we work with',
-        cover: ['UK specialist manufacturers £5–50M EV'],
+        heading: "Who we work with",
+        cover: ["UK specialist manufacturers £5–50M EV"],
         body: [
           "You own a UK specialist manufacturing business worth between £5M and £50M in enterprise value. A precision engineering manufacturer serving aerospace, defence, medical or automotive. A specialist plastics, electronics or metals manufacturer with defensible technical capability. A bespoke industrial equipment maker. An export-led manufacturer with a recognised UK origin advantage in the customer base.",
           "The buyer pool for UK specialist manufacturing is international and well-funded. German, US and Japanese strategic acquirers are frequent buyers of UK specialist manufacturing businesses with differentiated technical capability. PE consolidators executing buy-and-build across defined manufacturing niches form a deep secondary pool. Direct PE houses look for platform investments at the upper end of our EV segment.",
@@ -50,8 +50,14 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'What buyers look for',
-        cover: ['IP and know-how', 'Customer depth', 'Capex profile', 'International revenue', 'Margin trajectory'],
+        heading: "What buyers look for",
+        cover: [
+          "IP and know-how",
+          "Customer depth",
+          "Capex profile",
+          "International revenue",
+          "Margin trajectory",
+        ],
         body: [
           "Buyer diligence in UK specialist manufacturing M&A is more technical and more international than in most sectors. Five items consistently sit at the top of the buyer pack.",
           "IP and know-how first. Registered patents, defensible process IP, accredited methodologies, NADCAP and aerospace approvals, ISO 9001/14001/45001, sector-specific quality certifications. Each is a barrier to entry. We work with owners to document IP holdings cleanly and ensure ownership is unambiguous — historic IP created by contractors or under unclear ownership terms is a routine diligence flag that is much easier to fix before than during a process.",
@@ -62,8 +68,11 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'Our process',
-        cover: ['Cross-link /process', 'Notes on operational diligence and capex normalisation'],
+        heading: "Our process",
+        cover: [
+          "Cross-link /process",
+          "Notes on operational diligence and capex normalisation",
+        ],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For specialist manufacturing, three things shape execution.",
           "Operational diligence runs heavier than commercial diligence and on its own calendar. Site visits, customer reference calls, technical capability audits, accreditation reviews, capex normalisation. We design the process around this calendar from the start so the data room arrives complete and the diligence pack does not need to be assembled in real time.",
@@ -74,46 +83,46 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     ],
   },
   {
-    slug: 'plant-hire-and-equipment-rental',
-    pillarSlug: 'light-industrials',
-    name: 'Plant hire & equipment rental',
-    nameLower: 'plant hire and equipment rental',
-    title: 'Plant Hire & Equipment Rental M&A Advisor UK | Mastella',
+    slug: "plant-hire-and-equipment-rental",
+    pillarSlug: "light-industrials",
+    name: "Plant hire & equipment rental",
+    nameLower: "plant hire and equipment rental",
+    title: "Plant Hire & Equipment Rental M&A Advisor UK | Mastella",
     metaDescription:
-      'Selling a UK plant hire or equipment rental business worth £5–50M? Senior-led, off-market M&A advisory. Confidential process.',
-    h1: 'Selling a plant hire or equipment rental business in the UK',
+      "Selling a UK plant hire or equipment rental business worth £5–50M? Senior-led, off-market M&A advisory. Confidential process.",
+    h1: "Selling a plant hire or equipment rental business in the UK",
     intro:
-      'We advise UK owners of plant hire and equipment rental businesses on confidential sales. Senior-led, off-market, focused on the £5–50M EV segment.',
+      "We advise UK owners of plant hire and equipment rental businesses on confidential sales. Senior-led, off-market, focused on the £5–50M EV segment.",
     faqs: [
       {
-        q: 'What multiples do UK plant hire businesses trade at?',
-        a: 'Owner-managed plant hire businesses typically trade at 5–7x adjusted EBITDA (post sustainable capex), with premium ranges for specialist equipment fleets and platforms with strong utilisation metrics.',
+        q: "What multiples do UK plant hire businesses trade at?",
+        a: "Owner-managed plant hire businesses typically trade at 5–7x adjusted EBITDA (post sustainable capex), with premium ranges for specialist equipment fleets and platforms with strong utilisation metrics.",
       },
       {
-        q: 'How is fleet age and asset value treated in valuation?',
-        a: 'Buyers value the cash earnings the fleet generates net of expected replacement capex. A young, well-maintained fleet supports higher headline EBITDA-to-cashflow conversion. We help owners present this cleanly.',
+        q: "How is fleet age and asset value treated in valuation?",
+        a: "Buyers value the cash earnings the fleet generates net of expected replacement capex. A young, well-maintained fleet supports higher headline EBITDA-to-cashflow conversion. We help owners present this cleanly.",
       },
       {
-        q: 'Who buys UK plant hire businesses?',
-        a: 'Larger strategic plant hire groups (UK and European), PE consolidators executing buy-and-build, and infrastructure-style investors for fleet-heavy platforms.',
+        q: "Who buys UK plant hire businesses?",
+        a: "Larger strategic plant hire groups (UK and European), PE consolidators executing buy-and-build, and infrastructure-style investors for fleet-heavy platforms.",
       },
       {
-        q: 'How do utilisation and fleet metrics affect price?',
-        a: 'Utilisation rate, average rental per asset and asset-age profile are the headline metrics. Well-utilised, well-maintained fleets command meaningful premiums.',
+        q: "How do utilisation and fleet metrics affect price?",
+        a: "Utilisation rate, average rental per asset and asset-age profile are the headline metrics. Well-utilised, well-maintained fleets command meaningful premiums.",
       },
       {
-        q: 'How long does a plant hire sale take?',
-        a: '6–9 months end to end. Asset valuation diligence sometimes adds time.',
+        q: "How long does a plant hire sale take?",
+        a: "6–9 months end to end. Asset valuation diligence sometimes adds time.",
       },
       {
-        q: 'How do you handle freehold yards / property held in the business?',
-        a: 'Freehold property is often valued separately from the operating business. We help owners decide whether to retain the property (with a lease to the buyer) or sell as a bundle, and structure accordingly.',
+        q: "How do you handle freehold yards / property held in the business?",
+        a: "Freehold property is often valued separately from the operating business. We help owners decide whether to retain the property (with a lease to the buyer) or sell as a bundle, and structure accordingly.",
       },
     ],
     contentTodos: [
       {
-        heading: 'Who we work with',
-        cover: ['Plant hire and equipment rental owners £5–50M EV'],
+        heading: "Who we work with",
+        cover: ["Plant hire and equipment rental owners £5–50M EV"],
         body: [
           "You own a UK plant hire or equipment rental business worth between £5M and £50M in enterprise value. A general plant hire platform serving construction. A specialist equipment rental business (access, lifting, temporary power, climate, tooling, scaffolding, traffic management). A specialist heavy-equipment rental business serving infrastructure or oil and gas. Most likely combined with a yard footprint, owned or leased, that has value of its own.",
           "The buyer pool is segmented. Larger UK strategic plant hire groups acquire across plant categories and geographies. European strategic groups acquire UK specialist platforms for fill-in or capability. PE consolidators execute buy-and-build in defined specialist segments. Infrastructure-style investors target the asset-heavy long-life fleet platforms for predictable yield. Each pool values different things.",
@@ -122,8 +131,14 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'What buyers look for',
-        cover: ['Fleet age', 'Utilisation', 'Customer concentration', 'Maintenance capex', 'Property structure'],
+        heading: "What buyers look for",
+        cover: [
+          "Fleet age",
+          "Utilisation",
+          "Customer concentration",
+          "Maintenance capex",
+          "Property structure",
+        ],
         body: [
           "Buyer diligence in UK plant hire M&A focuses on five items consistently. Each is fixable in advance, and each consistently drives the difference between top-of-range and median outcomes.",
           "Fleet age profile and capex normalisation first. Buyers value cash earnings net of sustainable replacement capex. A young, well-maintained fleet supports stronger EBITDA-to-cashflow conversion and a higher multiple. An aged fleet with deferred capex inflates headline EBITDA but does not survive diligence. Building a clean three-year capex bridge that distinguishes maintenance from growth capex is the single highest-return piece of pre-process work in this sector.",
@@ -134,8 +149,11 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'Our process',
-        cover: ['Cross-link /process', 'Notes on asset diligence and OpCo/PropCo structuring'],
+        heading: "Our process",
+        cover: [
+          "Cross-link /process",
+          "Notes on asset diligence and OpCo/PropCo structuring",
+        ],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For plant hire businesses, three things shape execution.",
           "Asset diligence runs alongside commercial diligence on a separate calendar. Fleet condition reports, asset register audits, valuation work on individual asset classes, utilisation analysis. We design the process so all of this is ready when buyers ask for it, which avoids the momentum loss that comes with running each thread in turn.",
@@ -146,46 +164,49 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     ],
   },
   {
-    slug: 'engineering-services',
-    pillarSlug: 'light-industrials',
-    name: 'Engineering services',
-    nameLower: 'engineering services',
-    title: 'Engineering Services M&A Advisor UK | Mastella Advisory',
+    slug: "engineering-services",
+    pillarSlug: "light-industrials",
+    name: "Engineering services",
+    nameLower: "engineering services",
+    title: "Engineering Services M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      'Selling a UK engineering services business worth £5–50M? Senior-led, off-market M&A advisory. Confidential process for owner-managed engineering firms.',
-    h1: 'Selling an engineering services business in the UK',
+      "Selling a UK engineering services business worth £5–50M? Senior-led, off-market M&A advisory. Confidential process for owner-managed engineering firms.",
+    h1: "Selling an engineering services business in the UK",
     intro:
-      'We advise UK owners of engineering services businesses — mechanical, electrical, controls, process — on confidential sales. Senior-led in the £5–50M EV segment.',
+      "We advise UK owners of engineering services businesses — mechanical, electrical, controls, process — on confidential sales. Senior-led in the £5–50M EV segment.",
     faqs: [
       {
-        q: 'What multiples do UK engineering services businesses trade at?',
-        a: 'Engineering services businesses typically trade at 5–8x adjusted EBITDA, with premium multiples for technical specialists, businesses with recurring service / maintenance revenue, and platforms with blue-chip client relationships.',
+        q: "What multiples do UK engineering services businesses trade at?",
+        a: "Engineering services businesses typically trade at 5–8x adjusted EBITDA, with premium multiples for technical specialists, businesses with recurring service / maintenance revenue, and platforms with blue-chip client relationships.",
       },
       {
-        q: 'Who buys UK engineering services businesses?',
-        a: 'Larger strategic engineering groups, PE consolidators executing buy-and-build (active in M&E, building services, controls), and trade buyers in adjacent specialisms.',
+        q: "Who buys UK engineering services businesses?",
+        a: "Larger strategic engineering groups, PE consolidators executing buy-and-build (active in M&E, building services, controls), and trade buyers in adjacent specialisms.",
       },
       {
-        q: 'How does the project vs recurring revenue mix affect valuation?',
-        a: 'Significantly. Recurring service / maintenance revenue is valued at a meaningful premium to project revenue. We help owners surface and segment this clearly pre-process.',
+        q: "How does the project vs recurring revenue mix affect valuation?",
+        a: "Significantly. Recurring service / maintenance revenue is valued at a meaningful premium to project revenue. We help owners surface and segment this clearly pre-process.",
       },
       {
-        q: 'What about engineer retention?',
-        a: 'Chartered engineer and key trades retention is a primary diligence concern. Buyers look at tenure, salary benchmarks, and any post-sale lock-in arrangements.',
+        q: "What about engineer retention?",
+        a: "Chartered engineer and key trades retention is a primary diligence concern. Buyers look at tenure, salary benchmarks, and any post-sale lock-in arrangements.",
       },
       {
-        q: 'How long does an engineering services sale take?',
-        a: '6–9 months end to end.',
+        q: "How long does an engineering services sale take?",
+        a: "6–9 months end to end.",
       },
       {
-        q: 'How is project work-in-progress treated?',
-        a: 'WIP is normalised as part of working capital diligence. We help owners present WIP and milestone billings transparently to avoid completion-mechanism disputes.',
+        q: "How is project work-in-progress treated?",
+        a: "WIP is normalised as part of working capital diligence. We help owners present WIP and milestone billings transparently to avoid completion-mechanism disputes.",
       },
     ],
     contentTodos: [
       {
-        heading: 'Who we work with',
-        cover: ['Engineering services owners £5–50M EV', 'Mechanical, electrical, controls, process'],
+        heading: "Who we work with",
+        cover: [
+          "Engineering services owners £5–50M EV",
+          "Mechanical, electrical, controls, process",
+        ],
         body: [
           "You own a UK engineering services business worth between £5M and £50M in enterprise value. A mechanical and electrical (M&E) contractor with a strong technical reputation. A building services engineering firm. A specialist controls and instrumentation business. A process engineering specialist serving food, pharma or industrial clients. Most likely a mix of project revenue (design and build) and recurring service / maintenance income.",
           "The buyer pool sits across larger strategic engineering groups acquiring for capability or geographic fill-in, PE consolidators executing buy-and-build in M&E and building services, and trade buyers in adjacent specialisms (FM groups expanding technical capability, larger engineering platforms adding sub-sector depth). Specialist process engineering attracts a separate, more international buyer pool again.",
@@ -194,8 +215,14 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'What buyers look for',
-        cover: ['Project vs recurring mix', 'Engineer retention', 'Accreditations', 'Customer depth', 'WIP management'],
+        heading: "What buyers look for",
+        cover: [
+          "Project vs recurring mix",
+          "Engineer retention",
+          "Accreditations",
+          "Customer depth",
+          "WIP management",
+        ],
         body: [
           "Buyer diligence in UK engineering services M&A focuses on five items. Each is fixable in advance, and each consistently drives the difference between top-of-range and median outcomes.",
           "Project vs recurring revenue mix first. Recurring service and maintenance revenue is valued at a meaningful premium to project revenue because of visibility and margin durability. Buyers will diligence the recurring book by client, contract tail, and renewal rate. Pre-process work to surface and properly classify the recurring component is one of the highest-return preparation activities — most engineering businesses understate it because the categorisation has never been done sharply.",
@@ -206,8 +233,8 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'Our process',
-        cover: ['Cross-link /process'],
+        heading: "Our process",
+        cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For engineering services, three things shape execution.",
           "Project-level diligence runs heavier than headline financial diligence. Buyers want margin breakdown by project, WIP analysis, milestone billing position, and historic project profitability data. We design the data room to anticipate this from the start so the diligence pack does not need assembly in real time.",
@@ -218,46 +245,46 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     ],
   },
   {
-    slug: 'process-engineering',
-    pillarSlug: 'light-industrials',
-    name: 'Process engineering',
-    nameLower: 'process engineering',
-    title: 'Process Engineering M&A Advisor UK | Mastella Advisory',
+    slug: "process-engineering",
+    pillarSlug: "light-industrials",
+    name: "Process engineering",
+    nameLower: "process engineering",
+    title: "Process Engineering M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      'Selling a UK process engineering business worth £5–50M? Senior-led M&A advisory for specialist process engineering owners.',
-    h1: 'Selling a process engineering business in the UK',
+      "Selling a UK process engineering business worth £5–50M? Senior-led M&A advisory for specialist process engineering owners.",
+    h1: "Selling a process engineering business in the UK",
     intro:
-      'We advise UK owners of specialist process engineering businesses — design, build, commissioning, automation — on confidential sales. Senior-led in the £5–50M EV segment.',
+      "We advise UK owners of specialist process engineering businesses — design, build, commissioning, automation — on confidential sales. Senior-led in the £5–50M EV segment.",
     faqs: [
       {
-        q: 'What multiples do UK process engineering businesses trade at?',
-        a: 'Specialist process engineering businesses typically trade at 6–9x adjusted EBITDA, with premium ranges for businesses with defensible technical capability, end-market exposure to food, pharma or hydrogen, and recurring revenue from service / maintenance.',
+        q: "What multiples do UK process engineering businesses trade at?",
+        a: "Specialist process engineering businesses typically trade at 6–9x adjusted EBITDA, with premium ranges for businesses with defensible technical capability, end-market exposure to food, pharma or hydrogen, and recurring revenue from service / maintenance.",
       },
       {
-        q: 'Who buys UK process engineering businesses?',
-        a: 'Strategic UK and overseas engineering groups, PE consolidators executing buy-and-build in specialist segments, and trade buyers in end-markets (food, pharma, energy transition).',
+        q: "Who buys UK process engineering businesses?",
+        a: "Strategic UK and overseas engineering groups, PE consolidators executing buy-and-build in specialist segments, and trade buyers in end-markets (food, pharma, energy transition).",
       },
       {
-        q: 'How does sector exposure affect valuation?',
-        a: 'Exposure to high-growth end-markets (pharma, food processing, hydrogen / energy transition, semiconductor) supports meaningfully stronger multiples than legacy industrial exposure.',
+        q: "How does sector exposure affect valuation?",
+        a: "Exposure to high-growth end-markets (pharma, food processing, hydrogen / energy transition, semiconductor) supports meaningfully stronger multiples than legacy industrial exposure.",
       },
       {
-        q: 'What about technical IP and design ownership?',
-        a: 'Buyers diligence IP ownership carefully — especially in businesses with bespoke design work for clients. We help owners document IP positions and assignability cleanly.',
+        q: "What about technical IP and design ownership?",
+        a: "Buyers diligence IP ownership carefully — especially in businesses with bespoke design work for clients. We help owners document IP positions and assignability cleanly.",
       },
       {
-        q: 'How long does a process engineering sale take?',
-        a: '6–9 months end to end. Technical diligence sometimes extends this.',
+        q: "How long does a process engineering sale take?",
+        a: "6–9 months end to end. Technical diligence sometimes extends this.",
       },
       {
-        q: 'How is long-cycle project revenue treated?',
-        a: 'Long-cycle project revenue is normalised carefully — buyers want to see the project pipeline, contracted backlog and historical conversion. We help owners present this transparently.',
+        q: "How is long-cycle project revenue treated?",
+        a: "Long-cycle project revenue is normalised carefully — buyers want to see the project pipeline, contracted backlog and historical conversion. We help owners present this transparently.",
       },
     ],
     contentTodos: [
       {
-        heading: 'Who we work with',
-        cover: ['Process engineering owners £5–50M EV'],
+        heading: "Who we work with",
+        cover: ["Process engineering owners £5–50M EV"],
         body: [
           "You own a UK process engineering business worth between £5M and £50M in enterprise value. A specialist process design, build and commissioning business serving food and beverage processors. A pharma process engineering specialist. A hydrogen, carbon capture or energy-transition specialist. A semiconductor or specialist materials process engineering firm. Most likely a mix of long-cycle project revenue, ongoing service and maintenance income, and a backlog of contracted work that took years to build.",
           "The buyer pool is more international than for general engineering services. Strategic UK and overseas engineering groups acquire process engineering businesses for end-market exposure or technical capability. PE consolidators execute buy-and-build in defined process engineering segments. Trade buyers in food, pharma, and energy-transition end-markets buy capability that strengthens their own delivery position. End-market exposure shapes the buyer composition significantly.",
@@ -266,8 +293,13 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'What buyers look for',
-        cover: ['End-market exposure', 'IP and design ownership', 'Engineer retention', 'Contracted backlog'],
+        heading: "What buyers look for",
+        cover: [
+          "End-market exposure",
+          "IP and design ownership",
+          "Engineer retention",
+          "Contracted backlog",
+        ],
         body: [
           "Buyer diligence in UK process engineering M&A is more technical and more end-market-focused than in general engineering services. Five items dominate.",
           "End-market exposure first. Exposure to high-growth end-markets — pharma, food processing, hydrogen and energy transition, semiconductor, specialist materials — supports meaningfully stronger multiples than legacy industrial exposure. We help owners articulate end-market exposure trajectory clearly because it shapes both the buyer pool and the headline range.",
@@ -278,8 +310,8 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'Our process',
-        cover: ['Cross-link /process'],
+        heading: "Our process",
+        cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For process engineering, three things shape execution.",
           "Technical diligence runs deep. Buyers will engage with the design philosophy, IP position, commissioning track record, and the team that delivered the work. We design the process around this calendar from the start so the technical conversations are well-structured rather than ad hoc.",
@@ -290,46 +322,46 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     ],
   },
   {
-    slug: 'industrial-coatings-and-surface-treatment',
-    pillarSlug: 'light-industrials',
-    name: 'Industrial coatings & surface treatment',
-    nameLower: 'industrial coatings and surface treatment',
-    title: 'Industrial Coatings M&A Advisor UK | Mastella Advisory',
+    slug: "industrial-coatings-and-surface-treatment",
+    pillarSlug: "light-industrials",
+    name: "Industrial coatings & surface treatment",
+    nameLower: "industrial coatings and surface treatment",
+    title: "Industrial Coatings M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      'Selling a UK industrial coatings or surface treatment business worth £5–50M? Senior-led M&A advisory. Confidential off-market process.',
-    h1: 'Selling an industrial coatings or surface treatment business in the UK',
+      "Selling a UK industrial coatings or surface treatment business worth £5–50M? Senior-led M&A advisory. Confidential off-market process.",
+    h1: "Selling an industrial coatings or surface treatment business in the UK",
     intro:
-      'We advise UK owners of industrial coatings, surface treatment and specialist finishing businesses on confidential sales. Senior-led in the £5–50M EV segment.',
+      "We advise UK owners of industrial coatings, surface treatment and specialist finishing businesses on confidential sales. Senior-led in the £5–50M EV segment.",
     faqs: [
       {
-        q: 'What multiples do UK industrial coatings businesses trade at?',
-        a: 'Industrial coatings businesses typically trade at 5–8x adjusted EBITDA, with premium multiples for businesses with specialist technical capability, accreditations (aerospace, defence), and meaningful international revenue.',
+        q: "What multiples do UK industrial coatings businesses trade at?",
+        a: "Industrial coatings businesses typically trade at 5–8x adjusted EBITDA, with premium multiples for businesses with specialist technical capability, accreditations (aerospace, defence), and meaningful international revenue.",
       },
       {
-        q: 'Who buys UK industrial coatings businesses?',
-        a: 'Larger strategic coatings groups (UK and European), PE consolidators in specialist coatings / treatment niches, and trade buyers in adjacent technical service sectors.',
+        q: "Who buys UK industrial coatings businesses?",
+        a: "Larger strategic coatings groups (UK and European), PE consolidators in specialist coatings / treatment niches, and trade buyers in adjacent technical service sectors.",
       },
       {
-        q: 'How do accreditations (NADCAP, aerospace standards) affect valuation?',
-        a: 'Materially. Specialist accreditations are barriers to entry that materially support premium pricing. We help owners document accreditation history cleanly.',
+        q: "How do accreditations (NADCAP, aerospace standards) affect valuation?",
+        a: "Materially. Specialist accreditations are barriers to entry that materially support premium pricing. We help owners document accreditation history cleanly.",
       },
       {
-        q: 'How is environmental compliance treated in diligence?',
-        a: 'Environmental compliance — particularly REACH, hazardous waste handling, COMAH where relevant — is a first-look diligence item. Clean compliance history materially helps both certainty and price.',
+        q: "How is environmental compliance treated in diligence?",
+        a: "Environmental compliance — particularly REACH, hazardous waste handling, COMAH where relevant — is a first-look diligence item. Clean compliance history materially helps both certainty and price.",
       },
       {
-        q: 'How long does a coatings sale typically take?',
-        a: '6–9 months end to end. Environmental diligence sometimes adds time.',
+        q: "How long does a coatings sale typically take?",
+        a: "6–9 months end to end. Environmental diligence sometimes adds time.",
       },
       {
-        q: 'How is freehold land treated?',
-        a: 'Coatings and treatment sites often sit on owned land with environmental considerations. We help owners structure the property arrangement separately from the operating business where that maximises outcome.',
+        q: "How is freehold land treated?",
+        a: "Coatings and treatment sites often sit on owned land with environmental considerations. We help owners structure the property arrangement separately from the operating business where that maximises outcome.",
       },
     ],
     contentTodos: [
       {
-        heading: 'Who we work with',
-        cover: ['Industrial coatings and surface treatment owners £5–50M EV'],
+        heading: "Who we work with",
+        cover: ["Industrial coatings and surface treatment owners £5–50M EV"],
         body: [
           "You own a UK industrial coatings, surface treatment or specialist finishing business worth between £5M and £50M in enterprise value. A specialist coatings business serving aerospace, defence or rail. A surface treatment platform with sector accreditations. A specialist powder coater or industrial painter. An anodising, electroplating or chemical conversion specialist. Most likely operating from owned freehold land with environmental controls that took years to put in place.",
           "The buyer pool is more international than the sector's UK-centric customer base suggests. Larger UK and European coatings groups acquire for capability or geographic fill-in. PE consolidators execute buy-and-build in defined coatings and treatment niches. Trade buyers in adjacent technical service sectors look for capability that strengthens their delivery to shared customers. Specialist aerospace-accredited businesses attract a deeper international buyer pool again.",
@@ -338,8 +370,13 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'What buyers look for',
-        cover: ['Accreditations', 'Environmental compliance', 'Customer concentration', 'Technical capability'],
+        heading: "What buyers look for",
+        cover: [
+          "Accreditations",
+          "Environmental compliance",
+          "Customer concentration",
+          "Technical capability",
+        ],
         body: [
           "Buyer diligence in UK industrial coatings M&A is technical and environmental-heavy. Five items dominate.",
           "Accreditations first. NADCAP, aerospace and defence approvals, sector-specific quality certifications (rail, automotive, oil and gas), ISO 9001/14001/45001. Each is a barrier to entry. Aerospace-accredited businesses in particular consistently command premium multiples and access a wider, more international buyer pool.",
@@ -350,8 +387,11 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: 'Our process',
-        cover: ['Cross-link /process', 'Notes on environmental diligence and OpCo/PropCo'],
+        heading: "Our process",
+        cover: [
+          "Cross-link /process",
+          "Notes on environmental diligence and OpCo/PropCo",
+        ],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For industrial coatings, three things shape execution.",
           "Environmental diligence runs on its own calendar and is heavier than commercial diligence. Phase I and Phase II environmental assessments, regulatory review, historic contamination position. We build the process around this from the start so it does not surprise the timetable late.",
