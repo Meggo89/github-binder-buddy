@@ -2,6 +2,18 @@ import { Fragment, ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import type { ContentTodo, SubSectionTodo } from '../../content/landing';
 
+// {{ STATS_CHECK: ... }} markers live in the source files so Leo can grep
+// for unverified industry benchmarks before publishing. They must never reach
+// the rendered DOM (visitors / Google would otherwise see them inline). Strip
+// the marker including its leading whitespace; then tidy any space that ends
+// up sitting before punctuation as a result.
+function stripStatsCheck(paragraph: string): string {
+  return paragraph
+    .replace(/\s*\{\{\s*STATS_CHECK:[^}]*\}\}\s*/g, ' ')
+    .replace(/ +([.,;:!?])/g, '$1')
+    .trim();
+}
+
 // Render a paragraph that may contain markdown-style inline links, e.g.
 //   "We explain this on the [process page](/process/) at length."
 // Each match becomes a React Router <Link>; everything else stays text.
@@ -75,7 +87,7 @@ export function ContentTodoSection({
         {hasBody ? (
           <div className="space-y-5 text-body-lg text-navy-light leading-relaxed">
             {todo.body!.map((p, i) => (
-              <p key={i}>{renderInlineLinks(p)}</p>
+              <p key={i}>{renderInlineLinks(stripStatsCheck(p))}</p>
             ))}
           </div>
         ) : (
