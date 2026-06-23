@@ -11,17 +11,17 @@ import { TECH_ENABLED_NICHES } from './niches-tech-enabled';
 // keep the existing call sites in site-meta.ts and the page components
 // unchanged.
 export const NICHES: NicheLanding[] = [
-  ...BUSINESS_SERVICES_NICHES,
-  ...HEALTHCARE_NICHES,
-  ...LIGHT_INDUSTRIALS_NICHES,
-  ...LOGISTICS_NICHES,
-  ...PROFESSIONAL_SERVICES_NICHES,
-  ...TECH_ENABLED_NICHES,
+...BUSINESS_SERVICES_NICHES,
+...HEALTHCARE_NICHES,
+...LIGHT_INDUSTRIALS_NICHES,
+...LOGISTICS_NICHES,
+...PROFESSIONAL_SERVICES_NICHES,
+...TECH_ENABLED_NICHES,
 ];
 
 export const NICHES_BY_PILLAR_SLUG = new Map<string, NicheLanding[]>();
 for (const n of NICHES) {
-  const existing = NICHES_BY_PILLAR_SLUG.get(n.pillarSlug) ?? [];
+  const existing = NICHES_BY_PILLAR_SLUG.get(n.pillarSlug)?? [];
   existing.push(n);
   NICHES_BY_PILLAR_SLUG.set(n.pillarSlug, existing);
 }
@@ -36,5 +36,5 @@ export function getNiche(pillarSlug: string, slug: string): NicheLanding | undef
 }
 
 export function getNichesForPillar(pillarSlug: string): NicheLanding[] {
-  return NICHES_BY_PILLAR_SLUG.get(pillarSlug) ?? [];
+  return NICHES_BY_PILLAR_SLUG.get(pillarSlug)?? [];
 }
