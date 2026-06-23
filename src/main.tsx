@@ -1,5 +1,5 @@
 import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
+import { createRoot, hydrateRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import App from './App.tsx';
@@ -10,7 +10,8 @@ import './index.css';
 // but data flows from the first visit either way.
 initAnalytics();
 
-createRoot(document.getElementById('root')!).render(
+const container = document.getElementById('root')!;
+const tree = (
   <StrictMode>
     <HelmetProvider>
       <BrowserRouter>
@@ -19,3 +20,13 @@ createRoot(document.getElementById('root')!).render(
     </HelmetProvider>
   </StrictMode>
 );
+
+// Prod: prerender.ts injects SSR'd content into #root, so hydrateRoot
+// takes over the existing DOM. Dev: vite serves the bare shell, so #root
+// is empty and we createRoot fresh. hasChildNodes() handles both cases
+// without flag-based branching.
+if (container.hasChildNodes()) {
+  hydrateRoot(container, tree);
+} else {
+  createRoot(container).render(tree);
+}

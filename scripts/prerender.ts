@@ -1,17 +1,24 @@
-// Post-build step. For every known route (static + dynamic article slugs),
-// emit a per-route index.html in dist/ with route-specific meta patched in.
-// Crawlers and social scrapers that request /about get /about/index.html with
-// the right title/og/canonical, rather than the generic homepage shell.
+// Full SSR step. For every known route (static + dynamic article slugs +
+// 47 landing pages), render the React tree via the SSR entry, patch the
+// route-specific head meta into the shell, inject the rendered body HTML
+// into the #root div, and write the resulting per-route index.html.
+//
+// Replaces the previous head-only prerender. Body content (H1, prose,
+// nav, footer, JSON-LD from per-page components) is now present in the
+// initial HTML response, which is what JS-blind crawlers (LinkedIn,
+// Bing, Slack, Twitter) and AEO indexers actually consume.
 
 import fs from 'node:fs';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import { ROUTES, SITE, fullTitle, canonicalFor, type RouteMeta } from '../src/seo/site-meta';
 import { articles } from '../src/content/insights';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST = path.resolve(__dirname, '..', 'dist');
+const DIST_SSR = path.resolve(__dirname, '..', 'dist-ssr');
 const TEMPLATE = path.join(DIST, 'index.html');
+const SSR_ENTRY = path.join(DIST_SSR, 'entry-server.js');
 
 type PatchInput = {
   path: string;
@@ -19,14 +26,16 @@ type PatchInput = {
   description: string;
   ogType?: string;
   ogImage?: string;
-  articleSchema?: string; // optional JSON-LD string to inject
+  articleSchema?: string;
 };
+
+type RenderFn = (url: string) => { html: string; helmet: unknown };
 
 function escapeAttr(s: string): string {
   return s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
-function patchHtml(shell: string, m: PatchInput): string {
+function patchHead(shell: string, m: PatchInput): string {
   const title = fullTitle(m.title);
   const canonical = canonicalFor(m.path);
   const description = m.description;
@@ -93,8 +102,15 @@ function patchHtml(shell: string, m: PatchInput): string {
   return h;
 }
 
-function writeRoute(m: PatchInput, shell: string) {
-  const html = patchHtml(shell, m);
+function injectBody(html: string, ssrBody: string): string {
+  // Replace empty <div id="root"></div> with the SSR'd content. Match any
+  // amount of inner whitespace so the swap is robust against future shell
+  // formatting changes.
+  return html.replace(/<div id="root">\s*<\/div>/, `<div id="root">${ssrBody}</div>`);
+}
+
+function writeRoute(m: PatchInput, headPatched: string, ssrBody: string) {
+  const html = injectBody(headPatched, ssrBody);
   if (m.path === '/') {
     fs.writeFileSync(TEMPLATE, html);
     return;
@@ -109,7 +125,14 @@ async function run() {
     console.error(`prerender: dist/index.html missing. Run vite build first.`);
     process.exit(1);
   }
+  if (!fs.existsSync(SSR_ENTRY)) {
+    console.error(`prerender: dist-ssr/entry-server.js missing. Run \`vite build --ssr src/entry-server.tsx --outDir dist-ssr\` first.`);
+    process.exit(1);
+  }
+
   const shell = fs.readFileSync(TEMPLATE, 'utf8');
+  const ssrModule = (await import(pathToFileURL(SSR_ENTRY).href)) as { render: RenderFn };
+  const { render } = ssrModule;
 
   // Static routes
   const staticInputs: PatchInput[] = ROUTES.map((r: RouteMeta) => ({
@@ -148,8 +171,24 @@ async function run() {
   });
 
   const all = [...staticInputs, ...articleInputs];
-  for (const m of all) writeRoute(m, shell);
-  console.log(`prerender: wrote ${all.length} per-route HTML files to dist/`);
+  let ok = 0;
+  let bytes = 0;
+  for (const m of all) {
+    const headPatched = patchHead(shell, m);
+    try {
+      const { html: ssrBody } = render(m.path);
+      writeRoute(m, headPatched, ssrBody);
+      ok++;
+      bytes += ssrBody.length;
+    } catch (e) {
+      console.error(`prerender: render failed for ${m.path}:`, e);
+      // Fall back to empty body so the route still exists with correct head meta.
+      writeRoute(m, headPatched, '');
+    }
+  }
+  console.log(
+    `prerender: SSR'd ${ok}/${all.length} routes; avg body size ${Math.round(bytes / ok)} bytes; written to dist/`,
+  );
 }
 
 run().catch((err) => {

@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
 
-export default defineConfig(() => ({
+export default defineConfig(({ isSsrBuild }) => ({
   plugins: [react()],
   resolve: {
     alias: {
@@ -14,18 +14,29 @@ export default defineConfig(() => ({
   },
   build: {
     rollupOptions: {
-      output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom', 'react-router-dom'],
-          ui: ['lucide-react'],
-        },
-      },
+      output: isSsrBuild
+        ? undefined
+        : {
+            // manualChunks is client-only. SSR builds externalize React/etc,
+            // so naming them as chunks is a build error in that mode.
+            manualChunks: {
+              vendor: ['react', 'react-dom', 'react-router-dom'],
+              ui: ['lucide-react'],
+            },
+          },
     },
     cssCodeSplit: true,
     sourcemap: false,
     minify: 'terser',
     chunkSizeWarningLimit: 1000,
-    emptyOutDir: true,
+    // Don't wipe the client dist when running the SSR build into dist-ssr.
+    emptyOutDir: !isSsrBuild,
+  },
+  ssr: {
+    // react-helmet-async v2 has a broken ESM exports map: Node fails to
+    // resolve the `Helmet` named export when externalized. Bundling it
+    // into the SSR output sidesteps the broken module shape.
+    noExternal: ['react-helmet-async'],
   },
   server: {
     host: "::",
