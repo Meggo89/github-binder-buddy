@@ -39,8 +39,6 @@ export function LeadMagnetForm() {
     <form
       name="lead-magnet"
       method="POST"
-      data-netlify="true"
-      netlify-honeypot="bot-field"
       onSubmit={handleSubmit}
       className="space-y-4"
     >

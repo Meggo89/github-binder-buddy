@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+  Dedicated form-detection page. Netlify's build-time scanner reads this
+  file explicitly and registers every form whose name appears inside it.
+  This is Netlify's officially recommended pattern for JS-rendered / SSR
+  sites, because scanning through SSR'd page HTML for `data-netlify="true"`
+  is fragile — a duplicate form definition (which is exactly what SSR
+  introduced when the React form on /contact/ started shipping in the
+  initial HTML alongside the hidden template) breaks the registration.
+
+  Keep every field a React form actually submits listed here, otherwise
+  Netlify drops unknown fields from the recorded submission.
+-->
+<html>
+  <head>
+    <title>Forms</title>
+    <meta name="robots" content="noindex" />
+  </head>
+  <body>
+    <form name="contact" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="contact" />
+      <input type="text" name="name" />
+      <input type="text" name="company" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <input type="text" name="interest" />
+      <textarea name="message"></textarea>
+      <input type="text" name="bot-field" />
+    </form>
+
+    <form name="lead-magnet" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="lead-magnet" />
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="bot-field" />
+    </form>
+  </body>
+</html>
