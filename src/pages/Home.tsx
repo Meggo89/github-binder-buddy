@@ -92,7 +92,7 @@ const testimonials = [
 function Hero() {
   return (
     <div className="max-w-4xl">
-      <p className="eyebrow mb-6">UK SMEs · worth £5M–£50M</p>
+      <p className="eyebrow mb-6">UK & cross-border · worth £5M–£50M</p>
       <h1 className="font-serif text-display-xl text-white mb-8 text-balance leading-[1.05]">
         Business exits,<br />
         <TypedHeroTagline />
@@ -128,8 +128,8 @@ export default function Home() {
   return (
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="Off-market M&A for UK SME owners"
-        description="Off-market M&A for UK SME owners worth £5–50M. We find buyers other advisors don't reach. Confidential sell-side, fundraising and exit readiness."
+        title="Off-market M&A for founder-led businesses"
+        description="Off-market M&A for founder-led businesses worth £5–50M across the UK and internationally. We find buyers other advisors don't reach. Confidential sell-side, fundraising and exit readiness."
         canonical="https://mastellagroup.com/"
       />
 

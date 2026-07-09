@@ -95,8 +95,8 @@ export default function Services() {
   return (
     <PageLayout hero={<Hero />} heroTone="ink" mainClassName="">
       <SEO
-        title="M&A Services for UK SME Owners - Sell-side, Fundraising, Exit Readiness"
-        description="M&A services for UK SME owners: sell-side, fundraising, exit readiness and executive search. Confidential, senior-led, focused on businesses worth £5–50M."
+        title="M&A Services for Founder-Led Businesses - Sell-side, Fundraising, Exit Readiness"
+        description="M&A services for founder-led businesses across the UK and internationally: sell-side, fundraising, exit readiness and executive search. Confidential, senior-led, focused on businesses worth £5–50M."
         canonical="https://mastellagroup.com/services/"
       />
       <StructuredData data={[...serviceSchemas, breadcrumb]} />

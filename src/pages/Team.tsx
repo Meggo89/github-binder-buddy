@@ -103,7 +103,7 @@ export default function Team() {
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
         title="Leo Meggitt - Principal | Mastella Advisory"
-        description="Leo Meggitt, founder of Mastella Advisory. 20+ years advising UK SME owners on sell-side M&A, fundraising and exit readiness."
+        description="Leo Meggitt, founder of Mastella Advisory. 20+ years advising founder-led businesses across the UK and internationally on sell-side M&A, fundraising and exit readiness."
         canonical="https://mastellagroup.com/team/"
       />
       <StructuredData data={[personSchema, breadcrumb]} />

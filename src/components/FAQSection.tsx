@@ -16,7 +16,7 @@ const DEFAULT_FAQ: FAQItem[] = [
   {
     question: 'What size of business do you work with?',
     answer:
-      'UK owner-managed SMEs worth £5M–£50M. Founder-led businesses, family-owned companies, and PE-backed firms seeking an exit or capital raise.',
+      "Founder-led businesses worth £5M–£50M. Family-owned companies, founder-managed firms, and PE-backed businesses seeking an exit or capital raise. Most of our work is UK lower mid-market, with cross-border transactions where a founder's buyer universe is international, including Spanish and Portuguese deals.",
   },
   {
     question: 'How long does a typical exit take?',

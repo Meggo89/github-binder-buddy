@@ -26,7 +26,7 @@ export default function Process() {
     <PageLayout hero={<Hero />} heroTone="ink" mainClassName="">
       <SEO
         title="How We Source Buyers"
-        description="How we source buyers other advisors don't reach. Six-stage senior-led M&A process for UK SME owners worth £5–50M."
+        description="How we source buyers other advisors don't reach. Six-stage senior-led M&A process for founder-led businesses worth £5–50M across the UK and internationally."
         canonical="https://mastellagroup.com/process/"
       />
 

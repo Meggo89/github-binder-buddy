@@ -17,8 +17,8 @@ function Hero() {
         Sectors we work in
       </h1>
       <p className="text-body-lg text-sand-light max-w-2xl leading-relaxed">
-        Senior-led M&amp;A advisory for UK SME owners worth £5–50M, across six sectors. Each pillar links to specialist
-        pages for the niches we cover most actively.
+        Senior-led M&amp;A advisory for founder-led businesses worth £5–50M — UK-focused with cross-border capability
+        — across six sectors. Each pillar links to specialist pages for the niches we cover most actively.
       </p>
     </div>
   );
