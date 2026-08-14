@@ -275,6 +275,34 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         q: "How does data science talent retention affect a sale?",
         a: "Materially. Specialist data science / engineering talent is scarce and retention is a primary diligence concern. We help owners document senior team depth and lock-in arrangements.",
       },
+      {
+        q: "Which boutique data analytics consultancies in the UK are worth talking to about M&A?",
+        a: "The UK boutique data analytics consultancy landscape is unusually deep — well-known names in the £5–50M enterprise value range include the specialist Snowflake and Databricks partner firms, the vertical-focused analytics practices in financial services and retail, and the data engineering specialists serving mid-market enterprise. When you are thinking about M&A specifically (selling, acquiring, or raising growth capital), the shortlist of specialist M&A advisors covering this niche is much smaller. Mastella works in this segment; other advisors active in adjacent tech services include Cavendish, Cortus Advisory, Marktlink and the technology teams at BDO, RSM and Grant Thornton. What matters more than the shortlist is who actually knows the current buyer pool in your specific sub-segment.",
+      },
+      {
+        q: "What is data analytics M&A actually about in the UK right now?",
+        a: "UK data and analytics services M&A is being driven by three parallel dynamics: (1) large strategic consulting groups (Big Four, Accenture, IBM Consulting, Capgemini) acquiring specialist analytics capability to fill delivery gaps; (2) PE-backed platforms rolling up mid-market data engineering and analytics consultancies with the intent of building £50M+ ARR businesses inside 3–5 years; and (3) US and Nordic data platforms acquiring UK specialists for UK and European footprint. Multiples have held up better in this sub-sector than in general consulting because underlying enterprise demand for data engineering, cloud data platforms and applied AI has remained structurally strong.",
+      },
+      {
+        q: "What multiples do UK boutique data and analytics consultancies trade at in 2026?",
+        a: "Services-led businesses (project and programmatic consulting, staff augmentation, delivery services) trade at 6–10x adjusted EBITDA. Retainer-led managed services and specialist recurring revenue trade at the upper end (9–12x for the strongest platforms). Businesses with embedded software, proprietary analytics platforms or licensed data products are valued on a blend — services multiple on the delivery revenue, plus 3–8x ARR on the platform component. Snowflake or Databricks Premier/Elite partner tier consistently supports a multiple uplift. Cloud partner accreditation (AWS Advanced/Premier, Azure Solutions Partner, GCP Premier) matters similarly.",
+      },
+      {
+        q: "Who acquires UK data and analytics services businesses?",
+        a: "The active UK buyer pool splits into four groups. First: the Big Four and larger consulting groups (Deloitte, PwC, KPMG, EY, Accenture, Capgemini, IBM Consulting, Cognizant, Infosys) all actively acquire specialist analytics capability. Second: PE-backed technology services platforms (Node4, Version 1, Solutions Plus, various HgCapital, Inflexion, Livingbridge and Bridgepoint positions in tech services) build via add-on acquisitions. Third: US and Nordic data specialists (Slalom, ThoughtWorks, EPAM, Publicis Sapient, Tietoevry and others) acquire UK platforms for footprint. Fourth: cloud-partner-adjacent buyers where the target holds specific hyperscaler certifications.",
+      },
+      {
+        q: "How do Snowflake, Databricks and hyperscaler partner tiers affect valuation?",
+        a: "Materially. Snowflake Premier or Elite partner status, Databricks Champion or specialist tier, AWS Advanced or Premier Consulting Partner status, Azure Solutions Partner designation and GCP Premier Partner tier all signal proven delivery capability at scale and unlock preferential access to co-sell pipeline. Buyers pay a premium for accredited partner tiers because they reduce ramp-up risk and provide immediate access to the platform vendors' enterprise sales motion. For businesses in the £5–15M EBITDA range, moving from mid-tier to top-tier accreditation before going to market can shift the multiple by half a turn to a full turn.",
+      },
+      {
+        q: "Should I sell my data analytics firm to a Big Four or to a PE consolidator?",
+        a: "Both routes have delivered strong outcomes for UK founders in this segment; the right choice depends on your objectives. Big Four and larger strategic consulting groups typically pay for capability, offer a well-defined post-sale role, and integrate the business into their broader platform — attractive if you want to continue running the discipline inside a bigger machine. PE-backed platforms typically pay for platform value or add-on fit, structure meaningful management equity rollover, preserve more of the operational autonomy short-to-medium term, and expect a defined value-creation plan with a second exit in 4–7 years. Running a structured process that tests both pools is the reliable way to see which produces the better total outcome for your specific situation.",
+      },
+      {
+        q: "What is the typical timeline for selling a UK data analytics business?",
+        a: "Six to nine months from engagement to completion for a well-prepared sale. Technical diligence (architecture review, IP audit, security posture, codebase review where embedded software exists) can add two to four weeks on top of a standard commercial timeline. Businesses with embedded software or licensed platforms typically sit at the longer end because dual-methodology valuation (services multiple + ARR multiple) requires more back-and-forth. Well-prepared owners with clean recurring-revenue classification, documented senior team retention arrangements and clean IP ownership consistently complete on the shorter end of the range.",
+      },
     ],
     contentTodos: [
       {
@@ -303,6 +331,25 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
           "Senior talent retention third. Specialist data engineering, data science and analytics talent is scarce. Buyers diligence tenure, billing concentration, restrictive covenants and post-sale lock-in arrangements.",
           "Client concentration and tenure fourth. Concentration above 25% in a single client is a flag. Buyers want blue-chip relationships with multi-year tenure and meaningful share-of-wallet.",
           "Methodology and registered IP fifth. Defensible methodology, proprietary frameworks, registered IP, sector-specific accreditations. Each is a barrier to entry that supports premium pricing.",
+          "Cloud partner tier and hyperscaler accreditation sixth. Snowflake Premier/Elite, Databricks Champion tier, AWS Advanced or Premier Consulting Partner, Azure Solutions Partner, GCP Premier Partner. Each accreditation is a barrier to entry, signals proven delivery capability, and unlocks preferential co-sell pipeline from the platform vendor. Buyers pay meaningfully more for demonstrably-earned top-tier partner status than for entry-tier positions.",
+          "Delivery model mix seventh. The split between fixed-price project delivery, T&M/staff augmentation, managed services and retained programmes tells the buyer everything about revenue predictability, gross margin discipline and integration difficulty. Buyers pay a meaningful premium for high managed-service mix (typically 40%+ of revenue) and discount pure staff augmentation. Pre-process work to reclassify revenue lines accurately is one of the highest-return preparation activities.",
+          "Vertical specialism depth eighth. Deep vertical expertise in a defined industry (financial services, retail, life sciences, energy, public sector) commands a premium over generalist positioning because it maps directly to buyers' own vertical delivery gaps. Buyers value documented vertical case study depth, named references, and vertical-specific accelerators or IP more than they value broad multi-sector claims.",
+          "Modern data stack toolchain ninth. Depth on the modern data stack (dbt, Fivetran, Airbyte, Prefect, Dagster, Sigma, Hex, Looker, Tableau) signals contemporary delivery capability and reduces buyer concern about being acquired at the wrong technology cycle. Businesses primarily delivering on legacy toolchains (SSIS, Informatica PowerCenter, on-premise Cognos) discount unless they have a documented modernisation trajectory in flight.",
+        ],
+      },
+      {
+        heading: "Recent market activity",
+        cover: [
+          "Named active acquirers, multiples, sub-sector shifts in UK data & analytics M&A",
+        ],
+        body: [
+          "UK data and analytics services M&A has remained among the most active sub-sectors of tech-enabled services through 2024–2026. Below is a snapshot of what is currently visible in the market.",
+          "**Active strategic acquirers.** Deloitte, PwC, KPMG, EY, Accenture, Capgemini, IBM Consulting, Cognizant, Infosys, TCS and Wipro all remain active for UK specialist analytics acquisitions. The Big Four in particular have made multiple acquisitions in the data engineering, applied AI and cloud analytics space over the last 24 months, driven by demand-pull from their enterprise clients' data transformation programmes.",
+          "**Active PE-backed technology services platforms.** Node4, Version 1, ANS Group, Solutions Plus, various HgCapital, Inflexion, Livingbridge, Bridgepoint, LDC and Endless portfolio positions in UK tech services all execute add-on acquisitions in data and analytics niches. Some platforms focus on specific verticals (public sector, financial services), others on toolchain specialisms (Snowflake, Databricks partners), others on capability breadth.",
+          "**Overseas strategic interest.** US, Nordic and Continental European data platforms have been consistent acquirers of UK specialists — Slalom, ThoughtWorks, EPAM, Publicis Sapient, Tietoevry, Netcompany and others have historically acquired for UK footprint. The trend has continued through 2026 as UK data engineering talent depth remains a scarcity buyers pay a premium for.",
+          "**Multiples.** Services-led businesses trade at 6–10x adjusted EBITDA. Retainer-heavy managed services reach the upper end (9–12x). Embedded platform IP unlocks blended valuation (services multiple + 3–8x ARR on the platform component) and typically a wider buyer pool. Snowflake Premier/Elite and Databricks Champion tier consistently support half-turn to full-turn uplift.",
+          "**Sub-sector heat.** Applied AI and generative AI delivery capability, data governance and MDM specialists, and Snowflake/Databricks migration boutiques have seen concentrated buyer interest. Data engineering firms with clear cloud-modernisation practice have outperformed generalist BI-heavy consultancies. Data science consultancies without productisation typically trade at the lower end of the services range.",
+          "**Diligence sharpening.** Post-2024 buyers have tightened diligence on ARR/MRR classification, delivery gross margin per client, top-consultant billing concentration, IP ownership provenance (particularly for models trained on client data) and the sustainability of accelerator/IP claims. Founders arriving with clean data on each of these consistently outperform.",
         ],
       },
       {
@@ -431,6 +478,34 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         q: "How is specialist talent retention treated?",
         a: "AI / ML specialist talent is exceptionally scarce. Senior team depth, lock-in arrangements and equity / retention plans are headline diligence items.",
       },
+      {
+        q: "What is AI M&A consulting and who does it in the UK?",
+        a: "AI M&A consulting usually means one of two things. First: strategy consulting to companies that are considering AI-driven acquisitions or divestments in their own business — that work sits primarily inside the Big Four's AI transformation practices, Accenture, and specialist strategy houses. Second: M&A advisory to AI and ML services companies themselves — helping AI founders sell, raise growth capital or acquire competitors. Mastella works in the second definition, specifically for UK AI and ML services businesses worth £5–50M in enterprise value. The two disciplines require different skill sets and rarely sit in the same firm.",
+      },
+      {
+        q: "Who is the best M&A advisor for AI companies in the UK?",
+        a: "'Best' depends on the size and nature of your AI business. For UK AI and ML services companies worth £5–50M in enterprise value, the shortlist of specialist M&A advisors covering this niche is small. Mastella acts in this segment. Other advisors active in adjacent technology M&A include Cavendish, Cortus Advisory, Marktlink, the technology teams at BDO, RSM, Grant Thornton, and various specialist boutiques focused on AI or applied technology. For AI product businesses at seed-to-Series-C stage, specialist tech-focused corporate finance houses and venture-adjacent advisors typically fit better than traditional M&A firms.",
+      },
+      {
+        q: "What multiples do UK artificial intelligence M&A services businesses trade at in 2026?",
+        a: "Services-led AI businesses (applied AI consulting, ML engineering delivery, computer vision or NLP consultancies) trade at 6–12x adjusted EBITDA, with defensible IP and top-tier talent pushing toward the upper end. AI product and platform businesses are valued primarily on ARR — typically 4–10x ARR depending on growth, retention, gross margin and AI-native defensibility. Businesses combining services with embedded platform IP are valued on a blend. Genuine AI-native positioning (proprietary models, applied IP, demonstrable client outcomes not achievable with general-purpose tools) commands a meaningful premium; hype-led positioning tested at diligence typically re-trades.",
+      },
+      {
+        q: "Who acquires UK AI and ML services businesses?",
+        a: "The active buyer pool is small but well-funded. Strategic acquirers include the Big Four (all have made recent AI capability acquisitions), Accenture, Capgemini, IBM Consulting, Cognizant, and the larger cloud services groups. US strategics have been consistently active — Snowflake, Databricks, Salesforce, ServiceNow and specialist AI platforms have all acquired UK applied AI capability. PE-backed technology services platforms build AI depth via add-ons (Node4, Version 1, ANS Group and various HgCapital, Inflexion, Bridgepoint positions). Overseas AI-native strategics (particularly US and Continental European) round out the pool.",
+      },
+      {
+        q: "What AI M&A trends are visible in the UK market right now?",
+        a: "Three trends dominate 2026. First: strategic buyers strongly favour applied AI capability with named enterprise references over generalist AI positioning; case-study depth is the single biggest premium driver. Second: the market has become sharper at distinguishing genuine AI-native defensibility from wrappers around general-purpose models — buyers now diligence proprietary training data, model architecture and applied IP carefully. Third: senior AI talent retention has become the most-cited diligence concern, with buyers routinely requiring 24–48 month lock-ins on senior ML engineering and applied science leadership before signing.",
+      },
+      {
+        q: "How does generative AI disruption affect valuation of my AI services business?",
+        a: "Buyers now diligence disintermediation risk explicitly. AI services businesses whose delivery could plausibly be replicated by general-purpose LLMs alone (basic prompt engineering, generic content generation, entry-level automation) discount unless there is defensible workflow, data or applied IP on top. AI services businesses whose delivery genuinely requires proprietary models, specialist domain data, applied ML engineering at scale, or integration with client-specific systems typically hold or lift multiples. Honest framing of where your business sits on this spectrum is essential — over-claiming damages credibility during diligence, under-claiming leaves value on the table.",
+      },
+      {
+        q: "How long does it take to sell a UK AI or ML services business?",
+        a: "Six to nine months from engagement to completion for a well-prepared sale, with technical diligence (model architecture, training data provenance, IP ownership audit, security posture, codebase review) typically adding two to four weeks on top of a standard commercial timeline. Businesses with embedded platform IP or licensed AI products sit at the longer end because dual-methodology valuation and platform-side technical diligence require more back-and-forth. Overseas buyers (particularly US strategics) add cross-border tax and regulatory structuring which extends legal documentation timelines by four to eight weeks.",
+      },
     ],
     contentTodos: [
       {
@@ -459,6 +534,23 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
           "Specialist talent third. AI / ML specialist talent is exceptionally scarce. Senior ML engineers, applied data scientists, and AI product leaders are diligenced individually. Buyers look at tenure, certifications, publications, restrictive covenants and post-sale lock-in arrangements.",
           "Client concentration and tenure fourth. Concentration above 25% in a single client is a flag. Blue-chip relationships with multi-year tenure and embedded operational positions support premium pricing.",
           "Recurring vs project revenue fifth. Project revenue trades at the lower end; programmatic and managed-service revenue at the upper end; platform / product ARR commands the highest valuation. The composition shapes both the buyer pool and the valuation methodology.",
+          "Case study depth and named references sixth. Buyers pay premium for demonstrated enterprise delivery — named blue-chip client references, published case studies with quantified outcomes, and reference-callable enterprise sponsors. Businesses with three or more callable enterprise references at CXO level consistently outperform those relying on smaller-client volume or on unnamed 'confidential' references.",
+          "Proprietary training data and data assets seventh. Where the business has assembled proprietary training datasets — client-permission-cleared, deduplicated, labelled, and legally clean — this is a meaningful and often under-presented asset. Buyers value defensible data moats as much as they value model IP. We help owners document data provenance and ownership carefully before going to market.",
+          "Model architecture and technical defensibility eighth. Buyers diligence whether models are genuinely proprietary or effectively wrappers over general-purpose foundation models. Businesses with meaningful in-house model engineering, applied fine-tuning at scale, or novel architecture components command premium. Buyers now typically bring specialist ML technical advisors into diligence, so pre-process technical documentation depth matters.",
+          "Security, ethics and governance posture ninth. AI-specific governance (model cards, data lineage, bias testing, adversarial testing, EU AI Act compliance where relevant, ISO 42001, SOC 2, ISO 27001) is now a diligence area in its own right. Buyers acquiring for regulated-industry deployment (financial services, healthcare, public sector) pay a premium for documented governance frameworks and discount businesses without them.",
+        ],
+      },
+      {
+        heading: "Recent market activity",
+        cover: ["Named active acquirers, multiples, AI M&A trends in the UK"],
+        body: [
+          "UK AI and ML services M&A has been one of the fastest-changing sub-sectors of tech-enabled services through 2024–2026, as the strategic and PE buyer landscape has adjusted to genuine AI-native capability vs generalist AI positioning. Below is a snapshot of the current market.",
+          "**Active strategic acquirers.** Deloitte, PwC, KPMG, EY, Accenture, Capgemini, IBM Consulting, Cognizant, Infosys and TCS all remain active for UK applied AI acquisitions — each has made multiple recent hires and acquisitions to build applied AI delivery capability at scale. Larger cloud services groups (Rackspace, Softcat, Computacenter) have started making AI-adjacent acquisitions.",
+          "**Overseas strategic acquirers.** US and Continental European strategics have been consistently active. Snowflake, Databricks, ServiceNow, Salesforce, SAP and specialist AI platforms have historically acquired UK applied AI capability. Tietoevry, Netcompany, EPAM and Publicis Sapient acquire for UK footprint. Japanese and Middle Eastern strategics have also emerged as buyers for specific vertical AI capabilities.",
+          "**Active PE-backed platforms.** HgCapital, Inflexion, Bridgepoint, LDC, Livingbridge and Endless portfolios in UK tech services all execute add-on acquisitions in applied AI niches. Some platforms focus on specific verticals (financial services AI, healthcare AI, public sector AI), others on capability breadth. A small number of dedicated AI-focused PE consolidators have emerged in 2024–2026.",
+          "**Multiples.** Services-led applied AI businesses trade at 6–12x adjusted EBITDA. Managed-service AI (ongoing model management, deployment, monitoring) reaches the upper end. Platform and product businesses are valued on ARR (4–10x depending on growth and retention). Genuine AI-native positioning with demonstrable client outcomes commands premium; hype-led wrappers tested in diligence typically re-trade or fall out.",
+          "**Talent-driven pricing.** Senior applied ML engineering, applied science and AI product leadership talent is exceptionally scarce. Buyers now routinely require 24–48 month lock-ins on named senior staff before signing. Acquisitions with retention gaps at senior technical leadership have consistently re-traded or fallen out over the last 24 months.",
+          "**Sub-sector heat.** Computer vision applied to industrial or defence use cases, applied AI in regulated financial services, healthcare AI with clinical validation, and vertical AI in specialist B2B domains have seen concentrated buyer interest. Generalist AI consultancies without vertical depth or productisation have consistently traded at the lower end of ranges.",
         ],
       },
       {

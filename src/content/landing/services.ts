@@ -434,6 +434,34 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         q: "How do I get started?",
         a: "Book a 45-minute confidential conversation. No obligation. We will tell you honestly whether what you want to achieve is realistic and whether Mastella is the right firm for it.",
       },
+      {
+        q: "Who is the best boutique M&A advisor for UK SMEs?",
+        a: "'Best' depends on your sector, deal size and priorities. For UK owner-managed businesses worth £5–50M in enterprise value, the useful shortlist is the small group of boutique advisors who genuinely deliver senior-led work throughout the mandate rather than delegating to juniors after the sales meeting. Mastella works in this segment. Other UK boutique M&A advisors active in the lower mid-market include Cavendish, Cortus Advisory, Marktlink UK, Beer & Partners, Clearwater International (lower mid-market team), and the corporate finance teams at BDO, RSM, Grant Thornton and Kroll for the £15M+ end. What matters more than the shortlist is which firm actually knows the current active buyer pool in your specific sub-sector.",
+      },
+      {
+        q: "What is a boutique M&A advisor and how are they different from big firms?",
+        a: "A boutique M&A advisor is a specialist independent firm — usually 5 to 50 people — that focuses on M&A advisory in a defined market segment (e.g. UK lower mid-market, or a specific sector). Boutiques compete with the mid-market corporate finance teams at BDO, RSM, Grant Thornton, Kroll and the Big Four on senior attention per deal, sector depth and speed. Larger firms compete on brand, cross-firm reach, and full-service adjacencies (tax, audit, legal). For owner-managed £5–50M deals, boutique advisors typically produce a materially different client experience — the person who wins the mandate is the person who runs the mandate.",
+      },
+      {
+        q: "How do I choose the best M&A advisor for my UK SME?",
+        a: "Ask five questions of any firm you interview. (1) Who specifically will run this mandate day-to-day — will that named senior person be in every buyer meeting and every negotiation call? (2) What specific completed transactions have you led in my sub-sector in the last three years? (3) Who are the 40–80 buyers you would approach for my business and why each? (4) What is your fee structure in full — retainer, success fee, expenses, any minimums? (5) What is the honest downside of choosing you vs the alternative firms I am interviewing? Firms that answer all five directly are usually the right shortlist.",
+      },
+      {
+        q: "How much do the best M&A advisors cost for UK SME deals?",
+        a: "UK lower mid-market M&A advisor fees split into three components. A monthly retainer (typically £8k–£25k per month depending on deal complexity, running for the duration of the mandate). A success fee on completion (usually a tiered percentage of enterprise value — headline ranges vary; broadly 1–3% for £20M+ deals and higher for smaller). Expenses (data room, legal, specialist counsel — passed through). Retainer-led fee models fund genuinely senior work throughout the mandate; pure commission-only models economically push firms to deliver junior-led work. Full fee structure should be transparent before you sign any engagement letter.",
+      },
+      {
+        q: "What is the difference between an M&A advisor and a business broker?",
+        a: "Brokers run database-driven listings and typically serve businesses worth under £2–3M — the buyer pool is individual owner-operators, small acquirers and search-fund principals, reachable through broker networks. M&A advisors run off-market processes for businesses worth £5M+ — the buyer pool is PE-backed consolidators, strategic acquirers and direct PE houses, reached through curated direct approaches under NDA. The two models attract different buyers, use different fee structures, and produce different outcomes. See [our resource comparing the two](/resources/business-broker-vs-m-a-advisor/) for the full comparison.",
+      },
+      {
+        q: "How long does a UK SME M&A process take?",
+        a: "Six to nine months from engagement to completion for a well-prepared sell-side mandate. The readiness phase (financial normalisation, IM drafting, buyer mapping, data room build) runs six to ten weeks. The marketed process and negotiation runs three to four months. Legal documentation and exchange runs six to ten weeks. Owners who engage 12+ months before target completion, with structured exit planning readiness work, consistently complete on the shorter end. Owners who go to market cold routinely take longer and are more likely to re-trade at completion. See [exit planning](/services/exit-planning-advisor-uk/) for how the pre-process readiness phase works.",
+      },
+      {
+        q: "How do you find buyers that other advisors do not reach?",
+        a: "Three things. First, curated buyer mapping specific to your sub-sector and situation — we build the target buyer list from primary research on active PE consolidators, strategic acquirers, and specialist buyers currently deploying capital in your specific niche, supported by our proprietary technology layer for surfacing acquirer signals from licensed market data. Second, direct senior-led outreach under NDA to individually identified buyers rather than broad broker-network listings. Third, coverage of buyer pools outside the obvious UK PE and trade lists — overseas strategics, infrastructure-style investors, and specialist consolidators are frequently the buyers who pay differently.",
+      },
     ],
     contentTodos: [
       {
@@ -454,6 +482,34 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
           "Our typical client is a founder or partner group 12 to 24 months from a target exit, growth-capital round or capital event. The financials are real, the team is credible, and the business has reached the point where a structured competitive process across the right buyer pool will materially outperform either inbound approaches or a single-buyer negotiation.",
           "We do not work with businesses below £5M EV — at that scale, a quality broker network typically serves owners better than a senior-led firm can. We do not run mandates where the owner is committed to accepting a specific approach already on the table; that is execution support, which fits a different mandate type and a different fee profile.",
           "We do work hard to be straight in the first conversation. Forty-five minutes, no obligation, with an honest view on whether what you want to achieve is realistic and whether Mastella's model fits your situation.",
+        ],
+      },
+      {
+        heading: "What to look for when choosing a UK M&A advisor",
+        cover: [
+          "Named senior person on the mandate, sub-sector track record, buyer-pool knowledge, fee transparency, honest downsides",
+        ],
+        body: [
+          "The gap between the best UK boutique M&A advisors for a lower mid-market owner and the median firm is larger than it looks from the pitch meeting. Five things separate them, and all five are worth interrogating before you sign an engagement letter.",
+          "**Who runs the mandate day-to-day, by name.** The single most important question. Traditional UK M&A firms are structured around senior partners winning mandates and delegating substantive delivery to junior teams. The senior name in the pitch meeting frequently appears only at key buyer meetings and at completion. A boutique senior-led firm has the named senior person in every buyer meeting, every negotiation, and every material client conversation across the six-to-nine month mandate. Ask for a specific named commitment.",
+          "**Sub-sector track record in the last three years.** Generic 'we cover technology' or 'we do healthcare' is not track record. Named completed transactions in your specific sub-sector in the last three years is. Ask for the four or five most recent completed mandates in businesses like yours, at your rough size. Firms that cannot produce this shortlist do not have the current buyer-pool knowledge to run your process effectively, whatever their broader capability.",
+          "**Buyer-pool knowledge — specific and current.** Ask any firm to name the 40–80 buyers they would approach for your business, split by strategic vs PE vs overseas, and explain briefly why each is on the list. Firms that can do this from memory have the market intelligence to run a competitive process. Firms that answer with 'we will build the list once you engage us' are telling you where the work will start, not that it is already done.",
+          "**Fee structure — full, transparent, in writing before signature.** A good M&A advisor shares the full fee structure in the first serious conversation: retainer amount and duration, success fee tiers, expenses treatment, any minimum fees or long-stop provisions, tail-period arrangements. A firm reluctant to be specific about fees before the engagement letter arrives is a firm you should be careful about. Retainer-led fee models fund senior-led delivery; commission-only models economically drive junior delivery regardless of how the mandate is sold.",
+          "**Willingness to say the honest downside of choosing them.** The best M&A advisors will tell you, unprompted, where their model does not fit — where a different firm or a different transaction type would serve you better. If every firm you interview describes themselves as the right choice for every situation, you have learned nothing. The firm that says 'if your priority is X, firm Y is probably a better fit' is usually the firm to shortlist.",
+          "**Bench depth beyond the principal.** Even a senior-led boutique needs analytical bench depth to deliver at the level of intensity a modern M&A process requires. Ask about the in-house team (analysts, associates, technology capability) and the wider network the firm draws on for specialist counsel. Boutique senior-led delivery only works when the senior person is genuinely leveraged by strong analytical support behind them.",
+        ],
+      },
+      {
+        heading: "Recent market activity: UK lower mid-market M&A",
+        cover: ["Named consolidator activity, multiple ranges, sector heat"],
+        body: [
+          "The UK lower mid-market M&A landscape (£5–50M enterprise value) in 2026 remains structurally active despite macro-uncertainty at the larger end of the market. Below is a snapshot of what is currently visible.",
+          "**PE consolidator activity.** UK-focused mid-market PE (Inflexion, LDC, Livingbridge, Bridgepoint Development Capital, HgCapital, ECI, HgCapital Mercury, August Equity, NorthEdge, Endless, Piper, Beech Tree, Bregal Milestone) all remain active for platform investments and add-ons across the £5–50M EV segment. Sector-specific consolidator strategies are visible in healthcare, tech-enabled services, business services and specialist logistics.",
+          "**Strategic acquirer activity.** UK and overseas strategic acquirers dominate certain sub-sectors — Big Four and larger consulting groups in professional services and applied AI; specialist FM and cleaning consolidators; healthcare service consolidators; European industrial and logistics groups acquiring for UK footprint. Overseas buyers (US, European, and increasingly Asian) have been consistently active for UK specialist manufacturing, applied AI, and tech-enabled services.",
+          "**Multiples.** Sector-specific multiple ranges vary widely — healthcare services (dental, vet, mental health) 8–14x EBITDA; tech-enabled services (SaaS, MSP, cyber, AI) 6–12x EBITDA or 3–10x ARR for platform components; business services 5–9x; professional services 5–10x; light industrials 5–8x with premium ranges for specialist manufacturing; logistics 5–10x depending on sub-segment. Multiples within each range are driven more by structural characteristics (recurring revenue, customer concentration, management depth) than by macro conditions.",
+          "**Sub-sector heat.** Sectors seeing concentrated buyer interest in 2026 include: applied AI and vertical SaaS; healthcare services under the current consolidator cycle; specialist cold-chain and pharma logistics; cybersecurity managed services and GRC; specialist accountancy under continuing PE roll-up; and specialist manufacturing with international export exposure. Sectors seeing more discipline: pure haulage, generalist consulting without vertical depth, undifferentiated digital agencies, and services businesses with high founder concentration.",
+          "**Diligence sharpening.** Buyers across all sectors have tightened diligence on EBITDA quality, customer concentration and forward visibility, senior team retention arrangements, IP and contract assignability, and ESG/carbon disclosure. Owners arriving with clean data on each consistently complete at or above headline expectation. Owners going cold consistently re-trade at completion or lose deals in later-stage diligence.",
+          "**Timing.** For owners considering an exit in the next 18–24 months, starting structured readiness work now materially improves outcome. Pre-sale tax structuring, senior team build-out, financial reporting clean-up and buyer-pool intelligence all have 12+ month lead times where every month of preparation compounds into the final outcome. See [exit planning](/services/exit-planning-advisor-uk/) for what the pre-process readiness work looks like.",
         ],
       },
       {

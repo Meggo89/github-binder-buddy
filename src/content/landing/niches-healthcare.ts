@@ -121,6 +121,34 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         q: "What about specialist referral practices?",
         a: "Specialist referral practices (oncology, orthopaedics, neurology, etc.) attract a separate buyer pool, including specialist consolidators and overseas strategics. Multiples are typically higher than first-opinion practices given scarcity.",
       },
+      {
+        q: "Do I need a broker or an M&A advisor to sell my veterinary practice?",
+        a: "For a single-site UK small animal practice worth under £2M, a specialist veterinary broker is usually the right fit — they know the buyer database, list to it efficiently, and get transactions across the line in three to six months. For practices worth £5M+ in enterprise value, or multi-site groups, an M&A advisor generally delivers materially better outcomes: curated approach to the eight to twelve active corporate and PE-backed consolidators rather than a listing service, structured competitive process, and negotiation depth on lock-ins, retention arrangements and non-price terms. The gap between the two models widens sharply as practice size grows.",
+      },
+      {
+        q: "Who is the best broker for selling a UK veterinary practice?",
+        a: "'Best' depends on your practice size and what you actually need. For single-site practices worth under £2M, established specialist veterinary brokers (Vet Dynamics, Veterinary Business Services, Simply Veterinary Property have all been active in this space) typically work well because they know the individual-buyer pool and can complete quickly. For multi-site groups and practices worth £5M+ enterprise value, an M&A advisor rather than a broker generally produces a better outcome — Mastella acts in that segment. Below £5M we regularly refer to specialist brokers rather than take a mandate that fits their model better than ours.",
+      },
+      {
+        q: "How much is my veterinary practice worth?",
+        a: "Single-site UK small animal practices typically trade at 7–10x adjusted EBITDA. Multi-site groups of three to five sites trade at 8–12x; groups of six or more sites reach 10–14x. Specialist referral practices in oncology, orthopaedics, cardiology or neurology can command 12–16x for the strongest platforms. Subscription plan penetration, documented vet retention arrangements, freehold/leasehold mix and CMA-aligned governance all move the multiple within these ranges. Practices with 25%+ subscription revenue, engaged vet retention and Outstanding RCVS accreditation typically print in the top quartile of the range.",
+      },
+      {
+        q: "Who are the active veterinary consolidators in the UK right now?",
+        a: "The most visible acquirers include CVS Group (LSE-listed), IVC Evidensia (EQT-backed), VetPartners (BC Partners), Linnaeus Group (Mars Petcare), Medivet (Silverlake), White Cross Vets (Independent Vetcare Group) and My Family Vets — alongside specialist referral consolidators for oncology, orthopaedics and neurology and various regional roll-ups. Post-CMA the pace has become more disciplined, and each acquirer's near-term appetite varies significantly by geography, sub-segment (first opinion vs referral, small animal vs mixed) and current pipeline. Buyer mapping accuracy is more valuable, not less, in the current environment.",
+      },
+      {
+        q: "How does the CMA review affect selling my veterinary practice today?",
+        a: "The CMA's ongoing market investigation into UK veterinary services has introduced new diligence threads — price transparency, ownership disclosure standards, client communication practices, and choice/switching mechanisms — that buyers now expect to see documented rather than promised. Practices that align with the standards the CMA is establishing before going to market consistently see faster diligence, stronger buyer confidence, and two to four fewer weeks of exchange-to-completion friction. The investigation has not closed the market; it has raised the bar on preparation.",
+      },
+      {
+        q: "How long does it take to sell a UK veterinary practice in 2026?",
+        a: "Single-site practices typically complete in four to six months from engagement. Groups of three to six sites run six to nine months; larger groups nine to twelve months. CMA-related diligence has added roughly two to four weeks to typical timelines across the board. Well-prepared practices with settled vet retention arrangements, CMA-aligned governance and clean CQC/RCVS standing sit at the shorter end of each range; practices going to market without preparation sit at the longer end and are materially more likely to re-trade at completion.",
+      },
+      {
+        q: "Can I sell just part of my veterinary group?",
+        a: "Yes, and it is increasingly common. Options include selling one or two individual sites to a consolidator while retaining others, spinning out a specialist referral centre from a first-opinion group before separate sales, or bringing in a majority PE investor while retaining founder equity in the ongoing group. Each structure has distinct implications for buyer pool, tax treatment, management incentive arrangements and post-sale role for you personally. We work through the trade-offs with owners in the readiness phase before deciding which structure to take to market.",
+      },
     ],
     contentTodos: [
       {
@@ -152,6 +180,25 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
           "Client base depth third. Active client count, client tenure distribution, revenue per client, and the proportion of revenue on subscription / health plans. A strong subscription book materially supports premium pricing because of revenue visibility.",
           "Specialist accreditation fourth. RCVS practice standards accreditation level, specialist clinical accreditations, advanced practitioner status of senior team. These act as barriers to entry and support premium multiples, especially for specialist referral practices.",
           "CMA-related diligence fifth. The CMA market investigation has introduced new diligence threads — pricing transparency, client communication standards, ownership disclosure, choice and switching. Buyers expect to see practices operating to the standards the CMA is establishing rather than the standards a previous regulatory environment tolerated. Practices that align ahead of time outperform.",
+          "Subscription and preventive care penetration sixth. The proportion of active clients enrolled on subscription plans (Healthy Pet Club, Complete Care and equivalents) is a headline metric for every consolidator. Practices with 25%+ of clients on active subscriptions attract meaningful premium because of revenue visibility, client retention and cross-sell economics. Building out subscription penetration in the 12 to 18 months before going to market is one of the highest-return preparation items available to first-opinion practices.",
+          "Diagnostic and technology capability seventh. Digital radiography, in-house ultrasound, CT where present, in-house lab capability, and PMS (practice management system) sophistication all factor into buyer diligence. Practices running on modern cloud PMS (ezyVet, Provet Cloud, RxWorks Cloud) integrate meaningfully more easily into consolidator platforms than those on legacy on-premise systems, and consolidators price that integration cost into the multiple.",
+          "Property structure and freehold mix eighth. Freehold-owned sites, particularly outside London and the South East, attract additional interest from property-led investors alongside operating buyers. We help owners decide whether to retain freehold with a lease-back to the buyer, sell the property separately, or sell as a bundle — the choice frequently affects total proceeds by more than the operating-side negotiation does.",
+          "Insurance penetration and average client value ninth. Practices with high insurance penetration in the client base (30%+ of pets insured), documented cross-sell into food, medicines and preventive care, and above-average spend per active client materially outperform in valuation. Buyers use these metrics as a proxy for underlying client-relationship quality — sticky, high-value clients survive owner changes.",
+        ],
+      },
+      {
+        heading: "Recent market activity",
+        cover: [
+          "Named active UK vet consolidators, multiples, sub-sector shifts, CMA impact",
+        ],
+        body: [
+          "UK veterinary M&A has moved through a distinct phase change in 2024–2026 following the Competition and Markets Authority (CMA) market investigation into the sector. Below is a snapshot of what is currently visible in the market.",
+          "**Active corporate and PE-backed consolidators.** CVS Group (LSE-listed), IVC Evidensia (EQT-backed), VetPartners (BC Partners), Linnaeus Group (Mars Petcare), Medivet (Silverlake), White Cross Vets (Independent Vetcare Group), My Family Vets and various regional roll-ups all remain active — though at a more disciplined pace under CMA scrutiny, with sharper focus on strategic fit rather than volume acquisition.",
+          "**Multiples.** First-opinion small animal practices trade in the 7–10x adjusted EBITDA range for single sites; groups of four or more sites reach 10–14x; specialist referral centres (oncology, orthopaedics, cardiology, neurology, exotic) command 12–16x depending on clinical profile and clinician retention. Mixed and equine practices trade at the lower end of first-opinion ranges given narrower buyer pools.",
+          "**Specialist referral M&A.** Sub-segment referral (oncology, orthopaedics, neurology, dermatology) attracts a narrower but internationally active buyer pool. Overseas strategics — particularly Nordic and North American referral platforms — have shown consistent interest in UK referral centres with strong clinical profiles and defensible geographic catchments.",
+          "**CMA impact on process.** The CMA's interim measures on price transparency, ownership disclosure and client communication have not closed the market but have raised the bar on preparation. Practices arriving at diligence without CMA-aligned governance in place consistently see two to four weeks of additional friction. Practices that align ahead of time complete faster and on stronger terms.",
+          "**Sub-sector shifts.** Emergency and critical care (ECC) groups have been actively targeted by both PE and strategic buyers over the last 18 months. Standalone imaging centres and specialist dental (veterinary dentistry) referral practices have also seen increased buyer attention. First-opinion multi-site groups in geographies with limited existing consolidator density remain the most competitively bid segment.",
+          "**Timing.** Owners considering an exit in the next 18–24 months benefit from starting readiness work now: CMA alignment, subscription penetration build-out, vet retention arrangements and PMS modernisation all have 12+ month lead times. Practices that wait until they receive an unsolicited approach consistently leave value on the table.",
         ],
       },
       {

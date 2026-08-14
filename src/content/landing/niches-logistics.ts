@@ -204,6 +204,34 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
         q: "How is property (warehouse leases) treated?",
         a: "Warehouse lease tail, rent levels relative to market, and dilapidation exposure are all reviewed. We help owners surface the lease profile cleanly.",
       },
+      {
+        q: "Are you a 3PL consultancy firm?",
+        a: "No. We are an M&A advisor for owners of UK third-party logistics businesses worth £5–50M in enterprise value. If you are looking for a 3PL strategy consultant to help you design your operations, choose a WMS or optimise your network, that is a different type of firm — well-known 3PL consultants in the UK space include Gideon Hillman Consulting, Establish, Davies & Robson, and the logistics practices of larger consulting groups. Mastella advises 3PL owners on selling the business, raising growth capital, or acquiring competitors. Where an owner needs both, we regularly refer to specialist 3PL operational consultants and coordinate alongside their work.",
+      },
+      {
+        q: "Which 3PL strategy consultants do you recommend for operational work?",
+        a: "For pure operational strategy work — network design, WMS selection, warehouse layout, cost-to-serve analysis, contract negotiation with shippers — established UK 3PL consultancies include Gideon Hillman Consulting, Establish Inc., Davies & Robson, Barrett Distribution Consulting and the supply chain practices of larger firms (Deloitte, PA Consulting, GEP). We are an M&A advisor, not an operational consultancy, but the two disciplines overlap during exit preparation. Owners who have done meaningful operational work before going to market typically achieve better multiples because buyers can see the improved unit economics rather than being asked to underwrite promised ones.",
+      },
+      {
+        q: "Which 3PL M&A advisors work with UK lower mid-market owners?",
+        a: "The UK lower mid-market 3PL M&A landscape includes several specialist advisors alongside the sector teams of larger corporate finance firms. Mastella works in this segment specifically — £5–50M enterprise value, owner-led businesses, off-market process with senior-led delivery. Other advisors active in adjacent segments include the logistics teams at BDO, RSM, PKF Smith Cooper, Cavendish, Cortus Advisory and various specialist boutiques. What matters more than the shortlist is whether the advisor actually knows the current active buyer pool in your specific 3PL sub-segment (contract logistics, e-commerce fulfilment, cold-chain, freight) and can produce named buyer engagement — not just outreach volume.",
+      },
+      {
+        q: "Who are the active UK 3PL consolidators right now?",
+        a: "The most visible UK acquirers include Wincanton (now part of GXO Logistics), Culina Group (backed by Muller), Great Bear Distribution, EV Cargo, Elanders UK, Rhenus Warehousing Solutions, DHL Supply Chain UK, Yusen Logistics, XPO, and DP World Logistics — alongside PE-backed platforms including those under Endless, LDC, HgCapital's supply chain positions and multiple mid-market PE roll-ups. E-commerce fulfilment attracts a partly separate buyer pool (Prologis logistics services, ILG, Huboo and various PE-backed fulfilment consolidators). Cold-chain 3PL and specialist pharma 3PL attract additional named buyers in each sub-niche.",
+      },
+      {
+        q: "What EBITDA multiple can I expect for my UK 3PL business?",
+        a: "Specialist 3PL businesses in the UK £5–50M enterprise value segment typically trade at 6–9x adjusted EBITDA. Contract logistics with long anchor contracts and strong technology integration reaches the upper end (8–10x). Cold-chain and specialist pharma 3PL command a premium (8–10x+). Pure e-commerce fulfilment ranges widely (5–10x) depending on client concentration, unit economics and technology positioning. Straight haulage and undifferentiated 3PL at the lower end (5–7x). Multiples move within these ranges based on contract tail, customer concentration, tech-stack depth, operative retention and warehouse property structure.",
+      },
+      {
+        q: "How long does it take to sell a UK 3PL business?",
+        a: "Six to nine months from engagement to completion is typical for a well-prepared 3PL sale. The readiness phase (financial normalisation, contract-margin analysis, technology positioning, buyer mapping) usually runs six to ten weeks; the marketed process and negotiation three to four months; legal documentation, warehouse lease reviews and customer contract diligence another six to ten weeks. Where anchor customers require change-of-control consent, or where warehouse lease positions need remediation, timelines can extend by four to eight weeks. Owners who engage 12+ months out with structured readiness work consistently complete on the shorter end of these ranges.",
+      },
+      {
+        q: "Should I sell my 3PL to a strategic acquirer or a PE consolidator?",
+        a: "The right answer depends on your objectives more than the market's. Strategic acquirers typically pay for capability, geographic fit or customer overlap; they often move faster and offer more upfront cash but may integrate the business fully and change the culture. PE consolidators typically pay for platform value or add-on fit; they usually preserve more of the operational autonomy in the short-to-medium term but structure meaningful management equity rollover and expect a defined value-creation plan. Running a structured process that tests both pools is the reliable way to see which produces the better total outcome for your specific situation.",
+      },
     ],
     contentTodos: [
       {
@@ -232,6 +260,25 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
           "Margin per contract third. Buyers diligence margin at contract level. Wide variance is normal; what matters is the trajectory and how loss-making contracts are being repriced. Clean contract-margin analysis is one of the highest-return pieces of pre-process work.",
           "Warehouse property and lease profile fourth. Lease tail across the portfolio, rent levels relative to market, dilapidation exposure, and the operational fit of each site. We help owners surface the lease profile cleanly so it can be priced rather than discovered late.",
           "Operative retention fifth. Picker, driver and supervisor tenure, churn rates, agency-to-permanent ratio, wage discipline relative to regional market. Premium pricing requires a credible retention story.",
+          "Contract structure and change-of-control sixth. Buyers will map every material customer contract for change-of-control clauses, assignment provisions, exclusivity terms and open re-tender dates. Books with clean assignable contracts and long weighted-average tail (typically 30+ months on top-20 contracts) trade materially better than books with rolling 12-month terms and change-of-control triggers on anchor accounts. Pre-process work to catalogue every material contract is essential preparation.",
+          "Site network and geographic coverage seventh. The number and geographic distribution of warehouses, distribution centres and depots. Multi-site networks with modern high-bay facilities in the golden logistics triangle (Midlands, Northampton corridor, M62) command a premium. Single-site operators outside primary logistics geographies trade at wider variance. Buyers also diligence utilisation across sites and headroom for growth.",
+          "Sustainability and ESG credentials eighth. Increasingly diligenced. Carbon reduction trajectory, fleet electrification programme, warehouse energy efficiency (solar, LED, heat pumps), Scope 1/2/3 measurement discipline, and client-facing ESG reporting all now factor into buyer decisions — particularly PE consolidators reporting to institutional LPs with net-zero commitments. Ahead-of-curve ESG positioning is a genuine multiple driver, not a hygiene item.",
+          "Unit economics granularity ninth. Buyers now expect margin data at the level of individual contracts, individual warehouse operations, cost per pallet moved, cost per case picked, cost per mile driven, and gross profit per FTE. 3PL businesses that can produce this data in structured form materially outperform those that present only aggregate P&L. It signals operational discipline and reduces post-completion integration risk for the buyer.",
+        ],
+      },
+      {
+        heading: "Recent market activity",
+        cover: [
+          "Named active UK 3PL consolidators, multiples, sub-sector shifts",
+        ],
+        body: [
+          "UK 3PL M&A has been one of the most consistently active sub-segments of UK logistics M&A over the last five years, and remains active in 2026 despite broader macro uncertainty. Below is a snapshot of the current landscape.",
+          "**Active strategic acquirers.** Wincanton (now GXO Logistics), Culina Group (Muller), Great Bear Distribution, EV Cargo, Elanders UK, Rhenus Warehousing Solutions, DHL Supply Chain UK, Yusen Logistics, XPO Logistics, DP World Logistics and Kuehne + Nagel all remain active for the right add-on assets. European strategics (particularly Dutch, German and French logistics groups) are increasingly active in UK 3PL for sub-sector capability and post-Brexit customs positioning.",
+          "**Active PE-backed platforms.** Endless (Woodland Group and others), LDC, HgCapital, Bridgepoint, Inflexion, Livingbridge and various mid-market PE houses have platforms in specialist 3PL, cold-chain, pharma logistics and e-commerce fulfilment. E-commerce fulfilment specifically attracts an additional buyer pool including ILG, Huboo, Byrd and other PE-backed fulfilment consolidators.",
+          "**Multiples.** Straight contract logistics and haulage at the lower end (5–7x adjusted EBITDA); tech-enabled specialist 3PL and multi-client fulfilment in the middle (7–9x); cold-chain, pharma 3PL, specialist bonded warehousing and premium e-commerce fulfilment at the upper end (8–10x+). Anchor-customer contract tail, technology depth and warehouse property structure move the multiple within these ranges more than headline EBITDA does.",
+          "**Sub-sector shifts.** Pharma and clinical trial logistics have seen concentrated buyer interest as consolidators build specialist platforms. Cold-chain 3PL remains structurally attractive on capex-barrier grounds. Specialist bonded warehousing has attracted post-Brexit interest. Pure e-commerce fulfilment has cooled slightly from the 2021–22 peak but remains active for platforms with clean unit economics and demonstrated retention.",
+          "**Property-led interest.** Freehold warehouse portfolios attract a separate infrastructure-style buyer pool. OpCo/PropCo structures — sell the operating business to one buyer, retain the property (or sell it to a property specialist with a leaseback) — have delivered stronger total outcomes than single-buyer sales for several freehold-heavy 3PL owners over the last 24 months.",
+          "**Diligence sharpening.** Post-2023 buyers have tightened diligence on customer-contract change-of-control, warehouse lease dilapidation exposure, agency-labour cost trajectories and Scope 1/2/3 carbon disclosure. Preparation depth on each of these consistently correlates with completion at headline expectation rather than re-trade.",
         ],
       },
       {
