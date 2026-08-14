@@ -7,6 +7,7 @@ import { PageLayout } from '../components/layout';
 import { FadeIn, Stagger, StaggerItem } from '../components/ui/motion';
 import { SITE, canonicalFor } from '../seo/site-meta';
 import { SERVICE_LANDINGS, SECTORS } from '../content/landing';
+import { LeadMagnetCta } from '../components/landing/LeadMagnetCta';
 
 type Service = {
   icon: ReactNode;
@@ -222,6 +223,8 @@ export default function Services() {
           </div>
         </div>
       </section>
+
+      <LeadMagnetCta />
 
       {/* CTA */}
       <section className="bg-navy-deepest text-white py-24">

@@ -1,5 +1,5 @@
 import { FormEvent, useState } from 'react';
-import { CheckCircle2, Loader2 } from 'lucide-react';
+import { CheckCircle2, Loader2, Download } from 'lucide-react';
 import { submitNetlifyForm } from '../../utils/netlifyForms';
 
 type Status = 'idle' | 'submitting' | 'success' | 'error';
@@ -30,7 +30,18 @@ export function LeadMagnetForm() {
       <div className="text-center py-6">
         <CheckCircle2 className="h-10 w-10 text-accent mx-auto mb-4" />
         <p className="text-white font-serif text-xl mb-2">Thank you.</p>
-        <p className="text-sand-light text-sm">Your checklist is on its way to your inbox.</p>
+        <p className="text-sand-light text-sm mb-6">
+          Your download link is below. We&apos;ve also captured your email so we can send it to you again
+          if you need it.
+        </p>
+        <a
+          href="/exit-readiness-checklist.md"
+          download
+          className="inline-flex items-center gap-2 bg-accent text-navy-deepest px-6 py-3 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-all duration-200"
+        >
+          <Download className="h-4 w-4" />
+          Download the checklist
+        </a>
       </div>
     );
   }

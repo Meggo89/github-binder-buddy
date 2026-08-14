@@ -107,6 +107,14 @@ export const ROUTES: RouteMeta[] = [
     priority: 0.3,
     changefreq: 'yearly',
   },
+  {
+    path: '/lead-magnet',
+    title: 'Exit Readiness Checklist - Free Download',
+    description:
+      'Twelve questions every UK founder should answer before starting an M&A process. Free download, no follow-up unless you ask.',
+    priority: 0.6,
+    changefreq: 'monthly',
+  },
 ];
 
 // Routes for the commercial-intent landing-page architecture (Phase 4):

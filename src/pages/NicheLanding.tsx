@@ -8,6 +8,7 @@ import { AuthorityLine } from '../components/landing/AuthorityLine';
 import { ContentTodoSection } from '../components/landing/ContentTodoSection';
 import { CtaSection, MidPageCta } from '../components/landing/CtaSection';
 import { FaqSection } from '../components/landing/FaqSection';
+import { LeadMagnetCta } from '../components/landing/LeadMagnetCta';
 import { ProofBand } from '../components/landing/ProofBand';
 import { RelatedLinks } from '../components/landing/RelatedLinks';
 import { getSector, getNiche, getNichesForPillar } from '../content/landing';
@@ -123,6 +124,8 @@ export default function NicheLandingPage() {
       />
 
       <ProofBand />
+
+      <LeadMagnetCta />
 
       <CtaSection heading={`Your ${niche.nameLower} transaction starts with a conversation.`} />
     </PageLayout>

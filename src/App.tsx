@@ -24,6 +24,7 @@ import SectorPillar from './pages/SectorPillar';
 import NicheLanding from './pages/NicheLanding';
 import ServiceLanding from './pages/ServiceLanding';
 import ResourceLanding from './pages/ResourceLanding';
+import LeadMagnet from './pages/LeadMagnet';
 
 export default function App() {
   usePageViewTracking();
@@ -52,6 +53,7 @@ export default function App() {
         <Route path="/sectors/:pillarSlug/:slug" element={<NicheLanding />} />
         <Route path="/services/:slug" element={<ServiceLanding />} />
         <Route path="/resources/:slug" element={<ResourceLanding />} />
+        <Route path="/lead-magnet" element={<LeadMagnet />} />
       </Routes>
       <CookieConsent />
     </>

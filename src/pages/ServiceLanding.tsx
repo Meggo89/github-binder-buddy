@@ -7,6 +7,7 @@ import { AuthorityLine } from '../components/landing/AuthorityLine';
 import { ContentTodoSection } from '../components/landing/ContentTodoSection';
 import { CtaSection, MidPageCta } from '../components/landing/CtaSection';
 import { FaqSection } from '../components/landing/FaqSection';
+import { LeadMagnetCta } from '../components/landing/LeadMagnetCta';
 import { ProofBand } from '../components/landing/ProofBand';
 import { RelatedLinks } from '../components/landing/RelatedLinks';
 import { getServiceLanding } from '../content/landing';
@@ -81,6 +82,8 @@ export default function ServiceLandingPage() {
       />
 
       <ProofBand />
+
+      <LeadMagnetCta />
 
       <CtaSection heading="Ready when you are." />
     </PageLayout>

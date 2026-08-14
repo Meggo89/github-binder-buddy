@@ -6,6 +6,7 @@ import { PageLayout } from '../components/layout';
 import { FadeIn, Stagger, StaggerItem } from '../components/ui/motion';
 import { ProofBand } from '../components/landing/ProofBand';
 import { CtaSection } from '../components/landing/CtaSection';
+import { LeadMagnetCta } from '../components/landing/LeadMagnetCta';
 import { SECTORS, getNichesForPillar } from '../content/landing';
 import { SITE, canonicalFor } from '../seo/site-meta';
 
@@ -81,6 +82,8 @@ export default function SectorsHub() {
       </section>
 
       <ProofBand />
+
+      <LeadMagnetCta />
 
       <CtaSection heading="Not sure which pillar fits yet?" />
     </PageLayout>
