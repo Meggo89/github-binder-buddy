@@ -22,15 +22,34 @@ export default function InsightArticle() {
     headline: article.title,
     description: article.excerpt,
     image: article.image,
-    author: { '@type': 'Person', name: article.author },
+    author: {
+      '@type': 'Person',
+      name: article.author,
+      jobTitle: 'Managing Director',
+      worksFor: { '@type': 'Organization', name: 'Mastella Advisory' },
+    },
     publisher: {
       '@type': 'Organization',
       name: 'Mastella Advisory',
       url: 'https://mastellagroup.com',
     },
     datePublished: article.date,
+    dateModified: article.dateModified ?? article.date,
+    mainEntityOfPage: canonical,
     articleSection: article.category,
   };
+
+  const faqSchema = article.faqs && article.faqs.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: article.faqs.map((f) => ({
+          '@type': 'Question',
+          name: f.q,
+          acceptedAnswer: { '@type': 'Answer', text: f.a },
+        })),
+      }
+    : null;
 
   const related = articles.filter((a) => a.slug !== article.slug).slice(0, 2);
 
@@ -39,6 +58,9 @@ export default function InsightArticle() {
       <SEO title={article.title} description={article.excerpt} canonical={canonical} type="article" image={article.image} />
       <Helmet>
         <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
+        {faqSchema && (
+          <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+        )}
       </Helmet>
 
       {/* Article header */}
