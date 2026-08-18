@@ -26,7 +26,9 @@ type PatchInput = {
   description: string;
   ogType?: string;
   ogImage?: string;
-  articleSchema?: string;
+  // Any number of JSON-LD schema strings to inject before </head>. Each is
+  // wrapped in its own <script type="application/ld+json"> block.
+  jsonLd?: string[];
 };
 
 type RenderFn = (url: string) => { html: string; helmet: unknown };
@@ -93,10 +95,14 @@ function patchHead(shell: string, m: PatchInput): string {
     `<meta name="twitter:image" content="${escapeAttr(ogImage)}" />`
   );
 
-  // Inject an Article JSON-LD block just before </head> if provided
-  if (m.articleSchema) {
-    const block = `    <script type="application/ld+json">${m.articleSchema}</script>\n  </head>`;
-    h = h.replace(/\s*<\/head>/, `\n${block}`);
+  // Inject any JSON-LD schema blocks just before </head>. Each schema is
+  // wrapped in its own script tag so crawlers see them as independent
+  // structured-data payloads (Article + FAQPage are separate entities).
+  if (m.jsonLd && m.jsonLd.length > 0) {
+    const blocks = m.jsonLd
+      .map((s) => `    <script type="application/ld+json">${s}</script>`)
+      .join('\n');
+    h = h.replace(/\s*<\/head>/, `\n${blocks}\n  </head>`);
   }
 
   return h;
@@ -143,30 +149,51 @@ async function run() {
     ogImage: r.ogImage,
   }));
 
-  // Article routes with per-article Article JSON-LD
+  // Article routes with per-article Article + optional FAQPage JSON-LD.
   const articleInputs: PatchInput[] = articles.map((a) => {
-    const schema = JSON.stringify({
+    const canonical = canonicalFor(`/insights/${a.slug}`);
+    const articleSchema = JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'Article',
       headline: a.title,
       description: a.excerpt,
       image: a.image,
-      author: { '@type': 'Person', name: a.author },
+      author: {
+        '@type': 'Person',
+        name: a.author,
+        jobTitle: 'Managing Director',
+        worksFor: { '@type': 'Organization', name: SITE.name },
+      },
       publisher: {
         '@type': 'Organization',
         name: SITE.name,
         url: SITE.domain,
       },
       datePublished: a.date,
+      dateModified: a.dateModified ?? a.date,
+      mainEntityOfPage: canonical,
       articleSection: a.category,
     });
+    const jsonLd: string[] = [articleSchema];
+    if (a.faqs && a.faqs.length > 0) {
+      const faqSchema = JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: a.faqs.map((f) => ({
+          '@type': 'Question',
+          name: f.q,
+          acceptedAnswer: { '@type': 'Answer', text: f.a },
+        })),
+      });
+      jsonLd.push(faqSchema);
+    }
     return {
       path: `/insights/${a.slug}`,
       title: a.title,
       description: a.excerpt,
       ogType: 'article',
       ogImage: a.image,
-      articleSchema: schema,
+      jsonLd,
     };
   });
 
