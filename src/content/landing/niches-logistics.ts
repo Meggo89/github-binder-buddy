@@ -12,6 +12,8 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     h1: "Selling a container leasing platform in the UK",
     intro:
       "We advise UK owners of container leasing platforms on confidential sales. Senior-led, off-market — and we have recently completed a container leasing exit, so the buyer landscape is fresh.",
+    heroSubtitle:
+      "We recently completed a container leasing exit — buyer landscape and diligence expectations are fresh.",
     faqs: [
       {
         q: "What multiples do UK container leasing platforms trade at?",
@@ -95,6 +97,8 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     h1: "Selling a cold-chain logistics business in the UK",
     intro:
       "We advise UK owners of cold-chain logistics businesses on confidential sales. Senior-led, off-market — and we have recently completed a cold-chain logistics exit, so the buyer landscape is fresh.",
+    heroSubtitle:
+      "We recently completed a cold-chain logistics exit — buyer landscape and BRCGS diligence expectations are fresh.",
     faqs: [
       {
         q: "What multiples do UK cold-chain logistics businesses trade at?",
@@ -179,6 +183,8 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     h1: "Selling a third-party logistics (3PL) business in the UK",
     intro:
       "We advise UK owners of third-party logistics businesses — contract logistics, e-commerce fulfilment, value-add 3PL — on confidential sales. Senior-led in the £5–50M EV segment.",
+    heroSubtitle:
+      "Wincanton/GXO, Culina, DHL Supply Chain, and PE consolidators (Endless, LDC, HgCapital) — the active UK 3PL acquirer pool.",
     faqs: [
       {
         q: "What multiples do UK 3PL businesses trade at?",
@@ -304,6 +310,8 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     h1: "Selling a freight forwarding business in the UK",
     intro:
       "We advise UK owners of freight forwarding businesses — ocean, air, road, customs brokerage — on confidential sales. Senior-led in the £5–50M EV segment.",
+    heroSubtitle:
+      "Post-Brexit UK customs brokerage capability is a meaningful value driver in freight forwarder sales.",
     faqs: [
       {
         q: "What multiples do UK freight forwarders trade at?",
@@ -385,6 +393,8 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     h1: "Selling a last-mile delivery business in the UK",
     intro:
       "We advise UK owners of last-mile delivery businesses — e-commerce fulfilment, same-day, specialist final-mile — on confidential sales. Senior-led in the £5–50M EV segment.",
+    heroSubtitle:
+      "Courier employment model, tech stack and route economics — the three items that move last-mile outcomes.",
     faqs: [
       {
         q: "What multiples do UK last-mile delivery businesses trade at?",
@@ -463,6 +473,8 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     h1: "Selling a warehousing or distribution business in the UK",
     intro:
       "We advise UK owners of warehousing and distribution businesses — contract warehousing, multi-client distribution, specialist storage — on confidential sales. Senior-led in the £5–50M EV segment.",
+    heroSubtitle:
+      "OpCo/PropCo structuring is worth exploring for freehold-heavy portfolios — often produces stronger total outcomes than single-buyer sales.",
     faqs: [
       {
         q: "What multiples do UK warehousing & distribution businesses trade at?",
@@ -542,6 +554,8 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     h1: "Selling a marine logistics business in the UK",
     intro:
       "We advise UK owners of marine logistics businesses — port services, shipping agency, specialist marine equipment — on confidential sales. Senior-led in the £5–50M EV segment.",
+    heroSubtitle:
+      "International buyer pool — Dutch, Norwegian, German and US strategics for UK marine, port and offshore services.",
     faqs: [
       {
         q: "What multiples do UK marine logistics businesses trade at?",

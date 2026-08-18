@@ -91,6 +91,8 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
     h1: "How to sell a business in the UK",
     intro:
       "Selling a UK business worth £5–50M is a 6–9 month process that follows a clear sequence — and a single owner-led decision tree at each stage. Here is what actually happens and where owners typically get the wrong advice.",
+    heroSubtitle:
+      "The six-stage process, the honest owner mistakes, and what to do 12 months before going to market.",
     faqs: [
       {
         q: "What are the main stages of selling a business?",
@@ -175,6 +177,8 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
     h1: "Management buyout advisor for UK owners",
     intro:
       "We advise UK owners on management buyouts and management-led transactions. Senior-led structuring, debt and equity sourcing, and negotiation on both sides where required. Focus on the £5–50M EV segment.",
+    heroSubtitle:
+      "MBOs, VIMBOs and dual-track processes — structured to protect both seller consideration and management equity.",
     faqs: [
       {
         q: "When does an MBO make sense?",
@@ -248,6 +252,8 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
     h1: "Growth capital advisor for UK SME owners",
     intro:
       "We advise UK SME owners on growth-capital rounds — minority, majority and pre-exit funding. Senior-led, focused on owners who want capital alongside a partner rather than a full exit. £5–50M EV segment.",
+    heroSubtitle:
+      "Minority, majority or pre-exit — the right structure depends on your objectives, not the market's defaults.",
     faqs: [
       {
         q: "When does growth capital make sense vs a full exit?",
@@ -409,6 +415,8 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
     h1: "M&A advisor for UK SME owners",
     intro:
       "We are a senior-led M&A advisor for UK owner-managed businesses worth £5–50M. Confidential, off-market sell-side, buy-side, MBO and growth-capital work — focused on owners who want senior attention from first call to completion.",
+    heroSubtitle:
+      "Every conversation runs through the principal — the senior-led model traditional firms rebrand but don't actually deliver.",
     faqs: [
       {
         q: "What does an M&A advisor do?",

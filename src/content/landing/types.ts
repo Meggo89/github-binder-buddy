@@ -43,8 +43,11 @@ export type SectorPillar = {
   metaDescription: string;
   h1: string;
   intro: string;
+  // Optional hand-written hero subtitle. When set, wins over the auto-extract
+  // from `intro` / `metaDescription`. Kept short (≤25 words) so it sits cleanly
+  // under the H1 without wrapping into a paragraph.
+  heroSubtitle?: string;
   faqs: FaqQA[];
-  // Optional: bullets to seed each H2 section once content writing starts.
   whoWeWorkWith?: ContentTodo;
   whatBuyersLookFor?: ContentTodo;
   ourProcess?: ContentTodo;
@@ -61,6 +64,8 @@ export type NicheLanding = {
   metaDescription: string;
   h1: string;
   intro: string;
+  // Optional hand-written hero subtitle (wins over auto-extract).
+  heroSubtitle?: string;
   faqs: FaqQA[];
   contentTodos: ContentTodo[];
   // Inline H3 sub-sections (e.g. tech recruitment, finance recruitment inside
@@ -78,6 +83,8 @@ export type ServiceLanding = {
   metaDescription: string;
   h1: string;
   intro: string;
+  // Optional hand-written hero subtitle (wins over auto-extract).
+  heroSubtitle?: string;
   faqs: FaqQA[];
   contentTodos: ContentTodo[];
 };

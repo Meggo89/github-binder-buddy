@@ -13,12 +13,23 @@ import { ProofBand } from '../components/landing/ProofBand';
 import { RelatedLinks } from '../components/landing/RelatedLinks';
 import { getSector, getNichesForPillar } from '../content/landing';
 import { SITE, canonicalFor } from '../seo/site-meta';
+import { heroSubtitle } from '../utils/heroSubtitle';
 
-function Hero({ name, h1 }: { name: string; h1: string }) {
+function Hero({ name, h1, subtitle }: { name: string; h1: string; subtitle: string }) {
   return (
     <div className="max-w-3xl">
       <p className="eyebrow mb-6">{name}</p>
-      <h1 className="font-serif text-display-lg text-white leading-[1.05] mb-8 text-balance">{h1}</h1>
+      <h1 className="font-serif text-display-lg text-white leading-[1.05] mb-6 text-balance">{h1}</h1>
+      <p className="text-lg md:text-2xl text-accent leading-snug mb-10 max-w-2xl text-balance">
+        {subtitle}
+      </p>
+      <Link
+        to="/contact/"
+        className="inline-flex items-center gap-2 bg-accent text-navy-deepest px-6 py-3 rounded-md text-sm md:text-base font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:-translate-y-px hover:shadow-lg hover:shadow-accent/20"
+      >
+        Book a confidential conversation
+        <ArrowRight className="h-4 w-4" />
+      </Link>
     </div>
   );
 }
@@ -41,7 +52,11 @@ export default function SectorPillarPage() {
   };
 
   return (
-    <PageLayout hero={<Hero name={sector.name} h1={sector.h1} />} heroTone="solid" mainClassName="">
+    <PageLayout
+      hero={<Hero name={sector.name} h1={sector.h1} subtitle={heroSubtitle(sector.intro, sector.metaDescription, sector.heroSubtitle)} />}
+      heroTone="solid"
+      mainClassName=""
+    >
       <SEO title={sector.title} description={sector.metaDescription} canonical={canonical} />
       <StructuredData data={[breadcrumb]} />
 

@@ -65,12 +65,19 @@ function Hero() {
   return (
     <div className="max-w-3xl">
       <p className="eyebrow mb-6">What we do</p>
-      <h1 className="font-serif text-display-lg text-white leading-[1.05] mb-8 text-balance">
+      <h1 className="font-serif text-display-lg text-white leading-[1.05] mb-6 text-balance">
         Four services. Senior-led throughout.
       </h1>
-      <p className="text-body-lg text-sand-light max-w-2xl leading-relaxed">
-        Every engagement is led by a senior advisor matched to your sector and deal type. Below is where we apply it.
+      <p className="text-lg md:text-2xl text-accent leading-snug mb-10 max-w-2xl text-balance">
+        Every engagement is led by a senior advisor matched to your sector and deal type.
       </p>
+      <Link
+        to="/contact/"
+        className="inline-flex items-center gap-2 bg-accent text-navy-deepest px-6 py-3 rounded-md text-sm md:text-base font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:-translate-y-px hover:shadow-lg hover:shadow-accent/20"
+      >
+        Book a confidential conversation
+        <ArrowRight className="h-4 w-4" />
+      </Link>
     </div>
   );
 }

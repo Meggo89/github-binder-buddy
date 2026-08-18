@@ -12,6 +12,8 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     h1: "Selling a dental practice or group in the UK",
     intro:
       "We advise UK owners of single-site dental practices and multi-site groups on confidential sales. Senior-led, off-market, focused on the £5–50M EV segment.",
+    heroSubtitle:
+      "8–12 active UK dental consolidators. Single-site 7–10x EBITDA; multi-site 9–12x; specialist referral higher.",
     faqs: [
       {
         q: "What multiples do UK dental practices trade at?",
@@ -96,6 +98,8 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     h1: "Selling a veterinary practice or group in the UK",
     intro:
       "We advise UK veterinary practice owners on confidential sales. Single-site practices and multi-site groups, small animal, equine and mixed. Senior-led in the £5–50M EV segment.",
+    heroSubtitle:
+      "Post-CMA the vet buyer landscape has shifted — CVS, IVC, VetPartners, Medivet remain active but more disciplined.",
     faqs: [
       {
         q: "What multiples do UK veterinary practices trade at?",
@@ -228,6 +232,8 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     h1: "Selling a care home or domiciliary care business in the UK",
     intro:
       "We advise UK owners of care home groups and domiciliary / live-in care businesses on confidential sales. Senior-led, off-market, in the £5–50M EV segment.",
+    heroSubtitle:
+      "OpCo/PropCo structuring is worth exploring for freehold-heavy portfolios — often produces stronger total outcomes than single-buyer sales.",
     faqs: [
       {
         q: "What multiples do UK care home and domiciliary care businesses trade at?",
@@ -310,6 +316,8 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     h1: "Selling a mental health services business in the UK",
     intro:
       "We advise UK owners of mental health services businesses — adult, CAMHS, addiction, eating disorder and forensic services — on confidential sales. Senior-led in the £5–50M EV segment.",
+    heroSubtitle:
+      "Concentrated, well-funded buyer pool — PE consolidators very active in CAMHS and complex-needs adult provision.",
     faqs: [
       {
         q: "What multiples do UK mental health services businesses trade at?",
@@ -394,6 +402,8 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     h1: "Selling an occupational health business in the UK",
     intro:
       "We advise UK owners of occupational health providers on confidential sales. Senior-led, off-market, focused on the £5–50M EV segment.",
+    heroSubtitle:
+      "Corporate wellbeing consolidators, insurer-backed platforms, adjacent corporate-services strategics — three distinct pools.",
     faqs: [
       {
         q: "What multiples do UK occupational health businesses trade at?",
@@ -471,6 +481,8 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     h1: "Selling a specialist clinic group in the UK",
     intro:
       "We advise UK owners of specialist clinic groups — aesthetic, fertility, eye care, dermatology, specialist medical — on confidential sales. Senior-led in the £5–50M EV segment.",
+    heroSubtitle:
+      "Brand equity, clinical governance and clinician retention drive multiples in specialist clinics — 8–12x EBITDA typical.",
     faqs: [
       {
         q: "What multiples do UK specialist clinics trade at?",

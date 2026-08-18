@@ -11,6 +11,8 @@ export const SECTORS: SectorPillar[] = [
     h1: "Selling a business services company in the UK",
     intro:
       "We advise UK owners of business services companies on confidential sales, MBOs and capital raises. Engagements are senior-led from first call to completion, focused on businesses worth £5–50M in enterprise value.",
+    heroSubtitle:
+      "Off-market approach to the 15–25 active PE-backed consolidators across UK business services.",
     faqs: [
       {
         q: "What multiples do business services companies trade at in the UK?",
@@ -100,6 +102,8 @@ export const SECTORS: SectorPillar[] = [
     h1: "Selling a healthcare services business in the UK",
     intro:
       "We advise owners of UK healthcare services businesses on confidential exits and growth-capital rounds. From dental and veterinary groups to care homes, mental health services and specialist clinics — senior-led, off-market, focused on the £5–50M segment.",
+    heroSubtitle:
+      "Off-market process across the 8–15 active PE-backed dental, vet, care, mental-health and specialist-clinic consolidators.",
     faqs: [
       {
         q: "What multiples do UK healthcare services businesses trade at?",
@@ -185,6 +189,8 @@ export const SECTORS: SectorPillar[] = [
     h1: "Selling a light industrial business in the UK",
     intro:
       "We advise UK owners of specialist manufacturing, engineering and plant hire businesses on confidential sales and growth-capital rounds. Senior-led, off-market, focused on the £5–50M EV segment.",
+    heroSubtitle:
+      "German, US and Japanese strategic acquirers pay differently for UK specialist industrials — we run those processes.",
     faqs: [
       {
         q: "What multiples do UK light industrial businesses trade at?",
@@ -269,6 +275,8 @@ export const SECTORS: SectorPillar[] = [
     h1: "Selling a logistics or distribution business in the UK",
     intro:
       "We advise UK owners of logistics and distribution businesses on confidential sales and growth-capital rounds. Senior-led across 3PL, cold-chain, freight forwarding, last-mile, warehousing and marine logistics. Focus on the £5–50M EV segment.",
+    heroSubtitle:
+      "Off-market M&A across 3PL, cold-chain, freight and marine. Recent completed exit: cold-chain + container leasing.",
     faqs: [
       {
         q: "What multiples do UK logistics and distribution businesses trade at?",
@@ -353,6 +361,8 @@ export const SECTORS: SectorPillar[] = [
     h1: "Selling a professional services firm in the UK",
     intro:
       "We advise UK owners and partner groups of accountancy, legal, consulting, surveying and insolvency firms on confidential sales and merger transactions. Senior-led, off-market, focused on firms worth £5–50M in enterprise value.",
+    heroSubtitle:
+      "Partner alignment, off-market buyer sourcing, senior-led — how accountancy, legal and consulting deals actually close.",
     faqs: [
       {
         q: "What multiples do UK professional services firms trade at?",
@@ -436,6 +446,8 @@ export const SECTORS: SectorPillar[] = [
     h1: "Selling a tech-enabled services business in the UK",
     intro:
       "We advise UK owners of tech-enabled services businesses — vertical SaaS, MSPs, digital agencies, data, cybersecurity and AI services — on confidential sales and capital rounds. Senior-led, off-market, focused on the £5–50M EV segment.",
+    heroSubtitle:
+      "SaaS, MSP, digital, cyber, AI — buyer pool and valuation methodology are different for each. We run those processes.",
     faqs: [
       {
         q: "What multiples do tech-enabled services businesses trade at?",

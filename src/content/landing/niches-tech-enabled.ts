@@ -12,6 +12,8 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
     h1: "Selling a vertical SaaS business in the UK",
     intro:
       "We advise UK owners of vertical SaaS businesses on confidential sales and growth-capital rounds. Senior-led in the £5–50M EV segment.",
+    heroSubtitle:
+      "NRR, rule of 40 and CAC payback drive the multiple — 3–8x ARR range, with founder-dependency the primary flag.",
     faqs: [
       {
         q: "What multiples do UK vertical SaaS businesses trade at?",
@@ -91,6 +93,8 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
     h1: "Selling an IT MSP in the UK",
     intro:
       "We advise UK owners of IT managed service providers — fully-managed MSPs, MSSP, cloud-focused MSPs — on confidential sales. Senior-led in the £5–50M EV segment.",
+    heroSubtitle:
+      "Contracted MRR mix and tech-stack standardisation — the two items that separate premium MSP outcomes from median.",
     faqs: [
       {
         q: "What multiples do UK MSPs trade at?",
@@ -172,6 +176,8 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
     h1: "Selling a digital agency in the UK",
     intro:
       "We advise UK owners of digital agencies — performance, brand, product, specialist tech — on confidential sales. Senior-led in the £5–50M EV segment.",
+    heroSubtitle:
+      "Retainer mix and specialist capability drive the multiple — 5–8x EBITDA with premium for defensible vertical depth.",
     faqs: [
       {
         q: "What multiples do UK digital agencies trade at?",
@@ -250,6 +256,8 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
     h1: "Selling a data or analytics services business in the UK",
     intro:
       "We advise UK owners of data and analytics services businesses — data engineering, analytics consulting, BI / visualisation, data science — on confidential sales. Senior-led in the £5–50M EV segment.",
+    heroSubtitle:
+      "Snowflake Elite and Databricks Champion tier command multiple premium — buyers split Big Four, PE and US strategics.",
     faqs: [
       {
         q: "What multiples do UK data and analytics services trade at?",
@@ -375,6 +383,8 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
     h1: "Selling a cybersecurity services business in the UK",
     intro:
       "We advise UK owners of cybersecurity services businesses — MSSP, consulting, GRC, penetration testing, SOC — on confidential sales. Senior-led in the £5–50M EV segment.",
+    heroSubtitle:
+      "NCSC, CREST and government framework positions are the barriers to entry — multiples reach 7–12x EBITDA at premium.",
     faqs: [
       {
         q: "What multiples do UK cybersecurity services trade at?",
@@ -453,6 +463,8 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
     h1: "Selling an AI or ML services business in the UK",
     intro:
       "We advise UK owners of AI and machine learning services businesses — applied AI consulting, ML engineering, AI product / platform — on confidential sales. Senior-led in the £5–50M EV segment.",
+    heroSubtitle:
+      "AI-native positioning vs disintermediation risk — buyer diligence now sharply distinguishes wrappers from applied capability.",
     faqs: [
       {
         q: "What multiples do UK AI / ML services trade at?",

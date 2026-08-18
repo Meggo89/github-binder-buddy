@@ -12,6 +12,8 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     h1: "Selling an accountancy firm in the UK",
     intro:
       "We advise UK partner-led accountancy firms — including specialist tax, audit, advisory and outsourced finance practices — on confidential sales. Senior-led in the £5–50M EV segment.",
+    heroSubtitle:
+      "PE-backed accountancy consolidators have re-rated multiples — 6–10x EBITDA is now standard for partner-led firms.",
     faqs: [
       {
         q: "What multiples do UK accountancy firms trade at?",
@@ -96,6 +98,8 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     h1: "Selling a law firm in the UK",
     intro:
       "We advise UK partner-led law firms on confidential sales, mergers and capital transactions (including ABS structures). Senior-led in the £5–50M EV segment.",
+    heroSubtitle:
+      "ABS-permitted PE consolidators, larger strategic firms, overseas entrants — three distinct buyer pools per practice area.",
     faqs: [
       {
         q: "What multiples do UK law firms trade at?",
@@ -177,6 +181,8 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     h1: "Selling a consulting firm in the UK",
     intro:
       "We advise UK owners of specialist consulting firms — strategy, management, technology, specialist sector — on confidential sales. Senior-led in the £5–50M EV segment.",
+    heroSubtitle:
+      "Retainer revenue and defensible methodology drive multiples — 5–9x EBITDA with premium at the top end.",
     faqs: [
       {
         q: "What multiples do UK consulting firms trade at?",
@@ -255,6 +261,8 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     h1: "Selling a surveying or property advisory firm in the UK",
     intro:
       "We advise UK partner-led surveying and property advisory firms — residential and commercial — on confidential sales and mergers. Senior-led in the £5–50M EV segment.",
+    heroSubtitle:
+      "Panel positions, framework agreements and institutional-client tenure — the differentiators that command premium.",
     faqs: [
       {
         q: "What multiples do UK surveying and property advisory firms trade at?",
@@ -333,6 +341,8 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     h1: "Selling an insolvency or restructuring practice in the UK",
     intro:
       "We advise UK owners of insolvency and restructuring practices on confidential sales. Senior-led in the £5–50M EV segment.",
+    heroSubtitle:
+      "PE consolidators have emerged in insolvency over the last 24 months — buyer pool composition has changed materially.",
     faqs: [
       {
         q: "What multiples do UK insolvency practices trade at?",

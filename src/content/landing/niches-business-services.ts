@@ -12,6 +12,8 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
     h1: "Selling an HR or payroll services business in the UK",
     intro:
       "We advise UK owners of HR outsourcing, payroll bureau and HR consulting businesses on confidential sales. Senior-led across the £5–50M EV segment.",
+    heroSubtitle:
+      "6–10 active UK PE-backed payroll consolidators are acquiring right now — we approach the right subset for you.",
     faqs: [
       {
         q: "What multiples do HR and payroll services businesses trade at?",
@@ -93,6 +95,8 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
     h1: "Selling a facilities management business in the UK",
     intro:
       "We advise UK owners of facilities management businesses — hard FM, soft FM, integrated FM — on confidential sales and capital raises. Senior-led, off-market, focused on the £5–50M EV segment.",
+    heroSubtitle:
+      "Contract tail, TUPE position and engineer retention — the three things that move FM sale outcomes most.",
     faqs: [
       {
         q: "What multiples do UK FM businesses trade at?",
@@ -174,6 +178,8 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
     h1: "Selling a cleaning services business in the UK",
     intro:
       "We advise UK owners of commercial cleaning, specialist cleaning and contract cleaning businesses on confidential sales. Senior-led, off-market, in the £5–50M EV segment.",
+    heroSubtitle:
+      "8–12 active UK cleaning consolidators. Labour model and specialist accreditations drive the multiple within range.",
     faqs: [
       {
         q: "What multiples do UK cleaning services businesses trade at?",
@@ -257,6 +263,8 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
     h1: "Selling a recruitment agency in the UK",
     intro:
       "We advise UK owners of permanent, contract and executive search recruitment businesses on confidential sales. Senior-led in the £5–50M EV segment — including specialist tech recruitment and finance recruitment platforms.",
+    heroSubtitle:
+      "Perm vs contract mix, top-biller retention, earn-out structuring — the levers that move recruitment sale outcomes.",
     faqs: [
       {
         q: "What multiples do UK recruitment agencies trade at?",

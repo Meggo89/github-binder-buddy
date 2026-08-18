@@ -12,6 +12,8 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     h1: "Selling a specialist manufacturing business in the UK",
     intro:
       "We advise UK owners of specialist manufacturing businesses on confidential sales. Senior-led, off-market, in the £5–50M EV segment.",
+    heroSubtitle:
+      "German, US and Japanese strategic acquirers frequently pay premium for UK specialist manufacturing with defensible IP.",
     faqs: [
       {
         q: "What multiples do UK specialist manufacturers trade at?",
@@ -93,6 +95,8 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     h1: "Selling a plant hire or equipment rental business in the UK",
     intro:
       "We advise UK owners of plant hire and equipment rental businesses on confidential sales. Senior-led, off-market, focused on the £5–50M EV segment.",
+    heroSubtitle:
+      "Fleet age, utilisation and freehold-yard strategy — OpCo/PropCo separation is worth exploring for freehold-heavy portfolios.",
     faqs: [
       {
         q: "What multiples do UK plant hire businesses trade at?",
@@ -174,6 +178,8 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     h1: "Selling an engineering services business in the UK",
     intro:
       "We advise UK owners of engineering services businesses — mechanical, electrical, controls, process — on confidential sales. Senior-led in the £5–50M EV segment.",
+    heroSubtitle:
+      "Service and maintenance revenue trades at a meaningful premium to project revenue — often underplayed in early process design.",
     faqs: [
       {
         q: "What multiples do UK engineering services businesses trade at?",
@@ -255,6 +261,8 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     h1: "Selling a process engineering business in the UK",
     intro:
       "We advise UK owners of specialist process engineering businesses — design, build, commissioning, automation — on confidential sales. Senior-led in the £5–50M EV segment.",
+    heroSubtitle:
+      "Pharma, food processing and hydrogen exposure command materially stronger multiples than legacy industrial exposure.",
     faqs: [
       {
         q: "What multiples do UK process engineering businesses trade at?",
@@ -332,6 +340,8 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     h1: "Selling an industrial coatings or surface treatment business in the UK",
     intro:
       "We advise UK owners of industrial coatings, surface treatment and specialist finishing businesses on confidential sales. Senior-led in the £5–50M EV segment.",
+    heroSubtitle:
+      "NADCAP and aerospace accreditations are the barriers to entry that command a meaningful multiple premium.",
     faqs: [
       {
         q: "What multiples do UK industrial coatings businesses trade at?",
