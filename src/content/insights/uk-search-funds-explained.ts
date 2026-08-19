@@ -16,7 +16,7 @@ const article: Article = {
 
       <p>A search fund is a legal and financial structure that allows an individual (or occasionally a pair) to raise a small pool of capital, spend up to two years searching for a single business to acquire, and then raise a larger pool of capital to complete the acquisition and become the CEO. The model originated at Stanford Graduate School of Business in 1984 and has since produced several hundred completed acquisitions globally. It arrived meaningfully in the UK during the 2010s and has scaled sharply since 2020.</p>
 
-      <p>The core proposition to an owner: a hungry, capable individual who has raised institutional backing wants to buy your business, run it personally for the next 5 to 10 years, and take on the operational load you have been carrying. The core proposition to the searcher: a chance to become CEO of an established, profitable business at a stage of their career where they otherwise could not access one.</p>
+      <p>The core proposition to an owner: a capable individual who has raised institutional backing wants to buy your business, run it personally for the next 5 to 10 years, and take on the operational load you have been carrying. The core proposition to the searcher varies with their profile. For MBA-track searchers early in their career, it is a route into a CEO seat they could not otherwise access at that stage. For experienced-operator searchers (former C-suite, ex-PE portfolio company MDs, seasoned commercial leaders), it is a route to owning what they were previously paid to manage. Both profiles are actively raising and acquiring in the UK today.</p>
 
       <p>Search funds are neither PE (which typically holds via a fund and rotates management) nor strategic acquisitions (which typically integrate). They are their own category, with their own economics and their own decision-making patterns.</p>
 
@@ -87,7 +87,7 @@ const article: Article = {
         <li><strong>How much acquisition capital do you have committed or soft-circled?</strong> A credible searcher will give a specific range. An evasive answer usually means the capital is not yet real.</li>
         <li><strong>What is your target size and criteria, in writing?</strong> Serious searchers have a written thesis they can share. If they cannot, they may be casting a wide net rather than pursuing a defined strategy.</li>
         <li><strong>How many owners are you actively in conversation with, at what stage each?</strong> This tells you whether you are one of many early-stage conversations or one of a small number of near-term priorities.</li>
-        <li><strong>What is your background, and what specifically prepared you to run a business in my sector?</strong> The strongest searchers have a specific reason to be interested in your sector, beyond that it fits the size criteria.</li>
+        <li><strong>What is your operating history, and what specifically prepared you to run a business at this scale in my sector?</strong> Searcher backgrounds range from first-time CEOs (typically MBA graduates in their late 20s to mid-30s) to experienced C-suite operators or former PE portfolio company leaders. Both profiles complete deals successfully. Which one you are dealing with should change the diligence you do on the buyer, the earn-out structure you accept, and the level of post-close support you expect. Ask directly about prior roles, P&L responsibility and sector experience.</li>
         <li><strong>What is the debt structure you are planning?</strong> Serious searchers can articulate the senior debt sizing they expect, from which lender, and on what covenants.</li>
         <li><strong>What is your timeline to a signed LOI if we decide to progress?</strong> The answer tells you whether they are ready to move or still in exploratory mode.</li>
       </ol>
@@ -110,10 +110,12 @@ const article: Article = {
       <p>The three categories behave differently in ways that matter to owners deciding between them. In brief:</p>
 
       <ul>
-        <li><strong>Search funds</strong> typically pay slightly below trade acquirer multiples but often above pure PE multiples for the same asset. They offer the strongest cultural continuity (a single individual running the business long-term) and the most personal transition. They carry meaningful execution risk (the CEO has not run a business at this scale before).</li>
+        <li><strong>Search funds</strong> typically pay slightly below trade acquirer multiples but often above pure PE multiples for the same asset. They offer the strongest cultural continuity (a single individual running the business long-term) and the most personal transition.</li>
         <li><strong>Private equity</strong> typically pays market multiples with the ability to stretch for platform assets, offers professional integration and value-creation infrastructure, and is generally organised around a 4 to 7 year hold and exit. Cultural continuity depends heavily on the specific fund and the founder's post-sale role.</li>
         <li><strong>Strategic acquirers</strong> typically pay the highest headline multiples where genuine synergies exist, but integrate the business into an existing operating structure. Cultural continuity is often the weakest of the three routes, but the immediate certainty and cash proportion are often the strongest.</li>
       </ul>
+
+      <p>Searcher profile varies significantly and matters. Traditional search funds are led by MBA graduates in their late 20s to mid-30s making their first CEO move: genuine analytical capability but limited operating history at scale. Increasingly, the UK market is also seeing experienced-operator searchers: former C-suite executives, ex-PE portfolio company leaders and seasoned commercial MDs who want to own rather than manage, backed by search fund capital. Ask early who you're actually dealing with. Selling to a first-time CEO backed by experienced sponsors is a materially different proposition to selling to a former CEO backed by the same sponsors. Both models close deals successfully, but the diligence you do on the buyer, the earn-out structure you accept, and the level of post-close support you expect should all differ.</p>
 
       <p>We compare the three routes in more depth in a dedicated article: <a href="/insights/search-fund-vs-private-equity-vs-strategic/">Search Fund vs Private Equity vs Strategic Buyer</a>.</p>
 
@@ -133,7 +135,7 @@ const article: Article = {
     `,
   author: 'Leo Meggitt',
   date: '18 August 2026',
-  dateModified: '18 August 2026',
+  dateModified: '19 August 2026',
   readTime: '14 min read',
   image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=2070',
   category: 'Buyer Landscape',
@@ -177,6 +179,10 @@ const article: Article = {
     {
       q: 'What happens to me post-sale if I sell to a search fund?',
       a: 'Search fund transactions typically involve a defined transition period (often 3–12 months) where the seller supports the incoming CEO on customer introductions, supplier relationships and operational handover. Some sellers roll over meaningful equity and continue in a chair or advisory role for 2–3 years. Others transition out cleanly at the end of the handover. The specifics are negotiated at the deal.',
+    },
+    {
+      q: 'Do all UK search fund CEOs have prior operating experience?',
+      a: 'No, but increasingly many do. The traditional model is a first-time CEO in their late 20s or 30s (often MBA-educated) making their first business ownership move. In the UK, though, a growing share of searchers are experienced C-suite operators or former PE portfolio company leaders who want to own rather than manage. Ask the searcher directly about their operating history, prior roles, and P&L experience: the answer materially changes what the deal, the earn-out, and post-close support should look like.',
     },
   ],
 };
