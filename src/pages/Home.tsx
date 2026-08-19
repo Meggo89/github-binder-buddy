@@ -154,10 +154,11 @@ export default function Home() {
             <div className="md:col-span-7 space-y-6 text-body-lg text-navy-light leading-relaxed">
               <FadeIn delay={0.1}>
                 <p>
-                  The high monthly retainer fees charged on lower mid-market deals reflect the manual nature of how the
-                  work has always been done — and how most M&amp;A firms still do it: advisors sifting through
+                  Traditional advisors' high monthly retainer fees on lower mid-market deals reflect the manual nature
+                  of how the work has always been done, and how most M&amp;A firms still do it: sifting through
                   spreadsheets by hand, drafting information memoranda over six to eight weeks, cold-calling a rolodex
-                  of buyers, tracking diligence in email chains.
+                  of buyers, tracking diligence in email chains. Mastella's low monthly retainer reflects a different
+                  delivery model.
                 </p>
               </FadeIn>
               <FadeIn delay={0.2}>

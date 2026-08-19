@@ -25,7 +25,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
       },
       {
         q: "How much does exit planning typically cost?",
-        a: "Mastella works on a high monthly retainer model. Full structure is shared in the first conversation. The retainer model funds senior-led work rather than juniors running the analysis.",
+        a: "Mastella works on a low monthly retainer model. Full structure is shared in the first conversation. The retainer model funds senior-led work rather than juniors running the analysis.",
       },
       {
         q: "Will my staff find out we are planning an exit?",
@@ -117,7 +117,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
       },
       {
         q: "How are M&A advisor fees structured?",
-        a: "Mastella works on a high monthly retainer model that funds senior-led delivery throughout the mandate. Full structure shared in the first conversation.",
+        a: "Mastella works on a low monthly retainer model that funds senior-led delivery throughout the mandate. Full structure shared in the first conversation.",
       },
       {
         q: "How long should I plan for?",
@@ -435,7 +435,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
       },
       {
         q: "How are your fees structured?",
-        a: "Mastella works on a high monthly retainer model that funds genuinely senior-led delivery rather than juniors running the work behind a principal. Full structure is shared in the first conversation.",
+        a: "Mastella works on a low monthly retainer model that funds genuinely senior-led delivery rather than juniors running the work behind a principal. Full structure is shared in the first conversation.",
       },
       {
         q: "What sectors do you work in?",
@@ -533,7 +533,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         body: [
           "The traditional UK lower mid-market M&A advisor model relies on senior advisors winning mandates and then delegating the substantive delivery work to junior teams. Senior advisors reappear at key buyer meetings and at completion. Owners typically find out about this model only when they are inside it.",
           "Mastella is structured around the opposite model. Every conversation that matters runs through the principal. Buyer mapping, financial normalisation, IM drafting, negotiation, completion mechanics — none of these are delegated. A small in-house team and a proprietary technology layer support the senior delivery rather than substitute for it.",
-          "This is funded by the retainer-led fee model rather than a deal-commission model. A high monthly retainer funds genuinely senior time across the mandate. A commission-only structure economically forces firms to deliver junior-led work to make the unit economics work, regardless of how the mandate is sold.",
+          "This is funded by the retainer-led fee model rather than a deal-commission model. A low monthly retainer funds genuinely senior time across the mandate. A commission-only structure economically forces firms to deliver junior-led work to make the unit economics work, regardless of how the mandate is sold.",
           "For owners running a single most important transaction in their commercial lives, the difference between senior-led and junior-led delivery is the difference between confidence and concern at every meeting that matters. It is also, in our experience, consistently the difference between a deal that closes at expectation and a deal that re-trades at completion.",
           "If a senior-led process fits your situation, [book a confidential conversation](/contact/). Forty-five minutes, no obligation.",
         ],

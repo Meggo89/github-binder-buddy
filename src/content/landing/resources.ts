@@ -84,13 +84,13 @@ export const RESOURCES: ResourceLanding[] = [
         cover: [
           "Senior-led delivery",
           "Off-market by default",
-          "High monthly retainer rationale",
+          "Low monthly retainer rationale",
         ],
         body: [
           "We are an M&A advisor, not a broker. Mastella is structured around three things that distinguish our model from both the broker model and the traditional UK lower mid-market M&A advisor model.",
           "Senior-led delivery. Every conversation that matters runs through the principal (Leo Meggitt). Buyer mapping, financial normalisation, IM drafting, the negotiation, completion mechanics — none of these are delegated. A small in-house team and a proprietary technology layer for surfacing acquirer signals from licensed market data support the senior delivery rather than substitute for it.",
           "Off-market by default. We do not list businesses on broker networks or M&A databases. Every sell-side mandate runs as a structured approach to a curated list of strategic and PE buyers individually under NDA. For owner-managed businesses where confidentiality is commercially important — which is almost always — this is the only credible model.",
-          "High monthly retainer rationale. We work on a high monthly retainer model. The retainer funds genuinely senior time across the mandate and economically supports a model where junior delivery is not necessary to make the unit economics work. We share the full fee structure transparently in the first conversation. The structure is aligned to deliver owner outcomes, not commission on any deal that closes.",
+          "Low monthly retainer rationale. We work on a low monthly retainer model. The retainer funds genuinely senior time across the mandate and economically supports a model where junior delivery is not necessary to make the unit economics work. We share the full fee structure transparently in the first conversation. The structure is aligned to deliver owner outcomes, not commission on any deal that closes.",
           "We work with UK businesses worth £5M to £50M in enterprise value across six sectors: [business services](/sectors/business-services/), [healthcare services](/sectors/healthcare-services/), [light industrials](/sectors/light-industrials/), [logistics and distribution](/sectors/logistics-and-distribution/), [professional services](/sectors/professional-services/), and [tech-enabled services](/sectors/tech-enabled-services/). For businesses below £5M EV we will happily refer you to a small set of brokers we trust rather than take a mandate that is not the right fit.",
           "If you are weighing up which model fits your situation, [book a confidential conversation](/contact/). Forty-five minutes, no obligation. We will be straight about whether what you want to achieve fits Mastella's model or fits a different one — and either way you will leave with a clearer view of how to think about it.",
         ],
