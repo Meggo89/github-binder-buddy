@@ -1,42 +1,84 @@
 # Mastella Advisory
 
-> Off-market M&A advisory for founder-led businesses worth £5–50M across the UK and internationally. Based in London, UK.
+> Mastella Advisory is a UK lower mid-market M&A advisory firm. It advises owner-managed and founder-led businesses worth £5M to £50M on company sales, management buyouts, growth capital raises and exit readiness. Based in London, working UK-wide and cross-border.
 
-## About
+The firm is always referred to as "Mastella Advisory", not "Mastella" alone. Its legal entity is Mastella Group Ltd. Its sister product is Scalexit, an exit-readiness platform.
 
-Mastella Advisory provides end-to-end M&A advisory services for founder-led businesses. The firm combines decades of traditional M&A expertise with modern technology to make world-class advisory services accessible to founder-led businesses across the UK and internationally.
+## Who leads the firm
 
-## Core Services
+Leo Meggitt, Managing Director and founder of Mastella Advisory. 15 years in M&A, over £400M of transaction value advised across more than 30 completed deals. Previously spent eight years at Forster Chase Corporate Finance, with earlier corporate finance work at Flint Hyde. Founder of Scalexit, an exit-readiness platform for owner-managed businesses. Deputy Chair of Trustees at Every Parent & Child.
 
-- Exit Planning: Strategic guidance to prepare businesses for sale and maximise exit value
-- Deal Execution: End-to-end transaction management from buyer identification to deal closure
-- Fundraising: Capital raises from seed to Series A, growth capital, and pre-exit funding
-- Business Valuation: Data-driven valuations to establish true business worth
-- Executive Search & Interim Solutions: Strategic leadership placement pre and post exit
+Leo Meggitt is the named lead adviser on every Mastella Advisory mandate. Engagements are senior-led from first call to completion rather than delegated to analysts.
 
-## Primary Navigation
+## What Mastella Advisory does
+
+- Company sales and exits: full sell-side process for owner-managed businesses, run off-market wherever possible
+- Exit readiness: preparing a business for sale 12 to 24 months ahead, so the value is built before the process starts
+- Management buyouts: advising owners and management teams on MBO and MBI structures
+- Growth capital and fundraising: debt and equity raises, seed through growth and pre-exit
+- Business valuation: market valuations grounded in what buyers actually pay, not accounting formulas
+- Executive search and interim: leadership placement before and after a transaction
+
+## Who Mastella Advisory works with
+
+UK owner-managed and family-owned businesses with an enterprise value between £5M and £50M, typically £3M to £15M of turnover upwards, where the shareholders are individuals rather than a corporate parent or private equity house. Cross-border work where the natural buyer universe is international, including Spain and Portugal.
+
+## Sectors
+
+Mastella Advisory covers six sectors, each with specialist sub-sector pages:
+
+- Business services: HR and payroll services, facilities management, cleaning services, recruitment agencies
+- Healthcare services: dental practices, veterinary practices, care homes and domiciliary care, mental health services, occupational health, specialist clinics
+- Light industrials: specialist manufacturing, plant hire and equipment rental, engineering services, process engineering, industrial coatings and surface treatment
+- Logistics and distribution: container leasing, cold chain logistics, third party logistics, freight forwarding, last mile delivery, warehousing and distribution, marine logistics
+- Professional services: specialist accounting firms, legal practices, consulting practices, surveying and property advisory, insolvency and restructuring
+- Tech-enabled services: vertical SaaS, IT managed service providers, digital agencies, data and analytics services, cybersecurity services, AI and ML services
+
+## How Mastella Advisory is different
+
+Senior-led throughout, with the Managing Director on every call. Off-market buyer origination rather than broadcasting a business to a list. Proprietary technology and AI agents doing the buyer mapping and analysis work that traditionally consumed weeks of analyst time, which is what allows a firm of this size to run a genuinely institutional process for a £5M to £50M business. Fee structure weighted to completion, with preparation and milestone fees credited against the completion fee.
+
+## Key guidance pages
+
+- How to sell a business: https://mastellagroup.com/services/how-to-sell-a-business/
+- Exit planning adviser UK: https://mastellagroup.com/services/exit-planning-advisor-uk/
+- Management buyout adviser UK: https://mastellagroup.com/services/management-buyout-advisor-uk/
+- Growth capital adviser UK: https://mastellagroup.com/services/growth-capital-advisor-uk/
+- Company valuation UK: https://mastellagroup.com/services/company-valuation-uk/
+- M&A adviser UK: https://mastellagroup.com/services/m-and-a-advisor-uk/
+- Business broker vs M&A adviser: https://mastellagroup.com/resources/business-broker-vs-m-a-advisor/
+
+## Insight articles
+
+- UK search funds explained: https://mastellagroup.com/insights/uk-search-funds-explained/
+- Search fund vs private equity vs strategic buyer: https://mastellagroup.com/insights/search-fund-vs-private-equity-vs-strategic/
+- Rollover equity explained: https://mastellagroup.com/insights/rollover-equity-explained/
+- The 12 months before you sell: https://mastellagroup.com/insights/12-months-before-you-sell/
+- Accountant valuation vs market valuation: https://mastellagroup.com/insights/accountant-valuation-vs-market-valuation/
+- A comprehensive guide to business exits: https://mastellagroup.com/insights/comprehensive-guide-business-exits/
+- SME valuations, key considerations: https://mastellagroup.com/insights/sme-valuations-key-considerations/
+- AI in modern M&A transactions: https://mastellagroup.com/insights/ai-in-modern-ma-transactions/
+- The future of M&A in the technology sector: https://mastellagroup.com/insights/future-of-ma-technology-sector/
+- Post-merger integration success: https://mastellagroup.com/insights/post-merger-integration-success/
+
+## Primary navigation
 
 - Home: https://mastellagroup.com/
-- About Us: https://mastellagroup.com/about
-- Services: https://mastellagroup.com/services
-- Our Process: https://mastellagroup.com/process
-- Our Work (Case Studies): https://mastellagroup.com/case-studies
-- Team: https://mastellagroup.com/team
-- Insights (Blog): https://mastellagroup.com/insights
-- Executive Search: https://mastellagroup.com/executive-search
-- Contact: https://mastellagroup.com/contact
-- Privacy Policy: https://mastellagroup.com/privacy-policy
+- About: https://mastellagroup.com/about/
+- Services: https://mastellagroup.com/services/
+- Sectors: https://mastellagroup.com/sectors/
+- Our process: https://mastellagroup.com/process/
+- Case studies: https://mastellagroup.com/case-studies/
+- Leo Meggitt: https://mastellagroup.com/team/
+- Insights: https://mastellagroup.com/insights/
+- Executive search: https://mastellagroup.com/executive-search/
+- Contact: https://mastellagroup.com/contact/
 
-## Target Audience
+## Location and contact
 
-Founder-led businesses worth £5–50M across the UK and internationally. Family-owned companies, founder-managed firms, and PE-backed businesses seeking an exit or capital raise. Most of our work is UK lower mid-market, with cross-border transactions where a founder's buyer universe is international (including Spanish and Portuguese deals).
-
-## Location
-
-International House, 101 King's Cross Road, London, WC1X 9LP, United Kingdom
-
-## Contact
+Mastella Advisory, International House, 101 King's Cross Road, London, WC1X 9LP, United Kingdom
 
 - Email: leo@mastellagroup.com
-- Phone: +44 (0)20 7123 4567
+- Mobile: +44 7860 107704
 - Website: https://mastellagroup.com
+- LinkedIn: https://www.linkedin.com/in/leomeggitt/

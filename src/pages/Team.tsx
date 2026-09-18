@@ -8,14 +8,14 @@ import { SITE, canonicalFor } from '../seo/site-meta';
 import leoMeggitt from '../assets/leo-meggitt.jpg';
 
 // ============================================================================
-// TREATMENT 1 - "Principal-led"
+// TREATMENT 1 - senior-led
 // Layout-first mock. All content is placeholder for review.
 // Final copy will come from bio-drafts.md once placeholders are filled.
 // ============================================================================
 
 const PRINCIPAL = {
   name: 'Leo Meggitt',
-  title: 'Founder & Principal',
+  title: 'Managing Director',
   image: leoMeggitt,
   linkedin: 'https://www.linkedin.com/in/leomeggitt/',
   email: 'leo@mastellagroup.com',
@@ -69,7 +69,7 @@ const BIO_SECTIONS = [
 function Hero() {
   return (
     <div className="max-w-3xl">
-      <p className="eyebrow mb-6">Principal</p>
+      <p className="eyebrow mb-6">Managing Director</p>
       <h1 className="font-serif text-display-lg text-white leading-[1.05] mb-6 text-balance">
         {PRINCIPAL.name}
       </h1>
@@ -95,15 +95,15 @@ export default function Team() {
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: SITE.domain },
-      { '@type': 'ListItem', position: 2, name: 'Principal', item: canonicalFor('/team') },
+      { '@type': 'ListItem', position: 2, name: 'Leo Meggitt', item: canonicalFor('/team') },
     ],
   };
 
   return (
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="Leo Meggitt - Principal | Mastella Advisory"
-        description="Leo Meggitt, founder of Mastella Advisory. 20+ years advising founder-led businesses across the UK and internationally on sell-side M&A, fundraising and exit readiness."
+        title="Leo Meggitt - Managing Director | Mastella Advisory"
+        description="Leo Meggitt, Managing Director of Mastella Advisory. 15 years advising founder-led businesses across the UK and internationally on sell-side M&A, fundraising and exit readiness."
         canonical="https://mastellagroup.com/team/"
       />
       <StructuredData data={[personSchema, breadcrumb]} />

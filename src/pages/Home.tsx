@@ -18,7 +18,7 @@ import { MarketPulse } from '../components/home/MarketPulse';
 
 const principal = {
   name: 'Leo Meggitt',
-  title: 'Principal & Owner',
+  title: 'Managing Director',
   image: leoMeggitt,
   description:
     '15 years in M&A. £400M+ transaction value advised across 30+ completed deals. Built and scaled businesses across recruitment, corporate finance and interim management before founding Mastella.',
@@ -374,7 +374,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Principal spotlight */}
+      {/* Managing Director spotlight */}
       <section className="bg-white py-24 md:py-32">
         <div className="container mx-auto px-6">
           <div className="max-w-6xl mx-auto grid md:grid-cols-12 gap-10 md:gap-16 items-center">
