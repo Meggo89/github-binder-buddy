@@ -13,7 +13,7 @@ import leoMeggitt from '../assets/leo-meggitt.jpg';
 // Final copy will come from bio-drafts.md once placeholders are filled.
 // ============================================================================
 
-const PRINCIPAL = {
+const LEAD_ADVISOR = {
   name: 'Leo Meggitt',
   title: 'Managing Director',
   image: leoMeggitt,
@@ -52,7 +52,7 @@ const BIO_SECTIONS = [
   {
     eyebrow: 'Why Mastella',
     body:
-      'After two decades in lower mid-market M&A I kept seeing the same pattern: senior advisors win the mandate, juniors deliver the work, the senior advisor reappears at closing. Owner-managed businesses deserve better. A modern delivery model - proprietary technology handling the structured work, the principal still leading every conversation - finally makes that possible without compromising rigour or coverage.',
+      'After two decades in lower mid-market M&A I kept seeing the same pattern: senior advisors win the mandate, juniors deliver the work, the senior advisor reappears at closing. Owner-managed businesses deserve better. A modern delivery model - proprietary technology handling the structured work, Leo still leading every conversation - finally makes that possible without compromising rigour or coverage.',
   },
   {
     eyebrow: 'How I work with you',
@@ -71,10 +71,10 @@ function Hero() {
     <div className="max-w-3xl">
       <p className="eyebrow mb-6">Managing Director</p>
       <h1 className="font-serif text-display-lg text-white leading-[1.05] mb-6 text-balance">
-        {PRINCIPAL.name}
+        {LEAD_ADVISOR.name}
       </h1>
-      <p className="font-mono text-xs text-accent tracking-widest uppercase mb-8">{PRINCIPAL.title}</p>
-      <p className="text-body-lg text-sand-light max-w-2xl leading-relaxed">{PRINCIPAL.lead}</p>
+      <p className="font-mono text-xs text-accent tracking-widest uppercase mb-8">{LEAD_ADVISOR.title}</p>
+      <p className="text-body-lg text-sand-light max-w-2xl leading-relaxed">{LEAD_ADVISOR.lead}</p>
     </div>
   );
 }
@@ -82,13 +82,13 @@ function Hero() {
 export default function Team() {
   const personSchema = {
     '@type': 'Person',
-    name: PRINCIPAL.name,
-    jobTitle: PRINCIPAL.title,
+    name: LEAD_ADVISOR.name,
+    jobTitle: LEAD_ADVISOR.title,
     worksFor: { '@id': `${SITE.domain}/#organization` },
-    url: PRINCIPAL.linkedin,
-    sameAs: [PRINCIPAL.linkedin],
-    image: `${SITE.domain}${PRINCIPAL.image}`,
-    description: PRINCIPAL.lead,
+    url: LEAD_ADVISOR.linkedin,
+    sameAs: [LEAD_ADVISOR.linkedin],
+    image: `${SITE.domain}${LEAD_ADVISOR.image}`,
+    description: LEAD_ADVISOR.lead,
   };
 
   const breadcrumb = {
@@ -117,8 +117,8 @@ export default function Team() {
               <div className="md:sticky md:top-24">
                 <div className="aspect-[4/5] overflow-hidden rounded-xl bg-sand-light mb-8">
                   <img
-                    src={PRINCIPAL.image}
-                    alt={PRINCIPAL.name}
+                    src={LEAD_ADVISOR.image}
+                    alt={LEAD_ADVISOR.name}
                     className="w-full h-full object-cover object-center"
                   />
                 </div>
@@ -127,14 +127,14 @@ export default function Team() {
                   <p className="font-mono text-xs text-navy-light tracking-widest uppercase mb-4">Direct contact</p>
                   <div className="space-y-3 text-sm">
                     <a
-                      href={`mailto:${PRINCIPAL.email}`}
+                      href={`mailto:${LEAD_ADVISOR.email}`}
                       className="flex items-center gap-3 text-navy hover:text-accent-dark transition-colors"
                     >
                       <Mail className="h-4 w-4" />
-                      {PRINCIPAL.email}
+                      {LEAD_ADVISOR.email}
                     </a>
                     <a
-                      href={PRINCIPAL.linkedin}
+                      href={LEAD_ADVISOR.linkedin}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-3 text-navy hover:text-accent-dark transition-colors"
@@ -190,7 +190,7 @@ export default function Team() {
           <div className="max-w-6xl mx-auto">
             <FadeIn>
               <div className="max-w-3xl mb-12">
-                <p className="eyebrow text-navy-light mb-6">Behind the principal</p>
+                <p className="eyebrow text-navy-light mb-6">Behind the Managing Director</p>
                 <h2 className="font-serif text-display-md text-navy leading-tight mb-6 text-balance">
                   A small in-house support team.
                 </h2>
@@ -238,7 +238,7 @@ export default function Team() {
               </FadeIn>
               <FadeIn delay={0.2}>
                 <p className="text-navy font-medium">
-                  The principal stays involved throughout.
+                  Leo stays involved throughout.
                 </p>
               </FadeIn>
             </div>

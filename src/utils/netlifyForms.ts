@@ -41,3 +41,21 @@ export async function submitNetlifyForm(formName: string, data: Record<string, s
     throw new Error(`Form submission failed (${response.status}). Please try again.`);
   }
 }
+
+// Fire-and-forget secondary notification. Runs in parallel with Netlify
+// Forms so a real enquiry still reaches Leo when Akismet silences the
+// Netlify notification. Never blocks or fails the primary submission -
+// the function itself returns 200 on every error path.
+export function notifyContactEnquiry(payload: Record<string, string>) {
+  if (typeof window === 'undefined') return;
+  void fetch('/.netlify/functions/notify-enquiry', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      ...payload,
+      pagePath: window.location.pathname,
+    }),
+  }).catch(() => {
+    // Deliberately silent - Netlify Forms still stored the submission.
+  });
+}

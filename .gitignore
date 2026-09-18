@@ -12,6 +12,12 @@ dist
 dist-ssr
 *.local
 
+# Real secret values live in Netlify. .env.example is the tracked template.
+.env
+.env.*
+!.env.example
+netlify/functions/dist
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

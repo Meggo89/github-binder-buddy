@@ -28,7 +28,7 @@ export function LeadMagnetCta() {
               className="inline-flex items-center gap-2 bg-navy text-white px-7 py-3.5 rounded-md font-semibold tracking-wide hover:bg-navy-deepest transition-all duration-200 hover:-translate-y-0.5"
             >
               <Download className="h-4 w-4" />
-              Download the checklist
+              Get my exit readiness checklist
               <ArrowRight className="h-4 w-4" />
             </Link>
           </div>

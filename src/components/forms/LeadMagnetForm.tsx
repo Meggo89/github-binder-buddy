@@ -40,7 +40,7 @@ export function LeadMagnetForm() {
           className="inline-flex items-center gap-2 bg-accent text-navy-deepest px-6 py-3 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-all duration-200"
         >
           <Download className="h-4 w-4" />
-          Download the checklist
+          Get my exit readiness checklist
         </a>
       </div>
     );
@@ -61,7 +61,7 @@ export function LeadMagnetForm() {
         </label>
       </p>
 
-      <p className="eyebrow text-center mb-2">Get the checklist</p>
+      <p className="eyebrow text-center mb-2">Get my exit readiness checklist</p>
 
       <div>
         <label htmlFor="lead-name" className="sr-only">Your name</label>
@@ -107,7 +107,7 @@ export function LeadMagnetForm() {
             Sending…
           </>
         ) : (
-          'Download checklist'
+          'Get my exit readiness checklist'
         )}
       </button>
       <p className="text-xs text-sand-dark text-center">No spam. Unsubscribe anytime.</p>

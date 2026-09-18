@@ -286,7 +286,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         heading: "Minority vs majority vs pre-exit funding",
         cover: ["Decision tree based on owner objectives"],
         body: [
-          "Growth capital comes in three principal structures, each suited to a different owner objective. The right one depends on what you want from the next stage rather than what the market typically does.",
+          "Growth capital comes in three main structures, each suited to a different owner objective. The right one depends on what you want from the next stage rather than what the market typically does.",
           "The choice between growth capital and a full exit (to a specific buyer type) turns on similar considerations. Our decision framework compares the three main exit routes and where each fits owners in your situation: [Search Fund vs Private Equity vs Strategic Buyer](/insights/search-fund-vs-private-equity-vs-strategic/). Owners weighing a growth round against a partial exit find it particularly useful.",
           "Minority growth capital. Typically 20-35% equity. The owner remains in control, takes some capital off the table, and brings in an investor who can support the next phase of growth — usually a buy-and-build agenda, a meaningful organic investment programme, or geographic expansion. This route suits owners who see real runway in the business and want a partner rather than an exit.",
           "Majority growth capital. Typically 51-70% equity. The owner remains operationally involved (often as CEO or Chair) but transfers majority control. Substantially more capital comes off the table. The investor takes meaningful governance position and drives the next exit. This route suits owners who want to materially de-risk personally while remaining engaged.",
@@ -419,7 +419,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
     intro:
       "We are a senior-led M&A advisor for UK owner-managed businesses worth £5–50M. Confidential, off-market sell-side, buy-side, MBO and growth-capital work — focused on owners who want senior attention from first call to completion.",
     heroSubtitle:
-      "Every conversation runs through the principal — the senior-led model traditional firms rebrand but don't actually deliver.",
+      "Every conversation runs through Leo — the senior-led model traditional firms rebrand but don't actually deliver.",
     faqs: [
       {
         q: "What does an M&A advisor do?",
@@ -435,7 +435,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
       },
       {
         q: "How are your fees structured?",
-        a: "Mastella works on a low monthly retainer model that funds genuinely senior-led delivery rather than juniors running the work behind a principal. Full structure is shared in the first conversation.",
+        a: "Mastella works on a low monthly retainer model that funds genuinely senior-led delivery rather than juniors running the work behind Leo. Full structure is shared in the first conversation.",
       },
       {
         q: "What sectors do you work in?",
@@ -463,7 +463,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
       },
       {
         q: "What is the difference between an M&A advisor and a business broker?",
-        a: "Brokers run database-driven listings and typically serve businesses worth under £2–3M — the buyer pool is individual owner-operators, small acquirers and search-fund principals, reachable through broker networks. M&A advisors run off-market processes for businesses worth £5M+ — the buyer pool is PE-backed consolidators, strategic acquirers and direct PE houses, reached through curated direct approaches under NDA. The two models attract different buyers, use different fee structures, and produce different outcomes. See [our resource comparing the two](/resources/business-broker-vs-m-a-advisor/) for the full comparison.",
+        a: "Brokers run database-driven listings and typically serve businesses worth under £2–3M — the buyer pool is individual owner-operators, small acquirers and search-fund searchers, reachable through broker networks. M&A advisors run off-market processes for businesses worth £5M+ — the buyer pool is PE-backed consolidators, strategic acquirers and direct PE houses, reached through curated direct approaches under NDA. The two models attract different buyers, use different fee structures, and produce different outcomes. See [our resource comparing the two](/resources/business-broker-vs-m-a-advisor/) for the full comparison.",
       },
       {
         q: "How long does a UK SME M&A process take?",
@@ -507,7 +507,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
           "**Buyer-pool knowledge — specific and current.** Ask any firm to name the 40–80 buyers they would approach for your business, split by strategic vs PE vs overseas, and explain briefly why each is on the list. Firms that can do this from memory have the market intelligence to run a competitive process. Firms that answer with 'we will build the list once you engage us' are telling you where the work will start, not that it is already done.",
           "**Fee structure — full, transparent, in writing before signature.** A good M&A advisor shares the full fee structure in the first serious conversation: retainer amount and duration, success fee tiers, expenses treatment, any minimum fees or long-stop provisions, tail-period arrangements. A firm reluctant to be specific about fees before the engagement letter arrives is a firm you should be careful about. Retainer-led fee models fund senior-led delivery; commission-only models economically drive junior delivery regardless of how the mandate is sold.",
           "**Willingness to say the honest downside of choosing them.** The best M&A advisors will tell you, unprompted, where their model does not fit — where a different firm or a different transaction type would serve you better. If every firm you interview describes themselves as the right choice for every situation, you have learned nothing. The firm that says 'if your priority is X, firm Y is probably a better fit' is usually the firm to shortlist.",
-          "**Bench depth beyond the principal.** Even a senior-led boutique needs analytical bench depth to deliver at the level of intensity a modern M&A process requires. Ask about the in-house team (analysts, associates, technology capability) and the wider network the firm draws on for specialist counsel. Boutique senior-led delivery only works when the senior person is genuinely leveraged by strong analytical support behind them.",
+          "**Bench depth beyond the lead advisor.** Even a senior-led boutique needs analytical bench depth to deliver at the level of intensity a modern M&A process requires. Ask about the in-house team (analysts, associates, technology capability) and the wider network the firm draws on for specialist counsel. Boutique senior-led delivery only works when the senior person is genuinely leveraged by strong analytical support behind them.",
         ],
       },
       {
@@ -532,7 +532,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
         body: [
           "The traditional UK lower mid-market M&A advisor model relies on senior advisors winning mandates and then delegating the substantive delivery work to junior teams. Senior advisors reappear at key buyer meetings and at completion. Owners typically find out about this model only when they are inside it.",
-          "Mastella is structured around the opposite model. Every conversation that matters runs through the principal. Buyer mapping, financial normalisation, IM drafting, negotiation, completion mechanics — none of these are delegated. A small in-house team and a proprietary technology layer support the senior delivery rather than substitute for it.",
+          "Mastella is structured around the opposite model. Every conversation that matters runs through Leo. Buyer mapping, financial normalisation, IM drafting, negotiation, completion mechanics — none of these are delegated. A small in-house team and a proprietary technology layer support the senior delivery rather than substitute for it.",
           "This is funded by the retainer-led fee model rather than a deal-commission model. A low monthly retainer funds genuinely senior time across the mandate. A commission-only structure economically forces firms to deliver junior-led work to make the unit economics work, regardless of how the mandate is sold.",
           "For owners running a single most important transaction in their commercial lives, the difference between senior-led and junior-led delivery is the difference between confidence and concern at every meeting that matters. It is also, in our experience, consistently the difference between a deal that closes at expectation and a deal that re-trades at completion.",
           "If a senior-led process fits your situation, [book a confidential conversation](/contact/). Forty-five minutes, no obligation.",

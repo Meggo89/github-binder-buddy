@@ -22,7 +22,15 @@ npm run lint         # ESLint
 npm run sitemap      # regenerate public/sitemap.xml
 ```
 
-No environment variables are required for local development or production. The `.env` file in the repo is unused and can be deleted once you're ready.
+## Environment variables
+
+Local development needs none. The redundant email-notification function ([Forms](#forms), below) needs three, set in the Netlify UI under **Site configuration → Environment variables**:
+
+- `MAIL_APP_TENANT_ID`
+- `MAIL_APP_CLIENT_ID`
+- `MAIL_APP_CLIENT_SECRET`
+
+These are the credentials for the `mastella-scout-app` registration in the Mastella Microsoft 365 tenant. See [.env.example](.env.example) for the template. Do **not** commit real values.
 
 ## Forms
 
@@ -31,11 +39,14 @@ Both forms post to Netlify's built-in form handler:
 - `/contact` — lead enquiries
 - `/lead-magnet` — Exit Readiness Checklist downloads
 
-Hidden form templates in [index.html](index.html) are detected by Netlify's build scanner and enable the endpoints. Spam is deterred via the `bot-field` honeypot pattern.
+Hidden form templates in [index.html](index.html) are detected by Netlify's build scanner and enable the endpoints. Spam is deterred via the `bot-field` honeypot, a time-to-submit check, `maxLength` limits and a small client-side reject list of obvious SQL-probe patterns (see [src/pages/Contact.tsx](src/pages/Contact.tsx)).
 
-**Email notifications:** configure in Netlify dashboard → *Site → Forms → Settings → Form notifications*. Add `leo@mastellagroup.com` as a notification target.
+**Email notifications:** two independent paths run in parallel so a real enquiry can never be silenced by a single filter.
 
-**Viewing submissions:** Netlify dashboard → *Site → Forms*.
+1. **Netlify Forms notification** — configured in the Netlify dashboard under *Site → Forms → Settings → Form notifications* (`leo@mastellagroup.com`). Subject to Akismet spam filtering.
+2. **[netlify/functions/notify-enquiry.mts](netlify/functions/notify-enquiry.mts)** — a Netlify Function that authenticates to Microsoft Graph via the client-credentials flow and sends from `leo.meggitt@mail.mastellagroup.com`. Runs for every contact-form POST, is not subject to Akismet, and returns 200 on every error path so a mail failure never surfaces to the visitor.
+
+**Viewing submissions:** Netlify dashboard → *Site → Forms* (all submissions, including Akismet-classified spam).
 
 ## Content
 

@@ -16,7 +16,7 @@ import { FoundersDrift } from '../components/home/FoundersDrift';
 import { AIHumanSplit } from '../components/home/AIHumanSplit';
 import { MarketPulse } from '../components/home/MarketPulse';
 
-const principal = {
+const managingDirector = {
   name: 'Leo Meggitt',
   title: 'Managing Director',
   image: leoMeggitt,
@@ -381,8 +381,8 @@ export default function Home() {
             <FadeIn className="md:col-span-5">
               <div className="w-full aspect-[4/5] overflow-hidden rounded-xl bg-sand-light">
                 <img
-                  src={principal.image}
-                  alt={principal.name}
+                  src={managingDirector.image}
+                  alt={managingDirector.name}
                   loading="lazy"
                   className="block w-full h-full object-cover object-center"
                 />
@@ -390,14 +390,14 @@ export default function Home() {
             </FadeIn>
 
             <FadeIn delay={0.1} className="md:col-span-7">
-              <p className="eyebrow text-navy-light mb-6">Meet the principal</p>
+              <p className="eyebrow text-navy-light mb-6">Meet the Managing Director</p>
               <h2 className="font-serif text-display-md text-navy leading-tight mb-3 text-balance">
-                {principal.name}
+                {managingDirector.name}
               </h2>
               <p className="font-mono text-xs text-accent-dark tracking-widest uppercase mb-8">
-                {principal.title}
+                {managingDirector.title}
               </p>
-              <p className="text-body-lg text-navy-light leading-relaxed mb-10">{principal.description}</p>
+              <p className="text-body-lg text-navy-light leading-relaxed mb-10">{managingDirector.description}</p>
               <Link
                 to="/team"
                 className="inline-flex items-center gap-2 text-navy font-medium hover:text-accent-dark transition-colors"

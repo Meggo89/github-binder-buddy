@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import { Mail, MapPin, CheckCircle, Loader2 } from 'lucide-react';
+import React, { useEffect, useRef, useState } from 'react';
+import { Mail, MapPin, Phone, CheckCircle, Loader2, ArrowRight } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { PageLayout } from '../components/layout';
 import { FadeIn } from '../components/ui/motion';
-import { submitNetlifyForm } from '../utils/netlifyForms';
+import { submitNetlifyForm, notifyContactEnquiry } from '../utils/netlifyForms';
 
 type FormData = {
   name: string;
@@ -25,6 +25,26 @@ const initialFormData: FormData = {
   message: '',
 };
 
+// Minimum seconds between form mount and submit for the submission to be
+// treated as human. Humans filling six fields take much longer; scripted
+// probes usually POST within milliseconds of mount.
+const MIN_HUMAN_SECONDS = 3;
+
+// Signals that a name or message field is being used as a SQL injection
+// probe rather than a real enquiry. Kept short and in one place so it is
+// easy to revise as the bots evolve. Case-insensitive match.
+const SQL_PROBE_PATTERNS = [
+  /\bORDER\s+BY\b/i,
+  /\bUNION\s+SELECT\b/i,
+  /--/,
+  /\b1\s*=\s*1\b/,
+  /\bSLEEP\s*\(/i,
+];
+
+function looksLikeSqlProbe(text: string): boolean {
+  return SQL_PROBE_PATTERNS.some((re) => re.test(text));
+}
+
 function Hero() {
   return (
     <div className="max-w-3xl">
@@ -43,10 +63,25 @@ function Hero() {
 const inputClasses =
   'w-full bg-white border border-navy/20 rounded-md px-4 py-3 text-navy placeholder:text-navy-light/60 focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 transition-all';
 
+function trackFormSubmit() {
+  if (typeof window === 'undefined' || !window.gtag) return;
+  window.gtag('event', 'form_submit', { form_name: 'contact' });
+}
+
+function trackBookingClick() {
+  if (typeof window === 'undefined' || !window.gtag) return;
+  window.gtag('event', 'booking_click', { location: 'contact_page' });
+}
+
 export default function Contact() {
   const [formData, setFormData] = useState<FormData>(initialFormData);
   const [status, setStatus] = useState<Status>('idle');
   const [errorMessage, setErrorMessage] = useState('');
+  const mountedAt = useRef<number>(0);
+
+  useEffect(() => {
+    mountedAt.current = Date.now();
+  }, []);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
@@ -58,9 +93,23 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (!formData.name || !formData.email || !formData.message || !formData.interest || !formData.company) {
+    if (!formData.name || !formData.email || !formData.message) {
       setStatus('error');
-      setErrorMessage('Please fill in all required fields.');
+      setErrorMessage('Please add your name, email and a short message.');
+      return;
+    }
+
+    // Silent rejects: pretend to succeed in the UI, but do not POST.
+    // Bots looking for form confirmation see success and go away.
+    const elapsedSeconds = (Date.now() - mountedAt.current) / 1000;
+    if (elapsedSeconds < MIN_HUMAN_SECONDS) {
+      setStatus('success');
+      setFormData(initialFormData);
+      return;
+    }
+    if (looksLikeSqlProbe(formData.name) || looksLikeSqlProbe(formData.message)) {
+      setStatus('success');
+      setFormData(initialFormData);
       return;
     }
 
@@ -69,6 +118,11 @@ export default function Contact() {
 
     try {
       await submitNetlifyForm('contact', formData);
+      // Redundant email notification. Fire-and-forget; the Netlify Forms
+      // POST above already stored the submission, so a failure here never
+      // costs us the enquiry.
+      notifyContactEnquiry(formData);
+      trackFormSubmit();
       setStatus('success');
       setFormData(initialFormData);
     } catch (err) {
@@ -86,6 +140,31 @@ export default function Contact() {
         canonical="https://mastellagroup.com/contact/"
       />
 
+      {/* Booking block. Visual primary action - most visitors should
+          click here rather than fill in the form. */}
+      <section className="bg-sand-light border-b border-navy/10 py-12 md:py-16">
+        <div className="container mx-auto px-6">
+          <div className="max-w-3xl mx-auto text-center">
+            <FadeIn>
+              <h2 className="font-serif text-3xl md:text-4xl text-navy leading-tight mb-4 text-balance">
+                Book a confidential conversation
+              </h2>
+              <p className="text-body-lg text-navy-light mb-8">
+                Thirty minutes, no preparation needed, nothing to sign.
+              </p>
+              <a
+                href="https://www.mastellagroup.com/leomeg"
+                onClick={trackBookingClick}
+                className="inline-flex items-center gap-2 bg-accent text-navy-deepest px-7 py-3.5 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:-translate-y-0.5"
+              >
+                Book a time with Leo
+                <ArrowRight className="h-4 w-4" />
+              </a>
+            </FadeIn>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-white py-24 md:py-32">
         <div className="container mx-auto px-6">
           <div className="max-w-6xl mx-auto grid md:grid-cols-12 gap-12">
@@ -93,7 +172,7 @@ export default function Contact() {
               <FadeIn>
                 <div className="sticky top-24">
                   <h2 className="font-serif text-display-md text-navy leading-tight mb-6 text-balance">
-                    Direct to the principal.
+                    Straight to Leo Meggitt.
                   </h2>
                   <p className="text-body-lg text-navy-light leading-relaxed mb-12">
                     All initial enquiries come to Leo directly. If email or phone suits you better than the form, those
@@ -101,6 +180,18 @@ export default function Contact() {
                   </p>
 
                   <div className="space-y-7">
+                    <div className="flex items-start gap-4">
+                      <div className="w-10 h-10 rounded-lg bg-accent/10 border border-accent/30 flex items-center justify-center flex-shrink-0">
+                        <Phone className="h-4 w-4 text-accent-dark" />
+                      </div>
+                      <div>
+                        <p className="font-mono text-xs text-navy-light tracking-widest mb-1">PHONE</p>
+                        <a href="tel:+447860107704" className="text-navy hover:text-accent-dark transition-colors">
+                          +44 (0) 7860 107704
+                        </a>
+                      </div>
+                    </div>
+
                     <div className="flex items-start gap-4">
                       <div className="w-10 h-10 rounded-lg bg-accent/10 border border-accent/30 flex items-center justify-center flex-shrink-0">
                         <Mail className="h-4 w-4 text-accent-dark" />
@@ -176,13 +267,13 @@ export default function Contact() {
                           <label htmlFor="name" className="block text-xs font-mono text-navy tracking-widest uppercase mb-2">
                             Name *
                           </label>
-                          <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required className={inputClasses} />
+                          <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required maxLength={100} className={inputClasses} />
                         </div>
                         <div>
                           <label htmlFor="company" className="block text-xs font-mono text-navy tracking-widest uppercase mb-2">
-                            Company *
+                            Company
                           </label>
-                          <input type="text" id="company" name="company" value={formData.company} onChange={handleChange} required className={inputClasses} />
+                          <input type="text" id="company" name="company" value={formData.company} onChange={handleChange} maxLength={120} className={inputClasses} />
                         </div>
                       </div>
 
@@ -191,21 +282,21 @@ export default function Contact() {
                           <label htmlFor="email" className="block text-xs font-mono text-navy tracking-widest uppercase mb-2">
                             Email *
                           </label>
-                          <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required className={inputClasses} />
+                          <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required maxLength={254} className={inputClasses} />
                         </div>
                         <div>
                           <label htmlFor="phone" className="block text-xs font-mono text-navy tracking-widest uppercase mb-2">
                             Phone
                           </label>
-                          <input type="tel" id="phone" name="phone" value={formData.phone} onChange={handleChange} className={inputClasses} />
+                          <input type="tel" id="phone" name="phone" value={formData.phone} onChange={handleChange} maxLength={30} className={inputClasses} />
                         </div>
                       </div>
 
                       <div>
                         <label htmlFor="interest" className="block text-xs font-mono text-navy tracking-widest uppercase mb-2">
-                          Area of Interest *
+                          Area of Interest
                         </label>
-                        <select id="interest" name="interest" value={formData.interest} onChange={handleChange} required className={inputClasses}>
+                        <select id="interest" name="interest" value={formData.interest} onChange={handleChange} className={inputClasses}>
                           <option value="">Select an option</option>
                           <option value="Sell-side Advisory">Sell-side advisory</option>
                           <option value="Fundraising">Fundraising</option>
@@ -219,7 +310,7 @@ export default function Contact() {
                         <label htmlFor="message" className="block text-xs font-mono text-navy tracking-widest uppercase mb-2">
                           Message *
                         </label>
-                        <textarea id="message" name="message" value={formData.message} onChange={handleChange} rows={5} required className={inputClasses} placeholder="A short description of what you're looking to discuss" />
+                        <textarea id="message" name="message" value={formData.message} onChange={handleChange} rows={5} required maxLength={5000} className={inputClasses} placeholder="A short description of what you're looking to discuss" />
                       </div>
 
                       <button
@@ -233,7 +324,7 @@ export default function Contact() {
                             Sending…
                           </>
                         ) : (
-                          'Send message'
+                          'Send my enquiry'
                         )}
                       </button>
                       <p className="text-xs text-navy-light text-center">All enquiries are confidential.</p>

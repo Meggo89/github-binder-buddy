@@ -58,6 +58,12 @@
   to = "/index.html"
   status = 200
 
+[functions]
+  # Bundle the notify-enquiry.mts function with esbuild so ESM + Node 20
+  # fetch semantics work as written. Netlify auto-discovers files under
+  # netlify/functions/, so the function is deployed on push to main.
+  node_bundler = "esbuild"
+
 [build.processing]
   skip_processing = false
 
