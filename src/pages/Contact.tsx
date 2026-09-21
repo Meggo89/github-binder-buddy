@@ -33,12 +33,21 @@ const MIN_HUMAN_SECONDS = 3;
 // Signals that a name or message field is being used as a SQL injection
 // probe rather than a real enquiry. Kept short and in one place so it is
 // easy to revise as the bots evolve. Case-insensitive match.
+//
+// These patterns must be narrow. An earlier version matched a bare `--`,
+// which occurs constantly in ordinary business writing ("a sale -- probably
+// next year", "2024--2025", an email sign-off), and matched `ORDER BY` in
+// plain English ("we need to order by Friday"). Each pattern below requires
+// SQL punctuation, not just SQL-adjacent words, so real enquiries cannot
+// trip it.
 const SQL_PROBE_PATTERNS = [
-  /\bORDER\s+BY\b/i,
-  /\bUNION\s+SELECT\b/i,
-  /--/,
-  /\b1\s*=\s*1\b/,
+  /\bORDER\s+BY\s+\d/i,          // "ORDER BY 1-- -", not "order by Friday"
+  /\bUNION\s+(ALL\s+)?SELECT\b/i,
+  /['")]\s*(--|#)/,               // comment marker straight after a quote or bracket
+  /['")]\s*(AND|OR)\s*[('"]/i,    // ") AND (" probe shape
+  /\b(\d+)\s*=\s*\1\b/,         // 1=1, 59225532=59225532
   /\bSLEEP\s*\(/i,
+  /\bWAITFOR\s+DELAY\b/i,
 ];
 
 function looksLikeSqlProbe(text: string): boolean {
@@ -107,11 +116,11 @@ export default function Contact() {
       setFormData(initialFormData);
       return;
     }
-    if (looksLikeSqlProbe(formData.name) || looksLikeSqlProbe(formData.message)) {
-      setStatus('success');
-      setFormData(initialFormData);
-      return;
-    }
+    // A content heuristic must never silently bin an enquiry. If the text
+    // looks like a probe we still store it in Netlify Forms, which costs
+    // nothing, and only skip the email notification. Nothing is ever lost.
+    const looksAutomated =
+      looksLikeSqlProbe(formData.name) || looksLikeSqlProbe(formData.message);
 
     setStatus('submitting');
     setErrorMessage('');
@@ -120,8 +129,11 @@ export default function Contact() {
       await submitNetlifyForm('contact', formData);
       // Redundant email notification. Fire-and-forget; the Netlify Forms
       // POST above already stored the submission, so a failure here never
-      // costs us the enquiry.
-      notifyContactEnquiry(formData);
+      // costs us the enquiry. Skipped for submissions that look automated,
+      // which keeps the inbox clean without ever discarding anything.
+      if (!looksAutomated) {
+        notifyContactEnquiry(formData);
+      }
       trackFormSubmit();
       setStatus('success');
       setFormData(initialFormData);
