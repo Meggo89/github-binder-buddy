@@ -31,6 +31,8 @@ export type ReadinessIndicator = {
   options?: ReadinessOption[];
   checklist?: string[];
   noneOption?: { label: string; value: number };
+  // Largest valid answer (shares of revenue). Negative answers are always rejected.
+  max?: number;
 };
 
 export type ReadinessModel = {

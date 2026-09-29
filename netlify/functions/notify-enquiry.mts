@@ -172,4 +172,13 @@ export default async (req: Request, _context: Context): Promise<Response> => {
 
 export const config: Config = {
   path: '/.netlify/functions/notify-enquiry',
+  // Anyone can POST here directly, bypassing the forms' honeypot and timing checks, so cap it per
+  // visitor: 5 emails a minute from one IP address (a person sending the contact form and their
+  // score results together uses 2). Excess requests get a 429 from Netlify before this code runs.
+  // The Netlify Forms record is a separate request and is not affected.
+  rateLimit: {
+    windowLimit: 5,
+    windowSize: 60,
+    aggregateBy: ['ip', 'domain'],
+  },
 };

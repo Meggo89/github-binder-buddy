@@ -81,7 +81,8 @@ export const MODEL: ReadinessModel = {
         10,
         25,
         50
-      ]
+      ],
+      "max": 100
     },
     {
       "id": "FD3",
@@ -90,7 +91,7 @@ export const MODEL: ReadinessModel = {
       "measures": "Longest period in the last 24 months the founder was fully unavailable, in working days, and whether anything material went wrong.",
       "type": "numeric",
       "unit": "working days",
-      "question": "In the last two years, what is the longest you have been completely unreachable, in working days? Did anything material go wrong?",
+      "question": "In the last two years, what is the longest you have been completely unreachable, in working days?",
       "weight": 1.0,
       "blocker": true,
       "bands": {
@@ -235,7 +236,8 @@ export const MODEL: ReadinessModel = {
         60,
         35,
         15
-      ]
+      ],
+      "max": 100
     },
     {
       "id": "EQ2",
@@ -265,7 +267,8 @@ export const MODEL: ReadinessModel = {
         10,
         20,
         35
-      ]
+      ],
+      "max": 100
     },
     {
       "id": "EQ5",
@@ -325,7 +328,8 @@ export const MODEL: ReadinessModel = {
         90,
         80,
         65
-      ]
+      ],
+      "max": 100
     },
     {
       "id": "GE3",

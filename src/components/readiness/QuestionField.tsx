@@ -72,6 +72,9 @@ export function QuestionField({ indicator: ind, number, answer, raw, onChange }:
     );
   } else {
     const noneChecked = !!ind.noneOption && answer?.value === ind.noneOption.value && raw === '';
+    const typed = raw === '' ? undefined : Number(raw);
+    const outOfRange =
+      typed !== undefined && !Number.isNaN(typed) && (typed < 0 || (ind.max !== undefined && typed > ind.max));
     control = (
       <div className="space-y-3">
         <div className="flex items-center gap-3">
@@ -80,18 +83,33 @@ export function QuestionField({ indicator: ind, number, answer, raw, onChange }:
             type="number"
             inputMode="decimal"
             min={0}
+            max={ind.max}
             step="any"
             value={raw}
             disabled={unsure || noneChecked}
+            aria-labelledby={`${id}-label`}
+            aria-invalid={outOfRange || undefined}
+            aria-describedby={outOfRange ? `${id}-range` : undefined}
+            // Stop the mouse wheel changing a focused number box while the owner scrolls the page.
+            onWheel={(e) => e.currentTarget.blur()}
             onChange={(e) => {
               const text = e.target.value;
               const v = text === '' ? undefined : Number(text);
-              onChange(v === undefined || Number.isNaN(v) ? undefined : { value: v }, text);
+              const valid = v !== undefined && !Number.isNaN(v) && v >= 0 && (ind.max === undefined || v <= ind.max);
+              // Out-of-range answers stay in the box so the owner can correct them, but are not scored.
+              onChange(valid ? { value: v } : undefined, text);
             }}
-            className="w-32 bg-white border border-navy/20 rounded-md px-3 py-2 text-navy focus:outline-none focus:border-accent focus:ring-2 focus:ring-accent/20 disabled:opacity-50"
+            className={`w-32 bg-white border rounded-md px-3 py-2 text-navy focus:outline-none focus:ring-2 disabled:opacity-50 ${
+              outOfRange ? 'border-red-400 focus:border-red-500 focus:ring-red-200' : 'border-navy/20 focus:border-accent focus:ring-accent/20'
+            }`}
           />
           <span className="text-navy-light">{ind.unit}</span>
         </div>
+        {outOfRange && (
+          <p id={`${id}-range`} className="text-sm text-red-700">
+            {ind.max !== undefined ? `Enter a number between 0 and ${ind.max}.` : 'Enter a number of 0 or more.'}
+          </p>
+        )}
         {ind.noneOption && (
           <label className={optionRow}>
             <input
