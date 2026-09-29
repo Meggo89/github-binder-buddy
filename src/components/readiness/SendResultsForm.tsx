@@ -63,7 +63,8 @@ export function SendResultsForm({ result, answers }: { result: ReadinessResult; 
         company: form.company,
         phone: form.phone,
         interest: `Exit Readiness Score ${result.overall === null ? '' : Math.round(result.overall)}`.trim(),
-        message: `${form.note ? form.note + '\n\n' : ''}${summary}`,
+        // The compact answers at the end can be saved as a file for `boycie init --from-score`.
+        message: `${form.note ? form.note + '\n\n' : ''}${summary}\n\nAnswers for the Review engine:\n${answersJson(result, answers)}`,
         firstTouch,
       });
       if (typeof window !== 'undefined' && window.gtag) {

@@ -111,11 +111,11 @@ function Hero() {
           <ArrowRight className="h-4 w-4" />
         </Link>
         <Link
-          to="/process"
-          onClick={() => trackCTA('See the Process', 'hero')}
+          to="/exit-readiness-score/"
+          onClick={() => trackCTA('Free Exit Readiness Score', 'hero')}
           className="inline-flex items-center gap-2 border border-sand/30 text-white px-7 py-3.5 rounded-md font-medium tracking-wide hover:bg-white/5 hover:border-sand/60 transition-all duration-200"
         >
-          See how we work
+          Get your free exit readiness score
         </Link>
       </div>
     </div>
@@ -285,7 +285,8 @@ export default function Home() {
             {processStages.map((stage) => (
               <StaggerItem key={stage.slug}>
                 <Link
-                  to={`/process#${stage.slug}`}
+                  // The readiness stage is now a product in its own right; the rest go to the process page.
+                  to={stage.slug === 'exit-readiness' ? '/services/exit-readiness-assessment/' : `/process#${stage.slug}`}
                   className="group block h-full rounded-xl border border-white/10 bg-white/[0.02] p-6 hover:bg-white/[0.05] hover:border-accent/40 transition-all duration-300"
                 >
                   <div className="flex items-baseline justify-between mb-4">
@@ -427,8 +428,7 @@ export default function Home() {
                   The Exit Readiness Checklist.
                 </h2>
                 <p className="text-body-lg text-sand-light mb-8 leading-relaxed">
-                  Twenty-five areas every founder should address before going to market. The same framework we run
-                  against every new engagement.
+                  Twelve questions every founder should answer before going to market, one page each.
                 </p>
                 <ul className="space-y-3 text-sand-light">
                   {[
@@ -443,6 +443,17 @@ export default function Home() {
                     </li>
                   ))}
                 </ul>
+                <p className="text-sand-light mt-8 leading-relaxed">
+                  Want a scored result instead?{' '}
+                  <Link
+                    to="/exit-readiness-score/"
+                    onClick={() => trackCTA('Free Exit Readiness Score', 'home_checklist')}
+                    className="text-accent underline decoration-accent/50 underline-offset-4 hover:text-accent-light"
+                  >
+                    Take the free Exit Readiness Score
+                  </Link>
+                  . Eleven questions, about three minutes.
+                </p>
               </FadeIn>
             </div>
             <div className="md:col-span-2">
