@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import { CookieConsent } from './components/CookieConsent';
 import { usePageViewTracking } from './hooks/usePageViewTracking';
 
-// Eager imports across all 16 page components. Previously these were
+// Eager imports across all page components. Previously these were
 // lazy() / React.lazy code-split, but SSR + hydration + lazy is a deep
 // rabbit hole (Suspense boundaries SSR to fallbacks, lazy chunks must
 // preload before hydrateRoot, mismatches reset the whole tree). Eager
@@ -25,6 +25,8 @@ import NicheLanding from './pages/NicheLanding';
 import ServiceLanding from './pages/ServiceLanding';
 import ResourceLanding from './pages/ResourceLanding';
 import LeadMagnet from './pages/LeadMagnet';
+import ExitReadinessScore from './pages/ExitReadinessScore';
+import ExitReadinessScoring from './pages/ExitReadinessScoring';
 
 export default function App() {
   usePageViewTracking();
@@ -52,7 +54,9 @@ export default function App() {
         <Route path="/sectors/:slug" element={<SectorPillar />} />
         <Route path="/sectors/:pillarSlug/:slug" element={<NicheLanding />} />
         <Route path="/services/:slug" element={<ServiceLanding />} />
+        <Route path="/resources/exit-readiness-scoring" element={<ExitReadinessScoring />} />
         <Route path="/resources/:slug" element={<ResourceLanding />} />
+        <Route path="/exit-readiness-score" element={<ExitReadinessScore />} />
         <Route path="/lead-magnet" element={<LeadMagnet />} />
       </Routes>
       <CookieConsent />

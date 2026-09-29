@@ -173,10 +173,9 @@ export default function CaseStudies() {
       <section className="bg-white py-16 md:py-20 border-b border-navy/10">
         <div className="container mx-auto px-6">
           <FadeIn>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
               {[
-                { stat: '£400M+', label: 'Transaction value advised' },
-                { stat: '20+', label: 'Deals completed' },
+                { stat: '£500M+', label: 'Transaction value advised' },
                 { stat: '10', label: 'Sectors covered' },
                 { stat: '95%', label: 'Client retention' },
               ].map((item) => (

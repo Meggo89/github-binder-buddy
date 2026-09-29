@@ -4,4 +4,23 @@ Allow: /
 Disallow: /admin/
 Disallow: /private/
 
+# AI search and assistant crawlers. Already covered by the rule above; listed by name so that
+# a future blanket rule cannot shut them out by accident. Being cited in AI answers is a
+# deliberate acquisition channel for Mastella.
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: Bingbot
+User-agent: DuckAssistBot
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
 Sitemap: https://mastellagroup.com/sitemap.xml

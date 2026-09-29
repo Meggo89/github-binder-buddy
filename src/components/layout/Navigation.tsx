@@ -79,7 +79,11 @@ function MobileNav({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }
 export function Navigation() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
-  const onContactPage = location.pathname === '/contact';
+  // Netlify serves every page with a trailing slash (/contact/) while the prerender renders the
+  // bare path (/contact). Compare without the slash so the server HTML and the browser agree;
+  // a mismatch here made React discard the prerendered contact page on every load.
+  const path = location.pathname.length > 1 ? location.pathname.replace(/\/+$/, '') : location.pathname;
+  const onContactPage = path === '/contact';
 
   return (
     <>
@@ -89,7 +93,7 @@ export function Navigation() {
         </Link>
         <div className="hidden md:flex space-x-7 items-center">
           {NAV_LINKS.map((link) => {
-            const active = location.pathname === link.to;
+            const active = path === link.to;
             return (
               <Link
                 key={link.to}

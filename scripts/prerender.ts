@@ -108,6 +108,22 @@ function patchHead(shell: string, m: PatchInput): string {
   return h;
 }
 
+// Per-page JSON-LD (Service, BreadcrumbList, FAQPage, WebApplication) is emitted by page
+// components through react-helmet-async. Without this step it only existed after hydration, so
+// JS-blind crawlers, which includes most AI answer-engine crawlers, never saw it. Helmet's own
+// serialisation keeps the data-rh attribute, so on hydration Helmet adopts these tags rather
+// than duplicating them.
+function helmetJsonLd(helmet: unknown): string {
+  const h = helmet as { script?: { toString(): string } } | undefined;
+  const scripts = h?.script?.toString() ?? '';
+  return scripts.includes('application/ld+json') ? scripts : '';
+}
+
+function injectHelmetScripts(html: string, scripts: string): string {
+  if (!scripts) return html;
+  return html.replace(/\s*<\/head>/, `\n    ${scripts}\n  </head>`);
+}
+
 function injectBody(html: string, ssrBody: string): string {
   // Replace empty <div id="root"></div> with the SSR'd content. Match any
   // amount of inner whitespace so the swap is robust against future shell
@@ -200,11 +216,16 @@ async function run() {
   const all = [...staticInputs, ...articleInputs];
   let ok = 0;
   let bytes = 0;
+  let schemaRoutes = 0;
   for (const m of all) {
     const headPatched = patchHead(shell, m);
     try {
-      const { html: ssrBody } = render(m.path);
-      writeRoute(m, headPatched, ssrBody);
+      const { html: ssrBody, helmet } = render(m.path);
+      // Articles already get Article + FAQPage JSON-LD from the manual patch above; skip Helmet's
+      // copy there so the same schema is not emitted twice.
+      const withSchema = m.jsonLd ? headPatched : injectHelmetScripts(headPatched, helmetJsonLd(helmet));
+      if (withSchema !== headPatched) schemaRoutes++;
+      writeRoute(m, withSchema, ssrBody);
       ok++;
       bytes += ssrBody.length;
     } catch (e) {
@@ -214,7 +235,8 @@ async function run() {
     }
   }
   console.log(
-    `prerender: SSR'd ${ok}/${all.length} routes; avg body size ${Math.round(bytes / ok)} bytes; written to dist/`,
+    `prerender: SSR'd ${ok}/${all.length} routes; avg body size ${Math.round(bytes / ok)} bytes; ` +
+      `page JSON-LD added to ${schemaRoutes} routes; written to dist/`,
   );
 }
 

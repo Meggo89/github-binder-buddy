@@ -76,6 +76,20 @@ export type NicheLanding = {
 
 // ----- Service / intent pages -----
 
+// Fixed-fee productised services (e.g. the Exit Readiness Assessment) carry a price and a
+// step-by-step outline. Both are optional so the existing intent pages are unaffected.
+export type ServiceOffer = {
+  // Optional: when set, the price is shown in the hero and emitted as a schema.org Offer.
+  priceFrom?: number;
+  currency: "GBP";
+  // Human-readable fee line, e.g. "Fixed fee, quoted on a short call"
+  display: string;
+  terms: string;
+  turnaround?: string;
+};
+
+export type ServiceStep = { title: string; detail: string };
+
 export type ServiceLanding = {
   slug: string;
   name: string;
@@ -87,6 +101,11 @@ export type ServiceLanding = {
   heroSubtitle?: string;
   faqs: FaqQA[];
   contentTodos: ContentTodo[];
+  offer?: ServiceOffer;
+  steps?: ServiceStep[];
+  // Override the hero button, and add a lighter secondary link beside it.
+  heroCta?: { to: string; label: string };
+  secondaryCta?: { to: string; label: string };
 };
 
 // ----- Resource pages -----

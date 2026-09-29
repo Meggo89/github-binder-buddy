@@ -6,6 +6,8 @@ export type {
   SectorPillar,
   NicheLanding,
   ServiceLanding,
+  ServiceOffer,
+  ServiceStep,
   ResourceLanding,
 } from "./types";
 

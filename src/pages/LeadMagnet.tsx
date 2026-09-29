@@ -83,6 +83,13 @@ export default function LeadMagnet() {
                   </a>
                   .
                 </p>
+                <p className="text-sm text-navy-light text-center mt-6 leading-relaxed">
+                  Want a scored result instead?{' '}
+                  <a href="/exit-readiness-score/" className="text-navy underline decoration-accent/50 underline-offset-4 hover:text-accent-dark">
+                    Take the free Exit Readiness Score
+                  </a>
+                  .
+                </p>
               </div>
             </div>
           </div>

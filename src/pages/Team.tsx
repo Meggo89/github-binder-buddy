@@ -25,8 +25,7 @@ const LEAD_ADVISOR = {
 
 const STATS = [
   { value: '15', label: 'Years in M&A' },
-  { value: '£400M+', label: 'Transaction value advised' },
-  { value: '30+', label: 'Completed transactions' },
+  { value: '£500M+', label: 'Transaction value advised' },
   { value: '10', label: 'Sectors' },
 ];
 
@@ -171,7 +170,7 @@ export default function Team() {
         <div className="container mx-auto px-6">
           <div className="max-w-5xl mx-auto">
             <FadeIn>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-white/10 rounded-2xl overflow-hidden">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-px bg-white/10 rounded-2xl overflow-hidden">
                 {STATS.map((stat) => (
                   <div key={stat.label} className="bg-ink p-8 md:p-10 text-center">
                     <p className="font-serif text-4xl md:text-5xl text-accent mb-3 leading-none">{stat.value}</p>

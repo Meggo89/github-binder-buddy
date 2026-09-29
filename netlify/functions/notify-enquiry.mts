@@ -31,6 +31,8 @@ type Payload = {
   interest?: string;
   message?: string;
   pagePath?: string;
+  heardVia?: string;
+  firstTouch?: string;
 };
 
 const OK = () => new Response('ok', { status: 200 });
@@ -75,13 +77,15 @@ function buildHtmlBody(p: Payload): string {
     : '';
   return `
 <div style="font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#111;">
-  <p style="margin:0 0 12px 0;">New enquiry via mastellagroup.com contact form:</p>
+  <p style="margin:0 0 12px 0;">New enquiry via mastellagroup.com ${p.pagePath?.startsWith('/exit-readiness-score') ? 'Exit Readiness Score' : 'contact form'}:</p>
   <table style="border-collapse:collapse;font-size:14px;">
     ${row('Name', p.name)}
     ${row('Company', p.company)}
     ${row('Email', p.email)}
     ${row('Phone', p.phone)}
     ${row('Interest', p.interest)}
+    ${row('Found us via', p.heardVia)}
+    ${row('First touch', p.firstTouch)}
     ${row('Submitted', new Date().toISOString())}
     ${row('From page', p.pagePath)}
   </table>

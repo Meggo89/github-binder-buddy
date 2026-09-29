@@ -172,6 +172,7 @@ const article: Article = {
 
       <p>The headline outcome of a proper 12-month readiness period is rarely a single dramatic uplift. It is the compound effect of doing seven or eight things well that owners running a cold process tend to do badly or not at all. Deals that closed at or above headline expectation were almost always preceded by structured preparation work; deals that re-traded at completion were almost always run cold.</p>
 
+      <p>To see where your own business sits against these items, the free <a href="/exit-readiness-score/">Exit Readiness Score</a> asks 11 of the 29 questions we use to score readiness and takes about three minutes. The <a href="/services/exit-readiness-assessment/">Exit Readiness Assessment</a> is the verified, fixed-fee version: all 29 measures, tested against your data and interviews with your senior team.</p>
       <p>If you are 12 to 24 months from a target exit and want the readiness work done properly, our <a href="/services/exit-planning-advisor-uk/">exit planning service</a> covers all twelve items above alongside your accountants and lawyers. If you are simply thinking about it and want a first honest conversation on what the runway looks like, <a href="/contact/">book a 45-minute confidential conversation</a>. Forty-five minutes, no obligation, and you will leave with a clearer view of where your business genuinely stands against buyer expectations.</p>
     `,
   author: 'Leo Meggitt',

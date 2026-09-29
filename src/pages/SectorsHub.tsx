@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { SEO } from '../components/SEO';
 import { StructuredData } from '../components/StructuredData';
 import { PageLayout } from '../components/layout';
-import { FadeIn, Stagger, StaggerItem } from '../components/ui/motion';
+import { Stagger, StaggerItem } from '../components/ui/motion';
 import { ProofBand } from '../components/landing/ProofBand';
 import { CtaSection } from '../components/landing/CtaSection';
 import { LeadMagnetCta } from '../components/landing/LeadMagnetCta';

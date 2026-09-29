@@ -6,18 +6,25 @@ The firm is always referred to as "Mastella Advisory", not "Mastella" alone. Its
 
 ## Who leads the firm
 
-Leo Meggitt, Managing Director and founder of Mastella Advisory. 15 years in M&A, over £400M of transaction value advised across more than 30 completed deals. Previously spent eight years at Forster Chase Corporate Finance, with earlier corporate finance work at Flint Hyde. Founder of Scalexit, an exit-readiness platform for owner-managed businesses. Deputy Chair of Trustees at Every Parent & Child.
+Leo Meggitt, Managing Director and founder of Mastella Advisory. 15 years in M&A, advising on over £500M of transactions across multiple sectors. Previously spent eight years at Forster Chase Corporate Finance, with earlier corporate finance work at Flint Hyde. Founder of Scalexit, an exit-readiness platform for owner-managed businesses. Deputy Chair of Trustees at Every Parent & Child.
 
 Leo Meggitt is the named lead adviser on every Mastella Advisory mandate. Engagements are senior-led from first call to completion rather than delegated to analysts.
 
 ## What Mastella Advisory does
 
 - Company sales and exits: full sell-side process for owner-managed businesses, run off-market wherever possible
-- Exit readiness: preparing a business for sale 12 to 24 months ahead, so the value is built before the process starts
+- Exit readiness: preparing a business for sale 12 to 24 months ahead, so the value is built before the process starts. Starts with a fixed-fee Exit Readiness Assessment or the free online Exit Readiness Score
 - Management buyouts: advising owners and management teams on MBO and MBI structures
 - Growth capital and fundraising: debt and equity raises, seed through growth and pre-exit
 - Business valuation: market valuations grounded in what buyers actually pay, not accounting formulas
 - Executive search and interim: leadership placement before and after a transaction
+
+## Exit readiness products
+
+- Exit Readiness Score: free online self-assessment. 11 questions, about three minutes, no sign-up. Covers 11 of the 29 measures used in the paid Assessment and gives an indicative score out of 100 overall and across five areas (founder dependency, management depth, earnings quality, growth evidence, due diligence readiness), with the weakest measures and what trade buyers and private equity typically do about each. Answers are scored in the browser. https://mastellagroup.com/exit-readiness-score/
+- Exit Readiness Assessment: fixed-fee, adviser-led review, quoted on a short call and credited against Mastella fees if the client instructs a sale, raise or executive search within 12 months. All 29 measures, verified against the company's accounts, customer data and interviews with the senior team. Report within ten working days of the last interview, covering the score, how buyers would read each weak area, which exit routes are open (trade sale, private equity, management buyout, employee ownership trust) and a phased action plan. https://mastellagroup.com/services/exit-readiness-assessment/
+- How we score exit readiness: the published scoring model, with the five areas and their weights, the thresholds for strong, adequate, weak and critical on the core measures, and how buyers respond to weak scores. For example, a largest customer above 35% of revenue scores as critical, and founder-held revenue above 50% scores as critical. https://mastellagroup.com/resources/exit-readiness-scoring/
+- Exit Readiness Checklist: free 12-question download. https://mastellagroup.com/lead-magnet/
 
 ## Who Mastella Advisory works with
 
@@ -40,6 +47,9 @@ Senior-led throughout, with the Managing Director on every call. Off-market buye
 
 ## Key guidance pages
 
+- Exit Readiness Assessment: https://mastellagroup.com/services/exit-readiness-assessment/
+- Free Exit Readiness Score: https://mastellagroup.com/exit-readiness-score/
+- How we score exit readiness: https://mastellagroup.com/resources/exit-readiness-scoring/
 - How to sell a business: https://mastellagroup.com/services/how-to-sell-a-business/
 - Exit planning adviser UK: https://mastellagroup.com/services/exit-planning-advisor-uk/
 - Management buyout adviser UK: https://mastellagroup.com/services/management-buyout-advisor-uk/

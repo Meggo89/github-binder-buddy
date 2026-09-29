@@ -1,6 +1,8 @@
 import type { ServiceLanding } from "./types";
+import { EXIT_READINESS_ASSESSMENT } from "./service-exit-readiness-assessment";
 
 export const SERVICE_LANDINGS: ServiceLanding[] = [
+  EXIT_READINESS_ASSESSMENT,
   {
     slug: "exit-planning-advisor-uk",
     name: "Exit planning advisor (UK)",
@@ -17,7 +19,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
       },
       {
         q: "What does exit planning actually involve?",
-        a: "A readiness assessment across financial reporting, contracts, operations, team, IP and tax structure. We prioritise the items that materially affect buyer multiple, then work with you and your accountants/lawyers to address them.",
+        a: "A readiness assessment across financial reporting, contracts, operations, team, IP and tax structure. We prioritise the items that materially affect buyer multiple, then work with you and your accountants/lawyers to address them. Most engagements start with our fixed-fee Exit Readiness Assessment, which scores the business on 29 buyer measures and verifies them against your data and senior team.",
       },
       {
         q: "How is exit planning different to running the sale itself?",
@@ -78,6 +80,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
           "The headline outcome of a proper exit planning engagement is rarely a single dramatic uplift. It is the compound effect of doing six or seven things well that owners running a cold process tend to do badly or not at all.",
           "For the full ordered checklist of what those six or seven things are, and why the order of return-on-effort matters, see our companion pillar guide: [The 12 Months Before You Sell](/insights/12-months-before-you-sell/). It walks through the twelve items we work through in every readiness engagement, in the order we typically address them.",
           "Owners who engage 12+ months pre-sale typically achieve materially stronger headline price and substantially better deal terms — earn-out structure, working capital mechanism, indemnity caps, tax structuring efficiency — than those running a process cold. The single most consistent observation across recent transactions is that deals which closed at or above the headline expectation were almost always preceded by structured preparation work; deals that re-traded at completion were almost always run cold.",
+          "Most engagements start with an [Exit Readiness Assessment](/services/exit-readiness-assessment/): a fixed-fee review that scores the business on 29 measures buyers test and checks each one against your data and interviews with your senior team. For a first read on your own, the free [Exit Readiness Score](/exit-readiness-score/) takes about three minutes, and the thresholds for the core measures are published on [how we score exit readiness](/resources/exit-readiness-scoring/).",
           "If exit planning is the right next step, the [contact page](/contact/) is where to start. Forty-five minutes, no obligation, and we will tell you honestly whether the work fits Mastella's model and what the engagement would look like.",
         ],
       },
@@ -480,6 +483,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         cover: ["Cross-link /services", "Cross-link /process"],
         body: [
           "Mastella is a senior-led M&A advisor for UK owner-managed businesses worth £5M to £50M in enterprise value. We work on confidential, off-market sell-side mandates, management buyouts, growth-capital rounds, and selective buy-side work for clients running active acquisition programmes. The full service detail is on [the services page](/services/) and the stage-by-stage process on [the process page](/process/).",
+          "Valuation and readiness are different questions. A multiple estimates what a business like yours is worth; readiness decides how much of that a buyer pays in cash at completion and how much is deferred, tied to an earn-out or held back against warranties. The measures buyers test, and the thresholds for the core ones, are set out on [how we score exit readiness](/resources/exit-readiness-scoring/), and you can score your own business with the free [Exit Readiness Score](/exit-readiness-score/).",
           "Within sell-side, we handle full sales, majority sales, minority sales, and structured transitions including dual-track processes that combine MBO and trade-sale tracks. Within growth capital, we work on minority rounds with PE and family office investors, majority rounds, and pre-exit funding designed to support a value-creation push before a planned sale.",
           "Within buy-side, we typically work with established acquirers on specific targeted acquisitions rather than open-ended buy-side mandates. We have run buy-side mandates for boards executing buy-and-build strategies in defined sub-sectors.",
           "We do not do general business broking, off-the-shelf valuation reports for tax purposes, or compliance-driven work. Where those are what you need, we will refer you to specialist firms we trust.",

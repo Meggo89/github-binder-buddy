@@ -4,6 +4,7 @@
 //   - scripts/build-sitemap.ts (sitemap.xml generation)
 
 import { SECTORS, NICHES, SERVICE_LANDINGS, RESOURCES } from '../content/landing';
+import { SCORE_PAGE, SCORING_PAGE } from '../content/readiness/meta';
 
 export const SITE = {
   name: 'Mastella Advisory',
@@ -13,7 +14,7 @@ export const SITE = {
     "Off-market M&A for founder-led businesses worth £5–50M across the UK and internationally. We find buyers other advisors don't reach. Confidential sell-side, fundraising and exit readiness.",
   defaultOgImage: 'https://mastellagroup.com/og-image.png?v=3',
   locale: 'en_GB',
-  lastmod: '2026-04-24',
+  lastmod: '2026-09-29',
 } as const;
 
 export type RouteMeta = {
@@ -113,6 +114,21 @@ export const ROUTES: RouteMeta[] = [
     description:
       'Twelve questions every UK founder should answer before starting an M&A process. Free download, no follow-up unless you ask.',
     priority: 0.6,
+    changefreq: 'monthly',
+  },
+  {
+    path: SCORE_PAGE.path,
+    title: SCORE_PAGE.title,
+    description: SCORE_PAGE.description,
+    priority: 0.8,
+    changefreq: 'monthly',
+  },
+  {
+    path: SCORING_PAGE.path,
+    title: SCORING_PAGE.title,
+    description: SCORING_PAGE.description,
+    ogType: 'article',
+    priority: 0.7,
     changefreq: 'monthly',
   },
 ];

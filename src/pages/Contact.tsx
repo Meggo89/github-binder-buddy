@@ -4,6 +4,7 @@ import { SEO } from '../components/SEO';
 import { PageLayout } from '../components/layout';
 import { FadeIn } from '../components/ui/motion';
 import { submitNetlifyForm, notifyContactEnquiry } from '../utils/netlifyForms';
+import { getFirstTouch } from '../utils/firstTouch';
 
 type FormData = {
   name: string;
@@ -11,6 +12,7 @@ type FormData = {
   email: string;
   phone: string;
   interest: string;
+  heard_via: string;
   message: string;
 };
 
@@ -22,8 +24,22 @@ const initialFormData: FormData = {
   email: '',
   phone: '',
   interest: '',
+  heard_via: '',
   message: '',
 };
+
+// "How did you find us?" options. The AI assistant option is how we measure discovery through
+// ChatGPT, Claude, Perplexity, Gemini and Copilot answers, alongside the automatic first-touch
+// capture in utils/firstTouch.ts.
+const HEARD_VIA_OPTIONS = [
+  'AI assistant (ChatGPT, Claude, Perplexity, Gemini, Copilot)',
+  'Google or another search engine',
+  'LinkedIn',
+  'Referral or introduction',
+  'My accountant or another adviser',
+  'Event or talk',
+  'Other',
+];
 
 // Minimum seconds between form mount and submit for the submission to be
 // treated as human. Humans filling six fields take much longer; scripted
@@ -126,13 +142,14 @@ export default function Contact() {
     setErrorMessage('');
 
     try {
-      await submitNetlifyForm('contact', formData);
+      const firstTouch = getFirstTouch();
+      await submitNetlifyForm('contact', { ...formData, first_touch: firstTouch });
       // Redundant email notification. Fire-and-forget; the Netlify Forms
       // POST above already stored the submission, so a failure here never
       // costs us the enquiry. Skipped for submissions that look automated,
       // which keeps the inbox clean without ever discarding anything.
       if (!looksAutomated) {
-        notifyContactEnquiry(formData);
+        notifyContactEnquiry({ ...formData, heardVia: formData.heard_via, firstTouch });
       }
       trackFormSubmit();
       setStatus('success');
@@ -315,6 +332,18 @@ export default function Contact() {
                           <option value="Exit Readiness">Exit readiness consulting</option>
                           <option value="Executive Search">Executive search</option>
                           <option value="Other">Other</option>
+                        </select>
+                      </div>
+
+                      <div>
+                        <label htmlFor="heard_via" className="block text-xs font-mono text-navy tracking-widest uppercase mb-2">
+                          How did you find us?
+                        </label>
+                        <select id="heard_via" name="heard_via" value={formData.heard_via} onChange={handleChange} className={inputClasses}>
+                          <option value="">Select an option</option>
+                          {HEARD_VIA_OPTIONS.map((o) => (
+                            <option key={o} value={o}>{o}</option>
+                          ))}
                         </select>
                       </div>
 

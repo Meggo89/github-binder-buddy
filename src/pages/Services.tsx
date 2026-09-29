@@ -16,6 +16,7 @@ type Service = {
   aiLayer: string;
   humanLayer: string;
   outcome: string;
+  links?: { to: string; label: string }[];
 };
 
 const services: Service[] = [
@@ -48,6 +49,10 @@ const services: Service[] = [
     humanLayer:
       'Founder coaching. Prioritisation of remediation. Calls with accountants and lawyers to get the work actually done.',
     outcome: 'Avoid the issues that cost founders value or kill deals at diligence.',
+    links: [
+      { to: '/services/exit-readiness-assessment/', label: 'Exit Readiness Assessment (fixed fee)' },
+      { to: '/exit-readiness-score/', label: 'Free Exit Readiness Score' },
+    ],
   },
   {
     icon: <UserSearch className="h-6 w-6 text-accent" />,
@@ -128,6 +133,21 @@ export default function Services() {
                       {service.title}
                     </h2>
                     <p className="text-body-lg text-navy-light leading-relaxed">{service.lead}</p>
+                    {service.links && (
+                      <ul className="mt-6 space-y-2">
+                        {service.links.map((l) => (
+                          <li key={l.to}>
+                            <Link
+                              to={l.to}
+                              className="inline-flex items-center gap-2 text-navy font-medium underline decoration-accent/50 underline-offset-4 hover:text-accent-dark"
+                            >
+                              {l.label}
+                              <ArrowRight className="h-4 w-4" />
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
                   </div>
 
                   <div className="md:col-span-7 space-y-5">
@@ -172,8 +192,8 @@ export default function Services() {
                 Looking for something more specific?
               </h2>
               <p className="text-body-lg text-navy-light mb-12 max-w-3xl leading-relaxed">
-                Six commercial-intent pages covering the questions UK owners typically arrive with — from valuation and
-                management buyouts through to growth capital and exit planning.
+                Pages covering the questions UK owners typically arrive with, from a fixed-fee exit readiness
+                assessment and valuation through to management buyouts, growth capital and exit planning.
               </p>
             </FadeIn>
             <Stagger className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

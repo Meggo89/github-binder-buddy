@@ -5,8 +5,7 @@ import { FadeIn } from '../ui/motion';
 // Case studies stats). Numbers are pulled once from here.
 const PROOF_STATS = [
   { stat: '15+', label: 'Years in M&A' },
-  { stat: '£400M+', label: 'Transaction value advised' },
-  { stat: '30+', label: 'Completed transactions' },
+  { stat: '£500M+', label: 'Transaction value advised' },
   { stat: '10', label: 'Sectors' },
 ];
 
@@ -15,7 +14,7 @@ export function ProofBand() {
     <section className="bg-sand-light py-16 md:py-20 border-y border-navy/5">
       <div className="container mx-auto px-6">
         <FadeIn>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
             {PROOF_STATS.map((item) => (
               <div key={item.label} className="text-center">
                 <p className="font-serif text-4xl md:text-5xl text-navy mb-2 tracking-tight">{item.stat}</p>
