@@ -19,17 +19,27 @@ export function describeAnswer(r: IndicatorResult, a: Answer | undefined): strin
   return `${a.value}${unit}`;
 }
 
+// Plain-text summary for Leo (the enquiry email and the Netlify form record). Scores are rounded
+// the same way the results panel shows them, so it matches what the owner saw.
 export function summarise(result: ReadinessResult, answers: Record<string, Answer | undefined>): string {
+  const shown = (x: number | null) => (x === null ? 'not scored' : String(Math.round(x)));
   const lines = [
-    `Overall ${result.overall ?? 'n/a'} (${result.rating}), ${result.answered} of ${MODEL.indicators.length} answered (free score).`,
-    ...result.modules.map((m) => `${m.name}: ${m.score ?? 'n/a'} (${m.rating})`),
+    `Overall: ${shown(result.overall)} out of 100 (${result.rating}). ${result.answered} of ${MODEL.indicators.length} questions answered.`,
+    '',
+    'Area scores:',
+    ...result.modules.map((m) => `- ${m.name}: ${shown(m.score)}${m.score === null ? '' : ` (${m.rating})`}`),
   ];
-  if (result.blockers.length) lines.push(`Blockers: ${result.blockers.map((b) => b.indicator.name).join(', ')}`);
-  if (result.gaps.length) {
-    lines.push('Weak measures:');
-    for (const g of result.gaps) lines.push(`- ${g.indicator.id} ${g.indicator.name} (${g.score}): ${describeAnswer(g, answers[g.indicator.id])}`);
+  if (result.blockers.length) {
+    lines.push('', `Deal issues (critical on a measure buyers treat as a blocker): ${result.blockers.map((b) => b.indicator.name).join(', ')}`);
   }
-  if (result.unsure.length) lines.push(`Not sure: ${result.unsure.map((u) => u.indicator.name).join(', ')}`);
+  if (result.gaps.length) {
+    lines.push('', 'Gaps, most costly first:');
+    for (const g of result.gaps) {
+      const band = MODEL.scale[String(g.score)].toLowerCase();
+      lines.push(`- ${g.indicator.name}: ${band}. Answer: ${describeAnswer(g, answers[g.indicator.id])}`);
+    }
+  }
+  if (result.unsure.length) lines.push('', `Not sure: ${result.unsure.map((u) => u.indicator.name).join(', ')}`);
   return lines.join('\n').slice(0, 4000);
 }
 
