@@ -21,7 +21,7 @@ const managingDirector = {
   title: 'Managing Director',
   image: leoMeggitt,
   description:
-    '15 years in M&A. Over £500M of transactions advised across multiple sectors. Built and scaled businesses across recruitment, corporate finance and interim management before founding Mastella.',
+    '15 years in M&A. Has advised on over £500m of transactions across multiple sectors. Built and scaled businesses across recruitment, corporate finance and interim management before founding Mastella.',
 };
 
 const matchingSteps = [
@@ -44,14 +44,14 @@ const matchingSteps = [
 
 const founderImpact = [
   {
-    metric: '3–5×',
+    metric: '3 to 5×',
     label: 'Broader buyer pool',
     description: 'Systematic identification expands coverage well beyond a traditional advisor\u2019s rolodex.',
   },
   {
-    metric: '2–3 wks',
+    metric: '2 to 3 wks',
     label: 'Information memorandum',
-    description: 'IM production compressed from 6–8 weeks. More iterations, higher production quality.',
+    description: 'IM production compressed from 6 to 8 weeks. More iterations, higher production quality.',
   },
   {
     metric: 'days',
@@ -92,7 +92,7 @@ const testimonials = [
 function Hero() {
   return (
     <div className="max-w-4xl">
-      <p className="eyebrow mb-6">UK & cross-border · worth £5M–£50M</p>
+      <p className="eyebrow mb-6">UK & cross-border · worth £5M to £50M</p>
       <h1 className="font-serif text-display-xl text-white mb-8 text-balance leading-[1.05]">
         Business exits,<br />
         <TypedHeroTagline />
@@ -129,7 +129,7 @@ export default function Home() {
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
         title="Off-market M&A for founder-led businesses"
-        description="Off-market M&A for founder-led businesses worth £5–50M across the UK and internationally. We find buyers other advisors don't reach. Confidential sell-side, fundraising and exit readiness."
+        description="Off-market M&A for founder-led businesses worth £5M to £50M across the UK and internationally. We find buyers other advisors don't reach. Confidential sell-side, fundraising and exit readiness."
         canonical="https://mastellagroup.com/"
       />
 

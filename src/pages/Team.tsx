@@ -25,7 +25,7 @@ const LEAD_ADVISOR = {
 
 const STATS = [
   { value: '15', label: 'Years in M&A' },
-  { value: '£500M+', label: 'Transaction value advised' },
+  { value: '£500m+', label: 'Transaction value advised on' },
   { value: '10', label: 'Sectors' },
 ];
 

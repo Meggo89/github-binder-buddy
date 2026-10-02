@@ -43,7 +43,7 @@ const services: Service[] = [
   {
     icon: <ClipboardCheck className="h-6 w-6 text-accent" />,
     title: 'Exit Readiness Consulting',
-    lead: 'For founders 12–24 months out from a potential sale. Diagnose the gaps early, fix them while time is on your side.',
+    lead: 'For founders 12 to 24 months out from a potential sale. Diagnose the gaps early, fix them while time is on your side.',
     aiLayer:
       'Automated readiness assessment across financials, contracts, operations, team, and IP. Benchmarking against successful exits in your sector.',
     humanLayer:
@@ -109,7 +109,7 @@ export default function Services() {
     <PageLayout hero={<Hero />} heroTone="ink" mainClassName="">
       <SEO
         title="M&A Services for Founder-Led Businesses - Sell-side, Fundraising, Exit Readiness"
-        description="M&A services for founder-led businesses across the UK and internationally: sell-side, fundraising, exit readiness and executive search. Confidential, senior-led, focused on businesses worth £5–50M."
+        description="M&A services for founder-led businesses across the UK and internationally: sell-side, fundraising, exit readiness and executive search. Confidential, senior-led, focused on businesses worth £5M to £50M."
         canonical="https://mastellagroup.com/services/"
       />
       <StructuredData data={[...serviceSchemas, breadcrumb]} />

@@ -8,16 +8,16 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
     nameLower: "HR and payroll services",
     title: "HR & Payroll Services M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      "Selling a UK HR or payroll services business worth £5–50M? Senior-led, off-market M&A advisory. Confidential process for owner-managed firms.",
+      "Selling a UK HR or payroll services business worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential process for owner-managed firms.",
     h1: "Selling an HR or payroll services business in the UK",
     intro:
-      "We advise UK owners of HR outsourcing, payroll bureau and HR consulting businesses on confidential sales. Senior-led across the £5–50M EV segment.",
+      "We advise UK owners of HR outsourcing, payroll bureau and HR consulting businesses on confidential sales. Senior-led across the £5M to £50M EV segment.",
     heroSubtitle:
-      "6–10 active UK PE-backed payroll consolidators are acquiring right now — we approach the right subset for you.",
+      "6 to 10 active UK PE-backed payroll consolidators are acquiring right now — we approach the right subset for you.",
     faqs: [
       {
         q: "What multiples do HR and payroll services businesses trade at?",
-        a: "UK payroll bureaux and HR outsourcing businesses typically trade at 6–10x adjusted EBITDA, with premium multiples for genuine SaaS or technology-enabled platforms. Pure HR consulting trades lower (4–7x) given lower revenue visibility.",
+        a: "UK payroll bureaux and HR outsourcing businesses typically trade at 6 to 10x adjusted EBITDA, with premium multiples for genuine SaaS or technology-enabled platforms. Pure HR consulting trades lower (4 to 7x) given lower revenue visibility.",
       },
       {
         q: "Who buys UK HR and payroll services businesses?",
@@ -33,7 +33,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
       },
       {
         q: "How long does an HR / payroll services sale take?",
-        a: "6–9 months is typical. Compliance diligence (data protection, employer-of-record exposure where relevant) sometimes adds a few weeks.",
+        a: "6 to 9 months is typical. Compliance diligence (data protection, employer-of-record exposure where relevant) sometimes adds a few weeks.",
       },
       {
         q: "Will my clients find out we are running a process?",
@@ -45,7 +45,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
         heading: "Who we work with",
         cover: [
           "Owner profile",
-          "Typical EBITDA range £0.5M–£8M",
+          "Typical EBITDA range £0.5M to £8M",
           "Single-bureau vs platform clients",
         ],
         body: [
@@ -91,16 +91,16 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
     nameLower: "facilities management",
     title: "Facilities Management M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      "Selling a UK facilities management business worth £5–50M? Senior-led M&A advisory. Confidential sale processes for owner-managed FM firms.",
+      "Selling a UK facilities management business worth £5M to £50M? Senior-led M&A advisory. Confidential sale processes for owner-managed FM firms.",
     h1: "Selling a facilities management business in the UK",
     intro:
-      "We advise UK owners of facilities management businesses — hard FM, soft FM, integrated FM — on confidential sales and capital raises. Senior-led, off-market, focused on the £5–50M EV segment.",
+      "We advise UK owners of facilities management businesses — hard FM, soft FM, integrated FM — on confidential sales and capital raises. Senior-led, off-market, focused on the £5M to £50M EV segment.",
     heroSubtitle:
       "Contract tail, TUPE position and engineer retention — the three things that move FM sale outcomes most.",
     faqs: [
       {
         q: "What multiples do UK FM businesses trade at?",
-        a: "Owner-managed FM businesses typically trade at 5–7x adjusted EBITDA, with premium ranges (7–9x) for integrated FM platforms, specialist technical FM and businesses with long-tenor contracted revenue.",
+        a: "Owner-managed FM businesses typically trade at 5 to 7x adjusted EBITDA, with premium ranges (7 to 9x) for integrated FM platforms, specialist technical FM and businesses with long-tenor contracted revenue.",
       },
       {
         q: "Who buys UK FM businesses?",
@@ -108,7 +108,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
       },
       {
         q: "How does contract tail affect valuation?",
-        a: "Significantly. Average weighted contract tail is one of the first numbers buyers ask for. Long-tail contracted revenue with major clients typically lifts multiples by 1–2 turns versus the same EBITDA on rolling or spot contracts.",
+        a: "Significantly. Average weighted contract tail is one of the first numbers buyers ask for. Long-tail contracted revenue with major clients typically lifts multiples by 1 to 2 turns versus the same EBITDA on rolling or spot contracts.",
       },
       {
         q: "What about TUPE liabilities?",
@@ -116,7 +116,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
       },
       {
         q: "How long does an FM sale typically take?",
-        a: "6–9 months from engagement to completion. Contract diligence and customer reference checking sometimes add 2–4 weeks.",
+        a: "6 to 9 months from engagement to completion. Contract diligence and customer reference checking sometimes add 2 to 4 weeks.",
       },
       {
         q: "Do you handle integrated FM and specialist single-service FM?",
@@ -127,7 +127,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
       {
         heading: "Who we work with",
         cover: [
-          "FM owners £5–50M EV",
+          "FM owners £5M to £50M EV",
           "Hard FM, soft FM, integrated FM, technical specialist",
         ],
         body: [
@@ -174,16 +174,16 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
     nameLower: "cleaning services",
     title: "Cleaning Services M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      "Selling a UK commercial or specialist cleaning business worth £5–50M? Senior-led, off-market M&A advisory. Confidential process for owner-managed firms.",
+      "Selling a UK commercial or specialist cleaning business worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential process for owner-managed firms.",
     h1: "Selling a cleaning services business in the UK",
     intro:
-      "We advise UK owners of commercial cleaning, specialist cleaning and contract cleaning businesses on confidential sales. Senior-led, off-market, in the £5–50M EV segment.",
+      "We advise UK owners of commercial cleaning, specialist cleaning and contract cleaning businesses on confidential sales. Senior-led, off-market, in the £5M to £50M EV segment.",
     heroSubtitle:
-      "8–12 active UK cleaning consolidators. Labour model and specialist accreditations drive the multiple within range.",
+      "8 to 12 active UK cleaning consolidators. Labour model and specialist accreditations drive the multiple within range.",
     faqs: [
       {
         q: "What multiples do UK cleaning services businesses trade at?",
-        a: "Owner-managed commercial cleaning businesses typically trade at 4–6x adjusted EBITDA. Specialist cleaning (technical, regulated, high-rise, hazmat) commands a premium, typically 6–9x.",
+        a: "Owner-managed commercial cleaning businesses typically trade at 4 to 6x adjusted EBITDA. Specialist cleaning (technical, regulated, high-rise, hazmat) commands a premium, typically 6 to 9x.",
       },
       {
         q: "Who buys UK cleaning services businesses?",
@@ -199,7 +199,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
       },
       {
         q: "How long does a cleaning services sale typically take?",
-        a: "6–9 months from engagement to completion is normal. Contract reviews and TUPE diligence sometimes add a few weeks.",
+        a: "6 to 9 months from engagement to completion is normal. Contract reviews and TUPE diligence sometimes add a few weeks.",
       },
       {
         q: "Do you handle franchise / multi-site cleaning groups?",
@@ -210,7 +210,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
       {
         heading: "Who we work with",
         cover: [
-          "Commercial, specialist, technical, contract cleaning owners £5–50M EV",
+          "Commercial, specialist, technical, contract cleaning owners £5M to £50M EV",
         ],
         body: [
           "You own a UK cleaning services business worth between £5M and £50M in enterprise value. Commercial contract cleaning serving offices, retail, education or healthcare. Specialist cleaning — technical, regulated, high-rise, hazmat, post-construction. A franchise or multi-site cleaning group with master franchise IP. Some of you build the books client by client; some have grown by acquisition and integration.",
@@ -259,16 +259,16 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
     nameLower: "recruitment",
     title: "Recruitment Agency M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      "Selling a UK recruitment agency worth £5–50M? Senior-led, off-market M&A advisory across tech, finance and specialist recruitment.",
+      "Selling a UK recruitment agency worth £5M to £50M? Senior-led, off-market M&A advisory across tech, finance and specialist recruitment.",
     h1: "Selling a recruitment agency in the UK",
     intro:
-      "We advise UK owners of permanent, contract and executive search recruitment businesses on confidential sales. Senior-led in the £5–50M EV segment — including specialist tech recruitment and finance recruitment platforms.",
+      "We advise UK owners of permanent, contract and executive search recruitment businesses on confidential sales. Senior-led in the £5M to £50M EV segment — including specialist tech recruitment and finance recruitment platforms.",
     heroSubtitle:
       "Perm vs contract mix, top-biller retention, earn-out structuring — the levers that move recruitment sale outcomes.",
     faqs: [
       {
         q: "What multiples do UK recruitment agencies trade at?",
-        a: "A wide range. Permanent recruitment trades at 4–6x adjusted EBITDA. Contract / temp recruitment with strong NFI quality trades higher (5–8x). Specialist executive search and high-margin niche permanent businesses can reach 8–10x.",
+        a: "A wide range. Permanent recruitment trades at 4 to 6x adjusted EBITDA. Contract / temp recruitment with strong NFI quality trades higher (5 to 8x). Specialist executive search and high-margin niche permanent businesses can reach 8 to 10x.",
       },
       {
         q: "Who buys UK recruitment agencies?",
@@ -284,7 +284,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
       },
       {
         q: "How long does a recruitment agency sale typically take?",
-        a: "6–9 months end to end. Earn-out structuring negotiation often adds a few weeks given how common earn-outs are in this sector.",
+        a: "6 to 9 months end to end. Earn-out structuring negotiation often adds a few weeks given how common earn-outs are in this sector.",
       },
       {
         q: "Will my consultants and clients find out?",
@@ -295,7 +295,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
       {
         heading: "Who we work with",
         cover: [
-          "Owner-managed UK recruitment agencies £5–50M EV",
+          "Owner-managed UK recruitment agencies £5M to £50M EV",
           "Specialist permanent, contract, temp, executive search",
         ],
         body: [

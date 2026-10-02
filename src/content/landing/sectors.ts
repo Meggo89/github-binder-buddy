@@ -7,24 +7,24 @@ export const SECTORS: SectorPillar[] = [
     nameLower: "business services",
     title: "Business Services M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      "Selling a UK business services company worth £5–50M? Senior-led, off-market M&A advisory. Confidential sale processes for owner-managed firms.",
+      "Selling a UK business services company worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential sale processes for owner-managed firms.",
     h1: "Selling a business services company in the UK",
     intro:
-      "We advise UK owners of business services companies on confidential sales, MBOs and capital raises. Engagements are senior-led from first call to completion, focused on businesses worth £5–50M in enterprise value.",
+      "We advise UK owners of business services companies on confidential sales, MBOs and capital raises. Engagements are senior-led from first call to completion, focused on businesses worth £5M to £50M in enterprise value.",
     heroSubtitle:
-      "Off-market approach to the 15–25 active PE-backed consolidators across UK business services.",
+      "Off-market approach to the 15 to 25 active PE-backed consolidators across UK business services.",
     faqs: [
       {
         q: "What multiples do business services companies trade at in the UK?",
-        a: "Multiples for UK business services companies typically range from 5x to 8x adjusted EBITDA for owner-managed firms in the £5–50M EV range, with premium ranges (8–12x) for businesses showing recurring revenue, low customer concentration and embedded technology. Multiples vary materially by sub-sector — recruitment, FM, HR/payroll and cleaning each carry different buyer appetite. We provide an indicative range as part of any first conversation.",
+        a: "Multiples for UK business services companies typically range from 5x to 8x adjusted EBITDA for owner-managed firms in the £5M to £50M EV range, with premium ranges (8 to 12x) for businesses showing recurring revenue, low customer concentration and embedded technology. Multiples vary materially by sub-sector — recruitment, FM, HR/payroll and cleaning each carry different buyer appetite. We provide an indicative range as part of any first conversation.",
       },
       {
         q: "How long does it take to sell a business services company?",
-        a: "A well-prepared sell-side process for a UK business services company typically runs 6–9 months from engagement to completion. The preparation phase (financial normalisation, IM drafting, buyer mapping) usually takes 6–10 weeks; the marketed process and negotiation 3–4 months; legal documentation and exchange another 6–10 weeks. Owners who start earlier (12–18 months out) typically achieve materially better outcomes.",
+        a: "A well-prepared sell-side process for a UK business services company typically runs 6 to 9 months from engagement to completion. The preparation phase (financial normalisation, IM drafting, buyer mapping) usually takes 6 to 10 weeks; the marketed process and negotiation 3 to 4 months; legal documentation and exchange another 6 to 10 weeks. Owners who start earlier (12 to 18 months out) typically achieve materially better outcomes.",
       },
       {
         q: "Who buys UK business services companies?",
-        a: "Three buyer pools dominate: PE-backed consolidators executing buy-and-build strategies, strategic acquirers seeking sector adjacency or geographic expansion, and direct PE houses pursuing a platform investment. Our buyer mapping typically identifies 40–80 credible names across these pools for any given business services mandate.",
+        a: "Three buyer pools dominate: PE-backed consolidators executing buy-and-build strategies, strategic acquirers seeking sector adjacency or geographic expansion, and direct PE houses pursuing a platform investment. Our buyer mapping typically identifies 40 to 80 credible names across these pools for any given business services mandate.",
       },
       {
         q: "What do buyers look for in business services companies?",
@@ -46,8 +46,8 @@ export const SECTORS: SectorPillar[] = [
     whoWeWorkWith: {
       heading: "Who we work with",
       cover: [
-        "Founder-managed UK business services firms worth £5–50M EV",
-        "Owners 12–24 months from a potential exit, or already actively considering one",
+        "Founder-managed UK business services firms worth £5M to £50M EV",
+        "Owners 12 to 24 months from a potential exit, or already actively considering one",
         "Boards considering a buy-and-build / consolidator strategy",
         "Brief profile of the typical client situation we are called into",
       ],
@@ -62,7 +62,7 @@ export const SECTORS: SectorPillar[] = [
       heading: "What buyers look for in business services businesses",
       cover: [
         "Recurring revenue and contract maturity",
-        "Customer concentration thresholds (no client >10–15% of revenue is typical)",
+        "Customer concentration thresholds (no client >10 to 15% of revenue is typical)",
         "Margin trajectory and operating leverage",
         "Management depth beyond the founder",
         "Clean financial reporting and adjusted EBITDA bridge",
@@ -70,7 +70,7 @@ export const SECTORS: SectorPillar[] = [
       body: [
         "Buyer behaviour in UK business services M&A has tightened materially since 2024. The PE-backed consolidators that dominated the buyer landscape in 2021-2023 are still active, but they have become significantly more disciplined about which businesses will receive premium multiples. Five things now consistently separate the businesses printing at the top of the range from those landing at the median.",
         "First, recurring revenue mix. Buyers will diligence the proportion of revenue that is contracted forward and the average weighted contract tail across the top 20 clients. Businesses where more than 75% of revenue sits on contracts longer than 12 months typically attract one to two turns above the sector median.",
-        "Second, customer concentration. The headline rule of thumb in the lower mid-market is that no single customer should represent more than 10–15% of revenue. Above 20% you typically lose buyers entirely from a competitive process. Above 30% you almost certainly print at a discount unless the customer relationship is institutional and the contract tail is multi-year.",
+        "Second, customer concentration. The headline rule of thumb in the lower mid-market is that no single customer should represent more than 10 to 15% of revenue. Above 20% you typically lose buyers entirely from a competitive process. Above 30% you almost certainly print at a discount unless the customer relationship is institutional and the contract tail is multi-year.",
         "Third, founder dependency. The most overlooked diligence area in this sector. Buyers want to see a senior team that can run the business if you stepped back tomorrow. Building out a credible number-two and documenting founder-held client relationships is, in our experience, the single highest-return preparation work most owners do in the 12 months before going to market.",
         "Fourth, technology stack and data quality. Buyers no longer treat operating systems, CRM data and integrated billing as a nice-to-have. They treat them as the prerequisite for any post-acquisition value-creation plan. Business services firms with material data hygiene issues consistently lose buyer enthusiasm during data-room review, regardless of headline financials.",
         "Fifth, EBITDA quality and adjustment defensibility. The single most common reason deals re-trade between exchange and completion is the buyer's diligence team disputing seller adjustments. We work with owners to build an EBITDA bridge that is defensible to the line — see our [exit planning advisor](/services/exit-planning-advisor-uk/) service for how this typically works 12 to 18 months out.",
@@ -80,7 +80,7 @@ export const SECTORS: SectorPillar[] = [
       heading: "Our process",
       cover: [
         "Cross-link to /process for the full six-stage flow",
-        "Brief 2–3 paragraph summary of how it applies to business services",
+        "Brief 2 to 3 paragraph summary of how it applies to business services",
         "What is different in this sector vs others",
       ],
       body: [
@@ -98,20 +98,20 @@ export const SECTORS: SectorPillar[] = [
     nameLower: "healthcare services",
     title: "Healthcare Services M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      "Selling a UK healthcare services business worth £5–50M? Senior-led, confidential M&A advisory across dental, vet, care, mental health and clinics.",
+      "Selling a UK healthcare services business worth £5M to £50M? Senior-led, confidential M&A advisory across dental, vet, care, mental health and clinics.",
     h1: "Selling a healthcare services business in the UK",
     intro:
-      "We advise owners of UK healthcare services businesses on confidential exits and growth-capital rounds. From dental and veterinary groups to care homes, mental health services and specialist clinics — senior-led, off-market, focused on the £5–50M segment.",
+      "We advise owners of UK healthcare services businesses on confidential exits and growth-capital rounds. From dental and veterinary groups to care homes, mental health services and specialist clinics — senior-led, off-market, focused on the £5M to £50M segment.",
     heroSubtitle:
-      "Off-market process across the 8–15 active PE-backed dental, vet, care, mental-health and specialist-clinic consolidators.",
+      "Off-market process across the 8 to 15 active PE-backed dental, vet, care, mental-health and specialist-clinic consolidators.",
     faqs: [
       {
         q: "What multiples do UK healthcare services businesses trade at?",
-        a: "Owner-managed healthcare services businesses typically transact at 7–10x adjusted EBITDA, with premium ranges achievable for groups with multiple sites, strong regulatory standing (CQC ratings, ICO/CMA position where relevant), and clean financial reporting. Dental groups, vet groups and specialist clinics command particularly strong buyer interest in the current market.",
+        a: "Owner-managed healthcare services businesses typically transact at 7 to 10x adjusted EBITDA, with premium ranges achievable for groups with multiple sites, strong regulatory standing (CQC ratings, ICO/CMA position where relevant), and clean financial reporting. Dental groups, vet groups and specialist clinics command particularly strong buyer interest in the current market.",
       },
       {
         q: "How does CQC / regulatory standing affect a sale?",
-        a: "Regulatory standing is one of the first items in any buyer diligence pack. Outstanding or Good ratings, clean inspection histories and well-documented compliance materially affect both deal certainty and headline price. Where there are remediable issues, we typically advise addressing them 6–12 months ahead of any process.",
+        a: "Regulatory standing is one of the first items in any buyer diligence pack. Outstanding or Good ratings, clean inspection histories and well-documented compliance materially affect both deal certainty and headline price. Where there are remediable issues, we typically advise addressing them 6 to 12 months ahead of any process.",
       },
       {
         q: "Who are the most active buyers of UK healthcare services businesses?",
@@ -119,7 +119,7 @@ export const SECTORS: SectorPillar[] = [
       },
       {
         q: "How long does a healthcare services sale typically take?",
-        a: "Allow 6–9 months from engagement to completion, with regulated diligence typically adding 2–4 weeks to a standard process. Where multi-site portfolios are involved, expect closer to 9–12 months.",
+        a: "Allow 6 to 9 months from engagement to completion, with regulated diligence typically adding 2 to 4 weeks to a standard process. Where multi-site portfolios are involved, expect closer to 9 to 12 months.",
       },
       {
         q: "Will my staff and clients find out we are running a process?",
@@ -133,10 +133,10 @@ export const SECTORS: SectorPillar[] = [
     whoWeWorkWith: {
       heading: "Who we work with",
       cover: [
-        "Owners of UK healthcare services businesses worth £5–50M EV",
+        "Owners of UK healthcare services businesses worth £5M to £50M EV",
         "Single-site and multi-site groups",
         "CQC and equivalent-regulated services",
-        "Founders 12–24 months from exit",
+        "Founders 12 to 24 months from exit",
       ],
       body: [
         "You own a UK healthcare services business worth between £5M and £50M in enterprise value. Maybe a dental group of three to twelve sites. A veterinary practice or a specialist referral platform. A care home group with mixed private and Local Authority funding. A mental health provider with contracted NHS work. An occupational health business serving corporate clients. A specialist clinic in aesthetics, fertility or ophthalmology.",
@@ -173,7 +173,7 @@ export const SECTORS: SectorPillar[] = [
       body: [
         "Our [six-stage process](/process/) runs senior-led from first conversation to completion. For healthcare services, three things shape how it plays out in practice.",
         "First, regulated diligence sits on a longer clock than commercial diligence. CQC reports, contractual novation with NHS England or ICBs, and Local Authority notification all run on timelines we do not control. We build that into the process design rather than pretending it does not exist, which avoids the late-stage surprises that derail healthcare deals more often than any other diligence area.",
-        "Second, the buyer pool is concentrated. There are typically 8–15 active PE-backed consolidators across dental, vet, care, mental health and specialist clinics at any given time, each with distinct strategies on site size, geographic preference, payer mix and integration intensity. The CMA market investigation into the veterinary sector has also reshaped expected timelines for vet deals specifically. Knowing which consolidators are deploying capital today, and on what terms, is the difference between a process that generates real competition and one that ends with a single buyer dictating terms.",
+        "Second, the buyer pool is concentrated. There are typically 8 to 15 active PE-backed consolidators across dental, vet, care, mental health and specialist clinics at any given time, each with distinct strategies on site size, geographic preference, payer mix and integration intensity. The CMA market investigation into the veterinary sector has also reshaped expected timelines for vet deals specifically. Knowing which consolidators are deploying capital today, and on what terms, is the difference between a process that generates real competition and one that ends with a single buyer dictating terms.",
         "Third, clinician engagement matters. We work with owners to structure how and when key clinicians are told about the process. Get this wrong and you risk both the deal and the team. Get it right and you protect both. The detail of that engagement is something we build into the process design from the first conversation, not a problem we react to at completion.",
       ],
     },
@@ -185,16 +185,16 @@ export const SECTORS: SectorPillar[] = [
     nameLower: "light industrial",
     title: "Light Industrial M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      "Selling a UK light industrial business worth £5–50M? Senior-led M&A advisory for specialist manufacturing, plant hire and engineering owners.",
+      "Selling a UK light industrial business worth £5M to £50M? Senior-led M&A advisory for specialist manufacturing, plant hire and engineering owners.",
     h1: "Selling a light industrial business in the UK",
     intro:
-      "We advise UK owners of specialist manufacturing, engineering and plant hire businesses on confidential sales and growth-capital rounds. Senior-led, off-market, focused on the £5–50M EV segment.",
+      "We advise UK owners of specialist manufacturing, engineering and plant hire businesses on confidential sales and growth-capital rounds. Senior-led, off-market, focused on the £5M to £50M EV segment.",
     heroSubtitle:
       "German, US and Japanese strategic acquirers pay differently for UK specialist industrials — we run those processes.",
     faqs: [
       {
         q: "What multiples do UK light industrial businesses trade at?",
-        a: "Typical ranges are 5–8x adjusted EBITDA for owner-managed light industrial businesses in the £5–50M EV segment, with premium multiples (8–11x) achievable for specialist manufacturing with defensible IP, blue-chip customers and meaningful international revenue.",
+        a: "Typical ranges are 5 to 8x adjusted EBITDA for owner-managed light industrial businesses in the £5M to £50M EV segment, with premium multiples (8 to 11x) achievable for specialist manufacturing with defensible IP, blue-chip customers and meaningful international revenue.",
       },
       {
         q: "Who buys UK light industrial businesses?",
@@ -206,7 +206,7 @@ export const SECTORS: SectorPillar[] = [
       },
       {
         q: "How long does a light industrial sale take?",
-        a: "6–9 months end to end is typical, with operational diligence (site visits, customer references, capex review) often adding to the timeline. Cross-border sales add a further 4–8 weeks for regulatory and tax structuring.",
+        a: "6 to 9 months end to end is typical, with operational diligence (site visits, customer references, capex review) often adding to the timeline. Cross-border sales add a further 4 to 8 weeks for regulatory and tax structuring.",
       },
       {
         q: "Will customer dependency be a deal-breaker?",
@@ -220,7 +220,7 @@ export const SECTORS: SectorPillar[] = [
     whoWeWorkWith: {
       heading: "Who we work with",
       cover: [
-        "UK specialist manufacturers worth £5–50M EV",
+        "UK specialist manufacturers worth £5M to £50M EV",
         "Plant hire and equipment rental businesses",
         "Engineering services and process engineering firms",
         "Industrial coatings and surface treatment specialists",
@@ -229,7 +229,7 @@ export const SECTORS: SectorPillar[] = [
         "You own a UK light industrial business worth between £5M and £50M in enterprise value. Specialist manufacturing in a defined niche. A plant hire or equipment rental platform serving construction or infrastructure. Engineering services across mechanical, electrical, controls or process. Industrial coatings, surface treatment, or other specialist finishing. Some of you make things; some of you make the things that make things possible.",
         "What unites our light industrial clients is asset weight, technical capability, and a customer book that took 15 to 30 years to build. The financials are real, the people know what they are doing, and the buyers who pay properly for businesses like yours are not necessarily the obvious ones. Strategic acquirers in adjacent sub-sectors, overseas industrial groups looking for UK footprint, infrastructure-style investors hunting for asset-backed cash flow, and PE consolidators executing buy-and-builds all play here, but they play differently and value differently.",
         "We typically engage 12 to 24 months before a target exit. The longer window matters more in this sector than in most, because capex normalisation, customer concentration management, and management succession take time to do honestly. A six-month rush does not produce the same outcome.",
-        "This is not the right fit if your business sits below the £5M EV threshold, or if your reported EBITDA depends on capex deferrals that buyers will see through immediately. It is also not the right fit if you are time-pressured to accept a specific buyer's number — running a real process across UK, European and overseas strategic buyers takes 6–9 months and works best when the owner has the head-space to engage with it properly.",
+        "This is not the right fit if your business sits below the £5M EV threshold, or if your reported EBITDA depends on capex deferrals that buyers will see through immediately. It is also not the right fit if you are time-pressured to accept a specific buyer's number — running a real process across UK, European and overseas strategic buyers takes 6 to 9 months and works best when the owner has the head-space to engage with it properly.",
       ],
     },
     whatBuyersLookFor: {
@@ -243,7 +243,7 @@ export const SECTORS: SectorPillar[] = [
       ],
       body: [
         "Buyer diligence in UK light industrial M&A focuses on five things consistently across specialist manufacturing, plant hire, engineering and coatings. Each one is fixable in advance, and each one is what gets disputed in late-stage diligence when it is not.",
-        "Customer concentration first. Light industrial businesses often have one or two anchor customers representing 25–40% of revenue. That is not, on its own, a deal-breaker. What buyers want to see is depth of the relationship: length of contract or relationship tenure, design-in position with the customer, switching cost, and the second and third order of business that flows through the relationship. We work with owners to document each of these before going to market.",
+        "Customer concentration first. Light industrial businesses often have one or two anchor customers representing 25 to 40% of revenue. That is not, on its own, a deal-breaker. What buyers want to see is depth of the relationship: length of contract or relationship tenure, design-in position with the customer, switching cost, and the second and third order of business that flows through the relationship. We work with owners to document each of these before going to market.",
         "Capex and asset intensity second. Reported EBITDA in this sector is only as good as the maintenance capex story behind it. Buyers value cash earnings net of sustainable replacement capex. A year of deferred capex inflates headline EBITDA but does not survive diligence, and trying to defend it during diligence costs you trust as well as price. Building a clean three-year capex bridge before going to market is one of the highest-return pieces of preparation work in this sector.",
         "Technical capability third. Defensible IP, registered patents, accredited processes, NADCAP or specialist aerospace and defence approvals — anything that makes you difficult to replicate sits at the top of the buyer pack. We help owners document and articulate it properly. Most light industrial businesses we work with have more defensibility than they have written down.",
         "International revenue and geographic mix fourth. UK strategic buyers tend to pay one range. European and global strategic buyers — German specialist manufacturing groups, US and Asian industrial platforms — frequently pay another, especially where the target has established export channels or differentiated technical capability. Our buyer mapping covers these international pools by default for every light industrial mandate.",
@@ -271,16 +271,16 @@ export const SECTORS: SectorPillar[] = [
     nameLower: "logistics and distribution",
     title: "Logistics & Distribution M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      "Selling a UK logistics or distribution business worth £5–50M? Senior-led, off-market M&A advisory. 3PL, cold-chain, freight, last-mile.",
+      "Selling a UK logistics or distribution business worth £5M to £50M? Senior-led, off-market M&A advisory. 3PL, cold-chain, freight, last-mile.",
     h1: "Selling a logistics or distribution business in the UK",
     intro:
-      "We advise UK owners of logistics and distribution businesses on confidential sales and growth-capital rounds. Senior-led across 3PL, cold-chain, freight forwarding, last-mile, warehousing and marine logistics. Focus on the £5–50M EV segment.",
+      "We advise UK owners of logistics and distribution businesses on confidential sales and growth-capital rounds. Senior-led across 3PL, cold-chain, freight forwarding, last-mile, warehousing and marine logistics. Focus on the £5M to £50M EV segment.",
     heroSubtitle:
       "Off-market M&A across 3PL, cold-chain, freight and marine. Recent completed exit: cold-chain + container leasing.",
     faqs: [
       {
         q: "What multiples do UK logistics and distribution businesses trade at?",
-        a: "Typical owner-managed logistics businesses trade at 5–8x adjusted EBITDA, with premium ranges (8–10x) achievable for cold-chain operators, specialist 3PL platforms and tech-enabled freight businesses. Pure haulage at the lower end of the range; integrated multi-modal and value-added logistics at the upper end.",
+        a: "Typical owner-managed logistics businesses trade at 5 to 8x adjusted EBITDA, with premium ranges (8 to 10x) achievable for cold-chain operators, specialist 3PL platforms and tech-enabled freight businesses. Pure haulage at the lower end of the range; integrated multi-modal and value-added logistics at the upper end.",
       },
       {
         q: "Who buys UK logistics and distribution businesses?",
@@ -292,11 +292,11 @@ export const SECTORS: SectorPillar[] = [
       },
       {
         q: "Will customer concentration kill a sale?",
-        a: "Concentration above 25–30% in a single customer is a meaningful diligence point but rarely a deal-breaker on its own. What matters is contract tail, switching cost, and depth of the relationship. We work with owners pre-process to document each of those.",
+        a: "Concentration above 25 to 30% in a single customer is a meaningful diligence point but rarely a deal-breaker on its own. What matters is contract tail, switching cost, and depth of the relationship. We work with owners pre-process to document each of those.",
       },
       {
         q: "How long does a logistics sale typically take?",
-        a: "6–9 months from engagement to completion is normal. Cold-chain and 3PL processes sometimes take longer because of operational and regulatory diligence (BRC, ISO, MHRA where relevant).",
+        a: "6 to 9 months from engagement to completion is normal. Cold-chain and 3PL processes sometimes take longer because of operational and regulatory diligence (BRC, ISO, MHRA where relevant).",
       },
       {
         q: "Do you advise on cross-border logistics sales?",
@@ -306,10 +306,10 @@ export const SECTORS: SectorPillar[] = [
     whoWeWorkWith: {
       heading: "Who we work with",
       cover: [
-        "UK logistics and distribution owners worth £5–50M EV",
+        "UK logistics and distribution owners worth £5M to £50M EV",
         "Specialist 3PL, cold-chain, freight forwarders, last-mile, warehousing operators",
         "Container leasing platforms and marine logistics",
-        "Owners 12–24 months from exit",
+        "Owners 12 to 24 months from exit",
       ],
       body: [
         "You own a UK logistics or distribution business worth between £5M and £50M in enterprise value. A specialist 3PL serving food, pharma or e-commerce. A cold-chain operator. A freight forwarder with strong customs brokerage capability post-Brexit. A last-mile platform with the courier model worked out. Warehousing and distribution with long-tenor contracts. Marine logistics, port services, container leasing.",
@@ -329,7 +329,7 @@ export const SECTORS: SectorPillar[] = [
       ],
       body: [
         "Logistics buyers run a sharper EBITDA quality and capex normalisation pass than buyers in many other sectors. Five items consistently sit at the front of the diligence pack.",
-        "Customer concentration and contract tail. Anchor contracts representing 25–35% of revenue are not unusual in 3PL and contract logistics. What buyers want to see is contract tail (months of binding revenue forward), operational integration depth (warehouse layout dedicated to the customer, IT integration, embedded staff), and switching cost. The same percentage of revenue at 36 months of tail with deep operational integration trades materially differently to the same percentage on a rolling 12-month contract.",
+        "Customer concentration and contract tail. Anchor contracts representing 25 to 35% of revenue are not unusual in 3PL and contract logistics. What buyers want to see is contract tail (months of binding revenue forward), operational integration depth (warehouse layout dedicated to the customer, IT integration, embedded staff), and switching cost. The same percentage of revenue at 36 months of tail with deep operational integration trades materially differently to the same percentage on a rolling 12-month contract.",
         "Fleet age and capex normalisation. Buyers value the cash earnings the fleet generates, not the assets themselves. A young fleet with sustainable replacement capex produces clean cash earnings; an aged fleet with deferred capex inflates headline EBITDA but does not survive diligence. Building a clean three-year capex bridge is, in our experience, the highest-return preparation work in logistics.",
         "Operational metrics by unit, route or contract. Margin per route, margin per shipment, gross profit per pallet, cost per mile, utilisation per asset. The businesses that command premium multiples can produce these metrics with confidence at the contract level, not just at the P&L level. The buyers know which lanes you make money on and which you lose money on long before you tell them.",
         "Technology stack. TMS, WMS, telematics integration, customer-facing portals. A strong embedded technology layer creates barriers to entry and customer stickiness, both of which buyers pay for. A logistics business running on spreadsheets and reseller software with no proprietary layer prints at the lower end of the multiple range regardless of headline EBITDA.",
@@ -357,16 +357,16 @@ export const SECTORS: SectorPillar[] = [
     nameLower: "professional services",
     title: "Professional Services M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      "Selling a UK professional services firm worth £5–50M? Senior-led M&A advisory for accountancy, legal, consulting, surveying and insolvency owners.",
+      "Selling a UK professional services firm worth £5M to £50M? Senior-led M&A advisory for accountancy, legal, consulting, surveying and insolvency owners.",
     h1: "Selling a professional services firm in the UK",
     intro:
-      "We advise UK owners and partner groups of accountancy, legal, consulting, surveying and insolvency firms on confidential sales and merger transactions. Senior-led, off-market, focused on firms worth £5–50M in enterprise value.",
+      "We advise UK owners and partner groups of accountancy, legal, consulting, surveying and insolvency firms on confidential sales and merger transactions. Senior-led, off-market, focused on firms worth £5M to £50M in enterprise value.",
     heroSubtitle:
       "Partner alignment, off-market buyer sourcing, senior-led — how accountancy, legal and consulting deals actually close.",
     faqs: [
       {
         q: "What multiples do UK professional services firms trade at?",
-        a: "Owner-managed UK professional services firms typically trade at 5–9x adjusted EBITDA, with premium ranges achievable for firms with recurring/contracted revenue, low partner concentration and a defensible client book. Multiples vary significantly by sub-sector — accountancy and surveying typically command higher multiples than pure consulting.",
+        a: "Owner-managed UK professional services firms typically trade at 5 to 9x adjusted EBITDA, with premium ranges achievable for firms with recurring/contracted revenue, low partner concentration and a defensible client book. Multiples vary significantly by sub-sector — accountancy and surveying typically command higher multiples than pure consulting.",
       },
       {
         q: "How do partner / equity structures affect a sale?",
@@ -382,7 +382,7 @@ export const SECTORS: SectorPillar[] = [
       },
       {
         q: "How long does a professional services sale typically take?",
-        a: "6–9 months end to end. Partnership alignment and structuring discussions sometimes extend this by 4–8 weeks where multiple equity partners are involved.",
+        a: "6 to 9 months end to end. Partnership alignment and structuring discussions sometimes extend this by 4 to 8 weeks where multiple equity partners are involved.",
       },
       {
         q: "Will my clients and team find out?",
@@ -392,7 +392,7 @@ export const SECTORS: SectorPillar[] = [
     whoWeWorkWith: {
       heading: "Who we work with",
       cover: [
-        "UK partner-led professional services firms worth £5–50M EV",
+        "UK partner-led professional services firms worth £5M to £50M EV",
         "Specialist accountancy, legal, consulting, surveying, insolvency firms",
         "Partner groups exploring exit, merger or growth capital",
       ],
@@ -442,16 +442,16 @@ export const SECTORS: SectorPillar[] = [
     nameLower: "tech-enabled services",
     title: "Tech-Enabled Services M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      "Selling a UK tech-enabled services business worth £5–50M? Senior-led M&A advisory across SaaS, MSP, digital, data, cyber and AI services.",
+      "Selling a UK tech-enabled services business worth £5M to £50M? Senior-led M&A advisory across SaaS, MSP, digital, data, cyber and AI services.",
     h1: "Selling a tech-enabled services business in the UK",
     intro:
-      "We advise UK owners of tech-enabled services businesses — vertical SaaS, MSPs, digital agencies, data, cybersecurity and AI services — on confidential sales and capital rounds. Senior-led, off-market, focused on the £5–50M EV segment.",
+      "We advise UK owners of tech-enabled services businesses — vertical SaaS, MSPs, digital agencies, data, cybersecurity and AI services — on confidential sales and capital rounds. Senior-led, off-market, focused on the £5M to £50M EV segment.",
     heroSubtitle:
       "SaaS, MSP, digital, cyber, AI — buyer pool and valuation methodology are different for each. We run those processes.",
     faqs: [
       {
         q: "What multiples do tech-enabled services businesses trade at?",
-        a: "A broad range. Pure services businesses (digital agencies, consulting-style MSPs) typically trade at 6–10x EBITDA. SaaS and recurring-revenue businesses are valued primarily on revenue multiples — typically 3–8x ARR depending on growth, retention and rule-of-40 metrics. Hybrid models are valued on a blend.",
+        a: "A broad range. Pure services businesses (digital agencies, consulting-style MSPs) typically trade at 6 to 10x EBITDA. SaaS and recurring-revenue businesses are valued primarily on revenue multiples — typically 3 to 8x ARR depending on growth, retention and rule-of-40 metrics. Hybrid models are valued on a blend.",
       },
       {
         q: "How does the SaaS vs services mix affect valuation?",
@@ -463,7 +463,7 @@ export const SECTORS: SectorPillar[] = [
       },
       {
         q: "How long does a tech-enabled services sale typically take?",
-        a: "6–9 months is normal. Technical diligence (architecture, security, IP) on more software-heavy businesses can add 2–4 weeks. Cross-border sales add 4–8 weeks for tax structuring.",
+        a: "6 to 9 months is normal. Technical diligence (architecture, security, IP) on more software-heavy businesses can add 2 to 4 weeks. Cross-border sales add 4 to 8 weeks for tax structuring.",
       },
       {
         q: "What about founder dependency on technical / commercial leadership?",
@@ -481,7 +481,7 @@ export const SECTORS: SectorPillar[] = [
     whoWeWorkWith: {
       heading: "Who we work with",
       cover: [
-        "UK tech-enabled services owners £5–50M EV",
+        "UK tech-enabled services owners £5M to £50M EV",
         "Vertical SaaS, IT MSPs, digital agencies, data, cyber, AI services",
         "Founder-led and PE-backed businesses considering next step",
       ],

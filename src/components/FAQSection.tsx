@@ -16,12 +16,12 @@ const DEFAULT_FAQ: FAQItem[] = [
   {
     question: 'What size of business do you work with?',
     answer:
-      "Founder-led businesses worth £5M–£50M. Family-owned companies, founder-managed firms, and PE-backed businesses seeking an exit or capital raise. Most of our work is UK lower mid-market, with cross-border transactions where a founder's buyer universe is international, including Spanish and Portuguese deals.",
+      "Founder-led businesses worth £5M to £50M. Family-owned companies, founder-managed firms, and PE-backed businesses seeking an exit or capital raise. Most of our work is UK lower mid-market, with cross-border transactions where a founder's buyer universe is international, including Spanish and Portuguese deals.",
   },
   {
     question: 'How long does a typical exit take?',
     answer:
-      'Most exits run 6–12 months from engagement to completion, shorter than the traditional 9–18 month range - primarily because readiness gaps are surfaced earlier and IM production is faster. We recommend starting exit planning 12–24 months before target completion so remediation time is on your side.',
+      'Most exits run 6 to 12 months from engagement to completion, shorter than the traditional 9 to 18 month range - primarily because readiness gaps are surfaced earlier and IM production is faster. We recommend starting exit planning 12 to 24 months before target completion so remediation time is on your side.',
   },
   {
     question: 'How do you charge?',

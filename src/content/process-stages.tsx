@@ -31,7 +31,7 @@ export const processStages: ProcessStage[] = [
     humanInput:
       'Strategic interpretation of findings. Founder coaching on what to prioritise. Judgment on what genuinely matters to acquirers versus what merely looks important on paper.',
     benefit: 'Issues surface 6-12 months before market',
-    benefitMetric: '6–12',
+    benefitMetric: '6 to 12',
     illustration: <ExitReadinessIllustration />,
   },
   {
@@ -56,8 +56,8 @@ export const processStages: ProcessStage[] = [
       'First-draft IM generation from structured data and founder interviews. Market sizing and competitive landscape analysis. Investment thesis and growth narrative drafting.',
     humanInput:
       'Strategic positioning. Narrative judgement. Sense-checking against buyer perspectives. Founder collaboration on the story being told.',
-    benefit: 'IM timeline compressed from 6–8 weeks to 2–3',
-    benefitMetric: '2–3 wks',
+    benefit: 'IM timeline compressed from 6 to 8 weeks to 2 to 3',
+    benefitMetric: '2 to 3 wks',
     illustration: <IMProductionIllustration />,
   },
   {
@@ -69,8 +69,8 @@ export const processStages: ProcessStage[] = [
       'Systematic identification of potential acquirers across strategic and financial categories. Analysis of buyer behaviour, recent acquisition activity, capital availability, and strategic fit. Outreach campaign management.',
     humanInput:
       'Relationship-led approach to priority buyers. Judgment on outreach timing and messaging. Leveraging personal networks for warm introductions to the buyers that matter most.',
-    benefit: 'Buyer pool typically 3–5× broader than traditional coverage',
-    benefitMetric: '3–5×',
+    benefit: 'Buyer pool typically 3 to 5× broader than traditional coverage',
+    benefitMetric: '3 to 5×',
     illustration: <BuyerOutreachIllustration />,
   },
   {

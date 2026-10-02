@@ -8,16 +8,16 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     nameLower: "container leasing",
     title: "Container Leasing M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      "Selling a UK container leasing platform worth £5–50M? Senior-led, off-market M&A advisory. We have recently completed a container leasing exit.",
+      "Selling a UK container leasing platform worth £5M to £50M? Senior-led, off-market M&A advisory. We have recently completed a container leasing exit.",
     h1: "Selling a container leasing platform in the UK",
     intro:
-      "We advise UK owners of container leasing platforms on confidential sales. Senior-led, off-market — and we have recently completed a container leasing exit, so the buyer landscape is fresh.",
+      "We advise UK owners of container leasing platforms on confidential sales. Senior-led, off-market, and we have recently completed a container leasing exit, so the buyer landscape is fresh.",
     heroSubtitle:
-      "We recently completed a container leasing exit — buyer landscape and diligence expectations are fresh.",
+      "We recently completed a container leasing exit: buyer landscape and diligence expectations are fresh.",
     faqs: [
       {
         q: "What multiples do UK container leasing platforms trade at?",
-        a: "Container leasing platforms are typically valued on a blend of EBITDA multiple and fleet net asset value — multiples vary widely with utilisation, fleet age, lease tail and contract quality. Recent transaction multiples have been stronger than headline market commentary suggests.",
+        a: "Container leasing platforms are typically valued on a blend of EBITDA multiple and fleet net asset value: multiples vary widely with utilisation, fleet age, lease tail and contract quality. Recent transaction multiples have been stronger than headline market commentary suggests.",
       },
       {
         q: "Who buys UK container leasing platforms?",
@@ -33,21 +33,21 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
       },
       {
         q: "How long does a container leasing sale typically take?",
-        a: "6–9 months end to end, sometimes longer where international buyers introduce additional diligence threads.",
+        a: "6 to 9 months end to end, sometimes longer where international buyers introduce additional diligence threads.",
       },
       {
         q: "Are there integrated cold-chain + container leasing buyers?",
-        a: "Yes — and they often pay a premium because of the operational integration. We map both buyer pools (pure container leasing and integrated logistics) on every mandate.",
+        a: "Yes, and they often pay a premium because of the operational integration. We map both buyer pools (pure container leasing and integrated logistics) on every mandate.",
       },
     ],
     contentTodos: [
       {
         heading: "Who we work with",
-        cover: ["UK container leasing owners £5–50M EV"],
+        cover: ["UK container leasing owners £5M to £50M EV"],
         body: [
           "You own a UK container leasing platform worth between £5M and £50M in enterprise value. A specialist container leasing operator (dry van, refrigerated, specialist tank or ISO container). A combined leasing and modification platform. A leasing operation built within or alongside a logistics or refrigerated transport business. Most likely a fleet of contracted-out units across a recognisable customer base, with a mix of long-lease and short-cycle revenue.",
-          "The buyer pool is international and well-funded. Larger international container leasing groups acquire platforms for capability or geographic fill-in. Refrigerated logistics groups acquire container leasing capability to integrate it operationally with their fleet and cold-chain network. Infrastructure-style investors target long-tenor leasing income as predictable yield. We have recently completed a container leasing exit ourselves — see [our work](/case-studies/) — so the buyer landscape is fresh and the diligence experience is live.",
-          "We engage 12 to 24 months before a target exit. The longer window matters because the highest-return preparation work in container leasing — strengthening the contracted lease tail position, addressing fleet age and replacement capex normalisation, and (where the operation sits within a broader logistics business) deciding whether to sell as an integrated platform or separately — takes time.",
+          "The buyer pool is international and well-funded. Larger international container leasing groups acquire platforms for capability or geographic fill-in. Refrigerated logistics groups acquire container leasing capability to integrate it operationally with their fleet and cold-chain network. Infrastructure-style investors target long-tenor leasing income as predictable yield. We have recently completed a container leasing exit ourselves, see [our work](/case-studies/), so the buyer landscape is fresh and the diligence experience is live.",
+          "We engage 12 to 24 months before a target exit. The longer window matters because the highest-return preparation work in container leasing (strengthening the contracted lease tail position, addressing fleet age and replacement capex normalisation, and (where the operation sits within a broader logistics business) deciding whether to sell as an integrated platform or separately) takes time.",
           "This is not the right fit if your business is below £5M EV. It is also not the right fit if your fleet is heavily aged with deferred capex that will not survive operational diligence; that position is better addressed in the readiness phase, before any process.",
         ],
       },
@@ -62,10 +62,10 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
         ],
         body: [
           "Buyer diligence in UK container leasing M&A focuses on five items. Each consistently drives the difference between top-of-range and median outcomes.",
-          "Fleet age and condition first. Buyers value the cash earnings the fleet generates net of expected replacement capex. A young, well-maintained fleet supports stronger cashflow conversion and a higher multiple. We help owners build a clean three-year capex bridge that distinguishes maintenance from growth capex — the single highest-return piece of pre-process work in this sector.",
+          "Fleet age and condition first. Buyers value the cash earnings the fleet generates net of expected replacement capex. A young, well-maintained fleet supports stronger cashflow conversion and a higher multiple. We help owners build a clean three-year capex bridge that distinguishes maintenance from growth capex, the single highest-return piece of pre-process work in this sector.",
           "Utilisation rate second. Utilisation rate across the fleet, broken down by container type and contract type, is the headline operational metric. Premium pricing requires consistent utilisation above 85% on rentable fleet, with discipline through the cycle.",
           "Lease tail and contract quality third. Long-tenor contracted lease income supports premium pricing because of revenue visibility. Short-cycle and spot leasing trades on lower multiples but with growth optionality. Books with 24+ months of weighted lease tail command meaningfully better pricing than rolling short-cycle books at the same headline revenue.",
-          "Customer concentration and credit quality fourth. Concentration is common in container leasing. What matters is customer credit quality, contractual position, length of relationship, and the operational integration depth — not just the headline percentage. We work with owners to document this honestly.",
+          "Customer concentration and credit quality fourth. Concentration is common in container leasing. What matters is customer credit quality, contractual position, length of relationship, and the operational integration depth, not just the headline percentage. We work with owners to document this honestly.",
           "Asset valuation methodology fifth. Container leasing is often valued on a blend of EBITDA multiple and fleet net asset value. Different buyer pools weight the two differently. Operating buyers focus on EBITDA; infrastructure-style investors focus on yield from contracted assets. The right process design surfaces interest from both pools, which produces the strongest total outcome.",
         ],
       },
@@ -73,7 +73,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
         heading: "Our process",
         cover: ["Cross-link /process"],
         body: [
-          "Our [six-stage process](/process/) runs senior-led across the full mandate. For container leasing, three things shape execution — and our recent transaction experience in this exact niche informs each.",
+          "Our [six-stage process](/process/) runs senior-led across the full mandate. For container leasing, three things shape execution, and our recent transaction experience in this exact niche informs each.",
           "Buyer mapping covers two distinct pools simultaneously: operating buyers (international container leasing groups, integrated refrigerated logistics platforms) and yield-driven buyers (infrastructure-style investors targeting contracted leasing income). The right process design surfaces interest from both pools, often producing the strongest total outcome via a tailored sale structure. Our buyer mapping is supported by our proprietary technology layer for surfacing acquirer signals from licensed market data.",
           "Asset diligence runs alongside commercial diligence on a separate calendar. Fleet condition, asset register audit, contractual position by lease, and historic capex normalisation. We design the data room to anticipate all of this from the start.",
           "Senior-led delivery matters because the conversations buyers want to have move between fleet detail, customer relationship depth and integration strategy at speed. See [the logistics pillar](/sectors/logistics-and-distribution/) for context and [cold-chain logistics](/sectors/logistics-and-distribution/cold-chain-logistics/) for the closest adjacent niche.",
@@ -82,7 +82,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     ],
     caseStudyAnchor: {
       tag: "Recent transaction",
-      title: "Cold-chain Logistics & Container Leasing Operator — full sale",
+      title: "Cold-chain Logistics & Container Leasing Operator: full sale",
       href: "/case-studies/",
     },
   },
@@ -93,16 +93,16 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     nameLower: "cold-chain logistics",
     title: "Cold-Chain Logistics M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      "Selling a UK cold-chain logistics business worth £5–50M? Senior-led, off-market M&A advisory. We have recently completed a cold-chain exit.",
+      "Selling a UK cold-chain logistics business worth £5M to £50M? Senior-led, off-market M&A advisory. We have recently completed a cold-chain exit.",
     h1: "Selling a cold-chain logistics business in the UK",
     intro:
-      "We advise UK owners of cold-chain logistics businesses on confidential sales. Senior-led, off-market — and we have recently completed a cold-chain logistics exit, so the buyer landscape is fresh.",
+      "We advise UK owners of cold-chain logistics businesses on confidential sales. Senior-led, off-market, and we have recently completed a cold-chain logistics exit, so the buyer landscape is fresh.",
     heroSubtitle:
-      "We recently completed a cold-chain logistics exit — buyer landscape and BRCGS diligence expectations are fresh.",
+      "We recently completed a cold-chain logistics exit: buyer landscape and BRCGS diligence expectations are fresh.",
     faqs: [
       {
         q: "What multiples do UK cold-chain logistics businesses trade at?",
-        a: "Specialist cold-chain operators typically trade at 7–10x adjusted EBITDA — meaningfully above pure ambient logistics — because of the regulatory and capex barriers to entry.",
+        a: "Specialist cold-chain operators typically trade at 7 to 10x adjusted EBITDA, meaningfully above pure ambient logistics, because of the regulatory and capex barriers to entry.",
       },
       {
         q: "Who buys UK cold-chain logistics businesses?",
@@ -118,7 +118,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
       },
       {
         q: "How long does a cold-chain sale typically take?",
-        a: "6–9 months end to end. Operational and regulatory diligence sometimes extends this.",
+        a: "6 to 9 months end to end. Operational and regulatory diligence sometimes extends this.",
       },
       {
         q: "Are there integrated buyers for cold-chain + container leasing platforms?",
@@ -128,11 +128,11 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     contentTodos: [
       {
         heading: "Who we work with",
-        cover: ["Cold-chain logistics owners £5–50M EV"],
+        cover: ["Cold-chain logistics owners £5M to £50M EV"],
         body: [
           "You own a UK cold-chain logistics business worth between £5M and £50M in enterprise value. A specialist refrigerated transport operator. An integrated cold storage and distribution platform. A multi-temperature 3PL serving food, pharma, or specialist sectors. A specialist cold-chain operator with refrigerated container capability. Most likely a mix of contract logistics revenue, cold storage income, and (in some cases) value-add services like packing, labelling or order assembly.",
-          "The buyer pool is international and well-funded. Larger UK and European cold-chain platforms acquire for capability or geographic fill-in. PE-backed consolidators execute buy-and-build in defined cold-chain niches. Infrastructure-style investors target long-tenor cold storage income as predictable yield. Overseas strategics — particularly Dutch, German, French and US — acquire UK cold-chain platforms for UK and European footprint. We have recently completed a cold-chain logistics exit ourselves — see [our work](/case-studies/) — so the live buyer landscape is fresh.",
-          "We engage 12 to 24 months before a target exit. The longer window matters because the highest-return preparation work in cold-chain — strengthening accreditation hygiene, addressing fleet age and capex normalisation, documenting customer contract tail and integration depth, and (for freehold-heavy cold storage assets) deciding the property strategy — takes time.",
+          "The buyer pool is international and well-funded. Larger UK and European cold-chain platforms acquire for capability or geographic fill-in. PE-backed consolidators execute buy-and-build in defined cold-chain niches. Infrastructure-style investors target long-tenor cold storage income as predictable yield. Overseas strategics (particularly Dutch, German, French and US) acquire UK cold-chain platforms for UK and European footprint. We have recently completed a cold-chain logistics exit ourselves, see [our work](/case-studies/), so the live buyer landscape is fresh.",
+          "We engage 12 to 24 months before a target exit. The longer window matters because the highest-return preparation work in cold-chain (strengthening accreditation hygiene, addressing fleet age and capex normalisation, documenting customer contract tail and integration depth, and (for freehold-heavy cold storage assets) deciding the property strategy) takes time.",
           "This is not the right fit if your business is below £5M EV, or if accreditation positions are in active remediation. In both cases the readiness phase is the place to start. Equally if you have decided to accept a specific approach, that is a different mandate.",
         ],
       },
@@ -151,7 +151,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
           "Fleet age and capex normalisation second. Cold-chain businesses are asset-heavy. Buyers value cash earnings net of sustainable replacement capex. A young, well-maintained refrigerated fleet supports stronger cashflow conversion. Building a clean three-year capex bridge that distinguishes maintenance from growth capex is one of the highest-return pieces of pre-process work in this sector.",
           "Customer concentration and contract tail third. Anchor customers representing 25-40% of revenue are common in specialist cold-chain. What matters is contract tail (months of binding revenue forward), operational integration depth (dedicated warehouse space, IT integration, embedded crew), and switching cost. The same concentration with deep integration trades materially differently from rolling supply at the same percentage.",
           "Cold storage capacity utilisation fourth. For integrated platforms, occupancy of cold storage capacity by temperature regime, average pallet rate, and contracted forward visibility. Premium pricing requires consistent occupancy above 85-90% with rate discipline.",
-          "Margin per route / pallet / case fifth. Buyers diligence operational margin at unit level — per refrigerated route, per pallet-in cold storage, per case handled. Surfacing this clearly is essential.",
+          "Margin per route / pallet / case fifth. Buyers diligence operational margin at unit level: per refrigerated route, per pallet-in cold storage, per case handled. Surfacing this clearly is essential.",
           "Property structure sixth. Freehold-heavy cold storage facilities open the property-led buyer pool in addition to the operating buyer pool. We typically run the process to maximise outcome from both pools simultaneously, with OpCo/PropCo structuring where it produces a stronger total outcome.",
         ],
       },
@@ -159,7 +159,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
         heading: "Our process",
         cover: ["Cross-link /process"],
         body: [
-          "Our [six-stage process](/process/) runs senior-led across the full mandate. For cold-chain logistics, three things shape execution — and our recent transaction experience in this exact sector informs each.",
+          "Our [six-stage process](/process/) runs senior-led across the full mandate. For cold-chain logistics, three things shape execution, and our recent transaction experience in this exact sector informs each.",
           "Operational and regulatory diligence run on heavier calendars than commercial diligence. Accreditation audits, customer reference calls, site visits, fleet condition reports, regulatory compliance review. We design the process around this calendar from the start.",
           "Buyer mapping covers four distinct pools: UK and European strategic cold-chain platforms, PE-backed consolidators in cold-chain, infrastructure-style investors targeting long-tenor cold storage income, and overseas strategics building UK footprint. Each operates to different criteria. Our buyer mapping covers all four, supported by our proprietary technology layer for surfacing acquirer signals from licensed logistics M&A data.",
           "Senior-led delivery matters because the buyer conversations move between operational detail, customer relationship depth, regulatory positioning, and strategic integration at speed. See [the logistics pillar](/sectors/logistics-and-distribution/) for context and [container leasing](/sectors/logistics-and-distribution/container-leasing/) for the closest adjacent niche.",
@@ -168,7 +168,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     ],
     caseStudyAnchor: {
       tag: "Recent transaction",
-      title: "Cold-chain Logistics & Container Leasing Operator — full sale",
+      title: "Cold-chain Logistics & Container Leasing Operator: full sale",
       href: "/case-studies/",
     },
   },
@@ -179,16 +179,16 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     nameLower: "3PL",
     title: "3PL M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      "Selling a UK third-party logistics (3PL) business worth £5–50M? Senior-led, off-market M&A advisory. Confidential process.",
+      "Selling a UK third-party logistics (3PL) business worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential process.",
     h1: "Selling a third-party logistics (3PL) business in the UK",
     intro:
-      "We advise UK owners of third-party logistics businesses — contract logistics, e-commerce fulfilment, value-add 3PL — on confidential sales. Senior-led in the £5–50M EV segment.",
+      "We advise UK owners of third-party logistics businesses (contract logistics, e-commerce fulfilment, value-add 3PL) on confidential sales. Senior-led in the £5M to £50M EV segment.",
     heroSubtitle:
-      "Wincanton/GXO, Culina, DHL Supply Chain, and PE consolidators (Endless, LDC, HgCapital) — the active UK 3PL acquirer pool.",
+      "Wincanton/GXO, Culina, DHL Supply Chain, and PE consolidators (Endless, LDC, HgCapital), the active UK 3PL acquirer pool.",
     faqs: [
       {
         q: "What multiples do UK 3PL businesses trade at?",
-        a: "Specialist 3PLs typically trade at 6–9x adjusted EBITDA. Premium ranges for businesses with tech-enabled platforms, embedded major-client relationships and long contract tails.",
+        a: "Specialist 3PLs typically trade at 6 to 9x adjusted EBITDA. Premium ranges for businesses with tech-enabled platforms, embedded major-client relationships and long contract tails.",
       },
       {
         q: "Who buys UK 3PL businesses?",
@@ -204,7 +204,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
       },
       {
         q: "How long does a 3PL sale typically take?",
-        a: "6–9 months end to end.",
+        a: "6 to 9 months end to end.",
       },
       {
         q: "How is property (warehouse leases) treated?",
@@ -212,23 +212,23 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
       },
       {
         q: "Are you a 3PL consultancy firm?",
-        a: "No. We are an M&A advisor for owners of UK third-party logistics businesses worth £5–50M in enterprise value. If you are looking for a 3PL strategy consultant to help you design your operations, choose a WMS or optimise your network, that is a different type of firm — well-known 3PL consultants in the UK space include Gideon Hillman Consulting, Establish, Davies & Robson, and the logistics practices of larger consulting groups. Mastella advises 3PL owners on selling the business, raising growth capital, or acquiring competitors. Where an owner needs both, we regularly refer to specialist 3PL operational consultants and coordinate alongside their work.",
+        a: "No. We are an M&A advisor for owners of UK third-party logistics businesses worth £5M to £50M in enterprise value. If you are looking for a 3PL strategy consultant to help you design your operations, choose a WMS or optimise your network, that is a different type of firm: well-known 3PL consultants in the UK space include Gideon Hillman Consulting, Establish, Davies & Robson, and the logistics practices of larger consulting groups. Mastella advises 3PL owners on selling the business, raising growth capital, or acquiring competitors. Where an owner needs both, we regularly refer to specialist 3PL operational consultants and coordinate alongside their work.",
       },
       {
         q: "Which 3PL strategy consultants do you recommend for operational work?",
-        a: "For pure operational strategy work — network design, WMS selection, warehouse layout, cost-to-serve analysis, contract negotiation with shippers — established UK 3PL consultancies include Gideon Hillman Consulting, Establish Inc., Davies & Robson, Barrett Distribution Consulting and the supply chain practices of larger firms (Deloitte, PA Consulting, GEP). We are an M&A advisor, not an operational consultancy, but the two disciplines overlap during exit preparation. Owners who have done meaningful operational work before going to market typically achieve better multiples because buyers can see the improved unit economics rather than being asked to underwrite promised ones.",
+        a: "For pure operational strategy work (network design, WMS selection, warehouse layout, cost-to-serve analysis, contract negotiation with shippers) established UK 3PL consultancies include Gideon Hillman Consulting, Establish Inc., Davies & Robson, Barrett Distribution Consulting and the supply chain practices of larger firms (Deloitte, PA Consulting, GEP). We are an M&A advisor, not an operational consultancy, but the two disciplines overlap during exit preparation. Owners who have done meaningful operational work before going to market typically achieve better multiples because buyers can see the improved unit economics rather than being asked to underwrite promised ones.",
       },
       {
         q: "Which 3PL M&A advisors work with UK lower mid-market owners?",
-        a: "The UK lower mid-market 3PL M&A landscape includes several specialist advisors alongside the sector teams of larger corporate finance firms. Mastella works in this segment specifically — £5–50M enterprise value, owner-led businesses, off-market process with senior-led delivery. Other advisors active in adjacent segments include the logistics teams at BDO, RSM, PKF Smith Cooper, Cavendish, Cortus Advisory and various specialist boutiques. What matters more than the shortlist is whether the advisor actually knows the current active buyer pool in your specific 3PL sub-segment (contract logistics, e-commerce fulfilment, cold-chain, freight) and can produce named buyer engagement — not just outreach volume.",
+        a: "The UK lower mid-market 3PL M&A landscape includes several specialist advisors alongside the sector teams of larger corporate finance firms. Mastella works in this segment specifically (£5M to £50M enterprise value, owner-led businesses, off-market process with senior-led delivery. Other advisors active in adjacent segments include the logistics teams at BDO, RSM, PKF Smith Cooper, Cavendish, Cortus Advisory and various specialist boutiques. What matters more than the shortlist is whether the advisor actually knows the current active buyer pool in your specific 3PL sub-segment (contract logistics, e-commerce fulfilment, cold-chain, freight) and can produce named buyer engagement) not just outreach volume.",
       },
       {
         q: "Who are the active UK 3PL consolidators right now?",
-        a: "The most visible UK acquirers include Wincanton (now part of GXO Logistics), Culina Group (backed by Muller), Great Bear Distribution, EV Cargo, Elanders UK, Rhenus Warehousing Solutions, DHL Supply Chain UK, Yusen Logistics, XPO, and DP World Logistics — alongside PE-backed platforms including those under Endless, LDC, HgCapital's supply chain positions and multiple mid-market PE roll-ups. E-commerce fulfilment attracts a partly separate buyer pool (Prologis logistics services, ILG, Huboo and various PE-backed fulfilment consolidators). Cold-chain 3PL and specialist pharma 3PL attract additional named buyers in each sub-niche.",
+        a: "The most visible UK acquirers include Wincanton (now part of GXO Logistics), Culina Group (backed by Muller), Great Bear Distribution, EV Cargo, Elanders UK, Rhenus Warehousing Solutions, DHL Supply Chain UK, Yusen Logistics, XPO, and DP World Logistics, alongside PE-backed platforms including those under Endless, LDC, HgCapital's supply chain positions and multiple mid-market PE roll-ups. E-commerce fulfilment attracts a partly separate buyer pool (Prologis logistics services, ILG, Huboo and various PE-backed fulfilment consolidators). Cold-chain 3PL and specialist pharma 3PL attract additional named buyers in each sub-niche.",
       },
       {
         q: "What EBITDA multiple can I expect for my UK 3PL business?",
-        a: "Specialist 3PL businesses in the UK £5–50M enterprise value segment typically trade at 6–9x adjusted EBITDA. Contract logistics with long anchor contracts and strong technology integration reaches the upper end (8–10x). Cold-chain and specialist pharma 3PL command a premium (8–10x+). Pure e-commerce fulfilment ranges widely (5–10x) depending on client concentration, unit economics and technology positioning. Straight haulage and undifferentiated 3PL at the lower end (5–7x). Multiples move within these ranges based on contract tail, customer concentration, tech-stack depth, operative retention and warehouse property structure.",
+        a: "Specialist 3PL businesses in the UK £5M to £50M enterprise value segment typically trade at 6 to 9x adjusted EBITDA. Contract logistics with long anchor contracts and strong technology integration reaches the upper end (8 to 10x). Cold-chain and specialist pharma 3PL command a premium (8 to 10x+). Pure e-commerce fulfilment ranges widely (5 to 10x) depending on client concentration, unit economics and technology positioning. Straight haulage and undifferentiated 3PL at the lower end (5 to 7x). Multiples move within these ranges based on contract tail, customer concentration, tech-stack depth, operative retention and warehouse property structure.",
       },
       {
         q: "How long does it take to sell a UK 3PL business?",
@@ -242,11 +242,11 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     contentTodos: [
       {
         heading: "Who we work with",
-        cover: ["3PL owners £5–50M EV"],
+        cover: ["3PL owners £5M to £50M EV"],
         body: [
           "You own a UK third-party logistics business worth between £5M and £50M in enterprise value. A specialist contract logistics operator serving food, pharma, retail or industrial clients. An e-commerce fulfilment platform with multi-client capability. A value-add 3PL providing packing, labelling, kitting, returns processing or specialist storage. Most likely a mix of dedicated contract logistics revenue and multi-client shared services.",
           "The buyer pool is concentrated and active. Larger UK and European strategic 3PL groups acquire for capability or geographic fill-in. PE-backed 3PL consolidators have been particularly active in the lower mid-market over the last three years. Infrastructure-style investors target long-tenor contracted logistics income.",
-          "We engage 12 to 24 months before a target exit. The longer window matters because the highest-return preparation work in 3PL — addressing anchor customer contract tail, surfacing technology and integration depth, documenting margin per contract, and addressing warehouse lease positions — takes time.",
+          "We engage 12 to 24 months before a target exit. The longer window matters because the highest-return preparation work in 3PL (addressing anchor customer contract tail, surfacing technology and integration depth, documenting margin per contract, and addressing warehouse lease positions) takes time.",
           "This is not the right fit if your business is below £5M EV. It is also not the right fit if more than 50% of revenue depends on one customer with a rolling 12-month contract; that is a real diligence flag and is better addressed in the readiness phase.",
         ],
       },
@@ -268,7 +268,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
           "Operative retention fifth. Picker, driver and supervisor tenure, churn rates, agency-to-permanent ratio, wage discipline relative to regional market. Premium pricing requires a credible retention story.",
           "Contract structure and change-of-control sixth. Buyers will map every material customer contract for change-of-control clauses, assignment provisions, exclusivity terms and open re-tender dates. Books with clean assignable contracts and long weighted-average tail (typically 30+ months on top-20 contracts) trade materially better than books with rolling 12-month terms and change-of-control triggers on anchor accounts. Pre-process work to catalogue every material contract is essential preparation.",
           "Site network and geographic coverage seventh. The number and geographic distribution of warehouses, distribution centres and depots. Multi-site networks with modern high-bay facilities in the golden logistics triangle (Midlands, Northampton corridor, M62) command a premium. Single-site operators outside primary logistics geographies trade at wider variance. Buyers also diligence utilisation across sites and headroom for growth.",
-          "Sustainability and ESG credentials eighth. Increasingly diligenced. Carbon reduction trajectory, fleet electrification programme, warehouse energy efficiency (solar, LED, heat pumps), Scope 1/2/3 measurement discipline, and client-facing ESG reporting all now factor into buyer decisions — particularly PE consolidators reporting to institutional LPs with net-zero commitments. Ahead-of-curve ESG positioning is a genuine multiple driver, not a hygiene item.",
+          "Sustainability and ESG credentials eighth. Increasingly diligenced. Carbon reduction trajectory, fleet electrification programme, warehouse energy efficiency (solar, LED, heat pumps), Scope 1/2/3 measurement discipline, and client-facing ESG reporting all now factor into buyer decisions, particularly PE consolidators reporting to institutional LPs with net-zero commitments. Ahead-of-curve ESG positioning is a genuine multiple driver, not a hygiene item.",
           "Unit economics granularity ninth. Buyers now expect margin data at the level of individual contracts, individual warehouse operations, cost per pallet moved, cost per case picked, cost per mile driven, and gross profit per FTE. 3PL businesses that can produce this data in structured form materially outperform those that present only aggregate P&L. It signals operational discipline and reduces post-completion integration risk for the buyer.",
         ],
       },
@@ -281,9 +281,9 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
           "UK 3PL M&A has been one of the most consistently active sub-segments of UK logistics M&A over the last five years, and remains active in 2026 despite broader macro uncertainty. Below is a snapshot of the current landscape.",
           "**Active strategic acquirers.** Wincanton (now GXO Logistics), Culina Group (Muller), Great Bear Distribution, EV Cargo, Elanders UK, Rhenus Warehousing Solutions, DHL Supply Chain UK, Yusen Logistics, XPO Logistics, DP World Logistics and Kuehne + Nagel all remain active for the right add-on assets. European strategics (particularly Dutch, German and French logistics groups) are increasingly active in UK 3PL for sub-sector capability and post-Brexit customs positioning.",
           "**Active PE-backed platforms.** Endless (Woodland Group and others), LDC, HgCapital, Bridgepoint, Inflexion, Livingbridge and various mid-market PE houses have platforms in specialist 3PL, cold-chain, pharma logistics and e-commerce fulfilment. E-commerce fulfilment specifically attracts an additional buyer pool including ILG, Huboo, Byrd and other PE-backed fulfilment consolidators.",
-          "**Multiples.** Straight contract logistics and haulage at the lower end (5–7x adjusted EBITDA); tech-enabled specialist 3PL and multi-client fulfilment in the middle (7–9x); cold-chain, pharma 3PL, specialist bonded warehousing and premium e-commerce fulfilment at the upper end (8–10x+). Anchor-customer contract tail, technology depth and warehouse property structure move the multiple within these ranges more than headline EBITDA does.",
-          "**Sub-sector shifts.** Pharma and clinical trial logistics have seen concentrated buyer interest as consolidators build specialist platforms. Cold-chain 3PL remains structurally attractive on capex-barrier grounds. Specialist bonded warehousing has attracted post-Brexit interest. Pure e-commerce fulfilment has cooled slightly from the 2021–22 peak but remains active for platforms with clean unit economics and demonstrated retention.",
-          "**Property-led interest.** Freehold warehouse portfolios attract a separate infrastructure-style buyer pool. OpCo/PropCo structures — sell the operating business to one buyer, retain the property (or sell it to a property specialist with a leaseback) — have delivered stronger total outcomes than single-buyer sales for several freehold-heavy 3PL owners over the last 24 months.",
+          "**Multiples.** Straight contract logistics and haulage at the lower end (5 to 7x adjusted EBITDA); tech-enabled specialist 3PL and multi-client fulfilment in the middle (7 to 9x); cold-chain, pharma 3PL, specialist bonded warehousing and premium e-commerce fulfilment at the upper end (8 to 10x+). Anchor-customer contract tail, technology depth and warehouse property structure move the multiple within these ranges more than headline EBITDA does.",
+          "**Sub-sector shifts.** Pharma and clinical trial logistics have seen concentrated buyer interest as consolidators build specialist platforms. Cold-chain 3PL remains structurally attractive on capex-barrier grounds. Specialist bonded warehousing has attracted post-Brexit interest. Pure e-commerce fulfilment has cooled slightly from the 2021 to 22 peak but remains active for platforms with clean unit economics and demonstrated retention.",
+          "**Property-led interest.** Freehold warehouse portfolios attract a separate infrastructure-style buyer pool. OpCo/PropCo structures (sell the operating business to one buyer, retain the property (or sell it to a property specialist with a leaseback)) have delivered stronger total outcomes than single-buyer sales for several freehold-heavy 3PL owners over the last 24 months.",
           "**Diligence sharpening.** Post-2023 buyers have tightened diligence on customer-contract change-of-control, warehouse lease dilapidation exposure, agency-labour cost trajectories and Scope 1/2/3 carbon disclosure. Preparation depth on each of these consistently correlates with completion at headline expectation rather than re-trade.",
         ],
       },
@@ -294,7 +294,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For 3PL businesses, three things shape execution.",
           "Operational diligence is heavier than commercial diligence. Customer reference calls, site visits, technology audits, contract reviews, capex review. We design the process around this from the start.",
           "Buyer mapping is segmented across UK and European strategic 3PL groups, PE consolidators, and infrastructure-style investors. Specialist 3PL niches (cold-chain, pharma, hazmat, e-commerce, specialist food) attract additional sub-segment buyer pools. Our buyer mapping covers each, supported by our proprietary technology layer for surfacing acquirer signals.",
-          "Off-market sourcing protects what matters most in 3PL — customer relationships and the operations team. We approach a curated buyer list under NDA only. See [the logistics pillar](/sectors/logistics-and-distribution/) for context and [warehousing and distribution](/sectors/logistics-and-distribution/warehousing-and-distribution/) for the closest adjacent niche.",
+          "Off-market sourcing protects what matters most in 3PL: customer relationships and the operations team. We approach a curated buyer list under NDA only. See [the logistics pillar](/sectors/logistics-and-distribution/) for context and [warehousing and distribution](/sectors/logistics-and-distribution/warehousing-and-distribution/) for the closest adjacent niche.",
         ],
       },
     ],
@@ -306,16 +306,16 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     nameLower: "freight forwarding",
     title: "Freight Forwarding M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      "Selling a UK freight forwarding business worth £5–50M? Senior-led, off-market M&A advisory. Confidential sale process for owner-managed forwarders.",
+      "Selling a UK freight forwarding business worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential sale process for owner-managed forwarders.",
     h1: "Selling a freight forwarding business in the UK",
     intro:
-      "We advise UK owners of freight forwarding businesses — ocean, air, road, customs brokerage — on confidential sales. Senior-led in the £5–50M EV segment.",
+      "We advise UK owners of freight forwarding businesses (ocean, air, road, customs brokerage) on confidential sales. Senior-led in the £5M to £50M EV segment.",
     heroSubtitle:
       "Post-Brexit UK customs brokerage capability is a meaningful value driver in freight forwarder sales.",
     faqs: [
       {
         q: "What multiples do UK freight forwarders trade at?",
-        a: "Owner-managed freight forwarders typically trade at 5–8x adjusted EBITDA. Premium multiples for businesses with strong gross profit per shipment, technology layer and customs brokerage capability.",
+        a: "Owner-managed freight forwarders typically trade at 5 to 8x adjusted EBITDA. Premium multiples for businesses with strong gross profit per shipment, technology layer and customs brokerage capability.",
       },
       {
         q: "Who buys UK freight forwarders?",
@@ -323,7 +323,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
       },
       {
         q: "How does customer concentration affect valuation?",
-        a: "Concentration above 20–25% from a single customer is a flag. What matters is depth — number of shipping lanes served, value-added services and switching cost.",
+        a: "Concentration above 20 to 25% from a single customer is a flag. What matters is depth: number of shipping lanes served, value-added services and switching cost.",
       },
       {
         q: "What about gross profit per shipment / margin discipline?",
@@ -331,7 +331,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
       },
       {
         q: "How long does a freight forwarding sale take?",
-        a: "6–9 months end to end. International strategics often add 4–8 weeks for cross-border structuring.",
+        a: "6 to 9 months end to end. International strategics often add 4 to 8 weeks for cross-border structuring.",
       },
       {
         q: "How is customs brokerage capability valued?",
@@ -342,13 +342,13 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
       {
         heading: "Who we work with",
         cover: [
-          "Freight forwarding owners £5–50M EV",
+          "Freight forwarding owners £5M to £50M EV",
           "Ocean, air, road, customs",
         ],
         body: [
           "You own a UK freight forwarding business worth between £5M and £50M in enterprise value. An ocean and air freight specialist serving mid-market UK importers and exporters. A road freight forwarder with European reach. A specialist forwarder in a defined commodity or sector (project cargo, hazardous, perishable, specialist industrial). A combined forwarding and customs brokerage business benefiting from post-Brexit volume.",
           "The buyer pool is unusually international for the UK lower mid-market. US, European, Middle Eastern and Asian strategic forwarding groups acquire UK forwarders for UK footprint, sub-sector capability or specific lane strength. PE consolidators in forwarding are active across the UK and European markets. Trade buyers in adjacent logistics (3PL, specialist transport) acquire forwarding capability to extend their delivery model.",
-          "We engage 12 to 24 months before a target exit. The longer window matters because the highest-return preparation work in forwarding — strengthening GP per shipment discipline, addressing customer concentration with relationship depth documentation, surfacing customs brokerage capability properly, and documenting senior consultant retention — takes time.",
+          "We engage 12 to 24 months before a target exit. The longer window matters because the highest-return preparation work in forwarding (strengthening GP per shipment discipline, addressing customer concentration with relationship depth documentation, surfacing customs brokerage capability properly, and documenting senior consultant retention) takes time.",
           "This is not the right fit if your business is below £5M EV. It is also not the right fit if GP per shipment has been declining despite revenue growth; that needs to be addressed in the readiness phase before any process.",
         ],
       },
@@ -364,7 +364,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
         body: [
           "Buyer diligence in UK freight forwarding M&A is metric-led and international by default. Five items dominate.",
           "Gross profit per shipment first. The headline operational metric. Buyers diligence GP per shipment by lane, by customer segment, and through the cycle. Forwarders with disciplined pricing and growing GP per shipment attract premium pricing; those with declining GP despite revenue growth print at a discount regardless of headline EBITDA.",
-          "Customer concentration and lane diversity second. Concentration above 20-25% from a single customer is a flag. What matters is the depth — number of lanes served, range of value-added services, multi-stakeholder relationships within the customer, and operational switching cost.",
+          "Customer concentration and lane diversity second. Concentration above 20-25% from a single customer is a flag. What matters is the depth: number of lanes served, range of value-added services, multi-stakeholder relationships within the customer, and operational switching cost.",
           "Customs brokerage capability third. Post-Brexit, UK customs brokerage has been a meaningful value driver. Businesses with documented capability, trained team, AEO accreditation and clean compliance history attract premium pricing from European and global buyers wanting UK customs capability.",
           "Technology stack fourth. Forwarding-specific software, customer-facing portal, EDI integration, document automation, customs filing automation. Tech-enabled forwarders attract a wider buyer pool and stronger pricing than those running on legacy systems with manual processes.",
           "International network and partner relationships fifth. Membership of forwarder networks, partner agreements in key lanes, and the depth of overseas partner relationships materially affect valuation. Buyers look at network coverage as much as own-office footprint.",
@@ -376,7 +376,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For freight forwarding, three things shape execution.",
           "Buyer mapping is international by default. Strategic UK forwarders form a narrow pool; European, US and Asian strategics form three deeper pools. PE consolidators in forwarding form another pool. Our buyer mapping covers all four, supported by our proprietary technology layer for surfacing acquirer signals from licensed international logistics M&A data.",
-          "Cross-border tax and regulatory structuring is built into the process design early. International buyers introduce additional structuring threads — tax residency, transfer pricing, regulatory consents — that need planning rather than reaction.",
+          "Cross-border tax and regulatory structuring is built into the process design early. International buyers introduce additional structuring threads (tax residency, transfer pricing, regulatory consents) that need planning rather than reaction.",
           "Customs capability framing is built into the IM narrative. Most UK forwarders that have built customs brokerage capability post-Brexit under-present it because it has been part of normal operations. Surfacing this properly meaningfully widens the buyer pool. See [the logistics pillar](/sectors/logistics-and-distribution/) for context and [3PL](/sectors/logistics-and-distribution/third-party-logistics-3pl/) for an adjacent niche.",
         ],
       },
@@ -389,16 +389,16 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     nameLower: "last-mile delivery",
     title: "Last-Mile Delivery M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      "Selling a UK last-mile delivery business worth £5–50M? Senior-led, off-market M&A advisory. Confidential sale process for owner-managed operators.",
+      "Selling a UK last-mile delivery business worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential sale process for owner-managed operators.",
     h1: "Selling a last-mile delivery business in the UK",
     intro:
-      "We advise UK owners of last-mile delivery businesses — e-commerce fulfilment, same-day, specialist final-mile — on confidential sales. Senior-led in the £5–50M EV segment.",
+      "We advise UK owners of last-mile delivery businesses (e-commerce fulfilment, same-day, specialist final-mile) on confidential sales. Senior-led in the £5M to £50M EV segment.",
     heroSubtitle:
-      "Courier employment model, tech stack and route economics — the three items that move last-mile outcomes.",
+      "Courier employment model, tech stack and route economics, the three items that move last-mile outcomes.",
     faqs: [
       {
         q: "What multiples do UK last-mile delivery businesses trade at?",
-        a: "Last-mile delivery typically trades at 5–8x adjusted EBITDA, with premium ranges for specialist final-mile operators (white-glove, premium goods, healthcare-related delivery) and tech-enabled platforms.",
+        a: "Last-mile delivery typically trades at 5 to 8x adjusted EBITDA, with premium ranges for specialist final-mile operators (white-glove, premium goods, healthcare-related delivery) and tech-enabled platforms.",
       },
       {
         q: "Who buys UK last-mile delivery businesses?",
@@ -410,11 +410,11 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
       },
       {
         q: "How is customer concentration treated?",
-        a: "Last-mile typically has higher concentration than traditional 3PL — one or two anchor clients are common. What matters is contract tail, depth of integration and switching cost.",
+        a: "Last-mile typically has higher concentration than traditional 3PL: one or two anchor clients are common. What matters is contract tail, depth of integration and switching cost.",
       },
       {
         q: "How long does a last-mile sale typically take?",
-        a: "6–9 months end to end. Employment diligence sometimes adds time.",
+        a: "6 to 9 months end to end. Employment diligence sometimes adds time.",
       },
       {
         q: "What about technology and route optimisation?",
@@ -424,11 +424,11 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     contentTodos: [
       {
         heading: "Who we work with",
-        cover: ["Last-mile delivery owners £5–50M EV"],
+        cover: ["Last-mile delivery owners £5M to £50M EV"],
         body: [
           "You own a UK last-mile delivery business worth between £5M and £50M in enterprise value. An e-commerce fulfilment platform with last-mile capability. A same-day or premium courier business. A specialist final-mile operator (white-glove, two-person, premium goods, healthcare-related). A regional or national last-mile network serving multiple shippers.",
-          "The buyer pool is concentrated. Larger UK and European logistics groups acquire for last-mile capability or geographic coverage. PE consolidators in last-mile and e-commerce fulfilment are active. A small number of overseas strategics — particularly US and European — acquire UK platforms for UK market entry. Specialist final-mile operators (white-glove, healthcare) attract additional sub-segment buyer pools.",
-          "We engage 12 to 24 months before a target exit. The longer window matters because the highest-return preparation work in last-mile — addressing the courier employment model honestly, documenting customer integration depth, strengthening the technology layer, and surfacing route economics cleanly — takes time. Employment-model exposure in particular is fixable but only with proper preparation.",
+          "The buyer pool is concentrated. Larger UK and European logistics groups acquire for last-mile capability or geographic coverage. PE consolidators in last-mile and e-commerce fulfilment are active. A small number of overseas strategics, particularly US and European, acquire UK platforms for UK market entry. Specialist final-mile operators (white-glove, healthcare) attract additional sub-segment buyer pools.",
+          "We engage 12 to 24 months before a target exit. The longer window matters because the highest-return preparation work in last-mile (addressing the courier employment model honestly, documenting customer integration depth, strengthening the technology layer, and surfacing route economics cleanly) takes time. Employment-model exposure in particular is fixable but only with proper preparation.",
           "This is not the right fit if your business is below £5M EV. It is also not the right fit if the courier employment model has unresolved exposure (IR35, employment tribunal, worker-status); that is fixable but needs to be addressed in the readiness phase, not during diligence.",
         ],
       },
@@ -444,10 +444,10 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
         body: [
           "Buyer diligence in UK last-mile M&A is shaped equally by operational and employment-model factors. Five items dominate.",
           "Courier employment model first. The most material diligence area in this sector. Buyers diligence the employment model carefully: employed vs self-employed, IR35 exposure, worker status, historic tribunal risk, ongoing HMRC correspondence. Businesses with clean, defensible models attract a meaningful premium and a wider buyer pool. Open exposure is fixable but always discounts until resolved.",
-          "Customer concentration and contract integration second. Last-mile typically has higher concentration than other logistics sub-segments — anchor shippers representing 30-50% of revenue are common. What matters is contract tail, IT and operational integration depth, and switching cost. Pre-process work to document these turns concentration from a flag into a defended position.",
+          "Customer concentration and contract integration second. Last-mile typically has higher concentration than other logistics sub-segments: anchor shippers representing 30-50% of revenue are common. What matters is contract tail, IT and operational integration depth, and switching cost. Pre-process work to document these turns concentration from a flag into a defended position.",
           "Technology stack third. Route optimisation, real-time tracking, customer-facing portal, courier mobile app, integration with shipper systems. Tech-enabled last-mile attracts premium pricing and a wider buyer pool. Reseller-based stacks with no proprietary layer print at the lower end of the range.",
           "Route economics fourth. Buyers diligence margin per drop, drops per route, route density, and the trajectory of each. Premium pricing requires a clean route economics analysis with disciplined density and pricing through the cycle.",
-          "Geographic coverage and network density fifth. National coverage vs regional density, depot footprint quality, and the operational model behind coverage. Both routes can attract premium pricing — what matters is execution quality.",
+          "Geographic coverage and network density fifth. National coverage vs regional density, depot footprint quality, and the operational model behind coverage. Both routes can attract premium pricing: what matters is execution quality.",
         ],
       },
       {
@@ -457,7 +457,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For last-mile delivery, three things shape execution.",
           "Employment-model diligence sits on a separate, heavier calendar than commercial diligence. We design the process around it from the start, building employment-related exposure analysis into the readiness phase so buyer diligence finds answers rather than open questions.",
           "Buyer mapping is segmented across UK and European logistics groups, PE consolidators in last-mile and e-commerce fulfilment, and overseas strategics looking for UK market entry. Specialist final-mile sub-segments (white-glove, healthcare, two-person) attract additional buyer pools. Our buyer mapping covers each, supported by our proprietary technology layer.",
-          "Off-market sourcing protects customer relationships, the courier base, and the operations team — all of which are reachable through trade channels and would not benefit from a public process. We approach a curated buyer list under NDA only. See [the logistics pillar](/sectors/logistics-and-distribution/) for context and [3PL](/sectors/logistics-and-distribution/third-party-logistics-3pl/) for the closest adjacent niche.",
+          "Off-market sourcing protects customer relationships, the courier base, and the operations team, all of which are reachable through trade channels and would not benefit from a public process. We approach a curated buyer list under NDA only. See [the logistics pillar](/sectors/logistics-and-distribution/) for context and [3PL](/sectors/logistics-and-distribution/third-party-logistics-3pl/) for the closest adjacent niche.",
         ],
       },
     ],
@@ -469,16 +469,16 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     nameLower: "warehousing and distribution",
     title: "Warehousing & Distribution M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      "Selling a UK warehousing or distribution business worth £5–50M? Senior-led, off-market M&A advisory. Confidential sale for owner-managed operators.",
+      "Selling a UK warehousing or distribution business worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential sale for owner-managed operators.",
     h1: "Selling a warehousing or distribution business in the UK",
     intro:
-      "We advise UK owners of warehousing and distribution businesses — contract warehousing, multi-client distribution, specialist storage — on confidential sales. Senior-led in the £5–50M EV segment.",
+      "We advise UK owners of warehousing and distribution businesses (contract warehousing, multi-client distribution, specialist storage) on confidential sales. Senior-led in the £5M to £50M EV segment.",
     heroSubtitle:
-      "OpCo/PropCo structuring is worth exploring for freehold-heavy portfolios — often produces stronger total outcomes than single-buyer sales.",
+      "OpCo/PropCo structuring is worth exploring for freehold-heavy portfolios, often produces stronger total outcomes than single-buyer sales.",
     faqs: [
       {
         q: "What multiples do UK warehousing & distribution businesses trade at?",
-        a: "Specialist warehousing & distribution trades at 6–9x EBITDA, with premium ranges for businesses with long-tenor contract income, specialist capability (bonded, hazardous, temperature-controlled) and embedded major-client relationships.",
+        a: "Specialist warehousing & distribution trades at 6 to 9x EBITDA, with premium ranges for businesses with long-tenor contract income, specialist capability (bonded, hazardous, temperature-controlled) and embedded major-client relationships.",
       },
       {
         q: "Who buys UK warehousing & distribution businesses?",
@@ -490,11 +490,11 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
       },
       {
         q: "How does customer concentration affect valuation?",
-        a: "Concentration is common — anchor contracts often represent 25–40% of revenue. What matters is contract tail, switching cost and operational integration.",
+        a: "Concentration is common: anchor contracts often represent 25 to 40% of revenue. What matters is contract tail, switching cost and operational integration.",
       },
       {
         q: "How long does a warehousing & distribution sale typically take?",
-        a: "6–9 months end to end. Property and lease diligence sometimes adds time.",
+        a: "6 to 9 months end to end. Property and lease diligence sometimes adds time.",
       },
       {
         q: "How is the tech stack treated?",
@@ -504,11 +504,11 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     contentTodos: [
       {
         heading: "Who we work with",
-        cover: ["Warehousing and distribution owners £5–50M EV"],
+        cover: ["Warehousing and distribution owners £5M to £50M EV"],
         body: [
           "You own a UK warehousing and distribution business worth between £5M and £50M in enterprise value. A contract warehousing operator serving food, pharma, retail or industrial clients. A multi-client distribution platform with regional or national footprint. A specialist storage operator (bonded, hazardous, temperature-controlled, high-value, document storage). Most likely a mix of freehold and leased sites, with value tied up in both the operating business and the property.",
           "The buyer pool is segmented. Larger 3PL platforms acquire warehousing and distribution businesses for capability or geographic fill-in. PE consolidators are active across contract warehousing and specialist storage segments. Infrastructure-style investors target long-tenor warehousing income as predictable yield, particularly for freehold-heavy portfolios. The right process design surfaces interest from all three.",
-          "We engage 12 to 24 months before a target exit. The longer window matters because the highest-return preparation work in warehousing and distribution — strengthening anchor contract positions, surfacing technology and integration depth, addressing operative retention, and (for freehold-heavy businesses) deciding the property strategy — takes time.",
+          "We engage 12 to 24 months before a target exit. The longer window matters because the highest-return preparation work in warehousing and distribution (strengthening anchor contract positions, surfacing technology and integration depth, addressing operative retention, and (for freehold-heavy businesses) deciding the property strategy) takes time.",
           "This is not the right fit if your business is below £5M EV. It is also not the right fit if more than 60% of revenue depends on one anchor contract with limited forward visibility; that diligence position is best addressed in the readiness phase, before any process.",
         ],
       },
@@ -526,7 +526,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
           "Customer concentration and contract tail first. Anchor contracts representing 25-40% of revenue are common in contract warehousing. What matters is contract tail (months of binding revenue forward), operational integration depth (dedicated space, IT integration, embedded crew), and switching cost. Pre-process work to document each turns concentration into a defended position rather than a discount.",
           "Property structure second. Freehold-heavy portfolios attract a separate property-led buyer pool in addition to operating buyers. We typically run the process to maximise outcome from both pools simultaneously. OpCo/PropCo structures consistently produce stronger total outcomes for freehold-heavy warehousing businesses than single-buyer sales.",
           "Technology stack third. WMS, integration with client ERPs, customer-facing portal, reporting platforms. A strong embedded technology layer creates barriers to entry and supports premium pricing.",
-          "Specialist accreditations fourth. For specialist storage segments — BRCGS for food, MHRA for pharma, ADR for hazardous, HMRC bonded warehouse approval, ISO certifications — each is a barrier to entry. Clean audit histories with relevant standards support premium pricing.",
+          "Specialist accreditations fourth. For specialist storage segments (BRCGS for food, MHRA for pharma, ADR for hazardous, HMRC bonded warehouse approval, ISO certifications) each is a barrier to entry. Clean audit histories with relevant standards support premium pricing.",
           "Operative retention fifth. Warehouse operative tenure, supervisor depth, agency-to-permanent ratio, wage discipline. Premium pricing requires a credible retention story, particularly for specialist sites where training depth matters.",
           "Lease tail and dilapidation sixth (for leasehold sites). Average weighted lease tail across the portfolio, rent levels relative to market, and dilapidation exposure. We help owners surface the lease profile cleanly.",
         ],
@@ -550,16 +550,16 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     nameLower: "marine logistics",
     title: "Marine Logistics M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      "Selling a UK marine logistics business worth £5–50M? Senior-led, off-market M&A advisory. Confidential sale for specialist marine operators.",
+      "Selling a UK marine logistics business worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential sale for specialist marine operators.",
     h1: "Selling a marine logistics business in the UK",
     intro:
-      "We advise UK owners of marine logistics businesses — port services, shipping agency, specialist marine equipment — on confidential sales. Senior-led in the £5–50M EV segment.",
+      "We advise UK owners of marine logistics businesses (port services, shipping agency, specialist marine equipment) on confidential sales. Senior-led in the £5M to £50M EV segment.",
     heroSubtitle:
-      "International buyer pool — Dutch, Norwegian, German and US strategics for UK marine, port and offshore services.",
+      "International buyer pool: Dutch, Norwegian, German and US strategics for UK marine, port and offshore services.",
     faqs: [
       {
         q: "What multiples do UK marine logistics businesses trade at?",
-        a: "Specialist marine logistics typically trades at 6–9x adjusted EBITDA. Multiples vary materially by sub-segment — port services and shipping agency at the lower end, specialist marine equipment leasing and offshore services at the higher end.",
+        a: "Specialist marine logistics typically trades at 6 to 9x adjusted EBITDA. Multiples vary materially by sub-segment: port services and shipping agency at the lower end, specialist marine equipment leasing and offshore services at the higher end.",
       },
       {
         q: "Who buys UK marine logistics businesses?",
@@ -575,7 +575,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
       },
       {
         q: "How long does a marine logistics sale typically take?",
-        a: "6–9 months end to end. International buyers often extend this by 4–8 weeks for cross-border structuring.",
+        a: "6 to 9 months end to end. International buyers often extend this by 4 to 8 weeks for cross-border structuring.",
       },
       {
         q: "What about Maritime & Coastguard regulatory positions?",
@@ -585,11 +585,11 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     contentTodos: [
       {
         heading: "Who we work with",
-        cover: ["Marine logistics owners £5–50M EV"],
+        cover: ["Marine logistics owners £5M to £50M EV"],
         body: [
           "You own a UK marine logistics business worth between £5M and £50M in enterprise value. A port services operator (stevedoring, terminal services, cargo handling). A shipping agency business. A specialist marine equipment leasing platform. A specialist offshore services operator serving energy, infrastructure or defence. A specialist marine survey, towage or workboat business.",
-          "The buyer pool is international. Larger UK and European marine groups acquire for capability or geographic fill-in. PE consolidators are active in defined specialist marine niches. Infrastructure-style investors target asset-heavy long-life platforms (specialist marine equipment leasing, port services) for predictable yield. Overseas strategics — particularly Dutch, Norwegian, German — acquire UK marine platforms for UK and European capability.",
-          "We engage 12 to 24 months before a target exit. The longer window matters because the highest-return preparation work in marine logistics — addressing fleet condition and survey position, documenting Maritime & Coastguard compliance, surfacing international revenue cleanly, and (for asset-heavy businesses) deciding the asset strategy — takes time.",
+          "The buyer pool is international. Larger UK and European marine groups acquire for capability or geographic fill-in. PE consolidators are active in defined specialist marine niches. Infrastructure-style investors target asset-heavy long-life platforms (specialist marine equipment leasing, port services) for predictable yield. Overseas strategics (particularly Dutch, Norwegian, German) acquire UK marine platforms for UK and European capability.",
+          "We engage 12 to 24 months before a target exit. The longer window matters because the highest-return preparation work in marine logistics (addressing fleet condition and survey position, documenting Maritime & Coastguard compliance, surfacing international revenue cleanly, and (for asset-heavy businesses) deciding the asset strategy) takes time.",
           "This is not the right fit if your business is below £5M EV. It is also not the right fit if Maritime & Coastguard regulatory positions or survey items are unresolved at material assets; those need to be addressed in the readiness phase.",
         ],
       },
@@ -606,7 +606,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
           "Fleet age, condition and survey position first. Buyers value cash earnings net of sustainable capex and surveys. Recent surveys, clean class records, and a credible capex bridge support stronger pricing. Asset-heavy marine businesses with deferred capex or open survey items trade at a discount until resolved.",
           "Customer concentration and contract structure second. Marine logistics businesses often have anchor customers representing 25-40% of revenue. What matters is contractual position, length of relationship, switching cost (often substantial because of operational integration and equipment compatibility), and the embedded position in the customer's qualified supplier list.",
           "Regulatory standing third. Maritime & Coastguard Agency standing, classification society relationships, environmental compliance, port operator licences where applicable. Clean compliance history materially supports both certainty and price.",
-          "International revenue and customer mix fourth. UK-only marine businesses trade at one range. Material international revenue — typically 25%+ — supports a wider buyer pool and stronger pricing because it widens the strategic acquirer set.",
+          "International revenue and customer mix fourth. UK-only marine businesses trade at one range. Material international revenue, typically 25%+, supports a wider buyer pool and stronger pricing because it widens the strategic acquirer set.",
           "Specialist capability fifth. Sub-sector specialist capability (offshore wind, decommissioning, specialist heavy-lift, hyperbaric, specialist towage) supports premium pricing because of barriers to entry. Generic marine logistics businesses trade at the lower end of the range.",
         ],
       },

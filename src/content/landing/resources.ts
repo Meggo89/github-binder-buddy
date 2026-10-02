@@ -6,7 +6,7 @@ export const RESOURCES: ResourceLanding[] = [
     name: "Business broker vs M&A advisor",
     title: "Business Broker vs M&A Advisor: What's the Difference?",
     metaDescription:
-      "Business broker or M&A advisor? Senior-led explainer for UK owners worth £5–50M. Models, fees, buyer pools and outcomes compared honestly.",
+      "Business broker or M&A advisor? Senior-led explainer for UK owners worth £5M to £50M. Models, fees, buyer pools and outcomes compared honestly.",
     h1: "Business broker vs M&A advisor: what is the difference?",
     intro:
       "Two very different models, often confused. Which one fits depends almost entirely on what your business is worth — and the gap in outcomes is bigger than most owners realise.",
@@ -17,7 +17,7 @@ export const RESOURCES: ResourceLanding[] = [
       },
       {
         q: "Which model is right for my business?",
-        a: "A simple rule of thumb: businesses worth under £2–3M are typically best served by a broker. Businesses worth £5M+ are typically best served by an M&A advisor. Between £3–5M the answer depends on sector, growth profile and the buyer pool likely to engage.",
+        a: "A simple rule of thumb: businesses worth under £3M are typically best served by a broker. Businesses worth £5M+ are typically best served by an M&A advisor. Between £3M to £5M the answer depends on sector, growth profile and the buyer pool likely to engage.",
       },
       {
         q: "How do the fee models compare?",
@@ -25,7 +25,7 @@ export const RESOURCES: ResourceLanding[] = [
       },
       {
         q: "Will more buyers see my business with a broker?",
-        a: "Often more enquiries — but from a smaller and lower-quality buyer pool (smaller acquirers, search-fund hopefuls, time-wasters). An M&A advisor will typically contact a smaller number of buyers (40–80) but each one is curated for genuine fit and capability.",
+        a: "Often more enquiries — but from a smaller and lower-quality buyer pool (smaller acquirers, search-fund hopefuls, time-wasters). An M&A advisor will typically contact a smaller number of buyers (40 to 80) but each one is curated for genuine fit and capability.",
       },
       {
         q: "How does confidentiality differ between the two models?",

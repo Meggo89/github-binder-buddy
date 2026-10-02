@@ -68,7 +68,7 @@ export default function ExecutiveSearch() {
                 </h2>
                 <p className="text-body-lg text-navy-light leading-relaxed">
                   Acquirers pay premiums for businesses with strong management bench depth. Closing leadership gaps in
-                  the 12–24 months before a sale typically pays for itself many times over at transaction.
+                  the 12 to 24 months before a sale typically pays for itself many times over at transaction.
                 </p>
               </FadeIn>
             </div>

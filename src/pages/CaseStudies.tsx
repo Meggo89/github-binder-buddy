@@ -175,7 +175,7 @@ export default function CaseStudies() {
           <FadeIn>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
               {[
-                { stat: '£500M+', label: 'Transaction value advised' },
+                { stat: '£500m+', label: 'Transaction value advised on' },
                 { stat: '10', label: 'Sectors covered' },
                 { stat: '95%', label: 'Client retention' },
               ].map((item) => (
