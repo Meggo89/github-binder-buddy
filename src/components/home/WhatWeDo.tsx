@@ -15,7 +15,7 @@ export function WhatWeDo() {
               We help UK business owners sell their companies.
             </h2>
             <p className="text-body-lg text-navy-light leading-relaxed max-w-3xl mb-14">
-              For founders ready to exit a business they have built — or to find the right capital partner — Mastella
+              For founders ready to exit a business they have built, or to find the right capital partner, Mastella
               runs the full process. From confidential first conversation to signed deal.
             </p>
           </FadeIn>
@@ -62,7 +62,7 @@ export function WhatWeDo() {
                 to="/contact"
                 className="inline-flex items-center gap-2 bg-navy text-white px-7 py-3.5 rounded-md font-semibold tracking-wide hover:bg-navy-light transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg"
               >
-                Book a confidential conversation
+                Arrange a confidential conversation
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </div>

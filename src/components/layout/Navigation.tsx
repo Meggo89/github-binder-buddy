@@ -67,7 +67,7 @@ function MobileNav({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }
               className="block w-full text-center bg-accent text-navy-deepest px-6 py-3 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-all duration-200"
               onClick={onClose}
             >
-              Book a Consultation
+              Get in Touch
             </Link>
           </div>
         </nav>
@@ -88,7 +88,7 @@ export function Navigation() {
   return (
     <>
       <nav className="container mx-auto px-6 py-5 flex items-center justify-between relative z-20">
-        <Link to="/" className="flex items-center" aria-label="Mastella Advisory - home">
+        <Link to="/" className="flex items-center" aria-label="Mastella Advisory: home">
           <img src={mastellaLogo} alt="Mastella Advisory" className="h-24 md:h-28 w-auto" />
         </Link>
         <div className="hidden md:flex space-x-7 items-center">
@@ -111,7 +111,7 @@ export function Navigation() {
               to="/contact"
               className="bg-accent text-navy-deepest px-5 py-2.5 rounded-md text-sm font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:-translate-y-px hover:shadow-lg hover:shadow-accent/20"
             >
-              Book a Call
+              Get in Touch
             </Link>
           )}
         </div>

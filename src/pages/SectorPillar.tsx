@@ -27,7 +27,7 @@ function Hero({ name, h1, subtitle }: { name: string; h1: string; subtitle: stri
         to="/contact/"
         className="inline-flex items-center gap-2 bg-accent text-navy-deepest px-6 py-3 rounded-md text-sm md:text-base font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:-translate-y-px hover:shadow-lg hover:shadow-accent/20"
       >
-        Book a confidential conversation
+        Arrange a confidential conversation
         <ArrowRight className="h-4 w-4" />
       </Link>
     </div>
@@ -103,7 +103,7 @@ export default function SectorPillarPage() {
         links={[
           { to: '/process/', label: 'How we source buyers', description: 'Our six-stage senior-led M&A process.' },
           { to: '/sectors/', label: 'Other sectors we cover', description: 'Five other sector pillars Mastella works in.' },
-          { to: '/contact/', label: 'Book a confidential conversation', description: 'No obligation, 45 minutes.' },
+          { to: '/contact/', label: 'Arrange a confidential conversation', description: 'No obligation, 45 minutes.' },
         ]}
       />
 

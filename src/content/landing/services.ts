@@ -8,14 +8,14 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
     name: "Exit planning advisor (UK)",
     title: "Exit Planning Advisor UK | Mastella Advisory",
     metaDescription:
-      "UK exit planning advisor for SME owners worth £5–50M. Senior-led readiness work 12–24 months pre-sale. Confidential, owner-aligned advisory.",
+      "UK exit planning advisor for SME owners worth £5M to £50M. Senior-led readiness work 12 to 24 months pre-sale. Confidential, owner-aligned advisory.",
     h1: "Exit planning advisor for UK SME owners",
     intro:
-      "Most exits leave value on the table because the planning starts too late. We work with UK owners 12–24 months before a sale to diagnose the gaps that cost value at diligence and fix them while time is on your side.",
+      "Most exits leave value on the table because the planning starts too late. We work with UK owners 12 to 24 months before a sale to diagnose the gaps that cost value at diligence and fix them while time is on your side.",
     faqs: [
       {
         q: "When should I start exit planning?",
-        a: "The single most important factor in achieving a strong outcome is starting early. We typically engage 12–24 months before a target sale window. That gives time to fix the structural items (financial reporting, customer concentration, management depth) that affect price most.",
+        a: "The single most important factor in achieving a strong outcome is starting early. We typically engage 12 to 24 months before a target sale window. That gives time to fix the structural items (financial reporting, customer concentration, management depth) that affect price most.",
       },
       {
         q: "What does exit planning actually involve?",
@@ -23,7 +23,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
       },
       {
         q: "How is exit planning different to running the sale itself?",
-        a: "Exit planning is preparation — making the business demonstrably more saleable. Running the sale is the marketed process. The same advisor often runs both, which is what we do; the planning then leads naturally into a process when you are ready.",
+        a: "Exit planning is preparation: making the business demonstrably more saleable. Running the sale is the marketed process. The same advisor often runs both, which is what we do; the planning then leads naturally into a process when you are ready.",
       },
       {
         q: "How much does exit planning typically cost?",
@@ -31,7 +31,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
       },
       {
         q: "Will my staff find out we are planning an exit?",
-        a: "No — confidentiality is the default. Exit planning work happens within your trusted advisor circle. Staff are only told at the point you choose to tell them.",
+        a: "No. Confidentiality is the default. Exit planning work happens within your trusted advisor circle. Staff are only told at the point you choose to tell them.",
       },
       {
         q: "What is the typical uplift from doing the planning work?",
@@ -50,10 +50,10 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
           "Property and lease arrangements",
         ],
         body: [
-          "An exit planning engagement is structured around the diligence pack a future buyer will run. We work through it line by line — typically a six-month diagnostic phase followed by 12 to 18 months of structured remediation work alongside your accountants, lawyers and any specialists we bring in.",
+          "An exit planning engagement is structured around the diligence pack a future buyer will run. We work through it line by line, typically a six-month diagnostic phase followed by 12 to 18 months of structured remediation work alongside your accountants, lawyers and any specialists we bring in.",
           "Financial reporting and EBITDA quality come first. We rebuild the EBITDA bridge from the management accounts, separate genuine adjustments from aggressive ones, identify line items that will be challenged in diligence, and produce a defensible version of the number before the buyer's accountants do. This single piece of work consistently saves owners more in re-trade risk than the entire engagement costs.",
           "Customer concentration and contract tail come second. We map your top 20 customers by revenue, contract tail, length of relationship, contractual position, switching cost, and operational integration depth. Where concentration is high, we work with you to either broaden the book (where there is time) or document the depth of the anchor relationships properly so they can be defended rather than discounted.",
-          "Management team depth and founder dependency third. The most overlooked piece of pre-sale work in the lower mid-market. We diagnose where you are personally the load-bearing structure — buying decisions, customer relationships, technical judgement, supplier negotiations — and work with you on the senior team build-out that lets a buyer see a business that can run without you.",
+          "Management team depth and founder dependency third. The most overlooked piece of pre-sale work in the lower mid-market. We diagnose where you are personally the load-bearing structure (buying decisions, customer relationships, technical judgement, supplier negotiations) and work with you on the senior team build-out that lets a buyer see a business that can run without you.",
           "Tax structure, IP, contracts, property fourth. We coordinate with your tax advisors on pre-sale structuring (often substantial work in itself), with your lawyers on contract assignability and IP ownership clean-up, and with you on the property strategy where freehold sits in the business.",
         ],
       },
@@ -67,7 +67,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         body: [
           "Exit planning is not a stand-alone service. It is structured coordination between you, your existing accountant and lawyer, and specialist tax and corporate finance counsel we bring in where needed. We sit in the middle of that constellation, running the workplan and keeping every piece of remediation focused on what will actually move the buyer multiple.",
           "Your existing accountants generally do the heavy lifting on accounting clean-up, statutory positions, and tax compliance. Your existing lawyers handle contract reviews, IP ownership documentation, and corporate governance. We brief both, set the timetable, and identify where specialist counsel (transaction tax, specialist property, sector-specific regulatory) needs to be added.",
-          "Decisions sit with you. We make recommendations, walk you through the implications, and present the trade-offs honestly — including the trade-offs we have a commercial preference on. Where we think a different course of action serves you better than what we would commercially prefer, we will say so directly.",
+          "Decisions sit with you. We make recommendations, walk you through the implications, and present the trade-offs honestly, including the trade-offs we have a commercial preference on. Where we think a different course of action serves you better than what we would commercially prefer, we will say so directly.",
         ],
       },
       {
@@ -79,7 +79,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         body: [
           "The headline outcome of a proper exit planning engagement is rarely a single dramatic uplift. It is the compound effect of doing six or seven things well that owners running a cold process tend to do badly or not at all.",
           "For the full ordered checklist of what those six or seven things are, and why the order of return-on-effort matters, see our companion pillar guide: [The 12 Months Before You Sell](/insights/12-months-before-you-sell/). It walks through the twelve items we work through in every readiness engagement, in the order we typically address them.",
-          "Owners who engage 12+ months pre-sale typically achieve materially stronger headline price and substantially better deal terms — earn-out structure, working capital mechanism, indemnity caps, tax structuring efficiency — than those running a process cold. The single most consistent observation across recent transactions is that deals which closed at or above the headline expectation were almost always preceded by structured preparation work; deals that re-traded at completion were almost always run cold.",
+          "Owners who engage 12+ months pre-sale typically achieve materially stronger headline price and substantially better deal terms (earn-out structure, working capital mechanism, indemnity caps, tax structuring efficiency) than those running a process cold. The single most consistent observation across recent transactions is that deals which closed at or above the headline expectation were almost always preceded by structured preparation work; deals that re-traded at completion were almost always run cold.",
           "Most engagements start with an [Exit Readiness Assessment](/services/exit-readiness-assessment/): a fixed-fee review that scores the business on 29 measures buyers test and checks each one against your data and interviews with your senior team. For a first read on your own, the free [Exit Readiness Score](/exit-readiness-score/) takes about three minutes, and the thresholds for the core measures are published on [how we score exit readiness](/resources/exit-readiness-scoring/).",
           "If exit planning is the right next step, the [contact page](/contact/) is where to start. Forty-five minutes, no obligation, and we will tell you honestly whether the work fits Mastella's model and what the engagement would look like.",
         ],
@@ -91,20 +91,20 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
     name: "How to sell a business",
     title: "How to Sell a Business in the UK | Mastella Advisory",
     metaDescription:
-      "Selling a UK business worth £5–50M? A senior-led, off-market guide to how the sale process actually works. Confidential M&A advisory.",
+      "Selling a UK business worth £5M to £50M? A senior-led, off-market guide to how the sale process actually works. Confidential M&A advisory.",
     h1: "How to sell a business in the UK",
     intro:
-      "Selling a UK business worth £5–50M is a 6–9 month process that follows a clear sequence — and a single owner-led decision tree at each stage. Here is what actually happens and where owners typically get the wrong advice.",
+      "Selling a UK business worth £5M to £50M is a 6 to 9 month process that follows a clear sequence, and a single owner-led decision tree at each stage. Here is what actually happens and where owners typically get the wrong advice.",
     heroSubtitle:
       "The six-stage process, the honest owner mistakes, and what to do 12 months before going to market.",
     faqs: [
       {
         q: "What are the main stages of selling a business?",
-        a: "Six stages: (1) readiness assessment, (2) preparation (financial normalisation, IM, buyer mapping), (3) marketed approach to buyers under NDA, (4) competitive bidding, (5) selection and diligence, (6) legal documentation and exchange. End-to-end is typically 6–9 months.",
+        a: "Six stages: (1) readiness assessment, (2) preparation (financial normalisation, IM, buyer mapping), (3) marketed approach to buyers under NDA, (4) competitive bidding, (5) selection and diligence, (6) legal documentation and exchange. End-to-end is typically 6 to 9 months.",
       },
       {
         q: "Should I use a broker or an M&A advisor?",
-        a: "Brokers typically suit businesses worth under £2–3M and use database-listing models. M&A advisors run off-market processes for businesses worth £5M+, contacting curated buyer sets under NDA. The two approaches produce very different outcomes — see our resource on this.",
+        a: "Brokers typically suit businesses worth under £3M and use database-listing models. M&A advisors run off-market processes for businesses worth £5M+, contacting curated buyer sets under NDA. The two approaches produce very different outcomes. See our resource on this.",
       },
       {
         q: "How is my business going to be valued?",
@@ -112,11 +112,11 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
       },
       {
         q: "How do I keep the sale confidential?",
-        a: "Use an off-market process — direct approaches to a curated buyer list under NDA, no public listings. This is the default approach for Mastella mandates.",
+        a: "Use an off-market process: direct approaches to a curated buyer list under NDA, no public listings. This is the default approach for Mastella mandates.",
       },
       {
         q: "What is an earn-out and should I accept one?",
-        a: "An earn-out is a portion of the price contingent on post-sale performance. They are very common in the lower mid-market. Whether to accept one — and on what terms — is a structuring decision that depends on your tax position, post-sale role and the buyer's plan for the business.",
+        a: "An earn-out is a portion of the price contingent on post-sale performance. They are very common in the lower mid-market. Whether to accept one, and on what terms, is a structuring decision that depends on your tax position, post-sale role and the buyer's plan for the business.",
       },
       {
         q: "How are M&A advisor fees structured?",
@@ -124,7 +124,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
       },
       {
         q: "How long should I plan for?",
-        a: "Allow 6–9 months from engagement to completion, plus 6–12 months of pre-process readiness work if you have not done it yet. Owners who start early consistently achieve better outcomes.",
+        a: "Allow 6 to 9 months from engagement to completion, plus 6 to 12 months of pre-process readiness work if you have not done it yet. Owners who start early consistently achieve better outcomes.",
       },
     ],
     contentTodos: [
@@ -164,10 +164,10 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         body: [
           "We see the same set of mistakes consistently across owners we meet for the first time. The honest version is below.",
           "Going too early. Running a process without readiness work consistently costs owners value and certainty. The marketed process amplifies whatever the business is on the day. Cleaning up the things that will be diligenced before they are diligenced costs less than re-trading at completion or losing the deal.",
-          "Going to broker networks at the £5M+ level. Brokers serve real value for businesses worth under £2-3M. For businesses worth £5M and above, broker network listings reach a smaller and lower-quality buyer pool than a structured off-market process across strategic and PE buyers reachable directly under NDA. The outcome gap is material — see [business broker vs M&A advisor](/resources/business-broker-vs-m-a-advisor/) for the detail.",
-          "Granting exclusivity to a single bidder too early. The most common single mistake. Exclusivity transfers all negotiating leverage to the buyer. Granted in the wrong sequence or without sufficient process structure underneath it, it costs owners both price and terms. Structured exclusivity granted at the right point — after competitive bidding and with disciplined milestones — preserves the seller's position.",
+          "Going to broker networks at the £5M+ level. Brokers serve real value for businesses worth under £2-3M. For businesses worth £5M and above, broker network listings reach a smaller and lower-quality buyer pool than a structured off-market process across strategic and PE buyers reachable directly under NDA. The outcome gap is material. See [business broker vs M&A advisor](/resources/business-broker-vs-m-a-advisor/) for the detail.",
+          "Granting exclusivity to a single bidder too early. The most common single mistake. Exclusivity transfers all negotiating leverage to the buyer. Granted in the wrong sequence or without sufficient process structure underneath it, it costs owners both price and terms. Structured exclusivity granted at the right point, after competitive bidding and with disciplined milestones, preserves the seller's position.",
           "Under-valuing terms vs price. Owners typically focus on headline price and under-weight the structuring of earn-out, working capital mechanism, indemnity caps, rollover equity and tax efficiency. The structuring elements consistently affect realised net proceeds by more than the headline multiple. Rollover in particular is one of the most misunderstood elements of UK lower mid-market deal structure; our practical guide covers the mechanics, current tax treatment and where the traps sit: [Rollover Equity Explained](/insights/rollover-equity-explained/).",
-          "If you are thinking about a sale and want a senior-led view of what a process should look like for your business specifically, [book a confidential conversation](/contact/). Forty-five minutes, no obligation.",
+          "If you are thinking about a sale and want a senior-led view of what a process should look like for your business specifically, [arrange a confidential conversation](/contact/). Forty-five minutes, no obligation.",
         ],
       },
     ],
@@ -177,12 +177,12 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
     name: "Management buyout advisor (UK)",
     title: "Management Buyout Advisor UK | Mastella Advisory",
     metaDescription:
-      "UK management buyout advisor for owners worth £5–50M. Senior-led MBO structuring, debt and equity sourcing, owner-aligned advisory.",
+      "UK management buyout advisor for owners worth £5M to £50M. Senior-led MBO structuring, debt and equity sourcing, owner-aligned advisory.",
     h1: "Management buyout advisor for UK owners",
     intro:
-      "We advise UK owners on management buyouts and management-led transactions. Senior-led structuring, debt and equity sourcing, and negotiation on both sides where required. Focus on the £5–50M EV segment.",
+      "We advise UK owners on management buyouts and management-led transactions. Senior-led structuring, debt and equity sourcing, and negotiation on both sides where required. Focus on the £5M to £50M EV segment.",
     heroSubtitle:
-      "MBOs, VIMBOs and dual-track processes — structured to protect both seller consideration and management equity.",
+      "MBOs, VIMBOs and dual-track processes: structured to protect both seller consideration and management equity.",
     faqs: [
       {
         q: "When does an MBO make sense?",
@@ -198,15 +198,15 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
       },
       {
         q: "How long does an MBO take?",
-        a: "6–9 months from engagement to completion is typical. Debt arrangement timelines drive the schedule.",
+        a: "6 to 9 months from engagement to completion is typical. Debt arrangement timelines drive the schedule.",
       },
       {
         q: "How do I avoid conflicts in advising both sides?",
-        a: "We act either for the seller or for management — not both. The other side typically engages their own advisor. Where appropriate we make recommendations of advisors for the counter-party.",
+        a: "We act either for the seller or for management, not both. The other side typically engages their own advisor. Where appropriate we make recommendations of advisors for the counter-party.",
       },
       {
         q: "What about VIMBO (vendor-initiated MBO) processes?",
-        a: "VIMBO processes — where the seller approaches management with the opportunity — can work well but need careful structuring to manage the conflict and ensure the seller gets fair value.",
+        a: "VIMBO processes, where the seller approaches management with the opportunity, can work well but need careful structuring to manage the conflict and ensure the seller gets fair value.",
       },
     ],
     contentTodos: [
@@ -214,9 +214,9 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         heading: "Who an MBO suits",
         cover: ["Decision tree for trade sale vs MBO"],
         body: [
-          "Management buyouts work well when three conditions are present together. First, there is a credible management team — typically the MD or COO plus a senior layer — who are willing and financially able to take the business forward. Second, you (as seller) value continuity for staff, customers and culture meaningfully. Third, the business has enough EBITDA and predictable cash conversion to support the debt and equity package required to fund the deal.",
-          "Where all three are present, an MBO often delivers a better seller outcome on terms (vendor loan repayment, post-sale role, cultural continuity) even if the headline price sits slightly below a competitive trade-sale process. The seller's realised net proceeds are not just the headline price — they are the headline price minus deal costs, minus tax leakage, minus discount for risk on deferred elements, plus the value of post-sale continuity for the things the seller cares about.",
-          "Where one or more of the conditions is missing — no credible management team, seller indifferent to continuity, EBITDA too thin to support the funding package — a trade sale or PE-led sale typically delivers a better outcome. We will be straight about this in the first conversation rather than running an MBO process that is not the right fit.",
+          "Management buyouts work well when three conditions are present together. First, there is a credible management team, typically the MD or COO plus a senior layer, who are willing and financially able to take the business forward. Second, you (as seller) value continuity for staff, customers and culture meaningfully. Third, the business has enough EBITDA and predictable cash conversion to support the debt and equity package required to fund the deal.",
+          "Where all three are present, an MBO often delivers a better seller outcome on terms (vendor loan repayment, post-sale role, cultural continuity) even if the headline price sits slightly below a competitive trade-sale process. The seller's realised net proceeds are not just the headline price: they are the headline price minus deal costs, minus tax leakage, minus discount for risk on deferred elements, plus the value of post-sale continuity for the things the seller cares about.",
+          "Where one or more of the conditions is missing (no credible management team, seller indifferent to continuity, EBITDA too thin to support the funding package), a trade sale or PE-led sale typically delivers a better outcome. We will be straight about this in the first conversation rather than running an MBO process that is not the right fit.",
           "Where the seller wants to test both routes, a dual-track process (run a trade / PE sale process alongside an MBO structure) is sometimes the right answer. We have run dual-track processes and can advise on whether it fits your situation.",
         ],
       },
@@ -241,8 +241,8 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
           "MBOs that fail typically do so for one of three reasons. The honest version is below.",
           "Over-leveraging the business. The temptation is to push senior debt to the limit because it maximises immediate seller proceeds. The reality is that debt-heavy structures leave management with no operational headroom, expose the business to covenant breach in the first downturn, and put the deferred elements of seller consideration at risk. Sustainable leverage is the better outcome for everyone.",
           "Management equity stake too small to motivate. Where management ends up with single-digit equity after dilution, the buy-in is rarely strong enough to drive the value creation that justifies the structure. We work with all parties to size the management equity stake to where it is genuinely motivating across the hold period.",
-          "Seller deferred consideration risk poorly managed. Deferred consideration — vendor loan, earn-out, deferred preferred equity — sits behind senior debt and (usually) PE equity in the cap structure. If the business underperforms, the seller's deferred consideration is what takes the hit first. We work with sellers to size and collateralise deferred elements appropriately, and to negotiate covenants that protect the seller's position through the deferred period.",
-          "If an MBO might fit your situation, [book a confidential conversation](/contact/). We will work through whether the three conditions are present and what a workable structure would look like.",
+          "Seller deferred consideration risk poorly managed. Deferred consideration (vendor loan, earn-out, deferred preferred equity) sits behind senior debt and (usually) PE equity in the cap structure. If the business underperforms, the seller's deferred consideration is what takes the hit first. We work with sellers to size and collateralise deferred elements appropriately, and to negotiate covenants that protect the seller's position through the deferred period.",
+          "If an MBO might fit your situation, [arrange a confidential conversation](/contact/). We will work through whether the three conditions are present and what a workable structure would look like.",
         ],
       },
     ],
@@ -252,12 +252,12 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
     name: "Growth capital advisor (UK)",
     title: "Growth Capital Advisor UK | Mastella Advisory",
     metaDescription:
-      "UK growth capital advisor for SME owners worth £5–50M. Senior-led minority and majority growth-capital rounds with strategic and PE investors.",
+      "UK growth capital advisor for SME owners worth £5M to £50M. Senior-led minority and majority growth-capital rounds with strategic and PE investors.",
     h1: "Growth capital advisor for UK SME owners",
     intro:
-      "We advise UK SME owners on growth-capital rounds — minority, majority and pre-exit funding. Senior-led, focused on owners who want capital alongside a partner rather than a full exit. £5–50M EV segment.",
+      "We advise UK SME owners on growth-capital rounds: minority, majority and pre-exit funding. Senior-led, focused on owners who want capital alongside a partner rather than a full exit. £5M to £50M EV segment.",
     heroSubtitle:
-      "Minority, majority or pre-exit — the right structure depends on your objectives, not the market's defaults.",
+      "Minority, majority or pre-exit: the right structure depends on your objectives, not the market's defaults.",
     faqs: [
       {
         q: "When does growth capital make sense vs a full exit?",
@@ -265,7 +265,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
       },
       {
         q: "How much equity will I have to give up?",
-        a: "Minority growth-capital rounds typically take 20–35% equity. Majority rounds 51–70%. The exact level depends on your need for capital, your view of future value, and the structure that aligns incentives best.",
+        a: "Minority growth-capital rounds typically take 20 to 35% equity. Majority rounds 51 to 70%. The exact level depends on your need for capital, your view of future value, and the structure that aligns incentives best.",
       },
       {
         q: "Who provides growth capital in the UK lower mid-market?",
@@ -273,7 +273,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
       },
       {
         q: "What is the typical hold period for a growth-capital investor?",
-        a: "PE growth-equity hold periods are typically 4–7 years. Family offices and corporate investors are often longer. This affects exit-route alignment, which we work through pre-process.",
+        a: "PE growth-equity hold periods are typically 4 to 7 years. Family offices and corporate investors are often longer. This affects exit-route alignment, which we work through pre-process.",
       },
       {
         q: "How does board governance change post-investment?",
@@ -281,7 +281,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
       },
       {
         q: "How long does a growth-capital round typically take?",
-        a: "4–8 months end to end is typical, shorter than a sell-side process.",
+        a: "4 to 8 months end to end is typical, shorter than a sell-side process.",
       },
     ],
     contentTodos: [
@@ -291,9 +291,9 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         body: [
           "Growth capital comes in three main structures, each suited to a different owner objective. The right one depends on what you want from the next stage rather than what the market typically does.",
           "The choice between growth capital and a full exit (to a specific buyer type) turns on similar considerations. Our decision framework compares the three main exit routes and where each fits owners in your situation: [Search Fund vs Private Equity vs Strategic Buyer](/insights/search-fund-vs-private-equity-vs-strategic/). Owners weighing a growth round against a partial exit find it particularly useful.",
-          "Minority growth capital. Typically 20-35% equity. The owner remains in control, takes some capital off the table, and brings in an investor who can support the next phase of growth — usually a buy-and-build agenda, a meaningful organic investment programme, or geographic expansion. This route suits owners who see real runway in the business and want a partner rather than an exit.",
+          "Minority growth capital. Typically 20-35% equity. The owner remains in control, takes some capital off the table, and brings in an investor who can support the next phase of growth, usually a buy-and-build agenda, a meaningful organic investment programme, or geographic expansion. This route suits owners who see real runway in the business and want a partner rather than an exit.",
           "Majority growth capital. Typically 51-70% equity. The owner remains operationally involved (often as CEO or Chair) but transfers majority control. Substantially more capital comes off the table. The investor takes meaningful governance position and drives the next exit. This route suits owners who want to materially de-risk personally while remaining engaged.",
-          "Pre-exit funding. A round of capital — minority or majority — designed to fund a final value-creation push before a planned full exit 18-36 months later. Often used to fund acquisitions that strengthen the business for the eventual sale. This route suits owners with a clear sale window in view and a credible value-creation thesis for the interim period.",
+          "Pre-exit funding. A round of capital, minority or majority, designed to fund a final value-creation push before a planned full exit 18-36 months later. Often used to fund acquisitions that strengthen the business for the eventual sale. This route suits owners with a clear sale window in view and a credible value-creation thesis for the interim period.",
           "We work with you to identify which structure fits your objectives, run the buyer mapping accordingly, and negotiate the terms that match the structure rather than fight whatever the market defaults to. Senior-led throughout.",
         ],
       },
@@ -309,7 +309,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
           "Growth-capital investors evaluate opportunities on a different set of criteria from full-exit buyers. The headline items below shape who engages with a growth-capital opportunity and on what terms.",
           "Growth trajectory. Investors want to see consistent year-on-year growth with a credible plan to maintain or accelerate it over the hold period. Slowing-growth businesses attract growth capital only where there is a clear path to re-acceleration.",
           "Defensible market position. Differentiated capability, defensible market share, structural advantages over competitors, and growth runway in the underlying market all matter. Generic businesses in commoditising markets attract growth capital only at unattractive terms.",
-          "Management team capability. Growth-capital investors are partners, not just funders. They diligence the management team in depth — capability, ambition, alignment with the growth plan, succession depth. Owner-managed businesses sometimes underestimate how seriously this is assessed. Pre-process work to strengthen senior team visibility consistently improves outcomes.",
+          "Management team capability. Growth-capital investors are partners, not just funders. They diligence the management team in depth: capability, ambition, alignment with the growth plan, succession depth. Owner-managed businesses sometimes underestimate how seriously this is assessed. Pre-process work to strengthen senior team visibility consistently improves outcomes.",
           "Capital efficiency and unit economics. Investors want to see that the business converts capital into growth efficiently. Unit economics by customer cohort, gross margin trajectory, working capital intensity, and the return on previously invested growth capital all matter.",
         ],
       },
@@ -317,12 +317,12 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         heading: "Post-investment governance",
         cover: ["Reserved matters", "Information rights", "Founder lock-ins"],
         body: [
-          "Growth-capital deals come with governance terms that meaningfully affect how the business runs post-investment. The major terms are below — what each typically looks like, and where the owner-led negotiating room sits.",
+          "Growth-capital deals come with governance terms that meaningfully affect how the business runs post-investment. The major terms are below: what each typically looks like, and where the owner-led negotiating room sits.",
           "Reserved matters. The list of decisions that require investor consent (typically capital raises, M&A, leadership changes, material capex, budgets above a threshold). Standard but the specifics matter. Over-broad reserved matters give the investor effective veto on day-to-day decisions; well-negotiated reserved matters preserve the founder's operational autonomy while protecting the investor's economics.",
-          "Information rights. Monthly management accounts, quarterly board packs, annual budget approval, and ad hoc information rights for investor diligence. Standard but the cadence and depth matter — over-broad information rights create reporting burden that distracts from running the business.",
-          "Founder lock-ins and good leaver / bad leaver provisions. The mechanism by which the founder's equity vests through the hold period and what happens if the founder leaves before the next exit. The drafting matters significantly — particularly the definition of 'bad leaver' and the price at which equity is forfeited.",
+          "Information rights. Monthly management accounts, quarterly board packs, annual budget approval, and ad hoc information rights for investor diligence. Standard but the cadence and depth matter: over-broad information rights create reporting burden that distracts from running the business.",
+          "Founder lock-ins and good leaver / bad leaver provisions. The mechanism by which the founder's equity vests through the hold period and what happens if the founder leaves before the next exit. The drafting matters significantly, particularly the definition of 'bad leaver' and the price at which equity is forfeited.",
           "Board composition and chairing. The investor typically takes board seats proportional to ownership, plus reserved chair appointment in majority rounds. The detail of how the board operates matters more than the formal composition.",
-          "If growth capital might fit your situation, [book a confidential conversation](/contact/). We will work through which structure fits and what the negotiation should look like.",
+          "If growth capital might fit your situation, [arrange a confidential conversation](/contact/). We will work through which structure fits and what the negotiation should look like.",
         ],
       },
     ],
@@ -332,14 +332,14 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
     name: "Company valuation (UK)",
     title: "Company Valuation UK | Mastella Advisory",
     metaDescription:
-      "UK company valuation for SME owners worth £5–50M. Indicative and exit-ready valuation work from a senior-led M&A advisor.",
+      "UK company valuation for SME owners worth £5M to £50M. Indicative and exit-ready valuation work from a senior-led M&A advisor.",
     h1: "Company valuation for UK SME owners",
     intro:
-      "Most owner-managed UK businesses are worth materially more than their accountant's asset-based valuation. We provide indicative and exit-ready valuation work grounded in current transaction multiples, sector benchmarks and buyer behaviour — not abstract methodology.",
+      "Most owner-managed UK businesses are worth materially more than their accountant's asset-based valuation. We provide indicative and exit-ready valuation work grounded in current transaction multiples, sector benchmarks and buyer behaviour, not abstract methodology.",
     faqs: [
       {
         q: "How is my business going to be valued by a buyer?",
-        a: "Owner-managed UK businesses in the £5–50M EV segment are typically valued on a multiple of adjusted EBITDA. The multiple varies by sector (5x to 12x is the broad range), growth rate, customer concentration, management depth and recurring revenue mix. We provide an indicative range in the first conversation.",
+        a: "Owner-managed UK businesses in the £5M to £50M EV segment are typically valued on a multiple of adjusted EBITDA. The multiple varies by sector (5x to 12x is the broad range), growth rate, customer concentration, management depth and recurring revenue mix. We provide an indicative range in the first conversation.",
       },
       {
         q: "What is the difference between accountant valuations and M&A valuations?",
@@ -347,7 +347,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
       },
       {
         q: 'What is "adjusted EBITDA"?',
-        a: "Reported EBITDA adjusted for owner discretionary items (above-market salary, personal expenses), one-off items, and non-trading items. Buyers run their own adjustments — we help owners build the right bridge before going to market.",
+        a: "Reported EBITDA adjusted for owner discretionary items (above-market salary, personal expenses), one-off items, and non-trading items. Buyers run their own adjustments. We help owners build the right bridge before going to market.",
       },
       {
         q: "Why do multiples vary so widely by sector?",
@@ -375,7 +375,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
           "This is a different exercise from the valuations most owners are used to seeing from their accountant. For the full contrarian analysis on why accountancy valuations systematically under-price good UK businesses and what buyers actually pay in a competitive process, read: [Why Your Accountant's Valuation Is Almost Certainly Wrong](/insights/accountant-valuation-vs-market-valuation/).",
           "The sector base range. Different sectors trade at different base multiples because of buyer competition, growth profile, regulatory barriers and capital intensity. Healthcare services (dental, vet, mental health) currently trade at 8-12x EBITDA at the lower mid-market. Tech-enabled services trade widely from 6x EBITDA on pure services up to ARR-based valuations of 3-8x ARR for SaaS components. Professional services 5-10x. Business services 5-9x. Light industrials 5-8x. Logistics 5-10x depending on sub-segment. See [the sectors hub](/sectors/) for sector-specific detail.",
           "The recurring revenue premium. Within any sector, recurring or contracted revenue commands a meaningful premium to project / one-off revenue. The premium is typically 1-2 turns of multiple. Pre-process work to surface the recurring component properly is one of the highest-return preparation activities.",
-          "Customer concentration discount. Single-client concentration above 25-30% typically discounts the multiple even where the relationship is deep. Above 50% it materially narrows the buyer pool. Multi-anchor concentration with documented relationship depth sits differently — we help owners document and defend depth pre-process.",
+          "Customer concentration discount. Single-client concentration above 25-30% typically discounts the multiple even where the relationship is deep. Above 50% it materially narrows the buyer pool. Multi-anchor concentration with documented relationship depth sits differently. We help owners document and defend depth pre-process.",
           "Growth trajectory and operating leverage. Buyers reward demonstrated growth and a credible path to operating leverage. Flat or declining EBITDA trades at the lower end of the sector range; consistently growing EBITDA at the upper end. Buyers also look at margin trajectory, not just revenue growth.",
           "Management depth and founder dependency. Owner-managed businesses where the founder is the load-bearing structure consistently trade at the lower end of the sector range. The single biggest pre-process intervention is building out the senior team that lets buyers see a business that can run without the founder.",
         ],
@@ -388,7 +388,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
           "Working capital normalisation",
         ],
         body: [
-          "Adjusted EBITDA is the basis on which most lower mid-market UK businesses are valued. It is reported EBITDA — adjusted for items that distort the view of sustainable run-rate profitability. The buyer will run their own version. Yours needs to be defensible to the line before going to market.",
+          "Adjusted EBITDA is the basis on which most lower mid-market UK businesses are valued. It is reported EBITDA, adjusted for items that distort the view of sustainable run-rate profitability. The buyer will run their own version. Yours needs to be defensible to the line before going to market.",
           "Owner discretionary adjustments. Above-market owner salary (where the owner has taken below or above market compensation, the adjustment normalises it). Personal expenses run through the business. Family member salaries above market rate. Property rent at non-market levels. Each adjustment is straightforward to defend in principle but only with proper documentation.",
           "One-off and non-trading items. Genuine one-off costs (restructuring, settlements, write-offs of specific items, one-time professional fees on M&A or financing) are typically adjusted out. Wear-and-tear costs that are recurring even if irregular are not. The buyer will challenge any line that looks recurring; defending it requires documentation.",
           "Pro-forma adjustments. Where significant business changes have happened part-way through the trading history (acquisitions, disposals, restructurings), pro-forma EBITDA presents the EBITDA as if those changes had been in place throughout. Buyers typically accept pro-forma adjustments where they are documented properly.",
@@ -400,14 +400,14 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         heading: "Sector benchmarks",
         cover: ["Cross-link to /sectors hub for detailed sector ranges"],
         body: [
-          "Sector-specific multiple ranges, buyer pool composition and diligence focus areas are covered in the sector pillar pages. Below is the headline orientation — for the detail in your sector, follow the link.",
+          "Sector-specific multiple ranges, buyer pool composition and diligence focus areas are covered in the sector pillar pages. Below is the headline orientation: for the detail in your sector, follow the link.",
           "[Healthcare services](/sectors/healthcare-services/). 7-12x EBITDA range, very active PE consolidator pool, sector-specific regulatory diligence. Dental, vet, care, mental health and specialist clinics each have distinct sub-sector dynamics.",
           "[Tech-enabled services](/sectors/tech-enabled-services/). Wide range. Pure services at 6-10x EBITDA; SaaS components at 3-8x ARR. Buyer pool international with US and Nordic strategics active alongside UK PE consolidators.",
           "[Professional services](/sectors/professional-services/). 5-10x EBITDA range, active PE consolidators in accountancy, legal and consulting. Partner alignment is the critical structural factor.",
           "[Business services](/sectors/business-services/). 5-9x EBITDA range. PE consolidators across HR, payroll, FM, cleaning and recruitment. Recurring revenue and customer concentration drive intra-range positioning.",
           "[Light industrials](/sectors/light-industrials/). 5-8x EBITDA range for general specialist manufacturing; premium ranges for businesses with defensible IP and international revenue. International strategic buyer pool.",
           "[Logistics and distribution](/sectors/logistics-and-distribution/). 5-10x EBITDA depending on sub-segment. Cold-chain and specialist 3PL at the upper end; pure haulage at the lower end. Recent transaction experience in cold-chain logistics and container leasing.",
-          "If you would like an indicative valuation range for your specific business, [book a confidential conversation](/contact/). Forty-five minutes, no obligation, and we will share the indicative range with the reasoning behind it.",
+          "If you would like an indicative valuation range for your specific business, [arrange a confidential conversation](/contact/). Forty-five minutes, no obligation, and we will share the indicative range with the reasoning behind it.",
         ],
       },
     ],
@@ -417,12 +417,12 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
     name: "M&A advisor (UK)",
     title: "M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      "UK M&A advisor for SME owners worth £5–50M. Senior-led, off-market sell-side, buy-side, MBO and capital advisory. Confidential.",
+      "UK M&A advisor for SME owners worth £5M to £50M. Senior-led, off-market sell-side, buy-side, MBO and capital advisory. Confidential.",
     h1: "M&A advisor for UK SME owners",
     intro:
-      "We are a senior-led M&A advisor for UK owner-managed businesses worth £5–50M. Confidential, off-market sell-side, buy-side, MBO and growth-capital work — focused on owners who want senior attention from first call to completion.",
+      "We are a senior-led M&A advisor for UK owner-managed businesses worth £5M to £50M. Confidential, off-market sell-side, buy-side, MBO and growth-capital work, focused on owners who want senior attention from first call to completion.",
     heroSubtitle:
-      "Every conversation runs through Leo — the senior-led model traditional firms rebrand but don't actually deliver.",
+      "Every conversation runs through Leo: the senior-led model traditional firms rebrand but don't actually deliver.",
     faqs: [
       {
         q: "What does an M&A advisor do?",
@@ -430,11 +430,11 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
       },
       {
         q: "How is an M&A advisor different from a broker?",
-        a: "Brokers typically operate database-driven listings models and target businesses worth under £2–3M. M&A advisors run off-market processes for businesses worth £5M+, contacting curated buyer sets under NDA and managing competitive dynamics through negotiation.",
+        a: "Brokers typically operate database-driven listings models and target businesses worth under £3M. M&A advisors run off-market processes for businesses worth £5M+, contacting curated buyer sets under NDA and managing competitive dynamics through negotiation.",
       },
       {
         q: "What size businesses do you work with?",
-        a: "Mastella works with UK businesses worth £5–50M in enterprise value. Below £5M we typically refer to a small set of brokers we trust rather than take a mandate we cannot deliver senior-led.",
+        a: "Mastella works with UK businesses worth £5M to £50M in enterprise value. Below £5M we typically refer to a small set of brokers we trust rather than take a mandate we cannot deliver senior-led.",
       },
       {
         q: "How are your fees structured?",
@@ -446,27 +446,27 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
       },
       {
         q: "How do I get started?",
-        a: "Book a 45-minute confidential conversation. No obligation. We will tell you honestly whether what you want to achieve is realistic and whether Mastella is the right firm for it.",
+        a: "Arrange a 45-minute confidential conversation. No obligation. We will tell you honestly whether what you want to achieve is realistic and whether Mastella is the right firm for it.",
       },
       {
         q: "Who is the best boutique M&A advisor for UK SMEs?",
-        a: "'Best' depends on your sector, deal size and priorities. For UK owner-managed businesses worth £5–50M in enterprise value, the useful shortlist is the small group of boutique advisors who genuinely deliver senior-led work throughout the mandate rather than delegating to juniors after the sales meeting. Mastella works in this segment. Other UK boutique M&A advisors active in the lower mid-market include Cavendish, Cortus Advisory, Marktlink UK, Beer & Partners, Clearwater International (lower mid-market team), and the corporate finance teams at BDO, RSM, Grant Thornton and Kroll for the £15M+ end. What matters more than the shortlist is which firm actually knows the current active buyer pool in your specific sub-sector.",
+        a: "'Best' depends on your sector, deal size and priorities. For UK owner-managed businesses worth £5M to £50M in enterprise value, the useful shortlist is the small group of boutique advisors who genuinely deliver senior-led work throughout the mandate rather than delegating to juniors after the sales meeting. Mastella works in this segment. Other UK boutique M&A advisors active in the lower mid-market include Cavendish, Cortus Advisory, Marktlink UK, Beer & Partners, Clearwater International (lower mid-market team), and the corporate finance teams at BDO, RSM, Grant Thornton and Kroll for the £15M+ end. What matters more than the shortlist is which firm actually knows the current active buyer pool in your specific sub-sector.",
       },
       {
         q: "What is a boutique M&A advisor and how are they different from big firms?",
-        a: "A boutique M&A advisor is a specialist independent firm — usually 5 to 50 people — that focuses on M&A advisory in a defined market segment (e.g. UK lower mid-market, or a specific sector). Boutiques compete with the mid-market corporate finance teams at BDO, RSM, Grant Thornton, Kroll and the Big Four on senior attention per deal, sector depth and speed. Larger firms compete on brand, cross-firm reach, and full-service adjacencies (tax, audit, legal). For owner-managed £5–50M deals, boutique advisors typically produce a materially different client experience — the person who wins the mandate is the person who runs the mandate.",
+        a: "A boutique M&A advisor is a specialist independent firm, usually 5 to 50 people, that focuses on M&A advisory in a defined market segment (e.g. UK lower mid-market, or a specific sector). Boutiques compete with the mid-market corporate finance teams at BDO, RSM, Grant Thornton, Kroll and the Big Four on senior attention per deal, sector depth and speed. Larger firms compete on brand, cross-firm reach, and full-service adjacencies (tax, audit, legal). For owner-managed £5M to £50M deals, boutique advisors typically produce a materially different client experience: the person who wins the mandate is the person who runs the mandate.",
       },
       {
         q: "How do I choose the best M&A advisor for my UK SME?",
-        a: "Ask five questions of any firm you interview. (1) Who specifically will run this mandate day-to-day — will that named senior person be in every buyer meeting and every negotiation call? (2) What specific completed transactions have you led in my sub-sector in the last three years? (3) Who are the 40–80 buyers you would approach for my business and why each? (4) What is your fee structure in full — retainer, success fee, expenses, any minimums? (5) What is the honest downside of choosing you vs the alternative firms I am interviewing? Firms that answer all five directly are usually the right shortlist.",
+        a: "Ask five questions of any firm you interview. (1) Who specifically will run this mandate day-to-day: will that named senior person be in every buyer meeting and every negotiation call? (2) What specific completed transactions have you led in my sub-sector in the last three years? (3) Who are the 40 to 80 buyers you would approach for my business and why each? (4) What is your fee structure in full: retainer, success fee, expenses, any minimums? (5) What is the honest downside of choosing you vs the alternative firms I am interviewing? Firms that answer all five directly are usually the right shortlist.",
       },
       {
         q: "How much do the best M&A advisors cost for UK SME deals?",
-        a: "UK lower mid-market M&A advisor fees split into three components. A monthly retainer (typically £8k–£25k per month depending on deal complexity, running for the duration of the mandate). A success fee on completion (usually a tiered percentage of enterprise value — headline ranges vary; broadly 1–3% for £20M+ deals and higher for smaller). Expenses (data room, legal, specialist counsel — passed through). Retainer-led fee models fund genuinely senior work throughout the mandate; pure commission-only models economically push firms to deliver junior-led work. Full fee structure should be transparent before you sign any engagement letter.",
+        a: "UK lower mid-market M&A advisers usually charge in three parts: a monthly retainer for the duration of the mandate, a success fee on completion (normally a percentage of enterprise value, tiered by deal size) and expenses such as the data room and specialist counsel, passed through at cost. The level of each depends on the size and complexity of the deal. A retainer funds senior work throughout the mandate, while a commission-only model pushes firms towards junior-led delivery. Ask for the full fee structure in writing before you sign an engagement letter. We set out ours in the first conversation.",
       },
       {
         q: "What is the difference between an M&A advisor and a business broker?",
-        a: "Brokers run database-driven listings and typically serve businesses worth under £2–3M — the buyer pool is individual owner-operators, small acquirers and search-fund searchers, reachable through broker networks. M&A advisors run off-market processes for businesses worth £5M+ — the buyer pool is PE-backed consolidators, strategic acquirers and direct PE houses, reached through curated direct approaches under NDA. The two models attract different buyers, use different fee structures, and produce different outcomes. See [our resource comparing the two](/resources/business-broker-vs-m-a-advisor/) for the full comparison.",
+        a: "Brokers run database-driven listings and typically serve businesses worth under £3M: the buyer pool is individual owner-operators, small acquirers and search-fund searchers, reachable through broker networks. M&A advisors run off-market processes for businesses worth £5M+: the buyer pool is PE-backed consolidators, strategic acquirers and direct PE houses, reached through curated direct approaches under NDA. The two models attract different buyers, use different fee structures, and produce different outcomes. See [our resource comparing the two](/resources/business-broker-vs-m-a-advisor/) for the full comparison.",
       },
       {
         q: "How long does a UK SME M&A process take?",
@@ -474,7 +474,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
       },
       {
         q: "How do you find buyers that other advisors do not reach?",
-        a: "Three things. First, curated buyer mapping specific to your sub-sector and situation — we build the target buyer list from primary research on active PE consolidators, strategic acquirers, and specialist buyers currently deploying capital in your specific niche, supported by our proprietary technology layer for surfacing acquirer signals from licensed market data. Second, direct senior-led outreach under NDA to individually identified buyers rather than broad broker-network listings. Third, coverage of buyer pools outside the obvious UK PE and trade lists — overseas strategics, infrastructure-style investors, and specialist consolidators are frequently the buyers who pay differently.",
+        a: "Three things. First, curated buyer mapping specific to your sub-sector and situation: we build the target buyer list from primary research on active PE consolidators, strategic acquirers, and specialist buyers currently deploying capital in your specific niche, supported by our proprietary technology layer for surfacing acquirer signals from licensed market data. Second, direct senior-led outreach under NDA to individually identified buyers rather than broad broker-network listings. Third, coverage of buyer pools outside the obvious UK PE and trade lists: overseas strategics, infrastructure-style investors, and specialist consolidators are frequently the buyers who pay differently.",
       },
     ],
     contentTodos: [
@@ -491,11 +491,11 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
       },
       {
         heading: "Who we work with",
-        cover: ["£5–50M EV range", "Owner-managed", "Sector coverage"],
+        cover: ["£5M to £50M EV range", "Owner-managed", "Sector coverage"],
         body: [
           "We work with owner-managed UK businesses worth between £5M and £50M in enterprise value, across six sectors: business services, healthcare services, light industrials, logistics and distribution, professional services, and tech-enabled services. See [the sectors hub](/sectors/) for the detailed sub-sector coverage.",
           "Our typical client is a founder or partner group 12 to 24 months from a target exit, growth-capital round or capital event. The financials are real, the team is credible, and the business has reached the point where a structured competitive process across the right buyer pool will materially outperform either inbound approaches or a single-buyer negotiation.",
-          "We do not work with businesses below £5M EV — at that scale, a quality broker network typically serves owners better than a senior-led firm can. We do not run mandates where the owner is committed to accepting a specific approach already on the table; that is execution support, which fits a different mandate type and a different fee profile.",
+          "We do not work with businesses below £5M EV. At that scale, a quality broker network typically serves owners better than a senior-led firm can. We do not run mandates where the owner is committed to accepting a specific approach already on the table; that is execution support, which fits a different mandate type and a different fee profile.",
           "We do work hard to be straight in the first conversation. Forty-five minutes, no obligation, with an honest view on whether what you want to achieve is realistic and whether Mastella's model fits your situation.",
         ],
       },
@@ -508,9 +508,9 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
           "The gap between the best UK boutique M&A advisors for a lower mid-market owner and the median firm is larger than it looks from the pitch meeting. Five things separate them, and all five are worth interrogating before you sign an engagement letter.",
           "**Who runs the mandate day-to-day, by name.** The single most important question. Traditional UK M&A firms are structured around senior partners winning mandates and delegating substantive delivery to junior teams. The senior name in the pitch meeting frequently appears only at key buyer meetings and at completion. A boutique senior-led firm has the named senior person in every buyer meeting, every negotiation, and every material client conversation across the six-to-nine month mandate. Ask for a specific named commitment.",
           "**Sub-sector track record in the last three years.** Generic 'we cover technology' or 'we do healthcare' is not track record. Named completed transactions in your specific sub-sector in the last three years is. Ask for the four or five most recent completed mandates in businesses like yours, at your rough size. Firms that cannot produce this shortlist do not have the current buyer-pool knowledge to run your process effectively, whatever their broader capability.",
-          "**Buyer-pool knowledge — specific and current.** Ask any firm to name the 40–80 buyers they would approach for your business, split by strategic vs PE vs overseas, and explain briefly why each is on the list. Firms that can do this from memory have the market intelligence to run a competitive process. Firms that answer with 'we will build the list once you engage us' are telling you where the work will start, not that it is already done.",
-          "**Fee structure — full, transparent, in writing before signature.** A good M&A advisor shares the full fee structure in the first serious conversation: retainer amount and duration, success fee tiers, expenses treatment, any minimum fees or long-stop provisions, tail-period arrangements. A firm reluctant to be specific about fees before the engagement letter arrives is a firm you should be careful about. Retainer-led fee models fund senior-led delivery; commission-only models economically drive junior delivery regardless of how the mandate is sold.",
-          "**Willingness to say the honest downside of choosing them.** The best M&A advisors will tell you, unprompted, where their model does not fit — where a different firm or a different transaction type would serve you better. If every firm you interview describes themselves as the right choice for every situation, you have learned nothing. The firm that says 'if your priority is X, firm Y is probably a better fit' is usually the firm to shortlist.",
+          "**Buyer-pool knowledge: specific and current.** Ask any firm to name the 40 to 80 buyers they would approach for your business, split by strategic vs PE vs overseas, and explain briefly why each is on the list. Firms that can do this from memory have the market intelligence to run a competitive process. Firms that answer with 'we will build the list once you engage us' are telling you where the work will start, not that it is already done.",
+          "**Fee structure: full, transparent, in writing before signature.** A good M&A advisor shares the full fee structure in the first serious conversation: retainer amount and duration, success fee tiers, expenses treatment, any minimum fees or long-stop provisions, tail-period arrangements. A firm reluctant to be specific about fees before the engagement letter arrives is a firm you should be careful about. Retainer-led fee models fund senior-led delivery; commission-only models economically drive junior delivery regardless of how the mandate is sold.",
+          "**Willingness to say the honest downside of choosing them.** The best M&A advisors will tell you, unprompted, where their model does not fit and where a different firm or a different transaction type would serve you better. If every firm you interview describes themselves as the right choice for every situation, you have learned nothing. The firm that says 'if your priority is X, firm Y is probably a better fit' is usually the firm to shortlist.",
           "**Bench depth beyond the lead advisor.** Even a senior-led boutique needs analytical bench depth to deliver at the level of intensity a modern M&A process requires. Ask about the in-house team (analysts, associates, technology capability) and the wider network the firm draws on for specialist counsel. Boutique senior-led delivery only works when the senior person is genuinely leveraged by strong analytical support behind them.",
         ],
       },
@@ -518,14 +518,14 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         heading: "Recent market activity: UK lower mid-market M&A",
         cover: ["Named consolidator activity, multiple ranges, sector heat"],
         body: [
-          "The UK lower mid-market M&A landscape (£5–50M enterprise value) in 2026 remains structurally active despite macro-uncertainty at the larger end of the market. Below is a snapshot of what is currently visible.",
-          "**PE consolidator activity.** UK-focused mid-market PE (Inflexion, LDC, Livingbridge, Bridgepoint Development Capital, HgCapital, ECI, HgCapital Mercury, August Equity, NorthEdge, Endless, Piper, Beech Tree, Bregal Milestone) all remain active for platform investments and add-ons across the £5–50M EV segment. Sector-specific consolidator strategies are visible in healthcare, tech-enabled services, business services and specialist logistics.",
-          "**Strategic acquirer activity.** UK and overseas strategic acquirers dominate certain sub-sectors — Big Four and larger consulting groups in professional services and applied AI; specialist FM and cleaning consolidators; healthcare service consolidators; European industrial and logistics groups acquiring for UK footprint. Overseas buyers (US, European, and increasingly Asian) have been consistently active for UK specialist manufacturing, applied AI, and tech-enabled services.",
-          "**Search fund activity.** Search funds have become one of the most active individual-buyer categories in the UK lower mid-market over the last three years, alongside PE and strategics. Institutional sponsors including Novastone Capital Advisors, Broadleaf Capital and First Search, plus a growing pool of independent searchers, actively approach £5–50M EV owner-managed businesses. See our pillar guide for the mechanics and how to evaluate a specific approach: [UK Search Funds Explained](/insights/uk-search-funds-explained/).",
-          "**Multiples.** Sector-specific multiple ranges vary widely — healthcare services (dental, vet, mental health) 8–14x EBITDA; tech-enabled services (SaaS, MSP, cyber, AI) 6–12x EBITDA or 3–10x ARR for platform components; business services 5–9x; professional services 5–10x; light industrials 5–8x with premium ranges for specialist manufacturing; logistics 5–10x depending on sub-segment. Multiples within each range are driven more by structural characteristics (recurring revenue, customer concentration, management depth) than by macro conditions.",
+          "The UK lower mid-market M&A landscape (£5M to £50M enterprise value) in 2026 remains structurally active despite macro-uncertainty at the larger end of the market. Below is a snapshot of what is currently visible.",
+          "**PE consolidator activity.** UK-focused mid-market PE (Inflexion, LDC, Livingbridge, Bridgepoint Development Capital, HgCapital, ECI, HgCapital Mercury, August Equity, NorthEdge, Endless, Piper, Beech Tree, Bregal Milestone) all remain active for platform investments and add-ons across the £5M to £50M EV segment. Sector-specific consolidator strategies are visible in healthcare, tech-enabled services, business services and specialist logistics.",
+          "**Strategic acquirer activity.** UK and overseas strategic acquirers dominate certain sub-sectors: Big Four and larger consulting groups in professional services and applied AI; specialist FM and cleaning consolidators; healthcare service consolidators; European industrial and logistics groups acquiring for UK footprint. Overseas buyers (US, European, and increasingly Asian) have been consistently active for UK specialist manufacturing, applied AI, and tech-enabled services.",
+          "**Search fund activity.** Search funds have become one of the most active individual-buyer categories in the UK lower mid-market over the last three years, alongside PE and strategics. Institutional sponsors including Novastone Capital Advisors, Broadleaf Capital and First Search, plus a growing pool of independent searchers, actively approach £5M to £50M EV owner-managed businesses. See our pillar guide for the mechanics and how to evaluate a specific approach: [UK Search Funds Explained](/insights/uk-search-funds-explained/).",
+          "**Multiples.** Sector-specific multiple ranges vary widely: healthcare services (dental, vet, mental health) 8 to 14x EBITDA; tech-enabled services (SaaS, MSP, cyber, AI) 6 to 12x EBITDA or 3 to 10x ARR for platform components; business services 5 to 9x; professional services 5 to 10x; light industrials 5 to 8x with premium ranges for specialist manufacturing; logistics 5 to 10x depending on sub-segment. Multiples within each range are driven more by structural characteristics (recurring revenue, customer concentration, management depth) than by macro conditions.",
           "**Sub-sector heat.** Sectors seeing concentrated buyer interest in 2026 include: applied AI and vertical SaaS; healthcare services under the current consolidator cycle; specialist cold-chain and pharma logistics; cybersecurity managed services and GRC; specialist accountancy under continuing PE roll-up; and specialist manufacturing with international export exposure. Sectors seeing more discipline: pure haulage, generalist consulting without vertical depth, undifferentiated digital agencies, and services businesses with high founder concentration.",
           "**Diligence sharpening.** Buyers across all sectors have tightened diligence on EBITDA quality, customer concentration and forward visibility, senior team retention arrangements, IP and contract assignability, and ESG/carbon disclosure. Owners arriving with clean data on each consistently complete at or above headline expectation. Owners going cold consistently re-trade at completion or lose deals in later-stage diligence.",
-          "**Timing.** For owners considering an exit in the next 18–24 months, starting structured readiness work now materially improves outcome. Pre-sale tax structuring, senior team build-out, financial reporting clean-up and buyer-pool intelligence all have 12+ month lead times where every month of preparation compounds into the final outcome. See [exit planning](/services/exit-planning-advisor-uk/) for what the pre-process readiness work looks like.",
+          "**Timing.** For owners considering an exit in the next 18 to 24 months, starting structured readiness work now materially improves outcome. Pre-sale tax structuring, senior team build-out, financial reporting clean-up and buyer-pool intelligence all have 12+ month lead times where every month of preparation compounds into the final outcome. See [exit planning](/services/exit-planning-advisor-uk/) for what the pre-process readiness work looks like.",
         ],
       },
       {
@@ -536,10 +536,10 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
         body: [
           "The traditional UK lower mid-market M&A advisor model relies on senior advisors winning mandates and then delegating the substantive delivery work to junior teams. Senior advisors reappear at key buyer meetings and at completion. Owners typically find out about this model only when they are inside it.",
-          "Mastella is structured around the opposite model. Every conversation that matters runs through Leo. Buyer mapping, financial normalisation, IM drafting, negotiation, completion mechanics — none of these are delegated. A small in-house team and a proprietary technology layer support the senior delivery rather than substitute for it.",
+          "Mastella is structured around the opposite model. Every conversation that matters runs through Leo. Buyer mapping, financial normalisation, IM drafting, negotiation, completion mechanics. None of these are delegated. A small in-house team and a proprietary technology layer support the senior delivery rather than substitute for it.",
           "This is funded by the retainer-led fee model rather than a deal-commission model. A low monthly retainer funds genuinely senior time across the mandate. A commission-only structure economically forces firms to deliver junior-led work to make the unit economics work, regardless of how the mandate is sold.",
           "For owners running a single most important transaction in their commercial lives, the difference between senior-led and junior-led delivery is the difference between confidence and concern at every meeting that matters. It is also, in our experience, consistently the difference between a deal that closes at expectation and a deal that re-trades at completion.",
-          "If a senior-led process fits your situation, [book a confidential conversation](/contact/). Forty-five minutes, no obligation.",
+          "If a senior-led process fits your situation, [arrange a confidential conversation](/contact/). Forty-five minutes, no obligation.",
         ],
       },
     ],

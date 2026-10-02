@@ -18,13 +18,13 @@ function Hero() {
         Sectors we work in
       </h1>
       <p className="text-lg md:text-2xl text-accent leading-snug mb-10 max-w-2xl text-balance">
-        Senior-led M&amp;A advisory for founder-led businesses worth £5–50M — UK-focused with cross-border capability.
+        Senior-led M&amp;A advisory for founder-led businesses worth £5M to £50M, UK-focused with cross-border capability.
       </p>
       <Link
         to="/contact/"
         className="inline-flex items-center gap-2 bg-accent text-navy-deepest px-6 py-3 rounded-md text-sm md:text-base font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:-translate-y-px hover:shadow-lg hover:shadow-accent/20"
       >
-        Book a confidential conversation
+        Arrange a confidential conversation
         <ArrowRight className="h-4 w-4" />
       </Link>
     </div>
@@ -43,7 +43,7 @@ export default function SectorsHub() {
   return (
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="Sectors We Cover - UK M&A Advisory"
+        title="Sectors We Cover: UK M&A Advisory"
         description="UK M&A advisory across six sectors: business services, healthcare, light industrials, logistics, professional services, tech-enabled services."
         canonical="https://mastellagroup.com/sectors/"
       />

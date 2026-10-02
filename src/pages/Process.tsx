@@ -26,7 +26,7 @@ export default function Process() {
     <PageLayout hero={<Hero />} heroTone="ink" mainClassName="">
       <SEO
         title="How We Source Buyers"
-        description="How we source buyers other advisors don't reach. Six-stage senior-led M&A process for founder-led businesses worth £5–50M across the UK and internationally."
+        description="How we source buyers other advisors don't reach. Six-stage senior-led M&A process for founder-led businesses worth £5M to £50M across the UK and internationally."
         canonical="https://mastellagroup.com/process/"
       />
 
@@ -45,7 +45,7 @@ export default function Process() {
                 <div>
                   <p className="font-mono text-xs text-sand tracking-widest mb-1">HUMAN LANE</p>
                   <p className="text-sand-light leading-relaxed">
-                    Positioning, relationships, negotiation - everything that still genuinely requires judgement.
+                    Positioning, relationships, negotiation: everything that still genuinely requires judgement.
                   </p>
                 </div>
               </div>
@@ -54,7 +54,7 @@ export default function Process() {
                 <div>
                   <p className="font-mono text-xs text-accent tracking-widest mb-1">AI LANE</p>
                   <p className="text-sand-light leading-relaxed">
-                    Our own M&amp;A agents - analysis, drafting, tracking, benchmarking. Built specifically for the
+                    Our own M&amp;A agents: analysis, drafting, tracking, benchmarking. Built specifically for the
                     lower mid-market, not bolted on.
                   </p>
                 </div>
@@ -152,7 +152,7 @@ export default function Process() {
                 to="/contact"
                 className="inline-flex items-center gap-2 bg-accent text-navy-deepest px-7 py-3.5 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-accent/20"
               >
-                Book a confidential conversation
+                Arrange a confidential conversation
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
