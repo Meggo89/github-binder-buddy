@@ -28,7 +28,6 @@ type PatchInput = {
   ogImage?: string;
   // Any number of JSON-LD schema strings to inject before </head>. Each is
   // wrapped in its own <script type="application/ld+json"> block.
-  jsonLd?: string[];
 };
 
 type RenderFn = (url: string) => { html: string; helmet: unknown };
@@ -95,16 +94,6 @@ function patchHead(shell: string, m: PatchInput): string {
     `<meta name="twitter:image" content="${escapeAttr(ogImage)}" />`
   );
 
-  // Inject any JSON-LD schema blocks just before </head>. Each schema is
-  // wrapped in its own script tag so crawlers see them as independent
-  // structured-data payloads (Article + FAQPage are separate entities).
-  if (m.jsonLd && m.jsonLd.length > 0) {
-    const blocks = m.jsonLd
-      .map((s) => `    <script type="application/ld+json">${s}</script>`)
-      .join('\n');
-    h = h.replace(/\s*<\/head>/, `\n${blocks}\n  </head>`);
-  }
-
   return h;
 }
 
@@ -165,53 +154,15 @@ async function run() {
     ogImage: r.ogImage,
   }));
 
-  // Article routes with per-article Article + optional FAQPage JSON-LD.
-  const articleInputs: PatchInput[] = articles.map((a) => {
-    const canonical = canonicalFor(`/insights/${a.slug}`);
-    const articleSchema = JSON.stringify({
-      '@context': 'https://schema.org',
-      '@type': 'Article',
-      headline: a.title,
-      description: a.excerpt,
-      image: a.image,
-      author: {
-        '@type': 'Person',
-        name: a.author,
-        jobTitle: 'Managing Director',
-        worksFor: { '@type': 'Organization', name: SITE.name },
-      },
-      publisher: {
-        '@type': 'Organization',
-        name: SITE.name,
-        url: SITE.domain,
-      },
-      datePublished: a.date,
-      dateModified: a.dateModified ?? a.date,
-      mainEntityOfPage: canonical,
-      articleSection: a.category,
-    });
-    const jsonLd: string[] = [articleSchema];
-    if (a.faqs && a.faqs.length > 0) {
-      const faqSchema = JSON.stringify({
-        '@context': 'https://schema.org',
-        '@type': 'FAQPage',
-        mainEntity: a.faqs.map((f) => ({
-          '@type': 'Question',
-          name: f.q,
-          acceptedAnswer: { '@type': 'Answer', text: f.a },
-        })),
-      });
-      jsonLd.push(faqSchema);
-    }
-    return {
-      path: `/insights/${a.slug}`,
-      title: a.title,
-      description: a.excerpt,
-      ogType: 'article',
-      ogImage: a.image,
-      jsonLd,
-    };
-  });
+  // Article routes. Their Article and FAQPage JSON-LD comes from InsightArticle through Helmet,
+  // like every other page's, so it is emitted once and adopted by Helmet on hydration.
+  const articleInputs: PatchInput[] = articles.map((a) => ({
+    path: `/insights/${a.slug}`,
+    title: a.title,
+    description: a.excerpt,
+    ogType: 'article',
+    ogImage: a.image,
+  }));
 
   const all = [...staticInputs, ...articleInputs];
   let ok = 0;
@@ -221,9 +172,7 @@ async function run() {
     const headPatched = patchHead(shell, m);
     try {
       const { html: ssrBody, helmet } = render(m.path);
-      // Articles already get Article + FAQPage JSON-LD from the manual patch above; skip Helmet's
-      // copy there so the same schema is not emitted twice.
-      const withSchema = m.jsonLd ? headPatched : injectHelmetScripts(headPatched, helmetJsonLd(helmet));
+      const withSchema = injectHelmetScripts(headPatched, helmetJsonLd(helmet));
       if (withSchema !== headPatched) schemaRoutes++;
       writeRoute(m, withSchema, ssrBody);
       ok++;
