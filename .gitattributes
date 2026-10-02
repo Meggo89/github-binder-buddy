@@ -1,0 +1,14 @@
+# Store text files with LF in the repository and check them out with LF on every platform, so a
+# Windows checkout does not show files as modified purely because an editor wrote CRLF.
+* text=auto eol=lf
+
+# Binary assets: never touch line endings or try to diff them.
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
