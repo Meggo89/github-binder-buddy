@@ -76,7 +76,7 @@ const article: Article = {
 
       <h2>Talk to us</h2>
 
-      <p>If a search fund searcher has approached you and you want an independent view on whether their offer is fair and whether their capital is real, <a href="/contact/">book a 45-minute confidential conversation</a>. We work with UK owners on structured processes that test any inbound offer against the wider buyer pool.</p>
+      <p>If a search fund searcher has approached you and you want an independent view on whether their offer is fair and whether their capital is real, <a href="/contact/">arrange a 45-minute confidential conversation</a>. We work with UK owners on structured processes that test any inbound offer against the wider buyer pool.</p>
 
       <h2>What owners should ask a searcher who has approached them</h2>
 
@@ -131,7 +131,7 @@ const article: Article = {
 
       <p>Search funds have become a real feature of the UK lower mid-market buyer landscape and are worth taking seriously when a searcher approaches you. The model attracts genuinely capable individuals who intend to run the business long-term, backed by institutional or family capital that is real. But the range of quality across searchers is wide, the economics take some understanding, and the temptation to negotiate bilaterally when a credible individual approaches you often costs owners meaningful value they would have captured in a wider process.</p>
 
-      <p>Understand the model. Ask the right questions. Test the market before you commit. If you want an independent view on a specific inbound approach or on how to structure a wider process, <a href="/contact/">book a confidential conversation</a>. Forty-five minutes, no obligation, and you will leave with a clearer picture of what your options actually look like.</p>
+      <p>Understand the model. Ask the right questions. Test the market before you commit. If you want an independent view on a specific inbound approach or on how to structure a wider process, <a href="/contact/">arrange a confidential conversation</a>. Forty-five minutes, no obligation, and you will leave with a clearer picture of what your options actually look like.</p>
     `,
   author: 'Leo Meggitt',
   date: '18 August 2026',

@@ -80,18 +80,18 @@ export function SendResultsForm({ result, answers }: { result: ReadinessResult; 
     return (
       <div className="rounded-xl border border-navy/10 bg-sand-light p-8 text-center">
         <CheckCircle className="h-8 w-8 text-accent-dark mx-auto mb-4" />
-        <p className="font-serif text-2xl text-navy mb-2">Results sent to Leo.</p>
-        <p className="text-navy-light">He will reply personally, usually within one working day.</p>
+        <p className="font-serif text-2xl text-navy mb-2">Results sent.</p>
+        <p className="text-navy-light">We will reply within one working day.</p>
       </div>
     );
   }
 
   return (
-    <div className="rounded-xl border border-navy/10 bg-sand-light p-6 md:p-8">
-      <h2 className="font-serif text-2xl text-navy leading-snug mb-2">Send your results to Leo</h2>
+    <div id="send-results" className="rounded-xl border border-navy/10 bg-sand-light p-6 md:p-8 scroll-mt-24">
+      <h2 className="font-serif text-2xl text-navy leading-snug mb-2">Send us your results</h2>
       <p className="text-navy-light leading-relaxed mb-6">
-        Leo Meggitt will look at your answers and reply with his read on what a buyer would focus on. Nothing is
-        shared with anyone else.
+        We will look at your answers and reply with a view on what a buyer would focus on first. Nothing is shared
+        with anyone else.
       </p>
       <form name="readiness-score" method="POST" onSubmit={submit} className="space-y-5">
         <input type="hidden" name="form-name" value="readiness-score" />
@@ -136,7 +136,7 @@ export function SendResultsForm({ result, answers }: { result: ReadinessResult; 
           {status === 'sending' ? (<><Loader2 className="h-4 w-4 animate-spin" /> Sending…</>) : 'Send my results'}
         </button>
         <p className="text-xs text-navy-light text-center">
-          Your answers and contact details go to Leo only. See our{' '}
+          Your answers and contact details stay with Mastella Advisory. See our{' '}
           <a href="/privacy-policy/" className="underline">privacy policy</a>.
         </p>
       </form>

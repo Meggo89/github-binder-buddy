@@ -67,7 +67,7 @@ function MobileNav({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }
               className="block w-full text-center bg-accent text-navy-deepest px-6 py-3 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-all duration-200"
               onClick={onClose}
             >
-              Book a Consultation
+              Get in Touch
             </Link>
           </div>
         </nav>
@@ -111,7 +111,7 @@ export function Navigation() {
               to="/contact"
               className="bg-accent text-navy-deepest px-5 py-2.5 rounded-md text-sm font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:-translate-y-px hover:shadow-lg hover:shadow-accent/20"
             >
-              Book a Call
+              Get in Touch
             </Link>
           )}
         </div>

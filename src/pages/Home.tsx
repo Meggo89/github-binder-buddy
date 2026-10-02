@@ -104,10 +104,10 @@ function Hero() {
       <div className="flex flex-wrap gap-4">
         <Link
           to="/contact"
-          onClick={() => trackCTA('Book a Confidential Conversation', 'hero')}
+          onClick={() => trackCTA('Arrange a Confidential Conversation', 'hero')}
           className="inline-flex items-center gap-2 bg-accent text-navy-deepest px-7 py-3.5 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:shadow-xl hover:shadow-accent/20 hover:-translate-y-0.5"
         >
-          Book a Confidential Conversation
+          Arrange a Confidential Conversation
           <ArrowRight className="h-4 w-4" />
         </Link>
         <Link
