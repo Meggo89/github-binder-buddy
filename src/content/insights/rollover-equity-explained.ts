@@ -69,7 +69,7 @@ const article: Article = {
 
       <h2>Talk to us</h2>
 
-      <p>If you are being asked to accept meaningful rollover in a specific deal and want an independent view on whether the terms are fair, <a href="/contact/">book a 45-minute confidential conversation</a>. We work with UK owners on rollover structure, tax positioning and negotiation, alongside the wider deal.</p>
+      <p>If you are being asked to accept meaningful rollover in a specific deal and want an independent view on whether the terms are fair, <a href="/contact/">arrange a 45-minute confidential conversation</a>. We work with UK owners on rollover structure, tax positioning and negotiation, alongside the wider deal.</p>
 
       <h2>What does a "good" rollover look like?</h2>
 

@@ -2,7 +2,7 @@ import { ArrowRight, Download, Gauge } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { FadeIn } from '../ui/motion';
 
-// Lower-friction secondary CTA rendered above the primary "Book a
+// Lower-friction secondary CTA rendered above the primary "Arrange a
 // confidential conversation" CTA on every landing page. Visitors who
 // arrive top-of-funnel — from an AI Assistant answer, a query-only
 // impression, or a broad search — need an off-ramp that is not a

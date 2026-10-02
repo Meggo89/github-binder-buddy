@@ -15,7 +15,7 @@ interface Props {
 export function CtaSection({
   heading,
   body = 'Forty-five minutes, no obligation. We will tell you honestly whether what you want to achieve is realistic, and whether Mastella is the right firm for it.',
-  ctaLabel = 'Book a confidential conversation',
+  ctaLabel = 'Arrange a confidential conversation',
 }: Props) {
   return (
     <section className="bg-navy-deepest text-white py-24">
@@ -44,7 +44,7 @@ export function CtaSection({
 }
 
 // Inline mid-page CTA used after the FAQ / before the proof band on landing pages.
-export function MidPageCta({ heading, ctaLabel = 'Book a confidential conversation' }: { heading: string; ctaLabel?: string }) {
+export function MidPageCta({ heading, ctaLabel = 'Arrange a confidential conversation' }: { heading: string; ctaLabel?: string }) {
   return (
     <section className="bg-sand-light py-14 border-y border-navy/10">
       <div className="container mx-auto px-6">

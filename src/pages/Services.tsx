@@ -80,7 +80,7 @@ function Hero() {
         to="/contact/"
         className="inline-flex items-center gap-2 bg-accent text-navy-deepest px-6 py-3 rounded-md text-sm md:text-base font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:-translate-y-px hover:shadow-lg hover:shadow-accent/20"
       >
-        Book a confidential conversation
+        Arrange a confidential conversation
         <ArrowRight className="h-4 w-4" />
       </Link>
     </div>
@@ -262,14 +262,14 @@ export default function Services() {
                 Not sure which one fits yet?
               </h2>
               <p className="text-body-lg text-sand-light mb-10 leading-relaxed">
-                Most founders do not start with a clear answer. Book a short conversation and we&apos;ll tell you honestly
-                which of these - if any - is the right starting point for your business.
+                Most founders do not start with a clear answer. Arrange a short conversation and we&apos;ll tell you honestly
+                which of these, if any, is the right starting point for your business.
               </p>
               <Link
                 to="/contact"
                 className="inline-flex items-center gap-2 bg-accent text-navy-deepest px-7 py-3.5 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:-translate-y-0.5"
               >
-                Book a confidential conversation
+                Arrange a confidential conversation
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </div>

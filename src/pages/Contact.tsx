@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Mail, MapPin, Phone, CheckCircle, Loader2, ArrowRight } from 'lucide-react';
+import { Mail, MapPin, Phone, CheckCircle, Loader2 } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { PageLayout } from '../components/layout';
 import { FadeIn } from '../components/ui/motion';
@@ -78,8 +78,8 @@ function Hero() {
         Start with a confidential conversation.
       </h1>
       <p className="text-body-lg text-sand-light max-w-2xl leading-relaxed">
-        Forty-five minutes. No obligation. You leave with a clearer view of what an exit process - or a capital raise -
-        would actually look like for your business.
+        Forty-five minutes, no obligation. You leave with a clearer view of what a sale or a capital raise would look
+        like for your business.
       </p>
     </div>
   );
@@ -93,19 +93,25 @@ function trackFormSubmit() {
   window.gtag('event', 'form_submit', { form_name: 'contact' });
 }
 
-function trackBookingClick() {
-  if (typeof window === 'undefined' || !window.gtag) return;
-  window.gtag('event', 'booking_click', { location: 'contact_page' });
-}
-
 export default function Contact() {
   const [formData, setFormData] = useState<FormData>(initialFormData);
   const [status, setStatus] = useState<Status>('idle');
   const [errorMessage, setErrorMessage] = useState('');
   const mountedAt = useRef<number>(0);
+  const formRef = useRef<HTMLFormElement>(null);
 
   useEffect(() => {
     mountedAt.current = Date.now();
+    // The page is prerendered, so on a slow connection the form can be filled in before React
+    // hydrates. React keeps what is in the fields but starts with empty state, so read it in once.
+    const form = formRef.current;
+    if (!form) return;
+    const entered: Partial<FormData> = {};
+    for (const key of Object.keys(initialFormData) as (keyof FormData)[]) {
+      const el = form.elements.namedItem(key) as HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement | null;
+      if (el && 'value' in el && el.value) entered[key] = el.value;
+    }
+    if (Object.keys(entered).length) setFormData((prev) => ({ ...prev, ...entered }));
   }, []);
 
   const handleChange = (
@@ -164,35 +170,10 @@ export default function Contact() {
   return (
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="Contact - Book a Confidential Conversation"
-        description="Schedule a confidential, no-obligation conversation with Mastella Advisory. Discuss your exit strategy, valuation, or fundraising needs."
+        title="Contact Mastella Advisory: Arrange a Confidential Conversation"
+        description="Get in touch with Mastella Advisory for a confidential, no-obligation first conversation about selling your business, its value or raising capital."
         canonical="https://mastellagroup.com/contact/"
       />
-
-      {/* Booking block. Visual primary action - most visitors should
-          click here rather than fill in the form. */}
-      <section className="bg-sand-light border-b border-navy/10 py-12 md:py-16">
-        <div className="container mx-auto px-6">
-          <div className="max-w-3xl mx-auto text-center">
-            <FadeIn>
-              <h2 className="font-serif text-3xl md:text-4xl text-navy leading-tight mb-4 text-balance">
-                Book a confidential conversation
-              </h2>
-              <p className="text-body-lg text-navy-light mb-8">
-                Thirty minutes, no preparation needed, nothing to sign.
-              </p>
-              <a
-                href="https://www.mastellagroup.com/leomeg"
-                onClick={trackBookingClick}
-                className="inline-flex items-center gap-2 bg-accent text-navy-deepest px-7 py-3.5 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:-translate-y-0.5"
-              >
-                Book a time with Leo
-                <ArrowRight className="h-4 w-4" />
-              </a>
-            </FadeIn>
-          </div>
-        </div>
-      </section>
 
       <section className="bg-white py-24 md:py-32">
         <div className="container mx-auto px-6">
@@ -201,11 +182,11 @@ export default function Contact() {
               <FadeIn>
                 <div className="sticky top-24">
                   <h2 className="font-serif text-display-md text-navy leading-tight mb-6 text-balance">
-                    Straight to Leo Meggitt.
+                    Please get in touch.
                   </h2>
                   <p className="text-body-lg text-navy-light leading-relaxed mb-12">
-                    All initial enquiries come to Leo directly. If email or phone suits you better than the form, those
-                    options are below.
+                    For an initial conversation, use the form or contact us by phone or email. Everything you send is
+                    treated in confidence.
                   </p>
 
                   <div className="space-y-7">
@@ -261,7 +242,7 @@ export default function Contact() {
                       </div>
                       <h3 className="font-serif text-2xl text-navy mb-3">Message received.</h3>
                       <p className="text-navy-light mb-8 max-w-sm mx-auto">
-                        Leo will reply to you directly, usually within one working day.
+                        We will reply within one working day.
                       </p>
                       <button
                         onClick={() => setStatus('idle')}
@@ -272,6 +253,7 @@ export default function Contact() {
                     </div>
                   ) : (
                     <form
+                      ref={formRef}
                       name="contact"
                       method="POST"
                       onSubmit={handleSubmit}

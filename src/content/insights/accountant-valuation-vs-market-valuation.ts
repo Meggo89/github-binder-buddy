@@ -79,7 +79,7 @@ const article: Article = {
 
       <h2>Talk to us</h2>
 
-      <p>If you have received an accountancy valuation and want an independent view on what a competitive market process would produce for the same business, <a href="/contact/">book a 45-minute confidential conversation</a>. We share indicative market ranges with the reasoning behind them, at no charge as part of an exploratory conversation.</p>
+      <p>If you have received an accountancy valuation and want an independent view on what a competitive market process would produce for the same business, <a href="/contact/">arrange a 45-minute confidential conversation</a>. We share indicative market ranges with the reasoning behind them, at no charge as part of an exploratory conversation.</p>
 
       <h2>Why a valuation exercise is not the same as a market process</h2>
 
@@ -124,7 +124,7 @@ const article: Article = {
 
       <p>The owner who nearly sold at £7M eventually completed at £16M through a structured process across the specific PE consolidator pool active in his sub-sector. The accountancy valuation was internally correct for the purpose it was produced. It just was not the number to use for a sale decision.</p>
 
-      <p>If you want an indicative market range for your business, <a href="/contact/">book a 45-minute confidential conversation</a>. Forty-five minutes, no obligation, and you will leave with a specific range and the reasoning behind it. Compare it with your accountant's number and see what the gap tells you.</p>
+      <p>If you want an indicative market range for your business, <a href="/contact/">arrange a 45-minute confidential conversation</a>. Forty-five minutes, no obligation, and you will leave with a specific range and the reasoning behind it. Compare it with your accountant's number and see what the gap tells you.</p>
     `,
   author: 'Leo Meggitt',
   date: '18 August 2026',

@@ -1,8 +1,6 @@
 import type { Answer, IndicatorResult, ReadinessResult } from '../../content/readiness/score';
 import { MODEL } from '../../content/readiness/model';
 
-export const BOOKING_URL = 'https://www.mastellagroup.com/leomeg';
-
 export function describeAnswer(r: IndicatorResult, a: Answer | undefined): string {
   const ind = r.indicator;
   if (!a) return 'Not answered';

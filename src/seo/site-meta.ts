@@ -95,9 +95,9 @@ export const ROUTES: RouteMeta[] = [
   },
   {
     path: '/contact',
-    title: 'Contact - Book a Confidential Conversation',
+    title: 'Contact Mastella Advisory: Arrange a Confidential Conversation',
     description:
-      'Schedule a confidential, no-obligation conversation with Mastella Advisory. Discuss your exit strategy, valuation, or fundraising needs.',
+      'Get in touch with Mastella Advisory for a confidential, no-obligation first conversation about selling your business, its value or raising capital.',
     priority: 0.6,
     changefreq: 'monthly',
   },
