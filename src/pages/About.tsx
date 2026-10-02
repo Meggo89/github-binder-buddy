@@ -7,11 +7,11 @@ import { FadeIn, Stagger, StaggerItem } from '../components/ui/motion';
 const principles = [
   {
     title: 'Two lanes, always visible',
-    body: 'AI on one side, senior advisors on the other. Every engagement is explicit about which lane a piece of work is in. Founders always know who - or what - is doing what.',
+    body: 'AI on one side, senior advisors on the other. Every engagement is explicit about which lane a piece of work is in. Founders always know who (or what) is doing what.',
   },
   {
     title: 'Judgment is not automatable',
-    body: 'Positioning a business for a buyer, leading a negotiation, telling a founder a term is worse than it looks - these still require people with experience. We do not pretend otherwise.',
+    body: 'Positioning a business for a buyer, leading a negotiation, telling a founder a term is worse than it looks. These still require people with experience. We do not pretend otherwise.',
   },
   {
     title: 'Fees reflect the work',
@@ -19,7 +19,7 @@ const principles = [
   },
   {
     title: '£5M to £50M, not everything',
-    body: "We work with founder-led businesses worth £5M to £50M — mostly UK, with cross-border work where a founder's buyer universe is international. Outside that range other advisors are better placed. Saying what we are not is part of saying what we are.",
+    body: "We work with founder-led businesses worth £5M to £50M, mostly UK, with cross-border work where a founder's buyer universe is international. Outside that range other advisors are better placed. Saying what we are not is part of saying what we are.",
   },
 ];
 
@@ -62,7 +62,7 @@ export default function About() {
             <div className="md:col-span-8 space-y-6 text-body-lg text-navy-light leading-relaxed">
               <FadeIn>
                 <p>
-                  Adjacent professional services - consulting, audit, legal research - have quietly absorbed a generation
+                  Adjacent professional services (consulting, audit, legal research) have quietly absorbed a generation
                   of AI tooling. M&amp;A advisory, especially in the lower mid-market, has not.
                 </p>
               </FadeIn>
@@ -78,15 +78,15 @@ export default function About() {
                 <p>
                   Those activities are now, to a significant extent, machinable. Models can normalise financials,
                   analyse thousands of comparable transactions, draft an IM, map a buyer universe, orchestrate a data
-                  room, and benchmark term sheets against market norms - faster than a team of analysts and often more
+                  room, and benchmark term sheets against market norms, faster than a team of analysts and often more
                   thoroughly.
                 </p>
               </FadeIn>
               <FadeIn delay={0.3}>
                 <p className="text-navy font-medium">
                   Mastella is what an advisory firm looks like when you start from that premise rather than bolt it on
-                  afterwards: senior advisors paired with agents we have built ourselves - purpose-built for lower
-                  mid-market M&amp;A, not a chat wrapper over someone else&apos;s model - and fees that reflect the
+                  afterwards: senior advisors paired with agents we have built ourselves, purpose-built for lower
+                  mid-market M&amp;A, not a chat wrapper over someone else&apos;s model, and fees that reflect the
                   actual cost of delivery.
                 </p>
               </FadeIn>

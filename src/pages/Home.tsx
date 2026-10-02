@@ -38,7 +38,7 @@ const matchingSteps = [
   {
     eyebrow: 'Plus the AI layer',
     title: 'Tech does the rest',
-    body: 'Financial normalisation, buyer mapping, IM drafting, data-room orchestration, term benchmarking - handled in the background at machine speed.',
+    body: 'Financial normalisation, buyer mapping, IM drafting, data-room orchestration, term benchmarking, handled in the background at machine speed.',
   },
 ];
 
@@ -56,7 +56,7 @@ const founderImpact = [
   {
     metric: 'days',
     label: 'Valuation turnaround',
-    description: 'Defensible valuation analysis across thousands of comparables - delivered in days, not weeks.',
+    description: 'Defensible valuation analysis across thousands of comparables, delivered in days, not weeks.',
   },
   {
     metric: '100%',
@@ -164,7 +164,7 @@ export default function Home() {
               <FadeIn delay={0.2}>
                 <p>
                   That work is now partly automatable. Financial normalisation, comparable transaction analysis,
-                  IM drafting, buyer mapping, data-room orchestration, term benchmarking - all of it can be done faster
+                  IM drafting, buyer mapping, data-room orchestration, term benchmarking: all of it can be done faster
                   and more rigorously with AI than without it.
                 </p>
               </FadeIn>
@@ -269,7 +269,7 @@ export default function Home() {
               </h2>
               <p className="text-body-lg text-sand-light leading-relaxed">
                 Each stage in an M&amp;A process has work that benefits from automation and work that requires
-                judgement. We run both lanes in parallel - and keep them visibly separate so founders can see where each
+                judgement. We run both lanes in parallel, and keep them visibly separate so founders can see where each
                 piece of the engagement is happening.
               </p>
             </div>

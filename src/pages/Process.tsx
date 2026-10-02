@@ -45,7 +45,7 @@ export default function Process() {
                 <div>
                   <p className="font-mono text-xs text-sand tracking-widest mb-1">HUMAN LANE</p>
                   <p className="text-sand-light leading-relaxed">
-                    Positioning, relationships, negotiation - everything that still genuinely requires judgement.
+                    Positioning, relationships, negotiation: everything that still genuinely requires judgement.
                   </p>
                 </div>
               </div>
@@ -54,7 +54,7 @@ export default function Process() {
                 <div>
                   <p className="font-mono text-xs text-accent tracking-widest mb-1">AI LANE</p>
                   <p className="text-sand-light leading-relaxed">
-                    Our own M&amp;A agents - analysis, drafting, tracking, benchmarking. Built specifically for the
+                    Our own M&amp;A agents: analysis, drafting, tracking, benchmarking. Built specifically for the
                     lower mid-market, not bolted on.
                   </p>
                 </div>

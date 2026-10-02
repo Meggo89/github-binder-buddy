@@ -15,7 +15,7 @@ export function WhatWeDo() {
               We help UK business owners sell their companies.
             </h2>
             <p className="text-body-lg text-navy-light leading-relaxed max-w-3xl mb-14">
-              For founders ready to exit a business they have built — or to find the right capital partner — Mastella
+              For founders ready to exit a business they have built, or to find the right capital partner, Mastella
               runs the full process. From confidential first conversation to signed deal.
             </p>
           </FadeIn>

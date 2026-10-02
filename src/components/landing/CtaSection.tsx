@@ -14,7 +14,7 @@ interface Props {
 // coherently across the site.
 export function CtaSection({
   heading,
-  body = 'Forty-five minutes, no obligation. We will tell you honestly whether what you want to achieve is realistic — and whether Mastella is the right firm for it.',
+  body = 'Forty-five minutes, no obligation. We will tell you honestly whether what you want to achieve is realistic, and whether Mastella is the right firm for it.',
   ctaLabel = 'Book a confidential conversation',
 }: Props) {
   return (
@@ -26,7 +26,7 @@ export function CtaSection({
             <p className="text-body-lg text-sand-light mb-6 leading-relaxed">{body}</p>
             <p className="text-sm text-sand-light/80 mb-10 leading-relaxed">
               <span className="font-mono text-xs text-accent tracking-widest uppercase mr-2">Aligned</span>
-              We work on a low monthly retainer model that funds senior-led delivery throughout — not a commission
+              We work on a low monthly retainer model that funds senior-led delivery throughout, not a commission
               structure that rewards getting any deal done.
             </p>
             <Link

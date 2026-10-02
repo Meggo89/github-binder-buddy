@@ -41,7 +41,7 @@ function Hero() {
       </h1>
       <p className="text-body-lg text-sand-light max-w-2xl leading-relaxed">
         The right leadership team can make or break an exit. We place the executives who make a business more valuable
-        to acquirers - and the interim managers who bridge transitions.
+        to acquirers, and the interim managers who bridge transitions.
       </p>
     </div>
   );
