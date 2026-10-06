@@ -42,7 +42,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which HR and payroll services businesses does Mastella Advisory advise?",
         cover: [
           "Owner profile",
           "Typical EBITDA range £0.5M to £8M",
@@ -56,7 +56,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for in HR & payroll businesses",
+        heading: "What do buyers look for in HR and payroll services businesses?",
         cover: [
           "Retention metrics",
           "Tech stack",
@@ -73,7 +73,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell an HR or payroll services business?",
         cover: ["Cross-link /process", "HR/payroll-specific diligence notes"],
         body: [
           "Our [six-stage process](/process/) runs senior-led from first conversation to completion. For HR and payroll services, three things shape execution.",
@@ -125,7 +125,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which facilities management businesses does Mastella Advisory advise?",
         cover: [
           "FM owners £5M to £50M EV",
           "Hard FM, soft FM, integrated FM, technical specialist",
@@ -138,7 +138,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for in FM businesses",
+        heading: "What do buyers look for in facilities management businesses?",
         cover: [
           "Contract tail and renewal rates",
           "Customer concentration",
@@ -156,7 +156,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a facilities management business?",
         cover: ["Cross-link /process", "FM-specific diligence sequencing"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For FM businesses, three things shape execution.",
@@ -208,7 +208,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which cleaning services businesses does Mastella Advisory advise?",
         cover: [
           "Commercial, specialist, technical, contract cleaning owners £5M to £50M EV",
         ],
@@ -220,7 +220,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for in cleaning services businesses",
+        heading: "What do buyers look for in cleaning services businesses?",
         cover: [
           "Contract tail",
           "Customer concentration",
@@ -238,7 +238,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a cleaning services business?",
         cover: [
           "Cross-link /process",
           "Sector-specific TUPE and contract diligence notes",
@@ -293,7 +293,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which recruitment agencies does Mastella Advisory advise?",
         cover: [
           "Owner-managed UK recruitment agencies £5M to £50M EV",
           "Specialist permanent, contract, temp, executive search",
@@ -306,7 +306,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for in recruitment agencies",
+        heading: "What do buyers look for in recruitment agencies?",
         cover: [
           "NFI quality and stability",
           "Consultant retention and top-biller concentration",
@@ -324,7 +324,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a recruitment agency?",
         cover: [
           "Cross-link /process",
           "Recruitment-specific notes on earn-out structuring",

@@ -42,7 +42,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which container leasing businesses does Mastella Advisory advise?",
         cover: ["UK container leasing owners £5M to £50M EV"],
         body: [
           "You own a UK container leasing platform worth between £5M and £50M in enterprise value. A specialist container leasing operator (dry van, refrigerated, specialist tank or ISO container). A combined leasing and modification platform. A leasing operation built within or alongside a logistics or refrigerated transport business. Most likely a fleet of contracted-out units across a recognisable customer base, with a mix of long-lease and short-cycle revenue.",
@@ -52,7 +52,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in container leasing businesses?",
         cover: [
           "Fleet age",
           "Utilisation",
@@ -70,7 +70,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a container leasing business?",
         cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For container leasing, three things shape execution, and our recent transaction experience in this exact niche informs each.",
@@ -127,7 +127,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which cold-chain logistics businesses does Mastella Advisory advise?",
         cover: ["Cold-chain logistics owners £5M to £50M EV"],
         body: [
           "You own a UK cold-chain logistics business worth between £5M and £50M in enterprise value. A specialist refrigerated transport operator. An integrated cold storage and distribution platform. A multi-temperature 3PL serving food, pharma, or specialist sectors. A specialist cold-chain operator with refrigerated container capability. Most likely a mix of contract logistics revenue, cold storage income, and (in some cases) value-add services like packing, labelling or order assembly.",
@@ -137,7 +137,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in cold-chain logistics businesses?",
         cover: [
           "BRC / accreditations",
           "Fleet age",
@@ -156,7 +156,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a cold-chain logistics business?",
         cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For cold-chain logistics, three things shape execution, and our recent transaction experience in this exact sector informs each.",
@@ -241,7 +241,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which 3PL businesses does Mastella Advisory advise?",
         cover: ["3PL owners £5M to £50M EV"],
         body: [
           "You own a UK third-party logistics business worth between £5M and £50M in enterprise value. A specialist contract logistics operator serving food, pharma, retail or industrial clients. An e-commerce fulfilment platform with multi-client capability. A value-add 3PL providing packing, labelling, kitting, returns processing or specialist storage. Most likely a mix of dedicated contract logistics revenue and multi-client shared services.",
@@ -251,7 +251,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in 3PL businesses?",
         cover: [
           "Customer concentration",
           "Contract tail",
@@ -273,7 +273,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Recent market activity",
+        heading: "What is the M&A market like for 3PL businesses?",
         cover: [
           "Named active UK 3PL consolidators, multiples, sub-sector shifts",
         ],
@@ -288,7 +288,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a 3PL business?",
         cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For 3PL businesses, three things shape execution.",
@@ -340,7 +340,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which freight forwarding businesses does Mastella Advisory advise?",
         cover: [
           "Freight forwarding owners £5M to £50M EV",
           "Ocean, air, road, customs",
@@ -353,7 +353,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in freight forwarding businesses?",
         cover: [
           "GP per shipment",
           "Customer concentration",
@@ -371,7 +371,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a freight forwarding business?",
         cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For freight forwarding, three things shape execution.",
@@ -423,7 +423,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which last-mile delivery businesses does Mastella Advisory advise?",
         cover: ["Last-mile delivery owners £5M to £50M EV"],
         body: [
           "You own a UK last-mile delivery business worth between £5M and £50M in enterprise value. An e-commerce fulfilment platform with last-mile capability. A same-day or premium courier business. A specialist final-mile operator (white-glove, two-person, premium goods, healthcare-related). A regional or national last-mile network serving multiple shippers.",
@@ -433,7 +433,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in last-mile delivery businesses?",
         cover: [
           "Courier employment model",
           "Customer concentration",
@@ -451,7 +451,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a last-mile delivery business?",
         cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For last-mile delivery, three things shape execution.",
@@ -503,7 +503,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which warehousing and distribution businesses does Mastella Advisory advise?",
         cover: ["Warehousing and distribution owners £5M to £50M EV"],
         body: [
           "You own a UK warehousing and distribution business worth between £5M and £50M in enterprise value. A contract warehousing operator serving food, pharma, retail or industrial clients. A multi-client distribution platform with regional or national footprint. A specialist storage operator (bonded, hazardous, temperature-controlled, high-value, document storage). Most likely a mix of freehold and leased sites, with value tied up in both the operating business and the property.",
@@ -513,7 +513,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in warehousing and distribution businesses?",
         cover: [
           "Customer concentration",
           "Contract tail",
@@ -532,7 +532,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a warehousing business?",
         cover: ["Cross-link /process", "Notes on OpCo/PropCo structuring"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For warehousing and distribution, three things shape execution.",
@@ -584,7 +584,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which marine logistics businesses does Mastella Advisory advise?",
         cover: ["Marine logistics owners £5M to £50M EV"],
         body: [
           "You own a UK marine logistics business worth between £5M and £50M in enterprise value. A port services operator (stevedoring, terminal services, cargo handling). A shipping agency business. A specialist marine equipment leasing platform. A specialist offshore services operator serving energy, infrastructure or defence. A specialist marine survey, towage or workboat business.",
@@ -594,7 +594,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in marine logistics businesses?",
         cover: [
           "Fleet age and survey",
           "Customer concentration",
@@ -611,7 +611,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a marine logistics business?",
         cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For marine logistics, three things shape execution.",

@@ -38,7 +38,7 @@ export const RESOURCES: ResourceLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "When a broker is the right choice",
+        heading: "When is a business broker the right choice?",
         cover: ["Honest framing of where brokers add genuine value"],
         body: [
           "There is a real and valuable role for business brokers. The honest version: at the lower end of the UK SME market, a quality broker network typically serves owners better than a senior-led M&A firm can or will. This is not a hedge. It is a structural observation about how each model works economically.",
@@ -48,7 +48,7 @@ export const RESOURCES: ResourceLanding[] = [
         ],
       },
       {
-        heading: "When an M&A advisor is the right choice",
+        heading: "When is an M&A advisor the right choice?",
         cover: [
           "Off-market process explanation",
           "Buyer pool quality",
@@ -63,7 +63,7 @@ export const RESOURCES: ResourceLanding[] = [
         ],
       },
       {
-        heading: "What to ask any advisor before signing a mandate",
+        heading: "What should you ask an advisor before signing a mandate?",
         cover: [
           "Who actually does the work",
           "How buyers are identified",
@@ -80,7 +80,7 @@ export const RESOURCES: ResourceLanding[] = [
         ],
       },
       {
-        heading: "Mastella's model",
+        heading: "How does Mastella Advisory work?",
         cover: [
           "Senior-led delivery",
           "Off-market by default",

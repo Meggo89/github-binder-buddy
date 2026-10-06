@@ -44,7 +44,7 @@ export const SECTORS: SectorPillar[] = [
       },
     ],
     whoWeWorkWith: {
-      heading: "Who we work with",
+      heading: "Which business services companies does Mastella Advisory advise?",
       cover: [
         "Founder-managed UK business services firms worth £5M to £50M EV",
         "Owners 12 to 24 months from a potential exit, or already actively considering one",
@@ -59,7 +59,7 @@ export const SECTORS: SectorPillar[] = [
       ],
     },
     whatBuyersLookFor: {
-      heading: "What buyers look for in business services businesses",
+      heading: "What do buyers look for in business services companies?",
       cover: [
         "Recurring revenue and contract maturity",
         "Customer concentration thresholds (no client >10 to 15% of revenue is typical)",
@@ -77,7 +77,7 @@ export const SECTORS: SectorPillar[] = [
       ],
     },
     ourProcess: {
-      heading: "Our process",
+      heading: "How do you sell a business services company?",
       cover: [
         "Cross-link to /process for the full six-stage flow",
         "Brief 2 to 3 paragraph summary of how it applies to business services",
@@ -131,7 +131,7 @@ export const SECTORS: SectorPillar[] = [
       },
     ],
     whoWeWorkWith: {
-      heading: "Who we work with",
+      heading: "Which healthcare services businesses does Mastella Advisory advise?",
       cover: [
         "Owners of UK healthcare services businesses worth £5M to £50M EV",
         "Single-site and multi-site groups",
@@ -146,7 +146,7 @@ export const SECTORS: SectorPillar[] = [
       ],
     },
     whatBuyersLookFor: {
-      heading: "What buyers look for in healthcare services businesses",
+      heading: "What do buyers look for in healthcare services businesses?",
       cover: [
         "CQC / regulatory standing and inspection history",
         "Clinician retention and dependency on the founder",
@@ -164,7 +164,7 @@ export const SECTORS: SectorPillar[] = [
       ],
     },
     ourProcess: {
-      heading: "Our process",
+      heading: "How do you sell a healthcare services business?",
       cover: [
         "Cross-link to /process",
         "Sector-specific notes on regulated diligence timing",
@@ -218,7 +218,7 @@ export const SECTORS: SectorPillar[] = [
       },
     ],
     whoWeWorkWith: {
-      heading: "Who we work with",
+      heading: "Which light industrial businesses does Mastella Advisory advise?",
       cover: [
         "UK specialist manufacturers worth £5M to £50M EV",
         "Plant hire and equipment rental businesses",
@@ -233,7 +233,7 @@ export const SECTORS: SectorPillar[] = [
       ],
     },
     whatBuyersLookFor: {
-      heading: "What buyers look for in light industrial businesses",
+      heading: "What do buyers look for in light industrial businesses?",
       cover: [
         "Customer concentration and contract maturity",
         "Asset register quality and fleet / equipment age profile",
@@ -251,7 +251,7 @@ export const SECTORS: SectorPillar[] = [
       ],
     },
     ourProcess: {
-      heading: "Our process",
+      heading: "How do you sell a light industrial business?",
       cover: [
         "Cross-link to /process",
         "Sector-specific notes on operational diligence and capex normalisation",
@@ -304,7 +304,7 @@ export const SECTORS: SectorPillar[] = [
       },
     ],
     whoWeWorkWith: {
-      heading: "Who we work with",
+      heading: "Which logistics and distribution businesses does Mastella Advisory advise?",
       cover: [
         "UK logistics and distribution owners worth £5M to £50M EV",
         "Specialist 3PL, cold-chain, freight forwarders, last-mile, warehousing operators",
@@ -319,7 +319,7 @@ export const SECTORS: SectorPillar[] = [
       ],
     },
     whatBuyersLookFor: {
-      heading: "What buyers look for in logistics businesses",
+      heading: "What do buyers look for in logistics and distribution businesses?",
       cover: [
         "Customer concentration and contract tail",
         "Fleet age profile and maintenance capex",
@@ -337,7 +337,7 @@ export const SECTORS: SectorPillar[] = [
       ],
     },
     ourProcess: {
-      heading: "Our process",
+      heading: "How do you sell a logistics business?",
       cover: [
         "Cross-link to /process",
         "Sector-specific notes on operational diligence and tax structuring",
@@ -390,7 +390,7 @@ export const SECTORS: SectorPillar[] = [
       },
     ],
     whoWeWorkWith: {
-      heading: "Who we work with",
+      heading: "Which professional services firms does Mastella Advisory advise?",
       cover: [
         "UK partner-led professional services firms worth £5M to £50M EV",
         "Specialist accountancy, legal, consulting, surveying, insolvency firms",
@@ -404,7 +404,7 @@ export const SECTORS: SectorPillar[] = [
       ],
     },
     whatBuyersLookFor: {
-      heading: "What buyers look for in professional services firms",
+      heading: "What do buyers look for in professional services firms?",
       cover: [
         "Recurring / contracted revenue mix",
         "Partner concentration and equity structure",
@@ -422,7 +422,7 @@ export const SECTORS: SectorPillar[] = [
       ],
     },
     ourProcess: {
-      heading: "Our process",
+      heading: "How do you sell a professional services firm?",
       cover: [
         "Cross-link to /process",
         "Sector-specific notes on partnership alignment, equity structuring, lock-ins",
@@ -479,7 +479,7 @@ export const SECTORS: SectorPillar[] = [
       },
     ],
     whoWeWorkWith: {
-      heading: "Who we work with",
+      heading: "Which tech-enabled services businesses does Mastella Advisory advise?",
       cover: [
         "UK tech-enabled services owners £5M to £50M EV",
         "Vertical SaaS, IT MSPs, digital agencies, data, cyber, AI services",
@@ -493,7 +493,7 @@ export const SECTORS: SectorPillar[] = [
       ],
     },
     whatBuyersLookFor: {
-      heading: "What buyers look for in tech-enabled services businesses",
+      heading: "What do buyers look for in tech-enabled services businesses?",
       cover: [
         "ARR / NRR / GRR metrics for SaaS components",
         "Rule of 40 and gross margin profile",
@@ -511,7 +511,7 @@ export const SECTORS: SectorPillar[] = [
       ],
     },
     ourProcess: {
-      heading: "Our process",
+      heading: "How do you sell a tech-enabled services business?",
       cover: [
         "Cross-link to /process",
         "Sector-specific notes on technical diligence, SaaS classification, founder de-risking",

@@ -42,7 +42,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which specialist accounting firms does Mastella Advisory advise?",
         cover: [
           "Partner-led accountancy firms £5M to £50M EV",
           "Specialist tax, audit, advisory, outsourced finance",
@@ -55,7 +55,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in specialist accounting firms?",
         cover: [
           "Recurring fee mix",
           "Partner alignment",
@@ -73,7 +73,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell an accounting firm?",
         cover: [
           "Cross-link /process",
           "Notes on partnership alignment and consultation periods",
@@ -128,7 +128,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which law firms does Mastella Advisory advise?",
         cover: ["Partner-led UK law firms £5M to £50M EV"],
         body: [
           "You are a partner or equity-holder in a UK law firm worth between £5M and £50M in enterprise value. A specialist commercial firm. A regional full-service firm with strong corporate, property and private client practices. A specialist litigation, insurance or financial regulation practice. A volume firm in conveyancing, personal injury or family. Most likely an LLP partnership structure with three to twenty equity partners.",
@@ -138,7 +138,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in law firms?",
         cover: [
           "Practice mix",
           "Partner alignment",
@@ -156,7 +156,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a law firm?",
         cover: [
           "Cross-link /process",
           "Notes on ABS structure and SRA notifications",
@@ -211,7 +211,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which consulting firms does Mastella Advisory advise?",
         cover: ["Specialist consulting firm owners £5M to £50M EV"],
         body: [
           "You own a UK consulting firm worth between £5M and £50M in enterprise value. A specialist strategy or management consulting practice. A technology consulting firm with deep methodology. A specialist sector consulting business (financial services, healthcare, public sector, energy). A specialist functional consulting firm (digital, transformation, operations, change). Most likely a mix of project revenue and retainer / programmatic revenue with a recognised client book.",
@@ -221,7 +221,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in consulting firms?",
         cover: [
           "Retainer mix",
           "IP and methodology",
@@ -239,7 +239,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a consulting firm?",
         cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For consulting firms, three things shape execution.",
@@ -291,7 +291,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which surveying and property advisory firms does Mastella Advisory advise?",
         cover: ["Surveying and property advisory firms £5M to £50M EV"],
         body: [
           "You are a partner or equity-holder in a UK surveying and property advisory firm worth between £5M and £50M in enterprise value. A commercial property advisory firm with valuation, transaction and management capability. A specialist building surveying or project monitoring practice. A planning or development advisory firm. A residential surveying business at scale. Most likely a partnership or LLP structure with two to twelve equity partners and a recognised client book.",
@@ -301,7 +301,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in surveying and property advisory firms?",
         cover: [
           "Practice mix",
           "Recurring revenue",
@@ -319,7 +319,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a surveying firm?",
         cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For surveying and property advisory firms, three things shape execution.",
@@ -371,7 +371,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which insolvency and restructuring practices does Mastella Advisory advise?",
         cover: ["Insolvency and restructuring practices £5M to £50M EV"],
         body: [
           "You are an owner or equity-holder in a UK insolvency and restructuring practice worth between £5M and £50M in enterprise value. A specialist corporate insolvency firm. A combined restructuring and turnaround advisory practice. A personal insolvency specialist. A practice combining insolvency with broader advisory and forensic accounting capability. Most likely two to twelve insolvency practitioners (IPs) holding licences, supported by a wider professional team.",
@@ -381,7 +381,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in insolvency and restructuring practices?",
         cover: [
           "Referral diversity",
           "IP retention",
@@ -398,7 +398,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell an insolvency practice?",
         cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For insolvency and restructuring, three things shape execution.",

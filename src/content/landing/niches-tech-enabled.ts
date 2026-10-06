@@ -42,7 +42,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which vertical SaaS businesses does Mastella Advisory advise?",
         cover: ["Vertical SaaS founders £5M to £50M EV"],
         body: [
           "You are the founder or majority shareholder of a UK vertical SaaS business worth between £5M and £50M in enterprise value. A software platform serving a defined industry vertical with deep workflow capability. ARR somewhere between £2M and £20M. EBITDA-positive at scale, or growth-stage with a credible path to profitability. A senior team behind you that can run the business if you stepped back, or a team that needs building out.",
@@ -52,7 +52,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in vertical SaaS businesses?",
         cover: [
           "NRR / GRR",
           "Rule of 40",
@@ -71,7 +71,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a vertical SaaS business?",
         cover: ["Cross-link /process", "Notes on technical diligence"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For vertical SaaS, three things shape execution.",
@@ -123,7 +123,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which IT managed service providers does Mastella Advisory advise?",
         cover: [
           "UK MSP owners £5M to £50M EV",
           "Fully-managed, MSSP, cloud-focused",
@@ -136,7 +136,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in IT managed service providers?",
         cover: [
           "Contracted MRR",
           "Gross margin",
@@ -154,7 +154,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell an IT managed service provider?",
         cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For UK MSPs, three things shape execution.",
@@ -206,7 +206,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which digital agencies does Mastella Advisory advise?",
         cover: ["UK digital agency owners £5M to £50M EV"],
         body: [
           "You own a UK digital agency worth between £5M and £50M in enterprise value. A performance marketing specialist with deep paid media capability. A brand or creative agency with a recognised reputation. A product and engineering agency building software for client brands. A specialist tech agency in MarTech, e-commerce, or platform engineering. Most likely a mix of retainer and project revenue with a recognisable client book.",
@@ -216,7 +216,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in digital agencies?",
         cover: [
           "Retainer mix",
           "Client concentration",
@@ -234,7 +234,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a digital agency?",
         cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For digital agencies, three things shape execution.",
@@ -314,7 +314,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which data and analytics services businesses does Mastella Advisory advise?",
         cover: ["Data and analytics services owners £5M to £50M EV"],
         body: [
           "You own a UK data and analytics services business worth between £5M and £50M in enterprise value. A specialist data engineering firm building data platforms for enterprise clients. An analytics consulting practice. A BI and visualisation specialist with deep tool expertise. A data science consultancy. A combined data and platform business with embedded software components. Most likely a mix of project, programmatic and (increasingly) managed-service revenue with a recognised client book.",
@@ -324,7 +324,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in data and analytics services businesses?",
         cover: [
           "Recurring revenue",
           "Platform IP",
@@ -346,7 +346,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Recent market activity",
+        heading: "What is the M&A market like for data and analytics services businesses?",
         cover: [
           "Named active acquirers, multiples, sub-sector shifts in UK data & analytics M&A",
         ],
@@ -361,7 +361,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a data and analytics business?",
         cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For data and analytics services, three things shape execution.",
@@ -413,7 +413,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which cybersecurity services businesses does Mastella Advisory advise?",
         cover: ["UK cyber services owners £5M to £50M EV"],
         body: [
           "You own a UK cybersecurity services business worth between £5M and £50M in enterprise value. An MSSP with a strong managed SOC capability. A specialist cyber consulting practice. A GRC specialist with strong audit and compliance revenue. A penetration testing and red-team specialist. An OT / industrial cybersecurity specialist. Most likely a mix of contracted MRR (managed services) and project revenue with sector and accreditation specialism.",
@@ -423,7 +423,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in cybersecurity services businesses?",
         cover: [
           "Contracted MRR",
           "Accreditations",
@@ -441,7 +441,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a cybersecurity services business?",
         cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For cybersecurity services, three things shape execution.",
@@ -521,7 +521,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which AI and machine learning services businesses does Mastella Advisory advise?",
         cover: ["UK AI and ML services owners £5M to £50M EV"],
         body: [
           "You own a UK AI or machine learning services business worth between £5M and £50M in enterprise value. An applied AI consultancy with deep ML engineering capability. A specialist AI product or platform business with embedded software components. A specialist computer vision, NLP or specialist ML domain business. A specialist AI-augmented services business in a defined vertical. Most likely a mix of project, programmatic, and (increasingly) platform-based revenue with a recognised client book.",
@@ -531,7 +531,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in AI and machine learning services businesses?",
         cover: [
           "AI-native positioning",
           "Platform IP",
@@ -553,7 +553,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Recent market activity",
+        heading: "What is the M&A market like for AI and machine learning services businesses?",
         cover: ["Named active acquirers, multiples, AI M&A trends in the UK"],
         body: [
           "UK AI and ML services M&A has been one of the fastest-changing sub-sectors of tech-enabled services through 2024 to 2026, as the strategic and PE buyer landscape has adjusted to genuine AI-native capability vs generalist AI positioning. Below is a snapshot of the current market.",
@@ -566,7 +566,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell an AI services business?",
         cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For AI / ML services, three things shape execution.",

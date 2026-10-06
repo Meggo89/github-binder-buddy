@@ -87,7 +87,7 @@ export const EXIT_READINESS_ASSESSMENT: ServiceLanding = {
   ],
   contentTodos: [
     {
-      heading: "What the Assessment measures",
+      heading: "What does the Exit Readiness Assessment measure?",
       cover: [],
       body: [
         "The score is built from 29 measures in five areas. Founder dependency carries 25% of the score: the share of revenue from customers who deal mainly with the founder, the decisions only the founder takes, what happened the last time the founder was away, knowledge that sits only in the founder's head, and personal guarantees or licences in the founder's name. Management depth carries 20%: whether there is a named successor, who runs sales, operations, finance and people, how strong the finance function is, and whether key managers are tied in.",
@@ -96,7 +96,7 @@ export const EXIT_READINESS_ASSESSMENT: ServiceLanding = {
       ],
     },
     {
-      heading: "Verified, not self-assessed",
+      heading: "How is the Assessment different from a self-assessment?",
       cover: [],
       body: [
         "Most readiness tools score a questionnaire. The Assessment starts with one, then tests it. Customer concentration, recurring revenue, margin stability, retention, cash conversion and forecast accuracy are calculated from your data rather than estimated. Founder dependency is tested in interviews with your managers, who are asked the same questions about decisions, customers and absences. Priorities are compared across the team: if your managers name different priorities for the next two years from yours, a buyer will notice that in management meetings.",
@@ -104,7 +104,7 @@ export const EXIT_READINESS_ASSESSMENT: ServiceLanding = {
       ],
     },
     {
-      heading: "What you receive",
+      heading: "What do you receive from the Assessment?",
       cover: [],
       body: [
         "An overall score out of 100 and a score for each area, alongside the score your own answers produce. A line for every weak measure setting out what a trade buyer and a private equity fund typically do about it, for example an earn-out tied to customer retention, a longer founder lock-in, a finance director hire before completion or a specific indemnity.",
@@ -112,7 +112,7 @@ export const EXIT_READINESS_ASSESSMENT: ServiceLanding = {
       ],
     },
     {
-      heading: "After the Assessment",
+      heading: "What happens after the Assessment?",
       cover: [],
       body: [
         "Some actions you will do with your own team, accountant and lawyer. Others are work Mastella does: recruiting a successor managing director or a finance director through our [executive search](/executive-search/) team, building a delegated authority schedule, putting a management incentive plan in place, or preparing for a sale when the time is right. The Assessment fee is credited against that work if you instruct us within 12 months.",

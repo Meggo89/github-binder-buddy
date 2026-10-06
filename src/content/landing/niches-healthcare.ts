@@ -42,7 +42,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which dental practices does Mastella Advisory advise?",
         cover: [
           "Owners of UK dental practices and multi-site groups £5M to £50M EV",
         ],
@@ -54,7 +54,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for in dental practices",
+        heading: "What do buyers look for in dental practices?",
         cover: [
           "NHS/private mix",
           "Site economics",
@@ -73,7 +73,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a dental practice?",
         cover: [
           "Cross-link /process",
           "Dental-specific notes on NHS contract diligence",
@@ -156,7 +156,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which veterinary practices does Mastella Advisory advise?",
         cover: [
           "Owners of UK veterinary practices and groups £5M to £50M EV",
           "Small animal, equine, mixed, referral",
@@ -169,7 +169,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for in veterinary practices",
+        heading: "What do buyers look for in veterinary practices?",
         cover: [
           "Vet retention",
           "Site economics",
@@ -191,7 +191,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Recent market activity",
+        heading: "What is the M&A market like for veterinary practices?",
         cover: [
           "Named active UK vet consolidators, multiples, sub-sector shifts, CMA impact",
         ],
@@ -206,7 +206,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a veterinary practice?",
         cover: [
           "Cross-link /process",
           "CMA timing implications",
@@ -262,7 +262,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which care home and domiciliary care businesses does Mastella Advisory advise?",
         cover: ["Care home groups and domiciliary providers £5M to £50M EV"],
         body: [
           "You own a UK care home group or a domiciliary / live-in care business worth between £5M and £50M in enterprise value. A regional residential or nursing care group of three to fifteen homes. A domiciliary care business with hourly and live-in services. A specialist provider (complex needs, dementia, learning disability, mental health residential). Most likely some combination of private-pay, Local Authority funded and CCG / ICB contracted revenue.",
@@ -272,7 +272,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in care home and domiciliary care businesses?",
         cover: [
           "CQC standing",
           "Occupancy / FTE clients",
@@ -291,7 +291,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a care home or domiciliary care business?",
         cover: [
           "Cross-link /process",
           "Notes on Local Authority contract novation",
@@ -346,7 +346,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which mental health services businesses does Mastella Advisory advise?",
         cover: [
           "Mental health providers £5M to £50M EV",
           "Adult, CAMHS, addiction, eating disorder, forensic",
@@ -359,7 +359,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in mental health services businesses?",
         cover: [
           "CQC/Ofsted standing",
           "Clinician retention",
@@ -377,7 +377,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a mental health services business?",
         cover: [
           "Cross-link /process",
           "Notes on NHS contract diligence and clinician engagement",
@@ -432,7 +432,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which occupational health businesses does Mastella Advisory advise?",
         cover: ["UK OH providers £5M to £50M EV"],
         body: [
           "You own a UK occupational health provider worth between £5M and £50M in enterprise value. A corporate OH provider serving mid-market and enterprise clients. An integrated wellbeing platform with OH at its core. A specialist provider (industrial OH, sector-specific compliance). Most likely a mix of multi-year contracted corporate clients, insurer-channelled referrals, and a growing telehealth or remote-assessment component.",
@@ -442,7 +442,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in occupational health businesses?",
         cover: [
           "Contract tail",
           "Client concentration",
@@ -459,7 +459,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell an occupational health business?",
         cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led from first conversation to completion. For OH businesses, three things shape execution.",
@@ -511,7 +511,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which specialist clinics does Mastella Advisory advise?",
         cover: [
           "Specialist clinic groups £5M to £50M EV",
           "Aesthetic, fertility, eye care, dermatology, specialist medical",
@@ -524,7 +524,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in specialist clinics?",
         cover: [
           "Brand and reputation",
           "Clinical governance",
@@ -543,7 +543,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a specialist clinic?",
         cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led from first conversation to completion. For specialist clinic groups, three things shape execution.",

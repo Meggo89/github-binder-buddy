@@ -40,7 +40,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "What we look at in an exit planning engagement",
+        heading: "What does an exit planning engagement cover?",
         cover: [
           "Financial reporting and EBITDA quality",
           "Customer concentration and contract tail",
@@ -58,7 +58,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: "How we work alongside your accountant and lawyer",
+        heading: "How does exit planning work alongside your accountant and lawyer?",
         cover: [
           "Coordination model with existing advisors",
           "When we add specialists",
@@ -71,7 +71,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: "Outcomes",
+        heading: "What does exit planning achieve?",
         cover: [
           "Concrete examples of pre-sale interventions that affect price",
           "Owner testimonial-style content",
@@ -129,7 +129,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "The six-stage process",
+        heading: "What are the stages of selling a business?",
         cover: ["Walk through each stage", "Cross-link to /process"],
         body: [
           "Selling a UK business worth £5M to £50M is a structured six-stage process that runs in a predictable sequence. The order matters; trying to compress or skip stages is what produces poor outcomes. We walk through this in more depth on [our process page](/process/), but the short version below is what every owner should expect.",
@@ -142,7 +142,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: "What to do 12 months before going to market",
+        heading: "What should you do 12 months before selling a business?",
         cover: ["Readiness checklist"],
         body: [
           "The single most important factor in a strong outcome is starting preparation 12 to 24 months before the target sale window. The list below is the minimum we expect a business to have addressed before going to market.",
@@ -155,7 +155,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: "Common owner mistakes",
+        heading: "What mistakes do owners make when selling a business?",
         cover: [
           "Going too early",
           "Going to broker network",
@@ -211,7 +211,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who an MBO suits",
+        heading: "When does a management buyout work?",
         cover: ["Decision tree for trade sale vs MBO"],
         body: [
           "Management buyouts work well when three conditions are present together. First, there is a credible management team, typically the MD or COO plus a senior layer, who are willing and financially able to take the business forward. Second, you (as seller) value continuity for staff, customers and culture meaningfully. Third, the business has enough EBITDA and predictable cash conversion to support the debt and equity package required to fund the deal.",
@@ -221,7 +221,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: "Funding structures we have seen work",
+        heading: "How is a management buyout funded?",
         cover: ["Anonymised structuring examples"],
         body: [
           "MBO funding in the UK lower mid-market typically blends three or four sources. Senior debt from clearing banks or alternative lenders forms the base. Mezzanine or unitranche debt sits above it for larger or more complex deals. Equity from PE houses or family offices typically funds the management equity gap. Vendor loan from the seller (deferred consideration) often bridges the rest.",
@@ -231,7 +231,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: "Common pitfalls",
+        heading: "Why do management buyouts fail?",
         cover: [
           "Over-leveraging",
           "Management equity stake too small to motivate",
@@ -286,7 +286,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Minority vs majority vs pre-exit funding",
+        heading: "What is the difference between minority, majority and pre-exit funding?",
         cover: ["Decision tree based on owner objectives"],
         body: [
           "Growth capital comes in three main structures, each suited to a different owner objective. The right one depends on what you want from the next stage rather than what the market typically does.",
@@ -298,7 +298,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: "What investors look for in growth-capital opportunities",
+        heading: "What do growth capital investors look for?",
         cover: [
           "Growth trajectory",
           "Defensible market position",
@@ -314,7 +314,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: "Post-investment governance",
+        heading: "What governance comes with growth capital?",
         cover: ["Reserved matters", "Information rights", "Founder lock-ins"],
         body: [
           "Growth-capital deals come with governance terms that meaningfully affect how the business runs post-investment. The major terms are below: what each typically looks like, and where the owner-led negotiating room sits.",
@@ -364,7 +364,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "How buyer multiples are set",
+        heading: "How are UK owner-managed businesses valued?",
         cover: [
           "Sector benchmarks",
           "Recurring revenue premium",
@@ -381,7 +381,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: "Adjusted EBITDA bridge",
+        heading: "What is an adjusted EBITDA bridge?",
         cover: [
           "Common owner adjustments",
           "One-off items",
@@ -397,7 +397,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: "Sector benchmarks",
+        heading: "How do valuations differ by sector?",
         cover: ["Cross-link to /sectors hub for detailed sector ranges"],
         body: [
           "Sector-specific multiple ranges, buyer pool composition and diligence focus areas are covered in the sector pillar pages. Below is the headline orientation: for the detail in your sector, follow the link.",
@@ -479,7 +479,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "What we do",
+        heading: "What does Mastella Advisory do?",
         cover: ["Cross-link /services", "Cross-link /process"],
         body: [
           "Mastella is a senior-led M&A advisor for UK owner-managed businesses worth £5M to £50M in enterprise value. We work on confidential, off-market sell-side mandates, management buyouts, growth-capital rounds, and selective buy-side work for clients running active acquisition programmes. The full service detail is on [the services page](/services/) and the stage-by-stage process on [the process page](/process/).",
@@ -490,7 +490,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: "Who we work with",
+        heading: "Who does Mastella Advisory work with?",
         cover: ["£5M to £50M EV range", "Owner-managed", "Sector coverage"],
         body: [
           "We work with owner-managed UK businesses worth between £5M and £50M in enterprise value, across six sectors: business services, healthcare services, light industrials, logistics and distribution, professional services, and tech-enabled services. See [the sectors hub](/sectors/) for the detailed sub-sector coverage.",
@@ -500,7 +500,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: "What to look for when choosing a UK M&A advisor",
+        heading: "How do you choose an M&A advisor in the UK?",
         cover: [
           "Named senior person on the mandate, sub-sector track record, buyer-pool knowledge, fee transparency, honest downsides",
         ],
@@ -515,7 +515,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: "Recent market activity: UK lower mid-market M&A",
+        heading: "What is the UK lower mid-market M&A market like?",
         cover: ["Named consolidator activity, multiple ranges, sector heat"],
         body: [
           "The UK lower mid-market M&A landscape (£5M to £50M enterprise value) in 2026 remains structurally active despite macro-uncertainty at the larger end of the market. Below is a snapshot of what is currently visible.",
@@ -529,7 +529,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         ],
       },
       {
-        heading: "Why a senior-led model matters",
+        heading: "Why does a senior-led M&A advisor matter?",
         cover: [
           "Junior-delivery model in traditional firms",
           "Why retainer funding enables seniority",

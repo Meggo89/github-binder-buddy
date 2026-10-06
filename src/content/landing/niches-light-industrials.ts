@@ -42,7 +42,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which specialist manufacturing businesses does Mastella Advisory advise?",
         cover: ["UK specialist manufacturers £5M to £50M EV"],
         body: [
           "You own a UK specialist manufacturing business worth between £5M and £50M in enterprise value. A precision engineering manufacturer serving aerospace, defence, medical or automotive. A specialist plastics, electronics or metals manufacturer with defensible technical capability. A bespoke industrial equipment maker. An export-led manufacturer with a recognised UK origin advantage in the customer base.",
@@ -52,7 +52,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in specialist manufacturing businesses?",
         cover: [
           "IP and know-how",
           "Customer depth",
@@ -70,7 +70,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a specialist manufacturing business?",
         cover: [
           "Cross-link /process",
           "Notes on operational diligence and capex normalisation",
@@ -125,7 +125,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which plant hire and equipment rental businesses does Mastella Advisory advise?",
         cover: ["Plant hire and equipment rental owners £5M to £50M EV"],
         body: [
           "You own a UK plant hire or equipment rental business worth between £5M and £50M in enterprise value. A general plant hire platform serving construction. A specialist equipment rental business (access, lifting, temporary power, climate, tooling, scaffolding, traffic management). A specialist heavy-equipment rental business serving infrastructure or oil and gas. Most likely combined with a yard footprint, owned or leased, that has value of its own.",
@@ -135,7 +135,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in plant hire and equipment rental businesses?",
         cover: [
           "Fleet age",
           "Utilisation",
@@ -153,7 +153,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a plant hire business?",
         cover: [
           "Cross-link /process",
           "Notes on asset diligence and OpCo/PropCo structuring",
@@ -208,7 +208,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which engineering services businesses does Mastella Advisory advise?",
         cover: [
           "Engineering services owners £5M to £50M EV",
           "Mechanical, electrical, controls, process",
@@ -221,7 +221,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in engineering services businesses?",
         cover: [
           "Project vs recurring mix",
           "Engineer retention",
@@ -239,7 +239,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell an engineering services business?",
         cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For engineering services, three things shape execution.",
@@ -291,7 +291,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which process engineering businesses does Mastella Advisory advise?",
         cover: ["Process engineering owners £5M to £50M EV"],
         body: [
           "You own a UK process engineering business worth between £5M and £50M in enterprise value. A specialist process design, build and commissioning business serving food and beverage processors. A pharma process engineering specialist. A hydrogen, carbon capture or energy-transition specialist. A semiconductor or specialist materials process engineering firm. Most likely a mix of long-cycle project revenue, ongoing service and maintenance income, and a backlog of contracted work that took years to build.",
@@ -301,7 +301,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in process engineering businesses?",
         cover: [
           "End-market exposure",
           "IP and design ownership",
@@ -318,7 +318,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a process engineering business?",
         cover: ["Cross-link /process"],
         body: [
           "Our [six-stage process](/process/) runs senior-led across the full mandate. For process engineering, three things shape execution.",
@@ -370,7 +370,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which industrial coatings and surface treatment businesses does Mastella Advisory advise?",
         cover: ["Industrial coatings and surface treatment owners £5M to £50M EV"],
         body: [
           "You own a UK industrial coatings, surface treatment or specialist finishing business worth between £5M and £50M in enterprise value. A specialist coatings business serving aerospace, defence or rail. A surface treatment platform with sector accreditations. A specialist powder coater or industrial painter. An anodising, electroplating or chemical conversion specialist. Most likely operating from owned freehold land with environmental controls that took years to put in place.",
@@ -380,7 +380,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in industrial coatings and surface treatment businesses?",
         cover: [
           "Accreditations",
           "Environmental compliance",
@@ -397,7 +397,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell an industrial coatings business?",
         cover: [
           "Cross-link /process",
           "Notes on environmental diligence and OpCo/PropCo",
