@@ -17,7 +17,7 @@ const article: Article = {
         <li>Improved customer experience and personalization</li>
         <li>Predictive maintenance and operational efficiency</li>
       </ul>
-      <p>Valuations for AI-focused companies have seen a significant premium, often 20-30% higher than traditional software companies, reflecting the strategic importance of these capabilities.</p>
+      <p>Valuations for AI-focused companies have seen a significant premium, often 20 to 30% higher than traditional software companies, reflecting the strategic importance of these capabilities.</p>
 
       <h3>2. Cloud Services and Infrastructure</h3>
       <p>The shift to cloud computing has created new opportunities for strategic acquisitions. Companies with established cloud infrastructure and services are seeing increased interest from traditional enterprises looking to accelerate their digital transformation. Key considerations in cloud-focused M&A include:</p>

@@ -40,7 +40,7 @@ const article: Article = {
         <li>Resource allocation and optimization</li>
         <li>Performance measurement and tracking</li>
       </ul>
-      <p>Successful operational integration can lead to 20-30% cost savings and significant efficiency improvements.</p>
+      <p>Successful operational integration can lead to 20 to 30% cost savings and significant efficiency improvements.</p>
 
       <h3>4. Customer Experience and Market Positioning</h3>
       <p>Maintaining and enhancing customer relationships during integration is critical. Key considerations include:</p>

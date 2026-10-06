@@ -62,7 +62,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         ],
         body: [
           "Buyers of UK vertical SaaS businesses focus on six things: ARR composition and SaaS metrics, founder dependency, codebase and architecture, security posture, IP ownership and customer contract assignability, and acquired versus organic ARR. Diligence is sharper, more metric-driven and more technical than in almost any other sector.",
-          "ARR composition and SaaS metrics first. Net revenue retention, gross revenue retention, gross margin on the recurring book, CAC payback, rule of 40, ARR growth rate and ARR cohort durability. Premium pricing requires NRR above 105-110% with low logo churn and consistent cohort retention. Buyers will calculate these from raw billing data. Pre-process work to clean and present the metrics correctly is essential.",
+          "ARR composition and SaaS metrics first. Net revenue retention, gross revenue retention, gross margin on the recurring book, CAC payback, rule of 40, ARR growth rate and ARR cohort durability. Premium pricing requires NRR above 105 to 110% with low logo churn and consistent cohort retention. Buyers will calculate these from raw billing data. Pre-process work to clean and present the metrics correctly is essential.",
           "Founder dependency second. The most common diligence flag in vertical SaaS. Buyers want to see a senior team that can run the technology, the commercial relationships and the operational delivery independent of the founder. Building out the senior layer 12 to 18 months pre-process is the single highest-return preparation work.",
           "Codebase and architecture third. Technical diligence on architecture, scalability, code quality, technical debt, and the engineering team behind it. Codebases that have grown organically without architectural discipline trade at a discount until rebuilt or refactored.",
           "Security posture fourth. ISO 27001, SOC 2, Cyber Essentials Plus, sector-specific certifications. A documented security posture supports premium pricing and a wider buyer pool.",
@@ -149,7 +149,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
           "Contracted MRR and revenue composition first. The single most important metric. Premium pricing requires contracted MRR representing more than 70% of revenue with documented forward visibility. Buyers will calculate MRR from raw billing data and segment by contract type.",
           "Gross margin and unit economics second. Gross margin per contract, average revenue per customer, and the trajectory of each. Premium MSPs operate at consistent gross margins above 50% on recurring revenue.",
           "Customer churn third. Logo churn and revenue churn measured both at customer level and contract level. Premium pricing requires consistent annual logo churn below 5% with low revenue churn.",
-          "Customer concentration fourth. Above 15-20% in a single client is a flag for most PE consolidators. Premium MSP transactions typically have less than 10% top-client concentration.",
+          "Customer concentration fourth. Above 15 to 20% in a single client is a flag for most PE consolidators. Premium MSP transactions typically have less than 10% top-client concentration.",
           "Tech stack standardisation fifth. PSA, RMM, security stack standardisation across the client base supports premium pricing because of consolidator integration economics. MSPs running multiple stacks across their client base lose value to PE buyers specifically.",
         ],
       },
