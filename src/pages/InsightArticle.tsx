@@ -5,6 +5,7 @@ import { SEO } from '../components/SEO';
 import { PageLayout } from '../components/layout';
 import { getArticle, articles } from '../content/insights';
 import { FadeIn } from '../components/ui/motion';
+import { SITE } from '../seo/site-meta';
 
 export default function InsightArticle() {
   const { slug } = useParams<{ slug: string }>();
@@ -26,13 +27,9 @@ export default function InsightArticle() {
       '@type': 'Person',
       name: article.author,
       jobTitle: 'Managing Director',
-      worksFor: { '@type': 'Organization', name: 'Mastella Advisory' },
+      worksFor: { '@id': `${SITE.domain}/#organization` },
     },
-    publisher: {
-      '@type': 'Organization',
-      name: 'Mastella Advisory',
-      url: 'https://mastellagroup.com',
-    },
+    publisher: { '@id': `${SITE.domain}/#organization` },
     datePublished: article.date,
     dateModified: article.dateModified ?? article.date,
     mainEntityOfPage: canonical,
