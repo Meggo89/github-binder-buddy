@@ -23,7 +23,7 @@ const SEND_TO = 'leo@mastellagroup.com';
 
 const MAX_BODY_BYTES = 10 * 1024;
 
-type Payload = {
+export type Payload = {
   name?: string;
   company?: string;
   email?: string;
@@ -67,13 +67,32 @@ async function getAccessToken(): Promise<string> {
   return json.access_token;
 }
 
-function buildHtmlBody(p: Payload): string {
+// Score enquiries end their message with this line and the answers as JSON (built in
+// SendResultsForm). The JSON is shown verbatim at the very bottom of the email, under the same
+// label, so it can be copied into `boycie init --from-score`.
+const ENGINE_MARKER = 'Answers for the Review engine:';
+
+export function splitEngineAnswers(message: string): { text: string; engine: string | null } {
+  const at = message.lastIndexOf(ENGINE_MARKER);
+  if (at === -1) return { text: message, engine: null };
+  return { text: message.slice(0, at).trimEnd(), engine: message.slice(at + ENGINE_MARKER.length).trim() };
+}
+
+export function buildHtmlBody(p: Payload, submittedAt = new Date()): string {
   const row = (label: string, value: string | undefined) =>
     value && value.trim()
       ? `<tr><td style="padding:4px 12px 4px 0;color:#666;vertical-align:top;">${label}</td><td style="padding:4px 0;">${escapeHtml(value)}</td></tr>`
       : '';
-  const message = p.message?.trim()
-    ? `<div style="margin-top:20px;padding:16px;background:#f6f6f6;border-radius:6px;white-space:pre-wrap;">${escapeHtml(p.message)}</div>`
+  const { text, engine } = splitEngineAnswers(p.message ?? '');
+  const message = text.trim()
+    ? `<div style="margin-top:20px;padding:16px;background:#f6f6f6;border-radius:6px;white-space:pre-wrap;">${escapeHtml(text)}</div>`
+    : '';
+  const engineBlock = engine
+    ? `<div style="margin-top:28px;padding-top:12px;border-top:1px solid #ddd;">
+    <p style="margin:0 0 6px 0;font-size:12px;color:#888;">For the Review engine: save the line below as a .json file and run boycie init --from-score.</p>
+    <p style="margin:0 0 6px 0;font-weight:600;">${ENGINE_MARKER}</p>
+    <pre style="margin:0;font-family:Consolas,Menlo,monospace;font-size:12px;white-space:pre-wrap;word-break:break-all;">${escapeHtml(engine)}</pre>
+  </div>`
     : '';
   return `
 <div style="font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#111;">
@@ -86,11 +105,12 @@ function buildHtmlBody(p: Payload): string {
     ${row('Interest', p.interest)}
     ${row('Found us via', p.heardVia)}
     ${row('First touch', p.firstTouch)}
-    ${row('Submitted', new Date().toISOString())}
+    ${row('Submitted', submittedAt.toISOString())}
     ${row('From page', p.pagePath)}
   </table>
   ${message}
   <p style="margin-top:20px;font-size:12px;color:#888;">Reply-to is set to the enquirer's email address, so replying to this message goes straight to them.</p>
+  ${engineBlock}
 </div>`.trim();
 }
 
