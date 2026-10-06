@@ -17,7 +17,7 @@ export const EXIT_READINESS_ASSESSMENT: ServiceLanding = {
     "How a buyer would read your business, scored on 29 measures and verified against your numbers and your team. Fixed fee.",
   intro:
     "The Exit Readiness Assessment scores your business on the 29 measures buyers test in a sale process. Each answer is checked against your accounts, your customer data and interviews with your senior team. The report shows where value is at risk, how a trade buyer or a private equity fund would respond to each weak area, which exit routes are realistic now, and what to fix first.",
-  heroCta: { to: "/contact/", label: "Book a call about an Assessment" },
+  heroCta: { to: "/contact/", label: "Ask about an Assessment" },
   secondaryCta: { to: "/exit-readiness-score/", label: "Or start with the free score" },
   offer: {
     currency: "GBP",

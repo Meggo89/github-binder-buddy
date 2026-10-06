@@ -125,7 +125,7 @@ const article: Article = {
 
       <h2>Talk to us</h2>
 
-      <p>If you are weighing an inbound approach from one of the three buyer types and want an independent view on what the other two would pay for the same business, <a href="/contact/">book a 45-minute confidential conversation</a>. We work with UK owners on structured processes that test any inbound offer against the wider buyer pool.</p>
+      <p>If you are weighing an inbound approach from one of the three buyer types and want an independent view on what the other two would pay for the same business, <a href="/contact/">arrange a 45-minute confidential conversation</a>. We work with UK owners on structured processes that test any inbound offer against the wider buyer pool.</p>
 
       <h2>A worked example: how the three routes might play out</h2>
 
@@ -147,7 +147,7 @@ const article: Article = {
 
       <h2>Where to start</h2>
 
-      <p>If you are 12 to 24 months from a target exit, the first useful step is <a href="/services/exit-planning-advisor-uk/">exit planning readiness work</a>. If you are being approached by a buyer already and need an independent view, <a href="/contact/">book a confidential conversation</a>. Forty-five minutes, no obligation. We will be honest about which of the three routes fits your situation, and where the wider process would add value.</p>
+      <p>If you are 12 to 24 months from a target exit, the first useful step is <a href="/services/exit-planning-advisor-uk/">exit planning readiness work</a>. If you are being approached by a buyer already and need an independent view, <a href="/contact/">arrange a confidential conversation</a>. Forty-five minutes, no obligation. We will be honest about which of the three routes fits your situation, and where the wider process would add value.</p>
     `,
   author: 'Leo Meggitt',
   date: '18 August 2026',
