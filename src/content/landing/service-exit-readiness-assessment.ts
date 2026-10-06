@@ -107,7 +107,7 @@ export const EXIT_READINESS_ASSESSMENT: ServiceLanding = {
       heading: "What do you receive from the Assessment?",
       cover: [],
       body: [
-        "An overall score out of 100 and a score for each area, alongside the score your own answers produce. A line for every weak measure setting out what a trade buyer and a private equity fund typically do about it, for example an earn-out tied to customer retention, a longer founder lock-in, a finance director hire before completion or a specific indemnity.",
+        "You receive a report with an overall score out of 100 and a score for each area, alongside the score your own answers produce. It includes a line for every weak measure setting out what a trade buyer and a private equity fund typically do about it, for example an earn-out tied to customer retention, a longer founder lock-in, a finance director hire before completion or a specific indemnity.",
         "A view on which routes are open now: trade sale, private equity, management buyout or employee ownership trust, with the reasons. Any conflicts between your objectives and the business, such as wanting to step back within a year when there is no successor in place. And an action plan in three phases (first 90 days, months 3 to 9, months 9 to 18), ranked by how much each action improves the score.",
       ],
     },
@@ -115,7 +115,7 @@ export const EXIT_READINESS_ASSESSMENT: ServiceLanding = {
       heading: "What happens after the Assessment?",
       cover: [],
       body: [
-        "Some actions you will do with your own team, accountant and lawyer. Others are work Mastella does: recruiting a successor managing director or a finance director through our [executive search](/executive-search/) team, building a delegated authority schedule, putting a management incentive plan in place, or preparing for a sale when the time is right. The Assessment fee is credited against that work if you instruct us within 12 months.",
+        "After the Assessment you carry out some actions with your own team, accountant and lawyer, and Mastella does others. Mastella's work includes recruiting a successor managing director or a finance director through our [executive search](/executive-search/) team, building a delegated authority schedule, putting a management incentive plan in place, or preparing for a sale when the time is right. The Assessment fee is credited against that work if you instruct us within 12 months.",
         "If you would like a first read before speaking to anyone, the free [Exit Readiness Score](/exit-readiness-score/) asks 11 of the 29 questions and takes about three minutes.",
       ],
     },

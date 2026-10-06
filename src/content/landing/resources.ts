@@ -9,7 +9,7 @@ export const RESOURCES: ResourceLanding[] = [
       "Business broker or M&A advisor? Senior-led explainer for UK owners worth £5M to £50M. Models, fees, buyer pools and outcomes compared honestly.",
     h1: "Business broker vs M&A advisor: what is the difference?",
     intro:
-      "Two very different models, often confused. Which one fits depends almost entirely on what your business is worth, and the gap in outcomes is bigger than most owners realise.",
+      "A business broker lists businesses worth roughly £200,000 to £3M on broker networks and handles incoming enquiries, while an M&A advisor runs an off-market process for businesses worth roughly £5M to £100M+, approaching a curated list of strategic and PE buyers individually under NDA. Which one fits depends almost entirely on what your business is worth, and the gap in outcomes is bigger than most owners realise.",
     faqs: [
       {
         q: "What is the headline difference between a broker and an M&A advisor?",
@@ -38,10 +38,29 @@ export const RESOURCES: ResourceLanding[] = [
     ],
     contentTodos: [
       {
+        heading: "What is the difference between a business broker and an M&A advisor?",
+        cover: [],
+        body: [
+          "A business broker lists businesses worth roughly £200,000 to £3M on broker networks and handles incoming enquiries, earning a commission on completion. An M&A advisor runs an off-market process for businesses worth roughly £5M to £100M+, approaching a curated list of strategic and PE buyers individually under NDA.",
+        ],
+        table: {
+          caption: "Business broker and M&A advisor compared",
+          columns: ["", "Business broker", "M&A advisor"],
+          rows: [
+            ["Typical business size", "Roughly £200,000 to £3M", "Roughly £5M to £100M+ in enterprise value"],
+            ["Typical buyers", "Owner-operator individuals, smaller acquirers, search-fund searchers and family operators", "PE-backed consolidators, larger strategic acquirers and, for larger deals, direct PE houses"],
+            ["How buyers are reached", "Listings on broker networks, with incoming enquiries managed", "Direct approaches to a curated list of buyers, each individually under NDA"],
+            ["Confidentiality", "Anonymised listings, though staff or competitors can sometimes identify the business", "Off-market, with no public listing"],
+            ["Fee structure", "Commission on completion, often success fee alone", "Monthly retainer during the process, with the bulk of the fee weighted to a successful outcome"],
+            ["Who handles structuring", "Typically the lawyers, after a headline price is agreed", "Done as core work by the advisor"],
+          ],
+        },
+      },
+      {
         heading: "When is a business broker the right choice?",
         cover: ["Honest framing of where brokers add genuine value"],
         body: [
-          "There is a real and valuable role for business brokers. The honest version: at the lower end of the UK SME market, a quality broker network typically serves owners better than a senior-led M&A firm can or will. This is not a hedge. It is a structural observation about how each model works economically.",
+          "A business broker is the right choice for businesses worth roughly £200,000 to £3M, and for highly time-sensitive sales where the owner needs liquidity quickly and accepts a wide buyer pool. There is a real and valuable role for business brokers. The honest version: at the lower end of the UK SME market, a quality broker network typically serves owners better than a senior-led M&A firm can or will. This is not a hedge. It is a structural observation about how each model works economically.",
           "Brokers serve businesses worth roughly £200,000 to £3M well. At that scale, the buyer pool is typically owner-operator individuals, smaller acquirers, search-fund searchers, and family operators looking for a lifestyle or platform business. Reaching this pool requires breadth: broker listings on the established networks (BusinessesForSale, Daltons, the regional broker websites) are the right channel. The commission model works at that scale because deal values are small enough that a 5-10% commission on completion produces enough fee to fund the broker's work.",
           "Brokers also serve well for highly time-sensitive sales where the owner needs liquidity quickly and is willing to accept a wide buyer pool, including buyers willing to pay below where a structured process might land. Distressed sales, retirement-driven sales with health constraints, and tax-driven sales sometimes fit this profile.",
           "A good broker at this end of the market knows their buyer database, manages the listing thoughtfully, structures the deal reasonably, and gets the transaction across the line in three to nine months. There is genuine value here and we will happily refer owners to brokers we trust where that fits the situation better than what Mastella offers.",
@@ -71,7 +90,7 @@ export const RESOURCES: ResourceLanding[] = [
           "Past transactions in your sector",
         ],
         body: [
-          "Whether you are choosing between brokers, between M&A advisors, or between the two models, the questions below separate firms that match what they pitch from firms that do not. We would expect any owner to ask these questions, and we would be straight in answering them ourselves.",
+          "Ask five things before signing a mandate: who will actually do the work, how buyers will be identified, how fees are structured, what past transactions the firm has run in your sector, and what three to five things consistently move outcomes in that sector. Whether you are choosing between brokers, between M&A advisors, or between the two models, the questions below separate firms that match what they pitch from firms that do not. We would expect any owner to ask these questions, and we would be straight in answering them ourselves.",
           "Who will actually do the work? Not who is in the meeting today. Who is in every meeting through the mandate. In the traditional UK lower mid-market M&A firm, senior advisors win mandates and then delegate substantive delivery to junior teams. If the firm cannot tell you which named senior person will be in every buyer meeting, and run every negotiation conversation, the model is not what is being sold. Ask explicitly.",
           "How will buyers be identified? Database listings (broker model). Database search and outreach to known buyers (mid-tier advisor model). Curated buyer mapping with proprietary market intelligence supported by direct senior-led approach under NDA (senior-led advisor model). The three produce very different outcomes. Ask which model the firm is going to run for your specific business and what their proprietary buyer mapping looks like.",
           "How are fees structured? Fully understand the fee structure, including upfront, monthly retainer, success fee, work fees, expenses, and any minimum charges. A commission-only structure economically pushes firms to take any deal that closes, even at a price below what a structured process would produce, because the commission is what funds the work. A retainer-led structure signals commitment on both sides and aligns the advisor to running the process properly through to the best deal, not just the quickest one. A modest retainer with the bulk of the fee weighted to a successful outcome usually strikes the right balance.",
@@ -87,7 +106,7 @@ export const RESOURCES: ResourceLanding[] = [
           "Low monthly retainer rationale",
         ],
         body: [
-          "We are an M&A advisor, not a broker. Mastella is structured around three things that distinguish our model from both the broker model and the traditional UK lower mid-market M&A advisor model.",
+          "Mastella is a senior-led, off-market M&A advisor working on a low monthly retainer. It is structured around three things that distinguish our model from both the broker model and the traditional UK lower mid-market M&A advisor model.",
           "Senior-led delivery. Every conversation that matters runs through Leo Meggitt. Buyer mapping, financial normalisation, IM drafting, the negotiation, completion mechanics. None of these are delegated. A small in-house team and a proprietary technology layer for surfacing acquirer signals from licensed market data support the senior delivery rather than substitute for it.",
           "Off-market by default. We do not list businesses on broker networks or M&A databases. Every sell-side mandate runs as a structured approach to a curated list of strategic and PE buyers individually under NDA. For owner-managed businesses where confidentiality is commercially important (which is almost always), this is the only credible model.",
           "Low monthly retainer rationale. We work on a low monthly retainer model. The retainer funds genuinely senior time across the mandate and economically supports a model where junior delivery is not necessary to make the unit economics work. We share the full fee structure transparently in the first conversation. The structure is aligned to deliver owner outcomes, not commission on any deal that closes.",
