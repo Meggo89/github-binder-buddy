@@ -14,7 +14,7 @@ const article: Article = {
 
       <p>This article assumes you already understand what a search fund is. If not, read our <a href="/insights/uk-search-funds-explained/">definitive UK search funds guide</a> first, then come back.</p>
 
-      <h2>The three buyer types, in one paragraph each</h2>
+      <h2>What are search funds, private equity and strategic acquirers?</h2>
 
       <p><strong>Search funds.</strong> An individual (or pair) who has raised institutional or personal capital to buy a single business and run it as CEO for the long term. Backed either by an institutional sponsor (Novastone, Broadleaf, First Search) or a personal LP network. Wants to buy your business and become its next leader. Time horizon: 7 to 15 years.</p>
 
@@ -22,7 +22,7 @@ const article: Article = {
 
       <p><strong>Strategic acquirers.</strong> An operating business, typically larger than yours, acquiring your business to fill a capability gap, add geographic reach, add customers, or take out a competitor. Ranges from UK trade acquirers to European or global strategics. Time horizon: permanent (integration into the acquirer).</p>
 
-      <h2>Side-by-side comparison</h2>
+      <h2>How do search funds, private equity and strategic acquirers compare?</h2>
 
       <p>Below is a compact framework. The specifics move within each cell depending on sector and situation, but the direction of each cell is consistent across most UK lower mid-market deals we see.</p>
 
@@ -105,7 +105,7 @@ const article: Article = {
         </tbody>
       </table>
 
-      <h2>How to think about the trade-offs</h2>
+      <h2>Which type of buyer is right for your business?</h2>
 
       <h3>Price is not always the deciding factor</h3>
 

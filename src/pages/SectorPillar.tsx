@@ -74,7 +74,7 @@ export default function SectorPillarPage() {
 
             <section className="py-12 md:py-16 border-t border-navy/5">
               <h2 className="font-serif text-display-md text-navy leading-tight mb-8 text-balance">
-                Sub-sectors we cover
+                Which {sector.nameLower} sub-sectors does Mastella Advisory cover?
               </h2>
               <Stagger className="grid sm:grid-cols-2 gap-3">
                 {niches.map((n) => (

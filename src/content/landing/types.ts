@@ -17,6 +17,16 @@ export type ContentTodo = {
   // ContentTodoSection. When set, suppresses the {{ CONTENT_TODO }} marker and
   // the cover bullets — only the heading + paragraphs render.
   body?: string[];
+  // Optional comparison table, rendered after the first paragraph. Kept as a real <table> in the
+  // prerendered HTML because tables are among the easiest content for search and AI answers to
+  // lift. Cells are plain text.
+  table?: ContentTable;
+};
+
+export type ContentTable = {
+  caption: string;
+  columns: string[];
+  rows: string[][];
 };
 
 export type SubSectionTodo = {

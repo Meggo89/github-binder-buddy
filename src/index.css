@@ -74,6 +74,16 @@
   .prose-article strong {
     @apply text-navy font-semibold;
   }
+  /* Tables scroll sideways on narrow screens rather than squashing their columns. */
+  .prose-article table {
+    @apply block w-full overflow-x-auto my-8 text-sm md:text-base border-collapse;
+  }
+  .prose-article th {
+    @apply text-left font-semibold text-navy py-3 pr-4 align-bottom border-b-2 border-navy/15;
+  }
+  .prose-article td {
+    @apply py-3 pr-4 align-top border-b border-navy/10 min-w-[10rem] leading-relaxed;
+  }
 }
 
 @layer utilities {

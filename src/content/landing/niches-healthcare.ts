@@ -42,7 +42,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which dental practices does Mastella Advisory advise?",
         cover: [
           "Owners of UK dental practices and multi-site groups £5M to £50M EV",
         ],
@@ -54,7 +54,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for in dental practices",
+        heading: "What do buyers look for in dental practices?",
         cover: [
           "NHS/private mix",
           "Site economics",
@@ -63,8 +63,8 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
           "UDA contract",
         ],
         body: [
-          "Buyer diligence in UK dental M&A focuses on six items. Each is fixable in advance, and each consistently drives the difference between top-of-range and median-multiple outcomes.",
-          "NHS vs private mix first. Buyers value the two streams differently. NHS UDA contract income is highly predictable but margin-controlled; private income carries higher growth optionality. Most consolidators prefer a balanced mix, typically 40-60% NHS, with a credible private-growth story. Pure NHS-only practices trade differently and to a narrower buyer pool.",
+          "Buyers of dental practices focus on six things: the NHS and private revenue mix, CQC standing, site economics, associate retention and lock-in, UDA contract position, and goodwill and brand. Each is fixable in advance, and each consistently drives the difference between top-of-range and median-multiple outcomes.",
+          "NHS vs private mix first. Buyers value the two streams differently. NHS UDA contract income is highly predictable but margin-controlled; private income carries higher growth optionality. Most consolidators prefer a balanced mix, typically 40 to 60% NHS, with a credible private-growth story. Pure NHS-only practices trade differently and to a narrower buyer pool.",
           "CQC standing second. Outstanding or Good ratings materially affect both deal certainty and headline price. Requires Improvement is fixable but always discounts. We typically advise addressing remediable CQC issues 6 to 12 months ahead of any process so the rating is settled by the time the data room opens.",
           "Site economics third. Per-site EBITDA, chair-time utilisation, average revenue per chair per day, patient retention, and the private-treatment uptake rate. Multi-site groups where individual site performance varies widely against the group average are valued on the weaker sites, not the stronger ones.",
           "Associate retention and lock-in fourth. The single most commonly cited late-stage diligence concern. Buyers look at associate tenure, restrictive covenants, billings per associate, and any post-sale lock-in arrangements. Sales where key associates have not been engaged with the transaction story consistently re-trade or fall apart at completion.",
@@ -73,13 +73,13 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a dental practice?",
         cover: [
           "Cross-link /process",
           "Dental-specific notes on NHS contract diligence",
         ],
         body: [
-          "Our [six-stage process](/process/) runs senior-led from first conversation to completion. For dental, three things shape execution.",
+          "A dental practice is sold through Mastella's senior-led [six-stage process](/process/), shaped by three things: regulated diligence on a longer clock than commercial diligence, buyer mapping across the 8 to 12 active consolidators, and associate engagement built into the process design.",
           "Regulated diligence sits on a longer clock than commercial diligence. CQC reports, NHS contract novation, and (for larger contract transfers) NHS England engagement. We build this into the process design from the start rather than discovering the timeline late.",
           "Buyer mapping is concentrated and granular. The active consolidators differ in strategy, size preference, NHS exposure tolerance, and integration model. Knowing which subset is deploying capital today, and on what terms, is the difference between a process that produces competitive tension and one that defaults to a single bilateral conversation. Our buyer mapping is supported by our proprietary technology layer for surfacing acquirer signals from licensed market data.",
           "Associate engagement is structured into the process design, not bolted on at the end. Get this wrong and you risk both the deal and the team. See [the healthcare services pillar](/sectors/healthcare-services/) for context and [veterinary practices](/sectors/healthcare-services/veterinary-practices/) for the closest adjacent niche.",
@@ -156,7 +156,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which veterinary practices does Mastella Advisory advise?",
         cover: [
           "Owners of UK veterinary practices and groups £5M to £50M EV",
           "Small animal, equine, mixed, referral",
@@ -169,7 +169,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for in veterinary practices",
+        heading: "What do buyers look for in veterinary practices?",
         cover: [
           "Vet retention",
           "Site economics",
@@ -178,7 +178,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
           "CMA implications",
         ],
         body: [
-          "Buyer diligence in UK veterinary M&A focuses on five items. Each has become sharper under the CMA review environment.",
+          "Buyers of veterinary practices focus on nine things: vet retention, site economics, client base depth, specialist accreditation, CMA-related diligence, subscription and preventive care penetration, diagnostic and technology capability, property structure and freehold mix, and insurance penetration and average client value. Each has become sharper under the CMA review environment.",
           "Vet retention first. The headline diligence concern across every buyer in this sector. Tenure data, salary benchmarks against the regional market, restrictive covenants, billings per vet, and any post-sale lock-in arrangements all sit at the top of the buyer pack. With the CMA review highlighting workforce dynamics, this has tightened further. Practices where senior vets have not been engaged with the transaction story consistently re-trade at completion.",
           "Site economics second. Per-site EBITDA, revenue per FTE vet, client retention, average spend per client, and the proportion of revenue from preventive care plans. Multi-site groups where individual site performance varies widely are valued on the weaker sites.",
           "Client base depth third. Active client count, client tenure distribution, revenue per client, and the proportion of revenue on subscription / health plans. A strong subscription book materially supports premium pricing because of revenue visibility.",
@@ -191,12 +191,12 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Recent market activity",
+        heading: "What is the M&A market like for veterinary practices?",
         cover: [
           "Named active UK vet consolidators, multiples, sub-sector shifts, CMA impact",
         ],
         body: [
-          "UK veterinary M&A has moved through a distinct phase change in 2024 to 2026 following the Competition and Markets Authority (CMA) market investigation into the sector. Below is a snapshot of what is currently visible in the market.",
+          "Active corporate and PE-backed consolidators including CVS Group, IVC Evidensia, VetPartners, Linnaeus Group, Medivet and White Cross Vets are still acquiring UK veterinary practices, but at a more disciplined pace under CMA scrutiny. UK veterinary M&A has moved through a distinct phase change in 2024 to 2026 following the Competition and Markets Authority (CMA) market investigation into the sector. Below is a snapshot of what is currently visible in the market.",
           "**Active corporate and PE-backed consolidators.** CVS Group (LSE-listed), IVC Evidensia (EQT-backed), VetPartners (BC Partners), Linnaeus Group (Mars Petcare), Medivet (Silverlake), White Cross Vets (Independent Vetcare Group), My Family Vets and various regional roll-ups all remain active, though at a more disciplined pace under CMA scrutiny, with sharper focus on strategic fit rather than volume acquisition.",
           "**Multiples.** First-opinion small animal practices trade in the 7 to 10x adjusted EBITDA range for single sites; groups of four or more sites reach 10 to 14x; specialist referral centres (oncology, orthopaedics, cardiology, neurology, exotic) command 12 to 16x depending on clinical profile and clinician retention. Mixed and equine practices trade at the lower end of first-opinion ranges given narrower buyer pools.",
           "**Specialist referral M&A.** Sub-segment referral (oncology, orthopaedics, neurology, dermatology) attracts a narrower but internationally active buyer pool. Overseas strategics, particularly Nordic and North American referral platforms, have shown consistent interest in UK referral centres with strong clinical profiles and defensible geographic catchments.",
@@ -206,14 +206,14 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a veterinary practice?",
         cover: [
           "Cross-link /process",
           "CMA timing implications",
           "Vet engagement plan",
         ],
         body: [
-          "Our [six-stage process](/process/) runs senior-led from first conversation to completion. For UK vet practices, three things shape execution in the current environment.",
+          "A veterinary practice is sold through Mastella's senior-led [six-stage process](/process/), shaped by three things: CMA-related diligence on a longer clock and wider scope, vet engagement built into the process design from the start, and buyer mapping segmented by consolidator and by specialist referral.",
           "CMA-related diligence sits on a longer clock and a wider scope than vet practices have historically run. We design the process around this rather than discovering the implications late. Where pricing transparency, ownership disclosure or client communication standards need attention, the readiness phase is the right time to address them.",
           "Vet engagement is structured into the process design from the start. We work with owners on how and when senior vets are told about the transaction, the post-sale lock-in arrangements, and any equity or retention arrangements that need to be in place. The single fastest way to lose a veterinary deal at completion is to fail to engage the team properly in advance.",
           "Buyer mapping is segmented and changing fast. Active consolidators differ in CMA-readiness, size appetite, geographic preference, and integration intensity. Specialist referral practices attract an additional, narrower buyer pool again. Our buyer mapping is supported by our proprietary technology layer for surfacing acquirer signals from licensed market data. See [the healthcare services pillar](/sectors/healthcare-services/) for context and [dental practices](/sectors/healthcare-services/dental-practices/) for the closest adjacent niche.",
@@ -262,7 +262,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which care home and domiciliary care businesses does Mastella Advisory advise?",
         cover: ["Care home groups and domiciliary providers £5M to £50M EV"],
         body: [
           "You own a UK care home group or a domiciliary / live-in care business worth between £5M and £50M in enterprise value. A regional residential or nursing care group of three to fifteen homes. A domiciliary care business with hourly and live-in services. A specialist provider (complex needs, dementia, learning disability, mental health residential). Most likely some combination of private-pay, Local Authority funded and CCG / ICB contracted revenue.",
@@ -272,7 +272,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in care home and domiciliary care businesses?",
         cover: [
           "CQC standing",
           "Occupancy / FTE clients",
@@ -281,9 +281,9 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
           "Carer / nurse retention",
         ],
         body: [
-          "Buyer diligence in UK care M&A focuses on six items. Each is fixable in advance, and each consistently drives the difference between top-of-range and median-multiple outcomes.",
+          "Buyers of care home and domiciliary care businesses focus on six things: CQC standing, occupancy and FTE clients, payer mix, property structure, carer and nurse retention, and Local Authority and CCG contract novation. Each is fixable in advance, and each consistently drives the difference between top-of-range and median-multiple outcomes.",
           "CQC standing first. Outstanding-rated portfolios attract premium pricing. Requires Improvement or Inadequate ratings are usually fixable but materially affect both buyer appetite and price if unaddressed. We typically advise addressing remediable CQC issues 6 to 12 months before any process so the rating is settled by the time the data room opens.",
-          "Occupancy and FTE clients second. For residential care, average occupancy across the portfolio and per-site is the headline. For domiciliary care, FTE clients, weekly hours delivered, and client retention. Premium pricing requires consistent occupancy above 88-90% in residential and stable FTE client growth in domiciliary.",
+          "Occupancy and FTE clients second. For residential care, average occupancy across the portfolio and per-site is the headline. For domiciliary care, FTE clients, weekly hours delivered, and client retention. Premium pricing requires consistent occupancy above 88 to 90% in residential and stable FTE client growth in domiciliary.",
           "Payer mix third. The split between private-pay, Local Authority funded, CCG / ICB funded and NHS funded revenue determines both the buyer pool and the multiple. Higher private and CCG-funded revenue generally supports stronger multiples; LA-funded revenue is predictable but margin-constrained. We help owners present payer mix and average weekly rates honestly and in the right comparative context.",
           "Property structure fourth. Freehold-heavy residential portfolios open the property-led buyer pool in addition to the operating buyer pool. We typically run the process to maximise outcome from both pools simultaneously, with OpCo/PropCo structuring where it produces a better total outcome.",
           "Carer and nurse retention fifth. The single biggest operational risk in this sector and a primary diligence concern. Buyers look at carer tenure, training depth, agency-usage ratios, and wage benchmarks against the regional market. Premium pricing requires a credible retention story.",
@@ -291,13 +291,13 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a care home or domiciliary care business?",
         cover: [
           "Cross-link /process",
           "Notes on Local Authority contract novation",
         ],
         body: [
-          "Our [six-stage process](/process/) runs senior-led from first conversation to completion. For care, three things shape execution.",
+          "A care home or domiciliary care business is sold through Mastella's senior-led [six-stage process](/process/), shaped by three things: regulated and contractual diligence on longer clocks than commercial diligence, buyer mapping across both operating and property-led acquirers, and carer and senior team engagement built into the process design.",
           "Regulated and contractual diligence sit on longer clocks than commercial diligence. CQC reports across every site, LA / CCG / ICB contract novation, property and lease diligence, and (for any open commissioning matters) ongoing dialogue with commissioners. We build all of this into the process design from the start.",
           "Buyer mapping covers two distinct pools simultaneously: operating acquirers (PE consolidators and strategic operators) and property-led acquirers. The right process design surfaces interest from both, often producing the strongest total outcome through an OpCo/PropCo structure rather than a single-pool sale. Our buyer mapping is supported by our proprietary technology layer for surfacing acquirer signals.",
           "Carer and senior team engagement is structured into the process design from the start. Get this wrong and the deal stalls; get it right and the buyer pays for the team alongside the assets. See [the healthcare services pillar](/sectors/healthcare-services/) for context and [mental health services](/sectors/healthcare-services/mental-health-services/) for the closest specialist niche.",
@@ -346,7 +346,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which mental health services businesses does Mastella Advisory advise?",
         cover: [
           "Mental health providers £5M to £50M EV",
           "Adult, CAMHS, addiction, eating disorder, forensic",
@@ -359,7 +359,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in mental health services businesses?",
         cover: [
           "CQC/Ofsted standing",
           "Clinician retention",
@@ -368,7 +368,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
           "Site economics",
         ],
         body: [
-          "Buyer diligence in UK mental health services M&A is among the sharpest we see across any healthcare sub-sector. Five items dominate the buyer pack.",
+          "Buyers of mental health services businesses focus on five things: CQC and (for CAMHS residential) Ofsted standing, specialist clinician retention, NHS and ICB contract holding, payer mix, and site and bed-day economics. Diligence is among the sharpest we see across any healthcare sub-sector.",
           "CQC and (for CAMHS residential) Ofsted standing first. Outstanding or Good ratings materially affect both deal certainty and headline price. Requires Improvement ratings are usually fixable but always discount. We advise addressing any remediable issues 6 to 12 months ahead of going to market so the rating is settled by the time the data room opens.",
           "Specialist clinician retention second. Psychiatrists, clinical psychologists, specialist therapists and specialist nurses are scarce, and buyers know it. Tenure data, salary benchmarks, restrictive covenants, and any post-sale lock-in arrangements all sit near the top of the buyer pack. Practices where senior clinicians have not been engaged with the transaction story consistently re-trade at completion.",
           "NHS / ICB contract holding third. Long-tenor contracted NHS / ICB work provides revenue visibility that supports premium pricing. Buyers diligence contract duration, novation rights, termination triggers, and underperformance positions carefully. We help owners surface the contract book honestly in the data room.",
@@ -377,13 +377,13 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a mental health services business?",
         cover: [
           "Cross-link /process",
           "Notes on NHS contract diligence and clinician engagement",
         ],
         body: [
-          "Our [six-stage process](/process/) runs senior-led from first conversation to completion. For mental health services, three things shape execution.",
+          "A mental health services business is sold through Mastella's senior-led [six-stage process](/process/), shaped by three things: regulated and contractual diligence on longer clocks than commercial diligence, buyer mapping across CAMHS, adult mental health and forensic consolidators plus strategic and overseas acquirers, and clinician engagement built into the process design.",
           "Regulated and contractual diligence sit on longer clocks than commercial diligence. CQC and Ofsted reports, NHS / ICB contract novation, commissioner engagement on any open matters. We build all of this into the process design from the start so it does not surprise the buyer pool or the timetable.",
           "Buyer mapping is concentrated and segmented. PE consolidators in CAMHS look for different targets than those in adult mental health or specialist forensic. Strategic acquirers and overseas strategics form additional pools. Our buyer mapping covers all four, supported by our proprietary technology layer for surfacing acquirer signals.",
           "Clinician engagement is structured into the process design from the start. Specialist clinical talent is scarce enough that the deal is, in significant part, a transaction about a team. Get this wrong and the deal stalls; get it right and the buyer pays for the team alongside the contracts. See [the healthcare services pillar](/sectors/healthcare-services/) for context and [specialist clinics](/sectors/healthcare-services/specialist-clinics/) for the closest adjacent niche.",
@@ -432,7 +432,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which occupational health businesses does Mastella Advisory advise?",
         cover: ["UK OH providers £5M to £50M EV"],
         body: [
           "You own a UK occupational health provider worth between £5M and £50M in enterprise value. A corporate OH provider serving mid-market and enterprise clients. An integrated wellbeing platform with OH at its core. A specialist provider (industrial OH, sector-specific compliance). Most likely a mix of multi-year contracted corporate clients, insurer-channelled referrals, and a growing telehealth or remote-assessment component.",
@@ -442,7 +442,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in occupational health businesses?",
         cover: [
           "Contract tail",
           "Client concentration",
@@ -450,19 +450,19 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
           "Clinician retention",
         ],
         body: [
-          "Buyer diligence in UK OH M&A is corporate-services-shaped more than healthcare-services-shaped. Five items dominate.",
+          "Buyers of occupational health businesses focus on five things: client contract tail, client concentration, technology stack, clinician retention, and adjacent services. Diligence is corporate-services-shaped more than healthcare-services-shaped.",
           "Client contract tail first. Weighted average tail across the top 20 clients is the headline metric. Books with 24+ months of weighted tail and renewal rates above 85% support premium pricing. Rolling 12-month books trade meaningfully lower regardless of headline revenue.",
-          "Client concentration second. The corporate OH market features anchor clients representing 15-25% of revenue more often than buyers would prefer. What buyers want is depth of the relationship at each anchor: multi-site servicing, multi-stakeholder relationships, embedded technology integration, and switching cost. Top-client concentration with shallow relationship trades poorly; the same concentration with deep operational integration trades materially better.",
+          "Client concentration second. The corporate OH market features anchor clients representing 15 to 25% of revenue more often than buyers would prefer. What buyers want is depth of the relationship at each anchor: multi-site servicing, multi-stakeholder relationships, embedded technology integration, and switching cost. Top-client concentration with shallow relationship trades poorly; the same concentration with deep operational integration trades materially better.",
           "Technology stack third. OH-specific case management software, integration with client HRIS systems, secure messaging, and remote / telehealth capability. Tech-enabled OH platforms command premium multiples and attract a wider buyer pool. We help owners present the technology layer honestly: most OH providers have more proprietary capability than they have written down.",
           "Clinician retention fourth. OH physician and OH nurse tenure, dependency on specific clinicians for major contracts, and any post-sale lock-in arrangements. Where one or two physicians anchor major contracts, the diligence focus tightens; pre-process work to broaden coverage materially helps.",
           "Adjacent services fifth. EAP, mental health support, ergonomics, vaccinations and travel health. The breadth and integration of adjacent services tells the buyer about cross-sell potential and embedded position with each client. Integrated wellbeing providers consistently outperform standalone OH providers in valuation.",
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell an occupational health business?",
         cover: ["Cross-link /process"],
         body: [
-          "Our [six-stage process](/process/) runs senior-led from first conversation to completion. For OH businesses, three things shape execution.",
+          "An occupational health business is sold through Mastella's senior-led [six-stage process](/process/), shaped by three things: a buyer pool segmented across PE wellbeing consolidators, insurer-backed health platforms and strategic acquirers in adjacent corporate services, technology positioning in the IM narrative, and off-market sourcing under NDA.",
           "The buyer pool is segmented across PE wellbeing consolidators, insurer-backed health platforms, and strategic acquirers in adjacent corporate services. Each operates to different criteria. Our buyer mapping identifies which subset is deploying capital today, supported by our proprietary technology layer for surfacing acquirer signals.",
           "Technology positioning is a meaningful piece of the IM narrative for OH. We work with owners to articulate proprietary capability, integration depth and the platform story honestly, the right framing moves the business into the wider, more international tech-enabled health buyer pool rather than the narrower traditional OH buyer pool.",
           "Off-market sourcing protects the corporate client base, which is reachable through trade channels and would not benefit from learning about the process via broker listings. We approach a curated buyer list under NDA only. See [the healthcare services pillar](/sectors/healthcare-services/) for context and [specialist clinics](/sectors/healthcare-services/specialist-clinics/) for an adjacent niche.",
@@ -511,7 +511,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which specialist clinics does Mastella Advisory advise?",
         cover: [
           "Specialist clinic groups £5M to £50M EV",
           "Aesthetic, fertility, eye care, dermatology, specialist medical",
@@ -524,7 +524,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in specialist clinics?",
         cover: [
           "Brand and reputation",
           "Clinical governance",
@@ -533,7 +533,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
           "Customer / patient acquisition cost",
         ],
         body: [
-          "Buyer diligence in UK specialist clinic M&A is shaped equally by clinical and commercial factors. Six items dominate.",
+          "Buyers of specialist clinics focus on six things: brand and reputation, clinical governance, site economics, senior clinician retention, patient acquisition economics, and payer mix and reimbursement. Diligence is shaped equally by clinical and commercial factors.",
           "Brand and reputation first. In specialist clinics (particularly aesthetics, fertility and premium private care) brand carries more weight than in almost any other healthcare sub-sector. Strong digital presence, Trustpilot and Google review depth, senior clinician profile, and earned media all materially affect the headline multiple. Buyers value durable brand equity at a meaningful premium to commodity clinical capacity.",
           "Clinical governance second. CQC standing, clinical audit framework, complications and outcomes data, and the depth of the clinical leadership structure. Outstanding CQC standing and a documented governance framework support stronger pricing and faster process. The opposite slows everything down.",
           "Site economics third. Per-site EBITDA, average revenue per case, treatment-mix margin, and capacity utilisation. Multi-site groups where individual site performance varies widely are valued on the weaker sites.",
@@ -543,10 +543,10 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a specialist clinic?",
         cover: ["Cross-link /process"],
         body: [
-          "Our [six-stage process](/process/) runs senior-led from first conversation to completion. For specialist clinic groups, three things shape execution.",
+          "A specialist clinic group is sold through Mastella's senior-led [six-stage process](/process/), shaped by three things: brand and digital diligence alongside clinical and financial diligence, buyer mapping split between UK consolidators and overseas strategics, and senior-led delivery across clinical, commercial, brand and operational conversations.",
           "Brand and digital diligence sit alongside clinical and financial diligence. The buyer pack typically asks for digital marketing performance data, review trajectory, CAC benchmarks and brand sentiment alongside the clinical and financial data. We design the data room to anticipate this from the start, which keeps process momentum and avoids late-stage discovery.",
           "Buyer mapping is segmented by sub-sector and increasingly international. UK consolidators form one pool. Overseas strategics in aesthetics and fertility form another and frequently pay differently. Our buyer mapping covers both, supported by our proprietary technology layer for surfacing acquirer signals from licensed market data.",
           "Senior-led delivery matters because the conversations buyers want to have move between clinical, commercial, brand and operational at speed. Generic process management does not produce the trust required to walk a specialist clinic founder through to completion at premium pricing. See [the healthcare services pillar](/sectors/healthcare-services/) for context and [dental practices](/sectors/healthcare-services/dental-practices/) for an adjacent niche.",

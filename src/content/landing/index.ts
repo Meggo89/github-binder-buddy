@@ -1,6 +1,7 @@
 export type {
   FaqQA,
   ContentTodo,
+  ContentTable,
   SubSectionTodo,
   CaseStudyAnchor,
   SectorPillar,

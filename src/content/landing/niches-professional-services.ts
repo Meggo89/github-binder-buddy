@@ -42,7 +42,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which specialist accounting firms does Mastella Advisory advise?",
         cover: [
           "Partner-led accountancy firms £5M to £50M EV",
           "Specialist tax, audit, advisory, outsourced finance",
@@ -55,7 +55,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in specialist accounting firms?",
         cover: [
           "Recurring fee mix",
           "Partner alignment",
@@ -64,22 +64,22 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
           "Practice management tech",
         ],
         body: [
-          "Buyer diligence in UK accountancy firm M&A focuses on five items. Each is fixable in advance, and each consistently drives the difference between top-of-range and median outcomes.",
+          "Buyers of UK accountancy firms focus on five things: recurring fee mix, partner alignment, client concentration and retention, talent depth and succession, and practice management technology. Each is fixable in advance, and each consistently drives the difference between top-of-range and median outcomes.",
           "Recurring fee mix first. Audit work, retainer advisory, ongoing outsourced finance, and other contracted/recurring fee streams trade at a premium to pure transactional revenue. PE consolidators in particular pay materially differently for a firm at 70% recurring fees versus 30%. Pre-process work to surface and properly classify the recurring component is one of the highest-return preparation activities: most owner-managed firms understate it because the categorisation has never been done sharply.",
           "Partner alignment second. The single most material factor in any partner-led firm transaction. Where equity is distributed across the partner group, alignment on objectives, vesting schedules, post-sale roles, lock-ins and proceeds split needs to be reached before going to market. Buyers diligence partner-level fee origination data carefully. We work with partner groups to document this honestly.",
-          "Client concentration and retention third. Buyers want to see that the top 20 clients are spread across multiple partners, that no client represents more than 10-15% of revenue, and that client tenure is long. They also want a credible retention story, usually a combination of partner lock-ins, restrictive covenants, and continuity of the senior team.",
+          "Client concentration and retention third. Buyers want to see that the top 20 clients are spread across multiple partners, that no client represents more than 10 to 15% of revenue, and that client tenure is long. They also want a credible retention story, usually a combination of partner lock-ins, restrictive covenants, and continuity of the senior team.",
           "Talent depth and succession fourth. PE consolidators specifically pay for talent depth because they need it to execute the buy-and-build thesis. Senior managers, directors, and partner-track talent need to be visible in the diligence pack with tenure, billings, and any retention commitments. A firm with strong succession depth materially outperforms a firm of similar EBITDA without it.",
           "Practice management technology fifth. Time recording, billing, CRM, document management, audit and tax software. The cleanliness and integration of practice systems determines how easy it is for a buyer to integrate the firm post-completion, which affects price. Firms whose financial reporting cannot be reproduced from the underlying systems lose buyer enthusiasm during data-room review.",
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell an accounting firm?",
         cover: [
           "Cross-link /process",
           "Notes on partnership alignment and consultation periods",
         ],
         body: [
-          "Our [six-stage process](/process/) runs senior-led across the full mandate. For accountancy firms, three things shape execution.",
+          "Selling an accounting firm runs through Mastella's senior-led [six-stage process](/process/), with partnership alignment built into the readiness stage, buyer mapping segmented across the PE consolidators active in UK accountancy by sub-specialism and stage in cycle, and senior-led delivery for the partner group.",
           "Partnership alignment is built into the readiness stage, not bolted on later. Where the partner group has not yet aligned on objectives, structure, proceeds split, lock-ins and post-sale roles, the readiness work covers it explicitly. The single fastest way to derail an accountancy firm sale is to arrive at exchange with the partner group still working through these questions in real time.",
           "Buyer mapping is segmented and active. The PE consolidators in UK accountancy operate to different criteria, deploying capital at different rates, with different sub-sector focuses (audit-led, tax-led, advisory-led, outsourced-finance-led). Our buyer mapping identifies the active subset by sub-specialism and stage in cycle, supported by our proprietary technology layer for surfacing acquirer signals from licensed professional services M&A data.",
           "Senior-led delivery matters disproportionately. The conversations buyers want to have are commercial, structural and behavioural at the same time, and partner groups read the seniority of the advisor on the other side. Generic process management does not produce the trust required to walk a partner group through to completion at premium pricing. See [the professional services pillar](/sectors/professional-services/) for context and [legal practices](/sectors/professional-services/legal-practices/) for the closest adjacent niche.",
@@ -128,7 +128,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which law firms does Mastella Advisory advise?",
         cover: ["Partner-led UK law firms £5M to £50M EV"],
         body: [
           "You are a partner or equity-holder in a UK law firm worth between £5M and £50M in enterprise value. A specialist commercial firm. A regional full-service firm with strong corporate, property and private client practices. A specialist litigation, insurance or financial regulation practice. A volume firm in conveyancing, personal injury or family. Most likely an LLP partnership structure with three to twenty equity partners.",
@@ -138,7 +138,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in law firms?",
         cover: [
           "Practice mix",
           "Partner alignment",
@@ -147,7 +147,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
           "Tech stack",
         ],
         body: [
-          "Buyer diligence in UK law firm M&A is segmented heavily by sub-sector. Five items consistently dominate.",
+          "Buyers of UK law firms focus on five things: practice area mix, partner alignment and equity structure, client retention and concentration, lock-in structures and post-sale roles, and practice management technology. Diligence is segmented heavily by sub-sector.",
           "Practice area mix first. Recurring / contracted work (commercial, employment, property, regulatory) trades at premiums to pure transactional revenue. Specialist niches (financial regulation, technology, specialist litigation) command premium multiples because of barriers to entry. We help firms surface and segment practice mix cleanly in the IM: the difference between a 'general commercial firm' framing and a 'specialist regulatory firm with commercial work' framing meaningfully changes which buyers engage and at what level.",
           "Partner alignment and equity structure second. Buyers diligence partner-level fee origination data, equity distribution, vesting schedules, retirement schedules, and historic partner turnover. Multi-partner equity structures need pre-process alignment on objectives, lock-ins, and how proceeds will flow. The single most common reason law firm sales stall is partners arriving at the table without having had the conversation with each other first.",
           "Client retention and concentration third. Buyers want to see low client concentration, long client tenure, and a credible post-sale retention story, usually combining partner lock-ins, restrictive covenants and continuity of senior team.",
@@ -156,13 +156,13 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a law firm?",
         cover: [
           "Cross-link /process",
           "Notes on ABS structure and SRA notifications",
         ],
         body: [
-          "Our [six-stage process](/process/) runs senior-led across the full mandate. For law firms, three things shape execution.",
+          "Selling a law firm runs through Mastella's senior-led [six-stage process](/process/), with SRA-related steps and ABS structuring running alongside commercial diligence, partnership alignment work built into the readiness phase, and buyer mapping segmented by sub-sector and practice area.",
           "SRA-related steps and ABS structuring run alongside commercial diligence. Where the buyer is an ABS structure or the firm needs to convert to ABS, we build that into the process design from the start. SRA notifications and consent steps have their own calendar and need planning rather than reaction.",
           "Partnership alignment work is built into the readiness phase. Where partners have not yet aligned on equity, vesting, lock-ins and proceeds split, this is addressed before any buyer is approached. Buyers can tell when a partner group is not aligned, and it materially affects price and certainty.",
           "Buyer mapping is segmented by sub-sector. Active consolidators in conveyancing are not the same as in PI, commercial, regulatory or specialist litigation. Our buyer mapping segments by your specific practice area, supported by our proprietary technology layer for surfacing acquirer signals. See [the professional services pillar](/sectors/professional-services/) for context and [specialist accounting firms](/sectors/professional-services/specialist-accounting-firms/) for the closest adjacent niche.",
@@ -211,7 +211,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which consulting firms does Mastella Advisory advise?",
         cover: ["Specialist consulting firm owners £5M to £50M EV"],
         body: [
           "You own a UK consulting firm worth between £5M and £50M in enterprise value. A specialist strategy or management consulting practice. A technology consulting firm with deep methodology. A specialist sector consulting business (financial services, healthcare, public sector, energy). A specialist functional consulting firm (digital, transformation, operations, change). Most likely a mix of project revenue and retainer / programmatic revenue with a recognised client book.",
@@ -221,7 +221,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in consulting firms?",
         cover: [
           "Retainer mix",
           "IP and methodology",
@@ -230,7 +230,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
           "Partner alignment",
         ],
         body: [
-          "Buyer diligence in UK consulting M&A focuses on five items.",
+          "Buyers of UK consulting firms focus on five things: retainer versus project revenue mix, IP and methodology, consultant retention and top-biller concentration, client concentration and tenure, and partner alignment.",
           "Retainer vs project revenue mix first. Retainer and programmatic revenue is valued at a meaningful premium to project revenue because of visibility and stickiness. Buyers will diligence the recurring book by client, by length, and by retention. Surfacing this cleanly in the IM is high-return work: most consulting firms understate the recurring portion because the categorisation has never been done sharply.",
           "IP and methodology second. Defensible methodology, proprietary frameworks, registered IP, published thought leadership. These are barriers to entry that support premium pricing. We help owners document IP positions cleanly, especially where IP has been created jointly with clients or by external contractors.",
           "Consultant retention and top-biller concentration third. The headline diligence concern. Buyers look at tenure, billing concentration, restrictive covenants and post-sale lock-in arrangements. Firms where 30%+ of revenue depends on one or two senior consultants who have not been engaged with the transaction story consistently re-trade at completion.",
@@ -239,10 +239,10 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a consulting firm?",
         cover: ["Cross-link /process"],
         body: [
-          "Our [six-stage process](/process/) runs senior-led across the full mandate. For consulting firms, three things shape execution.",
+          "Selling a consulting firm runs through Mastella's senior-led [six-stage process](/process/), with partnership alignment built into the readiness phase, buyer mapping segmented by specialist sub-sector, and consultant engagement structured into the process design from the start.",
           "Partnership alignment is built into the readiness phase. Where multiple partners hold equity, alignment work happens before any buyer is approached.",
           "Buyer mapping is segmented by specialist sub-sector. Strategy consulting consolidators, technology services groups, sector-specialist consulting consolidators, and overseas firms each operate to different criteria. Our buyer mapping segments by your specific specialism, supported by our proprietary technology layer.",
           "Consultant engagement is structured into the process design from the start. Senior consultant talent is meaningfully part of what the buyer is paying for. See [the professional services pillar](/sectors/professional-services/) for context and [specialist accounting firms](/sectors/professional-services/specialist-accounting-firms/) for an adjacent niche.",
@@ -291,7 +291,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which surveying and property advisory firms does Mastella Advisory advise?",
         cover: ["Surveying and property advisory firms £5M to £50M EV"],
         body: [
           "You are a partner or equity-holder in a UK surveying and property advisory firm worth between £5M and £50M in enterprise value. A commercial property advisory firm with valuation, transaction and management capability. A specialist building surveying or project monitoring practice. A planning or development advisory firm. A residential surveying business at scale. Most likely a partnership or LLP structure with two to twelve equity partners and a recognised client book.",
@@ -301,7 +301,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in surveying and property advisory firms?",
         cover: [
           "Practice mix",
           "Recurring revenue",
@@ -310,7 +310,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
           "RICS standing",
         ],
         body: [
-          "Buyer diligence in UK surveying and property advisory M&A focuses on five items.",
+          "Buyers of UK surveying and property advisory firms focus on five things: practice area mix, recurring revenue and panel positions, surveyor and partner retention, client concentration, and RICS standing.",
           "Practice area mix first. Recurring contracted advisory work (estate management, valuation panels, ongoing instructions from institutional clients) trades at a premium to one-off transactional work. Specialist niches (commercial valuation, building surveying, planning) command premium multiples. Surfacing practice mix cleanly is essential.",
           "Recurring revenue and panel positions second. Long-standing institutional panel positions, framework agreements with property funds and lenders, and ongoing management instructions provide revenue visibility that supports premium pricing.",
           "Surveyor and partner retention third. Top-fee-earner retention is the headline diligence concern. Buyers look at tenure, billing concentration, restrictive covenants and post-sale lock-in arrangements.",
@@ -319,10 +319,10 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a surveying firm?",
         cover: ["Cross-link /process"],
         body: [
-          "Our [six-stage process](/process/) runs senior-led across the full mandate. For surveying and property advisory firms, three things shape execution.",
+          "Selling a surveying firm runs through Mastella's senior-led [six-stage process](/process/), with partnership alignment built into the readiness phase, buyer mapping across international property advisory groups, PE consolidators in defined surveying niches and trade buyers in adjacent professional services, and off-market sourcing under NDA to protect the client base and senior team.",
           "Partnership alignment is built into the readiness phase. Where multiple partners hold equity, alignment on objectives, lock-ins and proceeds split happens before buyer engagement.",
           "Buyer mapping is segmented across international property advisory groups, PE consolidators in defined surveying niches, and trade buyers in adjacent professional services. Our buyer mapping covers each, supported by our proprietary technology layer.",
           "Off-market sourcing protects the client base and senior team, both of which are reachable through trade channels. We approach a curated buyer list under NDA only. See [the professional services pillar](/sectors/professional-services/) for context and [legal practices](/sectors/professional-services/legal-practices/) for an adjacent niche.",
@@ -371,7 +371,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which insolvency and restructuring practices does Mastella Advisory advise?",
         cover: ["Insolvency and restructuring practices £5M to £50M EV"],
         body: [
           "You are an owner or equity-holder in a UK insolvency and restructuring practice worth between £5M and £50M in enterprise value. A specialist corporate insolvency firm. A combined restructuring and turnaround advisory practice. A personal insolvency specialist. A practice combining insolvency with broader advisory and forensic accounting capability. Most likely two to twelve insolvency practitioners (IPs) holding licences, supported by a wider professional team.",
@@ -381,7 +381,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in insolvency and restructuring practices?",
         cover: [
           "Referral diversity",
           "IP retention",
@@ -389,7 +389,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
           "Regulatory standing",
         ],
         body: [
-          "Buyer diligence in UK insolvency and restructuring M&A focuses on five items.",
+          "Buyers of UK insolvency and restructuring practices focus on five things: referral source diversity, IP and senior team retention, case pipeline and book quality, regulatory standing, and margin trajectory and cyclical positioning.",
           "Referral source diversity first. Insolvency practices typically depend heavily on referrer relationships: lenders, accountants, lawyers. Concentrated referral books (50%+ from one or two sources) are a flag. Diversified referral books with multiple long-tenured sources support premium pricing.",
           "IP and senior team retention second. Insolvency practitioner licences are personal, and retention of IP holders is the central diligence concern. Buyers look at tenure, case-load allocation, restrictive covenants and post-sale lock-in arrangements.",
           "Case pipeline and book quality third. The active case pipeline, average case size, case-mix profile, and historic case win-rate are the headline metrics. Buyers will diligence the pipeline carefully because of the cyclical nature of the sector.",
@@ -398,10 +398,10 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell an insolvency practice?",
         cover: ["Cross-link /process"],
         body: [
-          "Our [six-stage process](/process/) runs senior-led across the full mandate. For insolvency and restructuring, three things shape execution.",
+          "Selling an insolvency practice runs through Mastella's senior-led [six-stage process](/process/), with referral source documentation and diversification built into the readiness phase, buyer mapping across PE consolidators in insolvency, strategic insolvency groups and accountancy firms expanding into restructuring, and engagement of the licence holders structured in from the start.",
           "Referral source documentation and diversification is built into the readiness phase. Where concentration is high, we work with owners to broaden the book before any process.",
           "Buyer mapping is segmented across PE consolidators in insolvency, strategic insolvency groups, and accountancy firms expanding into restructuring. Our buyer mapping covers each, supported by our proprietary technology layer.",
           "IP and senior team engagement is structured into the process design from the start. The licence holders are meaningfully part of what the buyer is paying for. See [the professional services pillar](/sectors/professional-services/) for context and [specialist accounting firms](/sectors/professional-services/specialist-accounting-firms/) for an adjacent niche.",

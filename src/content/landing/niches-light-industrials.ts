@@ -42,7 +42,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which specialist manufacturing businesses does Mastella Advisory advise?",
         cover: ["UK specialist manufacturers £5M to £50M EV"],
         body: [
           "You own a UK specialist manufacturing business worth between £5M and £50M in enterprise value. A precision engineering manufacturer serving aerospace, defence, medical or automotive. A specialist plastics, electronics or metals manufacturer with defensible technical capability. A bespoke industrial equipment maker. An export-led manufacturer with a recognised UK origin advantage in the customer base.",
@@ -52,7 +52,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in specialist manufacturing businesses?",
         cover: [
           "IP and know-how",
           "Customer depth",
@@ -61,22 +61,22 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
           "Margin trajectory",
         ],
         body: [
-          "Buyer diligence in UK specialist manufacturing M&A is more technical and more international than in most sectors. Five items consistently sit at the top of the buyer pack.",
+          "Buyers of specialist manufacturing businesses focus on five things: IP and know-how, customer depth, capex profile, international revenue and customer mix, and margin trajectory and operating leverage. Diligence is more technical and more international than in most sectors.",
           "IP and know-how first. Registered patents, defensible process IP, accredited methodologies, NADCAP and aerospace approvals, ISO 9001/14001/45001, sector-specific quality certifications. Each is a barrier to entry. We work with owners to document IP holdings cleanly and ensure ownership is unambiguous: historic IP created by contractors or under unclear ownership terms is a routine diligence flag that is much easier to fix before than during a process.",
-          "Customer depth second. Customer concentration is common in specialist manufacturing: single OEM relationships often represent 25-40% of revenue. What buyers want to see is depth: design-in position, length of relationship, switching cost, contracted forward visibility, and second-and-third-order business flowing through the relationship. We work with owners to document this honestly. The same concentration percentage with deep design-in trades materially differently from rolling supply at the same percentage.",
+          "Customer depth second. Customer concentration is common in specialist manufacturing: single OEM relationships often represent 25 to 40% of revenue. What buyers want to see is depth: design-in position, length of relationship, switching cost, contracted forward visibility, and second-and-third-order business flowing through the relationship. We work with owners to document this honestly. The same concentration percentage with deep design-in trades materially differently from rolling supply at the same percentage.",
           "Capex profile third. Buyers value cash earnings net of sustainable replacement capex, not headline EBITDA. A clean three-year capex bridge that distinguishes maintenance from growth capex is the single highest-return piece of pre-process work in this sector. Deferred capex inflates EBITDA but does not survive diligence.",
           "International revenue and customer mix fourth. UK-only manufacturing trades at one range. Material international revenue, typically 25%+ of revenue from export channels, supports a meaningfully wider buyer pool and stronger pricing because it widens the strategic acquirer set and reduces UK macro exposure.",
           "Margin trajectory and operating leverage fifth. Buyers diligence margin trajectory through the cycle, pricing discipline, and the operating leverage potential at higher volumes. Specialist manufacturers with demonstrated pricing power and operating leverage support premium multiples; commodity manufacturers at the same EBITDA trade at the median.",
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a specialist manufacturing business?",
         cover: [
           "Cross-link /process",
           "Notes on operational diligence and capex normalisation",
         ],
         body: [
-          "Our [six-stage process](/process/) runs senior-led across the full mandate. For specialist manufacturing, three things shape execution.",
+          "A specialist manufacturing business is sold through Mastella's senior-led [six-stage process](/process/), shaped by three things: operational diligence that runs on its own calendar, buyer mapping across UK strategics, European groups including German Mittelstand acquirers, and US and Japanese strategics, and senior-led handling of technical, commercial and strategic conversations.",
           "Operational diligence runs heavier than commercial diligence and on its own calendar. Site visits, customer reference calls, technical capability audits, accreditation reviews, capex normalisation. We design the process around this calendar from the start so the data room arrives complete and the diligence pack does not need to be assembled in real time.",
           "Buyer mapping reaches further geographically. UK strategics form one pool; European specialist manufacturing groups (particularly German specialist Mittelstand acquirers) form another and frequently pay differently; US and Japanese strategics form a third. Our buyer mapping covers all three by default, supported by our proprietary technology layer for surfacing acquirer signals from licensed industrial M&A data.",
           "Senior-led delivery matters because the conversations buyers want to have move between technical, commercial and strategic at depth. Generic process management does not produce the trust required to walk a specialist manufacturer through to completion at premium pricing. See [the light industrials pillar](/sectors/light-industrials/) for context and [engineering services](/sectors/light-industrials/engineering-services/) for the closest adjacent niche.",
@@ -125,7 +125,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which plant hire and equipment rental businesses does Mastella Advisory advise?",
         cover: ["Plant hire and equipment rental owners £5M to £50M EV"],
         body: [
           "You own a UK plant hire or equipment rental business worth between £5M and £50M in enterprise value. A general plant hire platform serving construction. A specialist equipment rental business (access, lifting, temporary power, climate, tooling, scaffolding, traffic management). A specialist heavy-equipment rental business serving infrastructure or oil and gas. Most likely combined with a yard footprint, owned or leased, that has value of its own.",
@@ -135,7 +135,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in plant hire and equipment rental businesses?",
         cover: [
           "Fleet age",
           "Utilisation",
@@ -144,22 +144,22 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
           "Property structure",
         ],
         body: [
-          "Buyer diligence in UK plant hire M&A focuses on five items consistently. Each is fixable in advance, and each consistently drives the difference between top-of-range and median outcomes.",
+          "Buyers of plant hire and equipment rental businesses focus on five things: fleet age profile and capex normalisation, utilisation and asset-level metrics, customer concentration, maintenance and depot infrastructure, and property and yard structure. Each is fixable in advance, and each consistently drives the difference between top-of-range and median outcomes.",
           "Fleet age profile and capex normalisation first. Buyers value cash earnings net of sustainable replacement capex. A young, well-maintained fleet supports stronger EBITDA-to-cashflow conversion and a higher multiple. An aged fleet with deferred capex inflates headline EBITDA but does not survive diligence. Building a clean three-year capex bridge that distinguishes maintenance from growth capex is the single highest-return piece of pre-process work in this sector.",
-          "Utilisation and asset-level metrics second. Utilisation rate by asset class, average rental rate per asset per day, time-on-hire profile, and the trajectory of each. Premium pricing requires consistent utilisation above 70-75% on rentable fleet, with rate discipline through the cycle.",
+          "Utilisation and asset-level metrics second. Utilisation rate by asset class, average rental rate per asset per day, time-on-hire profile, and the trajectory of each. Premium pricing requires consistent utilisation above 70 to 75% on rentable fleet, with rate discipline through the cycle.",
           "Customer concentration third. Concentration above 25% from a single customer is a flag for most buyers but rarely a deal-breaker on its own. What matters is contract structure, length of relationship, and the operational integration depth.",
           "Maintenance and depot infrastructure fourth. Buyers value depot quality, workshop capability, and engineering team depth as much as the fleet itself. A well-maintained workshop and engineering function supports higher utilisation and lower per-asset cost, both of which the buyer pays for.",
           "Property and yard structure fifth. Many plant hire businesses sit on owned freehold yards. The property is often valuable on a standalone basis. We help owners decide whether to retain the property (with a lease to the buyer) or sell as a bundle, and structure the process accordingly. OpCo/PropCo structures consistently produce stronger total outcomes for freehold-heavy plant hire businesses.",
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a plant hire business?",
         cover: [
           "Cross-link /process",
           "Notes on asset diligence and OpCo/PropCo structuring",
         ],
         body: [
-          "Our [six-stage process](/process/) runs senior-led across the full mandate. For plant hire businesses, three things shape execution.",
+          "A plant hire business is sold through Mastella's senior-led [six-stage process](/process/), shaped by three things: asset diligence that runs alongside commercial diligence on a separate calendar, buyer mapping across operating buyers, asset-led buyers and property-led buyers, and property structuring built into the process design.",
           "Asset diligence runs alongside commercial diligence on a separate calendar. Fleet condition reports, asset register audits, valuation work on individual asset classes, utilisation analysis. We design the process so all of this is ready when buyers ask for it, which avoids the momentum loss that comes with running each thread in turn.",
           "Buyer mapping is segmented across operating buyers and asset-led buyers. Strategic plant hire groups and PE consolidators look for one thing; infrastructure-style investors looking for predictable yield from long-life fleet look for another. For freehold-heavy businesses, property-led buyers form a third pool. Our buyer mapping covers all three, supported by our proprietary technology layer for surfacing acquirer signals.",
           "Property structuring is built into the process design from the start. Where retaining freehold with a lease-back to the buyer produces a stronger total outcome, we structure accordingly. See [the light industrials pillar](/sectors/light-industrials/) for context and [engineering services](/sectors/light-industrials/engineering-services/) for an adjacent niche.",
@@ -208,7 +208,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which engineering services businesses does Mastella Advisory advise?",
         cover: [
           "Engineering services owners £5M to £50M EV",
           "Mechanical, electrical, controls, process",
@@ -221,7 +221,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in engineering services businesses?",
         cover: [
           "Project vs recurring mix",
           "Engineer retention",
@@ -230,7 +230,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
           "WIP management",
         ],
         body: [
-          "Buyer diligence in UK engineering services M&A focuses on five items. Each is fixable in advance, and each consistently drives the difference between top-of-range and median outcomes.",
+          "Buyers of engineering services businesses focus on five things: project versus recurring revenue mix, engineer retention, accreditations, customer depth, and WIP and working capital. Each is fixable in advance, and each consistently drives the difference between top-of-range and median outcomes.",
           "Project vs recurring revenue mix first. Recurring service and maintenance revenue is valued at a meaningful premium to project revenue because of visibility and margin durability. Buyers will diligence the recurring book by client, contract tail, and renewal rate. Pre-process work to surface and properly classify the recurring component is one of the highest-return preparation activities: most engineering businesses understate it because the categorisation has never been done sharply.",
           "Engineer retention second. Chartered engineers, specialist trades, project managers, and senior commercial leadership. The labour market for skilled engineering talent has tightened materially. Buyers look at tenure, salary benchmarks, restrictive covenants, and post-sale lock-in arrangements. Premium pricing requires a credible retention story.",
           "Accreditations third. NICEIC, Gas Safe, F-Gas, BESA, BSRIA, ISO 9001/14001/45001, CHAS, SafeContractor, sector-specific certifications (specialist healthcare, pharma, MoD). Each is a barrier to entry that supports premium pricing. Clean accreditation history is a meaningful price driver.",
@@ -239,10 +239,10 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell an engineering services business?",
         cover: ["Cross-link /process"],
         body: [
-          "Our [six-stage process](/process/) runs senior-led across the full mandate. For engineering services, three things shape execution.",
+          "An engineering services business is sold through Mastella's senior-led [six-stage process](/process/), shaped by three things: project-level diligence that runs heavier than headline financial diligence, buyer mapping across strategic groups, PE consolidators and FM groups adding technical capability, and engineer engagement built into the process design.",
           "Project-level diligence runs heavier than headline financial diligence. Buyers want margin breakdown by project, WIP analysis, milestone billing position, and historic project profitability data. We design the data room to anticipate this from the start so the diligence pack does not need assembly in real time.",
           "Buyer mapping is segmented across strategic groups and PE consolidators in M&E and building services, plus FM groups adding technical capability. Our buyer mapping covers all three, supported by our proprietary technology layer for surfacing acquirer signals from licensed industrial M&A data.",
           "Engineer engagement is structured into the process design from the start. Senior engineering talent is scarce enough that the deal is meaningfully a transaction about a team. We work with owners on how and when senior engineers are engaged with the transaction. See [the light industrials pillar](/sectors/light-industrials/) for context and [process engineering](/sectors/light-industrials/process-engineering/) for the closest adjacent niche.",
@@ -291,7 +291,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which process engineering businesses does Mastella Advisory advise?",
         cover: ["Process engineering owners £5M to £50M EV"],
         body: [
           "You own a UK process engineering business worth between £5M and £50M in enterprise value. A specialist process design, build and commissioning business serving food and beverage processors. A pharma process engineering specialist. A hydrogen, carbon capture or energy-transition specialist. A semiconductor or specialist materials process engineering firm. Most likely a mix of long-cycle project revenue, ongoing service and maintenance income, and a backlog of contracted work that took years to build.",
@@ -301,7 +301,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in process engineering businesses?",
         cover: [
           "End-market exposure",
           "IP and design ownership",
@@ -309,7 +309,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
           "Contracted backlog",
         ],
         body: [
-          "Buyer diligence in UK process engineering M&A is more technical and more end-market-focused than in general engineering services. Five items dominate.",
+          "Buyers of process engineering businesses focus on five things: end-market exposure, IP and design ownership, contracted backlog and project pipeline, senior engineering retention, and recurring service revenue. Diligence is more technical and more end-market-focused than in general engineering services.",
           "End-market exposure first. Exposure to high-growth end-markets (pharma, food processing, hydrogen and energy transition, semiconductor, specialist materials) supports meaningfully stronger multiples than legacy industrial exposure. We help owners articulate end-market exposure trajectory clearly because it shapes both the buyer pool and the headline range.",
           "IP and design ownership second. Process engineering businesses frequently develop bespoke designs for clients. The contractual position on who owns the IP, whether the same design can be deployed for other clients, and the cleanliness of historic IP creation by employees or contractors all matter. Buyers will diligence each carefully. We address these positions before any process, not during.",
           "Contracted backlog and project pipeline third. Long-cycle project revenue requires careful normalisation. Buyers want to see contracted backlog by client, average project size, historic backlog-to-revenue conversion, and the trajectory of new project wins. A strong backlog with credible conversion history supports premium pricing; declining or thin backlog with reliance on historic revenue trades meaningfully lower.",
@@ -318,10 +318,10 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell a process engineering business?",
         cover: ["Cross-link /process"],
         body: [
-          "Our [six-stage process](/process/) runs senior-led across the full mandate. For process engineering, three things shape execution.",
+          "A process engineering business is sold through Mastella's senior-led [six-stage process](/process/), shaped by three things: deep technical diligence, buyer mapping that is international and segmented by end-market, and senior engineering engagement built into the process design.",
           "Technical diligence runs deep. Buyers will engage with the design philosophy, IP position, commissioning track record, and the team that delivered the work. We design the process around this calendar from the start so the technical conversations are well-structured rather than ad hoc.",
           "Buyer mapping is international and segmented by end-market. Strategic acquirers in food and beverage process engineering are different to those in pharma, hydrogen or semiconductor. Our buyer mapping segments by your specific end-market exposure, supported by our proprietary technology layer for surfacing acquirer signals from licensed industrial and end-market M&A data.",
           "Senior engineering engagement is structured into the process design from the start. The team is meaningfully part of what the buyer is paying for. See [the light industrials pillar](/sectors/light-industrials/) for context and [engineering services](/sectors/light-industrials/engineering-services/) for the closest adjacent niche.",
@@ -370,7 +370,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     ],
     contentTodos: [
       {
-        heading: "Who we work with",
+        heading: "Which industrial coatings and surface treatment businesses does Mastella Advisory advise?",
         cover: ["Industrial coatings and surface treatment owners £5M to £50M EV"],
         body: [
           "You own a UK industrial coatings, surface treatment or specialist finishing business worth between £5M and £50M in enterprise value. A specialist coatings business serving aerospace, defence or rail. A surface treatment platform with sector accreditations. A specialist powder coater or industrial painter. An anodising, electroplating or chemical conversion specialist. Most likely operating from owned freehold land with environmental controls that took years to put in place.",
@@ -380,7 +380,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
         ],
       },
       {
-        heading: "What buyers look for",
+        heading: "What do buyers look for in industrial coatings and surface treatment businesses?",
         cover: [
           "Accreditations",
           "Environmental compliance",
@@ -388,22 +388,22 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
           "Technical capability",
         ],
         body: [
-          "Buyer diligence in UK industrial coatings M&A is technical and environmental-heavy. Five items dominate.",
+          "Buyers of industrial coatings and surface treatment businesses focus on five things: accreditations, environmental compliance, customer concentration and contract structure, technical capability, and property and environmental liability. Diligence is technical and environmental-heavy.",
           "Accreditations first. NADCAP, aerospace and defence approvals, sector-specific quality certifications (rail, automotive, oil and gas), ISO 9001/14001/45001. Each is a barrier to entry. Aerospace-accredited businesses in particular consistently command premium multiples and access a wider, more international buyer pool.",
           "Environmental compliance second. REACH, hazardous waste handling, COMAH where applicable, environmental permits, ground contamination history, water discharge consents. Clean compliance history materially supports both certainty and price. Open environmental issues are routinely fixable but always discount until resolved. We work with owners to surface and address compliance positions before any process.",
-          "Customer concentration and contract structure third. Specialist coatings businesses frequently have anchor customers representing 25-40% of revenue. What matters is the contractual position, length of relationship, switching cost (often substantial because of accreditation lock-in), and the embedded position in the customer's qualified supplier list. We help owners document each.",
+          "Customer concentration and contract structure third. Specialist coatings businesses frequently have anchor customers representing 25 to 40% of revenue. What matters is the contractual position, length of relationship, switching cost (often substantial because of accreditation lock-in), and the embedded position in the customer's qualified supplier list. We help owners document each.",
           "Technical capability fourth. Specialist process know-how, registered IP, in-house technical leadership, and the depth of the senior team. Coatings and treatment is a technical business and buyers will diligence the technical bench accordingly.",
           "Property and environmental liability fifth. Most coatings businesses sit on owned freehold sites with environmental considerations. The property is often valuable separately from the operating business but carries historic environmental exposure that needs to be understood and priced. We help owners structure the property arrangement to maximise outcome and manage the environmental liability separately where that produces a stronger total result.",
         ],
       },
       {
-        heading: "Our process",
+        heading: "How do you sell an industrial coatings business?",
         cover: [
           "Cross-link /process",
           "Notes on environmental diligence and OpCo/PropCo",
         ],
         body: [
-          "Our [six-stage process](/process/) runs senior-led across the full mandate. For industrial coatings, three things shape execution.",
+          "An industrial coatings or surface treatment business is sold through Mastella's senior-led [six-stage process](/process/), shaped by three things: environmental diligence that runs on its own calendar, buyer mapping across UK and European coatings groups, PE consolidators and trade buyers in adjacent technical services, and property strategy built into the process design.",
           "Environmental diligence runs on its own calendar and is heavier than commercial diligence. Phase I and Phase II environmental assessments, regulatory review, historic contamination position. We build the process around this from the start so it does not surprise the timetable late.",
           "Buyer mapping is segmented and international. UK and European specialist coatings groups form one pool; PE consolidators in defined coatings niches form a second; trade buyers in adjacent technical services form a third. Our buyer mapping covers all three, supported by our proprietary technology layer for surfacing acquirer signals.",
           "Property strategy is built into the process design from the start. Where the property and operating business produce a stronger total outcome when sold separately or via an OpCo/PropCo structure, we set that up early. See [the light industrials pillar](/sectors/light-industrials/) for context and [specialist manufacturing](/sectors/light-industrials/specialist-manufacturing/) for an adjacent niche.",

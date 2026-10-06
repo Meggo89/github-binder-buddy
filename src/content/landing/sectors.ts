@@ -44,7 +44,7 @@ export const SECTORS: SectorPillar[] = [
       },
     ],
     whoWeWorkWith: {
-      heading: "Who we work with",
+      heading: "Which business services companies does Mastella Advisory advise?",
       cover: [
         "Founder-managed UK business services firms worth £5M to £50M EV",
         "Owners 12 to 24 months from a potential exit, or already actively considering one",
@@ -59,7 +59,7 @@ export const SECTORS: SectorPillar[] = [
       ],
     },
     whatBuyersLookFor: {
-      heading: "What buyers look for in business services businesses",
+      heading: "What do buyers look for in business services companies?",
       cover: [
         "Recurring revenue and contract maturity",
         "Customer concentration thresholds (no client >10 to 15% of revenue is typical)",
@@ -68,7 +68,7 @@ export const SECTORS: SectorPillar[] = [
         "Clean financial reporting and adjusted EBITDA bridge",
       ],
       body: [
-        "Buyer behaviour in UK business services M&A has tightened materially since 2024. The PE-backed consolidators that dominated the buyer landscape in 2021-2023 are still active, but they have become significantly more disciplined about which businesses will receive premium multiples. Five things now consistently separate the businesses printing at the top of the range from those landing at the median.",
+        "Buyers of UK business services companies focus on five things that separate the businesses printing at the top of the range from those landing at the median: recurring revenue mix, customer concentration, founder dependency, technology stack and data quality, and EBITDA quality. Buyer behaviour in UK business services M&A has tightened materially since 2024. The PE-backed consolidators that dominated the buyer landscape in 2021-2023 are still active, but they have become significantly more disciplined about which businesses will receive premium multiples.",
         "First, recurring revenue mix. Buyers will diligence the proportion of revenue that is contracted forward and the average weighted contract tail across the top 20 clients. Businesses where more than 75% of revenue sits on contracts longer than 12 months typically attract one to two turns above the sector median.",
         "Second, customer concentration. The headline rule of thumb in the lower mid-market is that no single customer should represent more than 10 to 15% of revenue. Above 20% you typically lose buyers entirely from a competitive process. Above 30% you almost certainly print at a discount unless the customer relationship is institutional and the contract tail is multi-year.",
         "Third, founder dependency. The most overlooked diligence area in this sector. Buyers want to see a senior team that can run the business if you stepped back tomorrow. Building out a credible number-two and documenting founder-held client relationships is, in our experience, the single highest-return preparation work most owners do in the 12 months before going to market.",
@@ -77,17 +77,17 @@ export const SECTORS: SectorPillar[] = [
       ],
     },
     ourProcess: {
-      heading: "Our process",
+      heading: "How do you sell a business services company?",
       cover: [
         "Cross-link to /process for the full six-stage flow",
         "Brief 2 to 3 paragraph summary of how it applies to business services",
         "What is different in this sector vs others",
       ],
       body: [
-        "Our [six-stage process](/process/) is built around three things that distinguish it from the traditional advisor model: off-market sourcing, senior-led delivery, and a modern toolset for surfacing buyers other advisors miss.",
+        "Selling a business services company runs through Mastella's senior-led [six-stage process](/process/), with off-market approaches to a curated list of strategic and PE buyers under NDA and a deep pool of PE-backed consolidators to map. The process is built around three things that distinguish it from the traditional advisor model: off-market sourcing, senior-led delivery, and a modern toolset for surfacing buyers other advisors miss.",
         "Off-market means we approach a curated list of strategic and PE buyers directly under NDA. We do not list your business on broker networks or M&A databases. For business services owners, where staff, customers and competitors are typically reachable through the same trade channels, this is the only credible way to run a genuinely confidential process.",
         "Senior-led means Leo personally runs every conversation that matters. Buyer mapping, financial normalisation, data-room build and the readiness diagnostic are supported by a small in-house team and a proprietary technology layer that surfaces buyer signals from public and licensed data sources. The decisions, the calls, the negotiation, and the day-to-day client relationship sit with Leo from first conversation to completion.",
-        "What is specific to business services: the buyer pool is unusually deep and concentrated. There are 15-25 active PE-backed consolidators across business services sub-sectors at any given time, each with distinct strategies on add-on size, geographic preference, and integration intensity. Knowing which subset is currently deploying capital, and on what terms, is the difference between running a generic auction and running a process that produces real competitive tension.",
+        "What is specific to business services: the buyer pool is unusually deep and concentrated. There are 15 to 25 active PE-backed consolidators across business services sub-sectors at any given time, each with distinct strategies on add-on size, geographic preference, and integration intensity. Knowing which subset is currently deploying capital, and on what terms, is the difference between running a generic auction and running a process that produces real competitive tension.",
       ],
     },
   },
@@ -131,7 +131,7 @@ export const SECTORS: SectorPillar[] = [
       },
     ],
     whoWeWorkWith: {
-      heading: "Who we work with",
+      heading: "Which healthcare services businesses does Mastella Advisory advise?",
       cover: [
         "Owners of UK healthcare services businesses worth £5M to £50M EV",
         "Single-site and multi-site groups",
@@ -146,7 +146,7 @@ export const SECTORS: SectorPillar[] = [
       ],
     },
     whatBuyersLookFor: {
-      heading: "What buyers look for in healthcare services businesses",
+      heading: "What do buyers look for in healthcare services businesses?",
       cover: [
         "CQC / regulatory standing and inspection history",
         "Clinician retention and dependency on the founder",
@@ -155,7 +155,7 @@ export const SECTORS: SectorPillar[] = [
         "Recurring capex requirements and lease tail",
       ],
       body: [
-        "Healthcare services buyers run a sharper, more regulated diligence than buyers in almost any other sector we work in. Six items consistently sit at the top of every diligence pack we have read across dental, vet, care, mental health and specialist clinics in the last two years.",
+        "Healthcare services buyers focus on six things: CQC standing, clinician retention, site economics, payer mix, capex profile and property structure. Their diligence is sharper and more regulated than that of buyers in almost any other sector we work in, and the same six items consistently sit at the top of every diligence pack we have read across dental, vet, care, mental health and specialist clinics in the last two years.",
         "CQC standing first. Outstanding or Good ratings materially affect both deal certainty and headline price. Requires Improvement or Inadequate ratings rarely kill deals, but they almost always discount them and frequently lengthen completion by months. If a remediable issue exists, we typically advise dealing with it six to twelve months ahead of any process, not during it.",
         "Clinician retention second. Specialist clinicians, dentists, vets, psychiatrists, clinical psychologists, ophthalmologists, are scarce, and buyers know it. Tenure data, restrictive covenants, average billings per practitioner, and any post-sale lock-in arrangements all sit near the top of the pack. Sales where senior clinicians have not been engaged with the transaction story before going to market consistently re-trade or fall apart at completion.",
         "Site economics third. Per-site EBITDA, occupancy or chair-time utilisation, case-load mix, and payer-mix breakdown by site. Multi-site groups where individual site performance varies widely against the group average are valued on the weaker sites, not the stronger. Cleaning up site-level reporting before going to market is high-return readiness work.",
@@ -164,14 +164,14 @@ export const SECTORS: SectorPillar[] = [
       ],
     },
     ourProcess: {
-      heading: "Our process",
+      heading: "How do you sell a healthcare services business?",
       cover: [
         "Cross-link to /process",
         "Sector-specific notes on regulated diligence timing",
         "How we handle CQC / clinician disclosure points",
       ],
       body: [
-        "Our [six-stage process](/process/) runs senior-led from first conversation to completion. For healthcare services, three things shape how it plays out in practice.",
+        "Selling a healthcare services business runs as Mastella's senior-led [six-stage process](/process/), shaped by three things: regulated diligence that sits on a longer clock, a concentrated pool of PE-backed consolidators, and the timing of clinician engagement.",
         "First, regulated diligence sits on a longer clock than commercial diligence. CQC reports, contractual novation with NHS England or ICBs, and Local Authority notification all run on timelines we do not control. We build that into the process design rather than pretending it does not exist, which avoids the late-stage surprises that derail healthcare deals more often than any other diligence area.",
         "Second, the buyer pool is concentrated. There are typically 8 to 15 active PE-backed consolidators across dental, vet, care, mental health and specialist clinics at any given time, each with distinct strategies on site size, geographic preference, payer mix and integration intensity. The CMA market investigation into the veterinary sector has also reshaped expected timelines for vet deals specifically. Knowing which consolidators are deploying capital today, and on what terms, is the difference between a process that generates real competition and one that ends with a single buyer dictating terms.",
         "Third, clinician engagement matters. We work with owners to structure how and when key clinicians are told about the process. Get this wrong and you risk both the deal and the team. Get it right and you protect both. The detail of that engagement is something we build into the process design from the first conversation, not a problem we react to at completion.",
@@ -218,7 +218,7 @@ export const SECTORS: SectorPillar[] = [
       },
     ],
     whoWeWorkWith: {
-      heading: "Who we work with",
+      heading: "Which light industrial businesses does Mastella Advisory advise?",
       cover: [
         "UK specialist manufacturers worth £5M to £50M EV",
         "Plant hire and equipment rental businesses",
@@ -233,7 +233,7 @@ export const SECTORS: SectorPillar[] = [
       ],
     },
     whatBuyersLookFor: {
-      heading: "What buyers look for in light industrial businesses",
+      heading: "What do buyers look for in light industrial businesses?",
       cover: [
         "Customer concentration and contract maturity",
         "Asset register quality and fleet / equipment age profile",
@@ -242,7 +242,7 @@ export const SECTORS: SectorPillar[] = [
         "Working capital normalisation",
       ],
       body: [
-        "Buyer diligence in UK light industrial M&A focuses on five things consistently across specialist manufacturing, plant hire, engineering and coatings. Each one is fixable in advance, and each one is what gets disputed in late-stage diligence when it is not.",
+        "Buyers of UK light industrial businesses focus on five things: customer concentration, capex and asset intensity, technical capability, international revenue and geographic mix, and working capital. This holds consistently across specialist manufacturing, plant hire, engineering and coatings. Each one is fixable in advance, and each one is what gets disputed in late-stage diligence when it is not.",
         "Customer concentration first. Light industrial businesses often have one or two anchor customers representing 25 to 40% of revenue. That is not, on its own, a deal-breaker. What buyers want to see is depth of the relationship: length of contract or relationship tenure, design-in position with the customer, switching cost, and the second and third order of business that flows through the relationship. We work with owners to document each of these before going to market.",
         "Capex and asset intensity second. Reported EBITDA in this sector is only as good as the maintenance capex story behind it. Buyers value cash earnings net of sustainable replacement capex. A year of deferred capex inflates headline EBITDA but does not survive diligence, and trying to defend it during diligence costs you trust as well as price. Building a clean three-year capex bridge before going to market is one of the highest-return pieces of preparation work in this sector.",
         "Technical capability third. Defensible IP, registered patents, accredited processes, NADCAP or specialist aerospace and defence approvals: anything that makes you difficult to replicate sits at the top of the buyer pack. We help owners document and articulate it properly. Most light industrial businesses we work with have more defensibility than they have written down.",
@@ -251,13 +251,13 @@ export const SECTORS: SectorPillar[] = [
       ],
     },
     ourProcess: {
-      heading: "Our process",
+      heading: "How do you sell a light industrial business?",
       cover: [
         "Cross-link to /process",
         "Sector-specific notes on operational diligence and capex normalisation",
       ],
       body: [
-        "Our [six-stage process](/process/) runs senior-led across the full mandate. Three things shape how it plays out for light industrial businesses specifically.",
+        "Selling a light industrial business runs as Mastella's senior-led [six-stage process](/process/), shaped by three things: operational diligence that runs longer than in any other sector we work in, buyer mapping that reaches UK, European and overseas strategic buyers, and technical conversations that Leo runs personally.",
         "Operational diligence runs longer here than in any other sector we work in. Site visits, customer reference calls, technical capability audits, capex normalisation reviews, and (for international buyers) cross-border tax and regulatory work. We design the process around this from the start, building in time for it rather than pretending it will fit a tighter calendar. Light industrial deals that try to run on a generic M&A timeline routinely lose momentum at exactly the point buyers expect engagement.",
         "Buyer mapping reaches further geographically. The active UK strategic buyer pool for any given light industrial sub-niche is rarely deeper than five to ten names. To run a credible competitive process you have to include European strategics, North American industrial platforms, and increasingly Asian acquirers in the structured buyer list. Our buyer mapping does this from the start, supported by our proprietary technology layer for surfacing acquirer signals from licensed industrial data sources.",
         "Senior-led delivery matters disproportionately in this sector because the conversations buyers want to have are technical and commercial at the same time. Generic process management does not produce the trust required to take a complex industrial business through to completion at premium pricing. Every meaningful conversation in a light industrial mandate runs through Leo. See [our team](/team/) for the model.",
@@ -304,7 +304,7 @@ export const SECTORS: SectorPillar[] = [
       },
     ],
     whoWeWorkWith: {
-      heading: "Who we work with",
+      heading: "Which logistics and distribution businesses does Mastella Advisory advise?",
       cover: [
         "UK logistics and distribution owners worth £5M to £50M EV",
         "Specialist 3PL, cold-chain, freight forwarders, last-mile, warehousing operators",
@@ -319,7 +319,7 @@ export const SECTORS: SectorPillar[] = [
       ],
     },
     whatBuyersLookFor: {
-      heading: "What buyers look for in logistics businesses",
+      heading: "What do buyers look for in logistics and distribution businesses?",
       cover: [
         "Customer concentration and contract tail",
         "Fleet age profile and maintenance capex",
@@ -328,7 +328,7 @@ export const SECTORS: SectorPillar[] = [
         "Regulatory and accreditation status",
       ],
       body: [
-        "Logistics buyers run a sharper EBITDA quality and capex normalisation pass than buyers in many other sectors. Five items consistently sit at the front of the diligence pack.",
+        "Logistics and distribution buyers focus on five things: customer concentration and contract tail, fleet age and capex normalisation, operational metrics by unit, route or contract, technology stack, and accreditations and regulatory standing. They run a sharper EBITDA quality and capex normalisation pass than buyers in many other sectors.",
         "Customer concentration and contract tail. Anchor contracts representing 25 to 35% of revenue are not unusual in 3PL and contract logistics. What buyers want to see is contract tail (months of binding revenue forward), operational integration depth (warehouse layout dedicated to the customer, IT integration, embedded staff), and switching cost. The same percentage of revenue at 36 months of tail with deep operational integration trades materially differently to the same percentage on a rolling 12-month contract.",
         "Fleet age and capex normalisation. Buyers value the cash earnings the fleet generates, not the assets themselves. A young fleet with sustainable replacement capex produces clean cash earnings; an aged fleet with deferred capex inflates headline EBITDA but does not survive diligence. Building a clean three-year capex bridge is, in our experience, the highest-return preparation work in logistics.",
         "Operational metrics by unit, route or contract. Margin per route, margin per shipment, gross profit per pallet, cost per mile, utilisation per asset. The businesses that command premium multiples can produce these metrics with confidence at the contract level, not just at the P&L level. The buyers know which lanes you make money on and which you lose money on long before you tell them.",
@@ -337,13 +337,13 @@ export const SECTORS: SectorPillar[] = [
       ],
     },
     ourProcess: {
-      heading: "Our process",
+      heading: "How do you sell a logistics business?",
       cover: [
         "Cross-link to /process",
         "Sector-specific notes on operational diligence and tax structuring",
       ],
       body: [
-        "Our [six-stage process](/process/) runs senior-led from first conversation to completion. For logistics businesses, three things shape execution.",
+        "Selling a logistics business runs as Mastella's senior-led [six-stage process](/process/), shaped by three things: operational diligence that is heavier than commercial diligence, buyer mapping that is international by default across four buyer pools, and recent completed-transaction experience in cold-chain logistics and container leasing.",
         "Operational diligence is heavier than commercial diligence. Site visits, customer references, capex review, accreditation audits, fleet condition reports. We build the process design around this calendar from the start, which is the only way to avoid the late-stage momentum loss that derails logistics deals more often than any other sector.",
         "Buyer mapping is international by default. UK strategic buyers form one pool; European strategic logistics groups (Dutch, German, French) form a deeper one; PE consolidators in cold-chain, 3PL and warehousing form a third; infrastructure-style investors in long-tenor warehousing and cold-storage assets form a fourth. Our buyer mapping covers all four pools as standard, supported by our proprietary technology layer for surfacing acquirer signals from licensed logistics data sources.",
         "We have recent completed-transaction experience in cold-chain logistics and container leasing. See [our work](/case-studies/). That informs the buyer pool design, the diligence anticipation, and the negotiation work on every subsequent logistics mandate.",
@@ -390,7 +390,7 @@ export const SECTORS: SectorPillar[] = [
       },
     ],
     whoWeWorkWith: {
-      heading: "Who we work with",
+      heading: "Which professional services firms does Mastella Advisory advise?",
       cover: [
         "UK partner-led professional services firms worth £5M to £50M EV",
         "Specialist accountancy, legal, consulting, surveying, insolvency firms",
@@ -404,7 +404,7 @@ export const SECTORS: SectorPillar[] = [
       ],
     },
     whatBuyersLookFor: {
-      heading: "What buyers look for in professional services firms",
+      heading: "What do buyers look for in professional services firms?",
       cover: [
         "Recurring / contracted revenue mix",
         "Partner concentration and equity structure",
@@ -413,22 +413,22 @@ export const SECTORS: SectorPillar[] = [
         "Practice management technology",
       ],
       body: [
-        "Buyer diligence in UK professional services M&A focuses on five things. Each is fixable in advance, and each is where deals stall or re-trade if they are not.",
+        "Buyers of UK professional services firms focus on five things: recurring or contracted revenue mix, partner concentration and equity structure, client concentration and retention, talent pipeline and succession depth, and practice management technology. Each is fixable in advance, and each is where deals stall or re-trade if they are not.",
         "Recurring or contracted revenue mix first. Audit work, retainer-led advisory, ongoing commercial legal work, estate management and other recurring fee streams trade at a premium to pure transactional revenue. PE-backed consolidators in particular pay materially differently for a firm at 70% recurring fees versus 30%. Pre-process work focuses on surfacing the recurring component properly: most owner-managed firms understate it because the categorisation has never been done sharply.",
         "Partner concentration and equity structure second. Where one or two partners hold the majority of equity, the transaction is essentially about those individuals. Where equity is distributed across a wider group, the diligence centres on partnership alignment, vesting schedules, post-sale roles and lock-ins. Buyers pay closer attention to partner-level fee origination data than founders typically expect. We help partner groups document this before going to market, and align on how the proceeds will flow.",
-        "Client concentration and retention third. Buyers want to see that the top 20 clients are spread across multiple partners, that no client represents more than 10-15% of revenue, and that client tenure is long. They also want a credible story about how clients will be retained through the transition, usually a combination of partner lock-ins, restrictive covenants and continuity of the senior team.",
+        "Client concentration and retention third. Buyers want to see that the top 20 clients are spread across multiple partners, that no client represents more than 10 to 15% of revenue, and that client tenure is long. They also want a credible story about how clients will be retained through the transition, usually a combination of partner lock-ins, restrictive covenants and continuity of the senior team.",
         "Talent pipeline and succession depth fourth. PE consolidators specifically pay for talent depth because they need it to execute the buy-and-build thesis. Senior managers, directors, and partner-track talent need to be visible in the diligence pack with tenure, billings, and any retention commitments. A firm with strong succession depth materially outperforms a firm of similar EBITDA without it.",
         "Practice management technology fifth. Time recording, billing, CRM, document management. The cleanliness and integration of the practice's systems determines how easy it is for a buyer to integrate the firm post-completion, which in turn affects price. Firms running on legacy systems that still produce clean data and clean reporting are usually fine. Firms whose financial reporting cannot be reproduced from the underlying systems lose buyer enthusiasm during data-room review.",
       ],
     },
     ourProcess: {
-      heading: "Our process",
+      heading: "How do you sell a professional services firm?",
       cover: [
         "Cross-link to /process",
         "Sector-specific notes on partnership alignment, equity structuring, lock-ins",
       ],
       body: [
-        "Our [six-stage process](/process/) is built around senior-led delivery and off-market sourcing. For professional services firms, three things shape execution.",
+        "Selling a professional services firm runs as Mastella's senior-led, off-market [six-stage process](/process/), shaped by three things: partnership alignment built into the readiness stage, buyer mapping specific to your sub-sector, and senior-led handling of conversations that are commercial, structural and behavioural at the same time.",
         "Partnership alignment is built into the readiness stage, not bolted on later. Where the partner group has not yet aligned on objectives, structure, proceeds split, lock-ins and post-sale roles, the readiness work covers it explicitly. The single fastest way to derail a professional services sale is to arrive at exchange with the partner group still working through these questions in real time.",
         "Buyer mapping is sub-sector specific. PE-backed consolidators in accountancy operate to different criteria than those in legal, surveying or insolvency. Strategic firms expanding by capability or geography look for very different things again. Our buyer mapping identifies the active consolidators in your specific sub-sector, where each is in their cycle, and which fit the partner group's objectives, supported by our proprietary technology layer for surfacing acquirer signals from licensed market data.",
         "Senior-led delivery matters disproportionately in this sector because the conversations buyers want to have are commercial, structural and behavioural at the same time. Generic process management does not produce the trust required to walk a partner group through to completion at premium pricing. Every meaningful conversation runs through Leo. See [our team](/team/) for the model.",
@@ -479,7 +479,7 @@ export const SECTORS: SectorPillar[] = [
       },
     ],
     whoWeWorkWith: {
-      heading: "Who we work with",
+      heading: "Which tech-enabled services businesses does Mastella Advisory advise?",
       cover: [
         "UK tech-enabled services owners £5M to £50M EV",
         "Vertical SaaS, IT MSPs, digital agencies, data, cyber, AI services",
@@ -493,7 +493,7 @@ export const SECTORS: SectorPillar[] = [
       ],
     },
     whatBuyersLookFor: {
-      heading: "What buyers look for in tech-enabled services businesses",
+      heading: "What do buyers look for in tech-enabled services businesses?",
       cover: [
         "ARR / NRR / GRR metrics for SaaS components",
         "Rule of 40 and gross margin profile",
@@ -502,7 +502,7 @@ export const SECTORS: SectorPillar[] = [
         "Security posture and certifications",
       ],
       body: [
-        "Buyer diligence in UK tech-enabled services M&A is sharper, more metric-driven and more technical than in almost any other sector we work in. Five things sit at the top of every diligence pack.",
+        "Buyers of UK tech-enabled services businesses focus on five things: ARR quality and retention metrics, founder dependency, IP ownership and customer contract assignability, security posture and certifications, and AI exposure framing. Their diligence is sharper, more metric-driven and more technical than in almost any other sector we work in.",
         "ARR quality and retention metrics first. For any business with a SaaS or recurring-revenue component, buyers will dig into ARR composition: gross and net revenue retention, churn (logo and revenue), CAC payback, gross margin on the recurring book, and rule of 40. The single most common pre-process discovery is that the business's classification of revenue lines is loose, which means the true recurring picture has never been presented properly. We fix that in the readiness phase, not in the data room.",
         "Founder dependency second. The most common diligence flag in this sector. Buyers want to see a senior team that can run the technology, the commercial relationships and the operational delivery without the founder being the single point of judgement. Building out the senior layer 12 to 18 months pre-process is, in our experience, the highest-return preparation work in this sector. Owners who do this consistently outperform owners who do not.",
         "IP ownership and customer contract assignability third. Where IP has been built by contractors, where customer contracts contain change-of-control clauses, where open-source licence positions are unclear. These are not deal-breakers in advance but they consistently cause late-stage friction. We address each pre-process so the data room presents clean answers, not open questions.",
@@ -511,13 +511,13 @@ export const SECTORS: SectorPillar[] = [
       ],
     },
     ourProcess: {
-      heading: "Our process",
+      heading: "How do you sell a tech-enabled services business?",
       cover: [
         "Cross-link to /process",
         "Sector-specific notes on technical diligence, SaaS classification, founder de-risking",
       ],
       body: [
-        "Our [six-stage process](/process/) runs senior-led across the full mandate. For tech-enabled services, three things shape execution.",
+        "Selling a tech-enabled services business runs as Mastella's senior-led [six-stage process](/process/), shaped by three things: technical diligence that runs on its own calendar, buyer mapping that is international and segmented by archetype, and senior-led handling of conversations that move between technical, commercial and strategic.",
         "Technical diligence is heavier than commercial diligence and runs on its own calendar. Architecture review, codebase audit, security posture review, IP and contractor history, data governance. We design the process around this from the start. Owners who try to run tech-enabled services deals on a generic commercial M&A timeline lose momentum at exactly the point buyers want to engage with the technical team.",
         "Buyer mapping is international and segmented by archetype. Vertical SaaS buyers are not MSP buyers are not digital agency buyers are not cyber buyers. Within each, the active PE consolidator pool and the active strategic acquirer pool differ. Our buyer mapping identifies the active subset by sub-sector and by stage in cycle, supported by our proprietary technology layer for surfacing acquirer signals from licensed software and services M&A data.",
         "Senior-led delivery matters because the conversations buyers want to have move between technical, commercial and strategic at speed. Generic process management does not produce the trust required to walk a tech-enabled services founder through to completion at the top of the multiple range. Every meaningful conversation runs through Leo. See [our team](/team/) for the model.",
