@@ -61,7 +61,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
           "Founder dependency",
         ],
         body: [
-          "Buyer diligence in UK vertical SaaS M&A is sharper, more metric-driven and more technical than in almost any other sector. Six items dominate.",
+          "Buyers of UK vertical SaaS businesses focus on six things: ARR composition and SaaS metrics, founder dependency, codebase and architecture, security posture, IP ownership and customer contract assignability, and acquired versus organic ARR. Diligence is sharper, more metric-driven and more technical than in almost any other sector.",
           "ARR composition and SaaS metrics first. Net revenue retention, gross revenue retention, gross margin on the recurring book, CAC payback, rule of 40, ARR growth rate and ARR cohort durability. Premium pricing requires NRR above 105-110% with low logo churn and consistent cohort retention. Buyers will calculate these from raw billing data. Pre-process work to clean and present the metrics correctly is essential.",
           "Founder dependency second. The most common diligence flag in vertical SaaS. Buyers want to see a senior team that can run the technology, the commercial relationships and the operational delivery independent of the founder. Building out the senior layer 12 to 18 months pre-process is the single highest-return preparation work.",
           "Codebase and architecture third. Technical diligence on architecture, scalability, code quality, technical debt, and the engineering team behind it. Codebases that have grown organically without architectural discipline trade at a discount until rebuilt or refactored.",
@@ -74,7 +74,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         heading: "How do you sell a vertical SaaS business?",
         cover: ["Cross-link /process", "Notes on technical diligence"],
         body: [
-          "Our [six-stage process](/process/) runs senior-led across the full mandate. For vertical SaaS, three things shape execution.",
+          "Selling a vertical SaaS business runs through Mastella's senior-led [six-stage process](/process/), with technical diligence on its own calendar, international buyer mapping segmented by vertical, and founder de-risking built into the readiness phase.",
           "Technical diligence runs on its own calendar and is heavier than commercial diligence. Architecture review, code audit, security posture review, IP and contractor history, data governance, scalability stress-test. We design the data room to anticipate technical diligence from the start.",
           "Buyer mapping is international and segmented by vertical. PE consolidators active in legal SaaS are not the same as those in property SaaS, healthcare SaaS or financial services SaaS. Our buyer mapping segments by your specific vertical, supported by our proprietary technology layer for surfacing acquirer signals from licensed software M&A data.",
           "Founder de-risking is built into the readiness phase. Where founder dependency is high, the preparation work covers building out the senior team and documenting founder-held relationships. See [the tech-enabled services pillar](/sectors/tech-enabled-services/) for context and [IT managed service providers](/sectors/tech-enabled-services/it-managed-service-providers/) for an adjacent niche.",
@@ -145,7 +145,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
           "Engineer retention",
         ],
         body: [
-          "Buyer diligence in UK MSP M&A is metric-led and increasingly sophisticated. Five items dominate.",
+          "Buyers of UK IT managed service providers focus on five things: contracted MRR and revenue composition, gross margin and unit economics, customer churn, customer concentration, and tech stack standardisation. Diligence is metric-led and increasingly sophisticated.",
           "Contracted MRR and revenue composition first. The single most important metric. Premium pricing requires contracted MRR representing more than 70% of revenue with documented forward visibility. Buyers will calculate MRR from raw billing data and segment by contract type.",
           "Gross margin and unit economics second. Gross margin per contract, average revenue per customer, and the trajectory of each. Premium MSPs operate at consistent gross margins above 50% on recurring revenue.",
           "Customer churn third. Logo churn and revenue churn measured both at customer level and contract level. Premium pricing requires consistent annual logo churn below 5% with low revenue churn.",
@@ -157,7 +157,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         heading: "How do you sell an IT managed service provider?",
         cover: ["Cross-link /process"],
         body: [
-          "Our [six-stage process](/process/) runs senior-led across the full mandate. For UK MSPs, three things shape execution.",
+          "Selling an IT managed service provider runs through Mastella's senior-led [six-stage process](/process/), with MRR composition and metrics presentation built into the readiness phase, buyer mapping across PE-backed MSP consolidators, larger UK MSPs executing buy-and-build, strategic technology services groups and overseas MSP consolidators, and engineer retention structured into the process design from the start.",
           "MRR composition and metrics presentation is built into the readiness phase. Buyers will calculate metrics from raw billing data; founders that present clean, defensible metrics in the IM materially outperform.",
           "Buyer mapping covers four distinct pools: PE-backed MSP consolidators, larger UK MSPs executing buy-and-build, strategic technology services groups, and overseas MSP consolidators. Our buyer mapping is supported by our proprietary technology layer for surfacing acquirer signals from licensed software and services M&A data.",
           "Engineer retention is structured into the process design from the start. Senior engineering and account-management talent is meaningfully part of what the buyer is paying for. See [the tech-enabled services pillar](/sectors/tech-enabled-services/) for context and [cybersecurity services](/sectors/tech-enabled-services/cybersecurity-services/) for the closest adjacent niche.",
@@ -225,7 +225,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
           "Margin profile",
         ],
         body: [
-          "Buyer diligence in UK digital agency M&A is metric-led and increasingly sophisticated. Five items dominate.",
+          "Buyers of UK digital agencies focus on five things: retainer versus project revenue mix, client concentration and tenure, specialist capability, senior talent retention, and margin profile and operating leverage.",
           "Retainer vs project revenue mix first. Retainer revenue is valued at a meaningful premium to project revenue because of visibility and stickiness. Buyers will diligence the retainer book by client, by length, and by retention. We help owners surface this cleanly: most agencies understate retainer content because the categorisation has never been done sharply.",
           "Client concentration and tenure second. Concentration above 25% in a single client is a flag. What matters is depth: length of relationship, embedded position, multiple stakeholder touchpoints within the client. Pre-process work to document depth turns concentration into a defended position.",
           "Specialist capability third. Defensible specialist capability (particular vertical depth, specialist technology, proprietary methodology, recognised IP) supports premium pricing. Generalist digital agencies trade at the lower end of the range.",
@@ -237,7 +237,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         heading: "How do you sell a digital agency?",
         cover: ["Cross-link /process"],
         body: [
-          "Our [six-stage process](/process/) runs senior-led across the full mandate. For digital agencies, three things shape execution.",
+          "Selling a digital agency runs through Mastella's senior-led [six-stage process](/process/), with metric-led IM presentation built into the readiness phase, buyer mapping across UK and overseas agency groups, PE consolidators in defined sub-segments and technology services groups, and senior talent engagement structured into the process design from the start.",
           "Metric-led IM presentation is built into the readiness phase. Buyers expect retainer mix, margin discipline, utilisation and unit economics presented cleanly. We help owners present these in a way that matches buyer expectations.",
           "Buyer mapping is segmented across UK and overseas agency groups, PE consolidators in defined sub-segments, and technology services groups for tech-adjacent agencies. Our buyer mapping covers each, supported by our proprietary technology layer for surfacing acquirer signals.",
           "Senior talent engagement is structured into the process design from the start. The team is meaningfully part of what the buyer is paying for. See [the tech-enabled services pillar](/sectors/tech-enabled-services/) for context and [data and analytics services](/sectors/tech-enabled-services/data-and-analytics-services/) for an adjacent niche.",
@@ -333,7 +333,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
           "Methodology / IP",
         ],
         body: [
-          "Buyer diligence in UK data and analytics services M&A is technical and metric-led. Five items dominate.",
+          "Buyers of UK data and analytics services businesses focus on nine things: recurring versus project revenue mix, platform IP and embedded software, senior talent retention, client concentration and tenure, methodology and registered IP, cloud partner tier and hyperscaler accreditation, delivery model mix, vertical specialism depth, and modern data stack toolchain. Diligence is technical and metric-led.",
           "Recurring vs project revenue mix first. Retainer and managed-service revenue trades at a premium to project revenue. Buyers diligence the recurring book by client, by length, and by retention. Surfacing this cleanly is high-return work.",
           "Platform IP and embedded software second. Businesses with embedded software, proprietary analytics platforms, or licensed data products are valued on a blend (services + ARR) and attract a wider buyer pool. The premium for embedded platform IP can be material.",
           "Senior talent retention third. Specialist data engineering, data science and analytics talent is scarce. Buyers diligence tenure, billing concentration, restrictive covenants and post-sale lock-in arrangements.",
@@ -351,7 +351,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
           "Named active acquirers, multiples, sub-sector shifts in UK data & analytics M&A",
         ],
         body: [
-          "UK data and analytics services M&A has remained among the most active sub-sectors of tech-enabled services through 2024 to 2026. Below is a snapshot of what is currently visible in the market.",
+          "Buyers of UK data and analytics services businesses are strategic consulting and technology groups such as Deloitte, PwC, KPMG, EY, Accenture, Capgemini and IBM Consulting, PE-backed technology services platforms, and overseas data platforms. M&A in the sub-sector has remained among the most active in tech-enabled services through 2024 to 2026.",
           "**Active strategic acquirers.** Deloitte, PwC, KPMG, EY, Accenture, Capgemini, IBM Consulting, Cognizant, Infosys, TCS and Wipro all remain active for UK specialist analytics acquisitions. The Big Four in particular have made multiple acquisitions in the data engineering, applied AI and cloud analytics space over the last 24 months, driven by demand-pull from their enterprise clients' data transformation programmes.",
           "**Active PE-backed technology services platforms.** Node4, Version 1, ANS Group, Solutions Plus, various HgCapital, Inflexion, Livingbridge, Bridgepoint, LDC and Endless portfolio positions in UK tech services all execute add-on acquisitions in data and analytics niches. Some platforms focus on specific verticals (public sector, financial services), others on toolchain specialisms (Snowflake, Databricks partners), others on capability breadth.",
           "**Overseas strategic interest.** US, Nordic and Continental European data platforms have been consistent acquirers of UK specialists: Slalom, ThoughtWorks, EPAM, Publicis Sapient, Tietoevry, Netcompany and others have historically acquired for UK footprint. The trend has continued through 2026 as UK data engineering talent depth remains a scarcity buyers pay a premium for.",
@@ -364,7 +364,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         heading: "How do you sell a data and analytics business?",
         cover: ["Cross-link /process"],
         body: [
-          "Our [six-stage process](/process/) runs senior-led across the full mandate. For data and analytics services, three things shape execution.",
+          "Selling a data and analytics services business runs through Mastella's senior-led [six-stage process](/process/), with technical diligence that runs deeper than for general consulting, buyer mapping across strategic consulting groups, technology services groups, PE consolidators in data and analytics niches and larger overseas data platforms, and senior team engagement structured into the process design from the start.",
           "Technical diligence runs deeper than for general consulting. Architecture review, IP and methodology audit, codebase review where embedded software exists, security posture review. We design the process around this calendar from the start.",
           "Buyer mapping covers four distinct pools: strategic consulting groups, technology services groups, PE consolidators in data/analytics niches, and larger overseas data platforms. For businesses with embedded software, an additional software acquirer pool opens up. Our buyer mapping covers each, supported by our proprietary technology layer.",
           "Senior team engagement is structured into the process design from the start. Specialist talent is meaningfully part of what the buyer is paying for. See [the tech-enabled services pillar](/sectors/tech-enabled-services/) for context and [AI and ML services](/sectors/tech-enabled-services/ai-and-ml-services/) for an adjacent niche.",
@@ -432,7 +432,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
           "Tech stack",
         ],
         body: [
-          "Buyer diligence in UK cybersecurity services M&A is metric-led, accreditation-heavy and increasingly technical. Five items dominate.",
+          "Buyers of UK cybersecurity services businesses focus on five things: contracted MRR and revenue composition, accreditations and government frameworks, talent depth and retention, client concentration and tenure, and tech stack and methodology. Diligence is metric-led, accreditation-heavy and increasingly technical.",
           "Contracted MRR and revenue composition first. Managed services (MSSP, managed SOC, managed GRC) revenue trades at a meaningful premium to project revenue. Premium pricing requires contracted MRR representing 60%+ of revenue with documented forward visibility.",
           "Accreditations and government frameworks second. NCSC CCP, NCSC Cyber Incident Response, CREST, ISO 27001, Cyber Essentials Plus assessor status, government framework positions (Crown Commercial Service, MoD frameworks). Each is a barrier to entry that supports premium pricing.",
           "Talent depth and retention third. Specialist cyber talent (senior consultants, penetration testers, SOC analysts, GRC specialists) is exceptionally scarce. Buyers look at tenure, certifications held, salary benchmarks, restrictive covenants, and post-sale lock-in arrangements.",
@@ -444,7 +444,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         heading: "How do you sell a cybersecurity services business?",
         cover: ["Cross-link /process"],
         body: [
-          "Our [six-stage process](/process/) runs senior-led across the full mandate. For cybersecurity services, three things shape execution.",
+          "Selling a cybersecurity services business runs through Mastella's senior-led [six-stage process](/process/), with accreditation and contractual diligence on heavier calendars than commercial diligence, buyer mapping across PE consolidators in cyber, larger MSSPs, strategic technology services groups and overseas cyber strategics, and senior team engagement structured into the process design from the start.",
           "Accreditation and contractual diligence sits on heavier calendars than commercial diligence. Government framework status, NCSC and CREST audit history, cyber-specific accreditation review. We design the process around this from the start.",
           "Buyer mapping covers four pools: PE consolidators in cyber, larger MSSPs, strategic technology services groups, and overseas cyber strategics. Our buyer mapping covers each, supported by our proprietary technology layer for surfacing acquirer signals from licensed cyber M&A data.",
           "Senior team engagement is structured into the process design from the start. Specialist cyber talent is meaningfully part of what the buyer is paying for. See [the tech-enabled services pillar](/sectors/tech-enabled-services/) for context and [IT managed service providers](/sectors/tech-enabled-services/it-managed-service-providers/) for the closest adjacent niche.",
@@ -540,7 +540,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
           "Recurring vs project mix",
         ],
         body: [
-          "Buyer diligence in UK AI / ML services M&A is technical, strategic and reputation-sensitive. Five items dominate.",
+          "Buyers of UK AI and ML services businesses focus on nine things: AI-native positioning, platform IP and proprietary models, specialist talent, client concentration and tenure, recurring versus project revenue, case study depth and named references, proprietary training data and data assets, model architecture and technical defensibility, and security, ethics and governance posture. Diligence is technical, strategic and reputation-sensitive.",
           "AI-native positioning first. Buyers pay a premium for genuine AI-native capability (proprietary models, defensible methodology, applied IP, demonstrable client outcomes) and have become increasingly cautious about businesses materially exposed to disintermediation by general-purpose AI tools. Honest framing is essential. We help founders articulate AI position honestly: where it is defensible capability, where it is part of the delivery model, and where the strategic answer to general-purpose AI exposure is.",
           "Platform IP and proprietary models second. Defensible platform IP, registered patents on applied techniques, proprietary trained models, and documented methodology support meaningfully stronger multiples. We help owners document IP holdings cleanly and ensure ownership is unambiguous.",
           "Specialist talent third. AI / ML specialist talent is exceptionally scarce. Senior ML engineers, applied data scientists, and AI product leaders are diligenced individually. Buyers look at tenure, certifications, publications, restrictive covenants and post-sale lock-in arrangements.",
@@ -556,7 +556,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         heading: "What is the M&A market like for AI and machine learning services businesses?",
         cover: ["Named active acquirers, multiples, AI M&A trends in the UK"],
         body: [
-          "UK AI and ML services M&A has been one of the fastest-changing sub-sectors of tech-enabled services through 2024 to 2026, as the strategic and PE buyer landscape has adjusted to genuine AI-native capability vs generalist AI positioning. Below is a snapshot of the current market.",
+          "Buyers of UK AI and ML services businesses are strategic consulting groups such as Deloitte, PwC, KPMG, EY, Accenture and Capgemini, overseas strategics, and PE-backed platforms. The sub-sector has been one of the fastest-changing in tech-enabled services through 2024 to 2026, as buyers distinguish genuine AI-native capability from generalist AI positioning.",
           "**Active strategic acquirers.** Deloitte, PwC, KPMG, EY, Accenture, Capgemini, IBM Consulting, Cognizant, Infosys and TCS all remain active for UK applied AI acquisitions: each has made multiple recent hires and acquisitions to build applied AI delivery capability at scale. Larger cloud services groups (Rackspace, Softcat, Computacenter) have started making AI-adjacent acquisitions.",
           "**Overseas strategic acquirers.** US and Continental European strategics have been consistently active. Snowflake, Databricks, ServiceNow, Salesforce, SAP and specialist AI platforms have historically acquired UK applied AI capability. Tietoevry, Netcompany, EPAM and Publicis Sapient acquire for UK footprint. Japanese and Middle Eastern strategics have also emerged as buyers for specific vertical AI capabilities.",
           "**Active PE-backed platforms.** HgCapital, Inflexion, Bridgepoint, LDC, Livingbridge and Endless portfolios in UK tech services all execute add-on acquisitions in applied AI niches. Some platforms focus on specific verticals (financial services AI, healthcare AI, public sector AI), others on capability breadth. A small number of dedicated AI-focused PE consolidators have emerged in 2024 to 2026.",
@@ -569,7 +569,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         heading: "How do you sell an AI services business?",
         cover: ["Cross-link /process"],
         body: [
-          "Our [six-stage process](/process/) runs senior-led across the full mandate. For AI / ML services, three things shape execution.",
+          "Selling an AI services business runs through Mastella's senior-led [six-stage process](/process/), with technical diligence on its own calendar, international buyer mapping across strategic consulting groups, technology platforms, PE consolidators in applied AI and overseas strategics, and AI positioning framed honestly in the IM narrative.",
           "Technical diligence runs deep and on its own calendar. Model architecture review, training data review, IP and contractor history, codebase audit, security posture review. We design the process around this calendar from the start.",
           "Buyer mapping is international and moves fast. Strategic consulting groups, technology platforms, PE consolidators in applied AI, and overseas strategics each operate to different criteria. The landscape changes faster than in any other tech-enabled services sub-sector. Our buyer mapping is supported by our proprietary technology layer for surfacing acquirer signals.",
           "AI positioning is built into the IM narrative carefully. Over-claiming damages credibility; under-claiming leaves value on the table. We work with founders to frame AI position honestly. See [the tech-enabled services pillar](/sectors/tech-enabled-services/) for context and [data and analytics services](/sectors/tech-enabled-services/data-and-analytics-services/) for the closest adjacent niche.",
