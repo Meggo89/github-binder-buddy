@@ -142,11 +142,11 @@ const article: Article = {
   faqs: [
     {
       q: 'What is a search fund in simple terms?',
-      a: 'A search fund is a structure that lets an individual raise a small amount of capital to spend 18–24 months searching for a single business to acquire, then raise a larger amount of capital to complete the acquisition and become the CEO. The model was created at Stanford Graduate School of Business in 1984 and has since financed several hundred acquisitions globally, including a growing number in the UK.',
+      a: 'A search fund is a structure that lets an individual raise a small amount of capital to spend 18 to 24 months searching for a single business to acquire, then raise a larger amount of capital to complete the acquisition and become the CEO. The model was created at Stanford Graduate School of Business in 1984 and has since financed several hundred acquisitions globally, including a growing number in the UK.',
     },
     {
       q: 'Are search funds the same as private equity?',
-      a: 'No. Private equity funds hold portfolios of companies with rotating management teams and typically hold 4–7 years before exit. Search funds acquire a single business, install the searcher as CEO for the long term (often 7–10+ years), and are organised around one individual operator rather than a portfolio manager. Deal structures, economics and buyer behaviour differ meaningfully.',
+      a: 'No. Private equity funds hold portfolios of companies with rotating management teams and typically hold 4 to 7 years before exit. Search funds acquire a single business, install the searcher as CEO for the long term (often 7 to 10+ years), and are organised around one individual operator rather than a portfolio manager. Deal structures, economics and buyer behaviour differ meaningfully.',
     },
     {
       q: 'Which search funds are active in the UK in 2026?',
@@ -154,7 +154,7 @@ const article: Article = {
     },
     {
       q: 'What multiple should I expect from a search fund?',
-      a: 'Search funds typically pay slightly below trade acquirer multiples but often above pure PE multiples for the same asset, in the 5–8x adjusted EBITDA range for lower mid-market UK deals, with premium ranges for defensible businesses. The specific multiple depends heavily on your sector, growth profile, customer concentration and management depth. Running a competitive process typically produces a materially better outcome than bilateral negotiation.',
+      a: 'Search funds typically pay slightly below trade acquirer multiples but often above pure PE multiples for the same asset, in the 5 to 8x adjusted EBITDA range for lower mid-market UK deals, with premium ranges for defensible businesses. The specific multiple depends heavily on your sector, growth profile, customer concentration and management depth. Running a competitive process typically produces a materially better outcome than bilateral negotiation.',
     },
     {
       q: 'How do I know if a search fund approach is legitimate?',
@@ -166,7 +166,7 @@ const article: Article = {
     },
     {
       q: 'How much equity does the searcher (CEO) get?',
-      a: 'The industry-standard structure is 25% common equity vested in three roughly equal tranches: 8.33% on completion of the acquisition, 8.33% over 4–5 years of service, and 8.33% only if the deal returns above a defined IRR hurdle (typically 20–25% net IRR to LPs) on eventual exit. LPs and any sponsor hold the remaining 70–80% of common equity, with preferred equity and senior debt sitting above.',
+      a: 'The industry-standard structure is 25% common equity vested in three roughly equal tranches: 8.33% on completion of the acquisition, 8.33% over 4 to 5 years of service, and 8.33% only if the deal returns above a defined IRR hurdle (typically 20 to 25% net IRR to LPs) on eventual exit. LPs and any sponsor hold the remaining 70 to 80% of common equity, with preferred equity and senior debt sitting above.',
     },
     {
       q: 'Should I sell to a search fund or run a full process?',
@@ -178,7 +178,7 @@ const article: Article = {
     },
     {
       q: 'What happens to me post-sale if I sell to a search fund?',
-      a: 'Search fund transactions typically involve a defined transition period (often 3–12 months) where the seller supports the incoming CEO on customer introductions, supplier relationships and operational handover. Some sellers roll over meaningful equity and continue in a chair or advisory role for 2–3 years. Others transition out cleanly at the end of the handover. The specifics are negotiated at the deal.',
+      a: 'Search fund transactions typically involve a defined transition period (often 3 to 12 months) where the seller supports the incoming CEO on customer introductions, supplier relationships and operational handover. Some sellers roll over meaningful equity and continue in a chair or advisory role for 2 to 3 years. Others transition out cleanly at the end of the handover. The specifics are negotiated at the deal.',
     },
     {
       q: 'Do all UK search fund CEOs have prior operating experience?',

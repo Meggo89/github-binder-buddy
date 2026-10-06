@@ -23,7 +23,7 @@ const services: Service[] = [
   {
     icon: <Handshake className="h-6 w-6 text-accent" />,
     title: 'Sell-side Advisory',
-    lead: 'Full-service exit advisory for founders taking a business to market - minority sale, majority sale, or full exit.',
+    lead: 'Full-service exit advisory for founders taking a business to market: minority sale, majority sale, or full exit.',
     aiLayer:
       'Readiness assessment, financial normalisation, IM drafting, systematic buyer identification, data-room orchestration, term-sheet benchmarking.',
     humanLayer:
@@ -43,7 +43,7 @@ const services: Service[] = [
   {
     icon: <ClipboardCheck className="h-6 w-6 text-accent" />,
     title: 'Exit Readiness Consulting',
-    lead: 'For founders 12–24 months out from a potential sale. Diagnose the gaps early, fix them while time is on your side.',
+    lead: 'For founders 12 to 24 months out from a potential sale. Diagnose the gaps early, fix them while time is on your side.',
     aiLayer:
       'Automated readiness assessment across financials, contracts, operations, team, and IP. Benchmarking against successful exits in your sector.',
     humanLayer:
@@ -57,7 +57,7 @@ const services: Service[] = [
   {
     icon: <UserSearch className="h-6 w-6 text-accent" />,
     title: 'Executive Search',
-    lead: 'Leadership placement for the pre-exit period - CFO, COO, CRO - and interim management for transitions.',
+    lead: 'Leadership placement for the pre-exit period (CFO, COO, CRO) and interim management for transitions.',
     aiLayer:
       'Market mapping of candidate universe. Analysis of track records against specific pre-exit requirements. Structured evaluation.',
     humanLayer:
@@ -108,8 +108,8 @@ export default function Services() {
   return (
     <PageLayout hero={<Hero />} heroTone="ink" mainClassName="">
       <SEO
-        title="M&A Services for Founder-Led Businesses - Sell-side, Fundraising, Exit Readiness"
-        description="M&A services for founder-led businesses across the UK and internationally: sell-side, fundraising, exit readiness and executive search. Confidential, senior-led, focused on businesses worth £5–50M."
+        title="M&A Services for Founder-Led Businesses: Sell-side, Fundraising, Exit Readiness"
+        description="M&A services for founder-led businesses across the UK and internationally: sell-side, fundraising, exit readiness and executive search. Confidential, senior-led, focused on businesses worth £5M to £50M."
         canonical="https://mastellagroup.com/services/"
       />
       <StructuredData data={[...serviceSchemas, breadcrumb]} />
@@ -223,7 +223,7 @@ export default function Services() {
                 Sector-specific pages
               </h2>
               <p className="text-body-lg text-navy-light mb-12 max-w-3xl leading-relaxed">
-                Six sector pillars covering 34 niche pages — from cold-chain logistics and dental practices through to
+                Six sector pillars covering 34 niche pages, from cold-chain logistics and dental practices through to
                 vertical SaaS and cybersecurity services.
               </p>
             </FadeIn>

@@ -20,25 +20,25 @@ function Hero() {
 }
 
 const CHECKLIST_PREVIEW = [
-  'Financial readiness — can you defend your EBITDA bridge line by line?',
-  'Operational readiness — could your business run without you for six months?',
-  'Owner dependency — which top-20 customer relationships are held personally?',
-  'Contract quality — how many change-of-control clauses are hiding in your book?',
-  'Working capital — what does a normalised trailing-12-month position look like?',
-  'IP protection — is every material IP asset assigned cleanly to the company?',
-  'Key-person risk — what happens to EBITDA if three senior team members leave?',
-  'Buyer profile — who are the three most likely buyers and why?',
-  'Timing — is the next 24 months the right window, or the wrong one?',
-  'Deal structure — how much deferred consideration are you willing to accept?',
-  'Tax — have you spoken to a transaction-tax specialist yet?',
-  'Life after exit — what does your first 12 months post-completion look like?',
+  'Financial readiness: can you defend your EBITDA bridge line by line?',
+  'Operational readiness: could your business run without you for six months?',
+  'Owner dependency: which top-20 customer relationships are held personally?',
+  'Contract quality: how many change-of-control clauses are hiding in your book?',
+  'Working capital: what does a normalised trailing-12-month position look like?',
+  'IP protection: is every material IP asset assigned cleanly to the company?',
+  'Key-person risk: what happens to EBITDA if three senior team members leave?',
+  'Buyer profile: who are the three most likely buyers and why?',
+  'Timing: is the next 24 months the right window, or the wrong one?',
+  'Deal structure: how much deferred consideration are you willing to accept?',
+  'Tax: have you spoken to a transaction-tax specialist yet?',
+  'Life after exit: what does your first 12 months post-completion look like?',
 ];
 
 export default function LeadMagnet() {
   return (
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="Exit Readiness Checklist - Free Download | Mastella Advisory"
+        title="Exit Readiness Checklist: Free Download | Mastella Advisory"
         description="Twelve questions every UK founder should answer before starting an M&A process. Free download, no follow-up unless you ask."
         canonical="https://mastellagroup.com/lead-magnet/"
       />

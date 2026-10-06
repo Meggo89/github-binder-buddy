@@ -7,19 +7,19 @@ import { FadeIn, Stagger, StaggerItem } from '../components/ui/motion';
 const principles = [
   {
     title: 'Two lanes, always visible',
-    body: 'AI on one side, senior advisors on the other. Every engagement is explicit about which lane a piece of work is in. Founders always know who - or what - is doing what.',
+    body: 'AI on one side, senior advisors on the other. Every engagement is explicit about which lane a piece of work is in. Founders always know who (or what) is doing what.',
   },
   {
     title: 'Judgment is not automatable',
-    body: 'Positioning a business for a buyer, leading a negotiation, telling a founder a term is worse than it looks - these still require people with experience. We do not pretend otherwise.',
+    body: 'Positioning a business for a buyer, leading a negotiation, telling a founder a term is worse than it looks. These still require people with experience. We do not pretend otherwise.',
   },
   {
     title: 'Fees reflect the work',
     body: 'When the machinable parts of a process actually get machined, the hours add up differently. Our fee structures reflect that. We publish them, we do not hide behind them.',
   },
   {
-    title: '£5M–£50M, not everything',
-    body: "We work with founder-led businesses worth £5M–£50M — mostly UK, with cross-border work where a founder's buyer universe is international. Outside that range other advisors are better placed. Saying what we are not is part of saying what we are.",
+    title: '£5M to £50M, not everything',
+    body: "We work with founder-led businesses worth £5M to £50M, mostly UK, with cross-border work where a founder's buyer universe is international. Outside that range other advisors are better placed. Saying what we are not is part of saying what we are.",
   },
 ];
 
@@ -31,7 +31,7 @@ function Hero() {
         We find buyers other advisors don&apos;t reach.
       </h1>
       <p className="text-body-lg text-sand-light max-w-2xl leading-relaxed">
-        Mastella is an M&amp;A advisory firm for founder-led businesses worth £5M–£50M. UK-focused with
+        Mastella is an M&amp;A advisory firm for founder-led businesses worth £5M to £50M. UK-focused with
         cross-border capability. Off-market buyer sourcing, confidential processes, senior-led throughout.
       </p>
     </div>
@@ -42,8 +42,8 @@ export default function About() {
   return (
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="About Mastella Advisory | M&A for Founder-Led Businesses £5–50M"
-        description="Off-market M&A advisory for founder-led businesses worth £5–50M across the UK and internationally. Confidential sell-side, fundraising and exit readiness, led by senior advisors."
+        title="About Mastella Advisory | M&A for Founder-Led Businesses £5M to £50M"
+        description="Off-market M&A advisory for founder-led businesses worth £5M to £50M across the UK and internationally. Confidential sell-side, fundraising and exit readiness, led by senior advisors."
         canonical="https://mastellagroup.com/about/"
       />
 
@@ -62,13 +62,13 @@ export default function About() {
             <div className="md:col-span-8 space-y-6 text-body-lg text-navy-light leading-relaxed">
               <FadeIn>
                 <p>
-                  Adjacent professional services - consulting, audit, legal research - have quietly absorbed a generation
+                  Adjacent professional services (consulting, audit, legal research) have quietly absorbed a generation
                   of AI tooling. M&amp;A advisory, especially in the lower mid-market, has not.
                 </p>
               </FadeIn>
               <FadeIn delay={0.1}>
                 <p>
-                  Traditional advisors' high monthly retainer fees on a £5M–£50M deal reflect the manual nature of how
+                  Traditional advisors' high monthly retainer fees on a £5M to £50M deal reflect the manual nature of how
                   that work has always been done, and how most M&amp;A firms still do it: financial normalisation by
                   hand, information memoranda written over six to eight weeks, buyer outreach run from a rolodex,
                   diligence coordinated in email. Mastella's low monthly retainer reflects a different delivery model.
@@ -78,15 +78,15 @@ export default function About() {
                 <p>
                   Those activities are now, to a significant extent, machinable. Models can normalise financials,
                   analyse thousands of comparable transactions, draft an IM, map a buyer universe, orchestrate a data
-                  room, and benchmark term sheets against market norms - faster than a team of analysts and often more
+                  room, and benchmark term sheets against market norms, faster than a team of analysts and often more
                   thoroughly.
                 </p>
               </FadeIn>
               <FadeIn delay={0.3}>
                 <p className="text-navy font-medium">
                   Mastella is what an advisory firm looks like when you start from that premise rather than bolt it on
-                  afterwards: senior advisors paired with agents we have built ourselves - purpose-built for lower
-                  mid-market M&amp;A, not a chat wrapper over someone else&apos;s model - and fees that reflect the
+                  afterwards: senior advisors paired with agents we have built ourselves, purpose-built for lower
+                  mid-market M&amp;A, not a chat wrapper over someone else&apos;s model, and fees that reflect the
                   actual cost of delivery.
                 </p>
               </FadeIn>
@@ -176,8 +176,8 @@ export default function About() {
             <div className="md:col-span-7 space-y-6 text-body-lg text-sand-light leading-relaxed">
               <FadeIn delay={0.1}>
                 <p>
-                  Founder-led businesses worth £5M–£50M. Family-owned, founder-managed, or PE-backed. Planning an exit
-                  in the next 6–24 months, running a current capital raise, or simply wanting to know what their
+                  Founder-led businesses worth £5M to £50M. Family-owned, founder-managed, or PE-backed. Planning an exit
+                  in the next 6 to 24 months, running a current capital raise, or simply wanting to know what their
                   business is actually worth and what the path would look like.
                 </p>
               </FadeIn>

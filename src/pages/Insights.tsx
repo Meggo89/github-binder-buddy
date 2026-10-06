@@ -25,7 +25,7 @@ export default function Insights() {
   return (
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="Insights - M&A Perspectives for Founder-Led Businesses"
+        title="Insights: M&A Perspectives for Founder-Led Businesses"
         description="Long-form analysis on exits, fundraising and valuation for founder-led businesses. Written by the Mastella team for founders, not other advisors."
         canonical="https://mastellagroup.com/insights/"
       />

@@ -20,12 +20,12 @@ const LEAD_ADVISOR = {
   linkedin: 'https://www.linkedin.com/in/leomeggitt/',
   email: 'leo@mastellagroup.com',
   lead:
-    'I built Mastella to do M&A advisory the way owners actually need it done - senior-led from first call to completion, off-market wherever possible, with proprietary technology doing the work that used to take weeks of analyst time.',
+    'I built Mastella to do M&A advisory the way owners actually need it done, senior-led from first call to completion, off-market wherever possible, with proprietary technology doing the work that used to take weeks of analyst time.',
 };
 
 const STATS = [
   { value: '15', label: 'Years in M&A' },
-  { value: '£500M+', label: 'Transaction value advised' },
+  { value: '£500m+', label: 'Transaction value advised on' },
   { value: '10', label: 'Sectors' },
 ];
 
@@ -51,7 +51,7 @@ const BIO_SECTIONS = [
   {
     eyebrow: 'Why Mastella',
     body:
-      'After two decades in lower mid-market M&A I kept seeing the same pattern: senior advisors win the mandate, juniors deliver the work, the senior advisor reappears at closing. Owner-managed businesses deserve better. A modern delivery model - proprietary technology handling the structured work, Leo still leading every conversation - finally makes that possible without compromising rigour or coverage.',
+      'After two decades in lower mid-market M&A I kept seeing the same pattern: senior advisors win the mandate, juniors deliver the work, the senior advisor reappears at closing. Owner-managed businesses deserve better. A modern delivery model (proprietary technology handling the structured work, Leo still leading every conversation) finally makes that possible without compromising rigour or coverage.',
   },
   {
     eyebrow: 'How I work with you',
@@ -101,7 +101,7 @@ export default function Team() {
   return (
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="Leo Meggitt - Managing Director | Mastella Advisory"
+        title="Leo Meggitt: Managing Director | Mastella Advisory"
         description="Leo Meggitt, Managing Director of Mastella Advisory. 15 years advising founder-led businesses across the UK and internationally on sell-side M&A, fundraising and exit readiness."
         canonical="https://mastellagroup.com/team/"
       />
@@ -194,7 +194,7 @@ export default function Team() {
                   A small in-house support team.
                 </h2>
                 <p className="text-body-lg text-navy-light leading-relaxed">
-                  A focused team handles the structured work between conversations - the kind that benefits from
+                  A focused team handles the structured work between conversations, the kind that benefits from
                   time and rigour rather than seniority on every line. Leo, or an approved senior advisor, stays
                   involved at every decision and every conversation that matters.
                 </p>

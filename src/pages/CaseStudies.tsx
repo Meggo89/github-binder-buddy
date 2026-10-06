@@ -164,7 +164,7 @@ export default function CaseStudies() {
   return (
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="Our Work - Selected Transactions"
+        title="Our Work: Selected Transactions"
         description="Real outcomes for real founders. Exit advisory, M&A transactions, and capital raises led by Mastella Advisory across ten sectors."
         canonical="https://mastellagroup.com/case-studies/"
       />
@@ -175,7 +175,7 @@ export default function CaseStudies() {
           <FadeIn>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
               {[
-                { stat: '£500M+', label: 'Transaction value advised' },
+                { stat: '£500m+', label: 'Transaction value advised on' },
                 { stat: '10', label: 'Sectors covered' },
                 { stat: '95%', label: 'Client retention' },
               ].map((item) => (

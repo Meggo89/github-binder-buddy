@@ -21,7 +21,7 @@ const managingDirector = {
   title: 'Managing Director',
   image: leoMeggitt,
   description:
-    '15 years in M&A. Over £500M of transactions advised across multiple sectors. Built and scaled businesses across recruitment, corporate finance and interim management before founding Mastella.',
+    '15 years in M&A. Has advised on over £500m of transactions across multiple sectors. Built and scaled businesses across recruitment, corporate finance and interim management before founding Mastella.',
 };
 
 const matchingSteps = [
@@ -38,25 +38,25 @@ const matchingSteps = [
   {
     eyebrow: 'Plus the AI layer',
     title: 'Tech does the rest',
-    body: 'Financial normalisation, buyer mapping, IM drafting, data-room orchestration, term benchmarking - handled in the background at machine speed.',
+    body: 'Financial normalisation, buyer mapping, IM drafting, data-room orchestration, term benchmarking, handled in the background at machine speed.',
   },
 ];
 
 const founderImpact = [
   {
-    metric: '3–5×',
+    metric: '3 to 5×',
     label: 'Broader buyer pool',
     description: 'Systematic identification expands coverage well beyond a traditional advisor\u2019s rolodex.',
   },
   {
-    metric: '2–3 wks',
+    metric: '2 to 3 wks',
     label: 'Information memorandum',
-    description: 'IM production compressed from 6–8 weeks. More iterations, higher production quality.',
+    description: 'IM production compressed from 6 to 8 weeks. More iterations, higher production quality.',
   },
   {
     metric: 'days',
     label: 'Valuation turnaround',
-    description: 'Defensible valuation analysis across thousands of comparables - delivered in days, not weeks.',
+    description: 'Defensible valuation analysis across thousands of comparables, delivered in days, not weeks.',
   },
   {
     metric: '100%',
@@ -92,7 +92,7 @@ const testimonials = [
 function Hero() {
   return (
     <div className="max-w-4xl">
-      <p className="eyebrow mb-6">UK & cross-border · worth £5M–£50M</p>
+      <p className="eyebrow mb-6">UK & cross-border · worth £5M to £50M</p>
       <h1 className="font-serif text-display-xl text-white mb-8 text-balance leading-[1.05]">
         Business exits,<br />
         <TypedHeroTagline />
@@ -129,7 +129,7 @@ export default function Home() {
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
         title="Off-market M&A for founder-led businesses"
-        description="Off-market M&A for founder-led businesses worth £5–50M across the UK and internationally. We find buyers other advisors don't reach. Confidential sell-side, fundraising and exit readiness."
+        description="Off-market M&A for founder-led businesses worth £5M to £50M across the UK and internationally. We find buyers other advisors don't reach. Confidential sell-side, fundraising and exit readiness."
         canonical="https://mastellagroup.com/"
       />
 
@@ -164,7 +164,7 @@ export default function Home() {
               <FadeIn delay={0.2}>
                 <p>
                   That work is now partly automatable. Financial normalisation, comparable transaction analysis,
-                  IM drafting, buyer mapping, data-room orchestration, term benchmarking - all of it can be done faster
+                  IM drafting, buyer mapping, data-room orchestration, term benchmarking: all of it can be done faster
                   and more rigorously with AI than without it.
                 </p>
               </FadeIn>
@@ -269,7 +269,7 @@ export default function Home() {
               </h2>
               <p className="text-body-lg text-sand-light leading-relaxed">
                 Each stage in an M&amp;A process has work that benefits from automation and work that requires
-                judgement. We run both lanes in parallel - and keep them visibly separate so founders can see where each
+                judgement. We run both lanes in parallel, and keep them visibly separate so founders can see where each
                 piece of the engagement is happening.
               </p>
             </div>
