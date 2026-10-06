@@ -12,15 +12,42 @@ const article: Article = {
 
       <p>This is not a rare pattern. UK owners consistently walk into sale processes anchored on accountant-produced valuations that under-price good businesses by wide margins. The accountants are not wrong on their own terms. They are answering a different question. This article explains what that question is, why it produces different answers from the market, and what an owner should look at instead when thinking about what their business is worth.</p>
 
-      <h2>Two different questions</h2>
+      <h2>What is the difference between an accountant's valuation and a market valuation?</h2>
 
       <p>Accountancy valuations answer the question: "What is this business worth using an established, defensible methodology, applied consistently, for a purpose where a specific number is required?" That purpose is usually one of: HMRC-facing tax valuation, share scheme grant-price setting, matrimonial or probate valuation, statutory financial reporting, or intra-family transfer.</p>
 
       <p>Market valuations answer the question: "What would a real buyer pay for this business today in a competitive process?" That number reflects what specific buyers are actually deploying capital for, in your specific sub-sector, at your specific size, under current market conditions.</p>
 
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Accountancy valuation</th>
+            <th>Market valuation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Question it answers</strong></td>
+            <td>What the business is worth using an established, defensible methodology, applied consistently</td>
+            <td>What a real buyer would pay for the business today in a competitive process</td>
+          </tr>
+          <tr>
+            <td><strong>Used for</strong></td>
+            <td>HMRC-facing tax valuation, share scheme grant prices, matrimonial or probate valuation, statutory financial reporting, intra-family transfer</td>
+            <td>Deciding whether, when and how to sell</td>
+          </tr>
+          <tr>
+            <td><strong>What drives the number</strong></td>
+            <td>The chosen methodology</td>
+            <td>What specific buyers are deploying capital for, in your sub-sector, at your size, under current market conditions</td>
+          </tr>
+        </tbody>
+      </table>
+
       <p>These are different questions and the correct answers to them can be dramatically different numbers. Neither is "right" or "wrong"; each is appropriate for a specific purpose. The problem arises when an owner uses the answer to the first question as the basis for a decision that should be informed by the answer to the second.</p>
 
-      <h2>Why accountancy valuations typically under-price</h2>
+      <h2>Why do accountancy valuations typically under-price a business?</h2>
 
       <p>Accountancy valuations for owner-managed UK businesses typically use one of three approaches:</p>
 
@@ -38,7 +65,7 @@ const article: Article = {
 
       <p>"Accountancy practice x 1.2 times gross fees." "Recruitment firm at 4x NFI." These rules exist for a reason but they are static and generic. They do not reflect current buyer competition, sector consolidation cycles, or the specific characteristics that separate top-of-range from median outcomes in a given niche. An accountancy practice with strong recurring fees and PE-consolidator buyer interest in 2026 trades meaningfully differently from the same practice against the historical 1.2x rule.</p>
 
-      <h2>How buyers actually think about what your business is worth</h2>
+      <h2>How do buyers decide what your business is worth?</h2>
 
       <p>Buyers value businesses using two frameworks running in parallel: comparable transaction multiples and DCF (discounted cash flow). Both look at the underlying earnings and cash generation, but they arrive at value by different routes.</p>
 
@@ -95,7 +122,7 @@ const article: Article = {
 
       <p>A valuation exercise (accountancy or market) is a starting point. The process is what determines the outcome. Owners who anchor decisions on the accountancy number without ever running a proper process routinely accept prices that under-value their business by 30 to 100% of what a real process would produce.</p>
 
-      <h2>Where accountancy valuations are the right answer</h2>
+      <h2>When is an accountancy valuation the right answer?</h2>
 
       <p>To be clear: accountancy valuations are the correct approach for a range of purposes. Do not disregard your accountant's number for the purpose it was produced. Specifically:</p>
 
@@ -108,7 +135,7 @@ const article: Article = {
 
       <p>Where the number matters is for owners who might actually sell within the next 24 months. That is the point at which the difference between "generic 3 to 5x private company multiple" and "current sub-sector transaction range" can be several million pounds of realised outcome.</p>
 
-      <h2>How to get an indicative market range</h2>
+      <h2>How do you get an indicative market range for your business?</h2>
 
       <p>Three routes, in ascending order of quality:</p>
 

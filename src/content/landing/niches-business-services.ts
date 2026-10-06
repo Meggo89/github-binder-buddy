@@ -64,7 +64,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
           "Client mix by size and sector",
         ],
         body: [
-          "Buyer diligence in UK payroll and HR services M&A is data-driven and metric-led. Five items dominate.",
+          "Buyers of HR and payroll services businesses focus on five things: annual client retention, technology stack, client mix and concentration, compliance posture, and revenue per client and upsell trajectory. Diligence is data-driven and metric-led.",
           "Annual client retention first. Buyers will diligence retention down to individual client tenure across the top 50 clients. Premium pricing requires consistent retention above 95%. Below that, the multiple discounts steeply, and below 90% the buyer pool narrows materially.",
           "Technology stack second. Bureaux running on owned or deeply integrated technology attract a multiple premium over those reselling third-party software. The depth of integration matters as much as the ownership question. Most bureaux own more of their stack than they have ever written down. We work with owners to articulate the technology story honestly in the IM.",
           "Client mix and concentration third. A book heavily weighted to small payroll runs (under 20 payslips per month) trades differently to one weighted to mid-market clients (200+ payslips). The mix tells the buyer about defensibility, gross margin and growth runway. Concentration above 10% of revenue in any single client is a flag for most PE consolidators.",
@@ -76,7 +76,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
         heading: "How do you sell an HR or payroll services business?",
         cover: ["Cross-link /process", "HR/payroll-specific diligence notes"],
         body: [
-          "Our [six-stage process](/process/) runs senior-led from first conversation to completion. For HR and payroll services, three things shape execution.",
+          "An HR or payroll services business is sold through Mastella's senior-led [six-stage process](/process/), shaped by three things: a concentrated pool of active consolidators, the SaaS or technology component of revenue, and off-market sourcing under NDA to protect client confidence.",
           "The buyer pool is concentrated and active. Knowing which consolidators are deploying capital today, on what terms, and where each is in their buy-and-build cycle is the difference between a process that produces real competitive tension and one that drifts into a single bilateral conversation. Our buyer mapping covers this from day one, supported by our proprietary technology layer for surfacing acquirer signals from licensed market data.",
           "The SaaS or technology component is the highest-value piece of the narrative and the easiest to under-present. We work with owners pre-process to classify revenue lines properly so the right valuation methodology applies and the right buyer pool engages. Misclassifying recurring revenue as services revenue can cost you two turns of multiple at the headline.",
           "Off-market sourcing protects what matters most in this sector. Clients value continuity and stability: they should not learn about a process from a broker network. We approach a curated buyer list under NDA only. See [the business services pillar](/sectors/business-services/) for the broader context, and [facilities management](/sectors/business-services/facilities-management/) and [recruitment agencies](/sectors/business-services/recruitment-agencies/) for sister sub-sectors.",
@@ -147,7 +147,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
           "Engineer / operative retention",
         ],
         body: [
-          "Buyer diligence in UK FM M&A focuses on five items consistently. Each is fixable in advance, and each is where deals stall or re-trade if they are not.",
+          "Buyers of facilities management businesses focus on five things: contract tail and renewal rates, customer concentration, margin per contract, TUPE exposure and headcount discipline, and engineer and operative retention. Each is fixable in advance, and each is where deals stall or re-trade if they are not.",
           "Contract tail and renewal rates first. Average weighted contract tail across the top 20 contracts is one of the first numbers buyers ask for. Books with 36+ months of tail and renewal rates above 85% command premium pricing. Books on rolling 12-month terms with churn above 20% trade at a discount regardless of headline EBITDA.",
           "Customer concentration second. The headline rule of thumb is no single client above 15-20% of revenue. Public-sector and blue-chip anchor clients with long contract tails sit slightly differently: buyers will pay for the relationship even at higher concentration where the contract is contractually committed. We work with owners to document the depth of each anchor relationship.",
           "Margin per contract third. The buyer pack typically asks for margin breakdown across the top 20 contracts. Wide variance is normal; what matters is the trajectory and whether loss-making contracts are being repriced. Surfacing a clean contract-margin analysis is one of the highest-return pieces of preparation work.",
@@ -159,7 +159,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
         heading: "How do you sell a facilities management business?",
         cover: ["Cross-link /process", "FM-specific diligence sequencing"],
         body: [
-          "Our [six-stage process](/process/) runs senior-led across the full mandate. For FM businesses, three things shape execution.",
+          "A facilities management business is sold through Mastella's senior-led [six-stage process](/process/), shaped by three things: contract diligence that runs on its own calendar, buyer mapping segmented across integrated FM consolidators, specialist technical FM consolidators and infrastructure-style investors, and senior-led handling of contract-level and client conversations.",
           "Contract diligence is heavier than commercial diligence and runs on its own calendar. Contract tail mapping, TUPE assessment, customer reference calls, site visits, accreditation audits. We design the process around this from the start so the data room arrives complete rather than the buyer running down each thread in turn.",
           "Buyer mapping is segmented by archetype. The integrated FM consolidators look for very different targets than the specialist technical FM consolidators or the infrastructure-style investors interested in long-tenor contracted FM cashflow. Our buyer mapping covers all three by default, supported by our proprietary technology layer for surfacing acquirer signals from licensed market data.",
           "Senior-led delivery matters because FM diligence conversations move between contract-level commercial detail, operational depth and senior client relationships. Generic process management does not produce the trust required to walk an FM business through to completion at premium pricing. See [the broader business services pillar](/sectors/business-services/) for context and [cleaning services](/sectors/business-services/cleaning-services/) for the adjacent niche.",
@@ -229,7 +229,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
           "Operative retention",
         ],
         body: [
-          "Buyer diligence in UK cleaning M&A is sharper than the sector's reputation suggests. Five items dominate.",
+          "Buyers of cleaning services businesses focus on five things: contract tail and renewal rates, customer concentration, the labour model, TUPE exposure and contract assignability, and specialist accreditation. Diligence is sharper than the sector's reputation suggests.",
           "Contract tail and renewal rates first. Average weighted contract tail across the top 20 clients is the headline metric. Books with 24+ months of weighted tail and renewal rates above 80% support premium pricing. Rolling 12-month books with churn above 25% trade meaningfully lower.",
           "Customer concentration second. Anchor clients representing more than 20% of revenue are a flag for most PE buyers. Books at 10-15% top-client concentration command better pricing. Public-sector and blue-chip anchors at the threshold can sit differently if the contract tail is genuinely long.",
           "Labour model third. The single most material diligence area in cleaning. Buyers diligence average operative wage rates against the regional market, headroom to National Living Wage, supervisor-to-operative ratios, training spend, and any open employment liability. Businesses that pay clearly above NLW with sustainable margin attract a premium because the wage trajectory is already priced in. Businesses operating on thin NLW headroom typically print at a discount and lose buyers entirely if a step-change in NLW is anticipated.",
@@ -244,7 +244,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
           "Sector-specific TUPE and contract diligence notes",
         ],
         body: [
-          "Our [six-stage process](/process/) runs senior-led across the full mandate. For cleaning businesses, three things shape execution.",
+          "A cleaning services business is sold through Mastella's senior-led [six-stage process](/process/), shaped by three things: contract and TUPE diligence on a heavier calendar than financial diligence, buyer mapping split between commercial cleaning, specialist cleaning and strategic FM acquirers, and off-market sourcing under NDA.",
           "Contract and TUPE diligence sits on a heavier calendar than headline financial diligence. Contract review across the top 20 clients, TUPE position mapping, customer reference calls, regulatory and accreditation audits where applicable. We build the process design around this from the start so the data room arrives complete.",
           "Buyer mapping is concentrated and segmented. The PE consolidators active in commercial cleaning operate to different criteria than those in specialist or technical cleaning. Strategic FM acquirers form a separate pool again. Knowing which subset is deploying capital today is the difference between a real competitive process and a default bilateral conversation. Our buyer mapping is supported by our proprietary technology layer for surfacing acquirer signals from licensed data.",
           "Off-market sourcing matters disproportionately in this sector. Clients and supervisors are highly reachable through trade channels, and confidentiality leaks have material commercial consequences. We approach a curated buyer list under NDA only. See [the business services pillar](/sectors/business-services/) for the wider context and [facilities management](/sectors/business-services/facilities-management/) for the adjacent niche.",
@@ -315,7 +315,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
           "Database depth",
         ],
         body: [
-          "Buyer diligence in UK recruitment M&A is sharper and more granular than in many other sectors. Five items dominate.",
+          "Buyers of recruitment agencies focus on five things: NFI quality, consultant retention and top-biller concentration, perm versus contract mix, client concentration and tenure, and database depth and tech stack. Diligence is sharper and more granular than in many other sectors.",
           "NFI quality first. Buyers will diligence NFI by consultant, by client, by sector, by month, and through the cycle. Premium pricing requires NFI that has held or grown through the 2023-2024 market dip, with low concentration by consultant and client.",
           "Consultant retention and top-biller concentration second. The single biggest diligence concern. Where 30%+ of revenue depends on one or two consultants, the multiple discounts materially unless those consultants are on documented lock-ins with meaningful upside. Pre-process work to build out the wider consultant team and to engage top billers properly with the transaction is the highest-ROI preparation work in this sector.",
           "Perm vs contract mix third. Contract and temp revenue is generally valued at a premium to perm because of higher visibility and lower cyclicality. The right way to surface this is contractor margin (NFI per contractor) and contractor count trajectory, not gross revenue. We help owners present this properly.",
@@ -330,7 +330,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
           "Recruitment-specific notes on earn-out structuring",
         ],
         body: [
-          "Our [six-stage process](/process/) runs senior-led across the full mandate. For recruitment, three things shape execution.",
+          "A recruitment agency is sold through Mastella's senior-led [six-stage process](/process/), shaped by three things: earn-out structuring, consultant engagement built into the process design, and buyer mapping specific to your sub-sector.",
           "Earn-out structuring is more material in recruitment than in any other sub-sector we work in. Buyers expect a portion of consideration tied to post-completion NFI, and the design of the earn-out drives more outcome variance than the headline multiple. We work with owners to negotiate earn-out terms (measurement basis, cap, accelerators, leaver provisions) that protect against the asymmetric risk founders typically carry through earn-out periods.",
           "Consultant engagement is structured into the process design from the start. We work with owners to decide how and when top billers are told about the transaction, what retention arrangements look like, and how to structure equity or bonus arrangements for the consultant layer. Getting this wrong damages both the deal and the team.",
           "Buyer mapping is sub-sector specific. The active PE consolidators in tech recruitment are not the same as in finance recruitment, life sciences, or specialist permanent. Our buyer mapping segments by your specific niche from day one. See [the business services pillar](/sectors/business-services/) for context and [HR and payroll](/sectors/business-services/hr-payroll-services/) for an adjacent specialism.",
