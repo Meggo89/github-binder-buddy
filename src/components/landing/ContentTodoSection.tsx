@@ -1,6 +1,6 @@
 import { Fragment, ReactNode } from 'react';
 import { Link } from 'react-router-dom';
-import type { ContentTodo, SubSectionTodo } from '../../content/landing';
+import type { ContentTable, ContentTodo, SubSectionTodo } from '../../content/landing';
 
 // {{ STATS_CHECK: ... }} markers live in the source files so Leo can grep
 // for unverified industry benchmarks before publishing. They must never reach
@@ -60,6 +60,44 @@ function renderInlineLinks(paragraph: string): ReactNode[] {
   return out;
 }
 
+function ComparisonTable({ table }: { table: ContentTable }) {
+  return (
+    <div className="overflow-x-auto -mx-6 px-6 md:mx-0 md:px-0">
+      <table className="w-full min-w-[36rem] text-left text-base border-collapse">
+        <caption className="text-left font-mono text-xs text-navy-light tracking-widest uppercase mb-3">
+          {table.caption}
+        </caption>
+        <thead>
+          <tr>
+            {table.columns.map((c, i) => (
+              <th key={i} scope="col" className="py-3 pr-4 align-bottom font-semibold text-navy border-b-2 border-navy/15">
+                {c}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {table.rows.map((row, r) => (
+            <tr key={r} className="border-b border-navy/10">
+              {row.map((cell, c) =>
+                c === 0 ? (
+                  <th key={c} scope="row" className="py-3 pr-4 align-top font-medium text-navy">
+                    {cell}
+                  </th>
+                ) : (
+                  <td key={c} className="py-3 pr-4 align-top text-navy-light leading-relaxed">
+                    {cell}
+                  </td>
+                ),
+              )}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
 // Renders an H2/H3 section. When `body` is populated, renders the prose;
 // otherwise renders the {{ CONTENT_TODO }} marker and the bullet brief so
 // half-written pages stay visually obvious during content QA.
@@ -87,7 +125,10 @@ export function ContentTodoSection({
         {hasBody ? (
           <div className="space-y-5 text-body-lg text-navy-light leading-relaxed">
             {todo.body!.map((p, i) => (
-              <p key={i}>{renderInlineLinks(stripStatsCheck(p))}</p>
+              <Fragment key={i}>
+                <p>{renderInlineLinks(stripStatsCheck(p))}</p>
+                {i === 0 && 'table' in todo && todo.table && <ComparisonTable table={todo.table} />}
+              </Fragment>
             ))}
           </div>
         ) : (

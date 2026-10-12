@@ -29,7 +29,7 @@ export async function submitNetlifyForm(formName: string, data: Record<string, s
     });
   } catch (networkErr) {
     console.error('netlifyForms network error:', networkErr);
-    throw new Error('Network error - please try again or email leo@mastellagroup.com directly.');
+    throw new Error('Network error: please try again or email leo@mastellagroup.com directly.');
   }
 
   if (!response.ok) {

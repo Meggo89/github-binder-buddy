@@ -1,7 +1,7 @@
 import { ArrowRight, AlertTriangle, Printer } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import type { Answer, ReadinessResult } from '../../content/readiness/score';
-import { BOOKING_URL, describeAnswer, lcFirst } from './format';
+import { describeAnswer, lcFirst } from './format';
 import { MODEL } from '../../content/readiness/model';
 import { SendResultsForm } from './SendResultsForm';
 
@@ -178,14 +178,14 @@ export function ResultsPanel({ result, answers }: Props) {
 
           <div className="flex flex-col sm:flex-row gap-4 mb-14 print:hidden">
             <a
-              href={BOOKING_URL}
+              href="#send-results"
               onClick={() => {
                 if (typeof window !== 'undefined' && window.gtag)
-                  window.gtag('event', 'booking_click', { location: 'readiness_score_results' });
+                  window.gtag('event', 'discuss_results_click', { location: 'readiness_score_results' });
               }}
               className="inline-flex items-center justify-center gap-2 bg-accent text-navy-deepest px-6 py-3.5 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-all"
             >
-              Book a call to go through it
+              Discuss your results with us
               <ArrowRight className="h-4 w-4" />
             </a>
             <button

@@ -17,7 +17,7 @@ const article: Article = {
 
       <p>This article assumes you already understand what a search fund is. If not, read our <a href="/insights/uk-search-funds-explained/">definitive UK search funds guide</a> first, then come back.</p>
 
-      <h2>The three buyer types, in one paragraph each</h2>
+      <h2>What are search funds, private equity and strategic acquirers?</h2>
 
       <p><strong>Search funds.</strong> An individual (or pair) who has raised institutional or personal capital to buy a single business and run it as CEO for the long term. Backed either by an institutional sponsor (Novastone, Broadleaf, First Search) or a personal LP network. Wants to buy your business and become its next leader. Time horizon: 7 to 15 years.</p>
 
@@ -25,7 +25,7 @@ const article: Article = {
 
       <p><strong>Strategic acquirers.</strong> An operating business, typically larger than yours, acquiring your business to fill a capability gap, add geographic reach, add customers, or take out a competitor. Ranges from UK trade acquirers to European or global strategics. Time horizon: permanent (integration into the acquirer).</p>
 
-      <h2>Side-by-side comparison</h2>
+      <h2>How do search funds, private equity and strategic acquirers compare?</h2>
 
       <p>Below is a compact framework. The specifics move within each cell depending on sector and situation, but the direction of each cell is consistent across most UK lower mid-market deals we see.</p>
 
@@ -108,7 +108,7 @@ const article: Article = {
         </tbody>
       </table>
 
-      <h2>How to think about the trade-offs</h2>
+      <h2>Which type of buyer is right for your business?</h2>
 
       <h3>Price is not always the deciding factor</h3>
 
@@ -128,7 +128,7 @@ const article: Article = {
 
       <h2>Talk to us</h2>
 
-      <p>If you are weighing an inbound approach from one of the three buyer types and want an independent view on what the other two would pay for the same business, <a href="/contact/">book a 45-minute confidential conversation</a>. We work with UK owners on structured processes that test any inbound offer against the wider buyer pool.</p>
+      <p>If you are weighing an inbound approach from one of the three buyer types and want an independent view on what the other two would pay for the same business, <a href="/contact/">arrange a 45-minute confidential conversation</a>. We work with UK owners on structured processes that test any inbound offer against the wider buyer pool.</p>
 
       <h2>A worked example: how the three routes might play out</h2>
 
@@ -150,7 +150,7 @@ const article: Article = {
 
       <h2>Where to start</h2>
 
-      <p>If you are 12 to 24 months from a target exit, the first useful step is <a href="/services/exit-planning-advisor-uk/">exit planning readiness work</a>. If you are being approached by a buyer already and need an independent view, <a href="/contact/">book a confidential conversation</a>. Forty-five minutes, no obligation. We will be honest about which of the three routes fits your situation, and where the wider process would add value.</p>
+      <p>If you are 12 to 24 months from a target exit, the first useful step is <a href="/services/exit-planning-advisor-uk/">exit planning readiness work</a>. If you are being approached by a buyer already and need an independent view, <a href="/contact/">arrange a confidential conversation</a>. Forty-five minutes, no obligation. We will be honest about which of the three routes fits your situation, and where the wider process would add value.</p>
     `,
   author: 'Leo Meggitt',
   date: '18 August 2026',

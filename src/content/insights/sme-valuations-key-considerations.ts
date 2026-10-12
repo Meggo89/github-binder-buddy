@@ -29,7 +29,7 @@ const article: Article = {
         <li>Automation and operational efficiency</li>
         <li>Cybersecurity measures and resilience</li>
       </ul>
-      <p>Companies that have successfully integrated technology into their operations often see valuations 15-25% higher than their less digitally mature peers.</p>
+      <p>Companies that have successfully integrated technology into their operations often see valuations 15 to 25% higher than their less digitally mature peers.</p>
 
       <h3>3. Market Position and Competitive Advantage</h3>
       <p>A company's competitive position, market share, and growth potential are crucial factors in determining its value in today's dynamic business environment. Key areas of analysis include:</p>

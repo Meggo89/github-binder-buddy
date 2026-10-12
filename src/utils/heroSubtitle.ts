@@ -5,7 +5,7 @@
 
 const MAX_WORDS = 25;
 const DEFAULT_SUBTITLE =
-  'Senior-led, off-market M&A advisory for founder-led businesses worth £5M–£50M.';
+  'Senior-led, off-market M&A advisory for founder-led businesses worth £5M to £50M.';
 
 function firstSentence(text: string): string {
   // Split on sentence terminator (. ! ?) followed by whitespace. Preserves the

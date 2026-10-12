@@ -57,13 +57,13 @@ export const ROUTES: RouteMeta[] = [
     path: '/process',
     title: 'How We Source Buyers',
     description:
-      "How we source buyers other advisors don't reach. Six-stage senior-led M&A process for founder-led businesses worth £5–50M across the UK and internationally.",
+      "How we source buyers other advisors don't reach. Six-stage senior-led M&A process for founder-led businesses worth £5M to £50M in the UK and internationally.",
     priority: 0.8,
     changefreq: 'monthly',
   },
   {
     path: '/team',
-    title: 'Our Team - Senior M&A Advisors',
+    title: 'Our Team: Senior M&A Advisors',
     description:
       'Meet the Mastella leadership team. Over 50 years of combined experience in M&A, fundraising, executive search, and strategic consulting.',
     priority: 0.7,
@@ -95,9 +95,9 @@ export const ROUTES: RouteMeta[] = [
   },
   {
     path: '/contact',
-    title: 'Get in Touch: Confidential M&A Advice',
+    title: 'Arrange a Confidential Conversation | Mastella Advisory',
     description:
-      'Schedule a confidential, no-obligation conversation with Mastella Advisory. Discuss your exit strategy, valuation, or fundraising needs.',
+      'Get in touch with Mastella Advisory for a confidential, no-obligation first conversation about selling your business, its value or raising capital.',
     priority: 0.6,
     changefreq: 'monthly',
   },
@@ -110,7 +110,7 @@ export const ROUTES: RouteMeta[] = [
   },
   {
     path: '/lead-magnet',
-    title: 'Exit Readiness Checklist - Free Download',
+    title: 'Exit Readiness Checklist: Free Download',
     description:
       'Twelve questions every UK founder should answer before starting an M&A process. Free download, no follow-up unless you ask.',
     priority: 0.6,
@@ -139,7 +139,7 @@ export const ROUTES: RouteMeta[] = [
 const LANDING_ROUTES: RouteMeta[] = [
   {
     path: '/sectors',
-    title: 'Sectors We Cover - UK M&A Advisory',
+    title: 'Sectors We Cover: UK M&A Advisory',
     description:
       'UK M&A advisory across six sectors: business services, healthcare, light industrials, logistics, professional services, tech-enabled services.',
     priority: 0.8,
