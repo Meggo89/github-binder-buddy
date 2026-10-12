@@ -1,28 +1,41 @@
 import { Link } from 'react-router-dom';
 import mastellaLogo from '../../assets/mastella-logo.png';
+import { SECTORS } from '../../content/landing';
 
 export function Footer() {
   return (
     <footer className="bg-ink text-sand-light border-t border-white/5">
       <div className="container mx-auto px-6 py-16">
-        <div className="grid md:grid-cols-4 gap-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
             <img src={mastellaLogo} alt="Mastella Advisory" className="h-24 w-auto mb-6" />
             <p className="text-sm leading-relaxed max-w-xs">
-              Business exits, rebuilt for the AI era. Strategic exit advisory for founder-led businesses worth £5M–£50M across the UK and internationally.
+              Business exits, rebuilt for the AI era. Strategic exit advisory for founder-led businesses worth £5M to £50M across the UK and internationally.
             </p>
           </div>
           <div>
             <h4 className="text-white font-semibold mb-4 text-xs tracking-widest uppercase">Navigate</h4>
             <ul className="space-y-2.5 text-sm">
-              <li><Link to="/about" className="hover:text-white transition-colors">About</Link></li>
-              <li><Link to="/services" className="hover:text-white transition-colors">Services</Link></li>
-              <li><Link to="/process" className="hover:text-white transition-colors">Process</Link></li>
-              <li><Link to="/case-studies" className="hover:text-white transition-colors">Our Work</Link></li>
-              <li><Link to="/team" className="hover:text-white transition-colors">Team</Link></li>
-              <li><Link to="/insights" className="hover:text-white transition-colors">Insights</Link></li>
+              <li><Link to="/about/" className="hover:text-white transition-colors">About</Link></li>
+              <li><Link to="/services/" className="hover:text-white transition-colors">Services</Link></li>
+              <li><Link to="/services/m-and-a-advisor-uk/" className="hover:text-white transition-colors">M&amp;A adviser for UK founder-led businesses</Link></li>
+              <li><Link to="/process/" className="hover:text-white transition-colors">Process</Link></li>
+              <li><Link to="/case-studies/" className="hover:text-white transition-colors">Our Work</Link></li>
+              <li><Link to="/team/" className="hover:text-white transition-colors">Team</Link></li>
+              <li><Link to="/insights/" className="hover:text-white transition-colors">Insights</Link></li>
               <li><Link to="/exit-readiness-score/" className="hover:text-white transition-colors">Free Exit Readiness Score</Link></li>
               <li><Link to="/resources/exit-readiness-scoring/" className="hover:text-white transition-colors">How we score exit readiness</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="text-white font-semibold mb-4 text-xs tracking-widest uppercase">Sectors</h4>
+            <ul className="space-y-2.5 text-sm">
+              {SECTORS.map((s) => (
+                <li key={s.slug}>
+                  <Link to={`/sectors/${s.slug}/`} className="hover:text-white transition-colors">{s.name}</Link>
+                </li>
+              ))}
+              <li><Link to="/sectors/" className="hover:text-white transition-colors">All sectors</Link></li>
             </ul>
           </div>
           <div>
@@ -39,11 +52,9 @@ export function Footer() {
                 London, WC1X 9LP
               </li>
             </ul>
-          </div>
-          <div>
-            <h4 className="text-white font-semibold mb-4 text-xs tracking-widest uppercase">Legal</h4>
+            <h4 className="text-white font-semibold mt-10 mb-4 text-xs tracking-widest uppercase">Legal</h4>
             <ul className="space-y-2.5 text-sm">
-              <li><Link to="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
+              <li><Link to="/privacy-policy/" className="hover:text-white transition-colors">Privacy Policy</Link></li>
             </ul>
           </div>
         </div>

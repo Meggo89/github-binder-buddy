@@ -179,7 +179,7 @@ export default function ExecutiveSearch() {
                 the executive talent needed to maximise value.
               </p>
               <Link
-                to="/contact"
+                to="/contact/"
                 className="inline-flex items-center gap-2 bg-accent text-navy-deepest px-7 py-3.5 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:-translate-y-0.5"
               >
                 Discuss your leadership needs

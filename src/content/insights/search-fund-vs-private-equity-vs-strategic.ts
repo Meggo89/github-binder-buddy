@@ -3,8 +3,11 @@ import type { Article } from './types';
 const article: Article = {
   slug: 'search-fund-vs-private-equity-vs-strategic',
   title: 'Search Fund vs Private Equity vs Strategic Buyer: A Decision Framework for UK Owners',
+  metaTitle: 'Search Fund vs PE vs Strategic Buyer',
   excerpt:
     'The three buyer types most likely to acquire a UK lower mid-market business behave differently across price, timeline, structure, involvement and cultural fit. A side-by-side framework to help owners pick the right route.',
+  metaDescription:
+    'How search funds, private equity and strategic buyers differ on price, timeline, structure, involvement and fit, and how UK owners can pick the right route.',
   content: `
       <p><em>Advised by Leo Meggitt, Managing Director, Mastella Advisory. Last updated August 2026.</em></p>
 

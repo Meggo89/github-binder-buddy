@@ -467,7 +467,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     pillarSlug: "logistics-and-distribution",
     name: "Warehousing & distribution",
     nameLower: "warehousing and distribution",
-    title: "Warehousing & Distribution M&A Advisor UK | Mastella Advisory",
+    title: "Warehousing & Distribution M&A Advisor | Mastella Advisory",
     metaDescription:
       "Selling a UK warehousing or distribution business worth £5–50M? Senior-led, off-market M&A advisory. Confidential sale for owner-managed operators.",
     h1: "Selling a warehousing or distribution business in the UK",

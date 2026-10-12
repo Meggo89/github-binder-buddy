@@ -74,6 +74,9 @@
   .prose-article strong {
     @apply text-navy font-semibold;
   }
+  .prose-article a {
+    @apply text-navy underline decoration-accent/40 underline-offset-4 hover:text-accent-dark;
+  }
 }
 
 @layer utilities {

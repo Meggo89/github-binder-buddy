@@ -11,7 +11,7 @@ export const SITE = {
   domain: 'https://mastellagroup.com',
   defaultTitle: 'Off-market M&A for founder-led businesses | Mastella Advisory',
   defaultDescription:
-    "Off-market M&A for founder-led businesses worth £5–50M across the UK and internationally. We find buyers other advisors don't reach. Confidential sell-side, fundraising and exit readiness.",
+    "Off-market M&A for founder-led businesses worth £5M to £50M. We find buyers other advisors don't reach. Confidential sell-side, fundraising and exit readiness.",
   defaultOgImage: 'https://mastellagroup.com/og-image.png?v=3',
   locale: 'en_GB',
   lastmod: '2026-09-29',
@@ -31,25 +31,25 @@ export type RouteMeta = {
 export const ROUTES: RouteMeta[] = [
   {
     path: '/',
-    title: 'Off-market M&A for founder-led businesses',
+    title: 'Off-market M&A for founder-led companies',
     description:
-      "Off-market M&A for founder-led businesses worth £5–50M across the UK and internationally. We find buyers other advisors don't reach. Confidential sell-side, fundraising and exit readiness.",
+      "Off-market M&A for founder-led businesses worth £5M to £50M. We find buyers other advisors don't reach. Confidential sell-side, fundraising and exit readiness.",
     priority: 1.0,
     changefreq: 'weekly',
   },
   {
     path: '/about',
-    title: 'About Mastella Advisory | M&A for Founder-Led Businesses £5–50M',
+    title: 'About Mastella Advisory | Founder-Led M&A, £5M to £50M',
     description:
-      'Off-market M&A advisory for founder-led businesses worth £5–50M across the UK and internationally. Confidential sell-side, fundraising and exit readiness, led by senior advisors.',
+      'Off-market M&A advisory for founder-led businesses worth £5M to £50M. Confidential sell-side, fundraising and exit readiness, led by senior advisors.',
     priority: 0.8,
     changefreq: 'monthly',
   },
   {
     path: '/services',
-    title: 'M&A Services for Founder-Led Businesses - Sell-side, Fundraising, Exit Readiness',
+    title: 'M&A Services for Founder-Led Businesses',
     description:
-      'M&A services for founder-led businesses across the UK and internationally: sell-side, fundraising, exit readiness and executive search. Confidential, senior-led, focused on businesses worth £5–50M.',
+      'M&A services for founder-led businesses worth £5M to £50M: sell-side, fundraising, exit readiness and executive search. Confidential and senior-led.',
     priority: 0.8,
     changefreq: 'monthly',
   },
@@ -71,9 +71,9 @@ export const ROUTES: RouteMeta[] = [
   },
   {
     path: '/case-studies',
-    title: 'Our Work - Successful Exit and M&A Transactions',
+    title: 'Our Work: Selected M&A Transactions',
     description:
-      'Exit advisory, M&A transactions, and capital raises delivered for founders across ten sectors. Real outcomes from real transactions.',
+      'Exit advisory, M&A transactions, and capital raises delivered for founders across six sectors. Real outcomes from real transactions.',
     priority: 0.7,
     changefreq: 'monthly',
   },
@@ -87,7 +87,7 @@ export const ROUTES: RouteMeta[] = [
   },
   {
     path: '/insights',
-    title: 'Insights - M&A Perspectives for Founder-Led Businesses',
+    title: 'Insights: M&A for Founder-Led Businesses',
     description:
       'Long-form analysis on exits, fundraising and valuation for founder-led businesses. Written by the Mastella team for founders, not other advisors.',
     priority: 0.8,
@@ -95,7 +95,7 @@ export const ROUTES: RouteMeta[] = [
   },
   {
     path: '/contact',
-    title: 'Contact - Book a Confidential Conversation',
+    title: 'Get in Touch: Confidential M&A Advice',
     description:
       'Schedule a confidential, no-obligation conversation with Mastella Advisory. Discuss your exit strategy, valuation, or fundraising needs.',
     priority: 0.6,

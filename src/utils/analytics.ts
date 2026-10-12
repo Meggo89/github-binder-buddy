@@ -17,8 +17,36 @@ declare global {
   }
 }
 
+// Internal-traffic switch. Visiting any page with ?internal=1 marks this browser as internal and
+// ?internal=0 clears it. While the flag is set every gtag('event', ...) call is dropped, so our own
+// visits and test submissions stay out of GA4. localStorage can throw (private windows, blocked
+// site data), in which case the browser is treated as external.
+const INTERNAL_KEY = 'mastella_internal';
+
+export function applyInternalTrafficParam() {
+  if (typeof window === 'undefined') return;
+  const value = new URLSearchParams(window.location.search).get('internal');
+  if (value !== '1' && value !== '0') return;
+  try {
+    if (value === '1') window.localStorage.setItem(INTERNAL_KEY, '1');
+    else window.localStorage.removeItem(INTERNAL_KEY);
+  } catch {
+    // Storage unavailable: nothing to persist.
+  }
+}
+
+export function isInternalTraffic(): boolean {
+  if (typeof window === 'undefined') return false;
+  try {
+    return window.localStorage.getItem(INTERNAL_KEY) === '1';
+  } catch {
+    return false;
+  }
+}
+
 export function initAnalytics() {
   if (typeof window === 'undefined') return;
+  applyInternalTrafficParam();
   if (window.gtag) return; // already loaded
 
   const script = document.createElement('script');
@@ -33,6 +61,10 @@ export function initAnalytics() {
   // contains plain Arrays instead. ~10% candidate root cause for the silent
   // /collect drop, free defensive fix to match the official reference exactly.
   function gtag() {
+    // Every event on the site goes through here, including direct window.gtag calls in
+    // components, so this is the one place internal traffic needs filtering.
+    // eslint-disable-next-line prefer-rest-params
+    if (arguments[0] === 'event' && isInternalTraffic()) return;
     // eslint-disable-next-line prefer-rest-params
     (window.dataLayer as unknown as IArguments[]).push(arguments);
   }
@@ -62,6 +94,8 @@ export function initAnalytics() {
 // initial mount + SPA route change.
 export function trackPageView() {
   if (typeof window === 'undefined' || !window.gtag) return;
+  // Picks up ?internal=1 / ?internal=0 on client-side navigations as well as the first load.
+  applyInternalTrafficParam();
   window.gtag('event', 'page_view', {
     page_location: window.location.href,
     page_path: window.location.pathname + window.location.search,
@@ -84,4 +118,11 @@ export function grantAnalyticsConsent() {
   window.gtag('consent', 'update', {
     analytics_storage: 'granted',
   });
+}
+
+// GA4 generate_lead. Call only after a form submission has been accepted by Netlify Forms, never
+// on page load, button click or a silently dropped spam submission.
+export function trackLead(formName: string) {
+  if (typeof window === 'undefined' || !window.gtag) return;
+  window.gtag('event', 'generate_lead', { form_name: formName, page_path: window.location.pathname });
 }

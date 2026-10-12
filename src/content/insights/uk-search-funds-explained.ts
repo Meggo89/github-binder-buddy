@@ -3,8 +3,11 @@ import type { Article } from './types';
 const article: Article = {
   slug: 'uk-search-funds-explained',
   title: 'UK Search Funds Explained: The 2026 Guide for Owners Being Approached',
+  metaTitle: 'UK Search Funds Explained: 2026 Guide',
   excerpt:
     'A definitive guide for UK owners: what search funds are, who is active in the UK market today, how the economics work, and what to ask a searcher who has approached you.',
+  metaDescription:
+    'What search funds are, who is active in the UK today, how the economics work, and what to ask a searcher who has approached you about your business.',
   content: `
       <p><em>Advised by Leo Meggitt, Managing Director, Mastella Advisory. Last updated August 2026.</em></p>
 

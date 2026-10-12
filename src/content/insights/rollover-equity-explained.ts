@@ -3,8 +3,11 @@ import type { Article } from './types';
 const article: Article = {
   slug: 'rollover-equity-explained',
   title: 'Rollover Equity Explained: What UK Founders Actually Get, and What to Watch For',
+  metaTitle: 'Rollover Equity Explained for Founders',
   excerpt:
     'Rollover equity is a common feature of UK lower mid-market deals and one of the most misunderstood. What it is, why buyers offer it, how it is structured, current UK tax treatment, and where the traps sit.',
+  metaDescription:
+    'What rollover equity is, why buyers offer it, how it is structured, current UK tax treatment, and where the traps sit for founders selling a business.',
   content: `
       <p><em>Advised by Leo Meggitt, Managing Director, Mastella Advisory. Last updated August 2026.</em></p>
 

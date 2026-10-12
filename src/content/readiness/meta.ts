@@ -3,15 +3,15 @@
 
 export const SCORE_PAGE = {
   path: '/exit-readiness-score',
-  title: 'Free Exit Readiness Score: How Would a Buyer Rate Your Business?',
+  title: 'Free Exit Readiness Score for UK Owners',
   description:
-    'Free exit readiness score for UK business owners. 11 questions, about three minutes, scored on the measures buyers test. No sign-up, answers stay in your browser.',
+    'Free exit readiness score for UK owners. 11 questions, about three minutes, scored on the measures buyers test. No sign-up, answers stay in your browser.',
 };
 
 export const SCORING_PAGE = {
   path: '/resources/exit-readiness-scoring',
-  title: 'How We Score Exit Readiness: The Measures Buyers Test',
+  title: 'Exit Readiness Scoring: What Buyers Test',
   description:
-    'How exit readiness is scored for a UK business sale: the five areas buyers test, their weights, the thresholds on the core measures, and what trade buyers and private equity do when a business falls short.',
+    'How exit readiness is scored for a UK sale: the five areas buyers test, their weights, the core thresholds, and what buyers do when a business falls short.',
   published: '2026-09-29',
 };

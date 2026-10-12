@@ -25,7 +25,7 @@ export default function Insights() {
   return (
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="Insights - M&A Perspectives for Founder-Led Businesses"
+        title="Insights: M&A for Founder-Led Businesses"
         description="Long-form analysis on exits, fundraising and valuation for founder-led businesses. Written by the Mastella team for founders, not other advisors."
         canonical="https://mastellagroup.com/insights/"
       />
@@ -35,7 +35,7 @@ export default function Insights() {
         <div className="container mx-auto px-6">
           <FadeIn>
             <Link
-              to={`/insights/${featured.slug}`}
+              to={`/insights/${featured.slug}/`}
               className="group block max-w-6xl mx-auto"
             >
               <p className="eyebrow text-navy-light mb-6">Latest</p>
@@ -84,7 +84,7 @@ export default function Insights() {
             {rest.map((post) => (
               <StaggerItem key={post.slug}>
                 <Link
-                  to={`/insights/${post.slug}`}
+                  to={`/insights/${post.slug}/`}
                   className="group block bg-white rounded-xl overflow-hidden border border-navy/10 hover:border-accent/40 hover:shadow-xl transition-all duration-300"
                 >
                   <article>

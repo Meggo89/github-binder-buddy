@@ -3,8 +3,11 @@ import type { Article } from './types';
 const article: Article = {
   slug: 'accountant-valuation-vs-market-valuation',
   title: 'Your Accountant\'s Valuation Is Almost Certainly Wrong (And Why It Matters)',
+  metaTitle: 'Accountant Valuation vs Market Valuation',
   excerpt:
     'Accountancy valuations and market valuations answer different questions and produce different numbers. Why this matters for UK owners considering a sale, and how buyers actually think about what your business is worth.',
+  metaDescription:
+    'Accountancy and market valuations answer different questions and give different numbers. Why that matters for UK owners considering a sale.',
   content: `
       <p><em>Advised by Leo Meggitt, Managing Director, Mastella Advisory. Last updated August 2026.</em></p>
 

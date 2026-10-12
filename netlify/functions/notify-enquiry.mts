@@ -1,4 +1,5 @@
 import type { Config, Context } from '@netlify/functions';
+import { checkLead } from '../../src/utils/formGuards';
 
 // Redundant email notification for contact-form submissions. Runs in
 // parallel with Netlify's own Forms notification, which is silenced any
@@ -149,10 +150,20 @@ export default async (req: Request, _context: Context): Promise<Response> => {
       return OK();
     }
 
-    const name = payload.name?.trim() ?? '';
-    const message = payload.message?.trim() ?? '';
-    if (!name && !message) {
-      console.warn('notify-enquiry: empty name and message, rejecting');
+    // Same checks as the forms, repeated here because anyone can POST to this URL directly.
+    // Score submissions carry generated summary text in `message`, so only the contact form's
+    // free-text message is scanned.
+    const isScore = payload.pagePath?.startsWith('/exit-readiness-score') ?? false;
+    const check = checkLead({
+      name: payload.name,
+      email: payload.email,
+      company: payload.company,
+      phone: payload.phone,
+      interest: payload.interest,
+      message: isScore ? undefined : payload.message,
+    });
+    if (check !== 'ok') {
+      console.warn(`notify-enquiry: rejected (${check}), no email sent`);
       return OK();
     }
 

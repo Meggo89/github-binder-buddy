@@ -6,13 +6,13 @@ import mastellaLogo from '../../assets/mastella-logo.png';
 type NavLink = { to: string; label: string };
 
 const NAV_LINKS: NavLink[] = [
-  { to: '/about', label: 'About' },
-  { to: '/services', label: 'Services' },
-  { to: '/sectors', label: 'Sectors' },
-  { to: '/process', label: 'Process' },
-  { to: '/case-studies', label: 'Our Work' },
-  { to: '/team', label: 'Team' },
-  { to: '/insights', label: 'Insights' },
+  { to: '/about/', label: 'About' },
+  { to: '/services/', label: 'Services' },
+  { to: '/sectors/', label: 'Sectors' },
+  { to: '/process/', label: 'Process' },
+  { to: '/case-studies/', label: 'Our Work' },
+  { to: '/team/', label: 'Team' },
+  { to: '/insights/', label: 'Insights' },
 ];
 
 function MobileNav({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) {
@@ -63,11 +63,11 @@ function MobileNav({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }
           ))}
           <div className="pt-4 w-full">
             <Link
-              to="/contact"
+              to="/contact/"
               className="block w-full text-center bg-accent text-navy-deepest px-6 py-3 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-all duration-200"
               onClick={onClose}
             >
-              Book a Consultation
+              Get in touch
             </Link>
           </div>
         </nav>
@@ -93,7 +93,7 @@ export function Navigation() {
         </Link>
         <div className="hidden md:flex space-x-7 items-center">
           {NAV_LINKS.map((link) => {
-            const active = path === link.to;
+            const active = path === link.to.replace(/\/$/, '');
             return (
               <Link
                 key={link.to}
@@ -108,10 +108,10 @@ export function Navigation() {
           })}
           {!onContactPage && (
             <Link
-              to="/contact"
+              to="/contact/"
               className="bg-accent text-navy-deepest px-5 py-2.5 rounded-md text-sm font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:-translate-y-px hover:shadow-lg hover:shadow-accent/20"
             >
-              Book a Call
+              Get in touch
             </Link>
           )}
         </div>

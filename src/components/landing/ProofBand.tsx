@@ -6,7 +6,7 @@ import { FadeIn } from '../ui/motion';
 const PROOF_STATS = [
   { stat: '15+', label: 'Years in M&A' },
   { stat: '£500M+', label: 'Transaction value advised' },
-  { stat: '10', label: 'Sectors' },
+  { stat: '6', label: 'Sectors' },
 ];
 
 export function ProofBand() {

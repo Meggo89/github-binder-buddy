@@ -26,7 +26,7 @@ const LEAD_ADVISOR = {
 const STATS = [
   { value: '15', label: 'Years in M&A' },
   { value: '£500M+', label: 'Transaction value advised' },
-  { value: '10', label: 'Sectors' },
+  { value: '6', label: 'Sectors' },
 ];
 
 // Function areas covered by the in-house support team. Function-led, no
@@ -259,7 +259,7 @@ export default function Team() {
                 for what you&apos;re thinking about.
               </p>
               <Link
-                to="/contact"
+                to="/contact/"
                 className="inline-flex items-center gap-2 bg-accent text-navy-deepest px-7 py-3.5 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:-translate-y-0.5"
               >
                 Book a confidential discussion

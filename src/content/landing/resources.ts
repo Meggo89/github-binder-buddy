@@ -4,7 +4,7 @@ export const RESOURCES: ResourceLanding[] = [
   {
     slug: "business-broker-vs-m-a-advisor",
     name: "Business broker vs M&A advisor",
-    title: "Business Broker vs M&A Advisor: What's the Difference?",
+    title: "Business Broker vs M&A Advisor Explained",
     metaDescription:
       "Business broker or M&A advisor? Senior-led explainer for UK owners worth £5–50M. Models, fees, buyer pools and outcomes compared honestly.",
     h1: "Business broker vs M&A advisor: what is the difference?",

@@ -108,8 +108,8 @@ export default function Services() {
   return (
     <PageLayout hero={<Hero />} heroTone="ink" mainClassName="">
       <SEO
-        title="M&A Services for Founder-Led Businesses - Sell-side, Fundraising, Exit Readiness"
-        description="M&A services for founder-led businesses across the UK and internationally: sell-side, fundraising, exit readiness and executive search. Confidential, senior-led, focused on businesses worth £5–50M."
+        title="M&A Services for Founder-Led Businesses"
+        description="M&A services for founder-led businesses worth £5M to £50M: sell-side, fundraising, exit readiness and executive search. Confidential and senior-led."
         canonical="https://mastellagroup.com/services/"
       />
       <StructuredData data={[...serviceSchemas, breadcrumb]} />
@@ -266,7 +266,7 @@ export default function Services() {
                 which of these - if any - is the right starting point for your business.
               </p>
               <Link
-                to="/contact"
+                to="/contact/"
                 className="inline-flex items-center gap-2 bg-accent text-navy-deepest px-7 py-3.5 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:-translate-y-0.5"
               >
                 Book a confidential conversation

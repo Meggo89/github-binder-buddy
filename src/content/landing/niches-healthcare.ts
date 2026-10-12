@@ -226,7 +226,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     pillarSlug: "healthcare-services",
     name: "Care homes & domiciliary care",
     nameLower: "care home and domiciliary care",
-    title: "Care Home & Domiciliary Care M&A Advisor UK | Mastella",
+    title: "Care Home & Domiciliary Care M&A Advisor | Mastella Advisory",
     metaDescription:
       "Selling a UK care home group or domiciliary care business worth £5–50M? Senior-led, off-market M&A advisory. Confidential sales process.",
     h1: "Selling a care home or domiciliary care business in the UK",

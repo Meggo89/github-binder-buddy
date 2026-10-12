@@ -205,8 +205,8 @@ async function run() {
     }
     return {
       path: `/insights/${a.slug}`,
-      title: a.title,
-      description: a.excerpt,
+      title: a.metaTitle ?? a.title,
+      description: a.metaDescription ?? a.excerpt,
       ogType: 'article',
       ogImage: a.image,
       jsonLd,
