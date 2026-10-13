@@ -3,6 +3,7 @@ import type { Article } from './types';
 const article: Article = {
   slug: 'ai-in-modern-ma-transactions',
   title: 'The Role of AI in Modern M&A Transactions',
+  metaTitle: 'The Role of AI in M&A Transactions',
   excerpt:
     'An in-depth analysis of how artificial intelligence is transforming the M&A landscape, from due diligence to post-merger integration.',
   content: `

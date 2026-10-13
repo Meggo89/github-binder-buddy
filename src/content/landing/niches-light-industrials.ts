@@ -89,7 +89,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     pillarSlug: "light-industrials",
     name: "Plant hire & equipment rental",
     nameLower: "plant hire and equipment rental",
-    title: "Plant Hire & Equipment Rental M&A Advisor UK | Mastella",
+    title: "Plant & Equipment Hire M&A Advisor UK | Mastella Advisory",
     metaDescription:
       "Selling a UK plant hire or equipment rental business worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential process.",
     h1: "Selling a plant hire or equipment rental business in the UK",

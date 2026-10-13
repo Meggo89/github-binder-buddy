@@ -42,8 +42,8 @@ export default function About() {
   return (
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="About Mastella Advisory | M&A for Founder-Led Businesses £5M to £50M"
-        description="Off-market M&A advisory for founder-led businesses worth £5M to £50M across the UK and internationally. Confidential sell-side, fundraising and exit readiness, led by senior advisors."
+        title="About Mastella Advisory | Founder-Led M&A, £5M to £50M"
+        description="Off-market M&A advisory for founder-led businesses worth £5M to £50M. Confidential sell-side, fundraising and exit readiness, led by senior advisors."
         canonical="https://mastellagroup.com/about/"
       />
 
@@ -211,14 +211,14 @@ export default function About() {
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link
-                  to="/contact"
+                  to="/contact/"
                   className="inline-flex items-center gap-2 bg-accent text-navy-deepest px-7 py-3.5 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:-translate-y-0.5"
                 >
                   Arrange a conversation
                   <ArrowRight className="h-4 w-4" />
                 </Link>
                 <Link
-                  to="/process"
+                  to="/process/"
                   className="inline-flex items-center gap-2 border border-sand/30 text-white px-7 py-3.5 rounded-md font-medium tracking-wide hover:bg-white/5 hover:border-sand/60 transition-all duration-200"
                 >
                   See how the work gets done

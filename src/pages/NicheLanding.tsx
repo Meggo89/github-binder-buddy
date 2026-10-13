@@ -52,9 +52,13 @@ export default function NicheLandingPage() {
     ],
   };
 
-  const siblings = getNichesForPillar(pillar.slug)
-    .filter((n) => n.slug !== niche.slug)
-    .slice(0, 2);
+  // The next two niches in the pillar, wrapping round, so every niche page receives sibling links
+  // rather than the first two in each pillar collecting all of them.
+  const pillarNiches = getNichesForPillar(pillar.slug);
+  const position = pillarNiches.findIndex((n) => n.slug === niche.slug);
+  const siblings = [1, 2]
+    .map((offset) => pillarNiches[(position + offset) % pillarNiches.length])
+    .filter((n, i, all) => n.slug !== niche.slug && all.indexOf(n) === i);
 
   return (
     <PageLayout
@@ -80,6 +84,31 @@ export default function NicheLandingPage() {
                 <Link to="/sectors/" className="text-accent-dark hover:underline">
                   All sectors
                 </Link>
+              </p>
+              <p className="text-body-md text-navy-light leading-relaxed mt-6">
+                Our{' '}
+                <Link to="/services/m-and-a-advisor-uk/" className="text-navy underline decoration-accent/40 underline-offset-4 hover:text-accent-dark">
+                  M&amp;A adviser service for UK founder-led businesses
+                </Link>{' '}
+                explains how a sale process runs, and{' '}
+                <Link to="/services/exit-planning-advisor-uk/" className="text-navy underline decoration-accent/40 underline-offset-4 hover:text-accent-dark">
+                  exit planning
+                </Link>{' '}
+                covers the preparation work before a sale.
+                {siblings.length > 0 && (
+                  <>
+                    {' '}Related sectors:{' '}
+                    {siblings.map((s, i) => (
+                      <span key={s.slug}>
+                        {i > 0 && ' and '}
+                        <Link to={`/sectors/${pillar.slug}/${s.slug}/`} className="text-navy underline decoration-accent/40 underline-offset-4 hover:text-accent-dark">
+                          {s.name}
+                        </Link>
+                      </span>
+                    ))}
+                    .
+                  </>
+                )}
               </p>
             </FadeIn>
 

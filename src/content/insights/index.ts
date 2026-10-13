@@ -12,6 +12,7 @@ import postMergerIntegration from './post-merger-integration-success';
 import type { Article } from './types';
 
 export type { Article };
+export { INSIGHT_LINKS } from './related';
 
 // Display order: newest first. Five new pillar articles published August 2026
 // sit ahead of the earlier long-form pieces.

@@ -14,7 +14,7 @@ import { TypedHeroTagline } from '../components/home/TypedHero';
 import { WhatWeDo } from '../components/home/WhatWeDo';
 import { FoundersDrift } from '../components/home/FoundersDrift';
 import { AIHumanSplit } from '../components/home/AIHumanSplit';
-import { MarketPulse } from '../components/home/MarketPulse';
+import { HomeServiceLinks, HomeSectorLinks, HomeLatestInsights } from '../components/home/HomeLinks';
 
 const managingDirector = {
   name: 'Leo Meggitt',
@@ -65,30 +65,6 @@ const founderImpact = [
   },
 ];
 
-const testimonials = [
-  {
-    quote:
-      'Mastella guided us through a complex exit process with professionalism and deep market knowledge. They secured a buyer who truly valued what we had built.',
-    name: 'CEO',
-    company: 'Financial Services Firm',
-    context: 'Full sale, founder exit',
-  },
-  {
-    quote:
-      'Their fundraising expertise was exceptional. They connected us with the right investors and structured a round that gave us the capital to scale without excessive dilution.',
-    name: 'Founder',
-    company: 'Technology Company',
-    context: 'Seed funding, £2m raised',
-  },
-  {
-    quote:
-      'What set Mastella apart was their ability to manage the entire process while keeping us focused on running the business. We felt supported at every stage.',
-    name: 'Managing Director',
-    company: 'Logistics Business',
-    context: 'Majority sale to PE',
-  },
-];
-
 function Hero() {
   return (
     <div className="max-w-4xl">
@@ -103,7 +79,7 @@ function Hero() {
       </p>
       <div className="flex flex-wrap gap-4">
         <Link
-          to="/contact"
+          to="/contact/"
           onClick={() => trackCTA('Arrange a Confidential Conversation', 'hero')}
           className="inline-flex items-center gap-2 bg-accent text-navy-deepest px-7 py-3.5 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:shadow-xl hover:shadow-accent/20 hover:-translate-y-0.5"
         >
@@ -128,13 +104,16 @@ export default function Home() {
   return (
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="Off-market M&A for founder-led businesses"
-        description="Off-market M&A for founder-led businesses worth £5M to £50M across the UK and internationally. We find buyers other advisors don't reach. Confidential sell-side, fundraising and exit readiness."
+        title="Off-market M&A for founder-led companies"
+        description="Off-market M&A for founder-led businesses worth £5M to £50M. We find buyers other advisors don't reach. Confidential sell-side, fundraising and exit readiness."
         canonical="https://mastellagroup.com/"
       />
 
       {/* What we do - owner-first bridge */}
       <WhatWeDo />
+
+      {/* Services - one link per service page */}
+      <HomeServiceLinks />
 
       {/* Positioning - why traditional M&A is being disrupted */}
       <section className="bg-sand-light py-24 md:py-32 relative overflow-hidden">
@@ -286,7 +265,7 @@ export default function Home() {
               <StaggerItem key={stage.slug}>
                 <Link
                   // The readiness stage is now a product in its own right; the rest go to the process page.
-                  to={stage.slug === 'exit-readiness' ? '/services/exit-readiness-assessment/' : `/process#${stage.slug}`}
+                  to={stage.slug === 'exit-readiness' ? '/services/exit-readiness-assessment/' : `/process/#${stage.slug}`}
                   className="group block h-full rounded-xl border border-white/10 bg-white/[0.02] p-6 hover:bg-white/[0.05] hover:border-accent/40 transition-all duration-300"
                 >
                   <div className="flex items-baseline justify-between mb-4">
@@ -340,6 +319,9 @@ export default function Home() {
           </FadeIn>
         </div>
       </section>
+
+      {/* Sectors - one link per sector pillar */}
+      <HomeSectorLinks />
 
       {/* Why this matters for founders */}
       <section className="bg-sand-light py-24 md:py-32">
@@ -400,7 +382,7 @@ export default function Home() {
               </p>
               <p className="text-body-lg text-navy-light leading-relaxed mb-10">{managingDirector.description}</p>
               <Link
-                to="/team"
+                to="/team/"
                 className="inline-flex items-center gap-2 text-navy font-medium hover:text-accent-dark transition-colors"
               >
                 Read Leo&apos;s full profile
@@ -467,40 +449,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="bg-white py-24 md:py-32">
-        <div className="container mx-auto px-6">
-          <FadeIn>
-            <div className="max-w-3xl mb-16">
-              <p className="eyebrow mb-6 text-navy-light">In their words</p>
-              <h2 className="font-serif text-display-md text-navy leading-tight text-balance">
-                What founders say after working with us.
-              </h2>
-            </div>
-          </FadeIn>
-          <Stagger className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {testimonials.map((t) => (
-              <StaggerItem key={t.name + t.company}>
-                <figure className="h-full border-l-2 border-accent pl-6 py-2">
-                  <blockquote className="font-serif text-lg text-navy mb-6 italic leading-snug">
-                    &ldquo;{t.quote}&rdquo;
-                  </blockquote>
-                  <figcaption>
-                    <p className="font-semibold text-navy">{t.name}</p>
-                    <p className="text-sm text-navy-light">{t.company}</p>
-                    <p className="text-xs text-accent-dark font-mono tracking-wider mt-2 uppercase">{t.context}</p>
-                  </figcaption>
-                </figure>
-              </StaggerItem>
-            ))}
-          </Stagger>
-        </div>
-      </section>
+      {/* Latest insights */}
+      <HomeLatestInsights />
 
       <FAQSection />
-
-      {/* Market pulse - pre-footer live band */}
-      <MarketPulse />
     </PageLayout>
   );
 }

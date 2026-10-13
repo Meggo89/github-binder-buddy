@@ -3,6 +3,7 @@ import type { Article } from './types';
 const article: Article = {
   slug: 'post-merger-integration-success',
   title: 'Post-Merger Integration Success Strategies',
+  metaTitle: 'Post-Merger Integration Strategies',
   excerpt:
     'Essential strategies for successful post-merger integration, focusing on culture, systems, and operational efficiency.',
   content: `

@@ -74,6 +74,9 @@
   .prose-article strong {
     @apply text-navy font-semibold;
   }
+  .prose-article a {
+    @apply text-navy underline decoration-accent/40 underline-offset-4 hover:text-accent-dark;
+  }
   /* Tables scroll sideways on narrow screens rather than squashing their columns. */
   .prose-article table {
     @apply block w-full overflow-x-auto my-8 text-sm md:text-base border-collapse;

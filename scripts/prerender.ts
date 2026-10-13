@@ -158,8 +158,8 @@ async function run() {
   // like every other page's, so it is emitted once and adopted by Helmet on hydration.
   const articleInputs: PatchInput[] = articles.map((a) => ({
     path: `/insights/${a.slug}`,
-    title: a.title,
-    description: a.excerpt,
+    title: a.metaTitle ?? a.title,
+    description: a.metaDescription ?? a.excerpt,
     ogType: 'article',
     ogImage: a.image,
   }));

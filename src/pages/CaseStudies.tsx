@@ -153,7 +153,7 @@ function Hero() {
         Real outcomes for real founders.
       </h1>
       <p className="text-body-lg text-sand-light max-w-2xl leading-relaxed">
-        From seed raises to full exits across ten sectors. A selection of transactions we have led or are currently
+        From seed raises to full exits across six sectors. A selection of transactions we have led or are currently
         leading.
       </p>
     </div>
@@ -164,8 +164,8 @@ export default function CaseStudies() {
   return (
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="Our Work: Selected Transactions"
-        description="Real outcomes for real founders. Exit advisory, M&A transactions, and capital raises led by Mastella Advisory across ten sectors."
+        title="Our Work: Selected M&A Transactions"
+        description="Real outcomes for real founders. Exit advisory, M&A transactions, and capital raises led by Mastella Advisory across six sectors."
         canonical="https://mastellagroup.com/case-studies/"
       />
 
@@ -176,7 +176,7 @@ export default function CaseStudies() {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
               {[
                 { stat: '£500m+', label: 'Transaction value advised on' },
-                { stat: '10', label: 'Sectors covered' },
+                { stat: '6', label: 'Sectors covered' },
                 { stat: '95%', label: 'Client retention' },
               ].map((item) => (
                 <div key={item.label} className="text-center">
@@ -248,7 +248,7 @@ export default function CaseStudies() {
                 Every transaction starts with a conversation. Let us understand your goals and tell you what is possible.
               </p>
               <Link
-                to="/contact"
+                to="/contact/"
                 className="inline-flex items-center gap-2 bg-accent text-navy-deepest px-7 py-3.5 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:-translate-y-0.5"
               >
                 Arrange a confidential conversation

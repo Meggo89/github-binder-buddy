@@ -9,7 +9,7 @@ import type { ServiceLanding } from "./types";
 export const EXIT_READINESS_ASSESSMENT: ServiceLanding = {
   slug: "exit-readiness-assessment",
   name: "Exit Readiness Assessment",
-  title: "Exit Readiness Assessment UK | Fixed-Fee Review | Mastella Advisory",
+  title: "Exit Readiness Assessment UK | Mastella Advisory",
   metaDescription:
     "Fixed-fee exit readiness assessment for UK owner-managed businesses. 29 buyer measures, verified against your data and senior team. Report in ten working days.",
   h1: "Exit Readiness Assessment",

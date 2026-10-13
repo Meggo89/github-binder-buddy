@@ -59,7 +59,7 @@ export function WhatWeDo() {
             </p>
             <div className="text-center mt-10">
               <Link
-                to="/contact"
+                to="/contact/"
                 className="inline-flex items-center gap-2 bg-navy text-white px-7 py-3.5 rounded-md font-semibold tracking-wide hover:bg-navy-light transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg"
               >
                 Arrange a confidential conversation

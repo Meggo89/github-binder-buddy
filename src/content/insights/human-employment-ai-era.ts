@@ -3,8 +3,11 @@ import type { Article } from './types';
 const article: Article = {
   slug: 'human-employment-ai-era',
   title: 'Human Employment: The Next Frontier of Responsible Investing in the AI Era',
+  metaTitle: 'AI, Jobs and Responsible Investing',
   excerpt:
     'As AI transforms industries, responsible investing must evolve to include a commitment to sustaining human employment, not as nostalgia, but as a strategic imperative for long-term value creation.',
+  metaDescription:
+    'As AI changes industries, responsible investing should include a commitment to sustaining human employment as a strategic source of long-term value.',
   content: `
       <h2><strong>Human Employment: The Next Frontier of Responsible Investing in the AI Era</strong></h2>
 

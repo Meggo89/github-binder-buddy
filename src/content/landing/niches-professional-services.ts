@@ -255,7 +255,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     pillarSlug: "professional-services",
     name: "Surveying & property advisory",
     nameLower: "surveying and property advisory",
-    title: "Surveying & Property Advisory M&A Advisor UK | Mastella",
+    title: "Surveying & Property Firm M&A Advisor UK | Mastella Advisory",
     metaDescription:
       "Selling a UK surveying or property advisory firm worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential sale for partner-led practices.",
     h1: "Selling a surveying or property advisory firm in the UK",
@@ -335,7 +335,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     pillarSlug: "professional-services",
     name: "Insolvency & restructuring",
     nameLower: "insolvency and restructuring",
-    title: "Insolvency & Restructuring M&A Advisor UK | Mastella",
+    title: "Insolvency & Restructuring M&A Advisor | Mastella Advisory",
     metaDescription:
       "Selling a UK insolvency or restructuring practice worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential sale process.",
     h1: "Selling an insolvency or restructuring practice in the UK",

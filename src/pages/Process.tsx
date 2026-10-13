@@ -26,7 +26,7 @@ export default function Process() {
     <PageLayout hero={<Hero />} heroTone="ink" mainClassName="">
       <SEO
         title="How We Source Buyers"
-        description="How we source buyers other advisors don't reach. Six-stage senior-led M&A process for founder-led businesses worth £5M to £50M across the UK and internationally."
+        description="How we source buyers other advisors don't reach. Six-stage senior-led M&A process for founder-led businesses worth £5M to £50M in the UK and internationally."
         canonical="https://mastellagroup.com/process/"
       />
 
@@ -149,7 +149,7 @@ export default function Process() {
                 like for your specific business and where the leverage points are.
               </p>
               <Link
-                to="/contact"
+                to="/contact/"
                 className="inline-flex items-center gap-2 bg-accent text-navy-deepest px-7 py-3.5 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-accent/20"
               >
                 Arrange a confidential conversation

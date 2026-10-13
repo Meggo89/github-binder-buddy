@@ -5,6 +5,8 @@ import { PageLayout } from '../components/layout';
 import { FadeIn } from '../components/ui/motion';
 import { submitNetlifyForm, notifyContactEnquiry } from '../utils/netlifyForms';
 import { getFirstTouch } from '../utils/firstTouch';
+import { checkLead, honeypotFilled, HONEYPOT_FIELD } from '../utils/formGuards';
+import { trackLead } from '../utils/analytics';
 
 type FormData = {
   name: string;
@@ -46,30 +48,6 @@ const HEARD_VIA_OPTIONS = [
 // probes usually POST within milliseconds of mount.
 const MIN_HUMAN_SECONDS = 3;
 
-// Signals that a name or message field is being used as a SQL injection
-// probe rather than a real enquiry. Kept short and in one place so it is
-// easy to revise as the bots evolve. Case-insensitive match.
-//
-// These patterns must be narrow. An earlier version matched a bare `--`,
-// which occurs constantly in ordinary business writing ("a sale -- probably
-// next year", "2024--2025", an email sign-off), and matched `ORDER BY` in
-// plain English ("we need to order by Friday"). Each pattern below requires
-// SQL punctuation, not just SQL-adjacent words, so real enquiries cannot
-// trip it.
-const SQL_PROBE_PATTERNS = [
-  /\bORDER\s+BY\s+\d/i,          // "ORDER BY 1-- -", not "order by Friday"
-  /\bUNION\s+(ALL\s+)?SELECT\b/i,
-  /['")]\s*(--|#)/,               // comment marker straight after a quote or bracket
-  /['")]\s*(AND|OR)\s*[('"]/i,    // ") AND (" probe shape
-  /\b(\d+)\s*=\s*\1\b/,         // 1=1, 59225532=59225532
-  /\bSLEEP\s*\(/i,
-  /\bWAITFOR\s+DELAY\b/i,
-];
-
-function looksLikeSqlProbe(text: string): boolean {
-  return SQL_PROBE_PATTERNS.some((re) => re.test(text));
-}
-
 function Hero() {
   return (
     <div className="max-w-3xl">
@@ -97,6 +75,7 @@ export default function Contact() {
   const [formData, setFormData] = useState<FormData>(initialFormData);
   const [status, setStatus] = useState<Status>('idle');
   const [errorMessage, setErrorMessage] = useState('');
+  const [honeypot, setHoneypot] = useState('');
   const mountedAt = useRef<number>(0);
   const formRef = useRef<HTMLFormElement>(null);
 
@@ -124,25 +103,28 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (!formData.name || !formData.email || !formData.message) {
+    const check = checkLead({
+      name: formData.name,
+      email: formData.email,
+      company: formData.company,
+      phone: formData.phone,
+      message: formData.message,
+    });
+    if (check === 'missing' || !formData.message.trim()) {
       setStatus('error');
       setErrorMessage('Please add your name, email and a short message.');
       return;
     }
 
-    // Silent rejects: pretend to succeed in the UI, but do not POST.
-    // Bots looking for form confirmation see success and go away.
+    // Silent rejects: show success, but POST nothing, send no email and record no lead. Bots
+    // looking for a confirmation see one and move on. Covers the honeypot, submissions made
+    // faster than a person could type, and fields carrying SQL probes.
     const elapsedSeconds = (Date.now() - mountedAt.current) / 1000;
-    if (elapsedSeconds < MIN_HUMAN_SECONDS) {
+    if (honeypotFilled(honeypot) || elapsedSeconds < MIN_HUMAN_SECONDS || check === 'probe') {
       setStatus('success');
       setFormData(initialFormData);
       return;
     }
-    // A content heuristic must never silently bin an enquiry. If the text
-    // looks like a probe we still store it in Netlify Forms, which costs
-    // nothing, and only skip the email notification. Nothing is ever lost.
-    const looksAutomated =
-      looksLikeSqlProbe(formData.name) || looksLikeSqlProbe(formData.message);
 
     setStatus('submitting');
     setErrorMessage('');
@@ -150,14 +132,12 @@ export default function Contact() {
     try {
       const firstTouch = getFirstTouch();
       await submitNetlifyForm('contact', { ...formData, first_touch: firstTouch });
-      // Redundant email notification. Fire-and-forget; the Netlify Forms
-      // POST above already stored the submission, so a failure here never
-      // costs us the enquiry. Skipped for submissions that look automated,
-      // which keeps the inbox clean without ever discarding anything.
-      if (!looksAutomated) {
-        notifyContactEnquiry({ ...formData, heardVia: formData.heard_via, firstTouch });
-      }
+      // Redundant email notification. Fire-and-forget; the Netlify Forms POST above already
+      // stored the submission, so a failure here never costs us the enquiry.
+      notifyContactEnquiry({ ...formData, heardVia: formData.heard_via, firstTouch });
+      // Only now, after Netlify has accepted the submission, does it count as a lead.
       trackFormSubmit();
+      trackLead('contact');
       setStatus('success');
       setFormData(initialFormData);
     } catch (err) {
@@ -170,7 +150,7 @@ export default function Contact() {
   return (
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
-        title="Contact Mastella Advisory: Arrange a Confidential Conversation"
+        title="Arrange a Confidential Conversation | Mastella Advisory"
         description="Get in touch with Mastella Advisory for a confidential, no-obligation first conversation about selling your business, its value or raising capital."
         canonical="https://mastellagroup.com/contact/"
       />
@@ -263,7 +243,14 @@ export default function Contact() {
                       <input type="hidden" name="form-name" value="contact" />
                       <p className="hidden">
                         <label>
-                          Don&apos;t fill this out if you&apos;re human: <input name="bot-field" />
+                          Don&apos;t fill this out if you&apos;re human:{' '}
+                          <input
+                            name={HONEYPOT_FIELD}
+                            value={honeypot}
+                            onChange={(e) => setHoneypot(e.target.value)}
+                            tabIndex={-1}
+                            autoComplete="off"
+                          />
                         </label>
                       </p>
 

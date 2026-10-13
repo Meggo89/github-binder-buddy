@@ -3,8 +3,11 @@ import type { Article } from './types';
 const article: Article = {
   slug: '12-months-before-you-sell',
   title: '12 Months Before You Sell: The Preparation That Actually Moves the Number',
+  metaTitle: '12 Months Before You Sell: What to Fix',
   excerpt:
     'The pre-sale readiness work that most consistently changes the outcome for UK lower mid-market owners. Financial hygiene, customer concentration, key-person risk, IP, working capital, management depth, contract review. In practical order.',
+  metaDescription:
+    'The pre-sale work that most changes the outcome for UK owners: financial hygiene, customer concentration, key-person risk, IP, working capital and contracts.',
   content: `
       <p><em>Advised by Leo Meggitt, Managing Director, Mastella Advisory. Last updated August 2026.</em></p>
 

@@ -1,6 +1,7 @@
 import type { Handler } from '@netlify/functions';
 import { createDraft, graphConfigured, graphToken } from '../lib/graph';
 import { buildReply, parseAnswers } from '../lib/score-reply';
+import { checkLead, honeypotFilled } from '../../src/utils/formGuards';
 
 // Netlify runs a function named `submission-created` for every form submission that passes its
 // spam filter (an event-triggered function; visitors cannot call it). For Exit Readiness Score
@@ -23,6 +24,10 @@ export const handler: Handler = async (event) => {
     const form = body.payload?.form_name;
     const data = body.payload?.data ?? {};
     if (form !== 'readiness-score') return { statusCode: 200, body: `ignored: ${form ?? 'unknown'} form` };
+
+    if (honeypotFilled(data['bot-field'])) return { statusCode: 200, body: 'skipped: honeypot' };
+    const check = checkLead({ name: data.name, email: data.email, company: data.company, phone: data.phone, note: data.note });
+    if (check !== 'ok') return { statusCode: 200, body: `skipped: ${check}` };
 
     const email = (data.email || '').trim();
     if (!EMAIL_RE.test(email) || email.length > 254) return { statusCode: 200, body: 'skipped: no valid email' };

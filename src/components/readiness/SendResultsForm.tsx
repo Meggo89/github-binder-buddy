@@ -2,6 +2,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import { CheckCircle, Loader2 } from 'lucide-react';
 import { submitNetlifyForm, notifyContactEnquiry } from '../../utils/netlifyForms';
 import { getFirstTouch } from '../../utils/firstTouch';
+import { checkLead, honeypotFilled, HONEYPOT_FIELD } from '../../utils/formGuards';
+import { trackLead } from '../../utils/analytics';
 import type { Answer, ReadinessResult } from '../../content/readiness/score';
 import { summarise } from './format';
 
@@ -24,6 +26,7 @@ function answersJson(result: ReadinessResult, answers: Record<string, Answer | u
 export function SendResultsForm({ result, answers }: { result: ReadinessResult; answers: Record<string, Answer | undefined> }) {
   const [form, setForm] = useState({ name: '', email: '', company: '', phone: '', note: '' });
   const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
+  const [honeypot, setHoneypot] = useState('');
   const mountedAt = useRef(0);
   useEffect(() => {
     mountedAt.current = Date.now();
@@ -34,11 +37,14 @@ export function SendResultsForm({ result, answers }: { result: ReadinessResult; 
 
   const submit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!form.name || !form.email) {
+    const check = checkLead({ name: form.name, email: form.email, company: form.company, phone: form.phone, note: form.note });
+    if (check === 'missing') {
       setStatus('error');
       return;
     }
-    if ((Date.now() - mountedAt.current) / 1000 < MIN_HUMAN_SECONDS) {
+    // Silent rejects, as on the contact form: show success, send nothing, record no lead.
+    const tooFast = (Date.now() - mountedAt.current) / 1000 < MIN_HUMAN_SECONDS;
+    if (honeypotFilled(honeypot) || tooFast || check === 'probe') {
       setStatus('sent');
       return;
     }
@@ -70,6 +76,7 @@ export function SendResultsForm({ result, answers }: { result: ReadinessResult; 
       if (typeof window !== 'undefined' && window.gtag) {
         window.gtag('event', 'readiness_score_sent', { score: result.overall ?? 0 });
       }
+      trackLead('readiness-score');
       setStatus('sent');
     } catch {
       setStatus('error');
@@ -97,7 +104,14 @@ export function SendResultsForm({ result, answers }: { result: ReadinessResult; 
         <input type="hidden" name="form-name" value="readiness-score" />
         <p className="hidden">
           <label>
-            Don&apos;t fill this out if you&apos;re human: <input name="bot-field" />
+            Don&apos;t fill this out if you&apos;re human:{' '}
+            <input
+              name={HONEYPOT_FIELD}
+              value={honeypot}
+              onChange={(e) => setHoneypot(e.target.value)}
+              tabIndex={-1}
+              autoComplete="off"
+            />
           </label>
         </p>
         {status === 'error' && (

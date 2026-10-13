@@ -3,6 +3,7 @@ import type { Article } from './types';
 const article: Article = {
   slug: 'future-of-ma-technology-sector',
   title: 'The Future of M&A in the Technology Sector',
+  metaTitle: 'The Future of M&A in the Tech Sector',
   excerpt:
     'An analysis of emerging trends and opportunities in technology sector M&A, including AI integration, cloud services, and cybersecurity considerations.',
   content: `

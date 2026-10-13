@@ -3,7 +3,8 @@ import { useParams, Link, Navigate } from 'react-router-dom';
 import { ArrowLeft, Calendar, Clock, User } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { PageLayout } from '../components/layout';
-import { getArticle, articles } from '../content/insights';
+import { getArticle, articles, INSIGHT_LINKS, type Article } from '../content/insights';
+import { getSector } from '../content/landing';
 import { FadeIn } from '../components/ui/motion';
 import { SITE } from '../seo/site-meta';
 
@@ -12,7 +13,7 @@ export default function InsightArticle() {
   const article = getArticle(slug);
 
   if (!article) {
-    return <Navigate to="/insights" replace />;
+    return <Navigate to="/insights/" replace />;
   }
 
   const canonical = `https://mastellagroup.com/insights/${article.slug}/`;
@@ -48,11 +49,15 @@ export default function InsightArticle() {
       }
     : null;
 
-  const related = articles.filter((a) => a.slug !== article.slug).slice(0, 2);
+  const links = INSIGHT_LINKS[article.slug];
+  const pillar = getSector(links?.pillarSlug ?? 'business-services');
+  const related = (links?.related ?? articles.filter((a) => a.slug !== article.slug).slice(0, 3).map((a) => a.slug))
+    .map((s) => getArticle(s))
+    .filter((a): a is Article => Boolean(a));
 
   return (
     <PageLayout heroTone="solid" mainClassName="">
-      <SEO title={article.title} description={article.excerpt} canonical={canonical} type="article" image={article.image} />
+      <SEO title={article.metaTitle ?? article.title} description={article.metaDescription ?? article.excerpt} canonical={canonical} type="article" image={article.image} />
       <Helmet>
         <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
         {faqSchema && (
@@ -67,7 +72,7 @@ export default function InsightArticle() {
             <FadeIn>
               <div className="max-w-3xl mx-auto">
                 <Link
-                  to="/insights"
+                  to="/insights/"
                   className="inline-flex items-center gap-2 text-sand-light hover:text-accent transition-colors mb-10 text-sm"
                 >
                   <ArrowLeft className="h-4 w-4" />
@@ -101,6 +106,22 @@ export default function InsightArticle() {
                   className="prose-article"
                   dangerouslySetInnerHTML={{ __html: article.content }}
                 />
+
+                <div className="prose-article">
+                  <p>
+                    If you are considering a sale, our{' '}
+                    <Link to="/services/m-and-a-advisor-uk/">M&amp;A adviser service for UK founder-led businesses</Link>{' '}
+                    explains how we run the process.
+                    {pillar && (
+                      <>
+                        {' '}For the buyers active in one market, see{' '}
+                        <Link to={`/sectors/${pillar.slug}/`}>{pillar.name.toLowerCase()} M&amp;A</Link>.
+                      </>
+                    )}{' '}
+                    To see how a buyer would rate your business today, take the free{' '}
+                    <Link to="/exit-readiness-score/">Exit Readiness Score</Link>: eleven questions, about three minutes.
+                  </p>
+                </div>
               </div>
             </FadeIn>
           </div>
@@ -111,13 +132,13 @@ export default function InsightArticle() {
       {related.length > 0 && (
         <section className="bg-sand-light py-20 border-t border-navy/5">
           <div className="container mx-auto px-6">
-            <div className="max-w-4xl mx-auto">
-              <p className="eyebrow text-navy-light mb-8">Continue reading</p>
-              <div className="grid md:grid-cols-2 gap-6">
+            <div className="max-w-5xl mx-auto">
+              <h2 className="eyebrow text-navy-light mb-8">Related insights</h2>
+              <div className="grid md:grid-cols-3 gap-6">
                 {related.map((r) => (
                   <Link
                     key={r.slug}
-                    to={`/insights/${r.slug}`}
+                    to={`/insights/${r.slug}/`}
                     className="group bg-white rounded-xl p-6 border border-navy/10 hover:border-accent/40 hover:shadow-lg transition-all"
                   >
                     <span className="font-mono text-xs text-accent-dark tracking-widest uppercase">{r.category}</span>
