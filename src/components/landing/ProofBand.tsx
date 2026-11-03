@@ -5,7 +5,7 @@ import { FadeIn } from '../ui/motion';
 // Case studies stats). Numbers are pulled once from here.
 const PROOF_STATS = [
   { stat: '15+', label: 'Years in M&A' },
-  { stat: '£500m+', label: 'Transaction value advised on' },
+  { stat: '£800m+', label: 'Transaction value advised on' },
   { stat: '6', label: 'Sectors' },
 ];
 

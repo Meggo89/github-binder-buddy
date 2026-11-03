@@ -21,7 +21,7 @@ const managingDirector = {
   title: 'Managing Director',
   image: leoMeggitt,
   description:
-    '15 years in M&A. Has advised on over £500m of transactions across multiple sectors. Built and scaled businesses across recruitment, corporate finance and interim management before founding Mastella.',
+    '15 years in M&A. Has advised on over £800m of transactions across multiple sectors. Built and scaled businesses across recruitment, corporate finance and interim management before founding Mastella.',
 };
 
 const matchingSteps = [
