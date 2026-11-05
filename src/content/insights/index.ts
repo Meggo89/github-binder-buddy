@@ -1,3 +1,9 @@
+import badrChangesApril2027ShouldYouSellBefore from './badr-changes-april-2027-should-you-sell-before';
+import foundersRelief2027WhoQualifies from './founders-relief-2027-who-qualifies';
+import earnOutsExplainedUk from './earn-outs-explained-uk';
+import headsOfTermsWhatIsBinding from './heads-of-terms-what-is-binding';
+import ebitdaAddBacksBuyersAccept from './ebitda-add-backs-buyers-accept';
+import warrantiesIndemnitiesBusinessSale from './warranties-indemnities-business-sale';
 import ukSearchFundsExplained from './uk-search-funds-explained';
 import searchFundVsPeVsStrategic from './search-fund-vs-private-equity-vs-strategic';
 import rolloverEquityExplained from './rollover-equity-explained';
@@ -14,9 +20,15 @@ import type { Article } from './types';
 export type { Article };
 export { INSIGHT_LINKS } from './related';
 
-// Display order: newest first. Five new pillar articles published August 2026
-// sit ahead of the earlier long-form pieces.
+// Display order: newest first. Six articles published November 2026 lead, then the five
+// pillar articles from August 2026, then the earlier long-form pieces.
 export const articles: Article[] = [
+  badrChangesApril2027ShouldYouSellBefore,
+  foundersRelief2027WhoQualifies,
+  earnOutsExplainedUk,
+  headsOfTermsWhatIsBinding,
+  ebitdaAddBacksBuyersAccept,
+  warrantiesIndemnitiesBusinessSale,
   ukSearchFundsExplained,
   searchFundVsPeVsStrategic,
   rolloverEquityExplained,

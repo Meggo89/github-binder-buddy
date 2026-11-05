@@ -6,6 +6,8 @@ export type Article = {
   // Optional: shorter <title> for search results when `title` (also the H1) runs past 60
   // characters with the brand suffix. Falls back to `title`.
   metaTitle?: string;
+  // Optional: the exact <title>, used as written with no brand suffix. Wins over `metaTitle`.
+  titleTag?: string;
   excerpt: string;
   // Optional: meta description when `excerpt` (also the card text) runs past 160 characters.
   // Falls back to `excerpt`.

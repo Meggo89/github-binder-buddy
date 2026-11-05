@@ -71,6 +71,15 @@
   .prose-article ul {
     @apply list-disc pl-6 my-5 space-y-2;
   }
+  .prose-article ol {
+    @apply list-decimal pl-6 my-5 space-y-2;
+  }
+  .prose-article li {
+    @apply text-base md:text-lg;
+  }
+  .prose-article .source-note {
+    @apply mt-10 pt-4 border-t border-navy/10 text-sm text-navy-light/80 leading-relaxed;
+  }
   .prose-article strong {
     @apply text-navy font-semibold;
   }
