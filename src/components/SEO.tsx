@@ -7,6 +7,8 @@ interface SEOProps {
   canonical?: string;
   type?: string;
   image?: string;
+  // Use `title` exactly as given, without the " | Mastella Advisory" suffix.
+  exactTitle?: boolean;
 }
 
 export function SEO({
@@ -15,8 +17,9 @@ export function SEO({
   canonical = SITE.domain,
   type = 'website',
   image = SITE.defaultOgImage,
+  exactTitle = false,
 }: SEOProps) {
-  const siteTitle = fullTitle(title);
+  const siteTitle = exactTitle ? title : fullTitle(title);
 
   return (
     <Helmet>

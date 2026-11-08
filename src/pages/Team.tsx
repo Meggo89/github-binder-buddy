@@ -81,6 +81,7 @@ function Hero() {
 export default function Team() {
   const personSchema = {
     '@type': 'Person',
+    '@id': `${SITE.domain}/team/#leo-meggitt`,
     name: LEAD_ADVISOR.name,
     jobTitle: LEAD_ADVISOR.title,
     worksFor: { '@id': `${SITE.domain}/#organization` },

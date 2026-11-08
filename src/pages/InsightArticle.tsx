@@ -18,6 +18,14 @@ export default function InsightArticle() {
 
   const canonical = `https://mastellagroup.com/insights/${article.slug}/`;
 
+  // Article dates are written for display ("5 November 2026"); schema.org wants ISO 8601.
+  const isoDate = (d: string) => {
+    const t = new Date(d);
+    if (Number.isNaN(t.getTime())) return d;
+    const pad = (n: number) => String(n).padStart(2, '0');
+    return `${t.getFullYear()}-${pad(t.getMonth() + 1)}-${pad(t.getDate())}`;
+  };
+
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -26,13 +34,14 @@ export default function InsightArticle() {
     image: article.image,
     author: {
       '@type': 'Person',
+      '@id': `${SITE.domain}/team/#leo-meggitt`,
       name: article.author,
       jobTitle: 'Managing Director',
       worksFor: { '@id': `${SITE.domain}/#organization` },
     },
     publisher: { '@id': `${SITE.domain}/#organization` },
-    datePublished: article.date,
-    dateModified: article.dateModified ?? article.date,
+    datePublished: isoDate(article.date),
+    dateModified: isoDate(article.dateModified ?? article.date),
     mainEntityOfPage: canonical,
     articleSection: article.category,
   };
@@ -57,7 +66,7 @@ export default function InsightArticle() {
 
   return (
     <PageLayout heroTone="solid" mainClassName="">
-      <SEO title={article.metaTitle ?? article.title} description={article.metaDescription ?? article.excerpt} canonical={canonical} type="article" image={article.image} />
+      <SEO title={article.titleTag ?? article.metaTitle ?? article.title} exactTitle={Boolean(article.titleTag)} description={article.metaDescription ?? article.excerpt} canonical={canonical} type="article" image={article.image} />
       <Helmet>
         <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
         {faqSchema && (

@@ -26,6 +26,8 @@ type PatchInput = {
   description: string;
   ogType?: string;
   ogImage?: string;
+  // Use `title` exactly as given, without the brand suffix (articles with a `titleTag`).
+  exactTitle?: boolean;
   // Any number of JSON-LD schema strings to inject before </head>. Each is
   // wrapped in its own <script type="application/ld+json"> block.
 };
@@ -37,7 +39,7 @@ function escapeAttr(s: string): string {
 }
 
 function patchHead(shell: string, m: PatchInput): string {
-  const title = fullTitle(m.title);
+  const title = m.exactTitle ? m.title : fullTitle(m.title);
   const canonical = canonicalFor(m.path);
   const description = m.description;
   const ogImage = m.ogImage || SITE.defaultOgImage;
@@ -158,7 +160,8 @@ async function run() {
   // like every other page's, so it is emitted once and adopted by Helmet on hydration.
   const articleInputs: PatchInput[] = articles.map((a) => ({
     path: `/insights/${a.slug}`,
-    title: a.metaTitle ?? a.title,
+    title: a.titleTag ?? a.metaTitle ?? a.title,
+    exactTitle: Boolean(a.titleTag),
     description: a.metaDescription ?? a.excerpt,
     ogType: 'article',
     ogImage: a.image,
