@@ -67,7 +67,7 @@ export function TypedHeroTagline() {
         {PHRASES[pi].slice(0, cc)}
         <span
           aria-hidden="true"
-          className="inline-block w-[4px] align-text-bottom ml-1 bg-accent animate-pulse"
+          className="inline-block w-[4px] align-text-bottom ml-1 bg-bronze animate-pulse"
           style={{ height: '0.85em' }}
         />
       </span>
