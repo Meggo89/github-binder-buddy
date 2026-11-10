@@ -10,7 +10,9 @@ interface StaggerProps {
 }
 
 export function Stagger({ children, className, delay = 0, step = 0.08, as = 'div' }: StaggerProps) {
-  const reduce = useReducedMotion();
+  useReducedMotion();
+  // Animations are off site-wide: content is simply there when the page loads.
+  const reduce = true;
   const Component = motion[as];
 
   if (reduce) {
@@ -42,7 +44,9 @@ interface StaggerItemProps {
 }
 
 export function StaggerItem({ children, className, y = 18, as = 'div' }: StaggerItemProps) {
-  const reduce = useReducedMotion();
+  useReducedMotion();
+  // Animations are off site-wide: content is simply there when the page loads.
+  const reduce = true;
   const Component = motion[as];
 
   if (reduce) {

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
-import mastellaLogo from '../../assets/mastella-logo.png';
+import mastellaLogo from '../../assets/mastella-logo-navy.png';
 
 type NavLink = { to: string; label: string };
 
@@ -37,7 +37,7 @@ function MobileNav({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }
         role="dialog"
         aria-label="Navigation menu"
         aria-modal="true"
-        className={`fixed inset-y-0 right-0 w-full max-w-sm bg-navy-deepest z-50 transform transition-transform duration-300 ease-out ${
+        className={`keep-dark fixed inset-y-0 right-0 w-full max-w-sm bg-navy-deepest z-50 transform transition-transform duration-300 ease-out ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
@@ -89,7 +89,7 @@ export function Navigation() {
     <>
       <nav className="container mx-auto px-6 py-5 flex items-center justify-between relative z-20">
         <Link to="/" className="flex items-center" aria-label="Mastella Advisory: home">
-          <img src={mastellaLogo} alt="Mastella Advisory" className="h-24 md:h-28 w-auto" />
+          <img src={mastellaLogo} alt="Mastella Advisory" className="h-14 md:h-16 w-auto" />
         </Link>
         <div className="hidden md:flex space-x-7 items-center">
           {NAV_LINKS.map((link) => {
@@ -106,6 +106,9 @@ export function Navigation() {
               </Link>
             );
           })}
+          <a href="tel:+447860107704" className="text-sm font-medium text-navy hover:text-accent-dark transition-colors whitespace-nowrap">
+            +44 (0) 7860 107704
+          </a>
           {!onContactPage && (
             <Link
               to="/contact/"

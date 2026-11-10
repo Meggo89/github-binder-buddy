@@ -5,9 +5,9 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
-        serif: ['"Playfair Display"', 'Georgia', 'Cambria', '"Times New Roman"', 'serif'],
+        serif: ['Newsreader', 'Georgia', 'Cambria', '"Times New Roman"', 'serif'],
         mono: ['"JetBrains Mono"', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'monospace'],
-        display: ['"Playfair Display"', 'Georgia', 'serif'],
+        display: ['Newsreader', 'Georgia', 'serif'],
       },
       colors: {
         navy: {
@@ -16,15 +16,22 @@ export default {
           dark: '#061830',
           deepest: '#050E1F',
         },
+        // Warm paper tones: the default page background and alternate panels.
+        paper: {
+          DEFAULT: '#FAF7F2',
+          deep: '#F2EDE4',
+        },
+        bronze: '#8A6D1A',
         sand: {
           DEFAULT: '#D4C5B2',
-          light: '#E5DCD1',
+          light: '#F2EDE4',
           dark: '#B8A99A',
         },
         accent: {
           DEFAULT: '#C9A227',
           light: '#D4B545',
-          dark: '#A88A1F',
+          // Dark enough to read as text on paper and white (the lighter golds are for dark grounds).
+          dark: '#8A6D1A',
         },
         ink: {
           DEFAULT: '#0F1419',
@@ -54,8 +61,8 @@ export default {
         'heading-lg': ['2rem', { lineHeight: '1.2', letterSpacing: '-0.01em' }],
         'heading-md': ['1.5rem', { lineHeight: '1.3' }],
         'heading-sm': ['1.25rem', { lineHeight: '1.35' }],
-        'body-lg': ['1.125rem', { lineHeight: '1.6' }],
-        'body-md': ['1rem', { lineHeight: '1.65' }],
+        'body-lg': ['1.1875rem', { lineHeight: '1.65' }],
+        'body-md': ['1.0625rem', { lineHeight: '1.7' }],
         'body-sm': ['0.875rem', { lineHeight: '1.6' }],
         'caption': ['0.75rem', { lineHeight: '1.5', letterSpacing: '0.04em' }],
       },

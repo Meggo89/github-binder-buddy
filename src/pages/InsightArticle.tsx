@@ -82,7 +82,7 @@ export default function InsightArticle() {
               <div className="max-w-3xl mx-auto">
                 <Link
                   to="/insights/"
-                  className="inline-flex items-center gap-2 text-sand-light hover:text-accent transition-colors mb-10 text-sm"
+                  className="flex w-fit items-center gap-2 text-sand-light hover:text-accent transition-colors mb-10 text-sm"
                 >
                   <ArrowLeft className="h-4 w-4" />
                   Back to insights
