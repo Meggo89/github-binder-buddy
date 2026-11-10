@@ -8,6 +8,10 @@ export type InsightLinks = {
 };
 
 export const INSIGHT_LINKS: Record<string, InsightLinks> = {
+  'engineering-technical-services-ma-2026': {
+    pillarSlug: 'light-industrials',
+    related: ['12-months-before-you-sell', 'earn-outs-explained-uk', 'badr-changes-april-2027-should-you-sell-before'],
+  },
   'badr-changes-april-2027-should-you-sell-before': {
     pillarSlug: 'business-services',
     related: ['founders-relief-2027-who-qualifies', '12-months-before-you-sell', 'accountant-valuation-vs-market-valuation'],

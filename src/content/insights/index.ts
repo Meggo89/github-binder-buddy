@@ -1,3 +1,4 @@
+import engineeringTechnicalServicesMa2026 from './engineering-technical-services-ma-2026';
 import badrChangesApril2027ShouldYouSellBefore from './badr-changes-april-2027-should-you-sell-before';
 import foundersRelief2027WhoQualifies from './founders-relief-2027-who-qualifies';
 import earnOutsExplainedUk from './earn-outs-explained-uk';
@@ -23,6 +24,7 @@ export { INSIGHT_LINKS } from './related';
 // Display order: newest first. Six articles published November 2026 lead, then the five
 // pillar articles from August 2026, then the earlier long-form pieces.
 export const articles: Article[] = [
+  engineeringTechnicalServicesMa2026,
   badrChangesApril2027ShouldYouSellBefore,
   foundersRelief2027WhoQualifies,
   earnOutsExplainedUk,

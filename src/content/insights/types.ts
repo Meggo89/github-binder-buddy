@@ -8,6 +8,12 @@ export type Article = {
   metaTitle?: string;
   // Optional: the exact <title>, used as written with no brand suffix. Wins over `metaTitle`.
   titleTag?: string;
+  // Optional: an intro line shown under the H1 in the article header.
+  standfirst?: string;
+  // Optional: a downloadable version of the article, linked under the standfirst.
+  download?: { href: string; label: string };
+  // Optional: value of the hidden `report` field on the buyer-list form placed in this article.
+  formReportId?: string;
   excerpt: string;
   // Optional: meta description when `excerpt` (also the card text) runs past 160 characters.
   // Falls back to `excerpt`.
