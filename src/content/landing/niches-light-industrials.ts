@@ -169,6 +169,10 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
   },
   {
     slug: "engineering-services",
+    reportCallout: {
+      label: "2026 report: who is buying UK engineering and technical services businesses",
+      href: "/insights/engineering-technical-services-ma-2026/",
+    },
     pillarSlug: "light-industrials",
     name: "Engineering services",
     nameLower: "engineering services",

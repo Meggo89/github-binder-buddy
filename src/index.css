@@ -205,3 +205,21 @@ main .keep-dark :is(.blur-3xl, .blur-2xl) { display: block; }
 /* Text that sits on an element which is itself navy (a bar, a tile, a badge) keeps its light colour. */
 :is(.paper-scope, main section:is(.bg-navy-deepest, .bg-navy-dark, .bg-navy, .bg-ink):not(.keep-dark), main header.bg-navy-deepest:not(.keep-dark))
   :is(.bg-navy, .bg-navy-light):is(.text-white, .text-sand, .text-sand-light) { color: #E5DCD1; }
+
+/* Sector reports: contents list, data table, sources, main call to action and related box. */
+.prose-article h2[id], .prose-article h3[id] { scroll-margin-top: 2rem; }
+.prose-article .report-toc { @apply my-10 rounded-xl border border-navy/10 bg-sand-light p-6; }
+.prose-article .report-toc-label { @apply my-0 mb-3 font-mono text-xs uppercase tracking-[0.14em] text-bronze; }
+.prose-article .report-toc ol { @apply list-decimal pl-6 my-0 space-y-1.5; }
+.prose-article .report-toc a { @apply no-underline hover:underline; }
+.prose-article .report-table { @apply my-8 overflow-x-auto; }
+.prose-article .report-table table { @apply table w-full min-w-[40rem] my-0; }
+.prose-article .report-cta {
+  @apply inline-block my-1 rounded-md bg-navy px-5 py-2.5 font-semibold text-white no-underline hover:bg-navy-light;
+}
+.prose-article .report-cta-secondary { @apply text-base; }
+.prose-article .report-related { @apply my-10 rounded-xl border border-navy/10 bg-white p-6; }
+.prose-article .report-related-label { @apply my-0 mb-3 font-mono text-xs uppercase tracking-[0.14em] text-bronze; }
+.prose-article .report-related ul { @apply my-0; }
+.prose-article .report-sources ul { @apply text-sm space-y-1.5; }
+.prose-article .report-sources li { @apply text-sm leading-relaxed; }

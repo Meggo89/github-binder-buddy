@@ -82,6 +82,8 @@ export type NicheLanding = {
   // the broader recruitment-agencies page).
   subSections?: SubSectionTodo[];
   caseStudyAnchor?: CaseStudyAnchor;
+  // Optional callout linking to a sector report in Insights.
+  reportCallout?: { label: string; href: string };
 };
 
 // ----- Service / intent pages -----

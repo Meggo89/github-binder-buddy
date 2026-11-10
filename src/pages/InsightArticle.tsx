@@ -1,12 +1,14 @@
+import { Fragment } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useParams, Link, Navigate } from 'react-router-dom';
-import { ArrowLeft, Calendar, Clock, User } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, Download, User } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { PageLayout } from '../components/layout';
 import { getArticle, articles, INSIGHT_LINKS, type Article } from '../content/insights';
 import { getSector } from '../content/landing';
 import { FadeIn } from '../components/ui/motion';
 import { SITE } from '../seo/site-meta';
+import { BuyerListForm } from '../components/forms/BuyerListForm';
 
 export default function InsightArticle() {
   const { slug } = useParams<{ slug: string }>();
@@ -93,6 +95,18 @@ export default function InsightArticle() {
                 <h1 className="font-serif text-display-md md:text-display-lg leading-[1.1] mb-8 text-balance text-white">
                   {article.title}
                 </h1>
+                {article.standfirst && (
+                  <p className="text-lg md:text-xl text-sand-light leading-relaxed mb-6 max-w-2xl">{article.standfirst}</p>
+                )}
+                {article.download && (
+                  <a
+                    href={article.download.href}
+                    className="inline-flex items-center gap-2 text-sm font-semibold text-accent hover:text-accent-light underline underline-offset-4 mb-8"
+                  >
+                    <Download className="h-4 w-4" />
+                    {article.download.label}
+                  </a>
+                )}
                 <div className="flex flex-wrap items-center gap-6 text-sm text-sand-light">
                   <span className="flex items-center gap-2"><User className="h-4 w-4" /> {article.author}</span>
                   <span className="flex items-center gap-2"><Calendar className="h-4 w-4" /> {article.date}</span>
@@ -111,10 +125,13 @@ export default function InsightArticle() {
                   <img src={article.image} alt={article.title} loading="lazy" className="w-full h-full object-cover" />
                 </div>
 
-                <div
-                  className="prose-article"
-                  dangerouslySetInnerHTML={{ __html: article.content }}
-                />
+                {/* A <!--FORM:buyer-list--> marker in the content places the buyer-list offer there. */}
+                {article.content.split('<!--FORM:buyer-list-->').map((part, i, parts) => (
+                  <Fragment key={i}>
+                    <div className="prose-article" dangerouslySetInnerHTML={{ __html: part }} />
+                    {i < parts.length - 1 && <BuyerListForm idPrefix={`buyer-list-${i + 1}`} report={article.formReportId ?? article.slug} />}
+                  </Fragment>
+                ))}
 
                 <div className="prose-article">
                   <p>
