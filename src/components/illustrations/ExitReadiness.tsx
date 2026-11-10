@@ -40,7 +40,7 @@ export function ExitReadinessIllustration() {
         textAnchor="middle"
         fill={ILLUSTRATION_TOKENS.colors.ai}
         fontSize="28"
-        fontFamily="'Playfair Display', serif"
+        fontFamily="Newsreader, Georgia, serif"
         fontWeight="600"
       >
         72

@@ -247,7 +247,7 @@ export default function Team() {
       </section>
 
       {/* CTA */}
-      <section className="bg-navy-deepest text-white py-24">
+      <section className="keep-dark bg-navy-deepest text-white py-24">
         <div className="container mx-auto px-6">
           <FadeIn>
             <div className="max-w-3xl">

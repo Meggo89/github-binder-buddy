@@ -10,7 +10,7 @@
   }
 
   body {
-    @apply font-sans text-navy bg-white;
+    @apply font-sans text-navy bg-paper;
     font-feature-settings: "ss01", "cv01", "cv11";
   }
 
@@ -46,7 +46,7 @@
   }
 
   .eyebrow {
-    @apply text-xs font-mono uppercase tracking-[0.2em] text-accent;
+    @apply text-[0.8125rem] font-mono uppercase tracking-[0.14em] text-bronze;
   }
 
   .rule {
@@ -66,7 +66,7 @@
     @apply font-semibold text-lg text-navy mt-8 mb-3;
   }
   .prose-article p {
-    @apply my-5 text-base md:text-lg;
+    @apply my-5 text-[1.0625rem] md:text-[1.1875rem] leading-[1.7];
   }
   .prose-article ul {
     @apply list-disc pl-6 my-5 space-y-2;
@@ -145,3 +145,63 @@
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ---------------------------------------------------------------------------------------------
+   Paper theme. Page heroes and the mid-page bands that used to be full navy now sit on warm
+   paper with navy text. The closing call to action, the footer and the mobile menu stay navy:
+   mark any element that must stay dark with .keep-dark.
+   Pages still use their original classes (text-white, bg-accent and so on); the rules below
+   translate them inside the paper areas, so no page needs editing to take the new look.
+   --------------------------------------------------------------------------------------------- */
+main section.bg-navy-deepest:not(.keep-dark),
+main section.bg-navy-dark:not(.keep-dark),
+main section.bg-navy:not(.keep-dark),
+main section.bg-ink:not(.keep-dark),
+main header.bg-navy-deepest:not(.keep-dark) {
+  background: #F2EDE4;
+  color: #0A2647;
+  border-top: 1px solid rgba(10, 38, 71, 0.08);
+  border-bottom: 1px solid rgba(10, 38, 71, 0.08);
+}
+
+:is(.paper-scope, main section:is(.bg-navy-deepest, .bg-navy-dark, .bg-navy, .bg-ink):not(.keep-dark), main header.bg-navy-deepest:not(.keep-dark)) {
+  --pc-navy: #0A2647;
+  --pc-body: #3F4B5A;
+  --pc-bronze: #8A6D1A;
+}
+:is(.paper-scope, main section:is(.bg-navy-deepest, .bg-navy-dark, .bg-navy, .bg-ink):not(.keep-dark), main header.bg-navy-deepest:not(.keep-dark))
+  :is(.text-white, .text-white\/50, .text-white\/40) { color: var(--pc-navy); }
+:is(.paper-scope, main section:is(.bg-navy-deepest, .bg-navy-dark, .bg-navy, .bg-ink):not(.keep-dark), main header.bg-navy-deepest:not(.keep-dark))
+  :is(.text-sand-light, .text-sand, .text-sand-dark, .text-sand-light\/80) { color: var(--pc-body); }
+:is(.paper-scope, main section:is(.bg-navy-deepest, .bg-navy-dark, .bg-navy, .bg-ink):not(.keep-dark), main header.bg-navy-deepest:not(.keep-dark))
+  :is(.text-accent, .text-accent-light, .text-accent\/80) { color: var(--pc-bronze); }
+:is(.paper-scope, main section:is(.bg-navy-deepest, .bg-navy-dark, .bg-navy, .bg-ink):not(.keep-dark), main header.bg-navy-deepest:not(.keep-dark))
+  :is(.hover\:text-white, .hover\:text-accent, .hover\:text-accent-light):hover { color: var(--pc-bronze); }
+/* Gold buttons become navy buttons. */
+:is(.paper-scope, main section:is(.bg-navy-deepest, .bg-navy-dark, .bg-navy, .bg-ink):not(.keep-dark), main header.bg-navy-deepest:not(.keep-dark))
+  .bg-accent { background-color: var(--pc-navy); color: #fff; box-shadow: none; }
+:is(.paper-scope, main section:is(.bg-navy-deepest, .bg-navy-dark, .bg-navy, .bg-ink):not(.keep-dark), main header.bg-navy-deepest:not(.keep-dark))
+  .bg-accent:hover { background-color: #1B3B67; }
+/* Dark cards inside a paper area become white cards. */
+:is(.paper-scope, main section:is(.bg-navy-deepest, .bg-navy-dark, .bg-navy, .bg-ink):not(.keep-dark), main header.bg-navy-deepest:not(.keep-dark))
+  :is(div, li, article):is(.bg-ink, .bg-navy-deepest, .bg-navy-dark):not(.keep-dark) { background-color: #fff; }
+:is(.paper-scope, main section:is(.bg-navy-deepest, .bg-navy-dark, .bg-navy, .bg-ink):not(.keep-dark), main header.bg-navy-deepest:not(.keep-dark))
+  :is(.bg-white\/5, .bg-white\/10, .bg-sand\/5) { background-color: #fff; }
+:is(.paper-scope, main section:is(.bg-navy-deepest, .bg-navy-dark, .bg-navy, .bg-ink):not(.keep-dark), main header.bg-navy-deepest:not(.keep-dark))
+  :is(.border-white\/5, .border-white\/10, .border-white\/15, .border-sand\/30, .border-sand) { border-color: rgba(10, 38, 71, 0.12); }
+:is(.paper-scope, main section:is(.bg-navy-deepest, .bg-navy-dark, .bg-navy, .bg-ink):not(.keep-dark), main header.bg-navy-deepest:not(.keep-dark))
+  .divide-white\/10 > * + * { border-color: rgba(10, 38, 71, 0.12); }
+
+/* Anything marked .keep-dark inside a paper area keeps the original dark styling. */
+:is(.paper-scope, main section) .keep-dark :is(.text-white) { color: #fff; }
+:is(.paper-scope, main section) .keep-dark :is(.text-sand-light) { color: #E5DCD1; }
+:is(.paper-scope, main section) .keep-dark :is(.text-accent) { color: #C9A227; }
+:is(.paper-scope, main section) .keep-dark .bg-accent { background-color: #C9A227; color: #050E1F; }
+
+/* Decorative glows were drawn for navy grounds; on paper they read as smudges. */
+:is(.paper-scope, main) :is(.blur-3xl, .blur-2xl) { display: none; }
+main .keep-dark :is(.blur-3xl, .blur-2xl) { display: block; }
+
+/* Text that sits on an element which is itself navy (a bar, a tile, a badge) keeps its light colour. */
+:is(.paper-scope, main section:is(.bg-navy-deepest, .bg-navy-dark, .bg-navy, .bg-ink):not(.keep-dark), main header.bg-navy-deepest:not(.keep-dark))
+  :is(.bg-navy, .bg-navy-light):is(.text-white, .text-sand, .text-sand-light) { color: #E5DCD1; }

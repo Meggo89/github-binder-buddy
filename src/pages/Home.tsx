@@ -10,7 +10,6 @@ import { processStages } from '../content/process-stages';
 import { useScrollTracking } from '../hooks/useScrollTracking';
 import { trackCTA } from '../utils/trackCTA';
 import leoMeggitt from '../assets/leo-meggitt.jpg';
-import { TypedHeroTagline } from '../components/home/TypedHero';
 import { WhatWeDo } from '../components/home/WhatWeDo';
 import { FoundersDrift } from '../components/home/FoundersDrift';
 import { AIHumanSplit } from '../components/home/AIHumanSplit';
@@ -71,7 +70,7 @@ function Hero() {
       <p className="eyebrow mb-6">UK & cross-border · worth £5M to £50M</p>
       <h1 className="font-serif text-display-xl text-white mb-8 text-balance leading-[1.05]">
         Business exits,<br />
-        <TypedHeroTagline />
+        <span className="italic text-accent">found off-market.</span>
       </h1>
       <p className="text-body-lg md:text-xl text-sand-light max-w-2xl mb-10 leading-relaxed">
         A faster, more rigorous M&amp;A process. Proprietary technology accelerates analysis and buyer discovery;
@@ -255,7 +254,7 @@ export default function Home() {
           </FadeIn>
 
           <FadeIn delay={0.15}>
-            <div className="mb-16 rounded-2xl bg-white/[0.02] border border-white/5 p-8 md:p-12">
+            <div className="keep-dark mb-16 rounded-2xl bg-navy-deepest border border-white/5 p-8 md:p-12">
               <ProcessOverviewIllustration />
             </div>
           </FadeIn>
@@ -394,7 +393,7 @@ export default function Home() {
       </section>
 
       {/* Lead magnet */}
-      <section className="bg-navy-deepest text-white py-24 relative overflow-hidden">
+      <section className="keep-dark bg-navy-deepest text-white py-24 relative overflow-hidden">
         <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
           <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-accent/10 blur-3xl"></div>
         </div>

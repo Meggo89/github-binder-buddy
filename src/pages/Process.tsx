@@ -34,7 +34,7 @@ export default function Process() {
       <section className="bg-navy-deepest text-white py-20 md:py-24">
         <div className="container mx-auto px-6">
           <FadeIn>
-            <div className="rounded-2xl bg-white/[0.02] border border-white/5 p-8 md:p-12 mb-12">
+            <div className="keep-dark rounded-2xl bg-navy-deepest border border-white/5 p-8 md:p-12 mb-12">
               <ProcessOverviewIllustration />
             </div>
           </FadeIn>
@@ -136,7 +136,7 @@ export default function Process() {
       </div>
 
       {/* Close */}
-      <section className="bg-navy-deepest text-white py-24 md:py-32">
+      <section className="keep-dark bg-navy-deepest text-white py-24 md:py-32">
         <div className="container mx-auto px-6">
           <FadeIn>
             <div className="max-w-3xl">

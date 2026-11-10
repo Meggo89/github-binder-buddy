@@ -62,7 +62,7 @@ export function ValuationIllustration() {
         textAnchor="middle"
         fill={ILLUSTRATION_TOKENS.colors.ai}
         fontSize="22"
-        fontFamily="'Playfair Display', serif"
+        fontFamily="Newsreader, Georgia, serif"
         fontWeight="600"
       >
         £XXm

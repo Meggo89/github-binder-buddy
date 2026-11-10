@@ -19,14 +19,10 @@ function rotate<T>(arr: T[], n: number): T[] {
 }
 
 function Row({ photos, speed, dir }: { photos: string[]; speed: number; dir: 1 | -1 }) {
-  const [reduced, setReduced] = useState(false);
+  // The rows no longer drift: animations are off site-wide.
+  const reduced = true;
   const [t, setT] = useState(0);
   const raf = useRef<number>();
-
-  useEffect(() => {
-    const m = window.matchMedia('(prefers-reduced-motion: reduce)');
-    setReduced(m.matches);
-  }, []);
 
   useEffect(() => {
     if (reduced) return;

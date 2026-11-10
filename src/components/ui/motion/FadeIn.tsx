@@ -18,7 +18,9 @@ export function FadeIn({
   className,
   as = 'div',
 }: FadeInProps) {
-  const reduce = useReducedMotion();
+  useReducedMotion();
+  // Animations are off site-wide: content is simply there when the page loads.
+  const reduce = true;
   const Component = motion[as];
 
   if (reduce) {
