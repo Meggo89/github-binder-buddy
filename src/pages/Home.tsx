@@ -6,6 +6,7 @@ import { FAQSection } from '../components/FAQSection';
 import { LeadMagnetForm } from '../components/forms/LeadMagnetForm';
 import { FadeIn, Stagger, StaggerItem } from '../components/ui/motion';
 import { ProcessOverviewIllustration } from '../components/illustrations';
+import { TypedHeroTagline } from '../components/home/TypedHero';
 import { processStages } from '../content/process-stages';
 import { useScrollTracking } from '../hooks/useScrollTracking';
 import { trackCTA } from '../utils/trackCTA';
@@ -70,7 +71,7 @@ function Hero() {
       <p className="eyebrow mb-6">UK & cross-border · worth £5M to £50M</p>
       <h1 className="font-serif text-display-xl text-white mb-8 text-balance leading-[1.05]">
         Business exits,<br />
-        <span className="italic text-accent">found off-market.</span>
+        <TypedHeroTagline />
       </h1>
       <p className="text-body-lg md:text-xl text-sand-light max-w-2xl mb-10 leading-relaxed">
         A faster, more rigorous M&amp;A process. Proprietary technology accelerates analysis and buyer discovery;
