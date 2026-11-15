@@ -1,6 +1,7 @@
 import { FormEvent, useState } from 'react';
 import { CheckCircle2, Loader2, Download } from 'lucide-react';
 import { submitNetlifyForm } from '../../utils/netlifyForms';
+import { honeypotFilled, HONEYPOT_FIELD } from '../../utils/formGuards';
 
 type Status = 'idle' | 'submitting' | 'success' | 'error';
 
@@ -10,8 +11,14 @@ export function LeadMagnetForm() {
   const [status, setStatus] = useState<Status>('idle');
   const [errorMessage, setErrorMessage] = useState('');
 
-  const handleSubmit = async (e: FormEvent) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    // Silent reject for bots that fill the hidden field: show success, send nothing.
+    const honeypot = new FormData(e.currentTarget).get(HONEYPOT_FIELD);
+    if (honeypotFilled(typeof honeypot === 'string' ? honeypot : '')) {
+      setStatus('success');
+      return;
+    }
     setStatus('submitting');
     setErrorMessage('');
 

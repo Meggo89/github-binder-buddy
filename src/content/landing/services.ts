@@ -27,7 +27,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
       },
       {
         q: "How much does exit planning typically cost?",
-        a: "Mastella works on a low monthly retainer model. Full structure is shared in the first conversation. The retainer model funds senior-led work rather than juniors running the analysis.",
+        a: "Fees are agreed upfront in our first conversation, tuned to your specific situation.",
       },
       {
         q: "Will my staff find out we are planning an exit?",
@@ -120,7 +120,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
       },
       {
         q: "How are M&A advisor fees structured?",
-        a: "Mastella works on a low monthly retainer model that funds senior-led delivery throughout the mandate. Full structure shared in the first conversation.",
+        a: "Fees are agreed upfront in our first conversation, tuned to your specific situation.",
       },
       {
         q: "How long should I plan for?",
@@ -457,7 +457,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
       },
       {
         q: "How are your fees structured?",
-        a: "Mastella works on a low monthly retainer model that funds genuinely senior-led delivery rather than juniors running the work behind Leo. Full structure is shared in the first conversation.",
+        a: "Fees are agreed upfront in our first conversation, tuned to your specific situation.",
       },
       {
         q: "What sectors do you work in?",
@@ -541,7 +541,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
           "**PE consolidator activity.** UK-focused mid-market PE (Inflexion, LDC, Livingbridge, Bridgepoint Development Capital, HgCapital, ECI, HgCapital Mercury, August Equity, NorthEdge, Endless, Piper, Beech Tree, Bregal Milestone) all remain active for platform investments and add-ons across the £5M to £50M EV segment. Sector-specific consolidator strategies are visible in healthcare, tech-enabled services, business services and specialist logistics.",
           "**Strategic acquirer activity.** UK and overseas strategic acquirers dominate certain sub-sectors: Big Four and larger consulting groups in professional services and applied AI; specialist FM and cleaning consolidators; healthcare service consolidators; European industrial and logistics groups acquiring for UK footprint. Overseas buyers (US, European, and increasingly Asian) have been consistently active for UK specialist manufacturing, applied AI, and tech-enabled services.",
           "**Search fund activity.** Search funds have become one of the most active individual-buyer categories in the UK lower mid-market over the last three years, alongside PE and strategics. Institutional sponsors including Novastone Capital Advisors, Broadleaf Capital and First Search, plus a growing pool of independent searchers, actively approach £5M to £50M EV owner-managed businesses. See our pillar guide for the mechanics and how to evaluate a specific approach: [UK Search Funds Explained](/insights/uk-search-funds-explained/).",
-          "**Multiples.** Sector-specific multiple ranges vary widely: healthcare services (dental, vet, mental health) 8 to 14x EBITDA; tech-enabled services (SaaS, MSP, cyber, AI) 6 to 12x EBITDA or 3 to 10x ARR for platform components; business services 5 to 9x; professional services 5 to 10x; light industrials 5 to 8x with premium ranges for specialist manufacturing; logistics 5 to 10x depending on sub-segment. Multiples within each range are driven more by structural characteristics (recurring revenue, customer concentration, management depth) than by macro conditions.",
+          "**Multiples.** Multiple ranges vary by sector and by the size of the business; our [sector pages](/sectors/) set out what drives value in each.",
           "**Sub-sector heat.** Sectors seeing concentrated buyer interest in 2026 include: applied AI and vertical SaaS; healthcare services under the current consolidator cycle; specialist cold-chain and pharma logistics; cybersecurity managed services and GRC; specialist accountancy under continuing PE roll-up; and specialist manufacturing with international export exposure. Sectors seeing more discipline: pure haulage, generalist consulting without vertical depth, undifferentiated digital agencies, and services businesses with high founder concentration.",
           "**Diligence sharpening.** Buyers across all sectors have tightened diligence on EBITDA quality, customer concentration and forward visibility, senior team retention arrangements, IP and contract assignability, and ESG/carbon disclosure. Owners arriving with clean data on each consistently complete at or above headline expectation. Owners going cold consistently re-trade at completion or lose deals in later-stage diligence.",
           "**Timing.** For owners considering an exit in the next 18 to 24 months, starting structured readiness work now materially improves outcome. Pre-sale tax structuring, senior team build-out, financial reporting clean-up and buyer-pool intelligence all have 12+ month lead times where every month of preparation compounds into the final outcome. See [exit planning](/services/exit-planning-advisor-uk/) for what the pre-process readiness work looks like.",
@@ -551,12 +551,10 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         heading: "Why does a senior-led M&A advisor matter?",
         cover: [
           "Junior-delivery model in traditional firms",
-          "Why retainer funding enables seniority",
         ],
         body: [
           "A senior-led M&A advisor matters because the traditional UK lower mid-market model has senior advisors win mandates and then delegate the substantive delivery work to junior teams, with the senior advisors reappearing only at key buyer meetings and at completion. In a senior-led firm every conversation that matters runs through the senior advisor. Owners typically find out about this model only when they are inside it.",
           "Mastella is structured around the opposite model. Every conversation that matters runs through Leo. Buyer mapping, financial normalisation, IM drafting, negotiation, completion mechanics. None of these are delegated. A small in-house team and a proprietary technology layer support the senior delivery rather than substitute for it.",
-          "This is funded by the retainer-led fee model rather than a deal-commission model. A low monthly retainer funds genuinely senior time across the mandate. A commission-only structure economically forces firms to deliver junior-led work to make the unit economics work, regardless of how the mandate is sold.",
           "For owners running a single most important transaction in their commercial lives, the difference between senior-led and junior-led delivery is the difference between confidence and concern at every meeting that matters. It is also, in our experience, consistently the difference between a deal that closes at expectation and a deal that re-trades at completion.",
           "If a senior-led process fits your situation, [arrange a confidential conversation](/contact/). Forty-five minutes, no obligation.",
         ],

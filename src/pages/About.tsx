@@ -68,10 +68,9 @@ export default function About() {
               </FadeIn>
               <FadeIn delay={0.1}>
                 <p>
-                  Traditional advisors' high monthly retainer fees on a £5M to £50M deal reflect the manual nature of how
-                  that work has always been done, and how most M&amp;A firms still do it: financial normalisation by
+                  Most M&amp;A firms still do the work the way it has always been done: financial normalisation by
                   hand, information memoranda written over six to eight weeks, buyer outreach run from a rolodex,
-                  diligence coordinated in email. Mastella's low monthly retainer reflects a different delivery model.
+                  diligence coordinated in email.
                 </p>
               </FadeIn>
               <FadeIn delay={0.2}>
@@ -146,7 +145,7 @@ export default function About() {
                 <p>
                   So we run a vetted bench: a network of senior specialists who have been through exits and raises
                   across financial services, technology, consumer, industrials, infrastructure, healthcare and more. At
-                  engagement we match you with either a resident partner or the right bench specialist for your
+                  engagement we match you with either Leo or the right bench specialist for your
                   transaction type and buyer universe.
                 </p>
               </FadeIn>

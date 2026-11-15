@@ -76,7 +76,7 @@ export function SendResultsForm({ result, answers }: { result: ReadinessResult; 
       if (typeof window !== 'undefined' && window.gtag) {
         window.gtag('event', 'readiness_score_sent', { score: result.overall ?? 0 });
       }
-      trackLead('readiness-score');
+      trackLead('readiness-score', form.email);
       setStatus('sent');
     } catch {
       setStatus('error');

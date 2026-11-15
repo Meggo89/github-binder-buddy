@@ -51,7 +51,7 @@ const BIO_SECTIONS = [
   {
     eyebrow: 'Why Mastella',
     body:
-      'After two decades in lower mid-market M&A I kept seeing the same pattern: senior advisors win the mandate, juniors deliver the work, the senior advisor reappears at closing. Owner-managed businesses deserve better. A modern delivery model (proprietary technology handling the structured work, Leo still leading every conversation) finally makes that possible without compromising rigour or coverage.',
+      'After 15 years in lower mid-market M&A I kept seeing the same pattern: senior advisors win the mandate, juniors deliver the work, the senior advisor reappears at closing. Owner-managed businesses deserve better. A modern delivery model (proprietary technology handling the structured work, Leo still leading every conversation) finally makes that possible without compromising rigour or coverage.',
   },
   {
     eyebrow: 'How I work with you',
@@ -231,7 +231,7 @@ export default function Team() {
             <div className="md:col-span-7 space-y-5 text-body-lg text-navy-light leading-relaxed">
               <FadeIn delay={0.1}>
                 <p>
-                  For sectors and deal types outside our resident coverage, we draw on a vetted network of senior
+                  For sectors and deal types outside the ones Leo covers directly, we draw on a vetted network of senior
                   practitioners we have worked with on prior transactions. You are told upfront who is on your
                   engagement and why.
                 </p>

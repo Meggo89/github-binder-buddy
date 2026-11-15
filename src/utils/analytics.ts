@@ -122,7 +122,10 @@ export function grantAnalyticsConsent() {
 
 // GA4 generate_lead. Call only after a form submission has been accepted by Netlify Forms, never
 // on page load, button click or a silently dropped spam submission.
-export function trackLead(formName: string) {
+// Call only after Netlify has accepted the submission. A lead without an email address is not a
+// lead, so nothing is recorded in that case.
+export function trackLead(formName: string, email: string | undefined) {
   if (typeof window === 'undefined' || !window.gtag) return;
+  if (!email || !email.trim()) return;
   window.gtag('event', 'generate_lead', { form_name: formName, page_path: window.location.pathname });
 }

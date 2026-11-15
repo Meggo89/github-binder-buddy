@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { CheckCircle, Loader2 } from 'lucide-react';
 import { submitNetlifyForm, notifyContactEnquiry } from '../../utils/netlifyForms';
 import { getFirstTouch } from '../../utils/firstTouch';
+import { honeypotFilled, HONEYPOT_FIELD } from '../../utils/formGuards';
 
 // Offer of a short, anonymised buyer list for a sector report. The report stays fully readable;
 // this is an extra, not a gate. Fields are declared in public/__forms.html ("sector-buyer-list").
@@ -40,13 +41,16 @@ export function BuyerListForm({ idPrefix, report }: Props) {
   const change = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) =>
     setForm((f) => ({ ...f, [e.target.name]: e.target.value }));
 
-  const submit = async (e: React.FormEvent) => {
+  const submit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (!form.name || !form.email) {
+    if (!form.name.trim() || !form.email.trim()) {
       setStatus('error');
       return;
     }
-    if ((Date.now() - mountedAt.current) / 1000 < MIN_HUMAN_SECONDS) {
+    // Silent rejects, as on the other forms: show success, send nothing, record nothing.
+    const honeypot = new FormData(e.currentTarget).get(HONEYPOT_FIELD);
+    const tooFast = (Date.now() - mountedAt.current) / 1000 < MIN_HUMAN_SECONDS;
+    if (honeypotFilled(typeof honeypot === 'string' ? honeypot : '') || tooFast) {
       setStatus('sent');
       return;
     }

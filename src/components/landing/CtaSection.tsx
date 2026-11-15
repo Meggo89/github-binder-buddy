@@ -8,10 +8,7 @@ interface Props {
   ctaLabel?: string;
 }
 
-// Bottom-of-page CTA with the consistent risk-reversal line. The fee phrasing
-// matches the homepage copy ("low monthly retainer that funds senior-led
-// delivery, not commission on any deal that closes") so the message reads
-// coherently across the site.
+// Bottom-of-page CTA used across the site.
 export function CtaSection({
   heading,
   body = 'Forty-five minutes, no obligation. We will tell you honestly whether what you want to achieve is realistic, and whether Mastella is the right firm for it.',
@@ -23,12 +20,7 @@ export function CtaSection({
         <FadeIn>
           <div className="max-w-3xl">
             <h2 className="font-serif text-display-md text-white mb-6 leading-tight text-balance">{heading}</h2>
-            <p className="text-body-lg text-sand-light mb-6 leading-relaxed">{body}</p>
-            <p className="text-sm text-sand-light/80 mb-10 leading-relaxed">
-              <span className="font-mono text-xs text-accent tracking-widest uppercase mr-2">Aligned</span>
-              We work on a low monthly retainer model that funds senior-led delivery throughout, not a commission
-              structure that rewards getting any deal done.
-            </p>
+            <p className="text-body-lg text-sand-light mb-10 leading-relaxed">{body}</p>
             <Link
               to="/contact/"
               className="inline-flex items-center gap-2 bg-accent text-navy-deepest px-7 py-3.5 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:-translate-y-0.5"

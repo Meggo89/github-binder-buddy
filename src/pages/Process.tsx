@@ -5,6 +5,7 @@ import { PageLayout } from '../components/layout';
 import { FadeIn } from '../components/ui/motion';
 import { ProcessOverviewIllustration } from '../components/illustrations';
 import { processStages } from '../content/process-stages';
+import { ProcessApproachSections } from '../components/process/ApproachSections';
 
 function Hero() {
   return (
@@ -66,6 +67,9 @@ export default function Process() {
           </FadeIn>
         </div>
       </section>
+
+      {/* How the work is done: moved from the home page */}
+      <ProcessApproachSections />
 
       {/* Per-stage deep dives */}
       <div className="bg-white">
