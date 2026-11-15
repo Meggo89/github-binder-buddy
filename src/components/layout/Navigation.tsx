@@ -13,6 +13,7 @@ const NAV_LINKS: NavLink[] = [
   { to: '/case-studies/', label: 'Our Work' },
   { to: '/team/', label: 'Team' },
   { to: '/insights/', label: 'Insights' },
+  { to: '/exit-readiness-score/', label: 'Exit Readiness Score' },
 ];
 
 function MobileNav({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) {
@@ -91,14 +92,14 @@ export function Navigation() {
         <Link to="/" className="flex items-center" aria-label="Mastella Advisory: home">
           <img src={mastellaLogo} alt="Mastella Advisory" className="h-14 md:h-16 w-auto" />
         </Link>
-        <div className="hidden md:flex space-x-7 items-center">
+        <div className="hidden lg:flex space-x-5 xl:space-x-7 items-center">
           {NAV_LINKS.map((link) => {
             const active = path === link.to.replace(/\/$/, '');
             return (
               <Link
                 key={link.to}
                 to={link.to}
-                className={`text-sm tracking-wide transition-colors ${
+                className={`text-sm tracking-wide whitespace-nowrap transition-colors ${
                   active ? 'text-accent' : 'text-sand-light hover:text-white'
                 }`}
               >
@@ -106,20 +107,20 @@ export function Navigation() {
               </Link>
             );
           })}
-          <a href="tel:+447860107704" className="text-sm font-medium text-navy hover:text-accent-dark transition-colors whitespace-nowrap">
+          <a href="tel:+447860107704" className="hidden xl:inline text-sm font-medium text-navy hover:text-accent-dark transition-colors whitespace-nowrap">
             +44 (0) 7860 107704
           </a>
           {!onContactPage && (
             <Link
               to="/contact/"
-              className="bg-accent text-navy-deepest px-5 py-2.5 rounded-md text-sm font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:-translate-y-px hover:shadow-lg hover:shadow-accent/20"
+              className="bg-accent text-navy-deepest px-5 py-2.5 rounded-md text-sm font-semibold tracking-wide whitespace-nowrap hover:bg-accent-light transition-all duration-200 hover:-translate-y-px hover:shadow-lg hover:shadow-accent/20"
             >
               Get in Touch
             </Link>
           )}
         </div>
         <button
-          className="md:hidden text-white hover:text-accent transition-colors"
+          className="lg:hidden text-white hover:text-accent transition-colors"
           onClick={() => setIsMobileMenuOpen(true)}
           aria-label="Open menu"
         >

@@ -9,6 +9,7 @@ import { getSector } from '../content/landing';
 import { FadeIn } from '../components/ui/motion';
 import { SITE } from '../seo/site-meta';
 import { BuyerListForm } from '../components/forms/BuyerListForm';
+import { ScoreBlock } from '../components/landing/ScoreBlock';
 
 export default function InsightArticle() {
   const { slug } = useParams<{ slug: string }>();
@@ -153,6 +154,8 @@ export default function InsightArticle() {
           </div>
         </div>
       </article>
+
+      <ScoreBlock />
 
       {/* Related */}
       {related.length > 0 && (

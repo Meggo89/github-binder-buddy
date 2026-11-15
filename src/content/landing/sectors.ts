@@ -40,7 +40,7 @@ export const SECTORS: SectorPillar[] = [
       },
       {
         q: "How are your fees structured?",
-        a: "Mastella works on a low monthly retainer model that aligns to delivery, not deal commission. We share the structure transparently in the first conversation. The retainer model funds genuinely senior-led delivery rather than juniors running the work behind Leo.",
+        a: "Fees are agreed upfront in our first conversation, tuned to your specific situation.",
       },
     ],
     whoWeWorkWith: {
@@ -475,7 +475,7 @@ export const SECTORS: SectorPillar[] = [
       },
       {
         q: "How are your fees structured?",
-        a: "Mastella works on a low monthly retainer model that funds genuinely senior-led delivery. Full fee structure is shared in the first conversation.",
+        a: "Fees are agreed upfront in our first conversation, tuned to your specific situation.",
       },
     ],
     whoWeWorkWith: {

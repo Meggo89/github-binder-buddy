@@ -137,7 +137,7 @@ export default function Contact() {
       notifyContactEnquiry({ ...formData, heardVia: formData.heard_via, firstTouch });
       // Only now, after Netlify has accepted the submission, does it count as a lead.
       trackFormSubmit();
-      trackLead('contact');
+      trackLead('contact', formData.email);
       setStatus('success');
       setFormData(initialFormData);
     } catch (err) {
