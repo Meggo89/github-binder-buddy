@@ -181,23 +181,23 @@ export const SECTORS: SectorPillar[] = [
 
   {
     slug: "light-industrials",
-    name: "Light industrials",
-    nameLower: "light industrial",
-    title: "Light Industrial M&A Advisor UK | Mastella Advisory",
+    name: "Manufacturing and industrials",
+    nameLower: "manufacturing or industrial",
+    title: "Manufacturing & Industrial M&A Advisor UK | Mastella Advisory",
     metaDescription:
-      "Selling a UK light industrial business worth £5M to £50M? Senior-led M&A advisory for specialist manufacturing, plant hire and engineering owners.",
-    h1: "Selling a light industrial business in the UK",
+      "Selling a UK manufacturing or industrial business worth £5M to £50M? Senior-led M&A advisory for specialist manufacturing, plant hire and engineering owners.",
+    h1: "Selling a manufacturing or industrial business in the UK",
     intro:
       "We advise UK owners of specialist manufacturing, engineering and plant hire businesses on confidential sales and growth-capital rounds. Senior-led, off-market, focused on the £5M to £50M EV segment.",
     heroSubtitle:
       "German, US and Japanese strategic acquirers pay differently for UK specialist industrials. We run those processes.",
     faqs: [
       {
-        q: "What multiples do UK light industrial businesses trade at?",
-        a: "Typical ranges are 5 to 8x adjusted EBITDA for owner-managed light industrial businesses in the £5M to £50M EV segment, with premium multiples (8 to 11x) achievable for specialist manufacturing with defensible IP, blue-chip customers and meaningful international revenue.",
+        q: "What multiples do UK manufacturing and industrial businesses trade at?",
+        a: "Typical ranges are 5 to 8x adjusted EBITDA for owner-managed manufacturing and industrial businesses in the £5M to £50M EV segment, with premium multiples (8 to 11x) achievable for specialist manufacturing with defensible IP, blue-chip customers and meaningful international revenue.",
       },
       {
-        q: "Who buys UK light industrial businesses?",
+        q: "Who buys UK manufacturing and industrial businesses?",
         a: "Strategic UK and overseas acquirers seeking sector adjacency or geographic expansion, PE consolidators executing buy-and-build strategies, and direct PE houses for platform investments. Trade buyers dominate at the smaller end; PE becomes more active above ~£15M EBITDA.",
       },
       {
@@ -205,7 +205,7 @@ export const SECTORS: SectorPillar[] = [
         a: "Buyers value the cash earnings the assets generate, not the assets themselves. Asset-intensive businesses (plant hire, capital equipment) are valued on EBITDA less expected maintenance capex, and on the quality / age profile of the fleet. We work with owners to present this cleanly and benchmark it against comparable transactions.",
       },
       {
-        q: "How long does a light industrial sale take?",
+        q: "How long does a manufacturing or industrial sale take?",
         a: "6 to 9 months end to end is typical, with operational diligence (site visits, customer references, capex review) often adding to the timeline. Cross-border sales add a further 4 to 8 weeks for regulatory and tax structuring.",
       },
       {
@@ -213,12 +213,12 @@ export const SECTORS: SectorPillar[] = [
         a: "Customer concentration above 25% of revenue from a single customer is a flag for most buyers but not usually a deal-breaker. We work with owners pre-process to document the depth of the customer relationship (contract tail, switching cost, length of relationship) so it can be defended properly in diligence.",
       },
       {
-        q: "Do international buyers participate in UK light industrial sales?",
+        q: "Do international buyers participate in UK manufacturing and industrial sales?",
         a: "Yes, frequently. European, North American and increasingly Asian strategic acquirers are active in UK specialist manufacturing, particularly where the target has differentiated technical capability or established export channels. Our buyer mapping covers these pools as standard.",
       },
     ],
     whoWeWorkWith: {
-      heading: "Which light industrial businesses does Mastella Advisory advise?",
+      heading: "Which manufacturing and industrial businesses does Mastella Advisory advise?",
       cover: [
         "UK specialist manufacturers worth £5M to £50M EV",
         "Plant hire and equipment rental businesses",
@@ -226,14 +226,14 @@ export const SECTORS: SectorPillar[] = [
         "Industrial coatings and surface treatment specialists",
       ],
       body: [
-        "You own a UK light industrial business worth between £5M and £50M in enterprise value. Specialist manufacturing in a defined niche. A plant hire or equipment rental platform serving construction or infrastructure. Engineering services across mechanical, electrical, controls or process. Industrial coatings, surface treatment, or other specialist finishing. Some of you make things; some of you make the things that make things possible.",
-        "What unites our light industrial clients is asset weight, technical capability, and a customer book that took 15 to 30 years to build. The financials are real, the people know what they are doing, and the buyers who pay properly for businesses like yours are not necessarily the obvious ones. Strategic acquirers in adjacent sub-sectors, overseas industrial groups looking for UK footprint, infrastructure-style investors hunting for asset-backed cash flow, and PE consolidators executing buy-and-builds all play here, but they play differently and value differently.",
+        "You own a UK manufacturing or industrial business worth between £5M and £50M in enterprise value. Specialist manufacturing in a defined niche. A plant hire or equipment rental platform serving construction or infrastructure. Engineering services across mechanical, electrical, controls or process. Industrial coatings, surface treatment, or other specialist finishing. Some of you make things; some of you make the things that make things possible.",
+        "What unites our manufacturing and industrial clients is asset weight, technical capability, and a customer book that took 15 to 30 years to build. The financials are real, the people know what they are doing, and the buyers who pay properly for businesses like yours are not necessarily the obvious ones. Strategic acquirers in adjacent sub-sectors, overseas industrial groups looking for UK footprint, infrastructure-style investors hunting for asset-backed cash flow, and PE consolidators executing buy-and-builds all play here, but they play differently and value differently.",
         "We typically engage 12 to 24 months before a target exit. The longer window matters more in this sector than in most, because capex normalisation, customer concentration management, and management succession take time to do honestly. A six-month rush does not produce the same outcome.",
         "This is not the right fit if your business sits below the £5M EV threshold, or if your reported EBITDA depends on capex deferrals that buyers will see through immediately. It is also not the right fit if you are time-pressured to accept a specific buyer's number: running a real process across UK, European and overseas strategic buyers takes 6 to 9 months and works best when the owner has the head-space to engage with it properly.",
       ],
     },
     whatBuyersLookFor: {
-      heading: "What do buyers look for in light industrial businesses?",
+      heading: "What do buyers look for in manufacturing and industrial businesses?",
       cover: [
         "Customer concentration and contract maturity",
         "Asset register quality and fleet / equipment age profile",
@@ -242,25 +242,25 @@ export const SECTORS: SectorPillar[] = [
         "Working capital normalisation",
       ],
       body: [
-        "Buyers of UK light industrial businesses focus on five things: customer concentration, capex and asset intensity, technical capability, international revenue and geographic mix, and working capital. This holds consistently across specialist manufacturing, plant hire, engineering and coatings. Each one is fixable in advance, and each one is what gets disputed in late-stage diligence when it is not.",
-        "Customer concentration first. Light industrial businesses often have one or two anchor customers representing 25 to 40% of revenue. That is not, on its own, a deal-breaker. What buyers want to see is depth of the relationship: length of contract or relationship tenure, design-in position with the customer, switching cost, and the second and third order of business that flows through the relationship. We work with owners to document each of these before going to market.",
+        "Buyers of UK manufacturing and industrial businesses focus on five things: customer concentration, capex and asset intensity, technical capability, international revenue and geographic mix, and working capital. This holds consistently across specialist manufacturing, plant hire, engineering and coatings. Each one is fixable in advance, and each one is what gets disputed in late-stage diligence when it is not.",
+        "Customer concentration first. Manufacturing and industrial businesses often have one or two anchor customers representing 25 to 40% of revenue. That is not, on its own, a deal-breaker. What buyers want to see is depth of the relationship: length of contract or relationship tenure, design-in position with the customer, switching cost, and the second and third order of business that flows through the relationship. We work with owners to document each of these before going to market.",
         "Capex and asset intensity second. Reported EBITDA in this sector is only as good as the maintenance capex story behind it. Buyers value cash earnings net of sustainable replacement capex. A year of deferred capex inflates headline EBITDA but does not survive diligence, and trying to defend it during diligence costs you trust as well as price. Building a clean three-year capex bridge before going to market is one of the highest-return pieces of preparation work in this sector.",
-        "Technical capability third. Defensible IP, registered patents, accredited processes, NADCAP or specialist aerospace and defence approvals: anything that makes you difficult to replicate sits at the top of the buyer pack. We help owners document and articulate it properly. Most light industrial businesses we work with have more defensibility than they have written down.",
-        "International revenue and geographic mix fourth. UK strategic buyers tend to pay one range. European and global strategic buyers (German specialist manufacturing groups, US and Asian industrial platforms) frequently pay another, especially where the target has established export channels or differentiated technical capability. Our buyer mapping covers these international pools by default for every light industrial mandate.",
+        "Technical capability third. Defensible IP, registered patents, accredited processes, NADCAP or specialist aerospace and defence approvals: anything that makes you difficult to replicate sits at the top of the buyer pack. We help owners document and articulate it properly. Most manufacturing and industrial businesses we work with have more defensibility than they have written down.",
+        "International revenue and geographic mix fourth. UK strategic buyers tend to pay one range. European and global strategic buyers (German specialist manufacturing groups, US and Asian industrial platforms) frequently pay another, especially where the target has established export channels or differentiated technical capability. Our buyer mapping covers these international pools by default for every manufacturing or industrial mandate.",
         "Working capital fifth. Working capital normalisation drives more late-stage deal disputes in this sector than any other line item. We help owners build a defensible working capital benchmark and a clean WIP/billings position well before completion mechanics become the subject of negotiation. The detail matters and pretending it does not lose owners millions in real outcomes.",
       ],
     },
     ourProcess: {
-      heading: "How do you sell a light industrial business?",
+      heading: "How do you sell a manufacturing or industrial business?",
       cover: [
         "Cross-link to /process",
         "Sector-specific notes on operational diligence and capex normalisation",
       ],
       body: [
-        "Selling a light industrial business runs as Mastella's senior-led [six-stage process](/process/), shaped by three things: operational diligence that runs longer than in any other sector we work in, buyer mapping that reaches UK, European and overseas strategic buyers, and technical conversations that Leo runs personally.",
-        "Operational diligence runs longer here than in any other sector we work in. Site visits, customer reference calls, technical capability audits, capex normalisation reviews, and (for international buyers) cross-border tax and regulatory work. We design the process around this from the start, building in time for it rather than pretending it will fit a tighter calendar. Light industrial deals that try to run on a generic M&A timeline routinely lose momentum at exactly the point buyers expect engagement.",
-        "Buyer mapping reaches further geographically. The active UK strategic buyer pool for any given light industrial sub-niche is rarely deeper than five to ten names. To run a credible competitive process you have to include European strategics, North American industrial platforms, and increasingly Asian acquirers in the structured buyer list. Our buyer mapping does this from the start, supported by our proprietary technology layer for surfacing acquirer signals from licensed industrial data sources.",
-        "Senior-led delivery matters disproportionately in this sector because the conversations buyers want to have are technical and commercial at the same time. Generic process management does not produce the trust required to take a complex industrial business through to completion at premium pricing. Every meaningful conversation in a light industrial mandate runs through Leo. See [our team](/team/) for the model.",
+        "Selling a manufacturing or industrial business runs as Mastella's senior-led [six-stage process](/process/), shaped by three things: operational diligence that runs longer than in any other sector we work in, buyer mapping that reaches UK, European and overseas strategic buyers, and technical conversations that Leo runs personally.",
+        "Operational diligence runs longer here than in any other sector we work in. Site visits, customer reference calls, technical capability audits, capex normalisation reviews, and (for international buyers) cross-border tax and regulatory work. We design the process around this from the start, building in time for it rather than pretending it will fit a tighter calendar. Manufacturing and industrial deals that try to run on a generic M&A timeline routinely lose momentum at exactly the point buyers expect engagement.",
+        "Buyer mapping reaches further geographically. The active UK strategic buyer pool for any given manufacturing or industrial sub-niche is rarely deeper than five to ten names. To run a credible competitive process you have to include European strategics, North American industrial platforms, and increasingly Asian acquirers in the structured buyer list. Our buyer mapping does this from the start, supported by our proprietary technology layer for surfacing acquirer signals from licensed industrial data sources.",
+        "Senior-led delivery matters disproportionately in this sector because the conversations buyers want to have are technical and commercial at the same time. Generic process management does not produce the trust required to take a complex industrial business through to completion at premium pricing. Every meaningful conversation in a manufacturing or industrial mandate runs through Leo. See [our team](/team/) for the model.",
       ],
     },
   },
