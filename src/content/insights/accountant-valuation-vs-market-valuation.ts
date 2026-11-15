@@ -77,7 +77,7 @@ const article: Article = {
       <p>The dominant framework for UK lower mid-market M&amp;A. Buyers look at recent transactions in the target's specific sub-sector, at similar size, involving similar buyer types, and apply the observed multiple range to the target's adjusted EBITDA. The multiple range moves based on:</p>
 
       <ul>
-        <li><strong>Sector.</strong> Healthcare services (dental, vet, mental health) currently 8 to 12x EBITDA at UK lower mid-market. Tech-enabled services wide range: 6 to 12x for services, ARR-based multiples on SaaS/platform components. Professional services 5 to 10x. Business services 5 to 9x. Light industrials 5 to 8x. Logistics 5 to 10x by sub-segment. Sector consolidator activity moves these ranges over time.</li>
+        <li><strong>Sector.</strong> Healthcare services (dental, vet, mental health) currently 8 to 12x EBITDA at UK lower mid-market. Tech-enabled services wide range: 6 to 12x for services, ARR-based multiples on SaaS/platform components. Professional services 5 to 10x. Business services 5 to 9x. Manufacturing and industrials 5 to 8x. Logistics 5 to 10x by sub-segment. Sector consolidator activity moves these ranges over time.</li>
         <li><strong>Growth rate.</strong> Businesses growing consistently at 15%+ year-on-year attract premium ranges within any sector.</li>
         <li><strong>Recurring revenue mix.</strong> Recurring/contracted revenue trades at a premium (often 1 to 2 turns of multiple) to project revenue.</li>
         <li><strong>Customer concentration.</strong> Low concentration commands premium; high concentration discounts even where relationships are deep.</li>
@@ -177,7 +177,7 @@ const article: Article = {
     },
     {
       q: 'What EBITDA multiple range applies to UK businesses in 2026?',
-      a: 'Sector-specific ranges: healthcare services 8 to 12x; tech-enabled services 6 to 12x on services with ARR-based approaches on platform components; professional services 5 to 10x; business services 5 to 9x; light industrials 5 to 8x with premium for defensible IP or international revenue; logistics 5 to 10x by sub-segment. Within each range, structural characteristics (recurring revenue, concentration, management depth) determine where a specific business prints.',
+      a: 'Sector-specific ranges: healthcare services 8 to 12x; tech-enabled services 6 to 12x on services with ARR-based approaches on platform components; professional services 5 to 10x; business services 5 to 9x; manufacturing and industrials 5 to 8x with premium for defensible IP or international revenue; logistics 5 to 10x by sub-segment. Within each range, structural characteristics (recurring revenue, concentration, management depth) determine where a specific business prints.',
     },
     {
       q: 'What is "adjusted EBITDA" and why does it matter?',

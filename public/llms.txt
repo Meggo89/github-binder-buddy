@@ -36,7 +36,7 @@ Mastella Advisory covers six sectors, each with specialist sub-sector pages:
 
 - Business services: HR and payroll services, facilities management, cleaning services, recruitment agencies
 - Healthcare services: dental practices, veterinary practices, care homes and domiciliary care, mental health services, occupational health, specialist clinics
-- Light industrials: specialist manufacturing, plant hire and equipment rental, engineering services, process engineering, industrial coatings and surface treatment
+- Manufacturing and industrials: specialist manufacturing, plant hire and equipment rental, engineering services, process engineering, industrial coatings and surface treatment
 - Logistics and distribution: container leasing, cold chain logistics, third party logistics, freight forwarding, last mile delivery, warehousing and distribution, marine logistics
 - Professional services: specialist accounting firms, legal practices, consulting practices, surveying and property advisory, insolvency and restructuring
 - Tech-enabled services: vertical SaaS, IT managed service providers, digital agencies, data and analytics services, cybersecurity services, AI and ML services

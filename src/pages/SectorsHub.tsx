@@ -44,7 +44,7 @@ export default function SectorsHub() {
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
         title="Sectors We Cover: UK M&A Advisory"
-        description="UK M&A advisory across six sectors: business services, healthcare, light industrials, logistics, professional services, tech-enabled services."
+        description="UK M&A advisory across six sectors: business services, healthcare, manufacturing and industrials, logistics, professional services, tech-enabled services."
         canonical="https://mastellagroup.com/sectors/"
       />
       <StructuredData data={[breadcrumb]} />

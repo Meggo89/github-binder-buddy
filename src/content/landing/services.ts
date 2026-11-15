@@ -392,7 +392,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         body: [
           "Buyers in the UK lower mid-market value owner-managed businesses on a multiple of adjusted EBITDA. The sector matters; the structural characteristics of the business matter more. Below is the honest version of how multiples are set in practice today.",
           "This is a different exercise from the valuations most owners are used to seeing from their accountant. For the full contrarian analysis on why accountancy valuations systematically under-price good UK businesses and what buyers actually pay in a competitive process, read: [Why Your Accountant's Valuation Is Almost Certainly Wrong](/insights/accountant-valuation-vs-market-valuation/).",
-          "The sector base range. Different sectors trade at different base multiples because of buyer competition, growth profile, regulatory barriers and capital intensity. Healthcare services (dental, vet, mental health) currently trade at 8 to 12x EBITDA at the lower mid-market. Tech-enabled services trade widely from 6x EBITDA on pure services up to ARR-based valuations of 3 to 8x ARR for SaaS components. Professional services 5 to 10x. Business services 5 to 9x. Light industrials 5 to 8x. Logistics 5 to 10x depending on sub-segment. See [the sectors hub](/sectors/) for sector-specific detail.",
+          "The sector base range. Different sectors trade at different base multiples because of buyer competition, growth profile, regulatory barriers and capital intensity. Healthcare services (dental, vet, mental health) currently trade at 8 to 12x EBITDA at the lower mid-market. Tech-enabled services trade widely from 6x EBITDA on pure services up to ARR-based valuations of 3 to 8x ARR for SaaS components. Professional services 5 to 10x. Business services 5 to 9x. Manufacturing and industrials 5 to 8x. Logistics 5 to 10x depending on sub-segment. See [the sectors hub](/sectors/) for sector-specific detail.",
           "The recurring revenue premium. Within any sector, recurring or contracted revenue commands a meaningful premium to project / one-off revenue. The premium is typically 1 to 2 turns of multiple. Pre-process work to surface the recurring component properly is one of the highest-return preparation activities.",
           "Customer concentration discount. Single-client concentration above 25 to 30% typically discounts the multiple even where the relationship is deep. Above 50% it materially narrows the buyer pool. Multi-anchor concentration with documented relationship depth sits differently. We help owners document and defend depth pre-process.",
           "Growth trajectory and operating leverage. Buyers reward demonstrated growth and a credible path to operating leverage. Flat or declining EBITDA trades at the lower end of the sector range; consistently growing EBITDA at the upper end. Buyers also look at margin trajectory, not just revenue growth.",
@@ -424,7 +424,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
           "[Tech-enabled services](/sectors/tech-enabled-services/). Wide range. Pure services at 6 to 10x EBITDA; SaaS components at 3 to 8x ARR. Buyer pool international with US and Nordic strategics active alongside UK PE consolidators.",
           "[Professional services](/sectors/professional-services/). 5 to 10x EBITDA range, active PE consolidators in accountancy, legal and consulting. Partner alignment is the critical structural factor.",
           "[Business services](/sectors/business-services/). 5 to 9x EBITDA range. PE consolidators across HR, payroll, FM, cleaning and recruitment. Recurring revenue and customer concentration drive intra-range positioning.",
-          "[Light industrials](/sectors/light-industrials/). 5 to 8x EBITDA range for general specialist manufacturing; premium ranges for businesses with defensible IP and international revenue. International strategic buyer pool.",
+          "[Manufacturing and industrials](/sectors/light-industrials/). 5 to 8x EBITDA range for general specialist manufacturing; premium ranges for businesses with defensible IP and international revenue. International strategic buyer pool.",
           "[Logistics and distribution](/sectors/logistics-and-distribution/). 5 to 10x EBITDA depending on sub-segment. Cold-chain and specialist 3PL at the upper end; pure haulage at the lower end. Recent transaction experience in cold-chain logistics and container leasing.",
           "If you would like an indicative valuation range for your specific business, [arrange a confidential conversation](/contact/). Forty-five minutes, no obligation, and we will share the indicative range with the reasoning behind it.",
         ],
@@ -461,7 +461,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
       },
       {
         q: "What sectors do you work in?",
-        a: "Business services, healthcare services, light industrials, logistics and distribution, professional services and tech-enabled services. See the sectors hub for detail.",
+        a: "Business services, healthcare services, manufacturing and industrials, logistics and distribution, professional services and tech-enabled services. See the sectors hub for detail.",
       },
       {
         q: "How do I get started?",
@@ -512,7 +512,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
         heading: "Who does Mastella Advisory work with?",
         cover: ["£5M to £50M EV range", "Owner-managed", "Sector coverage"],
         body: [
-          "We work with owner-managed UK businesses worth between £5M and £50M in enterprise value, across six sectors: business services, healthcare services, light industrials, logistics and distribution, professional services, and tech-enabled services. See [the sectors hub](/sectors/) for the detailed sub-sector coverage.",
+          "We work with owner-managed UK businesses worth between £5M and £50M in enterprise value, across six sectors: business services, healthcare services, manufacturing and industrials, logistics and distribution, professional services, and tech-enabled services. See [the sectors hub](/sectors/) for the detailed sub-sector coverage.",
           "Our typical client is a founder or partner group 12 to 24 months from a target exit, growth-capital round or capital event. The financials are real, the team is credible, and the business has reached the point where a structured competitive process across the right buyer pool will materially outperform either inbound approaches or a single-buyer negotiation.",
           "We do not work with businesses below £5M EV. At that scale, a quality broker network typically serves owners better than a senior-led firm can. We do not run mandates where the owner is committed to accepting a specific approach already on the table; that is execution support, which fits a different mandate type and a different fee profile.",
           "We do work hard to be straight in the first conversation. Forty-five minutes, no obligation, with an honest view on whether what you want to achieve is realistic and whether Mastella's model fits your situation.",

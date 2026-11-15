@@ -141,7 +141,7 @@ const LANDING_ROUTES: RouteMeta[] = [
     path: '/sectors',
     title: 'Sectors We Cover: UK M&A Advisory',
     description:
-      'UK M&A advisory across six sectors: business services, healthcare, light industrials, logistics, professional services, tech-enabled services.',
+      'UK M&A advisory across six sectors: business services, healthcare, manufacturing and industrials, logistics, professional services, tech-enabled services.',
     priority: 0.8,
     changefreq: 'monthly',
   },
