@@ -3,6 +3,9 @@ import type { NicheLanding } from "./types";
 export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
   {
     slug: "specialist-accounting-firms",
+    reportCallouts: [
+      { label: "Sector report: UK accountancy practice M&A 2026: what owners can expect to be paid", href: "/insights/accountancy-practices-ma-2026/" },
+    ],
     pillarSlug: "professional-services",
     name: "Specialist accounting firms",
     nameLower: "specialist accounting",
@@ -89,6 +92,9 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
   },
   {
     slug: "legal-practices",
+    reportCallouts: [
+      { label: "Sector report: What UK law firm buyers pay for in 2026", href: "/insights/legal-services-ma-2026/" },
+    ],
     pillarSlug: "professional-services",
     name: "Legal practices",
     nameLower: "legal",

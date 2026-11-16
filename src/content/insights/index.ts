@@ -1,3 +1,18 @@
+import reportItMspCyber from './it-msp-cyber-ma-2026';
+import reportLegalServices from './legal-services-ma-2026';
+import reportSpecialistManufacturing from './specialist-manufacturing-ma-2026';
+import reportFoodDrinkProducers from './food-drink-producers-ma-2026';
+import reportSpecialistDistribution from './specialist-distribution-ma-2026';
+import reportCareComplexCare from './care-complex-care-ma-2026';
+import reportFacilitiesManagementCleaning from './facilities-management-cleaning-ma-2026';
+import reportLogisticsDistribution from './logistics-distribution-ma-2026';
+import reportHealthcareServices from './healthcare-services-ma-2026';
+import reportEducationTraining from './education-training-ma-2026';
+import reportAccountancyPractices from './accountancy-practices-ma-2026';
+import reportWealthManagementIfa from './wealth-management-ifa-ma-2026';
+import reportSoftwareTechEnabled from './software-tech-enabled-ma-2026';
+import reportInsuranceBroking from './insurance-broking-ma-2026';
+import reportRecruitmentStaffing from './recruitment-staffing-ma-2026';
 import engineeringTechnicalServicesMa2026 from './engineering-technical-services-ma-2026';
 import badrChangesApril2027ShouldYouSellBefore from './badr-changes-april-2027-should-you-sell-before';
 import foundersRelief2027WhoQualifies from './founders-relief-2027-who-qualifies';
@@ -21,9 +36,25 @@ import type { Article } from './types';
 export type { Article };
 export { INSIGHT_LINKS } from './related';
 
-// Display order: newest first. Six articles published November 2026 lead, then the five
-// pillar articles from August 2026, then the earlier long-form pieces.
+// Display order: newest first. The fifteen sector reports of 16 November 2026 lead, then the six
+// articles published earlier in November 2026, then the five pillar articles from August 2026,
+// then the earlier long-form pieces.
 export const articles: Article[] = [
+  reportItMspCyber,
+  reportLegalServices,
+  reportSpecialistManufacturing,
+  reportFoodDrinkProducers,
+  reportSpecialistDistribution,
+  reportCareComplexCare,
+  reportFacilitiesManagementCleaning,
+  reportLogisticsDistribution,
+  reportHealthcareServices,
+  reportEducationTraining,
+  reportAccountancyPractices,
+  reportWealthManagementIfa,
+  reportSoftwareTechEnabled,
+  reportInsuranceBroking,
+  reportRecruitmentStaffing,
   engineeringTechnicalServicesMa2026,
   badrChangesApril2027ShouldYouSellBefore,
   foundersRelief2027WhoQualifies,

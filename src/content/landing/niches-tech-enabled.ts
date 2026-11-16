@@ -3,6 +3,9 @@ import type { NicheLanding } from "./types";
 export const TECH_ENABLED_NICHES: NicheLanding[] = [
   {
     slug: "vertical-saas",
+    reportCallouts: [
+      { label: "Sector report: UK B2B software and tech-enabled services M&A 2026: what owners should know before they sell", href: "/insights/software-tech-enabled-ma-2026/" },
+    ],
     pillarSlug: "tech-enabled-services",
     name: "Vertical SaaS",
     nameLower: "vertical SaaS",
@@ -84,6 +87,9 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
   },
   {
     slug: "it-managed-service-providers",
+    reportCallouts: [
+      { label: "Sector report: UK MSP buyers reward cyber depth and recurring revenue", href: "/insights/it-msp-cyber-ma-2026/" },
+    ],
     pillarSlug: "tech-enabled-services",
     name: "IT managed service providers",
     nameLower: "IT MSP",
@@ -374,6 +380,9 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
   },
   {
     slug: "cybersecurity-services",
+    reportCallouts: [
+      { label: "Sector report: UK MSP buyers reward cyber depth and recurring revenue", href: "/insights/it-msp-cyber-ma-2026/" },
+    ],
     pillarSlug: "tech-enabled-services",
     name: "Cybersecurity services",
     nameLower: "cybersecurity services",

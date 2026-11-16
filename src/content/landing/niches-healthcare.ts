@@ -3,6 +3,9 @@ import type { NicheLanding } from "./types";
 export const HEALTHCARE_NICHES: NicheLanding[] = [
   {
     slug: "dental-practices",
+    reportCallouts: [
+      { label: "Sector report: UK healthcare services M&A 2026: what owners should know before they sell", href: "/insights/healthcare-services-ma-2026/" },
+    ],
     pillarSlug: "healthcare-services",
     name: "Dental practices",
     nameLower: "dental",
@@ -89,6 +92,9 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
   },
   {
     slug: "veterinary-practices",
+    reportCallouts: [
+      { label: "Sector report: UK healthcare services M&A 2026: what owners should know before they sell", href: "/insights/healthcare-services-ma-2026/" },
+    ],
     pillarSlug: "healthcare-services",
     name: "Veterinary practices",
     nameLower: "veterinary",
@@ -223,6 +229,9 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
   },
   {
     slug: "care-homes-and-domiciliary-care",
+    reportCallouts: [
+      { label: "Sector report: UK care and complex care M&A 2026: what owners should know before they sell", href: "/insights/care-complex-care-ma-2026/" },
+    ],
     pillarSlug: "healthcare-services",
     name: "Care homes & domiciliary care",
     nameLower: "care home and domiciliary care",
@@ -393,6 +402,9 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
   },
   {
     slug: "occupational-health",
+    reportCallouts: [
+      { label: "Sector report: UK healthcare services M&A 2026: what owners should know before they sell", href: "/insights/healthcare-services-ma-2026/" },
+    ],
     pillarSlug: "healthcare-services",
     name: "Occupational health",
     nameLower: "occupational health",

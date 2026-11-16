@@ -174,6 +174,9 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
   },
   {
     slug: "third-party-logistics-3pl",
+    reportCallouts: [
+      { label: "Sector report: UK logistics and distribution M&A 2026: what owners can sell, and for how much", href: "/insights/logistics-distribution-ma-2026/" },
+    ],
     pillarSlug: "logistics-and-distribution",
     name: "Third-party logistics (3PL)",
     nameLower: "3PL",
@@ -301,6 +304,9 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
   },
   {
     slug: "freight-forwarding",
+    reportCallouts: [
+      { label: "Sector report: UK logistics and distribution M&A 2026: what owners can sell, and for how much", href: "/insights/logistics-distribution-ma-2026/" },
+    ],
     pillarSlug: "logistics-and-distribution",
     name: "Freight forwarding",
     nameLower: "freight forwarding",
@@ -464,6 +470,9 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
   },
   {
     slug: "warehousing-and-distribution",
+    reportCallouts: [
+      { label: "Sector report: Selling a UK specialist distributor in 2026: what buyers pay for", href: "/insights/specialist-distribution-ma-2026/" },
+    ],
     pillarSlug: "logistics-and-distribution",
     name: "Warehousing & distribution",
     nameLower: "warehousing and distribution",
