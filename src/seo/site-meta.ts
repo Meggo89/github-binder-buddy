@@ -65,7 +65,7 @@ export const ROUTES: RouteMeta[] = [
     path: '/team',
     title: 'Our Team: Senior M&A Advisors',
     description:
-      'Meet the Mastella leadership team. Over 50 years of combined experience in M&A, fundraising, executive search, and strategic consulting.',
+      'Leo Meggitt, Managing Director of Mastella Advisory. 15 years in M&A, and has advised on over £800m of transactions across multiple sectors.',
     priority: 0.7,
     changefreq: 'monthly',
   },

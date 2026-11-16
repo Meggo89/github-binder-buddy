@@ -103,7 +103,7 @@ export default function Team() {
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
         title="Leo Meggitt: Managing Director | Mastella Advisory"
-        description="Leo Meggitt, Managing Director of Mastella Advisory. 15 years advising founder-led businesses across the UK and internationally on sell-side M&A, fundraising and exit readiness."
+        description="Leo Meggitt, Managing Director of Mastella Advisory. 15 years in M&A, and has advised on over £800m of transactions across multiple sectors."
         canonical="https://mastellagroup.com/team/"
       />
       <StructuredData data={[personSchema, breadcrumb]} />
