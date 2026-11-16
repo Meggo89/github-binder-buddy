@@ -61,6 +61,8 @@ export type SectorPillar = {
   whoWeWorkWith?: ContentTodo;
   whatBuyersLookFor?: ContentTodo;
   ourProcess?: ContentTodo;
+  // Optional callouts linking to sector reports in Insights.
+  reportCallouts?: { label: string; href: string }[];
 };
 
 // ----- Niche pages -----
@@ -84,6 +86,8 @@ export type NicheLanding = {
   caseStudyAnchor?: CaseStudyAnchor;
   // Optional callout linking to a sector report in Insights.
   reportCallout?: { label: string; href: string };
+  // Optional further sector report callouts.
+  reportCallouts?: { label: string; href: string }[];
 };
 
 // ----- Service / intent pages -----

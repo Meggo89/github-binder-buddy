@@ -14,6 +14,9 @@ export type Article = {
   download?: { href: string; label: string };
   // Optional: value of the hidden `report` field on the buyer-list form placed in this article.
   formReportId?: string;
+  // Optional: options for the "Your niche" select on that form, taken from the report's own
+  // sub-sectors. "Other" is appended automatically. Falls back to the engineering list.
+  formNiches?: string[];
   excerpt: string;
   // Optional: meta description when `excerpt` (also the card text) runs past 160 characters.
   // Falls back to `excerpt`.

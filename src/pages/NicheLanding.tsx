@@ -112,17 +112,17 @@ export default function NicheLandingPage() {
               </p>
             </FadeIn>
 
-            {niche.reportCallout && (
-              <aside className="mt-10 p-6 rounded-xl border border-accent/40 bg-sand-light">
+            {[...(niche.reportCallout ? [niche.reportCallout] : []), ...(niche.reportCallouts ?? [])].map((c) => (
+              <aside key={c.href} className="mt-10 p-6 rounded-xl border border-accent/40 bg-sand-light">
                 <Link
-                  to={niche.reportCallout.href}
+                  to={c.href}
                   className="inline-flex items-center gap-2 font-serif text-xl text-navy leading-snug hover:text-accent-dark"
                 >
-                  {niche.reportCallout.label}
+                  {c.label}
                   <ArrowRight className="h-4 w-4 flex-shrink-0" />
                 </Link>
               </aside>
-            )}
+            ))}
 
             {niche.caseStudyAnchor && (
               <FadeIn>

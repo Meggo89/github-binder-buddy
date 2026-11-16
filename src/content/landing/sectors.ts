@@ -3,6 +3,10 @@ import type { SectorPillar } from "./types";
 export const SECTORS: SectorPillar[] = [
   {
     slug: "business-services",
+    reportCallouts: [
+      { label: "Sector report: UK facilities management and cleaning M&A 2026: an owner's guide to the sale market", href: "/insights/facilities-management-cleaning-ma-2026/" },
+      { label: "Sector report: Specialist recruiters win offers as UK deal volumes settle", href: "/insights/recruitment-staffing-ma-2026/" },
+    ],
     name: "Business services",
     nameLower: "business services",
     title: "Business Services M&A Advisor UK | Mastella Advisory",
@@ -94,6 +98,10 @@ export const SECTORS: SectorPillar[] = [
 
   {
     slug: "healthcare-services",
+    reportCallouts: [
+      { label: "Sector report: UK care and complex care M&A 2026: what owners should know before they sell", href: "/insights/care-complex-care-ma-2026/" },
+      { label: "Sector report: UK healthcare services M&A 2026: what owners should know before they sell", href: "/insights/healthcare-services-ma-2026/" },
+    ],
     name: "Healthcare services",
     nameLower: "healthcare services",
     title: "Healthcare Services M&A Advisor UK | Mastella Advisory",
@@ -181,6 +189,10 @@ export const SECTORS: SectorPillar[] = [
 
   {
     slug: "light-industrials",
+    reportCallouts: [
+      { label: "Sector report: Selling a UK specialist manufacturer in 2026: what buyers pay for", href: "/insights/specialist-manufacturing-ma-2026/" },
+      { label: "Sector report: UK food and drink producer M&A 2026: what owners can expect", href: "/insights/food-drink-producers-ma-2026/" },
+    ],
     name: "Manufacturing and industrials",
     nameLower: "manufacturing or industrial",
     title: "Manufacturing & Industrial M&A Advisor UK | Mastella Advisory",
@@ -267,6 +279,10 @@ export const SECTORS: SectorPillar[] = [
 
   {
     slug: "logistics-and-distribution",
+    reportCallouts: [
+      { label: "Sector report: Selling a UK specialist distributor in 2026: what buyers pay for", href: "/insights/specialist-distribution-ma-2026/" },
+      { label: "Sector report: UK logistics and distribution M&A 2026: what owners can sell, and for how much", href: "/insights/logistics-distribution-ma-2026/" },
+    ],
     name: "Logistics and distribution",
     nameLower: "logistics and distribution",
     title: "Logistics & Distribution M&A Advisor UK | Mastella Advisory",
@@ -353,6 +369,10 @@ export const SECTORS: SectorPillar[] = [
 
   {
     slug: "professional-services",
+    reportCallouts: [
+      { label: "Sector report: What UK law firm buyers pay for in 2026", href: "/insights/legal-services-ma-2026/" },
+      { label: "Sector report: UK accountancy practice M&A 2026: what owners can expect to be paid", href: "/insights/accountancy-practices-ma-2026/" },
+    ],
     name: "Professional services",
     nameLower: "professional services",
     title: "Professional Services M&A Advisor UK | Mastella Advisory",
@@ -438,6 +458,10 @@ export const SECTORS: SectorPillar[] = [
 
   {
     slug: "tech-enabled-services",
+    reportCallouts: [
+      { label: "Sector report: UK MSP buyers reward cyber depth and recurring revenue", href: "/insights/it-msp-cyber-ma-2026/" },
+      { label: "Sector report: UK B2B software and tech-enabled services M&A 2026: what owners should know before they sell", href: "/insights/software-tech-enabled-ma-2026/" },
+    ],
     name: "Tech-enabled services",
     nameLower: "tech-enabled services",
     title: "Tech-Enabled Services M&A Advisor UK | Mastella Advisory",

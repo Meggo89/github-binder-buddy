@@ -3,6 +3,9 @@ import type { NicheLanding } from "./types";
 export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
   {
     slug: "specialist-manufacturing",
+    reportCallouts: [
+      { label: "Sector report: Selling a UK specialist manufacturer in 2026: what buyers pay for", href: "/insights/specialist-manufacturing-ma-2026/" },
+    ],
     pillarSlug: "light-industrials",
     name: "Specialist manufacturing",
     nameLower: "specialist manufacturing",

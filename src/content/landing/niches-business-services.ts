@@ -86,6 +86,9 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
   },
   {
     slug: "facilities-management",
+    reportCallouts: [
+      { label: "Sector report: UK facilities management and cleaning M&A 2026: an owner's guide to the sale market", href: "/insights/facilities-management-cleaning-ma-2026/" },
+    ],
     pillarSlug: "business-services",
     name: "Facilities management",
     nameLower: "facilities management",
@@ -169,6 +172,9 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
   },
   {
     slug: "cleaning-services",
+    reportCallouts: [
+      { label: "Sector report: UK facilities management and cleaning M&A 2026: an owner's guide to the sale market", href: "/insights/facilities-management-cleaning-ma-2026/" },
+    ],
     pillarSlug: "business-services",
     name: "Cleaning services",
     nameLower: "cleaning services",
@@ -254,6 +260,9 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
   },
   {
     slug: "recruitment-agencies",
+    reportCallouts: [
+      { label: "Sector report: Specialist recruiters win offers as UK deal volumes settle", href: "/insights/recruitment-staffing-ma-2026/" },
+    ],
     pillarSlug: "business-services",
     name: "Recruitment agencies",
     nameLower: "recruitment",
