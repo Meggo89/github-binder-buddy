@@ -68,6 +68,18 @@ export default function SectorPillarPage() {
               <p className="text-body-lg text-navy-light leading-relaxed mb-12">{sector.intro}</p>
             </FadeIn>
 
+            {sector.reportCallouts?.map((c) => (
+              <aside key={c.href} className="mb-12 p-6 rounded-xl border border-accent/40 bg-sand-light">
+                <Link
+                  to={c.href}
+                  className="inline-flex items-center gap-2 font-serif text-xl text-navy leading-snug hover:text-accent-dark"
+                >
+                  {c.label}
+                  <ArrowRight className="h-4 w-4 flex-shrink-0" />
+                </Link>
+              </aside>
+            ))}
+
             {sector.whoWeWorkWith && <ContentTodoSection todo={sector.whoWeWorkWith} />}
             {sector.whatBuyersLookFor && <ContentTodoSection todo={sector.whatBuyersLookFor} />}
             {sector.ourProcess && <ContentTodoSection todo={sector.ourProcess} />}

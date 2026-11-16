@@ -28,9 +28,12 @@ type Props = {
   // Distinguishes the two copies of the form on one page (field ids must be unique).
   idPrefix: string;
   report: string;
+  // Niche options for this report, without "Other". Defaults to the engineering report's list.
+  niches?: string[];
 };
 
-export function BuyerListForm({ idPrefix, report }: Props) {
+export function BuyerListForm({ idPrefix, report, niches }: Props) {
+  const nicheOptions = niches ? [...niches, 'Other'] : NICHES;
   const [form, setForm] = useState({ name: '', email: '', company: '', niche: '', selling_timeline: '' });
   const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
   const mountedAt = useRef(0);
@@ -122,7 +125,7 @@ export function BuyerListForm({ idPrefix, report }: Props) {
             <label htmlFor={id('niche')} className={label}>Your niche</label>
             <select id={id('niche')} name="niche" value={form.niche} onChange={change} className={input}>
               <option value="">Select an option</option>
-              {NICHES.map((n) => (
+              {nicheOptions.map((n) => (
                 <option key={n} value={n}>{n}</option>
               ))}
             </select>

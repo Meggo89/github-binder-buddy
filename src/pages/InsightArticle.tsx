@@ -130,7 +130,7 @@ export default function InsightArticle() {
                 {article.content.split('<!--FORM:buyer-list-->').map((part, i, parts) => (
                   <Fragment key={i}>
                     <div className="prose-article" dangerouslySetInnerHTML={{ __html: part }} />
-                    {i < parts.length - 1 && <BuyerListForm idPrefix={`buyer-list-${i + 1}`} report={article.formReportId ?? article.slug} />}
+                    {i < parts.length - 1 && <BuyerListForm idPrefix={`buyer-list-${i + 1}`} report={article.formReportId ?? article.slug} niches={article.formNiches} />}
                   </Fragment>
                 ))}
 
