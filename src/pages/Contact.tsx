@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Mail, MapPin, Phone, CheckCircle, Loader2 } from 'lucide-react';
+import { Mail, MapPin, CheckCircle, Loader2 } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { PageLayout } from '../components/layout';
 import { FadeIn } from '../components/ui/motion';
@@ -165,23 +165,11 @@ export default function Contact() {
                     Please get in touch.
                   </h2>
                   <p className="text-body-lg text-navy-light leading-relaxed mb-12">
-                    For an initial conversation, use the form or contact us by phone or email. Everything you send is
+                    For an initial conversation, use the form or email us. Everything you send is
                     treated in confidence.
                   </p>
 
                   <div className="space-y-7">
-                    <div className="flex items-start gap-4">
-                      <div className="w-10 h-10 rounded-lg bg-accent/10 border border-accent/30 flex items-center justify-center flex-shrink-0">
-                        <Phone className="h-4 w-4 text-accent-dark" />
-                      </div>
-                      <div>
-                        <p className="font-mono text-xs text-navy-light tracking-widest mb-1">PHONE</p>
-                        <a href="tel:+447860107704" className="text-navy hover:text-accent-dark transition-colors">
-                          +44 (0) 7860 107704
-                        </a>
-                      </div>
-                    </div>
-
                     <div className="flex items-start gap-4">
                       <div className="w-10 h-10 rounded-lg bg-accent/10 border border-accent/30 flex items-center justify-center flex-shrink-0">
                         <Mail className="h-4 w-4 text-accent-dark" />
