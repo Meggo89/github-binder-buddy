@@ -107,9 +107,6 @@ export function Navigation() {
               </Link>
             );
           })}
-          <a href="tel:+447860107704" className="hidden xl:inline text-sm font-medium text-navy hover:text-accent-dark transition-colors whitespace-nowrap">
-            +44 (0) 7860 107704
-          </a>
           {!onContactPage && (
             <Link
               to="/contact/"
