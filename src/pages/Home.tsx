@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, ArrowUpRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { PageLayout } from '../components/layout';
 import { FAQSection } from '../components/FAQSection';
@@ -8,6 +8,7 @@ import { TypedHeroTagline } from '../components/home/TypedHero';
 import { useScrollTracking } from '../hooks/useScrollTracking';
 import { trackCTA } from '../utils/trackCTA';
 import { articles } from '../content/insights';
+import { HOME_EVIDENCE, REPORT_EVIDENCE } from '../content/evidence';
 import leoMeggitt from '../assets/leo-meggitt.jpg';
 import { WhatWeDo } from '../components/home/WhatWeDo';
 import { HomeServiceLinks, HomeSectorLinks } from '../components/home/HomeLinks';
@@ -15,55 +16,72 @@ import { ScoreBlock } from '../components/landing/ScoreBlock';
 import { CtaSection } from '../components/landing/CtaSection';
 import { HOME_RECENT_WORK } from '../content/case-studies';
 
-// Facts for the hero panel. The track record matches the stats used elsewhere on the site.
-const HERO_STATS = [
-  { value: '15', label: 'Years in M&A' },
-  { value: '£800m+', label: 'Transaction value advised on' },
-];
-
-function HeroPanel() {
-  const reports = articles.filter((a) => a.category === 'Sector Report');
-  const latest = reports[0];
+// The hero ledger: published and derived prices from our own sector reports.
+// Colours are written as fixed values so the paper theme's overrides leave the dark panel alone.
+function HeroLedger() {
+  const reportCount = articles.filter((a) => a.category === 'Sector Report').length;
+  const rows = HOME_EVIDENCE.filter((slug) => REPORT_EVIDENCE[slug]).map((slug) => ({ slug, ...REPORT_EVIDENCE[slug] }));
+  const dealsRead = rows.reduce((n, r) => n + r.deals, 0);
   return (
-    <aside className="bg-white/70 border border-navy/10 rounded-xl p-6 md:p-8 shadow-sm" aria-label="Track record and research">
-      <dl className="grid grid-cols-2 gap-6 pb-6 mb-6 border-b border-navy/10">
-        {HERO_STATS.map((s) => (
-          <div key={s.label}>
-            <dt className="sr-only">{s.label}</dt>
-            <dd className="font-serif text-4xl text-navy tracking-tight">{s.value}</dd>
-            <dd className="text-sm text-navy-light leading-snug mt-1">{s.label}</dd>
-          </div>
+    <aside
+      className="relative overflow-hidden rounded-2xl border-t-4 border-[#FF87B7] bg-[#0A2647] text-[#F2EDE4] shadow-2xl shadow-[#0A2647]/20"
+      aria-labelledby="hero-ledger-heading"
+    >
+      {/* The five rising bars of the logo, as a quiet watermark. */}
+      <svg className="absolute -right-6 -top-4 h-40 w-40 opacity-[0.07]" viewBox="0 0 100 100" fill="#F2EDE4" aria-hidden="true">
+        {[[8, 44], [27, 30], [46, 16], [65, 30], [84, 44]].map(([x, y]) => (
+          <g key={x}>
+            <polygon points={`${x - 5},${y + 10} ${x + 4},${y} ${x + 13},${y + 10}`} />
+            <rect x={x} y={y + 10} width="8" height={90 - y} />
+          </g>
         ))}
-      </dl>
-      {latest && (
-        <div>
-          <p className="eyebrow mb-3">Latest sector report</p>
-          <Link
-            to={`/insights/${latest.slug}/`}
-            className="group block font-serif text-xl text-navy leading-snug hover:text-accent-dark transition-colors"
-          >
-            {latest.title}
-            <ArrowUpRight className="inline h-4 w-4 ml-1 align-baseline text-navy-light group-hover:text-accent-dark" aria-hidden="true" />
-          </Link>
-          <Link
-            to="/insights/"
-            className="inline-flex items-center gap-2 mt-5 text-sm font-medium text-navy hover:text-accent-dark transition-colors"
-          >
-            All {reports.length} sector reports
-            <ArrowRight className="h-4 w-4" aria-hidden="true" />
-          </Link>
-        </div>
-      )}
+      </svg>
+      <div className="relative p-6 md:p-8">
+        <p className="font-mono text-[0.75rem] uppercase tracking-[0.14em] text-[#D4B545] mb-2">From our deal log</p>
+        <h2 id="hero-ledger-heading" className="font-serif text-2xl md:text-[1.75rem] leading-tight text-balance text-[#FFFFFF] mb-6">
+          What buyers paid, 2024 to 2026
+        </h2>
+        <ul className="border-t border-[#F2EDE4]/15">
+          {rows.map((r) => (
+            <li key={r.slug} className="border-b border-[#F2EDE4]/15">
+              <Link
+                to={`/insights/${r.slug}/`}
+                onClick={() => trackCTA(`Hero ledger: ${r.sector}`, 'hero')}
+                className="group grid grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 py-3.5 -mx-2 px-2 rounded-md hover:bg-[#F2EDE4]/[0.06] transition-colors"
+              >
+                <span>
+                  <span className="block font-medium text-[#FFFFFF] group-hover:text-[#D4B545] transition-colors">{r.sector}</span>
+                  <span className="block text-[0.8125rem] text-[#F2EDE4]/70 mt-0.5">{r.deals} deals logged</span>
+                </span>
+                <span className="text-right">
+                  <span className="block font-serif text-2xl leading-none text-[#D4B545] tabular-nums whitespace-nowrap">{r.multiple}</span>
+                  <span className="block text-[0.8125rem] text-[#F2EDE4]/70 mt-1">{r.basis}</span>
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <p className="text-[0.8125rem] leading-relaxed text-[#F2EDE4]/70 mt-5">
+          {dealsRead} deals read across these {rows.length} sectors. Each figure is published or derived, and its report shows the source.
+        </p>
+        <Link
+          to="/insights/"
+          className="inline-flex items-center gap-2 mt-4 text-sm font-medium text-[#FFFFFF] hover:text-[#D4B545] transition-colors"
+        >
+          All {reportCount} sector reports
+          <ArrowRight className="h-4 w-4" aria-hidden="true" />
+        </Link>
+      </div>
     </aside>
   );
 }
 
 function Hero() {
   return (
-    <div className="grid xl:grid-cols-[minmax(0,1fr)_22rem] gap-12 xl:gap-16 items-center">
+    <div className="grid lg:grid-cols-[minmax(0,1fr)_25rem] xl:grid-cols-[minmax(0,1fr)_27rem] gap-12 xl:gap-16 items-center">
       <div>
         <p className="eyebrow mb-6">UK & cross-border · worth £5M to £50M</p>
-        <h1 className="font-serif text-display-xl xl:text-[4.5rem] text-white mb-8 text-balance leading-[1.05]">
+        <h1 className="font-serif text-display-xl lg:text-[3rem] xl:text-[4.25rem] text-white mb-8 text-balance leading-[1.05]">
           Business exits,<br />
           <TypedHeroTagline />
         </h1>
@@ -88,8 +106,13 @@ function Hero() {
             Get your free exit readiness score
           </Link>
         </div>
+        <p className="mt-8 text-sm text-navy-light">
+          <span className="font-semibold text-navy">15 years</span> in M&amp;A
+          <span className="mx-3 text-navy/30" aria-hidden="true">|</span>
+          <span className="font-semibold text-navy">£800m+</span> of transactions advised on
+        </p>
       </div>
-      <HeroPanel />
+      <HeroLedger />
     </div>
   );
 }
