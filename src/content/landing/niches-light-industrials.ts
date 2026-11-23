@@ -11,7 +11,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     pillarSlug: "light-industrials",
     name: "Specialist manufacturing",
     nameLower: "specialist manufacturing",
-    title: "Specialist Manufacturing M&A Advisor UK | Mastella Advisory",
+    title: "Specialist Manufacturing M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK specialist manufacturing business worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential process for owner-managed manufacturers.",
     h1: "Selling a specialist manufacturing business in the UK",
@@ -97,7 +97,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     pillarSlug: "light-industrials",
     name: "Plant hire & equipment rental",
     nameLower: "plant hire and equipment rental",
-    title: "Plant & Equipment Hire M&A Advisor UK | Mastella Advisory",
+    title: "Plant & Equipment Hire M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK plant hire or equipment rental business worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential process.",
     h1: "Selling a plant hire or equipment rental business in the UK",
@@ -189,7 +189,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     pillarSlug: "light-industrials",
     name: "Engineering services",
     nameLower: "engineering services",
-    title: "Engineering Services M&A Advisor UK | Mastella Advisory",
+    title: "Engineering Services M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK engineering services business worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential process for owner-managed engineering firms.",
     h1: "Selling an engineering services business in the UK",
@@ -272,7 +272,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     pillarSlug: "light-industrials",
     name: "Process engineering",
     nameLower: "process engineering",
-    title: "Process Engineering M&A Advisor UK | Mastella Advisory",
+    title: "Process Engineering M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK process engineering business worth £5M to £50M? Senior-led M&A advisory for specialist process engineering owners.",
     h1: "Selling a process engineering business in the UK",
@@ -351,7 +351,7 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     pillarSlug: "light-industrials",
     name: "Industrial coatings & surface treatment",
     nameLower: "industrial coatings and surface treatment",
-    title: "Industrial Coatings M&A Advisor UK | Mastella Advisory",
+    title: "Industrial Coatings M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK industrial coatings or surface treatment business worth £5M to £50M? Senior-led M&A advisory. Confidential off-market process.",
     h1: "Selling an industrial coatings or surface treatment business in the UK",

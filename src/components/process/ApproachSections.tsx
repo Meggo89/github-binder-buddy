@@ -5,17 +5,17 @@ import { AIHumanSplit } from '../home/AIHumanSplit';
 import { processStages } from '../../content/process-stages';
 
 // How Mastella works: the shift in M&A delivery, the in-house agents, the six stages and how an
-// advisor is matched. Moved from the home page to /process/ in November 2026.
+// adviser is matched. Moved from the home page to /process/ in November 2026.
 
 const matchingSteps = [
   {
     eyebrow: 'Step 01',
     title: 'We match you',
-    body: 'On first conversation we pair you with a sector-specialist advisor chosen for your transaction type, stage, and buyer universe.',
+    body: 'On first conversation we pair you with a sector-specialist adviser chosen for your transaction type, stage, and buyer universe.',
   },
   {
     eyebrow: 'Leo or the bench',
-    title: 'One named advisor leads',
+    title: 'One named adviser leads',
     body: 'Either Leo Meggitt or a vetted specialist from our wider bench of senior practitioners across sectors and deal types.',
   },
   {
@@ -61,7 +61,7 @@ export function ProcessApproachSections() {
             <FadeIn delay={0.3}>
               <p className="text-navy font-medium">
                 Mastella is built around that insight. We use AI to do the work that used to consume weeks, so
-                experienced advisors can spend their time on what still requires judgement: positioning, relationships,
+                experienced advisers can spend their time on what still requires judgement: positioning, relationships,
                 negotiation, and the calls that actually move deals.
               </p>
             </FadeIn>
@@ -216,7 +216,7 @@ export function ProcessApproachSections() {
 
         <FadeIn delay={0.2}>
           <p className="font-serif text-2xl md:text-3xl text-accent italic text-center mt-16 max-w-3xl mx-auto leading-snug text-balance">
-            &ldquo;The AI is the leverage. The matched advisor is the difference.&rdquo;
+            &ldquo;The AI is the leverage. The matched adviser is the difference.&rdquo;
           </p>
         </FadeIn>
       </div>

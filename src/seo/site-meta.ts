@@ -11,7 +11,7 @@ export const SITE = {
   domain: 'https://mastellagroup.com',
   defaultTitle: 'Off-market M&A for founder-led businesses | Mastella Advisory',
   defaultDescription:
-    "Off-market M&A for founder-led businesses worth £5M to £50M. We find buyers other advisors don't reach. Confidential sell-side, fundraising and exit readiness.",
+    "Off-market M&A for founder-led businesses worth £5M to £50M. We find buyers other advisers don't reach. Confidential sell-side, fundraising and exit readiness.",
   defaultOgImage: 'https://mastellagroup.com/og-image.png?v=3',
   locale: 'en_GB',
   lastmod: '2026-09-29',
@@ -33,7 +33,7 @@ export const ROUTES: RouteMeta[] = [
     path: '/',
     title: 'Off-market M&A for founder-led companies',
     description:
-      "Off-market M&A for founder-led businesses worth £5M to £50M. We find buyers other advisors don't reach. Confidential sell-side, fundraising and exit readiness.",
+      "Off-market M&A for founder-led businesses worth £5M to £50M. We find buyers other advisers don't reach. Confidential sell-side, fundraising and exit readiness.",
     priority: 1.0,
     changefreq: 'weekly',
   },
@@ -41,7 +41,7 @@ export const ROUTES: RouteMeta[] = [
     path: '/about',
     title: 'About Mastella Advisory | Founder-Led M&A, £5M to £50M',
     description:
-      'Off-market M&A advisory for founder-led businesses worth £5M to £50M. Confidential sell-side, fundraising and exit readiness, led by senior advisors.',
+      'Off-market M&A advisory for founder-led businesses worth £5M to £50M. Confidential sell-side, fundraising and exit readiness, led by senior advisers.',
     priority: 0.8,
     changefreq: 'monthly',
   },
@@ -57,13 +57,13 @@ export const ROUTES: RouteMeta[] = [
     path: '/process',
     title: 'How We Source Buyers',
     description:
-      "How we source buyers other advisors don't reach. Six-stage senior-led M&A process for founder-led businesses worth £5M to £50M in the UK and internationally.",
+      "How we source buyers other advisers don't reach. Six-stage senior-led M&A process for founder-led businesses worth £5M to £50M in the UK and internationally.",
     priority: 0.8,
     changefreq: 'monthly',
   },
   {
     path: '/team',
-    title: 'Our Team: Senior M&A Advisors',
+    title: 'Our Team: Senior M&A Advisers',
     description:
       'Leo Meggitt, Managing Director of Mastella Advisory. 15 years in M&A, and has advised on over £800m of transactions across multiple sectors.',
     priority: 0.7,
@@ -89,7 +89,7 @@ export const ROUTES: RouteMeta[] = [
     path: '/insights',
     title: 'Insights: M&A for Founder-Led Businesses',
     description:
-      'Long-form analysis on exits, fundraising and valuation for founder-led businesses. Written by the Mastella team for founders, not other advisors.',
+      'Long-form analysis on exits, fundraising and valuation for founder-led businesses. Written by the Mastella team for founders, not other advisers.',
     priority: 0.8,
     changefreq: 'weekly',
   },

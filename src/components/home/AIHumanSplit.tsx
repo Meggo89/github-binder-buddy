@@ -69,7 +69,7 @@ export function AIHumanSplit() {
         </div>
       </div>
       <p className="text-sm text-white/50 leading-relaxed mt-5">
-        Every task has a ratio. AI does the machinable work at machine speed; the advisor does what
+        Every task has a ratio. AI does the machinable work at machine speed; the adviser does what
         still needs judgement.
       </p>
     </div>

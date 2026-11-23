@@ -10,7 +10,7 @@ export const SECTORS: SectorPillar[] = [
     ],
     name: "Business services",
     nameLower: "business services",
-    title: "Business Services M&A Advisor UK | Mastella Advisory",
+    title: "Business Services M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK business services company worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential sale processes for owner-managed firms.",
     h1: "Selling a business services company in the UK",
@@ -41,7 +41,7 @@ export const SECTORS: SectorPillar[] = [
       },
       {
         q: 'What does "off-market" actually mean in practice?',
-        a: "It means we approach a curated set of strategic and PE buyers directly under NDA, rather than listing the business on broker networks or M&A databases. This protects confidentiality, prevents staff/customer leakage, and frequently uncovers buyers other advisors do not reach.",
+        a: "It means we approach a curated set of strategic and PE buyers directly under NDA, rather than listing the business on broker networks or M&A databases. This protects confidentiality, prevents staff/customer leakage, and frequently uncovers buyers other advisers do not reach.",
       },
       {
         q: "How are your fees structured?",
@@ -78,7 +78,7 @@ export const SECTORS: SectorPillar[] = [
         "Second, customer concentration. The headline rule of thumb in the lower mid-market is that no single customer should represent more than 10 to 15% of revenue. Above 20% you typically lose buyers entirely from a competitive process. Above 30% you almost certainly print at a discount unless the customer relationship is institutional and the contract tail is multi-year.",
         "Third, founder dependency. The most overlooked diligence area in this sector. Buyers want to see a senior team that can run the business if you stepped back tomorrow. Building out a credible number-two and documenting founder-held client relationships is, in our experience, the single highest-return preparation work most owners do in the 12 months before going to market.",
         "Fourth, technology stack and data quality. Buyers no longer treat operating systems, CRM data and integrated billing as a nice-to-have. They treat them as the prerequisite for any post-acquisition value-creation plan. Business services firms with material data hygiene issues consistently lose buyer enthusiasm during data-room review, regardless of headline financials.",
-        "Fifth, EBITDA quality and adjustment defensibility. The single most common reason deals re-trade between exchange and completion is the buyer's diligence team disputing seller adjustments. We work with owners to build an EBITDA bridge that is defensible to the line. See our [exit planning advisor](/services/exit-planning-advisor-uk/) service for how this typically works 12 to 18 months out.",
+        "Fifth, EBITDA quality and adjustment defensibility. The single most common reason deals re-trade between exchange and completion is the buyer's diligence team disputing seller adjustments. We work with owners to build an EBITDA bridge that is defensible to the line. See our [exit planning adviser](/services/exit-planning-advisor-uk/) service for how this typically works 12 to 18 months out.",
       ],
     },
     ourProcess: {
@@ -89,7 +89,7 @@ export const SECTORS: SectorPillar[] = [
         "What is different in this sector vs others",
       ],
       body: [
-        "Selling a business services company runs through Mastella's senior-led [six-stage process](/process/), with off-market approaches to a curated list of strategic and PE buyers under NDA and a deep pool of PE-backed consolidators to map. The process is built around three things that distinguish it from the traditional advisor model: off-market sourcing, senior-led delivery, and a modern toolset for surfacing buyers other advisors miss.",
+        "Selling a business services company runs through Mastella's senior-led [six-stage process](/process/), with off-market approaches to a curated list of strategic and PE buyers under NDA and a deep pool of PE-backed consolidators to map. The process is built around three things that distinguish it from the traditional adviser model: off-market sourcing, senior-led delivery, and a modern toolset for surfacing buyers other advisers miss.",
         "Off-market means we approach a curated list of strategic and PE buyers directly under NDA. We do not list your business on broker networks or M&A databases. For business services owners, where staff, customers and competitors are typically reachable through the same trade channels, this is the only credible way to run a genuinely confidential process.",
         "Senior-led means Leo personally runs every conversation that matters. Buyer mapping, financial normalisation, data-room build and the readiness diagnostic are supported by a small in-house team and a proprietary technology layer that surfaces buyer signals from public and licensed data sources. The decisions, the calls, the negotiation, and the day-to-day client relationship sit with Leo from first conversation to completion.",
         "What is specific to business services: the buyer pool is unusually deep and concentrated. There are 15 to 25 active PE-backed consolidators across business services sub-sectors at any given time, each with distinct strategies on add-on size, geographic preference, and integration intensity. Knowing which subset is currently deploying capital, and on what terms, is the difference between running a generic auction and running a process that produces real competitive tension.",
@@ -105,7 +105,7 @@ export const SECTORS: SectorPillar[] = [
     ],
     name: "Healthcare services",
     nameLower: "healthcare services",
-    title: "Healthcare Services M&A Advisor UK | Mastella Advisory",
+    title: "Healthcare Services M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK healthcare services business worth £5M to £50M? Senior-led, confidential M&A advisory across dental, vet, care, mental health and clinics.",
     h1: "Selling a healthcare services business in the UK",
@@ -197,7 +197,7 @@ export const SECTORS: SectorPillar[] = [
     ],
     name: "Manufacturing and industrials",
     nameLower: "manufacturing or industrial",
-    title: "Manufacturing & Industrial M&A Advisor UK | Mastella Advisory",
+    title: "Manufacturing & Industrial M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK manufacturing or industrial business worth £5M to £50M? Senior-led M&A advisory for specialist manufacturing, plant hire and engineering owners.",
     h1: "Selling a manufacturing or industrial business in the UK",
@@ -287,7 +287,7 @@ export const SECTORS: SectorPillar[] = [
     ],
     name: "Logistics and distribution",
     nameLower: "logistics and distribution",
-    title: "Logistics & Distribution M&A Advisor UK | Mastella Advisory",
+    title: "Logistics & Distribution M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK logistics or distribution business worth £5M to £50M? Senior-led, off-market M&A advisory. 3PL, cold-chain, freight, last-mile.",
     h1: "Selling a logistics or distribution business in the UK",
@@ -377,7 +377,7 @@ export const SECTORS: SectorPillar[] = [
     ],
     name: "Professional services",
     nameLower: "professional services",
-    title: "Professional Services M&A Advisor UK | Mastella Advisory",
+    title: "Professional Services M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK professional services firm worth £5M to £50M? Senior-led M&A advisory for accountancy, legal, consulting, surveying and insolvency owners.",
     h1: "Selling a professional services firm in the UK",
@@ -466,7 +466,7 @@ export const SECTORS: SectorPillar[] = [
     ],
     name: "Tech-enabled services",
     nameLower: "tech-enabled services",
-    title: "Tech-Enabled Services M&A Advisor UK | Mastella Advisory",
+    title: "Tech-Enabled Services M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK tech-enabled services business worth £5M to £50M? Senior-led M&A advisory across SaaS, MSP, digital, data, cyber and AI services.",
     h1: "Selling a tech-enabled services business in the UK",

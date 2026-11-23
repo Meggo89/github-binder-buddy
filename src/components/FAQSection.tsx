@@ -11,7 +11,7 @@ const DEFAULT_FAQ: FAQItem[] = [
   {
     question: 'How does AI actually change the advisory relationship?',
     answer:
-      'Your day-to-day contact is still a senior advisor. In the background, a set of agents we have built ourselves (purpose-built for lower mid-market M&A, not off-the-shelf) handles the structured work: financial normalisation, buyer mapping, IM drafting, diligence tracking, term benchmarking. Work that used to take weeks of analyst time happens much faster, so senior time is spent on positioning, relationships and negotiation rather than production.',
+      'Your day-to-day contact is still a senior adviser. In the background, a set of agents we have built ourselves (purpose-built for lower mid-market M&A, not off-the-shelf) handles the structured work: financial normalisation, buyer mapping, IM drafting, diligence tracking, term benchmarking. Work that used to take weeks of analyst time happens much faster, so senior time is spent on positioning, relationships and negotiation rather than production.',
   },
   {
     question: 'What size of business do you work with?',
@@ -31,7 +31,7 @@ const DEFAULT_FAQ: FAQItem[] = [
   {
     question: 'Do I need my financials in perfect order before engaging?',
     answer:
-      'No. Identifying and closing the gaps in your financial reporting is part of the engagement. We work with your accountants and advisors to get financials into the form acquirers expect.',
+      'No. Identifying and closing the gaps in your financial reporting is part of the engagement. We work with your accountants and advisers to get financials into the form acquirers expect.',
   },
   {
     question: 'Can you help with fundraising as well as exits?',

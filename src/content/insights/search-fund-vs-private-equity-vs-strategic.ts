@@ -77,7 +77,7 @@ const article: Article = {
           </tr>
           <tr>
             <td><strong>Post-sale involvement expected</strong></td>
-            <td>Transition period 3 to 12 months; some sellers stay on as chair or advisor for 2 to 3 years</td>
+            <td>Transition period 3 to 12 months; some sellers stay on as chair or adviser for 2 to 3 years</td>
             <td>Transition period 3 to 6 months typical; management usually retained under revised incentive structure</td>
             <td>Highly variable; can range from immediate hand-off to 24 month transition depending on integration model</td>
           </tr>
@@ -120,11 +120,11 @@ const article: Article = {
 
       <h3>Rollover and post-sale involvement</h3>
 
-      <p>Each route implies a different post-sale relationship. Search funds actively encourage rollover and often benefit from the seller staying involved as chair or advisor. PE typically requires management rollover as an alignment mechanism and expects operational continuity through the hold period. Strategic acquirers vary widely, but typically want a clean handover within 12 to 24 months. Your appetite for continued involvement should shape which route you weight most heavily.</p>
+      <p>Each route implies a different post-sale relationship. Search funds actively encourage rollover and often benefit from the seller staying involved as chair or adviser. PE typically requires management rollover as an alignment mechanism and expects operational continuity through the hold period. Strategic acquirers vary widely, but typically want a clean handover within 12 to 24 months. Your appetite for continued involvement should shape which route you weight most heavily.</p>
 
       <h3>Certainty to close matters more than owners think</h3>
 
-      <p>Deal failure at late stage is far more common than most owners realise. In a competitive process across all three buyer types, we typically see 10 to 20% of shortlisted parties fall out at some point during exclusivity. Sponsored search funds, actively-deploying PE funds, and strategics with clear board approval are usually the highest certainty. Self-funded searchers still assembling their capital stack and PE funds in fundraising mode are lower certainty. Testing certainty carefully at LOI stage is one of the most valuable pieces of advisor work in any process.</p>
+      <p>Deal failure at late stage is far more common than most owners realise. In a competitive process across all three buyer types, we typically see 10 to 20% of shortlisted parties fall out at some point during exclusivity. Sponsored search funds, actively-deploying PE funds, and strategics with clear board approval are usually the highest certainty. Self-funded searchers still assembling their capital stack and PE funds in fundraising mode are lower certainty. Testing certainty carefully at LOI stage is one of the most valuable pieces of adviser work in any process.</p>
 
       <h2>Talk to us</h2>
 
@@ -146,7 +146,7 @@ const article: Article = {
 
       <p>A structured M&amp;A process for a UK lower mid-market business should approach all three buyer categories. Even where the owner has a strong preference for one route (say, cultural continuity via a search fund), running a genuine competitive process across all three produces two things: the reference price that the "preferred" buyer is competing against, and the leverage to negotiate non-price terms with the eventual winner. Owners who commit to a single route early in the process consistently see worse total outcomes than those who test all three.</p>
 
-      <p>The specific composition of the buyer pool we approach depends on your sector. Each of our <a href="/sectors/">sector pages</a> details the active consolidators, strategic acquirers, and other buyer archetypes for a specific niche. Our <a href="/services/m-and-a-advisor-uk/">M&amp;A advisor service</a> explains how the structured process runs end to end.</p>
+      <p>The specific composition of the buyer pool we approach depends on your sector. Each of our <a href="/sectors/">sector pages</a> details the active consolidators, strategic acquirers, and other buyer archetypes for a specific niche. Our <a href="/services/m-and-a-advisor-uk/">M&amp;A adviser service</a> explains how the structured process runs end to end.</p>
 
       <h2>Where to start</h2>
 
@@ -177,7 +177,7 @@ const article: Article = {
     },
     {
       q: 'How much post-sale involvement should I expect from each route?',
-      a: 'Search funds typically request 3 to 12 months of transition support and welcome longer-term chair or advisor roles. PE typically wants 3 to 6 months of transition with management continuity through the hold. Strategic acquirers vary widely from immediate hand-off to 24 months of involvement, depending on the integration model.',
+      a: 'Search funds typically request 3 to 12 months of transition support and welcome longer-term chair or adviser roles. PE typically wants 3 to 6 months of transition with management continuity through the hold. Strategic acquirers vary widely from immediate hand-off to 24 months of involvement, depending on the integration model.',
     },
     {
       q: 'What is the biggest risk in a search fund deal vs PE vs strategic?',

@@ -128,7 +128,7 @@ const article: Article = {
 
       <p>The third route is what we typically advise for UK owners in the £5M to £50M enterprise value range. A single bilateral negotiation, even with an excellent searcher, rarely produces the same total outcome as a competitive process. The search fund often remains the eventual buyer because the fit is genuinely right, but the terms sit at a materially better place than they would have in isolation.</p>
 
-      <p>The mechanics of running that competitive process, and the sector-specific buyer pools we approach, sit under our <a href="/services/m-and-a-advisor-uk/">M&amp;A advisor service</a> and are illustrated across our <a href="/sectors/">sector pages</a>. Owners considering an exit in the next 12 to 24 months should read our <a href="/services/exit-planning-advisor-uk/">exit planning guide</a> before running any process, bilateral or competitive.</p>
+      <p>The mechanics of running that competitive process, and the sector-specific buyer pools we approach, sit under our <a href="/services/m-and-a-advisor-uk/">M&amp;A adviser service</a> and are illustrated across our <a href="/sectors/">sector pages</a>. Owners considering an exit in the next 12 to 24 months should read our <a href="/services/exit-planning-advisor-uk/">exit planning guide</a> before running any process, bilateral or competitive.</p>
 
       <h2>Conclusion</h2>
 

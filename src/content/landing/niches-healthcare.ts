@@ -9,7 +9,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     pillarSlug: "healthcare-services",
     name: "Dental practices",
     nameLower: "dental",
-    title: "Dental Practice M&A Advisor UK | Mastella Advisory",
+    title: "Dental Practice M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK dental group or practice worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential sale for owner-managed dental groups.",
     h1: "Selling a dental practice or group in the UK",
@@ -98,7 +98,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     pillarSlug: "healthcare-services",
     name: "Veterinary practices",
     nameLower: "veterinary",
-    title: "Veterinary Practice M&A Advisor UK | Mastella Advisory",
+    title: "Veterinary Practice M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK veterinary practice or group worth £5M to £50M? Senior-led, off-market M&A advisory across small animal, equine and mixed practice.",
     h1: "Selling a veterinary practice or group in the UK",
@@ -132,12 +132,12 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
         a: "Specialist referral practices (oncology, orthopaedics, neurology, etc.) attract a separate buyer pool, including specialist consolidators and overseas strategics. Multiples are typically higher than first-opinion practices given scarcity.",
       },
       {
-        q: "Do I need a broker or an M&A advisor to sell my veterinary practice?",
-        a: "For a single-site UK small animal practice worth under £2M, a specialist veterinary broker is usually the right fit. They know the buyer database, list to it efficiently, and get transactions across the line in three to six months. For practices worth £5M+ in enterprise value, or multi-site groups, an M&A advisor generally delivers materially better outcomes: curated approach to the eight to twelve active corporate and PE-backed consolidators rather than a listing service, structured competitive process, and negotiation depth on lock-ins, retention arrangements and non-price terms. The gap between the two models widens sharply as practice size grows.",
+        q: "Do I need a broker or an M&A adviser to sell my veterinary practice?",
+        a: "For a single-site UK small animal practice worth under £2M, a specialist veterinary broker is usually the right fit. They know the buyer database, list to it efficiently, and get transactions across the line in three to six months. For practices worth £5M+ in enterprise value, or multi-site groups, an M&A adviser generally delivers materially better outcomes: curated approach to the eight to twelve active corporate and PE-backed consolidators rather than a listing service, structured competitive process, and negotiation depth on lock-ins, retention arrangements and non-price terms. The gap between the two models widens sharply as practice size grows.",
       },
       {
         q: "Who is the best broker for selling a UK veterinary practice?",
-        a: "'Best' depends on your practice size and what you actually need. For single-site practices worth under £2M, established specialist veterinary brokers (Vet Dynamics, Veterinary Business Services, Simply Veterinary Property have all been active in this space) typically work well because they know the individual-buyer pool and can complete quickly. For multi-site groups and practices worth £5M+ enterprise value, an M&A advisor rather than a broker generally produces a better outcome, and that is the segment Mastella works in. Below £5M we regularly refer to specialist brokers rather than take a mandate that fits their model better than ours.",
+        a: "'Best' depends on your practice size and what you actually need. For single-site practices worth under £2M, established specialist veterinary brokers (Vet Dynamics, Veterinary Business Services, Simply Veterinary Property have all been active in this space) typically work well because they know the individual-buyer pool and can complete quickly. For multi-site groups and practices worth £5M+ enterprise value, an M&A adviser rather than a broker generally produces a better outcome, and that is the segment Mastella works in. Below £5M we regularly refer to specialist brokers rather than take a mandate that fits their model better than ours.",
       },
       {
         q: "How much is my veterinary practice worth?",
@@ -235,7 +235,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     pillarSlug: "healthcare-services",
     name: "Care homes & domiciliary care",
     nameLower: "care home and domiciliary care",
-    title: "Care Home & Domiciliary Care M&A Advisor | Mastella Advisory",
+    title: "Care Home & Domiciliary Care M&A Adviser | Mastella Advisory",
     metaDescription:
       "Selling a UK care home group or domiciliary care business worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential sales process.",
     h1: "Selling a care home or domiciliary care business in the UK",
@@ -319,7 +319,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     pillarSlug: "healthcare-services",
     name: "Mental health services",
     nameLower: "mental health",
-    title: "Mental Health Services M&A Advisor UK | Mastella Advisory",
+    title: "Mental Health Services M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK mental health services business worth £5M to £50M? Senior-led M&A advisory across CAMHS, adult mental health and addiction services.",
     h1: "Selling a mental health services business in the UK",
@@ -408,7 +408,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     pillarSlug: "healthcare-services",
     name: "Occupational health",
     nameLower: "occupational health",
-    title: "Occupational Health M&A Advisor UK | Mastella Advisory",
+    title: "Occupational Health M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK occupational health business worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential process for owner-managed OH providers.",
     h1: "Selling an occupational health business in the UK",
@@ -487,7 +487,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     pillarSlug: "healthcare-services",
     name: "Specialist clinics",
     nameLower: "specialist clinic",
-    title: "Specialist Clinics M&A Advisor UK | Mastella Advisory",
+    title: "Specialist Clinics M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK specialist clinic group worth £5M to £50M? Senior-led M&A advisory across aesthetic, fertility, eye care and specialist medical clinics.",
     h1: "Selling a specialist clinic group in the UK",

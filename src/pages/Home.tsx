@@ -24,7 +24,7 @@ function Hero() {
       </h1>
       <p className="text-body-lg md:text-xl text-sand-light max-w-2xl mb-10 leading-relaxed">
         A faster, more rigorous M&amp;A process. Proprietary technology accelerates analysis and buyer discovery;
-        senior advisors lead every conversation that matters.
+        senior advisers lead every conversation that matters.
       </p>
       <div className="flex flex-wrap gap-4">
         <Link
@@ -131,7 +131,7 @@ export default function Home() {
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
         title="Off-market M&A for founder-led companies"
-        description="Off-market M&A for founder-led businesses worth £5M to £50M. We find buyers other advisors don't reach. Confidential sell-side, fundraising and exit readiness."
+        description="Off-market M&A for founder-led businesses worth £5M to £50M. We find buyers other advisers don't reach. Confidential sell-side, fundraising and exit readiness."
         canonical="https://mastellagroup.com/"
       />
 

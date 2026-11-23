@@ -143,9 +143,9 @@ const article: Article = {
       <p>Three routes, in ascending order of quality:</p>
 
       <ol>
-        <li><strong>Published sector reports.</strong> Some sector-specific M&amp;A commentary is published by advisors, industry bodies, or trade press. Useful for a rough directional sense but rarely specific to your situation.</li>
+        <li><strong>Published sector reports.</strong> Some sector-specific M&amp;A commentary is published by advisers, industry bodies, or trade press. Useful for a rough directional sense but rarely specific to your situation.</li>
         <li><strong>Buyer-side hearsay.</strong> If you have industry connections who have recently sold, their headline numbers are useful anecdotal reference points. Beware of survivorship bias and of "headline vs realised" gap.</li>
-        <li><strong>Advisor first conversation.</strong> A senior M&amp;A advisor with active work in your sub-sector can typically give an indicative range in a 45-minute conversation, based on current transactions they have seen, active buyer appetite, and the specific characteristics of your business. This is the highest-quality signal and is typically available at no charge as part of an exploratory conversation. Our <a href="/services/company-valuation-uk/">company valuation service</a> explains what we look at.</li>
+        <li><strong>Adviser first conversation.</strong> A senior M&amp;A adviser with active work in your sub-sector can typically give an indicative range in a 45-minute conversation, based on current transactions they have seen, active buyer appetite, and the specific characteristics of your business. This is the highest-quality signal and is typically available at no charge as part of an exploratory conversation. Our <a href="/services/company-valuation-uk/">company valuation service</a> explains what we look at.</li>
       </ol>
 
       <h2>The practical upshot for owners</h2>
@@ -185,11 +185,11 @@ const article: Article = {
     },
     {
       q: 'Should I get a valuation before I put my business on the market?',
-      a: 'Yes, but from someone who works in current M&A in your sub-sector, not just from your accountant. An indicative market range from an advisor who sees current transactions gives you a realistic baseline for negotiation and process design. Accountancy valuations are appropriate for tax, statutory and share-scheme purposes but not for informing sale decisions where the gap can be several turns of multiple.',
+      a: 'Yes, but from someone who works in current M&A in your sub-sector, not just from your accountant. An indicative market range from an adviser who sees current transactions gives you a realistic baseline for negotiation and process design. Accountancy valuations are appropriate for tax, statutory and share-scheme purposes but not for informing sale decisions where the gap can be several turns of multiple.',
     },
     {
       q: 'How is a market valuation actually calculated?',
-      a: 'A senior M&A advisor with active work in your sub-sector can typically give an indicative range based on: recent completed transactions they have seen; the specific characteristics of your business benchmarked against those transactions; current buyer appetite (which named PE consolidators and strategics are actively deploying); and structural adjustments (customer concentration, recurring revenue, management depth). The output is typically a range (e.g. 7 to 9x EBITDA = £X to £Y enterprise value) with the reasoning behind it.',
+      a: 'A senior M&A adviser with active work in your sub-sector can typically give an indicative range based on: recent completed transactions they have seen; the specific characteristics of your business benchmarked against those transactions; current buyer appetite (which named PE consolidators and strategics are actively deploying); and structural adjustments (customer concentration, recurring revenue, management depth). The output is typically a range (e.g. 7 to 9x EBITDA = £X to £Y enterprise value) with the reasoning behind it.',
     },
     {
       q: 'What is the difference between a valuation exercise and a market process?',

@@ -9,7 +9,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     pillarSlug: "professional-services",
     name: "Specialist accounting firms",
     nameLower: "specialist accounting",
-    title: "Accountancy Firm M&A Advisor UK | Mastella Advisory",
+    title: "Accountancy Firm M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK accountancy firm worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential sale process for partner-led practices.",
     h1: "Selling an accountancy firm in the UK",
@@ -85,7 +85,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
           "Selling an accounting firm runs through Mastella's senior-led [six-stage process](/process/), with partnership alignment built into the readiness stage, buyer mapping segmented across the PE consolidators active in UK accountancy by sub-specialism and stage in cycle, and senior-led delivery for the partner group.",
           "Partnership alignment is built into the readiness stage, not bolted on later. Where the partner group has not yet aligned on objectives, structure, proceeds split, lock-ins and post-sale roles, the readiness work covers it explicitly. The single fastest way to derail an accountancy firm sale is to arrive at exchange with the partner group still working through these questions in real time.",
           "Buyer mapping is segmented and active. The PE consolidators in UK accountancy operate to different criteria, deploying capital at different rates, with different sub-sector focuses (audit-led, tax-led, advisory-led, outsourced-finance-led). Our buyer mapping identifies the active subset by sub-specialism and stage in cycle, supported by our proprietary technology layer for surfacing acquirer signals from licensed professional services M&A data.",
-          "Senior-led delivery matters disproportionately. The conversations buyers want to have are commercial, structural and behavioural at the same time, and partner groups read the seniority of the advisor on the other side. Generic process management does not produce the trust required to walk a partner group through to completion at premium pricing. See [the professional services pillar](/sectors/professional-services/) for context and [legal practices](/sectors/professional-services/legal-practices/) for the closest adjacent niche.",
+          "Senior-led delivery matters disproportionately. The conversations buyers want to have are commercial, structural and behavioural at the same time, and partner groups read the seniority of the adviser on the other side. Generic process management does not produce the trust required to walk a partner group through to completion at premium pricing. See [the professional services pillar](/sectors/professional-services/) for context and [legal practices](/sectors/professional-services/legal-practices/) for the closest adjacent niche.",
         ],
       },
     ],
@@ -98,7 +98,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     pillarSlug: "professional-services",
     name: "Legal practices",
     nameLower: "legal",
-    title: "Law Firm M&A Advisor UK | Mastella Advisory",
+    title: "Law Firm M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK law firm worth £5M to £50M? Senior-led M&A advisory. Confidential merger and sale processes for partner-led practices.",
     h1: "Selling a law firm in the UK",
@@ -181,7 +181,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     pillarSlug: "professional-services",
     name: "Consulting practices",
     nameLower: "consulting",
-    title: "Consulting Firm M&A Advisor UK | Mastella Advisory",
+    title: "Consulting Firm M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK consulting firm worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential sale for specialist consulting practice owners.",
     h1: "Selling a consulting firm in the UK",
@@ -261,7 +261,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     pillarSlug: "professional-services",
     name: "Surveying & property advisory",
     nameLower: "surveying and property advisory",
-    title: "Surveying & Property Firm M&A Advisor UK | Mastella Advisory",
+    title: "Surveying & Property Firm M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK surveying or property advisory firm worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential sale for partner-led practices.",
     h1: "Selling a surveying or property advisory firm in the UK",
@@ -341,7 +341,7 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
     pillarSlug: "professional-services",
     name: "Insolvency & restructuring",
     nameLower: "insolvency and restructuring",
-    title: "Insolvency & Restructuring M&A Advisor | Mastella Advisory",
+    title: "Insolvency & Restructuring M&A Adviser | Mastella Advisory",
     metaDescription:
       "Selling a UK insolvency or restructuring practice worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential sale process.",
     h1: "Selling an insolvency or restructuring practice in the UK",
