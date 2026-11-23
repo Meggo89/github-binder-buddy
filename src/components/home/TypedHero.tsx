@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 const PHRASES = [
   'found off-market.',
   'led by senior advisers.',
-  'confidential from first conversation.',
+  'confidential from day one.',
   'rebuilt for the AI era.',
 ];
 
