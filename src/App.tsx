@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import { CookieConsent } from './components/CookieConsent';
 import { usePageViewTracking } from './hooks/usePageViewTracking';
+import { useScrollToTop } from './hooks/useScrollToTop';
 
 // Eager imports across all page components. Previously these were
 // lazy() / React.lazy code-split, but SSR + hydration + lazy is a deep
@@ -30,6 +31,7 @@ import ExitReadinessScoring from './pages/ExitReadinessScoring';
 
 export default function App() {
   usePageViewTracking();
+  useScrollToTop();
   return (
     <>
       <a
