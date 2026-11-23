@@ -28,6 +28,8 @@ type PatchInput = {
   ogImage?: string;
   // Use `title` exactly as given, without the brand suffix (articles with a `titleTag`).
   exactTitle?: boolean;
+  // Named author for articles; the shell's default (the firm) is kept otherwise.
+  author?: string;
   // Any number of JSON-LD schema strings to inject before </head>. Each is
   // wrapped in its own <script type="application/ld+json"> block.
 };
@@ -95,6 +97,12 @@ function patchHead(shell: string, m: PatchInput): string {
     /<meta\s+name="twitter:image"\s+content="[^"]*"\s*\/?>/,
     `<meta name="twitter:image" content="${escapeAttr(ogImage)}" />`
   );
+  if (m.author) {
+    h = h.replace(
+      /<meta\s+name="author"\s+content="[^"]*"\s*\/?>/,
+      `<meta name="author" content="${escapeAttr(m.author)}" />`
+    );
+  }
 
   return h;
 }
@@ -164,6 +172,7 @@ async function run() {
     exactTitle: Boolean(a.titleTag),
     description: a.metaDescription ?? a.excerpt,
     ogType: 'article',
+    author: a.author,
     ogImage: a.image,
   }));
 

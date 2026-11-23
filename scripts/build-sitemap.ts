@@ -48,6 +48,15 @@ async function run() {
       priority: 0.6,
       lastmod: parseDate(a.date),
     });
+    // Sector report PDFs are listed alongside their pages.
+    if (a.download?.href.endsWith('.pdf')) {
+      entries.push({
+        url: a.download.href,
+        changefreq: 'monthly',
+        priority: 0.5,
+        lastmod: parseDate(a.dateModified ?? a.date),
+      });
+    }
   }
 
   const stream = new SitemapStream({ hostname: SITE.domain });

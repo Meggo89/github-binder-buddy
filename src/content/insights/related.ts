@@ -8,6 +8,26 @@ export type InsightLinks = {
 };
 
 export const INSIGHT_LINKS: Record<string, InsightLinks> = {
+  'plant-hire-equipment-rental-ma-2026': {
+    pillarSlug: 'light-industrials',
+    related: ['engineering-technical-services-ma-2026', 'logistics-distribution-ma-2026', 'specialist-distribution-ma-2026'],
+  },
+  'packaging-ma-2026': {
+    pillarSlug: 'light-industrials',
+    related: ['specialist-manufacturing-ma-2026', 'specialist-distribution-ma-2026', 'food-drink-producers-ma-2026'],
+  },
+  'test-measurement-instruments-ma-2026': {
+    pillarSlug: 'light-industrials',
+    related: ['specialist-manufacturing-ma-2026', 'engineering-technical-services-ma-2026', 'specialist-distribution-ma-2026'],
+  },
+  'commercial-insurance-brokers-ma-2026': {
+    pillarSlug: 'business-services',
+    related: ['insurance-broking-ma-2026', 'wealth-management-ifa-ma-2026', 'accountancy-practices-ma-2026'],
+  },
+  'fire-security-life-safety-ma-2026': {
+    pillarSlug: 'business-services',
+    related: ['facilities-management-cleaning-ma-2026', 'engineering-technical-services-ma-2026', 'test-measurement-instruments-ma-2026'],
+  },
   'engineering-technical-services-ma-2026': {
     pillarSlug: 'light-industrials',
     related: ['12-months-before-you-sell', 'earn-outs-explained-uk', 'badr-changes-april-2027-should-you-sell-before'],

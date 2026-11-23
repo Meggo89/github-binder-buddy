@@ -69,7 +69,7 @@ export default function InsightArticle() {
 
   return (
     <PageLayout heroTone="solid" mainClassName="">
-      <SEO title={article.titleTag ?? article.metaTitle ?? article.title} exactTitle={Boolean(article.titleTag)} description={article.metaDescription ?? article.excerpt} canonical={canonical} type="article" image={article.image} />
+      <SEO title={article.titleTag ?? article.metaTitle ?? article.title} exactTitle={Boolean(article.titleTag)} description={article.metaDescription ?? article.excerpt} canonical={canonical} type="article" image={article.image} author={article.author} />
       <Helmet>
         <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
         {faqSchema && (

@@ -98,6 +98,7 @@ const article: Article = {
       <h2 id="where-to-start">Where to start</h2>
       <p>The free Exit Readiness Score at <a class="report-cta" href="/exit-readiness-score/">mastellagroup.com/exit-readiness-score/</a> is the place to start.</p>
       <p class="report-cta-secondary">Or start with a confidential conversation: <a href="mailto:leo@mastellagroup.com">leo@mastellagroup.com</a></p>
+      <p class="report-crosslink">For what the consolidators paid, taken from their own accounts, see <a href="/insights/commercial-insurance-brokers-ma-2026/">Selling an independent commercial insurance broker in 2026: who is buying and what they pay</a>.</p>
       <aside class="report-related"><p class="report-related-label">Related</p><ul><li><a href="/insights/12-months-before-you-sell/">12 months before you sell: the preparation that moves the number</a></li><li><a href="/services/how-to-sell-a-business/">How to sell a business in the UK</a></li></ul></aside>
       <!--FORM:buyer-list-->
       <h2 id="sources">Sources</h2>
@@ -107,7 +108,7 @@ const article: Article = {
     `,
   author: 'Leo Meggitt',
   date: '16 November 2026',
-  dateModified: '16 November 2026',
+  dateModified: '23 November 2026',
   readTime: '17 min read',
   image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&q=80&w=2070',
   category: 'Sector Report',
