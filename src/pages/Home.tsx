@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, ArrowUpRight } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { PageLayout } from '../components/layout';
 import { FAQSection } from '../components/FAQSection';
@@ -7,6 +7,7 @@ import { FadeIn, Stagger, StaggerItem } from '../components/ui/motion';
 import { TypedHeroTagline } from '../components/home/TypedHero';
 import { useScrollTracking } from '../hooks/useScrollTracking';
 import { trackCTA } from '../utils/trackCTA';
+import { articles } from '../content/insights';
 import leoMeggitt from '../assets/leo-meggitt.jpg';
 import { WhatWeDo } from '../components/home/WhatWeDo';
 import { HomeServiceLinks, HomeSectorLinks } from '../components/home/HomeLinks';
@@ -14,35 +15,81 @@ import { ScoreBlock } from '../components/landing/ScoreBlock';
 import { CtaSection } from '../components/landing/CtaSection';
 import { HOME_RECENT_WORK } from '../content/case-studies';
 
+// Facts for the hero panel. The track record matches the stats used elsewhere on the site.
+const HERO_STATS = [
+  { value: '15', label: 'Years in M&A' },
+  { value: '£800m+', label: 'Transaction value advised on' },
+];
+
+function HeroPanel() {
+  const reports = articles.filter((a) => a.category === 'Sector Report');
+  const latest = reports[0];
+  return (
+    <aside className="bg-white/70 border border-navy/10 rounded-xl p-6 md:p-8 shadow-sm" aria-label="Track record and research">
+      <dl className="grid grid-cols-2 gap-6 pb-6 mb-6 border-b border-navy/10">
+        {HERO_STATS.map((s) => (
+          <div key={s.label}>
+            <dt className="sr-only">{s.label}</dt>
+            <dd className="font-serif text-4xl text-navy tracking-tight">{s.value}</dd>
+            <dd className="text-sm text-navy-light leading-snug mt-1">{s.label}</dd>
+          </div>
+        ))}
+      </dl>
+      {latest && (
+        <div>
+          <p className="eyebrow mb-3">Latest sector report</p>
+          <Link
+            to={`/insights/${latest.slug}/`}
+            className="group block font-serif text-xl text-navy leading-snug hover:text-accent-dark transition-colors"
+          >
+            {latest.title}
+            <ArrowUpRight className="inline h-4 w-4 ml-1 align-baseline text-navy-light group-hover:text-accent-dark" aria-hidden="true" />
+          </Link>
+          <Link
+            to="/insights/"
+            className="inline-flex items-center gap-2 mt-5 text-sm font-medium text-navy hover:text-accent-dark transition-colors"
+          >
+            All {reports.length} sector reports
+            <ArrowRight className="h-4 w-4" aria-hidden="true" />
+          </Link>
+        </div>
+      )}
+    </aside>
+  );
+}
+
 function Hero() {
   return (
-    <div className="max-w-4xl">
-      <p className="eyebrow mb-6">UK & cross-border · worth £5M to £50M</p>
-      <h1 className="font-serif text-display-xl text-white mb-8 text-balance leading-[1.05]">
-        Business exits,<br />
-        <TypedHeroTagline />
-      </h1>
-      <p className="text-body-lg md:text-xl text-sand-light max-w-2xl mb-10 leading-relaxed">
-        A faster, more rigorous M&amp;A process. Proprietary technology accelerates analysis and buyer discovery;
-        senior advisers lead every conversation that matters.
-      </p>
-      <div className="flex flex-wrap gap-4">
-        <Link
-          to="/contact/"
-          onClick={() => trackCTA('Arrange a Confidential Conversation', 'hero')}
-          className="inline-flex items-center gap-2 bg-accent text-navy-deepest px-7 py-3.5 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:shadow-xl hover:shadow-accent/20 hover:-translate-y-0.5"
-        >
-          Arrange a Confidential Conversation
-          <ArrowRight className="h-4 w-4" />
-        </Link>
-        <Link
-          to="/exit-readiness-score/"
-          onClick={() => trackCTA('Free Exit Readiness Score', 'hero')}
-          className="inline-flex items-center gap-2 border border-sand/30 text-white px-7 py-3.5 rounded-md font-medium tracking-wide hover:bg-white/5 hover:border-sand/60 transition-all duration-200"
-        >
-          Get your free exit readiness score
-        </Link>
+    <div className="grid xl:grid-cols-[minmax(0,1fr)_22rem] gap-12 xl:gap-16 items-center">
+      <div>
+        <p className="eyebrow mb-6">UK & cross-border · worth £5M to £50M</p>
+        <h1 className="font-serif text-display-xl xl:text-[4.5rem] text-white mb-8 text-balance leading-[1.05]">
+          Business exits,<br />
+          <TypedHeroTagline />
+        </h1>
+        <p className="text-body-lg md:text-xl text-sand-light max-w-2xl mb-10 leading-relaxed">
+          A faster, more rigorous M&amp;A process. Proprietary technology accelerates analysis and buyer discovery;
+          senior advisers lead every conversation that matters.
+        </p>
+        <div className="flex flex-wrap gap-4">
+          <Link
+            to="/contact/"
+            onClick={() => trackCTA('Arrange a Confidential Conversation', 'hero')}
+            className="inline-flex items-center gap-2 bg-accent text-navy-deepest px-7 py-3.5 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-all duration-200 hover:shadow-xl hover:shadow-accent/20 hover:-translate-y-0.5"
+          >
+            Arrange a Confidential Conversation
+            <ArrowRight className="h-4 w-4" />
+          </Link>
+          <Link
+            to="/exit-readiness-score/"
+            onClick={() => trackCTA('Free Exit Readiness Score', 'hero')}
+            className="inline-flex items-center gap-2 border border-sand/30 text-white px-7 py-3.5 rounded-md font-medium tracking-wide hover:bg-white/5 hover:border-sand/60 transition-all duration-200"
+          >
+            Get your free exit readiness score
+          </Link>
+        </div>
       </div>
+      <HeroPanel />
     </div>
   );
 }
