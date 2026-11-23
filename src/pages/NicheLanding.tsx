@@ -11,6 +11,7 @@ import { FaqSection } from '../components/landing/FaqSection';
 import { LeadMagnetCta } from '../components/landing/LeadMagnetCta';
 import { ProofBand } from '../components/landing/ProofBand';
 import { RelatedLinks } from '../components/landing/RelatedLinks';
+import { ReportCallout } from '../components/landing/ReportCallout';
 import { getSector, getNiche, getNichesForPillar } from '../content/landing';
 import { SITE, canonicalFor } from '../seo/site-meta';
 import { heroSubtitle } from '../utils/heroSubtitle';
@@ -113,15 +114,7 @@ export default function NicheLandingPage() {
             </FadeIn>
 
             {[...(niche.reportCallout ? [niche.reportCallout] : []), ...(niche.reportCallouts ?? [])].map((c) => (
-              <aside key={c.href} className="mt-10 p-6 rounded-xl border border-accent/40 bg-sand-light">
-                <Link
-                  to={c.href}
-                  className="inline-flex items-center gap-2 font-serif text-xl text-navy leading-snug hover:text-accent-dark"
-                >
-                  {c.label}
-                  <ArrowRight className="h-4 w-4 flex-shrink-0" />
-                </Link>
-              </aside>
+              <ReportCallout key={c.href} label={c.label} href={c.href} className="mt-10" />
             ))}
 
             {niche.caseStudyAnchor && (

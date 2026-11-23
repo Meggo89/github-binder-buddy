@@ -8,7 +8,7 @@ import { TypedHeroTagline } from '../components/home/TypedHero';
 import { useScrollTracking } from '../hooks/useScrollTracking';
 import { trackCTA } from '../utils/trackCTA';
 import { articles } from '../content/insights';
-import { HOME_EVIDENCE } from '../content/home-evidence';
+import { HOME_EVIDENCE, REPORT_EVIDENCE } from '../content/evidence';
 import leoMeggitt from '../assets/leo-meggitt.jpg';
 import { WhatWeDo } from '../components/home/WhatWeDo';
 import { HomeServiceLinks, HomeSectorLinks } from '../components/home/HomeLinks';
@@ -20,10 +20,11 @@ import { HOME_RECENT_WORK } from '../content/case-studies';
 // Colours are written as fixed values so the paper theme's overrides leave the dark panel alone.
 function HeroLedger() {
   const reportCount = articles.filter((a) => a.category === 'Sector Report').length;
-  const dealsRead = HOME_EVIDENCE.reduce((n, r) => n + r.deals, 0);
+  const rows = HOME_EVIDENCE.filter((slug) => REPORT_EVIDENCE[slug]).map((slug) => ({ slug, ...REPORT_EVIDENCE[slug] }));
+  const dealsRead = rows.reduce((n, r) => n + r.deals, 0);
   return (
     <aside
-      className="relative overflow-hidden rounded-2xl bg-[#0A2647] text-[#F2EDE4] shadow-2xl shadow-[#0A2647]/20"
+      className="relative overflow-hidden rounded-2xl border-t-4 border-[#FF87B7] bg-[#0A2647] text-[#F2EDE4] shadow-2xl shadow-[#0A2647]/20"
       aria-labelledby="hero-ledger-heading"
     >
       {/* The five rising bars of the logo, as a quiet watermark. */}
@@ -41,7 +42,7 @@ function HeroLedger() {
           What buyers paid, 2024 to 2026
         </h2>
         <ul className="border-t border-[#F2EDE4]/15">
-          {HOME_EVIDENCE.map((r) => (
+          {rows.map((r) => (
             <li key={r.slug} className="border-b border-[#F2EDE4]/15">
               <Link
                 to={`/insights/${r.slug}/`}
@@ -61,7 +62,7 @@ function HeroLedger() {
           ))}
         </ul>
         <p className="text-[0.8125rem] leading-relaxed text-[#F2EDE4]/70 mt-5">
-          {dealsRead} deals read across these five sectors. Each figure is published or derived, and its report shows the source.
+          {dealsRead} deals read across these {rows.length} sectors. Each figure is published or derived, and its report shows the source.
         </p>
         <Link
           to="/insights/"

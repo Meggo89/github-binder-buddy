@@ -34,6 +34,26 @@ function featuredArticles(general: Article[]): Article[] {
   return out.slice(0, 4);
 }
 
+// Sector reports get a typographic cover in place of a stock photo: the short sector name
+// on navy, with the logo's rising bars behind it.
+function ReportCover({ label }: { label: string }) {
+  return (
+    <div className="relative aspect-[16/10] overflow-hidden bg-[#0A2647] flex flex-col justify-end p-6">
+      <svg className="absolute right-3 top-3 h-28 w-28 opacity-10" viewBox="0 0 100 100" fill="#F2EDE4" aria-hidden="true">
+        {[[8, 44], [27, 30], [46, 16], [65, 30], [84, 44]].map(([x, y]) => (
+          <g key={x}>
+            <polygon points={`${x - 5},${y + 10} ${x + 4},${y} ${x + 13},${y + 10}`} />
+            <rect x={x} y={y + 10} width="8" height={90 - y} />
+          </g>
+        ))}
+      </svg>
+      <span className="relative block h-0.5 w-10 bg-[#FF87B7] mb-4" aria-hidden="true" />
+      <span className="relative font-serif text-2xl leading-tight text-[#FFFFFF] text-balance">{label}</span>
+      <span className="relative font-mono text-[0.6875rem] uppercase tracking-[0.14em] text-[#D4B545] mt-2">UK M&amp;A 2026</span>
+    </div>
+  );
+}
+
 function ArticleCard({ post, compact = false }: { post: Article; compact?: boolean }) {
   return (
     <Link
@@ -41,7 +61,10 @@ function ArticleCard({ post, compact = false }: { post: Article; compact?: boole
       className="group flex flex-col h-full bg-white rounded-xl overflow-hidden border border-navy/10 hover:border-accent/40 hover:shadow-xl transition-all duration-300"
     >
       <article className="flex flex-col h-full">
-        <div className="aspect-[16/10] overflow-hidden">
+        {isSectorReport(post) ? (
+          <ReportCover label={SECTOR_REPORT_LABELS[post.slug] ?? post.title} />
+        ) : (
+          <div className="aspect-[16/10] overflow-hidden">
           <img
             src={post.image}
             alt={post.title}
@@ -49,6 +72,7 @@ function ArticleCard({ post, compact = false }: { post: Article; compact?: boole
             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
           />
         </div>
+        )}
         <div className="p-6 flex flex-col flex-1">
           <span className="inline-block text-xs font-mono tracking-widest uppercase text-accent-dark mb-4">
             {post.category}
