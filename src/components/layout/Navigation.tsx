@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
-import mastellaLogo from '../../assets/mastella-logo-navy.png';
+import mastellaLogo from '../../assets/mastella-logo-mark.png';
 
 type NavLink = { to: string; label: string };
 
@@ -90,7 +90,7 @@ export function Navigation() {
     <>
       <nav className="container mx-auto px-6 py-5 flex items-center justify-between relative z-20">
         <Link to="/" className="flex items-center" aria-label="Mastella Advisory: home">
-          <img src={mastellaLogo} alt="Mastella Advisory" className="h-14 md:h-16 w-auto" />
+          <img src={mastellaLogo} alt="Mastella Advisory" className="h-16 md:h-20 w-auto" />
         </Link>
         <div className="hidden lg:flex space-x-5 xl:space-x-7 items-center">
           {NAV_LINKS.map((link) => {
