@@ -9,6 +9,8 @@ interface SEOProps {
   image?: string;
   // Use `title` exactly as given, without the " | Mastella Advisory" suffix.
   exactTitle?: boolean;
+  // Named author for articles; defaults to the firm.
+  author?: string;
 }
 
 export function SEO({
@@ -18,6 +20,7 @@ export function SEO({
   type = 'website',
   image = SITE.defaultOgImage,
   exactTitle = false,
+  author = SITE.name,
 }: SEOProps) {
   const siteTitle = exactTitle ? title : fullTitle(title);
 
@@ -44,7 +47,7 @@ export function SEO({
       <meta name="twitter:image" content={image} />
 
       {/* Additional */}
-      <meta name="author" content={SITE.name} />
+      <meta name="author" content={author} />
       <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
       <meta name="geo.region" content="GB" />
       <meta name="geo.placename" content="London" />
