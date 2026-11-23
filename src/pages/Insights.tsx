@@ -14,7 +14,7 @@ function Hero() {
         Perspectives on M&amp;A, fundraising and the AI era.
       </h1>
       <p className="text-body-lg text-sand-light max-w-2xl leading-relaxed">
-        Long-form analysis and field notes from the team. Written for founders, not other advisors.
+        Long-form analysis and field notes from the team. Written for founders, not other advisers.
       </p>
     </div>
   );
@@ -79,7 +79,7 @@ export default function Insights() {
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
         title="Insights: M&A for Founder-Led Businesses"
-        description="Long-form analysis on exits, fundraising and valuation for founder-led businesses. Written by the Mastella team for founders, not other advisors."
+        description="Long-form analysis on exits, fundraising and valuation for founder-led businesses. Written by the Mastella team for founders, not other advisers."
         canonical="https://mastellagroup.com/insights/"
       />
 

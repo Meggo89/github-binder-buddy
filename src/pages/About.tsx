@@ -7,7 +7,7 @@ import { FadeIn, Stagger, StaggerItem } from '../components/ui/motion';
 const principles = [
   {
     title: 'Two lanes, always visible',
-    body: 'AI on one side, senior advisors on the other. Every engagement is explicit about which lane a piece of work is in. Founders always know who (or what) is doing what.',
+    body: 'AI on one side, senior advisers on the other. Every engagement is explicit about which lane a piece of work is in. Founders always know who (or what) is doing what.',
   },
   {
     title: 'Judgment is not automatable',
@@ -19,7 +19,7 @@ const principles = [
   },
   {
     title: '£5M to £50M, not everything',
-    body: "We work with founder-led businesses worth £5M to £50M, mostly UK, with cross-border work where a founder's buyer universe is international. Outside that range other advisors are better placed. Saying what we are not is part of saying what we are.",
+    body: "We work with founder-led businesses worth £5M to £50M, mostly UK, with cross-border work where a founder's buyer universe is international. Outside that range other advisers are better placed. Saying what we are not is part of saying what we are.",
   },
 ];
 
@@ -28,7 +28,7 @@ function Hero() {
     <div className="max-w-3xl">
       <p className="eyebrow mb-6">About</p>
       <h1 className="font-serif text-display-lg text-white leading-[1.05] mb-8 text-balance">
-        We find buyers other advisors don&apos;t reach.
+        We find buyers other advisers don&apos;t reach.
       </h1>
       <p className="text-body-lg text-sand-light max-w-2xl leading-relaxed">
         Mastella is an M&amp;A advisory firm for founder-led businesses worth £5M to £50M. UK-focused with
@@ -43,7 +43,7 @@ export default function About() {
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
         title="About Mastella Advisory | Founder-Led M&A, £5M to £50M"
-        description="Off-market M&A advisory for founder-led businesses worth £5M to £50M. Confidential sell-side, fundraising and exit readiness, led by senior advisors."
+        description="Off-market M&A advisory for founder-led businesses worth £5M to £50M. Confidential sell-side, fundraising and exit readiness, led by senior advisers."
         canonical="https://mastellagroup.com/about/"
       />
 
@@ -84,7 +84,7 @@ export default function About() {
               <FadeIn delay={0.3}>
                 <p className="text-navy font-medium">
                   Mastella is what an advisory firm looks like when you start from that premise rather than bolt it on
-                  afterwards: senior advisors paired with agents we have built ourselves, purpose-built for lower
+                  afterwards: senior advisers paired with agents we have built ourselves, purpose-built for lower
                   mid-market M&amp;A, not a chat wrapper over someone else&apos;s model, and fees that reflect the
                   actual cost of delivery.
                 </p>
@@ -151,7 +151,7 @@ export default function About() {
               </FadeIn>
               <FadeIn delay={0.2}>
                 <p className="text-navy font-medium">
-                  Tech plus the right specialist. That is the equation. AI gives us leverage; the matched advisor gives
+                  Tech plus the right specialist. That is the equation. AI gives us leverage; the matched adviser gives
                   you someone who has already done your kind of deal.
                 </p>
               </FadeIn>

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 const PHRASES = [
   'found off-market.',
-  'led by senior advisors.',
+  'led by senior advisers.',
   'confidential from first conversation.',
   'rebuilt for the AI era.',
 ];

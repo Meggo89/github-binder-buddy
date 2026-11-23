@@ -74,7 +74,7 @@ function Hero() {
         Four services. Senior-led throughout.
       </h1>
       <p className="text-lg md:text-2xl text-accent leading-snug mb-10 max-w-2xl text-balance">
-        Every engagement is led by a senior advisor matched to your sector and deal type.
+        Every engagement is led by a senior adviser matched to your sector and deal type.
       </p>
       <Link
         to="/contact/"

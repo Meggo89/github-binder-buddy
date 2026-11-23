@@ -28,10 +28,10 @@ export function WhatWeDo() {
                 </div>
                 <p className="font-mono text-xs text-navy tracking-widest mb-3">EXCEPTIONAL HUMAN GUIDANCE</p>
                 <h3 className="font-serif text-2xl text-navy mb-4 leading-snug">
-                  Senior advisors lead every conversation that matters.
+                  Senior advisers lead every conversation that matters.
                 </h3>
                 <p className="text-navy-light leading-relaxed">
-                  Yours, the buyers&apos;, the lawyers&apos;. No junior teams in between, no advisor-of-the-week
+                  Yours, the buyers&apos;, the lawyers&apos;. No junior teams in between, no adviser-of-the-week
                   handover. The most senior person on the deal is the one you started with.
                 </p>
               </div>

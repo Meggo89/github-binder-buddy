@@ -6,7 +6,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
     pillarSlug: "business-services",
     name: "HR & payroll services",
     nameLower: "HR and payroll services",
-    title: "HR & Payroll Services M&A Advisor UK | Mastella Advisory",
+    title: "HR & Payroll Services M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK HR or payroll services business worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential process for owner-managed firms.",
     h1: "Selling an HR or payroll services business in the UK",
@@ -93,7 +93,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
     pillarSlug: "business-services",
     name: "Facilities management",
     nameLower: "facilities management",
-    title: "Facilities Management M&A Advisor UK | Mastella Advisory",
+    title: "Facilities Management M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK facilities management business worth £5M to £50M? Senior-led M&A advisory. Confidential sale processes for owner-managed FM firms.",
     h1: "Selling a facilities management business in the UK",
@@ -179,7 +179,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
     pillarSlug: "business-services",
     name: "Cleaning services",
     nameLower: "cleaning services",
-    title: "Cleaning Services M&A Advisor UK | Mastella Advisory",
+    title: "Cleaning Services M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK commercial or specialist cleaning business worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential process for owner-managed firms.",
     h1: "Selling a cleaning services business in the UK",
@@ -267,7 +267,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
     pillarSlug: "business-services",
     name: "Recruitment agencies",
     nameLower: "recruitment",
-    title: "Recruitment Agency M&A Advisor UK | Mastella Advisory",
+    title: "Recruitment Agency M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK recruitment agency worth £5M to £50M? Senior-led, off-market M&A advisory across tech, finance and specialist recruitment.",
     h1: "Selling a recruitment agency in the UK",

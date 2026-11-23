@@ -51,7 +51,7 @@ const BIO_SECTIONS = [
   {
     eyebrow: 'Why Mastella',
     body:
-      'After 15 years in lower mid-market M&A I kept seeing the same pattern: senior advisors win the mandate, juniors deliver the work, the senior advisor reappears at closing. Owner-managed businesses deserve better. A modern delivery model (proprietary technology handling the structured work, Leo still leading every conversation) finally makes that possible without compromising rigour or coverage.',
+      'After 15 years in lower mid-market M&A I kept seeing the same pattern: senior advisers win the mandate, juniors deliver the work, the senior adviser reappears at closing. Owner-managed businesses deserve better. A modern delivery model (proprietary technology handling the structured work, Leo still leading every conversation) finally makes that possible without compromising rigour or coverage.',
   },
   {
     eyebrow: 'How I work with you',
@@ -61,7 +61,7 @@ const BIO_SECTIONS = [
   {
     eyebrow: 'Background',
     body:
-      'Trained in corporate finance and M&A. Built and scaled businesses across recruitment, corporate finance and interim management before founding Mastella. Investor and advisor to a number of early-stage UK companies. Sector experience spans financial services, technology, consumer, industrials, infrastructure, education and agriculture.',
+      'Trained in corporate finance and M&A. Built and scaled businesses across recruitment, corporate finance and interim management before founding Mastella. Investor and adviser to a number of early-stage UK companies. Sector experience spans financial services, technology, consumer, industrials, infrastructure, education and agriculture.',
   },
 ];
 
@@ -196,7 +196,7 @@ export default function Team() {
                 </h2>
                 <p className="text-body-lg text-navy-light leading-relaxed">
                   A focused team handles the structured work between conversations, the kind that benefits from
-                  time and rigour rather than seniority on every line. Leo, or an approved senior advisor, stays
+                  time and rigour rather than seniority on every line. Leo, or an approved senior adviser, stays
                   involved at every decision and every conversation that matters.
                 </p>
               </div>

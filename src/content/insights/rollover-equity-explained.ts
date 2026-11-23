@@ -28,7 +28,7 @@ const article: Article = {
       <p>Three reasons, in rough order of importance:</p>
 
       <ol>
-        <li><strong>Alignment.</strong> A seller who has meaningful equity in the new structure has a genuine financial interest in the business continuing to succeed post-completion. This matters most in situations where the seller retains a meaningful ongoing role (chair, advisor, sometimes CEO for a period).</li>
+        <li><strong>Alignment.</strong> A seller who has meaningful equity in the new structure has a genuine financial interest in the business continuing to succeed post-completion. This matters most in situations where the seller retains a meaningful ongoing role (chair, adviser, sometimes CEO for a period).</li>
         <li><strong>Capital efficiency.</strong> Buyers who ask sellers to roll are asking sellers to "invest" a portion of consideration back into the business. This reduces the total cash the buyer needs to raise at completion, which in turn improves the buyer's returns.</li>
         <li><strong>Signalling and risk-sharing.</strong> A seller willing to roll is signalling confidence in the future of the business. This is particularly valuable to buyers where the going-concern risk is meaningful, e.g., where a founder is retiring and management succession has not been fully proven.</li>
       </ol>

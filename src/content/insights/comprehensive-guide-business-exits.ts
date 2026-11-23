@@ -13,7 +13,7 @@ const article: Article = {
 
       <p>However, companies often face challenges during the exit process, including common pitfalls such as unclear exit goals, poor communication, and neglecting company culture. These missteps can jeopardize the business's valuation and create uncertainty among stakeholders, affecting morale and retention of key employees. Awareness of these challenges is crucial for SMEs to navigate the complexities of exit planning successfully.</p>
 
-      <p>In summary, preparing for an exit involves a multifaceted approach that includes defining exit goals, strengthening management, optimizing operations, and engaging professional advisors. By proactively addressing these areas, SMEs can position themselves favourably for a successful transition, ensuring not only a profitable sale but also the continuity of the business's mission and values in the future.</p>
+      <p>In summary, preparing for an exit involves a multifaceted approach that includes defining exit goals, strengthening management, optimizing operations, and engaging professional advisers. By proactively addressing these areas, SMEs can position themselves favourably for a successful transition, ensuring not only a profitable sale but also the continuity of the business's mission and values in the future.</p>
 
       <h3><strong>Types of Exit Strategies</strong></h3>
       <p>When planning an exit from a business, owners have several strategies to consider, each with its own advantages and challenges. The most common exit strategies include selling to an outside buyer, selling to an inside buyer, and passing the business on to a family member.</p>

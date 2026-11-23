@@ -6,7 +6,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     pillarSlug: "logistics-and-distribution",
     name: "Container leasing",
     nameLower: "container leasing",
-    title: "Container Leasing M&A Advisor UK | Mastella Advisory",
+    title: "Container Leasing M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK container leasing platform worth £5M to £50M? Senior-led, off-market M&A advisory. We have recently completed a container leasing exit.",
     h1: "Selling a container leasing platform in the UK",
@@ -91,7 +91,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     pillarSlug: "logistics-and-distribution",
     name: "Cold-chain logistics",
     nameLower: "cold-chain logistics",
-    title: "Cold-Chain Logistics M&A Advisor UK | Mastella Advisory",
+    title: "Cold-Chain Logistics M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK cold-chain logistics business worth £5M to £50M? Senior-led, off-market M&A advisory. We have recently completed a cold-chain exit.",
     h1: "Selling a cold-chain logistics business in the UK",
@@ -180,7 +180,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     pillarSlug: "logistics-and-distribution",
     name: "Third-party logistics (3PL)",
     nameLower: "3PL",
-    title: "3PL M&A Advisor UK | Mastella Advisory",
+    title: "3PL M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK third-party logistics (3PL) business worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential process.",
     h1: "Selling a third-party logistics (3PL) business in the UK",
@@ -215,15 +215,15 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
       },
       {
         q: "Are you a 3PL consultancy firm?",
-        a: "No. We are an M&A advisor for owners of UK third-party logistics businesses worth £5M to £50M in enterprise value. If you are looking for a 3PL strategy consultant to help you design your operations, choose a WMS or optimise your network, that is a different type of firm: well-known 3PL consultants in the UK space include Gideon Hillman Consulting, Establish, Davies & Robson, and the logistics practices of larger consulting groups. Mastella advises 3PL owners on selling the business, raising growth capital, or acquiring competitors. Where an owner needs both, we regularly refer to specialist 3PL operational consultants and coordinate alongside their work.",
+        a: "No. We are an M&A adviser for owners of UK third-party logistics businesses worth £5M to £50M in enterprise value. If you are looking for a 3PL strategy consultant to help you design your operations, choose a WMS or optimise your network, that is a different type of firm: well-known 3PL consultants in the UK space include Gideon Hillman Consulting, Establish, Davies & Robson, and the logistics practices of larger consulting groups. Mastella advises 3PL owners on selling the business, raising growth capital, or acquiring competitors. Where an owner needs both, we regularly refer to specialist 3PL operational consultants and coordinate alongside their work.",
       },
       {
         q: "Which 3PL strategy consultants do you recommend for operational work?",
-        a: "For pure operational strategy work (network design, WMS selection, warehouse layout, cost-to-serve analysis, contract negotiation with shippers) established UK 3PL consultancies include Gideon Hillman Consulting, Establish Inc., Davies & Robson, Barrett Distribution Consulting and the supply chain practices of larger firms (Deloitte, PA Consulting, GEP). We are an M&A advisor, not an operational consultancy, but the two disciplines overlap during exit preparation. Owners who have done meaningful operational work before going to market typically achieve better multiples because buyers can see the improved unit economics rather than being asked to underwrite promised ones.",
+        a: "For pure operational strategy work (network design, WMS selection, warehouse layout, cost-to-serve analysis, contract negotiation with shippers) established UK 3PL consultancies include Gideon Hillman Consulting, Establish Inc., Davies & Robson, Barrett Distribution Consulting and the supply chain practices of larger firms (Deloitte, PA Consulting, GEP). We are an M&A adviser, not an operational consultancy, but the two disciplines overlap during exit preparation. Owners who have done meaningful operational work before going to market typically achieve better multiples because buyers can see the improved unit economics rather than being asked to underwrite promised ones.",
       },
       {
-        q: "Which 3PL M&A advisors work with UK lower mid-market owners?",
-        a: "The UK lower mid-market 3PL M&A landscape includes several specialist advisors alongside the sector teams of larger corporate finance firms. Mastella works in this segment specifically: £5M to £50M enterprise value, owner-led businesses, off-market process with senior-led delivery. Other advisors active in adjacent segments include the logistics teams at BDO, RSM, PKF Smith Cooper, Cavendish, Cortus Advisory and various specialist boutiques. What matters more than the shortlist is whether the advisor actually knows the current active buyer pool in your specific 3PL sub-segment (contract logistics, e-commerce fulfilment, cold-chain, freight) and can produce named buyer engagement, not just outreach volume.",
+        q: "Which 3PL M&A advisers work with UK lower mid-market owners?",
+        a: "The UK lower mid-market 3PL M&A landscape includes several specialist advisers alongside the sector teams of larger corporate finance firms. Mastella works in this segment specifically: £5M to £50M enterprise value, owner-led businesses, off-market process with senior-led delivery. Other advisers active in adjacent segments include the logistics teams at BDO, RSM, PKF Smith Cooper, Cavendish, Cortus Advisory and various specialist boutiques. What matters more than the shortlist is whether the adviser actually knows the current active buyer pool in your specific 3PL sub-segment (contract logistics, e-commerce fulfilment, cold-chain, freight) and can produce named buyer engagement, not just outreach volume.",
       },
       {
         q: "Who are the active UK 3PL consolidators right now?",
@@ -310,7 +310,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     pillarSlug: "logistics-and-distribution",
     name: "Freight forwarding",
     nameLower: "freight forwarding",
-    title: "Freight Forwarding M&A Advisor UK | Mastella Advisory",
+    title: "Freight Forwarding M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK freight forwarding business worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential sale process for owner-managed forwarders.",
     h1: "Selling a freight forwarding business in the UK",
@@ -393,7 +393,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     pillarSlug: "logistics-and-distribution",
     name: "Last-mile delivery",
     nameLower: "last-mile delivery",
-    title: "Last-Mile Delivery M&A Advisor UK | Mastella Advisory",
+    title: "Last-Mile Delivery M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK last-mile delivery business worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential sale process for owner-managed operators.",
     h1: "Selling a last-mile delivery business in the UK",
@@ -476,7 +476,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     pillarSlug: "logistics-and-distribution",
     name: "Warehousing & distribution",
     nameLower: "warehousing and distribution",
-    title: "Warehousing & Distribution M&A Advisor | Mastella Advisory",
+    title: "Warehousing & Distribution M&A Adviser | Mastella Advisory",
     metaDescription:
       "Selling a UK warehousing or distribution business worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential sale for owner-managed operators.",
     h1: "Selling a warehousing or distribution business in the UK",
@@ -557,7 +557,7 @@ export const LOGISTICS_NICHES: NicheLanding[] = [
     pillarSlug: "logistics-and-distribution",
     name: "Marine logistics",
     nameLower: "marine logistics",
-    title: "Marine Logistics M&A Advisor UK | Mastella Advisory",
+    title: "Marine Logistics M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK marine logistics business worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential sale for specialist marine operators.",
     h1: "Selling a marine logistics business in the UK",

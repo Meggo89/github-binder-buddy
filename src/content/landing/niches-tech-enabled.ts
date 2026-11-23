@@ -9,7 +9,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
     pillarSlug: "tech-enabled-services",
     name: "Vertical SaaS",
     nameLower: "vertical SaaS",
-    title: "Vertical SaaS M&A Advisor UK | Mastella Advisory",
+    title: "Vertical SaaS M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK vertical SaaS business worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential process for owner-managed SaaS founders.",
     h1: "Selling a vertical SaaS business in the UK",
@@ -93,7 +93,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
     pillarSlug: "tech-enabled-services",
     name: "IT managed service providers",
     nameLower: "IT MSP",
-    title: "IT MSP M&A Advisor UK | Mastella Advisory",
+    title: "IT MSP M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK IT MSP worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential sale for owner-managed managed service providers.",
     h1: "Selling an IT MSP in the UK",
@@ -176,7 +176,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
     pillarSlug: "tech-enabled-services",
     name: "Digital agencies",
     nameLower: "digital agency",
-    title: "Digital Agency M&A Advisor UK | Mastella Advisory",
+    title: "Digital Agency M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK digital agency worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential sale for performance, brand and product agency owners.",
     h1: "Selling a digital agency in the UK",
@@ -256,7 +256,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
     pillarSlug: "tech-enabled-services",
     name: "Data & analytics services",
     nameLower: "data and analytics services",
-    title: "Data & Analytics M&A Advisor UK | Mastella Advisory",
+    title: "Data & Analytics M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK data or analytics services business worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential sale process.",
     h1: "Selling a data or analytics services business in the UK",
@@ -291,7 +291,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
       },
       {
         q: "Which boutique data analytics consultancies in the UK are worth talking to about M&A?",
-        a: "The UK boutique data analytics consultancy landscape is unusually deep: well-known names in the £5M to £50M enterprise value range include the specialist Snowflake and Databricks partner firms, the vertical-focused analytics practices in financial services and retail, and the data engineering specialists serving mid-market enterprise. When you are thinking about M&A specifically (selling, acquiring, or raising growth capital), the shortlist of specialist M&A advisors covering this niche is much smaller. Mastella works in this segment; other advisors active in adjacent tech services include Cavendish, Cortus Advisory, Marktlink and the technology teams at BDO, RSM and Grant Thornton. What matters more than the shortlist is who actually knows the current buyer pool in your specific sub-segment.",
+        a: "The UK boutique data analytics consultancy landscape is unusually deep: well-known names in the £5M to £50M enterprise value range include the specialist Snowflake and Databricks partner firms, the vertical-focused analytics practices in financial services and retail, and the data engineering specialists serving mid-market enterprise. When you are thinking about M&A specifically (selling, acquiring, or raising growth capital), the shortlist of specialist M&A advisers covering this niche is much smaller. Mastella works in this segment; other advisers active in adjacent tech services include Cavendish, Cortus Advisory, Marktlink and the technology teams at BDO, RSM and Grant Thornton. What matters more than the shortlist is who actually knows the current buyer pool in your specific sub-segment.",
       },
       {
         q: "What is data analytics M&A actually about in the UK right now?",
@@ -386,7 +386,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
     pillarSlug: "tech-enabled-services",
     name: "Cybersecurity services",
     nameLower: "cybersecurity services",
-    title: "Cybersecurity Services M&A Advisor UK | Mastella Advisory",
+    title: "Cybersecurity Services M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK cybersecurity services business worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential sale for owner-managed cyber firms.",
     h1: "Selling a cybersecurity services business in the UK",
@@ -466,7 +466,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
     pillarSlug: "tech-enabled-services",
     name: "AI & ML services",
     nameLower: "AI and ML services",
-    title: "AI & ML Services M&A Advisor UK | Mastella Advisory",
+    title: "AI & ML Services M&A Adviser UK | Mastella Advisory",
     metaDescription:
       "Selling a UK AI or machine learning services business worth £5M to £50M? Senior-led, off-market M&A advisory. Confidential sale process.",
     h1: "Selling an AI or ML services business in the UK",
@@ -504,8 +504,8 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
         a: "AI M&A consulting usually means one of two things. First: strategy consulting to companies that are considering AI-driven acquisitions or divestments in their own business. That work sits primarily inside the Big Four's AI transformation practices, Accenture, and specialist strategy houses. Second: M&A advisory to AI and ML services companies themselves: helping AI founders sell, raise growth capital or acquire competitors. Mastella works in the second definition, specifically for UK AI and ML services businesses worth £5M to £50M in enterprise value. The two disciplines require different skill sets and rarely sit in the same firm.",
       },
       {
-        q: "Who is the best M&A advisor for AI companies in the UK?",
-        a: "'Best' depends on the size and nature of your AI business. For UK AI and ML services companies worth £5M to £50M in enterprise value, the shortlist of specialist M&A advisors covering this niche is small. Mastella acts in this segment. Other advisors active in adjacent technology M&A include Cavendish, Cortus Advisory, Marktlink, the technology teams at BDO, RSM, Grant Thornton, and various specialist boutiques focused on AI or applied technology. For AI product businesses at seed-to-Series-C stage, specialist tech-focused corporate finance houses and venture-adjacent advisors typically fit better than traditional M&A firms.",
+        q: "Who is the best M&A adviser for AI companies in the UK?",
+        a: "'Best' depends on the size and nature of your AI business. For UK AI and ML services companies worth £5M to £50M in enterprise value, the shortlist of specialist M&A advisers covering this niche is small. Mastella acts in this segment. Other advisers active in adjacent technology M&A include Cavendish, Cortus Advisory, Marktlink, the technology teams at BDO, RSM, Grant Thornton, and various specialist boutiques focused on AI or applied technology. For AI product businesses at seed-to-Series-C stage, specialist tech-focused corporate finance houses and venture-adjacent advisers typically fit better than traditional M&A firms.",
       },
       {
         q: "What multiples do UK artificial intelligence M&A services businesses trade at in 2026?",
@@ -557,7 +557,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
           "Recurring vs project revenue fifth. Project revenue trades at the lower end; programmatic and managed-service revenue at the upper end; platform / product ARR commands the highest valuation. The composition shapes both the buyer pool and the valuation methodology.",
           "Case study depth and named references sixth. Buyers pay premium for demonstrated enterprise delivery: named blue-chip client references, published case studies with quantified outcomes, and reference-callable enterprise sponsors. Businesses with three or more callable enterprise references at CXO level consistently outperform those relying on smaller-client volume or on unnamed 'confidential' references.",
           "Proprietary training data and data assets seventh. Where the business has assembled proprietary training datasets (client-permission-cleared, deduplicated, labelled, and legally clean), this is a meaningful and often under-presented asset. Buyers value defensible data moats as much as they value model IP. We help owners document data provenance and ownership carefully before going to market.",
-          "Model architecture and technical defensibility eighth. Buyers diligence whether models are genuinely proprietary or effectively wrappers over general-purpose foundation models. Businesses with meaningful in-house model engineering, applied fine-tuning at scale, or novel architecture components command premium. Buyers now typically bring specialist ML technical advisors into diligence, so pre-process technical documentation depth matters.",
+          "Model architecture and technical defensibility eighth. Buyers diligence whether models are genuinely proprietary or effectively wrappers over general-purpose foundation models. Businesses with meaningful in-house model engineering, applied fine-tuning at scale, or novel architecture components command premium. Buyers now typically bring specialist ML technical advisers into diligence, so pre-process technical documentation depth matters.",
           "Security, ethics and governance posture ninth. AI-specific governance (model cards, data lineage, bias testing, adversarial testing, EU AI Act compliance where relevant, ISO 42001, SOC 2, ISO 27001) is now a diligence area in its own right. Buyers acquiring for regulated-industry deployment (financial services, healthcare, public sector) pay a premium for documented governance frameworks and discount businesses without them.",
         ],
       },

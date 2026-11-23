@@ -74,7 +74,7 @@ export default function ResourceLandingPage() {
       <RelatedLinks
         heading="Related"
         links={[
-          { to: '/services/m-and-a-advisor-uk/', label: 'M&A advisor (UK)', description: 'How Mastella delivers senior-led M&A advisory.' },
+          { to: '/services/m-and-a-advisor-uk/', label: 'M&A adviser (UK)', description: 'How Mastella delivers senior-led M&A advisory.' },
           { to: '/services/how-to-sell-a-business/', label: 'How to sell a business', description: 'The six-stage sale process explained.' },
           { to: '/process/', label: 'How we source buyers', description: 'Senior-led, off-market process.' },
         ]}

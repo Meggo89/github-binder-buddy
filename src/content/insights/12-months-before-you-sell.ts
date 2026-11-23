@@ -11,9 +11,9 @@ const article: Article = {
   content: `
       <p><em>Advised by Leo Meggitt, Managing Director, Mastella Advisory. Last updated August 2026.</em></p>
 
-      <p>Ask any experienced UK M&amp;A advisor which owners consistently achieve the strongest sale outcomes and you get a version of the same answer: the ones who started preparing 12 to 24 months before they went to market. Not the ones with the best businesses. Not the ones in the hottest sectors. The ones who did the readiness work.</p>
+      <p>Ask any experienced UK M&amp;A adviser which owners consistently achieve the strongest sale outcomes and you get a version of the same answer: the ones who started preparing 12 to 24 months before they went to market. Not the ones with the best businesses. Not the ones in the hottest sectors. The ones who did the readiness work.</p>
 
-      <p>This piece walks through the specific preparation work that most reliably changes the outcome for UK lower mid-market owners. Everything below is what we do inside a formal <a href="/services/exit-planning-advisor-uk/">exit planning engagement</a>; it is also what motivated owners can start on their own, six to twelve months before engaging any advisor.</p>
+      <p>This piece walks through the specific preparation work that most reliably changes the outcome for UK lower mid-market owners. Everything below is what we do inside a formal <a href="/services/exit-planning-advisor-uk/">exit planning engagement</a>; it is also what motivated owners can start on their own, six to twelve months before engaging any adviser.</p>
 
       <p>The order below is roughly the order of return-on-effort. Start at the top.</p>
 
@@ -214,8 +214,8 @@ const article: Article = {
       a: 'At least 12 months before target completion, ideally longer. Many of the most useful interventions (share reorganisations, family trust structures, BADR positioning) require lead time. The 2026 UK tax environment differs meaningfully from three years ago (BADR rate has risen from 10% to 18%; general CGT rates have shifted), so what worked as pre-sale planning in 2022 is not the same as what works now. Engage a transaction-tax specialist early.',
     },
     {
-      q: 'Should I try to sell my business myself to avoid advisor fees?',
-      a: 'For UK owners of businesses worth £5M+ EV, running the sale yourself typically costs more in realised outcome than the advisor fee. Structured competitive processes across strategic, PE and specialist buyer pools consistently produce materially better headline price and non-price terms than bilateral negotiation. The pre-sale readiness work covered in this article is often what unlocks the difference. Below £5M EV, a specialist broker is frequently the right choice; above, senior-led advisor.',
+      q: 'Should I try to sell my business myself to avoid adviser fees?',
+      a: 'For UK owners of businesses worth £5M+ EV, running the sale yourself typically costs more in realised outcome than the adviser fee. Structured competitive processes across strategic, PE and specialist buyer pools consistently produce materially better headline price and non-price terms than bilateral negotiation. The pre-sale readiness work covered in this article is often what unlocks the difference. Below £5M EV, a specialist broker is frequently the right choice; above, senior-led adviser.',
     },
   ],
 };

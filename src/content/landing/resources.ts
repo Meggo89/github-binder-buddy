@@ -3,56 +3,56 @@ import type { ResourceLanding } from "./types";
 export const RESOURCES: ResourceLanding[] = [
   {
     slug: "business-broker-vs-m-a-advisor",
-    name: "Business broker vs M&A advisor",
-    title: "Business Broker vs M&A Advisor Explained",
+    name: "Business broker vs M&A adviser",
+    title: "Business Broker vs M&A Adviser Explained",
     metaDescription:
-      "Business broker or M&A advisor? Senior-led explainer for UK owners worth £5M to £50M. Models, fees, buyer pools and outcomes compared honestly.",
-    h1: "Business broker vs M&A advisor: what is the difference?",
+      "Business broker or M&A adviser? Senior-led explainer for UK owners worth £5M to £50M. Models, fees, buyer pools and outcomes compared honestly.",
+    h1: "Business broker vs M&A adviser: what is the difference?",
     intro:
-      "A business broker lists businesses worth roughly £200,000 to £3M on broker networks and handles incoming enquiries, while an M&A advisor runs an off-market process for businesses worth roughly £5M to £100M+, approaching a curated list of strategic and PE buyers individually under NDA. Which one fits depends almost entirely on what your business is worth, and the gap in outcomes is bigger than most owners realise.",
+      "A business broker lists businesses worth roughly £200,000 to £3M on broker networks and handles incoming enquiries, while an M&A adviser runs an off-market process for businesses worth roughly £5M to £100M+, approaching a curated list of strategic and PE buyers individually under NDA. Which one fits depends almost entirely on what your business is worth, and the gap in outcomes is bigger than most owners realise.",
     faqs: [
       {
-        q: "What is the headline difference between a broker and an M&A advisor?",
-        a: "Brokers run database-driven listings. They post your business (anonymised) on broker networks, take incoming enquiries, and earn a commission on completion. M&A advisors run off-market processes: direct approaches to a curated list of strategic and PE buyers under NDA, with active management of competitive dynamics. The two models attract different buyer pools and produce different outcomes.",
+        q: "What is the headline difference between a broker and an M&A adviser?",
+        a: "Brokers run database-driven listings. They post your business (anonymised) on broker networks, take incoming enquiries, and earn a commission on completion. M&A advisers run off-market processes: direct approaches to a curated list of strategic and PE buyers under NDA, with active management of competitive dynamics. The two models attract different buyer pools and produce different outcomes.",
       },
       {
         q: "Which model is right for my business?",
-        a: "A simple rule of thumb: businesses worth under £3M are typically best served by a broker. Businesses worth £5M+ are typically best served by an M&A advisor. Between £3M to £5M the answer depends on sector, growth profile and the buyer pool likely to engage.",
+        a: "A simple rule of thumb: businesses worth under £3M are typically best served by a broker. Businesses worth £5M+ are typically best served by an M&A adviser. Between £3M to £5M the answer depends on sector, growth profile and the buyer pool likely to engage.",
       },
       {
         q: "How do the fee models compare?",
-        a: "M&A advisors typically charge a monthly retainer during the process, unlike brokers who often work on success fee alone. A retainer signals commitment on both sides and funds the senior time and dedicated resource a real process needs.",
+        a: "M&A advisers typically charge a monthly retainer during the process, unlike brokers who often work on success fee alone. A retainer signals commitment on both sides and funds the senior time and dedicated resource a real process needs.",
       },
       {
         q: "Will more buyers see my business with a broker?",
-        a: "Often more enquiries, but from a smaller and lower-quality buyer pool (smaller acquirers, search-fund hopefuls, time-wasters). An M&A advisor will typically contact a smaller number of buyers (40 to 80) but each one is curated for genuine fit and capability.",
+        a: "Often more enquiries, but from a smaller and lower-quality buyer pool (smaller acquirers, search-fund hopefuls, time-wasters). An M&A adviser will typically contact a smaller number of buyers (40 to 80) but each one is curated for genuine fit and capability.",
       },
       {
         q: "How does confidentiality differ between the two models?",
-        a: "Broker listings are anonymised, but enough detail typically appears (sector, location, revenue band) that staff or competitors can sometimes identify the business. Off-market M&A advisor processes contact buyers individually under NDA: no public listing, far stronger confidentiality.",
+        a: "Broker listings are anonymised, but enough detail typically appears (sector, location, revenue band) that staff or competitors can sometimes identify the business. Off-market M&A adviser processes contact buyers individually under NDA: no public listing, far stronger confidentiality.",
       },
       {
-        q: "Why do M&A advisor outcomes typically come out higher?",
+        q: "Why do M&A adviser outcomes typically come out higher?",
         a: "Curated buyer pools (often including strategic acquirers brokers do not reach), competitive process management, senior-led negotiation, and properly structured deal terms (working capital, indemnity caps, earn-out mechanics). The headline price difference is often material, and the structuring difference often matters more.",
       },
     ],
     contentTodos: [
       {
-        heading: "What is the difference between a business broker and an M&A advisor?",
+        heading: "What is the difference between a business broker and an M&A adviser?",
         cover: [],
         body: [
           "The two differ on the size of business they serve, the buyers they reach, how they reach them and how they are paid.",
         ],
         table: {
-          caption: "Business broker and M&A advisor compared",
-          columns: ["", "Business broker", "M&A advisor"],
+          caption: "Business broker and M&A adviser compared",
+          columns: ["", "Business broker", "M&A adviser"],
           rows: [
             ["Typical business size", "Roughly £200,000 to £3M", "Roughly £5M to £100M+ in enterprise value"],
             ["Typical buyers", "Owner-operator individuals, smaller acquirers, search-fund searchers and family operators", "PE-backed consolidators, larger strategic acquirers and, for larger deals, direct PE houses"],
             ["How buyers are reached", "Listings on broker networks, with incoming enquiries managed", "Direct approaches to a curated list of buyers, each individually under NDA"],
             ["Confidentiality", "Anonymised listings, though staff or competitors can sometimes identify the business", "Off-market, with no public listing"],
             ["Fee structure", "Commission on completion, often success fee alone", "Monthly retainer during the process, with the bulk of the fee weighted to a successful outcome"],
-            ["Who handles structuring", "Typically the lawyers, after a headline price is agreed", "Done as core work by the advisor"],
+            ["Who handles structuring", "Typically the lawyers, after a headline price is agreed", "Done as core work by the adviser"],
           ],
         },
       },
@@ -67,22 +67,22 @@ export const RESOURCES: ResourceLanding[] = [
         ],
       },
       {
-        heading: "When is an M&A advisor the right choice?",
+        heading: "When is an M&A adviser the right choice?",
         cover: [
           "Off-market process explanation",
           "Buyer pool quality",
           "Structuring depth",
         ],
         body: [
-          "M&A advisors serve businesses worth roughly £5M to £100M+ in enterprise value. The buyer pool at this scale is different and reachable through different channels. Three structural differences matter.",
-          "The buyer pool. At £5M+ EV, the buyers who pay properly are typically PE-backed consolidators executing buy-and-build strategies, larger strategic acquirers seeking capability or geographic expansion, and (for larger deals) direct PE houses pursuing platform investments. Few of these buyers source from broker listings. They source from advisor relationships, sector data, market intelligence, and direct approaches under NDA. The broker network simply does not reach them. We typically contact 40 to 80 curated buyers across these pools for a sell-side mandate, each individually under NDA, with structured competitive process management thereafter.",
-          "The competitive process. Brokers manage incoming enquiries; M&A advisors manage outgoing competitive dynamics. The difference matters substantially. A genuine competitive process (multiple interested buyers, structured bidding, disciplined exclusivity granted at the right point) consistently produces materially better outcomes than the strongest single bilateral negotiation. The headline price difference is typically meaningful and the structuring difference (working capital mechanism, earn-out terms, indemnity caps) is often larger than the headline.",
-          "Structuring depth. At the £5M+ level the structuring of the deal is comparable in commercial importance to the headline price. Tax structuring (often started 12 months before sale), earn-out design, working capital normalisation, completion accounts mechanics, indemnity caps, restrictive covenants. Each can materially affect realised net proceeds. M&A advisors at this scale do structuring as core work; brokers typically rely on the lawyers to handle structuring after a broker has agreed a headline price, which is the wrong sequence.",
+          "M&A advisers serve businesses worth roughly £5M to £100M+ in enterprise value. The buyer pool at this scale is different and reachable through different channels. Three structural differences matter.",
+          "The buyer pool. At £5M+ EV, the buyers who pay properly are typically PE-backed consolidators executing buy-and-build strategies, larger strategic acquirers seeking capability or geographic expansion, and (for larger deals) direct PE houses pursuing platform investments. Few of these buyers source from broker listings. They source from adviser relationships, sector data, market intelligence, and direct approaches under NDA. The broker network simply does not reach them. We typically contact 40 to 80 curated buyers across these pools for a sell-side mandate, each individually under NDA, with structured competitive process management thereafter.",
+          "The competitive process. Brokers manage incoming enquiries; M&A advisers manage outgoing competitive dynamics. The difference matters substantially. A genuine competitive process (multiple interested buyers, structured bidding, disciplined exclusivity granted at the right point) consistently produces materially better outcomes than the strongest single bilateral negotiation. The headline price difference is typically meaningful and the structuring difference (working capital mechanism, earn-out terms, indemnity caps) is often larger than the headline.",
+          "Structuring depth. At the £5M+ level the structuring of the deal is comparable in commercial importance to the headline price. Tax structuring (often started 12 months before sale), earn-out design, working capital normalisation, completion accounts mechanics, indemnity caps, restrictive covenants. Each can materially affect realised net proceeds. M&A advisers at this scale do structuring as core work; brokers typically rely on the lawyers to handle structuring after a broker has agreed a headline price, which is the wrong sequence.",
           "Off-market process means we do not list your business on broker networks or M&A databases. We approach the curated buyer list directly under NDA. For owner-managed businesses where staff, customers and competitors are typically reachable through the same trade channels, this is the only credible way to run a genuinely confidential process.",
         ],
       },
       {
-        heading: "What should you ask an advisor before signing a mandate?",
+        heading: "What should you ask an adviser before signing a mandate?",
         cover: [
           "Who actually does the work",
           "How buyers are identified",
@@ -90,12 +90,12 @@ export const RESOURCES: ResourceLanding[] = [
           "Past transactions in your sector",
         ],
         body: [
-          "Ask five things before signing a mandate: who will actually do the work, how buyers will be identified, how fees are structured, what past transactions the firm has run in your sector, and what three to five things consistently move outcomes in that sector. Whether you are choosing between brokers, between M&A advisors, or between the two models, the questions below separate firms that match what they pitch from firms that do not. We would expect any owner to ask these questions, and we would be straight in answering them ourselves.",
-          "Who will actually do the work? Not who is in the meeting today. Who is in every meeting through the mandate. In the traditional UK lower mid-market M&A firm, senior advisors win mandates and then delegate substantive delivery to junior teams. If the firm cannot tell you which named senior person will be in every buyer meeting, and run every negotiation conversation, the model is not what is being sold. Ask explicitly.",
-          "How will buyers be identified? Database listings (broker model). Database search and outreach to known buyers (mid-tier advisor model). Curated buyer mapping with proprietary market intelligence supported by direct senior-led approach under NDA (senior-led advisor model). The three produce very different outcomes. Ask which model the firm is going to run for your specific business and what their proprietary buyer mapping looks like.",
-          "How are fees structured? Fully understand the fee structure, including upfront, monthly retainer, success fee, work fees, expenses, and any minimum charges. A commission-only structure economically pushes firms to take any deal that closes, even at a price below what a structured process would produce, because the commission is what funds the work. A retainer-led structure signals commitment on both sides and aligns the advisor to running the process properly through to the best deal, not just the quickest one. A modest retainer with the bulk of the fee weighted to a successful outcome usually strikes the right balance.",
+          "Ask five things before signing a mandate: who will actually do the work, how buyers will be identified, how fees are structured, what past transactions the firm has run in your sector, and what three to five things consistently move outcomes in that sector. Whether you are choosing between brokers, between M&A advisers, or between the two models, the questions below separate firms that match what they pitch from firms that do not. We would expect any owner to ask these questions, and we would be straight in answering them ourselves.",
+          "Who will actually do the work? Not who is in the meeting today. Who is in every meeting through the mandate. In the traditional UK lower mid-market M&A firm, senior advisers win mandates and then delegate substantive delivery to junior teams. If the firm cannot tell you which named senior person will be in every buyer meeting, and run every negotiation conversation, the model is not what is being sold. Ask explicitly.",
+          "How will buyers be identified? Database listings (broker model). Database search and outreach to known buyers (mid-tier adviser model). Curated buyer mapping with proprietary market intelligence supported by direct senior-led approach under NDA (senior-led adviser model). The three produce very different outcomes. Ask which model the firm is going to run for your specific business and what their proprietary buyer mapping looks like.",
+          "How are fees structured? Fully understand the fee structure, including upfront, monthly retainer, success fee, work fees, expenses, and any minimum charges. A commission-only structure economically pushes firms to take any deal that closes, even at a price below what a structured process would produce, because the commission is what funds the work. A retainer-led structure signals commitment on both sides and aligns the adviser to running the process properly through to the best deal, not just the quickest one. A modest retainer with the bulk of the fee weighted to a successful outcome usually strikes the right balance.",
           "What past transactions have you run in this sector? Specific completed transactions, not generic capability slides. If the firm cannot point to recent completed work in your sector or in directly adjacent sectors, the sector knowledge that drives buyer mapping, diligence anticipation, and structuring decisions may not be there.",
-          "What are the three to five things that consistently move outcomes in this sector? A good test of sector knowledge. A senior advisor who actually works in the sector should be able to answer this in concrete terms within two minutes. A generalist firm will give you generic process language.",
+          "What are the three to five things that consistently move outcomes in this sector? A good test of sector knowledge. A senior adviser who actually works in the sector should be able to answer this in concrete terms within two minutes. A generalist firm will give you generic process language.",
         ],
       },
       {
@@ -105,7 +105,7 @@ export const RESOURCES: ResourceLanding[] = [
           "Off-market by default",
         ],
         body: [
-          "Mastella is a senior-led, off-market M&A advisor. It is structured around two things that distinguish our model from both the broker model and the traditional UK lower mid-market M&A advisor model.",
+          "Mastella is a senior-led, off-market M&A adviser. It is structured around two things that distinguish our model from both the broker model and the traditional UK lower mid-market M&A adviser model.",
           "Senior-led delivery. Every conversation that matters runs through Leo Meggitt. Buyer mapping, financial normalisation, IM drafting, the negotiation, completion mechanics. None of these are delegated. A small in-house team and a proprietary technology layer for surfacing acquirer signals from licensed market data support the senior delivery rather than substitute for it.",
           "Off-market by default. We do not list businesses on broker networks or M&A databases. Every sell-side mandate runs as a structured approach to a curated list of strategic and PE buyers individually under NDA. For owner-managed businesses where confidentiality is commercially important (which is almost always), this is the only credible model.",
           "We work with UK businesses worth £5M to £50M in enterprise value across six sectors: [business services](/sectors/business-services/), [healthcare services](/sectors/healthcare-services/), [manufacturing and industrials](/sectors/light-industrials/), [logistics and distribution](/sectors/logistics-and-distribution/), [professional services](/sectors/professional-services/), and [tech-enabled services](/sectors/tech-enabled-services/). For businesses below £5M EV we will happily refer you to a small set of brokers we trust rather than take a mandate that is not the right fit.",
