@@ -5,6 +5,8 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
     slug: "specialist-manufacturing",
     reportCallouts: [
       { label: "Sector report: Selling a UK specialist manufacturer in 2026: what buyers pay for", href: "/insights/specialist-manufacturing-ma-2026/" },
+      { label: "Sector report: Selling a UK packaging business in 2026: who is buying and what they pay", href: "/insights/packaging-ma-2026/" },
+      { label: "Sector report: Selling a UK test, measurement or scientific instruments business in 2026: who is buying and what they pay", href: "/insights/test-measurement-instruments-ma-2026/" },
     ],
     pillarSlug: "light-industrials",
     name: "Specialist manufacturing",
@@ -89,6 +91,9 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
   },
   {
     slug: "plant-hire-and-equipment-rental",
+    reportCallouts: [
+      { label: "Sector report: Selling a UK plant hire or equipment rental business in 2026: who is buying and what they pay", href: "/insights/plant-hire-equipment-rental-ma-2026/" },
+    ],
     pillarSlug: "light-industrials",
     name: "Plant hire & equipment rental",
     nameLower: "plant hire and equipment rental",
@@ -176,6 +181,11 @@ export const LIGHT_INDUSTRIALS_NICHES: NicheLanding[] = [
       label: "2026 report: who is buying UK engineering and technical services businesses",
       href: "/insights/engineering-technical-services-ma-2026/",
     },
+    reportCallouts: [
+      { label: "Sector report: Selling a UK plant hire or equipment rental business in 2026: who is buying and what they pay", href: "/insights/plant-hire-equipment-rental-ma-2026/" },
+      { label: "Sector report: Selling a UK test, measurement or scientific instruments business in 2026: who is buying and what they pay", href: "/insights/test-measurement-instruments-ma-2026/" },
+      { label: "Sector report: Selling a UK fire, security or life-safety services business in 2026: who is buying and what they pay", href: "/insights/fire-security-life-safety-ma-2026/" },
+    ],
     pillarSlug: "light-industrials",
     name: "Engineering services",
     nameLower: "engineering services",

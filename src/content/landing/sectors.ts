@@ -6,6 +6,7 @@ export const SECTORS: SectorPillar[] = [
     reportCallouts: [
       { label: "Sector report: UK facilities management and cleaning M&A 2026: an owner's guide to the sale market", href: "/insights/facilities-management-cleaning-ma-2026/" },
       { label: "Sector report: Specialist recruiters win offers as UK deal volumes settle", href: "/insights/recruitment-staffing-ma-2026/" },
+      { label: "Sector report: Selling a UK fire, security or life-safety services business in 2026: who is buying and what they pay", href: "/insights/fire-security-life-safety-ma-2026/" },
     ],
     name: "Business services",
     nameLower: "business services",
@@ -192,6 +193,7 @@ export const SECTORS: SectorPillar[] = [
     reportCallouts: [
       { label: "Sector report: Selling a UK specialist manufacturer in 2026: what buyers pay for", href: "/insights/specialist-manufacturing-ma-2026/" },
       { label: "Sector report: UK food and drink producer M&A 2026: what owners can expect", href: "/insights/food-drink-producers-ma-2026/" },
+      { label: "Sector report: Selling a UK packaging business in 2026: who is buying and what they pay", href: "/insights/packaging-ma-2026/" },
     ],
     name: "Manufacturing and industrials",
     nameLower: "manufacturing or industrial",

@@ -1,3 +1,8 @@
+import reportPlantHireEquipmentRental from './plant-hire-equipment-rental-ma-2026';
+import reportPackaging from './packaging-ma-2026';
+import reportTestMeasurementInstruments from './test-measurement-instruments-ma-2026';
+import reportCommercialInsuranceBrokers from './commercial-insurance-brokers-ma-2026';
+import reportFireSecurityLifeSafety from './fire-security-life-safety-ma-2026';
 import reportItMspCyber from './it-msp-cyber-ma-2026';
 import reportLegalServices from './legal-services-ma-2026';
 import reportSpecialistManufacturing from './specialist-manufacturing-ma-2026';
@@ -36,10 +41,16 @@ import type { Article } from './types';
 export type { Article };
 export { INSIGHT_LINKS } from './related';
 
-// Display order: newest first. The fifteen sector reports of 16 November 2026 lead, then the six
+// Display order: newest first. The five sector reports of 23 November 2026 lead, then the fifteen
+// sector reports of 16 November 2026, then the six
 // articles published earlier in November 2026, then the five pillar articles from August 2026,
 // then the earlier long-form pieces.
 export const articles: Article[] = [
+  reportPlantHireEquipmentRental,
+  reportPackaging,
+  reportTestMeasurementInstruments,
+  reportCommercialInsuranceBrokers,
+  reportFireSecurityLifeSafety,
   reportItMspCyber,
   reportLegalServices,
   reportSpecialistManufacturing,
