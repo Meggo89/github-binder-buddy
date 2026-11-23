@@ -14,7 +14,7 @@ const article: Article = {
       <p class="report-author"><em>By Leo Meggitt, Managing Director, Mastella Advisory</em><br />15 years in M&amp;A. Has advised on over £800m of transactions across multiple sectors.</p>
       <nav class="report-toc" aria-label="Contents"><p class="report-toc-label">Contents</p><ol><li><a href="#executive-summary">Executive summary</a></li><li><a href="#section-a-the-market-2024-to-2026">Section A: The market, 2024 to 2026</a></li><li><a href="#section-c-summary-what-has-actually-been-sold">Section C summary: What has actually been sold</a></li><li><a href="#section-d-what-buyers-pay-up-for-and-what-they-discount">Section D: What buyers pay up for, and what they discount</a></li><li><a href="#faq">FAQ</a></li><li><a href="#where-to-start">Where to start</a></li><li><a href="#sources">Sources</a></li></ol></nav>
       <h2 id="executive-summary">Executive summary</h2>
-      <p>Published multiples for small UK software deals run from about 1.2x revenue for deals under £2.5m to 3.4x for deals of £10m to £50m. These are MarktoMarket <a href="/sectors/tech-enabled-services/vertical-saas/">SaaS</a> medians, quoted by Hardman &amp; Co in May 2026. EBITDA evidence is less settled because the samples differ: PKF Smith Cooper averaged 7.9x for £5m to £250m deals in H1 2025, while Crowe put private tech at 14.2x for 2025. In my log of 80 UK deals, 61 carry no disclosed value, and the 11 where I could derive a multiple from published figures sit between 0.5x and 4.1x revenue.</p>
+      <p>Published multiples for small UK software deals run from about 1.2x revenue for deals under £2.5m to 3.4x for deals of £10m to £50m. These are MarktoMarket <a href="/sectors/tech-enabled-services/vertical-saas/">SaaS</a> medians, quoted by Hardman &amp; Co in May 2026. EBITDA evidence is less settled because the samples differ: PKF Smith Cooper averaged 7.9x for £5m to £250m deals in H1 2025, while Crowe put private tech at 14.2x for 2025. In the Mastella deal log of 80 UK deals, 61 carry no disclosed value, and the 11 where I could derive a multiple from published figures sit between 0.5x and 4.1x revenue.</p>
       <p>Buyers include permanent-capital groups such as the Constellation operating groups, Valsoft, Banyan and Everfield, Hg-backed platforms, regional private equity and listed UK groups. Serial acquirers do not publish what they pay. Overseas buyers took 46% of UK tech deals in Q1 2026 (ICON), and ICON and Crowe both recorded fewer UK tech deals in 2025 than in 2024.</p>
       <p>Owners face pressure from AI exposure of seat-based pricing and from valuations that sit below their six-year average, and tax adds a deadline. An HMRC policy paper dated 29 October 2026 sets out a cut to the Business Asset Disposal Relief (BADR) lifetime limit from £1m to £500,000 for disposals from 6 April 2027. It was announced at Budget 2026, will be legislated in Finance Bill 2026-27 and is not yet law, and this is not tax advice.</p>
       <p>Buyers pay for recurring revenue with high retention, clean IP ownership, modern architecture and a team that runs without the founder. Section D ends with a 12 to 24 month checklist.</p>
@@ -38,7 +38,7 @@ const article: Article = {
 <tbody>
 <tr><td>MarktoMarket, UK TMT median</td><td>2.2x</td><td>10.8x</td><td>2024</td></tr>
 <tr><td>MarktoMarket, UK TMT median</td><td>2.4x</td><td>12.6x</td><td>2025</td></tr>
-<tr><td>PKF Smith Cooper, 230 deals of £5m to £250m</td><td>2.9x</td><td>7.9x</td><td>H1 2025</td></tr>
+<tr><td>PKF Smith Cooper, index of disclosed deals of £5m to £250m, from about 230 UK software deals</td><td>2.9x</td><td>7.9x</td><td>H1 2025</td></tr>
 <tr><td>Crowe, private tech average</td><td>not given</td><td>13.5x</td><td>2024</td></tr>
 <tr><td>Crowe, private tech average</td><td>not given</td><td>14.2x</td><td>2025</td></tr>
 </tbody></table></div>
@@ -55,19 +55,17 @@ const article: Article = {
 </tbody></table></div>
       <p>(Sources: Hardman &amp; Co, May 2026; Aventis Advisors, software valuation multiples 2015 to 2025.) Growth shows up in the multiple. The next table uses public software companies, global and US-weighted, from a SaaStr summary of Kroll's Summer 2026 report that I have not checked against the original.</p>
       <div class="report-table"><table>
-<thead><tr><th scope="col">Growth band, public companies</th><th scope="col">EV/revenue</th><th scope="col">EV/EBITDA</th></tr></thead>
+<thead><tr><th scope="col">Growth band, public companies</th><th scope="col">EV/revenue</th></tr></thead>
 <tbody>
-<tr><td>below 0%</td><td>2.4x</td><td>7.0x</td></tr>
-<tr><td>0% to 10%</td><td>3.1x</td><td>9.9x</td></tr>
-<tr><td>10% to 20%</td><td>4.1x</td><td>14.1x</td></tr>
-<tr><td>above 20%</td><td>7.2x</td><td>18.2x</td></tr>
+<tr><td>below 0%</td><td>2.4x</td></tr>
+<tr><td>above 20%</td><td>7.2x</td></tr>
 </tbody></table></div>
       <p>Aventis finds each 10-point rise in the Rule of 40 score adds c.1.02x to EV/revenue (Aventis Advisors, SaaS multiples 2015 to 2026; global). Silver Peak's global medians were 11.1x EBITDA in H1 2026, against 14.0x averaged since 2022 (Silver Peak, H1 2026). I would not apply US-weighted figures to a UK vendor.</p>
       <p>My reading of the UK sources, which is a judgement and not a published range, is that small recurring-revenue vendors have recently sold at about 1.2x to 3.4x revenue, with EBITDA multiples from 4.4x (ADVT, £5m) to 12.6x (Plianz, £8m) in PKF Smith Cooper's examples. About 75% to 80% of SaaS deals do not disclose a value (SaasRise, Q1 2026; secondary), so every published range rests on a small, self-selected sample.</p>
       <h3 id="deal-volume">Deal volume</h3>
       <p>Counts differ by source because each covers a different universe, so I give each separately and do not combine them. ICON counted 584 UK tech deals in 2025, down 23%, which implies c.758 in 2024 (derived: 584 divided by 0.77), and 63 in Q1 2026, a recent low (ICON, Full Year 2025 and 1Q2026). Crowe counted 735 deals in 2024 and 652 in 2025, down 11%, and 162 in Q1 2026, flat on a year earlier, worth £11.4bn against £5.1bn (Crowe, Deals Dispatch Q4 2025 and Q1 2026). MarktoMarket counted 957 UK-party tech deals in 2025 worth about £55bn, against about £47bn to £48bn in 2024 (Hardman &amp; Co, May 2026). ICON and Crowe agree on fewer deals in 2025, and all three show higher value on larger transactions. I found no UK-only software count for 2024 to 2026.</p>
       <h2 id="section-c-summary-what-has-actually-been-sold">Section C summary: What has actually been sold</h2>
-      <p>My deal log holds 89 rows of UK software and data transactions from January 2024 to November 2026. After removing three duplicate or context-only rows, one cyber services deal and five rows where the UK link is unverified, 80 remain: 12 dated 2024, 24 dated 2025 and 44 dated 2026. Those counts reflect what I could find and date, so they show no trend. Four rows are borderline for scope.</p>
+      <p>The Mastella deal log holds 89 rows of UK software and data transactions from January 2024 to November 2026. After removing three duplicate or context-only rows, one cyber services deal and five rows where the UK link is unverified, 80 remain: 12 dated 2024, 24 dated 2025 and 44 dated 2026. Those counts reflect what I could find and date, so they show no trend. Four rows are borderline for scope.</p>
       <h3 id="who-bought-what-size-which-niches">Who bought, what size, which niches</h3>
       <p>By buyer type as classified in the log, 25 went to private equity backed trade buyers and platforms, 16 to private equity funds, 16 to listed acquirers, 13 to serial acquirers and holdcos, and 10 to other trade buyers. Only 19 of the 80 carry any value: nine at or below £10m, five between £10m and £100m (one is a funding round) and five above £200m. Niches include field service, hospitality, social care, compliance, transport, charity, pharmacy and legal software. Of the small deals that disclose terms, all but one (a £5m regional fund investment) come from listed buyers' announcements. Serial acquirers and private equity platforms announce deals and keep the price to themselves.</p>
       <h3 id="what-the-priced-deals-show">What the priced deals show</h3>
