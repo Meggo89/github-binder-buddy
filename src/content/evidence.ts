@@ -9,11 +9,11 @@ export type Evidence = {
 };
 
 export const REPORT_EVIDENCE: Record<string, Evidence> = {
-  'commercial-insurance-brokers-ma-2026': { sector: 'Insurance brokers', deals: 157, multiple: '4x to 6x', basis: 'annual income, our estimate' },
-  'fire-security-life-safety-ma-2026': { sector: 'Fire and security', deals: 93, multiple: '4x to 6x', basis: 'EBITDA, small security deals' },
-  'test-measurement-instruments-ma-2026': { sector: 'Test and measurement', deals: 57, multiple: '4.5x to 7.3x', basis: 'EBIT, deals under £15m' },
-  'plant-hire-equipment-rental-ma-2026': { sector: 'Plant hire', deals: 35, multiple: '5.9x', basis: 'EBITDA, clearest specialist price' },
-  'packaging-ma-2026': { sector: 'Packaging', deals: 33, multiple: '5.4x to 7.7x', basis: 'EBITDA, with full earn-out' },
+  'commercial-insurance-brokers-ma-2026': { sector: 'Insurance brokers', deals: 157, multiple: '4x to 6x', basis: 'annual income, profitable brokers, our estimate' },
+  'fire-security-life-safety-ma-2026': { sector: 'Fire and security', deals: 93, multiple: '4x to 6x', basis: 'EBITDA, three small security deals' },
+  'test-measurement-instruments-ma-2026': { sector: 'Test and measurement', deals: 57, multiple: '4.5x to 7.3x', basis: 'EBIT, listed buyers, deals under £15m' },
+  'plant-hire-equipment-rental-ma-2026': { sector: 'Plant hire', deals: 35, multiple: '5.9x', basis: 'EBITDA (one specialist deal)' },
+  'packaging-ma-2026': { sector: 'Packaging', deals: 33, multiple: '4.2x to 5.6x', basis: 'EBITDA up front' },
   'engineering-technical-services-ma-2026': { sector: 'Engineering and technical services', deals: 92, multiple: '6x to 10x', basis: 'EBITDA, lower mid-market testing and inspection' },
   'specialist-manufacturing-ma-2026': { sector: 'Specialist manufacturing', deals: 74, multiple: '4x to 7x', basis: 'EBITDA, broker planning range' },
   'care-complex-care-ma-2026': { sector: 'Care and complex care', deals: 56, multiple: '5x to 7x', basis: 'EBITDA, smaller specialist care platforms' },
