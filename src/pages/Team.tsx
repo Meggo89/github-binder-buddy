@@ -26,7 +26,7 @@ const LEAD_ADVISOR = {
 const STATS = [
   { value: '15', label: 'Years in M&A' },
   { value: '£800m+', label: 'Transaction value advised on' },
-  { value: '6', label: 'Sectors' },
+  { value: '7', label: 'Sectors' },
 ];
 
 // Function areas covered by the in-house support team. Function-led, no

@@ -47,15 +47,14 @@ function HeroLedger() {
               <Link
                 to={`/insights/${r.slug}/`}
                 onClick={() => trackCTA(`Hero ledger: ${r.sector}`, 'hero')}
-                className="group grid grid-cols-[minmax(0,1fr)_auto] items-baseline gap-x-4 py-3.5 -mx-2 px-2 rounded-md hover:bg-[#F2EDE4]/[0.06] transition-colors"
+                className="group block py-3.5 -mx-2 px-2 rounded-md hover:bg-[#F2EDE4]/[0.06] transition-colors"
               >
-                <span>
-                  <span className="block font-medium text-[#FFFFFF] group-hover:text-[#D4B545] transition-colors">{r.sector}</span>
-                  <span className="block text-[0.8125rem] text-[#F2EDE4]/70 mt-0.5">{r.deals} deals logged</span>
+                <span className="flex items-baseline justify-between gap-4">
+                  <span className="font-medium text-[#FFFFFF] group-hover:text-[#D4B545] transition-colors">{r.sector}</span>
+                  <span className="font-serif text-2xl leading-none text-[#D4B545] tabular-nums whitespace-nowrap">{r.multiple}</span>
                 </span>
-                <span className="text-right">
-                  <span className="block font-serif text-2xl leading-none text-[#D4B545] tabular-nums whitespace-nowrap">{r.multiple}</span>
-                  <span className="block text-[0.8125rem] text-[#F2EDE4]/70 mt-1">{r.basis}</span>
+                <span className="block text-[0.8125rem] leading-snug text-[#F2EDE4]/70 mt-1.5">
+                  {r.basis} · {r.deals} deals logged
                 </span>
               </Link>
             </li>
