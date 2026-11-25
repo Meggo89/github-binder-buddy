@@ -159,6 +159,7 @@ async function run() {
   const staticInputs: PatchInput[] = ROUTES.map((r: RouteMeta) => ({
     path: r.path,
     title: r.title,
+    exactTitle: r.exactTitle,
     description: r.description,
     ogType: r.ogType,
     ogImage: r.ogImage,

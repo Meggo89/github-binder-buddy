@@ -25,6 +25,8 @@ export type RouteMeta = {
   ogImage?: string;
   priority?: number;
   changefreq?: 'always' | 'hourly' | 'daily' | 'weekly' | 'monthly' | 'yearly' | 'never';
+  // Use `title` exactly as given, without the brand suffix.
+  exactTitle?: boolean;
 };
 
 // Static routes (everything except /insights/:slug which is generated from article data)
@@ -90,6 +92,15 @@ export const ROUTES: RouteMeta[] = [
     title: 'Insights: M&A for Founder-Led Businesses',
     description:
       'Long-form analysis on exits, fundraising and valuation for founder-led businesses. Written by the Mastella team for founders, not other advisers.',
+    priority: 0.8,
+    changefreq: 'weekly',
+  },
+  {
+    path: '/insights/sector-reports',
+    title: 'UK Sector M&A Reports 2026 | Mastella',
+    exactTitle: true,
+    description:
+      'Our UK sector M&A reports for 2026: who is buying owner-managed businesses, what they pay for and what moves the price, sector by sector.',
     priority: 0.8,
     changefreq: 'weekly',
   },
