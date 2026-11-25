@@ -16,6 +16,7 @@ import Process from './pages/Process';
 import Team from './pages/Team';
 import Insights from './pages/Insights';
 import InsightArticle from './pages/InsightArticle';
+import SectorReports from './pages/SectorReports';
 import CaseStudies from './pages/CaseStudies';
 import Contact from './pages/Contact';
 import PrivacyPolicy from './pages/PrivacyPolicy';
@@ -47,6 +48,7 @@ export default function App() {
         <Route path="/process" element={<Process />} />
         <Route path="/team" element={<Team />} />
         <Route path="/insights" element={<Insights />} />
+        <Route path="/insights/sector-reports" element={<SectorReports />} />
         <Route path="/insights/:slug" element={<InsightArticle />} />
         <Route path="/case-studies" element={<CaseStudies />} />
         <Route path="/contact" element={<Contact />} />

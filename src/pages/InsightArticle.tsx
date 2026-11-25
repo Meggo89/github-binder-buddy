@@ -5,6 +5,7 @@ import { ArrowLeft, Calendar, Clock, Download, User } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { PageLayout } from '../components/layout';
 import { getArticle, articles, INSIGHT_LINKS, type Article } from '../content/insights';
+import { SECTOR_REPORTS, SECTOR_REPORTS_PATH } from '../content/insights/sector-reports';
 import { getSector } from '../content/landing';
 import { FadeIn } from '../components/ui/motion';
 import { SITE } from '../seo/site-meta';
@@ -61,6 +62,21 @@ export default function InsightArticle() {
       }
     : null;
 
+  const reportMeta = article.category === 'Sector Report'
+    ? SECTOR_REPORTS[article.slug] ?? { label: article.title, descriptor: '', group: 'Industrial and manufacturing' as const }
+    : undefined;
+  const breadcrumbSchema = reportMeta
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Insights', item: 'https://mastellagroup.com/insights/' },
+          { '@type': 'ListItem', position: 2, name: 'Sector reports', item: `https://mastellagroup.com${SECTOR_REPORTS_PATH}` },
+          { '@type': 'ListItem', position: 3, name: reportMeta.label, item: canonical },
+        ],
+      }
+    : null;
+
   const links = INSIGHT_LINKS[article.slug];
   const pillar = getSector(links?.pillarSlug ?? 'business-services');
   const related = (links?.related ?? articles.filter((a) => a.slug !== article.slug).slice(0, 3).map((a) => a.slug))
@@ -75,6 +91,9 @@ export default function InsightArticle() {
         {faqSchema && (
           <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
         )}
+        {breadcrumbSchema && (
+          <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
+        )}
       </Helmet>
 
       {/* Article header */}
@@ -83,13 +102,29 @@ export default function InsightArticle() {
           <div className="container mx-auto px-6">
             <FadeIn>
               <div className="max-w-3xl mx-auto">
-                <Link
-                  to="/insights/"
-                  className="flex w-fit items-center gap-2 text-sand-light hover:text-accent transition-colors mb-10 text-sm"
-                >
-                  <ArrowLeft className="h-4 w-4" />
-                  Back to insights
-                </Link>
+                {reportMeta ? (
+                  <nav aria-label="Breadcrumb" className="mb-10 text-sm">
+                    <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                      <li>
+                        <Link to="/insights/" className="text-sand-light hover:text-accent transition-colors">Insights</Link>
+                      </li>
+                      <li aria-hidden="true" className="text-sand-light">›</li>
+                      <li>
+                        <Link to={SECTOR_REPORTS_PATH} className="text-sand-light hover:text-accent transition-colors">Sector reports</Link>
+                      </li>
+                      <li aria-hidden="true" className="text-sand-light">›</li>
+                      <li aria-current="page" className="text-white">{reportMeta.label}</li>
+                    </ol>
+                  </nav>
+                ) : (
+                  <Link
+                    to="/insights/"
+                    className="flex w-fit items-center gap-2 text-sand-light hover:text-accent transition-colors mb-10 text-sm"
+                  >
+                    <ArrowLeft className="h-4 w-4" />
+                    Back to insights
+                  </Link>
+                )}
                 <span className="inline-block bg-accent/10 text-accent border border-accent/30 px-3 py-1 rounded-full text-xs font-mono tracking-widest uppercase mb-6">
                   {article.category}
                 </span>
