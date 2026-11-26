@@ -1,20 +1,26 @@
 import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
+import { ChevronDown, Menu, X } from 'lucide-react';
 import mastellaLogo from '../../assets/mastella-logo-mark.png';
 
-type NavLink = { to: string; label: string };
+type NavLink = { to: string; label: string; children?: { to: string; label: string }[] };
 
 const NAV_LINKS: NavLink[] = [
-  { to: '/about/', label: 'About' },
   { to: '/services/', label: 'Services' },
   { to: '/sectors/', label: 'Sectors' },
-  { to: '/process/', label: 'Process' },
   { to: '/case-studies/', label: 'Our Work' },
-  { to: '/team/', label: 'Team' },
   { to: '/insights/', label: 'Insights' },
-  { to: '/exit-readiness-score/', label: 'Exit Readiness Score' },
+  {
+    to: '/about/',
+    label: 'About',
+    children: [
+      { to: '/process/', label: 'Process' },
+      { to: '/team/', label: 'Team' },
+    ],
+  },
 ];
+
+const CTA_LABEL = 'Arrange a confidential conversation';
 
 function MobileNav({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) {
   useEffect(() => {
@@ -52,15 +58,26 @@ function MobileNav({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }
           </button>
         </div>
         <nav className="flex flex-col items-center space-y-6 p-6 pt-4">
-          {[{ to: '/', label: 'Home' }, ...NAV_LINKS].map((link) => (
-            <Link
-              key={link.to}
-              to={link.to}
-              className="text-white text-xl font-serif hover:text-accent transition-colors duration-200"
-              onClick={onClose}
-            >
-              {link.label}
-            </Link>
+          {[{ to: '/', label: 'Home' } as NavLink, ...NAV_LINKS].map((link) => (
+            <div key={link.to} className="flex flex-col items-center space-y-3">
+              <Link
+                to={link.to}
+                className="text-white text-xl font-serif hover:text-accent transition-colors duration-200"
+                onClick={onClose}
+              >
+                {link.label}
+              </Link>
+              {link.children?.map((c) => (
+                <Link
+                  key={c.to}
+                  to={c.to}
+                  className="text-sand-light text-base hover:text-accent transition-colors duration-200"
+                  onClick={onClose}
+                >
+                  {c.label}
+                </Link>
+              ))}
+            </div>
           ))}
           <div className="pt-4 w-full">
             <Link
@@ -68,7 +85,7 @@ function MobileNav({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }
               className="block w-full text-center bg-accent text-navy-deepest px-6 py-3 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-all duration-200"
               onClick={onClose}
             >
-              Get in Touch
+              {CTA_LABEL}
             </Link>
           </div>
         </nav>
@@ -94,25 +111,48 @@ export function Navigation() {
         </Link>
         <div className="hidden lg:flex space-x-5 xl:space-x-7 items-center">
           {NAV_LINKS.map((link) => {
-            const active = path === link.to.replace(/\/$/, '');
+            const active =
+              path === link.to.replace(/\/$/, '') || (link.children ?? []).some((c) => path === c.to.replace(/\/$/, ''));
+            const cls = `text-sm tracking-wide whitespace-nowrap transition-colors ${
+              active ? 'text-accent' : 'text-sand-light hover:text-white'
+            }`;
+            if (!link.children) {
+              return (
+                <Link key={link.to} to={link.to} className={cls}>
+                  {link.label}
+                </Link>
+              );
+            }
+            // The sub-links stay in the page (for keyboard users and crawlers) and show on hover or focus.
             return (
-              <Link
-                key={link.to}
-                to={link.to}
-                className={`text-sm tracking-wide whitespace-nowrap transition-colors ${
-                  active ? 'text-accent' : 'text-sand-light hover:text-white'
-                }`}
-              >
-                {link.label}
-              </Link>
+              <div key={link.to} className="relative group">
+                <Link to={link.to} className={`${cls} inline-flex items-center gap-1`} aria-haspopup="true">
+                  {link.label}
+                  <ChevronDown className="h-3.5 w-3.5" aria-hidden="true" />
+                </Link>
+                <div className="absolute left-1/2 -translate-x-1/2 top-full pt-3 hidden group-hover:block group-focus-within:block min-w-[10rem]">
+                  <ul className="rounded-lg border border-navy/10 bg-white shadow-lg py-2">
+                    {link.children.map((c) => (
+                      <li key={c.to}>
+                        <Link
+                          to={c.to}
+                          className="block px-4 py-2 text-sm text-navy hover:bg-sand-light hover:text-accent-dark transition-colors"
+                        >
+                          {c.label}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
             );
           })}
           {!onContactPage && (
             <Link
               to="/contact/"
-              className="bg-accent text-navy-deepest px-5 py-2.5 rounded-md text-sm font-semibold tracking-wide whitespace-nowrap hover:bg-accent-light transition-all duration-200 hover:-translate-y-px hover:shadow-lg hover:shadow-accent/20"
+              className="bg-accent text-navy-deepest px-5 py-2.5 rounded-md text-sm font-semibold tracking-wide whitespace-nowrap hover:bg-accent-light transition-colors"
             >
-              Get in Touch
+              {CTA_LABEL}
             </Link>
           )}
         </div>
