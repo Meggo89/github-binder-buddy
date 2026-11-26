@@ -1,7 +1,7 @@
 import { ArrowRight, AlertTriangle, Printer } from 'lucide-react';
-import { Link } from 'react-router-dom';
 import type { Answer, ReadinessResult } from '../../content/readiness/score';
 import { describeAnswer, lcFirst } from './format';
+import { AssessmentCta } from '../scalexit/ExitReadinessSection';
 import { MODEL } from '../../content/readiness/model';
 import { areaResults } from '../../content/readiness/areas';
 import { SendResultsForm } from './SendResultsForm';
@@ -54,9 +54,8 @@ export function ResultsPanel({ result, answers }: Props) {
               <p className="font-mono text-sm tracking-widest uppercase text-accent-dark mt-3">{result.rating}</p>
             </div>
             <p className="text-body-lg text-navy-light leading-relaxed max-w-xl">
-              Based on {result.answered} of {MODEL.indicators.length} questions answered. An indicative score on{' '}
-              {MODEL.indicators.length} of the {MODEL.totalMeasures} measures in a paid Exit Readiness Assessment, using
-              your answers only.
+              Based on {result.answered} of {MODEL.indicators.length} questions answered. A quick read from your own
+              answers, covering four of the five areas buyers test.
             </p>
           </div>
 
@@ -67,7 +66,7 @@ export function ResultsPanel({ result, answers }: Props) {
                 label={`${a.name} (${a.weight}% of the score)`}
                 score={a.score}
                 rating={a.rating}
-                note={`${a.answered} of ${a.total} questions answered. The Assessment scores ${a.totalMeasures} measures here.`}
+                note={`${a.answered} of ${a.total} questions answered.`}
               />
             ))}
           </div>
@@ -162,17 +161,13 @@ export function ResultsPanel({ result, answers }: Props) {
               team, and those checks are where most useful findings come from. A buyer&apos;s due diligence will test
               every answer.
             </p>
-            <p className="text-navy-light leading-relaxed">
-              The{' '}
-              <Link to="/services/exit-readiness-assessment/" className="text-navy underline decoration-accent/50 underline-offset-4">
-                Exit Readiness Assessment
-              </Link>{' '}
-              is the verified version: all {MODEL.totalMeasures} measures, tested against your data and interviews with
-              your senior team, with a view on which exit routes are open and an action plan.
+            <p className="text-navy-light leading-relaxed mb-6">
+              This is a short version. A full assessment adds strategic position and growth, puts a value on each gap
+              and comes with an adviser&apos;s review.
             </p>
-            <p className="text-sm text-navy-light leading-relaxed mt-4">
-              Not covered by the free score: {MODEL.otherMeasures.map((o) => lcFirst(o.name)).join(', ')}.
-            </p>
+            <div className="print:hidden">
+              <AssessmentCta />
+            </div>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-14 print:hidden">

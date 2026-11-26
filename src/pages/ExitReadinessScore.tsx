@@ -25,8 +25,8 @@ function Hero() {
       <p className="eyebrow mb-6">Free tool</p>
       <h1 className="font-serif text-display-lg text-white leading-[1.05] mb-6 text-balance">Exit Readiness Score</h1>
       <p className="text-lg md:text-2xl text-accent leading-snug mb-8 max-w-2xl text-balance">
-        {ASKED} questions, about three minutes. An indicative read on how a buyer would see your business, using{' '}
-        {ASKED} of the {MODEL.totalMeasures} measures in our paid Exit Readiness Assessment.
+        {ASKED} questions, about three minutes. A quick read on how a buyer would see your business, covering four of
+        the five areas buyers test.
       </p>
       <p className="flex items-center gap-2 text-sm text-sand-light mb-10">
         <Lock className="h-4 w-4 text-accent" />
@@ -61,7 +61,7 @@ function scoreFaqs() {
     },
     {
       q: 'How accurate is a self-assessed exit readiness score?',
-      a: `It is an indicative read based on your own answers to ${ASKED} of the ${MODEL.totalMeasures} measures we use. The paid Exit Readiness Assessment covers all ${MODEL.totalMeasures} and checks each answer against your accounts, your customer data and interviews with your senior team.`,
+      a: `It is a quick read based on your own answers to ${ASKED} questions, covering four of the five areas buyers test. This is a short version. A full assessment adds strategic position and growth, puts a value on each gap and comes with an adviser's review.`,
     },
     {
       q: 'Who is the Exit Readiness Score for?',
@@ -145,9 +145,9 @@ export default function ExitReadinessScore() {
               <p>
                 Buyers judge an owner-managed business on a fairly consistent set of questions: how much of the
                 profit they can rely on, whether the business runs without the founder and has a team they can back,
-                whether the growth shows up in the numbers, and how cleanly it will get through due diligence. This
-                tool asks {ASKED} of the {MODEL.totalMeasures} questions we use to score those areas: the ones you can
-                answer without looking anything up.
+                whether customers stay and accept price rises, and how cleanly it will get through due diligence. This
+                tool asks {ASKED} of those questions: the ones you can answer without looking anything up. It is a
+                quick read, separate from our full Exit Readiness Assessment.
               </p>
               <p>
                 Each answer is placed in a band (strong, adequate, weak or critical) using thresholds we publish on{' '}
@@ -223,7 +223,7 @@ export default function ExitReadinessScore() {
           {
             to: '/services/exit-readiness-assessment/',
             label: 'Exit Readiness Assessment',
-            description: 'The verified version: all 29 measures, tested against your data and your team.',
+            description: 'The full assessment: five areas, tested against your data and your team.',
           },
           {
             to: '/resources/exit-readiness-scoring/',
