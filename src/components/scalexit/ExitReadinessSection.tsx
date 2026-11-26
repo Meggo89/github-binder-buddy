@@ -34,8 +34,10 @@ function FullAssessment() {
     <div className="er-panel rounded-xl border border-navy/10 bg-white p-6 md:p-10">
       <div className={CARD ? 'grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,28rem)] lg:gap-12 items-start' : ''}>
         <div className={CARD ? '' : 'max-w-3xl'}>
-          <div className="flex items-center gap-4 mb-5">
-            {LOGO && <img src={LOGO} alt="Scalexit" className="h-6 w-auto shrink-0" loading="lazy" />}
+          <div className="flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:gap-4 mb-5">
+            {LOGO && (
+              <img src={LOGO} alt="Scalexit" width={2100} height={400} className="er-logo h-6 w-auto shrink-0" loading="lazy" />
+            )}
             <h3 className="font-serif text-2xl md:text-3xl text-navy leading-tight">The full Exit Readiness Assessment</h3>
           </div>
           <p className="text-body-lg text-navy-light leading-relaxed mb-4">

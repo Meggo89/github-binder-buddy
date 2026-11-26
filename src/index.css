@@ -284,3 +284,5 @@ main .keep-dark :is(.blur-3xl, .blur-2xl) { display: block; }
 .mh .er-dark.er-dark .er-quick { background-color: rgb(250 247 242 / 0.08); }
 .mh .er-dark.er-dark .er-quick a { color: #FAF7F2; text-decoration-color: rgb(255 135 183 / 0.6); }
 .mh .er-dark.er-dark .er-quick a:hover { color: #FF87B7; }
+/* The Scalexit logo is the light-background version (black wordmark), shown unaltered on a paper tile. */
+.mh .er-dark.er-dark .er-logo { box-sizing: content-box; background-color: #FAF7F2; padding: 8px 12px; border-radius: 4px; }
