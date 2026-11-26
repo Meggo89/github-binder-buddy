@@ -1,8 +1,11 @@
-// Scoring for the free Exit Readiness Score. Mirrors boycie/score.py (the Review engine) so a
-// self-assessment on the website and the owner-view score in a paid Review give the same answer
-// for the same inputs. Parity is tested in scripts/readiness-parity.ts.
+// Scoring for the free Exit Readiness Score. Question scoring (bands, thresholds, options) follows
+// boycie/score.py (the Review engine). The overall score is the free score's own: the four areas in
+// free-score.ts at fixed weights, each area the share-weighted average of its answered questions.
+// With every question answered this equals the share-weighted average of all questions. The free
+// score asks one website-only question (MA1), so it no longer matches the Review engine's overall.
 
 import { MODEL } from './model';
+import { FREE_INDICATORS, QUESTION_SHARE, SCORED_AREAS, areaWeightRaw } from './free-score';
 import type { ModuleId, ReadinessIndicator } from './types';
 
 export type Answer = {
@@ -93,7 +96,7 @@ export function scoreAnswers(answers: Answers): ReadinessResult {
   const moduleWeight: Record<string, number> = {};
   MODEL.modules.forEach((m) => (moduleWeight[m.id] = m.weight));
 
-  const indicators: IndicatorResult[] = MODEL.indicators.map((ind) => {
+  const indicators: IndicatorResult[] = FREE_INDICATORS.map((ind) => {
     const a = answers[ind.id];
     const v = answerValue(ind, a);
     const score = v ? scoreValue(ind, v.value, v.option) : null;
@@ -116,9 +119,18 @@ export function scoreAnswers(answers: Answers): ReadinessResult {
     };
   });
 
-  const scoredModules = modules.filter((m) => m.score !== null);
-  const mw = scoredModules.reduce((s, m) => s + m.weight, 0);
-  const overall = mw ? round1(scoredModules.reduce((s, m) => s + (m.score as number) * m.weight, 0) / mw) : null;
+  // Overall: the areas with at least one answer, weighted by area weight.
+  let aw = 0;
+  let asum = 0;
+  for (const area of SCORED_AREAS) {
+    const scored = indicators.filter((r) => area.indicators.includes(r.indicator.id) && r.score !== null);
+    const w = scored.reduce((s, r) => s + QUESTION_SHARE[r.indicator.id], 0);
+    if (!w) continue;
+    const sc = scored.reduce((s, r) => s + QUESTION_SHARE[r.indicator.id] * (to100(r.score) as number), 0) / w;
+    aw += areaWeightRaw(area);
+    asum += areaWeightRaw(area) * sc;
+  }
+  const overall = aw ? round1(asum / aw) : null;
 
   const cost = (r: IndicatorResult) => r.indicator.weight * moduleWeight[r.indicator.module] * (4 - (r.score as number));
   const gaps = indicators

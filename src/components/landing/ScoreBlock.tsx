@@ -20,7 +20,7 @@ export function ScoreBlock({
               See how a buyer would score your business.
             </h2>
             <p className="text-navy-light leading-relaxed mb-8 max-w-2xl mx-auto">
-              The free Exit Readiness Score asks 11 of the questions buyers test and shows where your business is
+              The free Exit Readiness Score asks 12 of the questions buyers test and shows where your business is
               strong and where it would lose value. About three minutes, no sign-up.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
