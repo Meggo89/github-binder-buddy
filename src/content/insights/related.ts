@@ -32,6 +32,10 @@ export const INSIGHT_LINKS: Record<string, InsightLinks> = {
     pillarSlug: 'healthcare-services',
     related: ['education-training-ma-2026', 'healthcare-services-ma-2026', 'care-complex-care-ma-2026'],
   },
+  'education-training-ma-2026': {
+    pillarSlug: 'business-services',
+    related: ['nurseries-childcare-ma-2026', 'care-complex-care-ma-2026', 'healthcare-services-ma-2026'],
+  },
   'waste-environmental-services-ma-2026': {
     pillarSlug: 'business-services',
     related: ['facilities-management-cleaning-ma-2026', 'building-services-compliance-ma-2026', 'logistics-distribution-ma-2026'],
