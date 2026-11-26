@@ -268,8 +268,9 @@ main .keep-dark :is(.blur-3xl, .blur-2xl) { display: block; }
 .mh .bg-navy\/10 { background-color: var(--mh-line); }
 .mh .bg-navy:not(a) { background-color: var(--mh-text); }
 .mh .bg-accent:not(a) { background-color: var(--mh-accent); }
-/* Mastella grey: small labels, the How we work band and the example bars. */
+/* Mastella grey: small labels, the How we work band and the free score panel. */
 .mh .font-mono:is(.text-accent, .text-accent-dark, .text-bronze) { color: var(--mh-grey-text); }
 /* Class repeated on purpose: the minifier merges the .mh :is() rules above into higher-specificity selectors. */
 .mh section.mh-band.mh-band { background-color: var(--mh-grey-band); }
-.mh [aria-label="Example result"] .bg-navy:not(a) { background-color: var(--mh-grey); }
+.mh .er-quick.er-quick { background-color: var(--mh-grey-band); }
+.mh .er-quick a { text-decoration-color: rgb(150 80 109 / 0.5); }

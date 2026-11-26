@@ -10,9 +10,8 @@ import { articles } from '../content/insights';
 import { HOME_EVIDENCE, REPORT_EVIDENCE } from '../content/evidence';
 import leoMeggitt from '../assets/leo-meggitt.jpg';
 import { SECTORS } from '../content/landing';
-import { ScoreBlock } from '../components/landing/ScoreBlock';
 import { CtaSection } from '../components/landing/CtaSection';
-import { ExitPreparationBlock } from '../components/scalexit/ExitPreparationBlock';
+import { ExitReadinessSection } from '../components/scalexit/ExitReadinessSection';
 import { HOME_RECENT_WORK } from '../content/case-studies';
 
 // What buyers paid: published and derived prices from our own sector reports (first three rows).
@@ -102,7 +101,7 @@ function Hero() {
           onClick={() => trackCTA('Free Exit Readiness Score', 'hero')}
           className="text-[#1F2226] underline decoration-[#96506D]/50 underline-offset-4 hover:text-[#96506D] transition-colors"
         >
-          Or see how a buyer would score your business
+          Or try the free three-minute score
         </Link>
       </div>
       <p className="mt-10 text-sm text-[#4A4E54]">15 years in M&amp;A. Over £800m of transactions advised on.</p>
@@ -342,7 +341,7 @@ export default function Home() {
 
       <BuyersPaid />
 
-      <ScoreBlock eyebrow="Free Exit Readiness Score" extra={<ExitPreparationBlock />} />
+      <ExitReadinessSection />
 
       <Services />
 

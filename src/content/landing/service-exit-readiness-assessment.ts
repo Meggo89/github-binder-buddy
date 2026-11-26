@@ -1,8 +1,8 @@
 import type { ServiceLanding } from "./types";
 
-// The productised, fixed-fee entry point to Mastella's exit readiness work. It scores all 29
-// measures in the Review engine; the free Exit Readiness Score (src/content/readiness/model.ts)
-// asks 11 of them.
+// The productised, fixed-fee entry point to Mastella's exit readiness work. Full assessments run on
+// Scalexit and score five areas. The free Exit Readiness Score (src/content/readiness/model.ts) is
+// separate: 11 questions covering four of the five areas, and it does not run on Scalexit.
 //
 // FEES: no price is published by choice; the fee is quoted on a call. If that changes, set
 // `offer.priceFrom` (which also adds the price to the structured data) and update public/llms.txt.
@@ -67,7 +67,7 @@ export const EXIT_READINESS_ASSESSMENT: ServiceLanding = {
     },
     {
       q: "What does an exit readiness assessment measure?",
-      a: "Four areas: financial health (25% of the score), operational maturity (45%), strategic position and growth (15%) and diligence readiness (15%), made up of 29 individual measures such as the share of revenue held by the founder personally, the largest customer's share of revenue, add-backs as a share of EBITDA and how long month-end close takes. We also record your objectives on timing, proceeds and your role after a deal, and test them against what the business can support.",
+      a: "Five areas: financial health, operational maturity, strategic position and growth, market attractiveness and diligence readiness, made up of 29 individual measures such as the share of revenue held by the founder personally, the largest customer's share of revenue, add-backs as a share of EBITDA and how long month-end close takes. We also record your objectives on timing, proceeds and your role after a deal, and test them against what the business can support.",
     },
     {
       q: "What is the difference between an exit readiness assessment and a business valuation?",
@@ -79,7 +79,7 @@ export const EXIT_READINESS_ASSESSMENT: ServiceLanding = {
     },
     {
       q: "Can I do an exit readiness assessment myself?",
-      a: "You can get a first read with our free online Exit Readiness Score, which asks 11 of the 29 questions, uses the same scoring bands and takes about three minutes. It scores your own answers. The paid Assessment covers all 29 measures and checks each answer against your data and your team, which is where most of the useful findings come from.",
+      a: "You can get a quick read with our free online Exit Readiness Score. It is separate from the Assessment: eleven of the questions buyers test, covering four of the five areas, in about three minutes. It scores your own answers. The full Assessment adds strategic position and growth, puts a value on each gap, checks each answer against your data and your team, and comes with an adviser's review.",
     },
     {
       q: "When is the right time for an exit readiness assessment?",
@@ -91,9 +91,9 @@ export const EXIT_READINESS_ASSESSMENT: ServiceLanding = {
       heading: "What does the Exit Readiness Assessment measure?",
       cover: [],
       body: [
-        "The score is built from 29 measures in four areas. Financial health carries 25% of the score: contracted or recurring revenue, the largest customer and the top five as a share of revenue, margin stability over three years, add-backs as a share of EBITDA, and cash conversion. Operational maturity carries 45%: the share of revenue from customers who deal mainly with the founder, the decisions only the founder takes, what happened the last time the founder was away, knowledge that sits only in the founder's head, personal guarantees or licences in the founder's name, whether there is a named successor, who runs sales, operations, finance and people, how strong the finance function is, and whether key managers are tied in.",
-        "Strategic position and growth carries 15%: customer revenue retention, revenue growth, pricing, pipeline records and how close the last two budgets came to actual results. Diligence readiness carries 15%: month-end close, the monthly management pack, revenue under written contract, employment records, IP ownership and open legal and tax items.",
-        "The thresholds for the core measures, with what counts as strong, adequate, weak and critical on each, are published on [how we score exit readiness](/resources/exit-readiness-scoring/).",
+        "The score is built from 29 measures in five areas: financial health, operational maturity, strategic position and growth, market attractiveness and diligence readiness. The measures include contracted or recurring revenue, the largest customer and the top five as a share of revenue, margin stability over three years, add-backs as a share of EBITDA, cash conversion, the share of revenue from customers who deal mainly with the founder, the decisions only the founder takes, what happened the last time the founder was away, knowledge that sits only in the founder's head, personal guarantees or licences in the founder's name, whether there is a named successor, who runs sales, operations, finance and people, how strong the finance function is, and whether key managers are tied in.",
+        "They also include customer revenue retention, revenue growth, pricing, pipeline records, how close the last two budgets came to actual results, month-end close, the monthly management pack, revenue under written contract, employment records, IP ownership and open legal and tax items.",
+        "The free [Exit Readiness Score](/exit-readiness-score/) is separate and shorter. Its thresholds are published on [how we score exit readiness](/resources/exit-readiness-scoring/).",
       ],
     },
     {
@@ -117,7 +117,7 @@ export const EXIT_READINESS_ASSESSMENT: ServiceLanding = {
       cover: [],
       body: [
         "After the Assessment you carry out some actions with your own team, accountant and lawyer, and Mastella does others. Mastella's work includes recruiting a successor managing director or a finance director through our [executive search](/executive-search/) team, building a delegated authority schedule, putting a management incentive plan in place, or preparing for a sale when the time is right. The Assessment fee is credited against that work if you instruct us within 12 months.",
-        "If you would like a first read before speaking to anyone, the free [Exit Readiness Score](/exit-readiness-score/) asks 11 of the 29 questions and takes about three minutes.",
+        "If you would like a quick read before speaking to anyone, the free [Exit Readiness Score](/exit-readiness-score/) asks eleven of the questions buyers test and takes about three minutes. It is separate from the Assessment and gives a quick read, not a full assessment.",
       ],
     },
   ],

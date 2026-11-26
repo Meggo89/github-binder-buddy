@@ -108,7 +108,7 @@ export type ServiceStep = { title: string; detail: string };
 
 export type ServiceLanding = {
   slug: string;
-  // Show the exit preparation (Scalexit) block after the intro.
+  // Show the exit readiness section (full Assessment, then the free score) after the intro.
   exitPreparationBlock?: boolean;
   name: string;
   title: string;

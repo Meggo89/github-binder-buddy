@@ -6,7 +6,7 @@ import { PageLayout } from '../components/layout';
 import { AuthorityLine } from '../components/landing/AuthorityLine';
 import { FaqSection } from '../components/landing/FaqSection';
 import { MODEL } from '../content/readiness/model';
-import { SCORED_AREAS, areaIndicators, areaOtherMeasures, areaPurpose, areaTotalMeasures, areaWeight } from '../content/readiness/areas';
+import { SCORED_AREAS, areaIndicators, areaPurpose, areaWeight } from '../content/readiness/areas';
 import type { ReadinessIndicator } from '../content/readiness/types';
 import { SCORING_PAGE } from '../content/readiness/meta';
 import { lcFirst } from '../components/readiness/format';
@@ -164,15 +164,15 @@ export default function ExitReadinessScoring() {
                 This is the scoring model behind our free{' '}
                 <Link to="/exit-readiness-score/" className="text-navy underline decoration-accent/40 underline-offset-4">
                   Exit Readiness Score
-                </Link>{' '}
-                and our paid{' '}
+                </Link>
+                . We publish the structure, and the thresholds for the {MODEL.indicators.length} measures it uses, so
+                owners can see what they are measured against. The free score covers four of the five areas buyers
+                test. Our full{' '}
                 <Link to="/services/exit-readiness-assessment/" className="text-navy underline decoration-accent/40 underline-offset-4">
                   Exit Readiness Assessment
-                </Link>
-                . We publish the structure, and the thresholds for the {MODEL.indicators.length} core measures the free
-                score uses, so owners can see what they are measured against. The Assessment scores{' '}
-                {MODEL.otherMeasures.length} more, named under each area below. A buyer&apos;s due diligence asks the
-                same questions, usually with less warning.
+                </Link>{' '}
+                is separate: it adds strategic position and growth, puts a value on each gap and comes with an
+                adviser&apos;s review. A buyer&apos;s due diligence asks the same questions, usually with less warning.
               </p>
             </div>
 
@@ -193,9 +193,8 @@ export default function ExitReadinessScoring() {
                 reported separately from the average, because it can change the structure of a deal on its own.
               </p>
               <p>
-                The free score uses the owner&apos;s own answers. In the paid Assessment the same measures are
-                calculated from the business&apos;s data where possible and tested in interviews with the senior team,
-                and each is marked as verified, owner&apos;s view only, or missing.
+                The free score uses the owner&apos;s own answers. Nothing is checked against the business&apos;s data or
+                its team.
               </p>
             </div>
             <div className="overflow-x-auto mb-16">
@@ -204,8 +203,7 @@ export default function ExitReadinessScoring() {
                   <tr className="text-xs font-mono uppercase tracking-widest text-navy-light">
                     <th className="px-3 py-2">Area</th>
                     <th className="px-3 py-2">Weight</th>
-                    <th className="px-3 py-2">Measures scored</th>
-                    <th className="px-3 py-2">In the free score</th>
+                    <th className="px-3 py-2">Questions</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -213,7 +211,6 @@ export default function ExitReadinessScoring() {
                     <tr key={a.id}>
                       <td className="px-3 py-3 border-t border-navy/10 text-navy font-medium">{a.name}</td>
                       <td className="px-3 py-3 border-t border-navy/10 text-navy">{areaWeight(a)}%</td>
-                      <td className="px-3 py-3 border-t border-navy/10 text-navy">{areaTotalMeasures(a)}</td>
                       <td className="px-3 py-3 border-t border-navy/10 text-navy">{areaIndicators(a).length}</td>
                     </tr>
                   ))}
@@ -223,7 +220,6 @@ export default function ExitReadinessScoring() {
 
             {SCORED_AREAS.map((a) => {
               const inds = areaIndicators(a);
-              const others = areaOtherMeasures(a);
               return (
                 <section key={a.id} className="pt-12 pb-4 border-t border-navy/10">
                   <p className="font-mono text-xs text-accent-dark tracking-widest uppercase mb-2">
@@ -234,12 +230,6 @@ export default function ExitReadinessScoring() {
                     <p key={p} className="max-w-3xl text-body-lg text-navy-light leading-relaxed mb-8">{p}</p>
                   ))}
                   <BandTable indicators={inds} />
-                  {others.length > 0 && (
-                    <p className="max-w-3xl text-sm text-navy-light leading-relaxed mb-4">
-                      <span className="font-medium text-navy">Also scored in the Assessment: </span>
-                      {others.map((o) => lc(o.name)).join(', ')}.
-                    </p>
-                  )}
                   <h3 className="font-serif text-2xl text-navy leading-snug mt-10 mb-5">
                     What buyers do when the core measures are weak
                   </h3>
@@ -263,7 +253,7 @@ export default function ExitReadinessScoring() {
             <div className="rounded-xl bg-navy-deepest text-white p-8 md:p-10 mt-8">
               <h2 className="font-serif text-3xl leading-tight mb-4 text-balance">See where your business sits</h2>
               <p className="text-sand-light leading-relaxed mb-8 max-w-2xl">
-                The free Exit Readiness Score asks the {MODEL.indicators.length} core questions and scores your answers on
+                The free Exit Readiness Score asks these {MODEL.indicators.length} questions and scores your answers on
                 these thresholds. About three minutes, no sign-up.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -278,7 +268,7 @@ export default function ExitReadinessScoring() {
                   to="/services/exit-readiness-assessment/"
                   className="inline-flex items-center gap-2 text-sand-light underline decoration-accent/50 underline-offset-4 hover:text-white self-start py-3"
                 >
-                  About the verified Assessment
+                  About the full assessment
                   <ArrowRight className="h-4 w-4" />
                 </Link>
               </div>

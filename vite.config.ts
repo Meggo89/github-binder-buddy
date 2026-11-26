@@ -3,16 +3,18 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 import fs from 'fs';
 
-// Scalexit logo: used by the exit preparation block when Leo adds the file to public/images/.
-// The block shows no logo until then. SVG is preferred over PNG.
-const scalexitLogo = ['svg', 'png']
-  .map((ext) => `/images/scalexit-logo.${ext}`)
-  .find((p) => fs.existsSync(path.resolve(__dirname, 'public' + p))) ?? '';
+// Scalexit files supplied by Leo, picked up from public/images/ when present (SVG preferred).
+// The exit readiness section shows nothing in their place until they are added.
+const firstFile = (name: string, exts: string[]) =>
+  exts.map((ext) => `/images/${name}.${ext}`).find((p) => fs.existsSync(path.resolve(__dirname, 'public' + p))) ?? '';
+const scalexitLogo = firstFile('scalexit-logo', ['svg', 'png']);
+const scalexitCard = firstFile('scalexit-card', ['svg', 'png', 'webp', 'jpg']);
 
 export default defineConfig(({ isSsrBuild }) => ({
   plugins: [react()],
   define: {
     __SCALEXIT_LOGO__: JSON.stringify(scalexitLogo),
+    __SCALEXIT_CARD__: JSON.stringify(scalexitCard),
   },
   resolve: {
     alias: {
