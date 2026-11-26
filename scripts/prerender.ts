@@ -13,6 +13,7 @@ import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { ROUTES, SITE, fullTitle, canonicalFor, type RouteMeta } from '../src/seo/site-meta';
 import { articles } from '../src/content/insights';
+import { markdownPathFor } from '../src/seo/markdown';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST = path.resolve(__dirname, '..', 'dist');
@@ -57,6 +58,14 @@ function patchHead(shell: string, m: PatchInput): string {
     /<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/,
     `<link rel="canonical" href="${escapeAttr(canonical)}" />`
   );
+  // Markdown alternate, marked data-rh so Helmet adopts it on hydration rather than adding a second.
+  const markdownPath = markdownPathFor(m.path);
+  if (markdownPath) {
+    h = h.replace(
+      /(<link\s+rel="canonical"[^>]*>)/,
+      `$1\n    <link data-rh="true" rel="alternate" type="text/markdown" href="${escapeAttr(SITE.domain + markdownPath)}" />`
+    );
+  }
 
   // Open Graph
   h = h.replace(

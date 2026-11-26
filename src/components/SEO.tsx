@@ -1,5 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import { SITE, fullTitle } from '../seo/site-meta';
+import { markdownPathFor } from '../seo/markdown';
 
 interface SEOProps {
   title?: string;
@@ -23,6 +24,7 @@ export function SEO({
   author = SITE.name,
 }: SEOProps) {
   const siteTitle = exactTitle ? title : fullTitle(title);
+  const markdownPath = markdownPathFor(canonical);
 
   return (
     <Helmet>
@@ -30,6 +32,7 @@ export function SEO({
       <title>{siteTitle}</title>
       <meta name="description" content={description} />
       <link rel="canonical" href={canonical} />
+      {markdownPath && <link rel="alternate" type="text/markdown" href={`${SITE.domain}${markdownPath}`} />}
 
       {/* Open Graph */}
       <meta property="og:title" content={siteTitle} />
