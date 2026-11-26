@@ -1,6 +1,6 @@
 # Exit Readiness Checklist
 
-**Twelve questions every UK owner should answer before starting an M&A process.**
+**The questions every UK owner should answer before starting an M&A process.**
 
 Mastella Advisory · Confidential exit and capital advisory for founder-led businesses worth £5M to £50M.
 
