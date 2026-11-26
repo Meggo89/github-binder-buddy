@@ -44,14 +44,14 @@ function MobileNav({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }
         role="dialog"
         aria-label="Navigation menu"
         aria-modal="true"
-        className={`keep-dark fixed inset-y-0 right-0 w-full max-w-sm bg-navy-deepest z-50 transform transition-transform duration-300 ease-out ${
+        className={`keep-dark fixed inset-y-0 right-0 w-full max-w-sm bg-[#1F2226] z-50 transform transition-transform duration-300 ease-out ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
         <div className="flex justify-end p-6">
           <button
             onClick={onClose}
-            className="text-white hover:text-accent transition p-2 -mr-2"
+            className="text-[#FAF7F2] hover:text-[#FF87B7] transition p-2 -mr-2"
             aria-label="Close menu"
           >
             <X className="h-6 w-6" />
@@ -62,7 +62,7 @@ function MobileNav({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }
             <div key={link.to} className="flex flex-col items-center space-y-3">
               <Link
                 to={link.to}
-                className="text-white text-xl font-serif hover:text-accent transition-colors duration-200"
+                className="text-[#FAF7F2] text-xl font-serif hover:text-[#FF87B7] transition-colors duration-200"
                 onClick={onClose}
               >
                 {link.label}
@@ -71,7 +71,7 @@ function MobileNav({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }
                 <Link
                   key={c.to}
                   to={c.to}
-                  className="text-sand-light text-base hover:text-accent transition-colors duration-200"
+                  className="text-[#FAF7F2]/75 text-base hover:text-[#FF87B7] transition-colors duration-200"
                   onClick={onClose}
                 >
                   {c.label}
@@ -82,7 +82,7 @@ function MobileNav({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }
           <div className="pt-4 w-full">
             <Link
               to="/contact/"
-              className="block w-full text-center bg-accent text-navy-deepest px-6 py-3 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-all duration-200"
+              className="block w-full text-center bg-[#B42D63] text-[#FFFFFF] px-6 py-3 rounded-[4px] font-medium hover:bg-[#9E2756] transition-colors"
               onClick={onClose}
             >
               {CTA_LABEL}
@@ -114,7 +114,7 @@ export function Navigation() {
             const active =
               path === link.to.replace(/\/$/, '') || (link.children ?? []).some((c) => path === c.to.replace(/\/$/, ''));
             const cls = `text-sm tracking-wide whitespace-nowrap transition-colors ${
-              active ? 'text-accent' : 'text-sand-light hover:text-white'
+              active ? 'text-[#B42D63]' : 'text-[#1F2226] hover:text-[#B42D63]'
             }`;
             if (!link.children) {
               return (
@@ -131,12 +131,12 @@ export function Navigation() {
                   <ChevronDown className="h-3.5 w-3.5" aria-hidden="true" />
                 </Link>
                 <div className="absolute left-1/2 -translate-x-1/2 top-full pt-3 hidden group-hover:block group-focus-within:block min-w-[10rem]">
-                  <ul className="rounded-lg border border-navy/10 bg-white shadow-lg py-2">
+                  <ul className="rounded-[6px] border border-[#E6E0D6] bg-[#FFFFFF] py-2">
                     {link.children.map((c) => (
                       <li key={c.to}>
                         <Link
                           to={c.to}
-                          className="block px-4 py-2 text-sm text-navy hover:bg-sand-light hover:text-accent-dark transition-colors"
+                          className="block px-4 py-2 text-sm text-[#1F2226] hover:bg-[#FAF7F2] hover:text-[#B42D63] transition-colors"
                         >
                           {c.label}
                         </Link>
@@ -150,14 +150,14 @@ export function Navigation() {
           {!onContactPage && (
             <Link
               to="/contact/"
-              className="bg-accent text-navy-deepest px-5 py-2.5 rounded-md text-sm font-semibold tracking-wide whitespace-nowrap hover:bg-accent-light transition-colors"
+              className="bg-[#B42D63] text-[#FFFFFF] px-5 py-2.5 rounded-[4px] text-sm font-medium whitespace-nowrap hover:bg-[#9E2756] transition-colors"
             >
               {CTA_LABEL}
             </Link>
           )}
         </div>
         <button
-          className="lg:hidden text-white hover:text-accent transition-colors"
+          className="lg:hidden text-[#1F2226] hover:text-[#B42D63] transition-colors"
           onClick={() => setIsMobileMenuOpen(true)}
           aria-label="Open menu"
         >

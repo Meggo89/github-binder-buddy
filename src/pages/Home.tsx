@@ -24,11 +24,11 @@ function BuyersPaid() {
       <div className="container mx-auto px-6">
         <div className="max-w-2xl mx-auto">
     <aside
-      className="relative overflow-hidden rounded-2xl border-t-4 border-[#FF87B7] bg-[#0A2647] text-[#F2EDE4] shadow-2xl shadow-[#0A2647]/20"
+      className="relative overflow-hidden rounded-[8px] border border-[#E6E0D6] border-t-2 border-t-[#B42D63] bg-[#FFFFFF] text-[#1F2226]"
       aria-labelledby="hero-ledger-heading"
     >
       {/* The five rising bars of the logo, as a quiet watermark. */}
-      <svg className="absolute -right-6 -top-4 h-40 w-40 opacity-[0.07]" viewBox="0 0 100 100" fill="#F2EDE4" aria-hidden="true">
+      <svg className="absolute -right-6 -top-4 h-40 w-40 opacity-[0.04]" viewBox="0 0 100 100" fill="#1F2226" aria-hidden="true">
         {[[8, 44], [27, 30], [46, 16], [65, 30], [84, 44]].map(([x, y]) => (
           <g key={x}>
             <polygon points={`${x - 5},${y + 10} ${x + 4},${y} ${x + 13},${y + 10}`} />
@@ -37,35 +37,35 @@ function BuyersPaid() {
         ))}
       </svg>
       <div className="relative p-6 md:p-8">
-        <p className="font-mono text-[0.75rem] uppercase tracking-[0.14em] text-[#D4B545] mb-2">From our deal log</p>
-        <h2 id="hero-ledger-heading" className="font-serif text-2xl md:text-[1.75rem] leading-tight text-balance text-[#FFFFFF] mb-6">
+        <p className="text-[0.75rem] uppercase tracking-[0.08em] text-[#B42D63] mb-2">From our deal log</p>
+        <h2 id="hero-ledger-heading" className="font-serif text-2xl md:text-[1.75rem] leading-tight text-balance text-[#1F2226] mb-6">
           What buyers paid, 2024 to 2026
         </h2>
-        <ul className="border-t border-[#F2EDE4]/15">
+        <ul className="border-t border-[#E6E0D6]">
           {rows.map((r) => (
-            <li key={r.slug} className="border-b border-[#F2EDE4]/15">
+            <li key={r.slug} className="border-b border-[#E6E0D6]">
               <Link
                 to={`/insights/${r.slug}/`}
                 onClick={() => trackCTA(`What buyers paid: ${r.sector}`, 'home')}
-                className="group block py-3.5 -mx-2 px-2 rounded-md hover:bg-[#F2EDE4]/[0.06] transition-colors"
+                className="group block py-3.5 -mx-2 px-2 rounded-md hover:bg-[#FAF7F2] transition-colors"
               >
                 <span className="flex items-baseline justify-between gap-4">
-                  <span className="font-medium text-[#FFFFFF] group-hover:text-[#D4B545] transition-colors">{r.sector}</span>
-                  <span className="font-serif text-2xl leading-none text-[#D4B545] tabular-nums whitespace-nowrap">{r.multiple}</span>
+                  <span className="font-medium text-[#1F2226] group-hover:text-[#B42D63] transition-colors">{r.sector}</span>
+                  <span className="font-serif text-2xl leading-none text-[#B42D63] tabular-nums whitespace-nowrap">{r.multiple}</span>
                 </span>
-                <span className="block text-[0.8125rem] leading-snug text-[#F2EDE4]/70 mt-1.5">
+                <span className="block text-[0.8125rem] leading-snug text-[#4A4E54] mt-1.5">
                   {r.basis} · {r.deals} deals logged
                 </span>
               </Link>
             </li>
           ))}
         </ul>
-        <p className="text-[0.8125rem] leading-relaxed text-[#F2EDE4]/70 mt-5">
+        <p className="text-[0.8125rem] leading-relaxed text-[#4A4E54] mt-5">
           Each figure is published or derived, and its report shows the source.
         </p>
         <Link
           to="/insights/sector-reports/"
-          className="inline-flex items-center gap-2 mt-4 text-sm font-medium text-[#FFFFFF] hover:text-[#D4B545] transition-colors"
+          className="inline-flex items-center gap-2 mt-4 text-sm font-medium text-[#1F2226] hover:text-[#B42D63] transition-colors"
         >
           All {reportCount} sector reports
           <ArrowRight className="h-4 w-4" aria-hidden="true" />
@@ -81,10 +81,10 @@ function BuyersPaid() {
 function Hero() {
   return (
     <div className="max-w-3xl">
-      <h1 className="font-serif text-display-lg text-white mb-8 text-balance leading-[1.08]">
+      <h1 className="font-serif text-[2.5rem] md:text-[3.5rem] text-[#1F2226] mb-8 text-balance leading-[1.1] tracking-tight">
         Selling your business, led by a senior adviser from first conversation to completion.
       </h1>
-      <p className="text-body-lg md:text-xl text-sand-light max-w-2xl mb-10 leading-relaxed">
+      <p className="text-lg md:text-xl text-[#4A4E54] max-w-2xl mb-10 leading-relaxed">
         Mastella advises owners of UK businesses worth £5m to £50m on sales, management buyouts and raising capital,
         in confidence from day one.
       </p>
@@ -92,20 +92,19 @@ function Hero() {
         <Link
           to="/contact/"
           onClick={() => trackCTA('Arrange a confidential conversation', 'hero')}
-          className="inline-flex items-center justify-center gap-2 bg-accent text-navy-deepest px-7 py-3.5 rounded-md font-semibold tracking-wide hover:bg-accent-light transition-colors"
+          className="inline-flex items-center justify-center bg-[#B42D63] text-[#FFFFFF] px-6 py-3 rounded-[4px] font-medium hover:bg-[#9E2756] transition-colors"
         >
           Arrange a confidential conversation
-          <ArrowRight className="h-4 w-4" aria-hidden="true" />
         </Link>
         <Link
           to="/exit-readiness-score/"
           onClick={() => trackCTA('Free Exit Readiness Score', 'hero')}
-          className="text-navy underline decoration-accent/60 underline-offset-4 hover:text-accent-dark transition-colors"
+          className="text-[#1F2226] underline decoration-[#B42D63]/50 underline-offset-4 hover:text-[#B42D63] transition-colors"
         >
           Or see how a buyer would score your business
         </Link>
       </div>
-      <p className="mt-10 text-sm text-navy-light">15 years in M&amp;A. Over £800m of transactions advised on.</p>
+      <p className="mt-10 text-sm text-[#4A4E54]">15 years in M&amp;A. Over £800m of transactions advised on.</p>
     </div>
   );
 }
@@ -123,7 +122,6 @@ function HowWeWork() {
     <section className="bg-sand-light py-24 md:py-32 border-t border-navy/5" aria-labelledby="how-we-work-heading">
       <div className="container mx-auto px-6">
         <div className="max-w-3xl">
-          <p className="eyebrow text-navy-light mb-6">How we work</p>
           <h2 id="how-we-work-heading" className="font-serif text-display-md text-navy leading-tight mb-12 text-balance">
             Four steps, one adviser throughout.
           </h2>
@@ -186,7 +184,6 @@ function Services() {
     <section className="bg-white py-24 md:py-32 border-t border-navy/5" aria-labelledby="services-heading">
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mb-12">
-          <p className="eyebrow text-navy-light mb-6">Services</p>
           <h2 id="services-heading" className="font-serif text-display-md text-navy leading-tight text-balance">
             What we do.
           </h2>
@@ -258,7 +255,6 @@ function RecentWork() {
       <div className="container mx-auto px-6">
         <FadeIn>
           <div className="max-w-3xl mb-12">
-            <p className="eyebrow text-navy-light mb-6">Our work</p>
             <h2 className="font-serif text-display-md text-navy leading-tight text-balance">Recent work</h2>
           </div>
         </FadeIn>
@@ -269,7 +265,7 @@ function RecentWork() {
                 to="/case-studies/"
                 className="group flex flex-col h-full rounded-xl border border-navy/10 bg-white p-7 hover:border-accent/40 hover:shadow-lg transition-all"
               >
-                <span className="self-start bg-navy text-white px-3 py-1 rounded-full text-xs font-mono tracking-widest uppercase mb-5">
+                <span className="self-start text-xs font-mono tracking-widest uppercase text-accent-dark mb-4">
                   {study.tag}
                 </span>
                 <h3 className="font-serif text-xl text-navy leading-snug mb-1 group-hover:text-accent-dark transition-colors">
@@ -330,7 +326,7 @@ export default function Home() {
   useScrollTracking();
 
   return (
-    <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
+    <PageLayout hero={<Hero />} heroTone="solid" mainClassName="mh">
       <SEO
         title="Off-market M&A for founder-led companies"
         description="Off-market M&A for founder-led businesses worth £5M to £50M. We find buyers other advisers don't reach. Confidential sell-side, fundraising and exit readiness."
