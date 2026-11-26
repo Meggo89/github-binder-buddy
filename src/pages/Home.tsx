@@ -12,6 +12,7 @@ import leoMeggitt from '../assets/leo-meggitt.jpg';
 import { SECTORS } from '../content/landing';
 import { ScoreBlock } from '../components/landing/ScoreBlock';
 import { CtaSection } from '../components/landing/CtaSection';
+import { ScalexitNote } from '../components/scalexit/ScalexitNote';
 import { HOME_RECENT_WORK } from '../content/case-studies';
 
 // What buyers paid: published and derived prices from our own sector reports (first three rows).
@@ -151,7 +152,7 @@ function HowWeWork() {
 }
 
 // Three service groups. Each lists the existing service pages it covers.
-const SERVICE_GROUPS = [
+const SERVICE_GROUPS: { title: string; body: string; scalexit?: boolean; links: { to: string; label: string }[] }[] = [
   {
     title: 'Selling your business',
     body: 'A full sale process for owners of businesses worth £5m to £50m, from preparation to completion.',
@@ -172,6 +173,7 @@ const SERVICE_GROUPS = [
   {
     title: 'Preparing for a sale',
     body: 'Readiness work for owners 12 to 24 months before a sale.',
+    scalexit: true,
     links: [
       { to: '/services/exit-planning-advisor-uk/', label: 'Exit planning' },
       { to: '/services/exit-readiness-assessment/', label: 'Exit Readiness Assessment' },
@@ -193,6 +195,7 @@ function Services() {
             <div key={g.title} className="flex flex-col rounded-xl border border-navy/10 bg-white p-7">
               <h3 className="font-serif text-xl text-navy leading-snug mb-3">{g.title}</h3>
               <p className="text-sm text-navy-light leading-relaxed mb-6">{g.body}</p>
+              {g.scalexit && <ScalexitNote compact className="mb-6" />}
               <ul className="mt-auto space-y-2 text-sm">
                 {g.links.map((l) => (
                   <li key={l.to}>
@@ -341,7 +344,7 @@ export default function Home() {
 
       <BuyersPaid />
 
-      <ScoreBlock eyebrow="Free Exit Readiness Score" />
+      <ScoreBlock eyebrow="Free Exit Readiness Score" note={<ScalexitNote />} />
 
       <Services />
 

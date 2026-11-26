@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react';
 import { ArrowRight, Download, Gauge } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { FadeIn } from '../ui/motion';
@@ -41,7 +42,15 @@ function SampleResult() {
 // The Exit Readiness Score block: headline, one line and a button to /exit-readiness-score/.
 // Used on the home page, every sector and niche page (via LeadMagnetCta, which adds the checklist
 // download) and every insight article, so the offer reads the same wherever an owner meets it.
-export function ScoreBlock({ showChecklist = false, eyebrow = 'Not ready to talk yet?' }: { showChecklist?: boolean; eyebrow?: string }) {
+export function ScoreBlock({
+  showChecklist = false,
+  eyebrow = 'Not ready to talk yet?',
+  note,
+}: {
+  showChecklist?: boolean;
+  eyebrow?: string;
+  note?: ReactNode;
+}) {
   return (
     <section className="bg-sand-light py-16 md:py-20 border-t border-navy/10">
       <div className="container mx-auto px-6">
@@ -75,6 +84,7 @@ export function ScoreBlock({ showChecklist = false, eyebrow = 'Not ready to talk
                 </Link>
               )}
             </div>
+            {note && <div className="mt-10 text-left">{note}</div>}
             </div>
             <SampleResult />
           </div>

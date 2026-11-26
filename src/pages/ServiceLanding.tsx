@@ -11,6 +11,7 @@ import { FaqSection } from '../components/landing/FaqSection';
 import { LeadMagnetCta } from '../components/landing/LeadMagnetCta';
 import { ProofBand } from '../components/landing/ProofBand';
 import { RelatedLinks } from '../components/landing/RelatedLinks';
+import { ScalexitNote } from '../components/scalexit/ScalexitNote';
 import { getServiceLanding } from '../content/landing';
 import type { ServiceOffer, ServiceStep } from '../content/landing';
 import { SITE, canonicalFor } from '../seo/site-meta';
@@ -159,6 +160,8 @@ export default function ServiceLandingPage() {
               <AuthorityLine />
               <p className="text-body-lg text-navy-light leading-relaxed mb-8">{service.intro}</p>
             </FadeIn>
+
+            {service.scalexitNote && <ScalexitNote className="mb-10 max-w-2xl" />}
 
             {service.offer && <OfferBox offer={service.offer} />}
             {service.steps && <Steps steps={service.steps} />}

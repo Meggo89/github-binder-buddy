@@ -108,6 +108,8 @@ export type ServiceStep = { title: string; detail: string };
 
 export type ServiceLanding = {
   slug: string;
+  // Show the Scalexit note after the intro (exit planning only).
+  scalexitNote?: boolean;
   name: string;
   title: string;
   metaDescription: string;
