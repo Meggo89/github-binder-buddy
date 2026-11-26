@@ -60,43 +60,43 @@ Senior-led throughout, with the Managing Director on every call. Off-market buye
 
 ## Sector reports
 
-UK sector M&A reports 2026, by Mastella Advisory: who is buying owner-managed businesses in each sector, the prices that were published and what buyers pay for. All reports: https://mastellagroup.com/insights/sector-reports/
+UK sector M&A reports 2026, by Mastella Advisory: who is buying owner-managed businesses in each sector, the prices that were published and what buyers pay for. All reports: https://mastellagroup.com/insights/sector-reports/ (Markdown: https://mastellagroup.com/insights/sector-reports.md)
 
-- Accountancy practices (Accountancy, tax, bookkeeping and payroll practices): https://mastellagroup.com/insights/accountancy-practices-ma-2026/
-- Building services and compliance (M&E contractors, HVAC businesses and compliance and testing firms): https://mastellagroup.com/insights/building-services-compliance-ma-2026/
-- Business telecoms and unified comms (Telecoms resellers, hosted voice, unified comms, business mobile and ISPs): https://mastellagroup.com/insights/telecoms-unified-comms-ma-2026/
-- Care and complex care (Home care, complex care, supported living and children's services): https://mastellagroup.com/insights/care-complex-care-ma-2026/
-- Commercial insurance brokers (Independent commercial brokers, MGAs and wholesale brokers): https://mastellagroup.com/insights/commercial-insurance-brokers-ma-2026/
-- Construction products and specialist contractors (Building products makers, merchants and specialist contractors): https://mastellagroup.com/insights/construction-products-specialist-contractors-ma-2026/
-- Education and training (Nurseries, training providers, e-learning and independent schools): https://mastellagroup.com/insights/education-training-ma-2026/
-- Energy services and renewables (Solar, heat pump, EV charging, insulation and energy consultancy businesses): https://mastellagroup.com/insights/energy-services-renewables-ma-2026/
-- Engineering and technical services (Engineering consultancy, testing, inspection and certification): https://mastellagroup.com/insights/engineering-technical-services-ma-2026/
-- Estate agency, lettings and property management (Estate agencies, lettings agencies, block managers and commercial property firms): https://mastellagroup.com/insights/estate-agency-lettings-property-ma-2026/
-- Events, exhibitions and venues (Exhibition organisers, event agencies, production, hospitality and venues): https://mastellagroup.com/insights/events-exhibitions-venues-ma-2026/
-- Facilities management and cleaning (Contract cleaning, soft and hard FM, guarding and washroom services): https://mastellagroup.com/insights/facilities-management-cleaning-ma-2026/
-- Fire and security (Fire alarm, sprinkler, passive fire and electronic security services): https://mastellagroup.com/insights/fire-security-life-safety-ma-2026/
-- Food and drink producers (Food and drink manufacturers, bakeries and co-packers): https://mastellagroup.com/insights/food-drink-producers-ma-2026/
-- Healthcare services (Dental, veterinary, pharmacy, diagnostics and specialist clinics): https://mastellagroup.com/insights/healthcare-services-ma-2026/
-- Insurance broking (Insurance brokers and MGAs: deal flow and what buyers look for): https://mastellagroup.com/insights/insurance-broking-ma-2026/
-- IT, MSP and cyber (Managed service providers, cyber security and cloud services): https://mastellagroup.com/insights/it-msp-cyber-ma-2026/
-- Legal services (Law firms, from conveyancing and personal injury to commercial practices): https://mastellagroup.com/insights/legal-services-ma-2026/
-- Logistics and distribution (Haulage, warehousing, freight forwarding and final mile): https://mastellagroup.com/insights/logistics-distribution-ma-2026/
-- Marketing and digital agencies (Creative, digital, PR, performance, research and experiential agencies): https://mastellagroup.com/insights/marketing-digital-agencies-ma-2026/
-- Nurseries and childcare (Day nurseries, pre-schools and childcare groups): https://mastellagroup.com/insights/nurseries-childcare-ma-2026/
-- Occupational health and wellbeing (Occupational health, employee assistance and workplace wellbeing businesses): https://mastellagroup.com/insights/occupational-health-wellbeing-ma-2026/
-- Packaging (Packaging manufacturers, converters and distributors): https://mastellagroup.com/insights/packaging-ma-2026/
-- Pet care and animal health (Pet food, pet products and distribution, vets, animal health and services): https://mastellagroup.com/insights/pet-care-animal-health-ma-2026/
-- Plant hire and equipment rental (Plant, tool, access, crane, welfare and specialist rental): https://mastellagroup.com/insights/plant-hire-equipment-rental-ma-2026/
-- Print, signage and promotional merchandise (Commercial printers, direct mail, signage and promotional merchandise): https://mastellagroup.com/insights/print-signage-promotional-ma-2026/
-- Recruitment (Recruitment agencies, staffing businesses and executive search): https://mastellagroup.com/insights/recruitment-staffing-ma-2026/
-- Software and tech-enabled services (B2B software, SaaS and data businesses): https://mastellagroup.com/insights/software-tech-enabled-ma-2026/
-- Specialist distribution (Builders merchants and electrical, plumbing and industrial distributors): https://mastellagroup.com/insights/specialist-distribution-ma-2026/
-- Specialist manufacturing (Owner-managed precision, electronics and industrial manufacturers): https://mastellagroup.com/insights/specialist-manufacturing-ma-2026/
-- Test and measurement (Analysers, sensors, test equipment and scientific instruments): https://mastellagroup.com/insights/test-measurement-instruments-ma-2026/
-- Tour operators and travel management (Specialist tour operators, travel agencies and business travel management): https://mastellagroup.com/insights/travel-tour-operators-ma-2026/
-- Vehicle, fleet and automotive services (Accident repair, tyres and servicing, motor factors and fleet services): https://mastellagroup.com/insights/vehicle-fleet-automotive-ma-2026/
-- Waste and environmental services (Skip hire, commercial collection, recycling, hazardous waste and remediation): https://mastellagroup.com/insights/waste-environmental-services-ma-2026/
-- Wealth management and IFAs (IFAs, financial planners and discretionary wealth managers): https://mastellagroup.com/insights/wealth-management-ifa-ma-2026/
+- Accountancy practices: https://mastellagroup.com/insights/accountancy-practices-ma-2026/ (Markdown: https://mastellagroup.com/insights/accountancy-practices-ma-2026.md). Private equity-backed groups are now the most visible buyers of UK accountancy practices, and the evidence on what they pay is thinner than most assume.
+- Building services and compliance: https://mastellagroup.com/insights/building-services-compliance-ma-2026/ (Markdown: https://mastellagroup.com/insights/building-services-compliance-ma-2026.md). Our research on 78 UK building services deals since 2024: the prices in buyers' accounts and why compliance books sell at a premium.
+- Business telecoms and unified comms: https://mastellagroup.com/insights/telecoms-unified-comms-ma-2026/ (Markdown: https://mastellagroup.com/insights/telecoms-unified-comms-ma-2026.md). Our research on 56 UK business telecoms deals since 2024: prices from buyers' accounts, who is buying and the copper switch-off.
+- Care and complex care: https://mastellagroup.com/insights/care-complex-care-ma-2026/ (Markdown: https://mastellagroup.com/insights/care-complex-care-ma-2026.md). Buyers of UK home and complex care businesses pay for a Good or Outstanding CQC rating, a registered manager who is not the owner and fees that cover cost.
+- Commercial insurance brokers: https://mastellagroup.com/insights/commercial-insurance-brokers-ma-2026/ (Markdown: https://mastellagroup.com/insights/commercial-insurance-brokers-ma-2026.md). Our research on 157 UK insurance broker deals since 2024: who is buying, the prices in buyers' accounts and what buyers want now.
+- Construction products and specialist contractors: https://mastellagroup.com/insights/construction-products-specialist-contractors-ma-2026/ (Markdown: https://mastellagroup.com/insights/construction-products-specialist-contractors-ma-2026.md). Our research on 41 UK construction products and contractor deals since 2024: prices from buyers' accounts and who is buying.
+- Education and training: https://mastellagroup.com/insights/education-training-ma-2026/ (Markdown: https://mastellagroup.com/insights/education-training-ma-2026.md). Nursery owners have the best published evidence, training provider owners have the most deal activity and school owners have the thinnest pricing evidence.
+- Energy services and renewables: https://mastellagroup.com/insights/energy-services-renewables-ma-2026/ (Markdown: https://mastellagroup.com/insights/energy-services-renewables-ma-2026.md). Our research on 43 UK energy services deals since 2024: what buyers paid for installers and the policy dates that matter.
+- Engineering and technical services: https://mastellagroup.com/insights/engineering-technical-services-ma-2026/ (Markdown: https://mastellagroup.com/insights/engineering-technical-services-ma-2026.md). Who is buying UK engineering, testing, inspection and consultancy businesses, what they pay and what moves the price. 2026 report for owners.
+- Estate agency, lettings and property management: https://mastellagroup.com/insights/estate-agency-lettings-property-ma-2026/ (Markdown: https://mastellagroup.com/insights/estate-agency-lettings-property-ma-2026.md). Our research on 54 UK estate agency and lettings deals since 2024: what buyers paid, who is buying and the rules changing value.
+- Events, exhibitions and venues: https://mastellagroup.com/insights/events-exhibitions-venues-ma-2026/ (Markdown: https://mastellagroup.com/insights/events-exhibitions-venues-ma-2026.md). Our research on 54 UK events deals since 2024: who is buying, platform multiples, deposits and what lifts value.
+- Facilities management and cleaning: https://mastellagroup.com/insights/facilities-management-cleaning-ma-2026/ (Markdown: https://mastellagroup.com/insights/facilities-management-cleaning-ma-2026.md). Buyers of UK cleaning and FM businesses pay most for recurring, self-delivered, regulated work and discount thin margins and founder dependence.
+- Fire and security: https://mastellagroup.com/insights/fire-security-life-safety-ma-2026/ (Markdown: https://mastellagroup.com/insights/fire-security-life-safety-ma-2026.md). Our research on 93 UK fire and security deals since 2024: who is buying, the prices in buyers' accounts and what moves the price for owners.
+- Food and drink producers: https://mastellagroup.com/insights/food-drink-producers-ma-2026/ (Markdown: https://mastellagroup.com/insights/food-drink-producers-ma-2026.md). UK food and drink producers sell mostly to trade buyers, who test cost pass-through, customer concentration, asset condition and founder dependence.
+- Healthcare services: https://mastellagroup.com/insights/healthcare-services-ma-2026/ (Markdown: https://mastellagroup.com/insights/healthcare-services-ma-2026.md). UK healthcare services pricing evidence differs by sub-sector: dental has the most published, and there is no UK veterinary multiple.
+- Insurance broking: https://mastellagroup.com/insights/insurance-broking-ma-2026/ (Markdown: https://mastellagroup.com/insights/insurance-broking-ma-2026.md). UK insurance broker deal flow has fallen and value has moved to specialty, while buyers pay up for organic growth and income they can verify.
+- IT, MSP and cyber: https://mastellagroup.com/insights/it-msp-cyber-ma-2026/ (Markdown: https://mastellagroup.com/insights/it-msp-cyber-ma-2026.md). UK MSP and cyber buyers pay up for contracted recurring revenue with low churn, a security specialism and a team that can run without the founder.
+- Legal services: https://mastellagroup.com/insights/legal-services-ma-2026/ (Markdown: https://mastellagroup.com/insights/legal-services-ma-2026.md). UK law firm buyers apply multiples to EBITDA after notional partner salaries, and adviser ranges run from nil to 8x for a typical firm.
+- Logistics and distribution: https://mastellagroup.com/insights/logistics-distribution-ma-2026/ (Markdown: https://mastellagroup.com/insights/logistics-distribution-ma-2026.md). Buyers are active in UK logistics, but price evidence for an owner-managed haulage, warehousing, forwarding or distribution business is thin.
+- Marketing and digital agencies: https://mastellagroup.com/insights/marketing-digital-agencies-ma-2026/ (Markdown: https://mastellagroup.com/insights/marketing-digital-agencies-ma-2026.md). Our research on 54 UK agency deals since 2024: what buyers paid at completion, how earn-outs work and who is buying.
+- Nurseries and childcare: https://mastellagroup.com/insights/nurseries-childcare-ma-2026/ (Markdown: https://mastellagroup.com/insights/nurseries-childcare-ma-2026.md). Our research on 105 UK nursery deals since 2024: price per place from buyers' accounts, who is buying and what drives value.
+- Occupational health and wellbeing: https://mastellagroup.com/insights/occupational-health-wellbeing-ma-2026/ (Markdown: https://mastellagroup.com/insights/occupational-health-wellbeing-ma-2026.md). Our research on 19 UK occupational health deals since 2024: what buyers paid, who is buying and what drives value.
+- Packaging: https://mastellagroup.com/insights/packaging-ma-2026/ (Markdown: https://mastellagroup.com/insights/packaging-ma-2026.md). Our research on 33 UK packaging deals since 2024: who is buying, the prices that were published and how earn-outs worked out.
+- Pet care and animal health: https://mastellagroup.com/insights/pet-care-animal-health-ma-2026/ (Markdown: https://mastellagroup.com/insights/pet-care-animal-health-ma-2026.md). Our research on 43 UK pet care deals since 2024: the prices in buyers' accounts and what the CMA outcome means for sellers.
+- Plant hire and equipment rental: https://mastellagroup.com/insights/plant-hire-equipment-rental-ma-2026/ (Markdown: https://mastellagroup.com/insights/plant-hire-equipment-rental-ma-2026.md). Our research on 35 UK plant hire and rental deals since 2024: who is buying, what was paid and why specialists sell on earnings.
+- Print, signage and promotional merchandise: https://mastellagroup.com/insights/print-signage-promotional-ma-2026/ (Markdown: https://mastellagroup.com/insights/print-signage-promotional-ma-2026.md). Our research on 36 UK print, signage and merchandise deals since 2024: who is buying, the published prices and what buyers look for.
+- Recruitment: https://mastellagroup.com/insights/recruitment-staffing-ma-2026/ (Markdown: https://mastellagroup.com/insights/recruitment-staffing-ma-2026.md). Buyers are still paying for UK recruitment businesses, and the price gap between a well-run specialist and a founder-dependent generalist is wide.
+- Software and tech-enabled services: https://mastellagroup.com/insights/software-tech-enabled-ma-2026/ (Markdown: https://mastellagroup.com/insights/software-tech-enabled-ma-2026.md). Buyers of UK software businesses pay for recurring revenue with high retention, clean IP ownership and a team that runs without the founder.
+- Specialist distribution: https://mastellagroup.com/insights/specialist-distribution-ma-2026/ (Markdown: https://mastellagroup.com/insights/specialist-distribution-ma-2026.md). Merchant trading has been weak and buyers have not stopped buying: published multiples for small UK distributors sit mostly between 5x and 8x EBITDA.
+- Specialist manufacturing: https://mastellagroup.com/insights/specialist-manufacturing-ma-2026/ (Markdown: https://mastellagroup.com/insights/specialist-manufacturing-ma-2026.md). Published UK pricing for private specialist manufacturers sits mostly between 4x and 7x EBITDA, with a premium for contracted revenue and own products.
+- Test and measurement: https://mastellagroup.com/insights/test-measurement-instruments-ma-2026/ (Markdown: https://mastellagroup.com/insights/test-measurement-instruments-ma-2026.md). Our research on 57 UK instruments deals since 2024: who is buying, the prices that were published and what moves the price for owner-managed businesses.
+- Tour operators and travel management: https://mastellagroup.com/insights/travel-tour-operators-ma-2026/ (Markdown: https://mastellagroup.com/insights/travel-tour-operators-ma-2026.md). Our research on 40 UK travel deals since 2024: prices from buyers' accounts, who is buying and the 2027 package travel changes.
+- Vehicle, fleet and automotive services: https://mastellagroup.com/insights/vehicle-fleet-automotive-ma-2026/ (Markdown: https://mastellagroup.com/insights/vehicle-fleet-automotive-ma-2026.md). Our research on 43 UK automotive services deals since 2024: bodyshop prices from buyers' accounts and who is buying.
+- Waste and environmental services: https://mastellagroup.com/insights/waste-environmental-services-ma-2026/ (Markdown: https://mastellagroup.com/insights/waste-environmental-services-ma-2026.md). Our research on 51 UK waste deals since 2024: prices from buyers' accounts, who is buying and the rules changing value.
+- Wealth management and IFAs: https://mastellagroup.com/insights/wealth-management-ifa-ma-2026/ (Markdown: https://mastellagroup.com/insights/wealth-management-ifa-ma-2026.md). Buyers of UK advice firms pay for recurring ongoing-advice income, advisers who stay and a clean compliance file, and discount dependence on one adviser.
 
 ## Insight articles
 
@@ -113,15 +113,17 @@ UK sector M&A reports 2026, by Mastella Advisory: who is buying owner-managed bu
 
 ## Primary navigation
 
-- Home: https://mastellagroup.com/
+Pages marked Markdown also have a plain-text copy with the same text as the page.
+
+- Home: https://mastellagroup.com/ (Markdown: https://mastellagroup.com/index.md)
 - About: https://mastellagroup.com/about/
-- Services: https://mastellagroup.com/services/
+- Services: https://mastellagroup.com/services/ (Markdown: https://mastellagroup.com/services.md)
 - Sectors: https://mastellagroup.com/sectors/
 - Our process: https://mastellagroup.com/process/
 - Case studies: https://mastellagroup.com/case-studies/
-- Leo Meggitt: https://mastellagroup.com/team/
-- Insights: https://mastellagroup.com/insights/
-- Sector reports: https://mastellagroup.com/insights/sector-reports/
+- Leo Meggitt: https://mastellagroup.com/team/ (Markdown: https://mastellagroup.com/team.md)
+- Insights: https://mastellagroup.com/insights/ (Markdown: https://mastellagroup.com/insights.md)
+- Sector reports: https://mastellagroup.com/insights/sector-reports/ (Markdown: https://mastellagroup.com/insights/sector-reports.md)
 - Executive search: https://mastellagroup.com/executive-search/
 - Contact: https://mastellagroup.com/contact/
 
