@@ -5,6 +5,7 @@ export const SERVICE_LANDINGS: ServiceLanding[] = [
   EXIT_READINESS_ASSESSMENT,
   {
     slug: "exit-planning-advisor-uk",
+    exitPreparationBlock: true,
     name: "Exit planning adviser (UK)",
     title: "Exit Planning Adviser UK | Mastella Advisory",
     metaDescription:

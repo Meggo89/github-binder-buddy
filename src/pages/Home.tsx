@@ -12,6 +12,7 @@ import leoMeggitt from '../assets/leo-meggitt.jpg';
 import { SECTORS } from '../content/landing';
 import { ScoreBlock } from '../components/landing/ScoreBlock';
 import { CtaSection } from '../components/landing/CtaSection';
+import { ExitPreparationBlock } from '../components/scalexit/ExitPreparationBlock';
 import { HOME_RECENT_WORK } from '../content/case-studies';
 
 // What buyers paid: published and derived prices from our own sector reports (first three rows).
@@ -341,7 +342,7 @@ export default function Home() {
 
       <BuyersPaid />
 
-      <ScoreBlock eyebrow="Free Exit Readiness Score" />
+      <ScoreBlock eyebrow="Free Exit Readiness Score" extra={<ExitPreparationBlock />} />
 
       <Services />
 

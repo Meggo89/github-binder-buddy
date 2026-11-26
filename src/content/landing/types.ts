@@ -108,6 +108,8 @@ export type ServiceStep = { title: string; detail: string };
 
 export type ServiceLanding = {
   slug: string;
+  // Show the exit preparation (Scalexit) block after the intro.
+  exitPreparationBlock?: boolean;
   name: string;
   title: string;
   metaDescription: string;

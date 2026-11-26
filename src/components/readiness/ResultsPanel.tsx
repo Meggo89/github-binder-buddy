@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import type { Answer, ReadinessResult } from '../../content/readiness/score';
 import { describeAnswer, lcFirst } from './format';
 import { MODEL } from '../../content/readiness/model';
+import { areaResults } from '../../content/readiness/areas';
 import { SendResultsForm } from './SendResultsForm';
 
 const RATING_TONE: Record<string, string> = {
@@ -60,15 +61,13 @@ export function ResultsPanel({ result, answers }: Props) {
           </div>
 
           <div className="grid gap-6 mb-14">
-            {result.modules.map((m) => (
+            {areaResults(result).map((a) => (
               <Bar
-                key={m.id}
-                label={`${m.name} (${m.weight}% of the score)`}
-                score={m.score}
-                rating={m.rating}
-                note={`${m.answered} of ${m.total} questions answered. The Assessment scores ${
-                  MODEL.modules.find((x) => x.id === m.id)?.totalMeasures ?? m.total
-                } measures here.`}
+                key={a.id}
+                label={`${a.name} (${a.weight}% of the score)`}
+                score={a.score}
+                rating={a.rating}
+                note={`${a.answered} of ${a.total} questions answered. The Assessment scores ${a.totalMeasures} measures here.`}
               />
             ))}
           </div>
