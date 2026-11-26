@@ -1,4 +1,4 @@
-import { ArrowRight, Download, Gauge } from 'lucide-react';
+import { ArrowRight, Gauge, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { FadeIn } from '../ui/motion';
 
@@ -37,8 +37,8 @@ export function ScoreBlock({
                   to="/lead-magnet/"
                   className="inline-flex items-center gap-2 text-navy underline decoration-accent/50 underline-offset-4 hover:text-accent-dark py-3"
                 >
-                  <Download className="h-4 w-4" />
-                  Or download the 12-question checklist
+                  <Mail className="h-4 w-4" />
+                  Get the exit readiness checklist by email
                 </Link>
               )}
             </div>

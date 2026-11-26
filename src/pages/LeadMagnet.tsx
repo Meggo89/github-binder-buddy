@@ -12,7 +12,7 @@ function Hero() {
         The Exit Readiness Checklist
       </h1>
       <p className="text-body-lg text-sand-light max-w-2xl leading-relaxed">
-        Twelve questions every UK founder should answer before starting an M&amp;A process. Free, 3-minute read, no
+        The questions every UK founder should answer before starting an M&amp;A process. Free, 3-minute read, no
         follow-up unless you ask.
       </p>
     </div>
@@ -39,7 +39,7 @@ export default function LeadMagnet() {
     <PageLayout hero={<Hero />} heroTone="solid" mainClassName="">
       <SEO
         title="Exit Readiness Checklist: Free Download | Mastella Advisory"
-        description="Twelve questions every UK founder should answer before starting an M&A process. Free download, no follow-up unless you ask."
+        description="The questions every UK founder should answer before starting an M&A process. Free download, no follow-up unless you ask."
         canonical="https://mastellagroup.com/lead-magnet/"
       />
 
@@ -50,7 +50,7 @@ export default function LeadMagnet() {
               <FadeIn>
                 <p className="eyebrow text-navy-light mb-4">What&apos;s inside</p>
                 <h2 className="font-serif text-display-md text-navy leading-tight mb-8 text-balance">
-                  Twelve questions. One page each. No filler.
+                  One page per question. No filler.
                 </h2>
                 <p className="text-body-lg text-navy-light leading-relaxed mb-8">
                   Every question is one we have watched founders fail to answer in real M&amp;A processes. Each one is

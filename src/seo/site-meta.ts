@@ -123,7 +123,7 @@ export const ROUTES: RouteMeta[] = [
     path: '/lead-magnet',
     title: 'Exit Readiness Checklist: Free Download',
     description:
-      'Twelve questions every UK founder should answer before starting an M&A process. Free download, no follow-up unless you ask.',
+      'The questions every UK founder should answer before starting an M&A process. Free download, no follow-up unless you ask.',
     priority: 0.6,
     changefreq: 'monthly',
   },
