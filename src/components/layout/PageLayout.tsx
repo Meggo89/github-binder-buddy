@@ -1,4 +1,7 @@
 import { ReactNode } from 'react';
+import { useLocation } from 'react-router-dom';
+import { MarkdownLink } from '../MarkdownLink';
+import { markdownPathFor } from '../../seo/markdown';
 import { Navigation } from './Navigation';
 import { Footer } from './Footer';
 
@@ -26,12 +29,18 @@ export function PageLayout({
   mainClassName = 'py-24',
   heroTone = 'image',
 }: PageLayoutProps) {
+  const markdownHref = markdownPathFor(useLocation().pathname);
   return (
     <div className="min-h-screen bg-paper">
       <header className={`${heroToneClasses[heroTone]} relative overflow-hidden`}>
         <div className="relative z-20">
           <Navigation />
-          {hero && <div className="container mx-auto px-6 py-20 md:py-28">{hero}</div>}
+          {hero && (
+            <div className="container mx-auto px-6 py-20 md:py-28">
+              {hero}
+              {markdownHref && <MarkdownLink href={markdownHref} className="mt-8" />}
+            </div>
+          )}
         </div>
       </header>
       <main id="main-content" className={mainClassName}>

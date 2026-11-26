@@ -4,6 +4,8 @@ import { useParams, Link, Navigate } from 'react-router-dom';
 import { ArrowLeft, Calendar, Clock, Download, User } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { PageLayout } from '../components/layout';
+import { MarkdownLink } from '../components/MarkdownLink';
+import { markdownPathFor } from '../seo/markdown';
 import { getArticle, articles, INSIGHT_LINKS, type Article } from '../content/insights';
 import { SECTOR_REPORTS, SECTOR_REPORTS_PATH } from '../content/insights/sector-reports';
 import { getSector } from '../content/landing';
@@ -77,6 +79,7 @@ export default function InsightArticle() {
       }
     : null;
 
+  const markdownHref = markdownPathFor(`/insights/${article.slug}`);
   const links = INSIGHT_LINKS[article.slug];
   const pillar = getSector(links?.pillarSlug ?? 'business-services');
   const related = (links?.related ?? articles.filter((a) => a.slug !== article.slug).slice(0, 3).map((a) => a.slug))
@@ -147,6 +150,7 @@ export default function InsightArticle() {
                   <span className="flex items-center gap-2"><User className="h-4 w-4" /> {article.author}</span>
                   <span className="flex items-center gap-2"><Calendar className="h-4 w-4" /> {article.date}</span>
                   <span className="flex items-center gap-2"><Clock className="h-4 w-4" /> {article.readTime}</span>
+                  {markdownHref && <MarkdownLink href={markdownHref} className="text-sand-light" />}
                 </div>
               </div>
             </FadeIn>
