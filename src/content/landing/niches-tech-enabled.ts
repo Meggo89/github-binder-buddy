@@ -89,6 +89,7 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
     slug: "it-managed-service-providers",
     reportCallouts: [
       { label: "Sector report: UK MSP buyers reward cyber depth and recurring revenue", href: "/insights/it-msp-cyber-ma-2026/" },
+      { label: "Sector report: Selling a UK business telecoms or unified communications provider in 2026: who is buying and what they pay", href: "/insights/telecoms-unified-comms-ma-2026/" },
     ],
     pillarSlug: "tech-enabled-services",
     name: "IT managed service providers",
@@ -173,6 +174,9 @@ export const TECH_ENABLED_NICHES: NicheLanding[] = [
   },
   {
     slug: "digital-agencies",
+    reportCallouts: [
+      { label: "Sector report: Selling a UK marketing, creative or digital agency in 2026: who is buying and what they pay", href: "/insights/marketing-digital-agencies-ma-2026/" },
+    ],
     pillarSlug: "tech-enabled-services",
     name: "Digital agencies",
     nameLower: "digital agency",

@@ -8,6 +8,66 @@ export type InsightLinks = {
 };
 
 export const INSIGHT_LINKS: Record<string, InsightLinks> = {
+  'telecoms-unified-comms-ma-2026': {
+    pillarSlug: 'tech-enabled-services',
+    related: ['it-msp-cyber-ma-2026', 'software-tech-enabled-ma-2026', 'marketing-digital-agencies-ma-2026'],
+  },
+  'building-services-compliance-ma-2026': {
+    pillarSlug: 'light-industrials',
+    related: ['fire-security-life-safety-ma-2026', 'engineering-technical-services-ma-2026', 'facilities-management-cleaning-ma-2026'],
+  },
+  'energy-services-renewables-ma-2026': {
+    pillarSlug: 'light-industrials',
+    related: ['building-services-compliance-ma-2026', 'engineering-technical-services-ma-2026', 'plant-hire-equipment-rental-ma-2026'],
+  },
+  'marketing-digital-agencies-ma-2026': {
+    pillarSlug: 'business-services',
+    related: ['software-tech-enabled-ma-2026', 'recruitment-staffing-ma-2026', 'it-msp-cyber-ma-2026'],
+  },
+  'pet-care-animal-health-ma-2026': {
+    pillarSlug: 'light-industrials',
+    related: ['food-drink-producers-ma-2026', 'healthcare-services-ma-2026', 'specialist-distribution-ma-2026'],
+  },
+  'nurseries-childcare-ma-2026': {
+    pillarSlug: 'healthcare-services',
+    related: ['education-training-ma-2026', 'healthcare-services-ma-2026', 'care-complex-care-ma-2026'],
+  },
+  'education-training-ma-2026': {
+    pillarSlug: 'business-services',
+    related: ['nurseries-childcare-ma-2026', 'care-complex-care-ma-2026', 'healthcare-services-ma-2026'],
+  },
+  'waste-environmental-services-ma-2026': {
+    pillarSlug: 'business-services',
+    related: ['facilities-management-cleaning-ma-2026', 'building-services-compliance-ma-2026', 'logistics-distribution-ma-2026'],
+  },
+  'estate-agency-lettings-property-ma-2026': {
+    pillarSlug: 'professional-services',
+    related: ['accountancy-practices-ma-2026', 'facilities-management-cleaning-ma-2026', 'recruitment-staffing-ma-2026'],
+  },
+  'occupational-health-wellbeing-ma-2026': {
+    pillarSlug: 'healthcare-services',
+    related: ['healthcare-services-ma-2026', 'fire-security-life-safety-ma-2026', 'building-services-compliance-ma-2026'],
+  },
+  'vehicle-fleet-automotive-ma-2026': {
+    pillarSlug: 'logistics-and-distribution',
+    related: ['logistics-distribution-ma-2026', 'specialist-distribution-ma-2026', 'plant-hire-equipment-rental-ma-2026'],
+  },
+  'construction-products-specialist-contractors-ma-2026': {
+    pillarSlug: 'light-industrials',
+    related: ['specialist-distribution-ma-2026', 'specialist-manufacturing-ma-2026', 'building-services-compliance-ma-2026'],
+  },
+  'events-exhibitions-venues-ma-2026': {
+    pillarSlug: 'business-services',
+    related: ['marketing-digital-agencies-ma-2026', 'food-drink-producers-ma-2026', 'facilities-management-cleaning-ma-2026'],
+  },
+  'travel-tour-operators-ma-2026': {
+    pillarSlug: 'business-services',
+    related: ['events-exhibitions-venues-ma-2026', 'education-training-ma-2026', 'healthcare-services-ma-2026'],
+  },
+  'print-signage-promotional-ma-2026': {
+    pillarSlug: 'light-industrials',
+    related: ['telecoms-unified-comms-ma-2026', 'travel-tour-operators-ma-2026', 'events-exhibitions-venues-ma-2026'],
+  },
   'plant-hire-equipment-rental-ma-2026': {
     pillarSlug: 'light-industrials',
     related: ['engineering-technical-services-ma-2026', 'logistics-distribution-ma-2026', 'specialist-distribution-ma-2026'],

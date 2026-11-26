@@ -7,6 +7,10 @@ export const SECTORS: SectorPillar[] = [
       { label: "Sector report: UK facilities management and cleaning M&A 2026: an owner's guide to the sale market", href: "/insights/facilities-management-cleaning-ma-2026/" },
       { label: "Sector report: Specialist recruiters win offers as UK deal volumes settle", href: "/insights/recruitment-staffing-ma-2026/" },
       { label: "Sector report: Selling a UK fire, security or life-safety services business in 2026: who is buying and what they pay", href: "/insights/fire-security-life-safety-ma-2026/" },
+      { label: "Sector report: Selling a UK building services or compliance business in 2026: who is buying and what they pay", href: "/insights/building-services-compliance-ma-2026/" },
+      { label: "Sector report: Selling a UK waste management or environmental services business in 2026: who is buying and what they pay", href: "/insights/waste-environmental-services-ma-2026/" },
+      { label: "Sector report: Selling a UK events, exhibitions or venues business in 2026: who is buying and what they pay", href: "/insights/events-exhibitions-venues-ma-2026/" },
+      { label: "Sector report: Selling a UK tour operator or travel management company in 2026: who is buying and what they pay", href: "/insights/travel-tour-operators-ma-2026/" },
     ],
     name: "Business services",
     nameLower: "business services",
@@ -102,6 +106,7 @@ export const SECTORS: SectorPillar[] = [
     reportCallouts: [
       { label: "Sector report: UK care and complex care M&A 2026: what owners should know before they sell", href: "/insights/care-complex-care-ma-2026/" },
       { label: "Sector report: UK healthcare services M&A 2026: what owners should know before they sell", href: "/insights/healthcare-services-ma-2026/" },
+      { label: "Sector report: Selling a UK occupational health or workplace wellbeing business in 2026: who is buying and what they pay", href: "/insights/occupational-health-wellbeing-ma-2026/" },
     ],
     name: "Healthcare services",
     nameLower: "healthcare services",
@@ -194,6 +199,8 @@ export const SECTORS: SectorPillar[] = [
       { label: "Sector report: Selling a UK specialist manufacturer in 2026: what buyers pay for", href: "/insights/specialist-manufacturing-ma-2026/" },
       { label: "Sector report: UK food and drink producer M&A 2026: what owners can expect", href: "/insights/food-drink-producers-ma-2026/" },
       { label: "Sector report: Selling a UK packaging business in 2026: who is buying and what they pay", href: "/insights/packaging-ma-2026/" },
+      { label: "Sector report: Selling a UK pet care or animal health business in 2026: who is buying and what they pay", href: "/insights/pet-care-animal-health-ma-2026/" },
+      { label: "Sector report: Selling a UK printer, sign maker or promotional merchandise business in 2026: who is buying and what they pay", href: "/insights/print-signage-promotional-ma-2026/" },
     ],
     name: "Manufacturing and industrials",
     nameLower: "manufacturing or industrial",
@@ -284,6 +291,8 @@ export const SECTORS: SectorPillar[] = [
     reportCallouts: [
       { label: "Sector report: Selling a UK specialist distributor in 2026: what buyers pay for", href: "/insights/specialist-distribution-ma-2026/" },
       { label: "Sector report: UK logistics and distribution M&A 2026: what owners can sell, and for how much", href: "/insights/logistics-distribution-ma-2026/" },
+      { label: "Sector report: Selling a UK vehicle, fleet or automotive services business in 2026: who is buying and what they pay", href: "/insights/vehicle-fleet-automotive-ma-2026/" },
+      { label: "Sector report: Selling a UK construction products or specialist contractor business in 2026: who is buying and what they pay", href: "/insights/construction-products-specialist-contractors-ma-2026/" },
     ],
     name: "Logistics and distribution",
     nameLower: "logistics and distribution",
@@ -374,6 +383,7 @@ export const SECTORS: SectorPillar[] = [
     reportCallouts: [
       { label: "Sector report: What UK law firm buyers pay for in 2026", href: "/insights/legal-services-ma-2026/" },
       { label: "Sector report: UK accountancy practice M&A 2026: what owners can expect to be paid", href: "/insights/accountancy-practices-ma-2026/" },
+      { label: "Sector report: Selling a UK estate agency, lettings or property management business in 2026: who is buying and what they pay", href: "/insights/estate-agency-lettings-property-ma-2026/" },
     ],
     name: "Professional services",
     nameLower: "professional services",
@@ -463,6 +473,7 @@ export const SECTORS: SectorPillar[] = [
     reportCallouts: [
       { label: "Sector report: UK MSP buyers reward cyber depth and recurring revenue", href: "/insights/it-msp-cyber-ma-2026/" },
       { label: "Sector report: UK B2B software and tech-enabled services M&A 2026: what owners should know before they sell", href: "/insights/software-tech-enabled-ma-2026/" },
+      { label: "Sector report: Selling a UK business telecoms or unified communications provider in 2026: who is buying and what they pay", href: "/insights/telecoms-unified-comms-ma-2026/" },
     ],
     name: "Tech-enabled services",
     nameLower: "tech-enabled services",

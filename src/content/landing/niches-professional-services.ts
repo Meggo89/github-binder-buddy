@@ -258,6 +258,9 @@ export const PROFESSIONAL_SERVICES_NICHES: NicheLanding[] = [
   },
   {
     slug: "surveying-and-property-advisory",
+    reportCallouts: [
+      { label: "Sector report: Selling a UK estate agency, lettings or property management business in 2026: who is buying and what they pay", href: "/insights/estate-agency-lettings-property-ma-2026/" },
+    ],
     pillarSlug: "professional-services",
     name: "Surveying & property advisory",
     nameLower: "surveying and property advisory",
