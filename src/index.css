@@ -274,3 +274,13 @@ main .keep-dark :is(.blur-3xl, .blur-2xl) { display: block; }
 .mh section.mh-band.mh-band { background-color: var(--mh-grey-band); }
 .mh .er-quick.er-quick { background-color: var(--mh-grey-band); }
 .mh .er-quick a { text-decoration-color: rgb(150 80 109 / 0.5); }
+/* Exit readiness section on charcoal, so the light Scalexit report graphic stands out.
+   Classes are repeated to beat the minifier's merged .mh rules. */
+.mh section.er-dark.er-dark { background-color: var(--mh-text); border-top-color: var(--mh-text); }
+.mh .er-dark.er-dark :is(.text-navy, h2, h3) { color: #FAF7F2; }
+.mh .er-dark.er-dark .text-navy-light { color: #C9C5BE; }
+.mh .er-dark.er-dark .er-panel { background-color: rgb(250 247 242 / 0.04); border-color: rgb(250 247 242 / 0.14); }
+.mh .er-dark.er-dark .er-panel img { border-color: transparent; }
+.mh .er-dark.er-dark .er-quick { background-color: rgb(250 247 242 / 0.08); }
+.mh .er-dark.er-dark .er-quick a { color: #FAF7F2; text-decoration-color: rgb(255 135 183 / 0.6); }
+.mh .er-dark.er-dark .er-quick a:hover { color: #FF87B7; }

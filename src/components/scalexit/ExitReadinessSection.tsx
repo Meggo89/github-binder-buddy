@@ -31,8 +31,8 @@ export function AssessmentCta({ className = '' }: { className?: string }) {
 
 function FullAssessment() {
   return (
-    <div className="rounded-xl border border-navy/10 bg-white p-6 md:p-10">
-      <div className={CARD ? 'grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,24rem)] lg:gap-12 items-start' : ''}>
+    <div className="er-panel rounded-xl border border-navy/10 bg-white p-6 md:p-10">
+      <div className={CARD ? 'grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,28rem)] lg:gap-12 items-start' : ''}>
         <div className={CARD ? '' : 'max-w-3xl'}>
           <div className="flex items-center gap-4 mb-5">
             {LOGO && <img src={LOGO} alt="Scalexit" className="h-6 w-auto shrink-0" loading="lazy" />}
@@ -56,8 +56,10 @@ function FullAssessment() {
           <figure>
             <img
               src={CARD}
-              alt="Example Scalexit exit readiness score card"
+              alt="Sample Exit Readiness Assessment report for a fictional company: a weighted score of 60 out of 100, indicative value of £12.9m to £14.6m today and £15.6m to £17.3m after the plan, scores for the five areas buyers test, gaps ranked by what they could cost, and the first three priorities."
               className="w-full h-auto rounded-md border border-navy/10"
+              width={1584}
+              height={2496}
               loading="lazy"
             />
             <figcaption className="text-xs text-navy-light mt-3">
@@ -100,7 +102,7 @@ const INTRO =
 // Home page: a full-width section.
 export function ExitReadinessSection() {
   return (
-    <section className="bg-white py-24 md:py-28 border-t border-navy/5" aria-labelledby="exit-readiness-heading">
+    <section className="er-dark bg-white py-24 md:py-28 border-t border-navy/5" aria-labelledby="exit-readiness-heading">
       <div className="container mx-auto px-6">
         <div className="max-w-5xl mx-auto">
           <h2 id="exit-readiness-heading" className="font-serif text-display-md text-navy leading-tight mb-5 text-balance">
