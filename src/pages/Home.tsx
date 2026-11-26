@@ -20,15 +20,15 @@ function BuyersPaid() {
   const reportCount = articles.filter((a) => a.category === 'Sector Report').length;
   const rows = HOME_EVIDENCE.filter((slug) => REPORT_EVIDENCE[slug]).slice(0, 3).map((slug) => ({ slug, ...REPORT_EVIDENCE[slug] }));
   return (
-    <section className="bg-white py-24 md:py-32 border-t border-navy/5">
+    <section className="mh-bg-charcoal py-24 md:py-28">
       <div className="container mx-auto px-6">
         <div className="max-w-2xl mx-auto">
     <aside
-      className="relative overflow-hidden rounded-[8px] border border-[#E6E0D6] border-t-2 border-t-[#96506D] bg-[#FFFFFF] text-[#1F2226]"
+      className="relative overflow-hidden rounded-[8px] border border-[#FAF7F2]/[0.14] text-[#FAF7F2]"
       aria-labelledby="hero-ledger-heading"
     >
       {/* The five rising bars of the logo, as a quiet watermark. */}
-      <svg className="absolute -right-6 -top-4 h-40 w-40 opacity-[0.04]" viewBox="0 0 100 100" fill="#1F2226" aria-hidden="true">
+      <svg className="absolute -right-6 -top-4 h-40 w-40 opacity-[0.05]" viewBox="0 0 100 100" fill="#FAF7F2" aria-hidden="true">
         {[[8, 44], [27, 30], [46, 16], [65, 30], [84, 44]].map(([x, y]) => (
           <g key={x}>
             <polygon points={`${x - 5},${y + 10} ${x + 4},${y} ${x + 13},${y + 10}`} />
@@ -37,35 +37,35 @@ function BuyersPaid() {
         ))}
       </svg>
       <div className="relative p-6 md:p-8">
-        <p className="text-[0.75rem] uppercase tracking-[0.08em] text-[#636262] mb-2">From our deal log</p>
-        <h2 id="hero-ledger-heading" className="font-serif text-2xl md:text-[1.75rem] leading-tight text-balance text-[#1F2226] mb-6">
+        <p className="text-[0.75rem] uppercase tracking-[0.08em] text-[#C9C5BE] mb-2">From our deal log</p>
+        <h2 id="hero-ledger-heading" className="font-serif text-2xl md:text-[1.75rem] leading-tight text-balance text-[#FFFFFF] mb-6">
           What buyers paid, 2024 to 2026
         </h2>
-        <ul className="border-t border-[#E6E0D6]">
+        <ul className="border-t border-[#FAF7F2]/[0.14]">
           {rows.map((r) => (
-            <li key={r.slug} className="border-b border-[#E6E0D6]">
+            <li key={r.slug} className="border-b border-[#FAF7F2]/[0.14]">
               <Link
                 to={`/insights/${r.slug}/`}
                 onClick={() => trackCTA(`What buyers paid: ${r.sector}`, 'home')}
-                className="group block py-3.5 -mx-2 px-2 rounded-md hover:bg-[#FAF7F2] transition-colors"
+                className="group block py-3.5 -mx-2 px-2 rounded-md hover:bg-[#FAF7F2]/[0.06] transition-colors"
               >
                 <span className="flex items-baseline justify-between gap-4">
-                  <span className="font-medium text-[#1F2226] group-hover:text-[#96506D] transition-colors">{r.sector}</span>
-                  <span className="font-serif text-2xl leading-none text-[#96506D] tabular-nums whitespace-nowrap">{r.multiple}</span>
+                  <span className="font-medium text-[#FFFFFF] group-hover:underline underline-offset-4">{r.sector}</span>
+                  <span className="font-serif text-2xl md:text-3xl leading-none text-[#C9A05A] tabular-nums whitespace-nowrap">{r.multiple}</span>
                 </span>
-                <span className="block text-[0.8125rem] leading-snug text-[#4A4E54] mt-1.5">
+                <span className="block text-[0.8125rem] leading-snug text-[#C9C5BE] mt-1.5">
                   {r.basis} · {r.deals} deals logged
                 </span>
               </Link>
             </li>
           ))}
         </ul>
-        <p className="text-[0.8125rem] leading-relaxed text-[#4A4E54] mt-5">
+        <p className="text-[0.8125rem] leading-relaxed text-[#C9C5BE] mt-5">
           Each figure is published or derived, and its report shows the source.
         </p>
         <Link
           to="/insights/sector-reports/"
-          className="inline-flex items-center gap-2 mt-4 text-sm font-medium text-[#1F2226] hover:text-[#96506D] transition-colors"
+          className="inline-flex items-center gap-2 mt-4 text-sm font-medium text-[#FFFFFF] underline decoration-[#FAF7F2]/40 underline-offset-4 hover:decoration-[#FFFFFF] transition-colors"
         >
           All {reportCount} sector reports
           <ArrowRight className="h-4 w-4" aria-hidden="true" />
@@ -104,8 +104,30 @@ function Hero() {
           Or try the free three-minute score
         </Link>
       </div>
-      <p className="mt-10 text-sm text-[#4A4E54]">15 years in M&amp;A. Over £800m of transactions advised on.</p>
     </div>
+  );
+}
+
+// Credentials band directly under the hero (moved out of the hero, Leo's wording).
+const CREDENTIALS = [
+  { figure: '15 years', caption: 'in M&A' },
+  { figure: '£800m+', caption: 'of transactions advised on' },
+];
+
+function CredentialsBand() {
+  return (
+    <section className="mh-bg-plum py-14 md:py-16" aria-label="Track record">
+      <div className="container mx-auto px-6">
+        <ul className="grid grid-cols-2 gap-8 max-w-3xl">
+          {CREDENTIALS.map((c) => (
+            <li key={c.figure}>
+              <p className="font-serif text-4xl md:text-6xl text-[#FFFFFF] leading-none tracking-tight">{c.figure}</p>
+              <p className="text-[#FFFFFF] text-base md:text-lg mt-2">{c.caption}</p>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
   );
 }
 
@@ -119,17 +141,21 @@ const STEPS = [
 
 function HowWeWork() {
   return (
-    <section className="mh-band bg-sand-light py-24 md:py-32 border-t border-navy/5" aria-labelledby="how-we-work-heading">
+    <section className="mh-bg-white py-24 md:py-32" aria-labelledby="how-we-work-heading">
       <div className="container mx-auto px-6">
         <div className="max-w-3xl">
           <h2 id="how-we-work-heading" className="font-serif text-display-md text-navy leading-tight mb-12 text-balance">
             Four steps, one adviser throughout.
           </h2>
-          <ol className="space-y-8">
+          <ol>
             {STEPS.map((s, i) => (
-              <li key={s.title} className="grid grid-cols-[2.5rem_minmax(0,1fr)] gap-4">
-                <span className="font-serif text-2xl text-accent-dark leading-none pt-0.5" aria-hidden="true">{i + 1}</span>
-                <div>
+              <li key={s.title} className="grid grid-cols-[3rem_minmax(0,1fr)] gap-5">
+                {/* Numeral, then a thin plum line down to the next numeral (none after the last). */}
+                <span className="flex flex-col items-center" aria-hidden="true">
+                  <span className="font-serif text-5xl text-[#96506D] leading-none">{i + 1}</span>
+                  {i < STEPS.length - 1 && <span className="mt-3 w-px flex-1 bg-[#96506D]" />}
+                </span>
+                <div className={i < STEPS.length - 1 ? 'pb-10' : ''}>
                   <h3 className="font-serif text-xl text-navy mb-1.5">{s.title}</h3>
                   <p className="text-navy-light leading-relaxed">{s.body}</p>
                 </div>
@@ -251,27 +277,28 @@ const HOME_FAQ: FAQItem[] = [
 
 function RecentWork() {
   return (
-    <section className="bg-white py-24 md:py-28 border-t border-navy/5">
+    <section className="mh-bg-blush py-24 md:py-28">
       <div className="container mx-auto px-6">
         <FadeIn>
           <div className="max-w-3xl mb-12">
             <h2 className="font-serif text-display-md text-navy leading-tight text-balance">Recent work</h2>
           </div>
         </FadeIn>
-        <Stagger className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {/* Mobile: one horizontally scrollable row, each card 85% wide so the next one shows. Desktop: two rows of three. */}
+        <Stagger className="flex gap-4 overflow-x-auto snap-x snap-mandatory -mx-6 px-6 pb-3 md:grid md:grid-cols-3 md:gap-6 md:overflow-visible md:mx-0 md:px-0 md:pb-0">
           {HOME_RECENT_WORK.map((study) => (
-            <StaggerItem key={study.title}>
+            <StaggerItem key={study.title} className="w-[85%] shrink-0 snap-start md:w-auto">
               <Link
                 to="/case-studies/"
-                className="group flex flex-col h-full rounded-xl border border-navy/10 bg-white p-7 hover:border-accent/40 hover:shadow-lg transition-all"
+                className="group flex flex-col h-full rounded-xl border border-[#E6E0D6] border-t-[3px] border-t-[#96506D] bg-[#FFFFFF] p-7"
               >
-                <span className="self-start text-xs font-mono tracking-widest uppercase text-accent-dark mb-4">
+                <span className="self-start text-xs font-mono tracking-widest uppercase text-[#96506D] mb-4">
                   {study.tag}
                 </span>
-                <h3 className="font-serif text-xl text-navy leading-snug mb-1 group-hover:text-accent-dark transition-colors">
+                <h3 className="font-serif text-xl text-[#1F2226] leading-snug mb-1 group-hover:text-[#96506D] transition-colors">
                   {study.title}
                 </h3>
-                <p className="text-xs font-mono text-navy-light tracking-widest uppercase mb-5">{study.sector}</p>
+                <p className="text-xs font-mono text-[#1F2226] tracking-widest uppercase mb-5">{study.sector}</p>
                 <p className="text-sm text-navy leading-relaxed">{study.outcome}</p>
               </Link>
             </StaggerItem>
@@ -291,7 +318,7 @@ function RecentWork() {
 
 function LeoBlock() {
   return (
-    <section className="bg-white py-24 md:py-28 border-t border-navy/5">
+    <section className="mh-bg-blush py-24 md:py-28">
       <div className="container mx-auto px-6">
         <div className="max-w-5xl mx-auto grid md:grid-cols-12 gap-10 md:gap-14 items-center">
           <FadeIn className="md:col-span-4">
@@ -300,8 +327,8 @@ function LeoBlock() {
             </div>
           </FadeIn>
           <FadeIn delay={0.1} className="md:col-span-8">
-            <h2 className="font-serif text-display-md text-navy leading-tight mb-2">Leo Meggitt</h2>
-            <p className="font-mono text-xs text-accent-dark tracking-widest uppercase mb-6">
+            <h2 className="font-serif text-display-md text-[#96506D] leading-tight mb-2">Leo Meggitt</h2>
+            <p className="font-mono text-xs text-[#96506D] tracking-widest uppercase mb-6">
               Managing Director, Mastella Advisory
             </p>
             <p className="text-body-lg text-navy-light leading-relaxed mb-8">
@@ -332,6 +359,8 @@ export default function Home() {
         description="Off-market M&A for founder-led businesses worth £5M to £50M. We find buyers other advisers don't reach. Confidential sell-side, fundraising and exit readiness."
         canonical="https://mastellagroup.com/"
       />
+
+      <CredentialsBand />
 
       <RecentWork />
 
