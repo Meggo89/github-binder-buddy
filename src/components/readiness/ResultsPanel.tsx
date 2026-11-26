@@ -2,7 +2,7 @@ import { ArrowRight, AlertTriangle, Printer } from 'lucide-react';
 import type { Answer, ReadinessResult } from '../../content/readiness/score';
 import { describeAnswer, lcFirst } from './format';
 import { AssessmentCta } from '../scalexit/ExitReadinessSection';
-import { MODEL } from '../../content/readiness/model';
+import { FREE_INDICATORS } from '../../content/readiness/free-score';
 import { areaResults } from '../../content/readiness/areas';
 import { SendResultsForm } from './SendResultsForm';
 
@@ -54,7 +54,7 @@ export function ResultsPanel({ result, answers }: Props) {
               <p className="font-mono text-sm tracking-widest uppercase text-accent-dark mt-3">{result.rating}</p>
             </div>
             <p className="text-body-lg text-navy-light leading-relaxed max-w-xl">
-              Based on {result.answered} of {MODEL.indicators.length} questions answered. A quick read from your own
+              Based on {result.answered} of {FREE_INDICATORS.length} questions answered. A quick read from your own
               answers, covering four of the five areas buyers test.
             </p>
           </div>

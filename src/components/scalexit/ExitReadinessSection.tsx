@@ -31,7 +31,9 @@ export function AssessmentCta({ className = '' }: { className?: string }) {
   );
 }
 
-function FullAssessment({ dark = false }: { dark?: boolean }) {
+// full: the fuller explanation, shown on the Exit Readiness Assessment page only (Leo's instruction).
+// Otherwise Leo's short home page copy.
+function FullAssessment({ dark = false, full = false }: { dark?: boolean; full?: boolean }) {
   return (
     <div className="er-panel rounded-xl border border-navy/10 bg-white p-6 md:p-10">
       <div className={CARD ? 'grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,28rem)] lg:gap-12 items-start' : ''}>
@@ -45,18 +47,35 @@ function FullAssessment({ dark = false }: { dark?: boolean }) {
             )}
             <h3 className="font-serif text-2xl md:text-3xl text-navy leading-tight">The full Exit Readiness Assessment</h3>
           </div>
-          <p className="text-body-lg text-navy-light leading-relaxed mb-4">
-            We run full assessments on Scalexit, the platform we co-founded. It scores your business the way a buyer
-            would across five areas: financial health, operational maturity, strategic position and growth, market
-            attractiveness and diligence readiness. You see what to fix first and what each gap could cost you on
-            price, and a senior adviser takes you through the results. It is a low-cost first step, months or years
-            before a sale.
-          </p>
-          <p className="text-body-lg text-navy-light leading-relaxed mb-8">
-            The platform also lets us start lining up buyers early: your business can be shown to vetted buyers under
-            a codename, never your name, so by the time you are ready to sell we already know who is interested. If
-            you go on to sell, the same work carries straight into the sale process.
-          </p>
+          {full ? (
+            <>
+              <p className="text-body-lg text-navy-light leading-relaxed mb-4">
+                We run the Exit Readiness Assessment on Scalexit, the platform we co-founded. It scores your business
+                the way a buyer would across five areas: financial health, operational maturity, strategic position and
+                growth, market attractiveness and diligence readiness. The scoring is built on our own research into
+                what UK buyers have paid across 35 sectors, and on 15 years of seeing what they pay for and what they
+                mark down.
+              </p>
+              <p className="text-body-lg text-navy-light leading-relaxed mb-4">
+                The same assessment includes the management interviews, the checks against your accounts and customer
+                data, the written report and a senior adviser&apos;s review of the results, all set out on this page.
+                You see what to fix first and what each gap could cost you on price.
+              </p>
+              <p className="text-body-lg text-navy-light leading-relaxed mb-8">
+                The platform also lets us start lining up buyers early: your business can be shown to vetted buyers
+                under a codename, never your name, so by the time you are ready to sell we already know who is
+                interested. If you go on to sell, the same work carries straight into the sale process.
+              </p>
+            </>
+          ) : (
+            <p className="text-body-lg text-navy-light leading-relaxed mb-8">
+              We run full assessments on Scalexit, the platform we co-founded. The scoring is built on our own research
+              into what UK buyers have paid across 35 sectors, and on 15 years of seeing what they pay for and what
+              they mark down. You get a score, the gaps ranked by what each could cost you on price, and a senior
+              adviser to take you through it. The same platform lets us line up vetted buyers under a codename before
+              you are ready to sell.
+            </p>
+          )}
           <AssessmentCta />
         </div>
         {CARD && (
@@ -87,7 +106,7 @@ function FreeScore() {
           Not ready for that yet? Try the free three-minute score
         </h3>
         <p className="text-navy-light leading-relaxed">
-          Eleven of the questions buyers test, covering four of the five areas. About three minutes, no sign-up. It
+          Twelve of the questions buyers test, covering four of the five areas. About three minutes, no sign-up. It
           gives you a quick read, not a full assessment.
         </p>
       </div>
@@ -126,15 +145,15 @@ export function ExitReadinessSection() {
   );
 }
 
-// Service pages: the same content inside the page's own column.
-export function ExitReadinessBlock({ className = '' }: { className?: string }) {
+// Service pages: the same content inside the page's own column. `full` gives the fuller explanation.
+export function ExitReadinessBlock({ className = '', full = false }: { className?: string; full?: boolean }) {
   return (
     <div className={className} aria-labelledby="exit-readiness-block-heading" role="region">
       <h2 id="exit-readiness-block-heading" className="font-serif text-display-md text-navy leading-tight mb-4 text-balance">
         {HEADING}
       </h2>
       <p className="text-body-lg text-navy-light leading-relaxed mb-8">{INTRO}</p>
-      <FullAssessment />
+      <FullAssessment full={full} />
       <div className="mt-5">
         <FreeScore />
       </div>

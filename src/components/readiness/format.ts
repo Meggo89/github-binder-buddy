@@ -1,5 +1,6 @@
 import type { Answer, IndicatorResult, ReadinessResult } from '../../content/readiness/score';
 import { MODEL } from '../../content/readiness/model';
+import { FREE_INDICATORS } from '../../content/readiness/free-score';
 import { areaResults } from '../../content/readiness/areas';
 
 export function describeAnswer(r: IndicatorResult, a: Answer | undefined): string {
@@ -23,7 +24,7 @@ export function describeAnswer(r: IndicatorResult, a: Answer | undefined): strin
 export function summarise(result: ReadinessResult, answers: Record<string, Answer | undefined>): string {
   const shown = (x: number | null) => (x === null ? 'not scored' : String(Math.round(x)));
   const lines = [
-    `Overall: ${shown(result.overall)} out of 100 (${result.rating}). ${result.answered} of ${MODEL.indicators.length} questions answered.`,
+    `Overall: ${shown(result.overall)} out of 100 (${result.rating}). ${result.answered} of ${FREE_INDICATORS.length} questions answered.`,
     '',
     'Area scores:',
     ...areaResults(result).map((a) => `- ${a.name}: ${shown(a.score)}${a.score === null ? '' : ` (${a.rating})`}`),

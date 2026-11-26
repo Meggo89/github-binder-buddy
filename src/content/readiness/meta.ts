@@ -5,7 +5,7 @@ export const SCORE_PAGE = {
   path: '/exit-readiness-score',
   title: 'Free Exit Readiness Score for UK Owners',
   description:
-    'Free exit readiness score for UK owners. 11 questions, about three minutes, scored on the measures buyers test. No sign-up, answers stay in your browser.',
+    'Free exit readiness score for UK owners. 12 questions, about three minutes, scored on the measures buyers test. No sign-up, answers stay in your browser.',
 };
 
 export const SCORING_PAGE = {

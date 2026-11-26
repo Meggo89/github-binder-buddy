@@ -109,7 +109,8 @@ export type ServiceStep = { title: string; detail: string };
 export type ServiceLanding = {
   slug: string;
   // Show the exit readiness section (full Assessment, then the free score) after the intro.
-  exitPreparationBlock?: boolean;
+  // 'full' adds the fuller explanation of the Assessment (used on the Assessment page only).
+  exitPreparationBlock?: boolean | 'full';
   name: string;
   title: string;
   metaDescription: string;

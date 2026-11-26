@@ -9,13 +9,14 @@ import { RelatedLinks } from '../components/landing/RelatedLinks';
 import { QuestionField } from '../components/readiness/QuestionField';
 import { ResultsPanel } from '../components/readiness/ResultsPanel';
 import { MODEL } from '../content/readiness/model';
+import { FREE_INDICATORS } from '../content/readiness/free-score';
 import { SCORED_AREAS, areaIndicators, areaPurpose, areaWeight } from '../content/readiness/areas';
 import { scoreAnswers, type Answer, type ReadinessResult } from '../content/readiness/score';
 import { SCORE_PAGE } from '../content/readiness/meta';
 import { SITE, canonicalFor } from '../seo/site-meta';
 
 const MIN_ANSWERED = 8;
-const ASKED = MODEL.indicators.length;
+const ASKED = FREE_INDICATORS.length;
 const PATH = SCORE_PAGE.path;
 const SCORE_META = SCORE_PAGE;
 

@@ -181,7 +181,7 @@ export default function InsightArticle() {
                       </>
                     )}{' '}
                     To see how a buyer would rate your business today, take the free{' '}
-                    <Link to="/exit-readiness-score/">Exit Readiness Score</Link>: eleven questions, about three minutes.
+                    <Link to="/exit-readiness-score/">Exit Readiness Score</Link>: twelve questions, about three minutes.
                   </p>
                 </div>
               </div>

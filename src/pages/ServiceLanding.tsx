@@ -161,7 +161,9 @@ export default function ServiceLandingPage() {
               <p className="text-body-lg text-navy-light leading-relaxed mb-8">{service.intro}</p>
             </FadeIn>
 
-            {service.exitPreparationBlock && <ExitReadinessBlock className="mb-16" />}
+            {service.exitPreparationBlock && (
+              <ExitReadinessBlock className="mb-16" full={service.exitPreparationBlock === 'full'} />
+            )}
 
             {service.offer && <OfferBox offer={service.offer} />}
             {service.steps && <Steps steps={service.steps} />}

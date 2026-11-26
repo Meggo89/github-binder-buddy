@@ -6,6 +6,7 @@ import { PageLayout } from '../components/layout';
 import { AuthorityLine } from '../components/landing/AuthorityLine';
 import { FaqSection } from '../components/landing/FaqSection';
 import { MODEL } from '../content/readiness/model';
+import { FREE_INDICATORS } from '../content/readiness/free-score';
 import { SCORED_AREAS, areaIndicators, areaPurpose, areaWeight } from '../content/readiness/areas';
 import type { ReadinessIndicator } from '../content/readiness/types';
 import { SCORING_PAGE } from '../content/readiness/meta';
@@ -16,7 +17,7 @@ const PATH = SCORING_PAGE.path;
 const PUBLISHED = SCORING_PAGE.published;
 const SCORING_META = SCORING_PAGE;
 
-const byId = (id: string) => MODEL.indicators.find((i) => i.id === id) as ReadinessIndicator;
+const byId = (id: string) => FREE_INDICATORS.find((i) => i.id === id) as ReadinessIndicator;
 const lc = lcFirst;
 
 function Hero() {
@@ -181,8 +182,7 @@ export default function ExitReadinessScoring() {
               <p>
                 Each measure falls into one of four bands. Strong scores 4, adequate 3, weak 2 and critical 1. Bands
                 convert to a score out of 100 (strong 100, adequate 67, weak 33, critical 0) and are averaged within
-                each area. Within their areas, {heavy.join(', ')} carry one and a half times the weight of the other
-                measures.
+                each area. Within their areas, {heavy.join(', ')} count for more than the other measures.
               </p>
               <p>
                 The overall score weights the areas as shown below. 75 or more is strong, 50 to 74 adequate, 25 to
@@ -253,7 +253,7 @@ export default function ExitReadinessScoring() {
             <div className="rounded-xl bg-navy-deepest text-white p-8 md:p-10 mt-8">
               <h2 className="font-serif text-3xl leading-tight mb-4 text-balance">See where your business sits</h2>
               <p className="text-sand-light leading-relaxed mb-8 max-w-2xl">
-                The free Exit Readiness Score asks these {MODEL.indicators.length} questions and scores your answers on
+                The free Exit Readiness Score asks these {FREE_INDICATORS.length} questions and scores your answers on
                 these thresholds. About three minutes, no sign-up.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
