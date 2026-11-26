@@ -1,3 +1,17 @@
+import reportTelecomsUnifiedComms from './telecoms-unified-comms-ma-2026';
+import reportBuildingServicesCompliance from './building-services-compliance-ma-2026';
+import reportEnergyServicesRenewables from './energy-services-renewables-ma-2026';
+import reportMarketingDigitalAgencies from './marketing-digital-agencies-ma-2026';
+import reportPetCareAnimalHealth from './pet-care-animal-health-ma-2026';
+import reportNurseriesChildcare from './nurseries-childcare-ma-2026';
+import reportWasteEnvironmentalServices from './waste-environmental-services-ma-2026';
+import reportEstateAgencyLettingsProperty from './estate-agency-lettings-property-ma-2026';
+import reportOccupationalHealthWellbeing from './occupational-health-wellbeing-ma-2026';
+import reportVehicleFleetAutomotive from './vehicle-fleet-automotive-ma-2026';
+import reportConstructionProductsSpecialistContractors from './construction-products-specialist-contractors-ma-2026';
+import reportEventsExhibitionsVenues from './events-exhibitions-venues-ma-2026';
+import reportTravelTourOperators from './travel-tour-operators-ma-2026';
+import reportPrintSignagePromotional from './print-signage-promotional-ma-2026';
 import reportPlantHireEquipmentRental from './plant-hire-equipment-rental-ma-2026';
 import reportPackaging from './packaging-ma-2026';
 import reportTestMeasurementInstruments from './test-measurement-instruments-ma-2026';
@@ -41,11 +55,26 @@ import type { Article } from './types';
 export type { Article };
 export { INSIGHT_LINKS } from './related';
 
-// Display order: newest first. The five sector reports of 23 November 2026 lead, then the fifteen
+// Display order: newest first. The fourteen sector reports of 26 November 2026 lead, then the five
+// sector reports of 23 November 2026, then the fifteen
 // sector reports of 16 November 2026, then the six
 // articles published earlier in November 2026, then the five pillar articles from August 2026,
 // then the earlier long-form pieces.
 export const articles: Article[] = [
+  reportTelecomsUnifiedComms,
+  reportBuildingServicesCompliance,
+  reportEnergyServicesRenewables,
+  reportMarketingDigitalAgencies,
+  reportPetCareAnimalHealth,
+  reportNurseriesChildcare,
+  reportWasteEnvironmentalServices,
+  reportEstateAgencyLettingsProperty,
+  reportOccupationalHealthWellbeing,
+  reportVehicleFleetAutomotive,
+  reportConstructionProductsSpecialistContractors,
+  reportEventsExhibitionsVenues,
+  reportTravelTourOperators,
+  reportPrintSignagePromotional,
   reportPlantHireEquipmentRental,
   reportPackaging,
   reportTestMeasurementInstruments,

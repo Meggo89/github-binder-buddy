@@ -63,10 +63,16 @@ Senior-led throughout, with the Managing Director on every call. Off-market buye
 UK sector M&A reports 2026, by Mastella Advisory: who is buying owner-managed businesses in each sector, the prices that were published and what buyers pay for. All reports: https://mastellagroup.com/insights/sector-reports/
 
 - Accountancy practices (Accountancy, tax, bookkeeping and payroll practices): https://mastellagroup.com/insights/accountancy-practices-ma-2026/
+- Building services and compliance (M&E contractors, HVAC businesses and compliance and testing firms): https://mastellagroup.com/insights/building-services-compliance-ma-2026/
+- Business telecoms and unified comms (Telecoms resellers, hosted voice, unified comms, business mobile and ISPs): https://mastellagroup.com/insights/telecoms-unified-comms-ma-2026/
 - Care and complex care (Home care, complex care, supported living and children's services): https://mastellagroup.com/insights/care-complex-care-ma-2026/
 - Commercial insurance brokers (Independent commercial brokers, MGAs and wholesale brokers): https://mastellagroup.com/insights/commercial-insurance-brokers-ma-2026/
+- Construction products and specialist contractors (Building products makers, merchants and specialist contractors): https://mastellagroup.com/insights/construction-products-specialist-contractors-ma-2026/
 - Education and training (Nurseries, training providers, e-learning and independent schools): https://mastellagroup.com/insights/education-training-ma-2026/
+- Energy services and renewables (Solar, heat pump, EV charging, insulation and energy consultancy businesses): https://mastellagroup.com/insights/energy-services-renewables-ma-2026/
 - Engineering and technical services (Engineering consultancy, testing, inspection and certification): https://mastellagroup.com/insights/engineering-technical-services-ma-2026/
+- Estate agency, lettings and property management (Estate agencies, lettings agencies, block managers and commercial property firms): https://mastellagroup.com/insights/estate-agency-lettings-property-ma-2026/
+- Events, exhibitions and venues (Exhibition organisers, event agencies, production, hospitality and venues): https://mastellagroup.com/insights/events-exhibitions-venues-ma-2026/
 - Facilities management and cleaning (Contract cleaning, soft and hard FM, guarding and washroom services): https://mastellagroup.com/insights/facilities-management-cleaning-ma-2026/
 - Fire and security (Fire alarm, sprinkler, passive fire and electronic security services): https://mastellagroup.com/insights/fire-security-life-safety-ma-2026/
 - Food and drink producers (Food and drink manufacturers, bakeries and co-packers): https://mastellagroup.com/insights/food-drink-producers-ma-2026/
@@ -75,13 +81,21 @@ UK sector M&A reports 2026, by Mastella Advisory: who is buying owner-managed bu
 - IT, MSP and cyber (Managed service providers, cyber security and cloud services): https://mastellagroup.com/insights/it-msp-cyber-ma-2026/
 - Legal services (Law firms, from conveyancing and personal injury to commercial practices): https://mastellagroup.com/insights/legal-services-ma-2026/
 - Logistics and distribution (Haulage, warehousing, freight forwarding and final mile): https://mastellagroup.com/insights/logistics-distribution-ma-2026/
+- Marketing and digital agencies (Creative, digital, PR, performance, research and experiential agencies): https://mastellagroup.com/insights/marketing-digital-agencies-ma-2026/
+- Nurseries and childcare (Day nurseries, pre-schools and childcare groups): https://mastellagroup.com/insights/nurseries-childcare-ma-2026/
+- Occupational health and wellbeing (Occupational health, employee assistance and workplace wellbeing businesses): https://mastellagroup.com/insights/occupational-health-wellbeing-ma-2026/
 - Packaging (Packaging manufacturers, converters and distributors): https://mastellagroup.com/insights/packaging-ma-2026/
+- Pet care and animal health (Pet food, pet products and distribution, vets, animal health and services): https://mastellagroup.com/insights/pet-care-animal-health-ma-2026/
 - Plant hire and equipment rental (Plant, tool, access, crane, welfare and specialist rental): https://mastellagroup.com/insights/plant-hire-equipment-rental-ma-2026/
+- Print, signage and promotional merchandise (Commercial printers, direct mail, signage and promotional merchandise): https://mastellagroup.com/insights/print-signage-promotional-ma-2026/
 - Recruitment (Recruitment agencies, staffing businesses and executive search): https://mastellagroup.com/insights/recruitment-staffing-ma-2026/
 - Software and tech-enabled services (B2B software, SaaS and data businesses): https://mastellagroup.com/insights/software-tech-enabled-ma-2026/
 - Specialist distribution (Builders merchants and electrical, plumbing and industrial distributors): https://mastellagroup.com/insights/specialist-distribution-ma-2026/
 - Specialist manufacturing (Owner-managed precision, electronics and industrial manufacturers): https://mastellagroup.com/insights/specialist-manufacturing-ma-2026/
 - Test and measurement (Analysers, sensors, test equipment and scientific instruments): https://mastellagroup.com/insights/test-measurement-instruments-ma-2026/
+- Tour operators and travel management (Specialist tour operators, travel agencies and business travel management): https://mastellagroup.com/insights/travel-tour-operators-ma-2026/
+- Vehicle, fleet and automotive services (Accident repair, tyres and servicing, motor factors and fleet services): https://mastellagroup.com/insights/vehicle-fleet-automotive-ma-2026/
+- Waste and environmental services (Skip hire, commercial collection, recycling, hazardous waste and remediation): https://mastellagroup.com/insights/waste-environmental-services-ma-2026/
 - Wealth management and IFAs (IFAs, financial planners and discretionary wealth managers): https://mastellagroup.com/insights/wealth-management-ifa-ma-2026/
 
 ## Insight articles

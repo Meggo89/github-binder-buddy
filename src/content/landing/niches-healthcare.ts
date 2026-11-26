@@ -404,6 +404,7 @@ export const HEALTHCARE_NICHES: NicheLanding[] = [
     slug: "occupational-health",
     reportCallouts: [
       { label: "Sector report: UK healthcare services M&A 2026: what owners should know before they sell", href: "/insights/healthcare-services-ma-2026/" },
+      { label: "Sector report: Selling a UK occupational health or workplace wellbeing business in 2026: who is buying and what they pay", href: "/insights/occupational-health-wellbeing-ma-2026/" },
     ],
     pillarSlug: "healthcare-services",
     name: "Occupational health",

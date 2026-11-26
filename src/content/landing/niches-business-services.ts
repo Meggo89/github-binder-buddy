@@ -89,6 +89,7 @@ export const BUSINESS_SERVICES_NICHES: NicheLanding[] = [
     reportCallouts: [
       { label: "Sector report: UK facilities management and cleaning M&A 2026: an owner's guide to the sale market", href: "/insights/facilities-management-cleaning-ma-2026/" },
       { label: "Sector report: Selling a UK fire, security or life-safety services business in 2026: who is buying and what they pay", href: "/insights/fire-security-life-safety-ma-2026/" },
+      { label: "Sector report: Selling a UK waste management or environmental services business in 2026: who is buying and what they pay", href: "/insights/waste-environmental-services-ma-2026/" },
     ],
     pillarSlug: "business-services",
     name: "Facilities management",

@@ -1,0 +1,145 @@
+import type { Article } from './types';
+
+const article: Article = {
+  slug: "events-exhibitions-venues-ma-2026",
+  title: "Selling a UK events, exhibitions or venues business in 2026: who is buying and what they pay",
+  titleTag: "UK Events, Exhibitions and Venues M&A 2026 | Mastella",
+  standfirst: "Our research on 54 UK deals since January 2024, the prices and structures recorded in buyers' accounts, and the economics of advance payments and labour costs. Prepared 24 November 2026.",
+  excerpt: "Owners of exhibition organisers, event agencies, production and staging companies, event logistics, hospitality and venue businesses are selling into the busiest events M&A market for several years.",
+  metaDescription: "Our research on 54 UK events deals since 2024: who is buying, platform multiples, deposits and what lifts value.",
+  formReportId: "events-exhibitions-venues-ma-2026",
+  formNiches: ["Exhibitions and trade shows", "Conferences and corporate events", "Event and experiential agency", "Production, staging and AV", "Temporary structures and marquees", "Event hospitality and catering", "Venues", "Other"],
+  download: { href: '/downloads/mastella-events-exhibitions-venues-ma-2026.pdf', label: 'Download this report as a PDF' },
+  content: `
+      <p class="report-author"><em>By Leo Meggitt, Managing Director, Mastella Advisory</em><br />15 years in M&amp;A. Has advised on over £800m of transactions across multiple sectors.</p>
+      <nav class="report-toc" aria-label="Contents"><p class="report-toc-label">Contents</p><ol><li><a href="#executive-summary">Executive summary</a></li><li><a href="#the-market-2024-to-2026">The market, 2024 to 2026</a></li><li><a href="#what-has-been-paid-the-valuation-evidence">What has been paid: the valuation evidence</a></li><li><a href="#what-buyers-pay-for">What buyers pay for</a></li><li><a href="#a-preparation-checklist-for-the-next-12-to-24-months">A preparation checklist for the next 12 to 24 months</a></li><li><a href="#faq">FAQ</a></li><li><a href="#where-to-start">Where to start</a></li><li><a href="#sources">Sources</a></li></ol></nav>
+      <h2 id="executive-summary">Executive summary</h2>
+      <p>Owners of exhibition organisers, event agencies, production and staging companies, event logistics, hospitality and venue businesses are selling into the busiest events M&amp;A market for several years. We logged 54 UK transactions since January 2024, 33 of them in 2026 so far.</p>
+      <p><strong>The organisers are consolidating fastest.</strong> Exhibition and conference organisers made more than 20 of the deals in our log. Nineteen Group, backed by Phoenix Equity Partners, bought five shows or show companies. Easyfairs, CloserStill and Diversified Communications each bought two or three. Collingwood, an adviser to events businesses, counted 47 events transactions in the first half of 2026, up 31%.</p>
+      <p><strong>The platforms trade at double-digit multiples.</strong> Informa agreed to buy Clarion Events for £2.24bn, about 11.1x expected 2027 EBITDA. Hellman &amp; Friedman agreed to buy Hyve for about US$1.8bn, reported at 12.9x 2026 EBITDA. CloserStill was valued at £1.35bn when Searchlight took a 40% stake, about 16x 2025 profit.</p>
+      <p><strong>Prices for owner-managed businesses are rarely published.</strong> We found no disclosed price for a UK owner-managed events business in the £2m to £50m turnover range. The one UK target with a price in its buyer's accounts was Boiler Room, which Superstruct bought for €25.2m in cash, about 1.3x revenue, while it was loss-making.</p>
+      <p><strong>Customers pay in advance, and buyers look at it closely.</strong> Hyve held deferred income equal to about 57% of a year's revenue, and Easyfairs' UK business about 45%. A buyer of a show takes on the obligation to deliver events that customers have already paid for.</p>
+      <p><strong>Labour is the pressure point, and some businesses are failing.</strong> The Meetings Industry Association found that employer National Insurance rises had delayed recruitment plans for 41% of the 100 businesses that responded to its June 2026 survey. Stagestruck closed in May 2026, and Noble Events and Bistro Live were sold out of administration.</p>
+      <!--FORM:buyer-list-->
+      <h2 id="the-market-2024-to-2026">The market, 2024 to 2026</h2>
+      <h3 id="what-we-counted">What we counted</h3>
+      <p>We logged 54 UK transactions announced or completed between January 2024 and November 2026: 7 in 2024, 14 in 2025 and 33 in 2026 so far. They cover exhibition and conference organisers, event agencies, production, staging and audio-visual companies, stand builders, temporary structures, event logistics, festivals and venues. We left out marketing agencies whose events work is minor, hotels and ticketing software. The 2026 figure partly reflects the trade press columns we worked from, which cover recent months most fully, but other trackers also show activity rising.</p>
+      <h3 id="the-size-of-the-market">The size of the market</h3>
+      <p>The UK Events Report published in December 2025 put the value of UK events at £68.7bn, with growth forecast at 3% to 5% a year through 2027. The UK Conference and Meeting Survey for 2026 reported 1.17m conferences and meetings in 2025, up 8%, with direct spend of £22.5bn against £19.3bn in 2024. The average 24-hour residential delegate rate rose to £187 from £164, and corporate events rose to 59% of the market from 52%. About a third of events were organised by professional conference organisers or event agencies, and 77% of venues invested in their facilities, at an average of more than £200,000 each.</p>
+      <p>The number of UK exhibitions reached its highest level since 2015. Events Industry Alliance research counted about 1,154 exhibitions and conferences at the main UK venues in 2025, with almost 6.8m visitors and 139,000 exhibitors.</p>
+      <h3 id="margins-by-type-of-business">Margins by type of business</h3>
+      <p>Margins differ widely across the sector, and a buyer will compare a business with peers doing the same kind of work. Informa's B2B live events division reported adjusted operating profit of £449.5m on revenue of £1.59bn in the first half of 2026, a margin of about 28%, as reported by Raconteur. NEP's UK audio-visual and broadcast business earned EBITDA of £41.4m on turnover of £224.6m in 2024, about 18%. Easyfairs' UK business made operating profit of £0.55m on turnover of £30.2m in the year to June 2025, a year in which it was absorbing several show acquisitions.</p>
+      <p>Sentiment among suppliers was mixed going into 2025. In ESSA's survey, 46% forecast higher revenue for the year and 29% a decline, while 68% said they were working at full capacity.</p>
+      <h3 id="costs-and-capacity">Costs and capacity</h3>
+      <p>Labour is the main constraint. In the Meetings Industry Association's June 2026 survey, employer National Insurance rises had delayed recruitment for 41% of respondents, and 90% said employment costs hurt their ability to hire entry-level staff. An ESSA survey published in December 2025 found 73% of event suppliers found recruitment hard, and 49% said clients misunderstood the true cost of delivery.</p>
+      <p>Large one-off projects make revenue lumpy for production businesses. NEP's UK business, which provides audio-visual and broadcast services, reported turnover down to £224.6m in 2024 from £240.8m because one-off projects did not recur.</p>
+      <h3 id="who-is-buying">Who is buying</h3>
+      <div class="report-table"><table>
+<thead><tr><th scope="col">Buyer type</th><th scope="col">Examples from our log</th></tr></thead>
+<tbody>
+<tr><td>Exhibition and conference organisers</td><td>Nineteen Group, backed by Phoenix (Plantworx, Commercial Vehicle Show, Space-Comm Expo Europe, FIT Show, Blueprint Event Company); Easyfairs (Southern Manufacturing Show, UK Metals Expo, Digital Accountancy Media); CloserStill (ROAR B2B, Elite Exhibitions); Diversified Communications (Workspace Design Show, Smart Buildings Media); Messe Frankfurt (LiGHT Expo London); Forge, owned by Apollo funds (Kisaco Research); Media 10 (Futurebuild); Montgomery (Halldale Group); Mark Allen (DVV Media's road portfolio)</td></tr>
+<tr><td>Event production, staging and logistics</td><td>Groupe Novelty (Delta Live); Encore (Eclipse); Creative Live (Event Specialists and Space Studio Graphics); Camfaud (Templant); North Down Marquees (Table 10); Premier Events (PYTCH)</td></tr>
+<tr><td>Event and experiential agencies</td><td>Strata Group (Wonderland, We Are Collider); Impact XM (Shelton Fleming); Havas (Bearded Kitten); ITA Group (C2events); Opus Agency (Wave); FCM Meetings and Events (fresh)</td></tr>
+<tr><td>Festivals, live entertainment and venues</td><td>Superstruct, backed by KKR and CVC (Boiler Room, Fistral Leisure); MARI (Taste Festivals); Trafalgar Entertainment (London Theatre Company)</td></tr>
+<tr><td>Management buyouts backed by private equity</td><td>Tracsis Events (Connection Capital); Full Circle Exhibitions and Events (Panoramic Growth Equity); Haygarth (from Omnicom)</td></tr>
+<tr><td>Employee ownership trusts</td><td>Inconnection, Rapiergroup, Kambe Events</td></tr>
+<tr><td>Distressed sales</td><td>Noble Events (to veSpace), Bistro Live (pre-pack to FM Hospitality)</td></tr>
+<tr><td>Large platform deals</td><td>Informa (Clarion Events), Hellman &amp; Friedman (Hyve), Searchlight and Providence (CloserStill)</td></tr>
+</tbody></table></div>
+      <p>Two patterns matter for an owner. First, organisers are buying individual shows as well as companies: Nineteen Group bought Plantworx and the Commercial Vehicle Show from the trade associations that ran them, and Mark Allen and ProMedia split DVV Media's portfolio between them. A single strong show can be sold on its own. Second, overseas buyers are active in production and agencies: Groupe Novelty from France, Encore and ITA Group from the US, and Messe Frankfurt.</p>
+      <h2 id="what-has-been-paid-the-valuation-evidence">What has been paid: the valuation evidence</h2>
+      <div class="report-table"><table>
+<thead><tr><th scope="col">Business</th><th scope="col">Date</th><th scope="col">Buyer</th><th scope="col">Price and structure</th><th scope="col">What the figures imply</th></tr></thead>
+<tbody>
+<tr><td>Clarion Events</td><td>Oct 2026 (agreed)</td><td>Informa</td><td>£2.24bn cash</td><td>About 11.1x expected 2027 EBITDA</td></tr>
+<tr><td>Hyve Group</td><td>Jun 2026 (agreed)</td><td>Hellman &amp; Friedman</td><td>About US$1.8bn, as reported</td><td>12.9x 2026 EBITDA, as reported by NKP M&amp;A Insights</td></tr>
+<tr><td>CloserStill Media (40% stake)</td><td>May 2026</td><td>Searchlight, alongside Providence</td><td>Valuation of £1.35bn</td><td>About 16x 2025 profit and just over 14x forecast 2026 profit</td></tr>
+<tr><td>Boiler Room</td><td>Jan 2025</td><td>Superstruct</td><td>€25.2m, all cash</td><td>About 1.3x revenue of €19.9m; loss-making</td></tr>
+<tr><td>Hyve's six US acquisitions</td><td>2024 to 2025</td><td>Hyve</td><td>Deferred or contingent share from 2% to 97% of price, median about 20%</td><td>Price almost entirely goodwill and intangibles</td></tr>
+<tr><td>Easyfairs UK show acquisitions</td><td>2024 to 2025</td><td>Easyfairs</td><td>Not disclosed by show; £8.5m and £21.2m of goodwill and intangibles added in the two years</td><td>Proxies for price only</td></tr>
+</tbody></table></div>
+      <h3 id="how-to-read-it">How to read it</h3>
+      <p><strong>The platform multiples are not a guide for a small business.</strong> Clarion, Hyve and CloserStill are among the largest events businesses in the world. Their multiples of 11x to 16x reflect scale, international portfolios and recurring annual shows. They show how much private equity values the sector, which is why it is buying smaller shows to add to those platforms. Informa's own targets for Clarion show what a trade buyer needs to justify such a price: about £50m a year of cost savings and a double-digit post-tax return on the capital invested within three years.</p>
+      <p><strong>For owner-managed businesses, no reliable published multiple exists.</strong> We found none in buyers' accounts, adviser reports or trade press. Collingwood says traditional trade shows still command the highest multiples, and that buyers pay a premium for formats such as hosted-buyer programmes, one-to-one meetings and conferences combined with exhibitions, which give access to decision makers and year-round data. Agencies, production companies and venues are valued more like other service businesses, on profit, margin and the reliability of client work.</p>
+      <p><strong>Expect part of the price to be deferred.</strong> Across Hyve's acquisitions, the median share of the price that was deferred or contingent was about 20%, and in one case 97%. That is how organisers manage the risk that a show's next edition underperforms after the founder leaves.</p>
+      <p><strong>Advance payments change the arithmetic.</strong> Customers pay for stands, sponsorship and tickets before the event. That cash sits on the balance sheet as deferred income. A buyer will treat it as money owed back in services, and will usually adjust the price for it or expect it to be left in the business at completion. Owners should understand how much of their cash is customers' money before they discuss a price.</p>
+      <p><strong>Loss-making businesses with a strong brand still sell.</strong> Boiler Room was loss-making and sold for about 1.3x revenue to a festival group that could use its brand and audience.</p>
+      <h2 id="what-buyers-pay-for">What buyers pay for</h2>
+      <p><strong>Repeat events with high rebooking.</strong> Easyfairs' UK directors reported record rebooking across most of their shows in both 2024 and 2025. A show that rebooks most exhibitors on site for the next edition is close to recurring revenue.</p>
+      <p><strong>Access to decision makers.</strong> Collingwood found buyers pay a premium for formats that deliver meetings between buyers and suppliers. Raconteur reported in October 2026 that sponsors now want meetings that turn into business.</p>
+      <p><strong>Audience data.</strong> Year-round data on attendees and exhibitors, and the ability to sell to them between events, supports a higher multiple for organisers.</p>
+      <p><strong>Reliable margins in production and agencies.</strong> For production, staging and agencies, buyers look at gross margin by project, the share of work from repeat clients, and how dependent revenue is on one or two large one-off projects.</p>
+      <p><strong>A team that stays.</strong> Event businesses run on relationships. Buyers will ask who holds the key relationships with exhibitors, venues, sponsors and clients, and whether they stay after the sale.</p>
+      <p><strong>Venue agreements.</strong> For organisers, long-term agreements for dates at the venue are part of what is being bought. For venue operators, the lease or freehold and the forward booking book are central.</p>
+      <h3 id="what-reduces-the-price">What reduces the price</h3>
+      <p>Reliance on one show, one client or one venue date; a founder who holds every key relationship; revenue from one-off projects that may not recur; thin margins after staff costs; and unclear treatment of customer deposits. Political and economic shocks also matter: Stagestruck closed in 2026 after a major project was cancelled because of instability in the Middle East.</p>
+      <h2 id="a-preparation-checklist-for-the-next-12-to-24-months">A preparation checklist for the next 12 to 24 months</h2>
+      <ol><li>For each show or event, record revenue, costs and margin by edition, with rebooking rates and visitor and exhibitor numbers over at least three editions.</li><li>For production and agency work, analyse gross margin by project and the share of revenue from repeat clients.</li><li>Separate customer deposits and advance payments in the accounts, and understand how much of the cash balance they represent.</li><li>Document venue agreements: dates held, length of commitment, cancellation terms and any exclusivity.</li><li>Make sure the business owns its event brands, domains, databases and content, and that personal data has the right consents for continued use.</li><li>Move key exhibitor, sponsor, client and venue relationships to a second tier of managers.</li><li>Build forward bookings or a pipeline report showing contracted revenue for the next 12 months.</li><li>Review staffing: permanent against freelance, cost per event and the effect of the National Insurance and wage increases.</li><li>Review insurance and contract terms for cancellation risk, including force majeure.</li><li>Prepare monthly management accounts that match costs to the events they relate to, so a buyer can see true profit per event.</li><li>Decide whether any show could be sold separately, and whether the rest of the business stands up without it.</li></ol>
+      <h2 id="faq">FAQ</h2>
+      <h3>What multiple will I get for my events business?</h3>
+      <p>The published multiples, 11x to 16x EBITDA or profit, are for global platforms. We found no reliable published multiple for owner-managed UK events businesses. Organisers with strong repeat shows command the most interest; agencies and production companies are valued more like other service businesses.</p>
+      <h3>Who is buying events businesses?</h3>
+      <p>Exhibition organisers such as Nineteen Group, Easyfairs, CloserStill and Diversified Communications; production groups such as Groupe Novelty, Encore and Creative Live; agency groups such as Strata, Impact XM and Havas; festival groups such as Superstruct; and private equity backing management buyouts.</p>
+      <h3>Can I sell a single show?</h3>
+      <p>Yes. Organisers in our log bought individual shows from trade associations and publishers, including Plantworx, the Commercial Vehicle Show, LiGHT Expo London and Futurebuild. The buyer will want the brand, the customer database and the venue dates to transfer with the show.</p>
+      <h3>How are customer deposits treated in a sale?</h3>
+      <p>As money owed back in future services. A buyer will usually reduce the price or expect the cash to stay in the business to cover events already paid for.</p>
+      <h3>Will I be paid in full at completion?</h3>
+      <p>Often not. In the accounts we read, a median of about 20% of the price was deferred or depended on future results.</p>
+      <h3>Is employee ownership an option?</h3>
+      <p>Yes. Inconnection, Rapiergroup and Kambe Events moved to employee ownership trusts in our period. Since November 2025, half the gain on a sale to a trust is taxable.</p>
+      <h3>Is it a good time to sell?</h3>
+      <p>Deal activity in events is the highest for several years and private equity is putting large sums into organisers. The right timing for your business depends on rebooking, margins and your own plans as much as on the market.</p>
+      <h2 id="where-to-start">Where to start</h2>
+      <p>If you are thinking about a sale in the next one to three years, the quickest first step is the free Exit Readiness Score at <a class="report-cta" href="/exit-readiness-score/">mastellagroup.com/exit-readiness-score/</a>. It takes about three minutes and shows how a buyer would rate your business against the points in this report.</p>
+      <p>If the tax timing of a sale matters to you, our separate note on the changes to Business Asset Disposal Relief from April 2027 is at <a href="/insights/badr-changes-april-2027-should-you-sell-before/">mastellagroup.com/insights/badr-changes-april-2027-should-you-sell-before/</a>.</p>
+      <p class="report-cta-secondary">Or start with a confidential conversation: <a href="mailto:leo@mastellagroup.com">leo@mastellagroup.com</a></p>
+      <aside class="report-related"><p class="report-related-label">Related</p><ul><li><a href="/insights/12-months-before-you-sell/">12 months before you sell: the preparation that moves the number</a></li><li><a href="/services/how-to-sell-a-business/">How to sell a business in the UK</a></li></ul></aside>
+      <!--FORM:buyer-list-->
+      <h2 id="sources">Sources</h2>
+      <div class="report-sources">
+      <h3 id="deals-and-prices">Deals and prices</h3>
+      <ul><li><a href="https://igamingbusiness.com/strategy/ma/informa-targets-gaming-growth-clarion-acquisition/" target="_blank" rel="noopener">iGaming Business, Informa to acquire Clarion Events, October 2026</a></li><li><a href="https://privateequitywire.com/news/hellman-friedman-to-acquire-events-business-hyve-in-1-8bn-deal" target="_blank" rel="noopener">Private Equity Wire, Hellman &amp; Friedman to acquire Hyve, June 2026</a></li><li><a href="https://www.mainsights.io/ma-news/hellman-amp-friedman-acquires-uk-based-events-group-hyve-from-providence-and-searchlight-for-a-reported-usd-1800m---evebitda-2026e-of-129x" target="_blank" rel="noopener">NKP M&amp;A Insights, Hellman &amp; Friedman acquires Hyve, June 2026</a></li><li><a href="https://exhibitionnews.uk/closerstill-sale-update-business-sold-for-1-35bn-in-second-biggest-trade-show-deal-ever/" target="_blank" rel="noopener">Exhibition News, CloserStill valued at £1.35bn, May 2026</a></li><li><a href="https://find-and-update.company-information.service.gov.uk/company/15305515/filing-history" target="_blank" rel="noopener">Superstruct Entertainment, annual accounts</a></li><li><a href="https://find-and-update.company-information.service.gov.uk/company/01927339/filing-history" target="_blank" rel="noopener">Hyve Group, annual accounts</a></li><li><a href="https://find-and-update.company-information.service.gov.uk/company/05067979/filing-history" target="_blank" rel="noopener">Easyfairs UK, annual accounts</a></li><li><a href="https://find-and-update.company-information.service.gov.uk/company/10482903/filing-history" target="_blank" rel="noopener">NEP UK and Ireland Group, annual accounts</a></li><li><a href="https://flashesandflames.com/2026/01/08/dealmakers-biggest-events-boom-since-2019/" target="_blank" rel="noopener">Flashes and Flames, DealMakers: biggest events boom since 2019, January 2026</a></li><li><a href="https://flashesandflames.com/2026/08/06/dealmakers-trade-show-boom-resumes/" target="_blank" rel="noopener">Flashes and Flames, DealMakers: trade show boom resumes, August 2026</a></li><li><a href="https://flashesandflames.com/2026/11/05/dealmakers-record-year-continues/" target="_blank" rel="noopener">Flashes and Flames, DealMakers: record year continues, November 2026</a></li><li><a href="https://exhibitionnews.uk/category/mergers-and-acquisitions/" target="_blank" rel="noopener">Exhibition News, mergers and acquisitions</a></li><li><a href="https://gateleyplc.com/insight/deals/gateley-legal-advises-connection-capital-on-management-buyout-of-tracsis-events/" target="_blank" rel="noopener">Gateley, Connection Capital and the Tracsis Events buyout, 2026</a></li><li><a href="https://www.installation-international.com/business/acquisitions/groupe-novelty-acquires-uk-events-specialist-delta-live" target="_blank" rel="noopener">Installation International, Groupe Novelty acquires Delta Live, 2026</a></li><li><a href="https://www.thedrum.com/profile/strata/article/strata-acquires-wonderland-agency" target="_blank" rel="noopener">The Drum, Strata acquires Wonderland, January 2026</a></li><li><a href="https://www.conference-news.co.uk/news/ita-group-acquires-uk-based-c2events/" target="_blank" rel="noopener">Conference News, ITA Group acquires C2events, December 2025</a></li><li><a href="https://eventtechnology.org/2026/04/27/templant-acquisition-signals-power-shift-in-uk-event-infrastructure/" target="_blank" rel="noopener">Event Technology, Templant acquisition, April 2026</a></li><li><a href="https://www.business-sale.com/news/business-sale/entertainment-venue-operator-acquired-in-prepack-deal-228331" target="_blank" rel="noopener">Business Sale Report, Bistro Live acquired in pre-pack deal, 2025</a></li><li><a href="https://micebook.com/blog/2025/11/27/rapiergroup-announces-transition-to-employee-ownership/" target="_blank" rel="noopener">MICEbook, Rapiergroup moves to employee ownership, November 2025</a></li></ul>
+      <h3 id="market-data-and-adviser-views">Market data and adviser views</h3>
+      <ul><li><a href="https://www.ncass.org.uk/news/uk-events-report-2025-published/" target="_blank" rel="noopener">NCASS, UK Events Report 2025 published, December 2025</a></li><li><a href="https://www.mitmagazine.co.uk/Meetings/Operations/UK-meetings-sector-surges-to-22-5bn-as-event-volumes-hit-post-pandemic-high" target="_blank" rel="noopener">MIT, UK meetings sector reaches £22.5bn</a></li><li><a href="https://www.eventindustrynews.com/news/uk-exhibitions-sector-delivered-11-7-billion-economic-boost-in-2025-new-research-shows" target="_blank" rel="noopener">Event Industry News, UK exhibitions delivered £11.7bn in 2025, August 2026</a></li><li><a href="https://kongres-magazine.eu/2026/06/uk-exhibitions-reach-highest-level-in-a-decade-according-to-eia-2025-sasie-report/" target="_blank" rel="noopener">Kongres Magazine, UK exhibitions reach highest level in a decade, June 2026</a></li><li><a href="https://kongres-magazine.eu/wp-content/uploads/2026/06/MIAInsights-June2026.pdf" target="_blank" rel="noopener">Meetings Industry Association, MIA Insights, June 2026</a></li><li><a href="https://www.eventindustrynews.com/news/new-essa-survey-exposes-persistent-uk-events-industry-pressures-as-autumn-budget-lands" target="_blank" rel="noopener">Event Industry News, ESSA survey on industry pressures, December 2025</a></li><li><a href="https://www.amediaoperator.com/news/events-ma-jumped-31-heres-what-buyers-want-now/" target="_blank" rel="noopener">A Media Operator, events M&amp;A jumped 31%, September 2026</a></li><li><a href="https://www.raconteur.net/finance/why-live-events-are-becoming-the-prize-in-b2b-media" target="_blank" rel="noopener">Raconteur, why live events are becoming the prize in B2B media, October 2026</a></li><li><a href="https://micebook.com/blog/2026/05/29/stagestruck-uk-enters-liquidation/" target="_blank" rel="noopener">MICEbook, Stagestruck UK enters liquidation, May 2026</a></li><li><a href="https://www.gov.uk/government/publications/capital-gains-tax-employee-ownership-trusts/capital-gains-tax-employee-ownership-trusts-relief-reduction" target="_blank" rel="noopener">GOV.UK, Capital Gains Tax: Employee Ownership Trusts relief reduction, November 2025</a></li></ul>
+      </div>
+    `,
+  author: 'Leo Meggitt',
+  date: '26 November 2026',
+  dateModified: '26 November 2026',
+  readTime: '13 min read',
+  image: 'https://images.unsplash.com/photo-1553729459-efe14ef6055d?auto=format&fit=crop&q=80&w=2070',
+  category: 'Sector Report',
+  faqs: [
+    {
+      q: "What multiple will I get for my events business?",
+      a: "The published multiples, 11x to 16x EBITDA or profit, are for global platforms. We found no reliable published multiple for owner-managed UK events businesses. Organisers with strong repeat shows command the most interest; agencies and production companies are valued more like other service businesses.",
+    },
+    {
+      q: "Who is buying events businesses?",
+      a: "Exhibition organisers such as Nineteen Group, Easyfairs, CloserStill and Diversified Communications; production groups such as Groupe Novelty, Encore and Creative Live; agency groups such as Strata, Impact XM and Havas; festival groups such as Superstruct; and private equity backing management buyouts.",
+    },
+    {
+      q: "Can I sell a single show?",
+      a: "Yes. Organisers in our log bought individual shows from trade associations and publishers, including Plantworx, the Commercial Vehicle Show, LiGHT Expo London and Futurebuild. The buyer will want the brand, the customer database and the venue dates to transfer with the show.",
+    },
+    {
+      q: "How are customer deposits treated in a sale?",
+      a: "As money owed back in future services. A buyer will usually reduce the price or expect the cash to stay in the business to cover events already paid for.",
+    },
+    {
+      q: "Will I be paid in full at completion?",
+      a: "Often not. In the accounts we read, a median of about 20% of the price was deferred or depended on future results.",
+    },
+    {
+      q: "Is employee ownership an option?",
+      a: "Yes. Inconnection, Rapiergroup and Kambe Events moved to employee ownership trusts in our period. Since November 2025, half the gain on a sale to a trust is taxable.",
+    },
+    {
+      q: "Is it a good time to sell?",
+      a: "Deal activity in events is the highest for several years and private equity is putting large sums into organisers. The right timing for your business depends on rebooking, margins and your own plans as much as on the market.",
+    },
+  ],
+};
+
+export default article;
