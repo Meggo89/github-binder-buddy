@@ -226,18 +226,22 @@ main .keep-dark :is(.blur-3xl, .blur-2xl) { display: block; }
 
 /* ------------------------------------------------------------------
    Home page restyle (.mh): three colours, two fonts.
-   Charcoal #1F2226 text, Paper #FAF7F2 background, Rose #B42D63 accent
-   (the logo pink #FF87B7 darkened at the same hue so white text on it
-   passes contrast). Scoped to the home page so shared components keep
-   their look elsewhere.
+   Charcoal #1F2226 text, Paper #FAF7F2 background, muted Rose #96506D
+   accent (the logo pink #FF87B7 at the same hue, toned down to sit with
+   the logo, and dark enough that white text on it passes contrast), and
+   the logo grey #8F8E8E for labels, one tinted band and the example bars.
+   Scoped to the home page so shared components keep their look elsewhere.
    ------------------------------------------------------------------ */
 .mh {
   --mh-text: #1F2226;
   --mh-muted: #4A4E54;
   --mh-bg: #FAF7F2;
   --mh-line: #E6E0D6;
-  --mh-accent: #B42D63;
-  --mh-accent-hover: #9E2756;
+  --mh-accent: #96506D;
+  --mh-accent-hover: #7F4159;
+  --mh-grey: #8F8E8E;
+  --mh-grey-text: #636262;
+  --mh-grey-band: #E8E7E7;
   background-color: var(--mh-bg);
   color: var(--mh-text);
 }
@@ -264,3 +268,8 @@ main .keep-dark :is(.blur-3xl, .blur-2xl) { display: block; }
 .mh .bg-navy\/10 { background-color: var(--mh-line); }
 .mh .bg-navy:not(a) { background-color: var(--mh-text); }
 .mh .bg-accent:not(a) { background-color: var(--mh-accent); }
+/* Mastella grey: small labels, the How we work band and the example bars. */
+.mh .font-mono:is(.text-accent, .text-accent-dark, .text-bronze) { color: var(--mh-grey-text); }
+/* Class repeated on purpose: the minifier merges the .mh :is() rules above into higher-specificity selectors. */
+.mh section.mh-band.mh-band { background-color: var(--mh-grey-band); }
+.mh [aria-label="Example result"] .bg-navy:not(a) { background-color: var(--mh-grey); }

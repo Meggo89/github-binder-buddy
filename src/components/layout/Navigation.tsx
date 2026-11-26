@@ -82,7 +82,7 @@ function MobileNav({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }
           <div className="pt-4 w-full">
             <Link
               to="/contact/"
-              className="block w-full text-center bg-[#B42D63] text-[#FFFFFF] px-6 py-3 rounded-[4px] font-medium hover:bg-[#9E2756] transition-colors"
+              className="block w-full text-center bg-[#96506D] text-[#FFFFFF] px-6 py-3 rounded-[4px] font-medium hover:bg-[#7F4159] transition-colors"
               onClick={onClose}
             >
               {CTA_LABEL}
@@ -114,7 +114,7 @@ export function Navigation() {
             const active =
               path === link.to.replace(/\/$/, '') || (link.children ?? []).some((c) => path === c.to.replace(/\/$/, ''));
             const cls = `text-sm tracking-wide whitespace-nowrap transition-colors ${
-              active ? 'text-[#B42D63]' : 'text-[#1F2226] hover:text-[#B42D63]'
+              active ? 'text-[#96506D]' : 'text-[#1F2226] hover:text-[#96506D]'
             }`;
             if (!link.children) {
               return (
@@ -136,7 +136,7 @@ export function Navigation() {
                       <li key={c.to}>
                         <Link
                           to={c.to}
-                          className="block px-4 py-2 text-sm text-[#1F2226] hover:bg-[#FAF7F2] hover:text-[#B42D63] transition-colors"
+                          className="block px-4 py-2 text-sm text-[#1F2226] hover:bg-[#FAF7F2] hover:text-[#96506D] transition-colors"
                         >
                           {c.label}
                         </Link>
@@ -150,14 +150,14 @@ export function Navigation() {
           {!onContactPage && (
             <Link
               to="/contact/"
-              className="bg-[#B42D63] text-[#FFFFFF] px-5 py-2.5 rounded-[4px] text-sm font-medium whitespace-nowrap hover:bg-[#9E2756] transition-colors"
+              className="bg-[#96506D] text-[#FFFFFF] px-5 py-2.5 rounded-[4px] text-sm font-medium whitespace-nowrap hover:bg-[#7F4159] transition-colors"
             >
               {CTA_LABEL}
             </Link>
           )}
         </div>
         <button
-          className="lg:hidden text-[#1F2226] hover:text-[#B42D63] transition-colors"
+          className="lg:hidden text-[#1F2226] hover:text-[#96506D] transition-colors"
           onClick={() => setIsMobileMenuOpen(true)}
           aria-label="Open menu"
         >

@@ -25,7 +25,7 @@ function BuyersPaid() {
       <div className="container mx-auto px-6">
         <div className="max-w-2xl mx-auto">
     <aside
-      className="relative overflow-hidden rounded-[8px] border border-[#E6E0D6] border-t-2 border-t-[#B42D63] bg-[#FFFFFF] text-[#1F2226]"
+      className="relative overflow-hidden rounded-[8px] border border-[#E6E0D6] border-t-2 border-t-[#96506D] bg-[#FFFFFF] text-[#1F2226]"
       aria-labelledby="hero-ledger-heading"
     >
       {/* The five rising bars of the logo, as a quiet watermark. */}
@@ -38,7 +38,7 @@ function BuyersPaid() {
         ))}
       </svg>
       <div className="relative p-6 md:p-8">
-        <p className="text-[0.75rem] uppercase tracking-[0.08em] text-[#B42D63] mb-2">From our deal log</p>
+        <p className="text-[0.75rem] uppercase tracking-[0.08em] text-[#636262] mb-2">From our deal log</p>
         <h2 id="hero-ledger-heading" className="font-serif text-2xl md:text-[1.75rem] leading-tight text-balance text-[#1F2226] mb-6">
           What buyers paid, 2024 to 2026
         </h2>
@@ -51,8 +51,8 @@ function BuyersPaid() {
                 className="group block py-3.5 -mx-2 px-2 rounded-md hover:bg-[#FAF7F2] transition-colors"
               >
                 <span className="flex items-baseline justify-between gap-4">
-                  <span className="font-medium text-[#1F2226] group-hover:text-[#B42D63] transition-colors">{r.sector}</span>
-                  <span className="font-serif text-2xl leading-none text-[#B42D63] tabular-nums whitespace-nowrap">{r.multiple}</span>
+                  <span className="font-medium text-[#1F2226] group-hover:text-[#96506D] transition-colors">{r.sector}</span>
+                  <span className="font-serif text-2xl leading-none text-[#96506D] tabular-nums whitespace-nowrap">{r.multiple}</span>
                 </span>
                 <span className="block text-[0.8125rem] leading-snug text-[#4A4E54] mt-1.5">
                   {r.basis} · {r.deals} deals logged
@@ -66,7 +66,7 @@ function BuyersPaid() {
         </p>
         <Link
           to="/insights/sector-reports/"
-          className="inline-flex items-center gap-2 mt-4 text-sm font-medium text-[#1F2226] hover:text-[#B42D63] transition-colors"
+          className="inline-flex items-center gap-2 mt-4 text-sm font-medium text-[#1F2226] hover:text-[#96506D] transition-colors"
         >
           All {reportCount} sector reports
           <ArrowRight className="h-4 w-4" aria-hidden="true" />
@@ -93,14 +93,14 @@ function Hero() {
         <Link
           to="/contact/"
           onClick={() => trackCTA('Arrange a confidential conversation', 'hero')}
-          className="inline-flex items-center justify-center bg-[#B42D63] text-[#FFFFFF] px-6 py-3 rounded-[4px] font-medium hover:bg-[#9E2756] transition-colors"
+          className="inline-flex items-center justify-center bg-[#96506D] text-[#FFFFFF] px-6 py-3 rounded-[4px] font-medium hover:bg-[#7F4159] transition-colors"
         >
           Arrange a confidential conversation
         </Link>
         <Link
           to="/exit-readiness-score/"
           onClick={() => trackCTA('Free Exit Readiness Score', 'hero')}
-          className="text-[#1F2226] underline decoration-[#B42D63]/50 underline-offset-4 hover:text-[#B42D63] transition-colors"
+          className="text-[#1F2226] underline decoration-[#96506D]/50 underline-offset-4 hover:text-[#96506D] transition-colors"
         >
           Or see how a buyer would score your business
         </Link>
@@ -120,7 +120,7 @@ const STEPS = [
 
 function HowWeWork() {
   return (
-    <section className="bg-sand-light py-24 md:py-32 border-t border-navy/5" aria-labelledby="how-we-work-heading">
+    <section className="mh-band bg-sand-light py-24 md:py-32 border-t border-navy/5" aria-labelledby="how-we-work-heading">
       <div className="container mx-auto px-6">
         <div className="max-w-3xl">
           <h2 id="how-we-work-heading" className="font-serif text-display-md text-navy leading-tight mb-12 text-balance">
