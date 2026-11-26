@@ -12,6 +12,6 @@ export const SCORING_PAGE = {
   path: '/resources/exit-readiness-scoring',
   title: 'Exit Readiness Scoring: What Buyers Test',
   description:
-    'How exit readiness is scored for a UK sale: the five areas buyers test, their weights, the core thresholds, and what buyers do when a business falls short.',
+    'How exit readiness is scored for a UK sale: the areas buyers test, their weights, the core thresholds, and what buyers do when a business falls short.',
   published: '2026-09-29',
 };

@@ -6,6 +6,7 @@ import { PageLayout } from '../components/layout';
 import { AuthorityLine } from '../components/landing/AuthorityLine';
 import { FaqSection } from '../components/landing/FaqSection';
 import { MODEL } from '../content/readiness/model';
+import { SCORED_AREAS, areaIndicators, areaOtherMeasures, areaPurpose, areaTotalMeasures, areaWeight } from '../content/readiness/areas';
 import type { ReadinessIndicator } from '../content/readiness/types';
 import { SCORING_PAGE } from '../content/readiness/meta';
 import { lcFirst } from '../components/readiness/format';
@@ -26,7 +27,7 @@ function Hero() {
         How we score exit readiness
       </h1>
       <p className="text-lg md:text-2xl text-accent leading-snug mb-10 max-w-2xl text-balance">
-        The five areas buyers test, how they are weighted, and the thresholds and buyer responses for the core
+        The areas buyers test, how they are weighted, and the thresholds and buyer responses for the core
         measures.
       </p>
       <Link
@@ -56,8 +57,8 @@ function faqs() {
       a: `On our thresholds, a largest customer at ${eq2.bands['4']} of revenue is strong, ${eq2.bands['3']} adequate, ${eq2.bands['2']} weak and ${eq2.bands['1']} critical. At the weak end, a trade buyer typically responds as follows: ${lc(eq2.buyerView.trade)} Private equity: ${lc(eq2.buyerView.pe)}`,
     },
     {
-      q: 'How do buyers measure founder dependency?',
-      a: `We use ${fd.length} measures: ${fd.join(', ')}. The most heavily weighted is founder-held revenue, the share of revenue from customers who mainly deal with the founder: ${fd1.bands['4']} is strong and ${fd1.bands['1']} is critical. Founder dependency drives earn-out size, lock-in length and how much of the price is paid in cash at completion.`,
+      q: 'How do buyers measure how much a business depends on its founder?',
+      a: `We use ${fd.length} measures: ${fd.join(', ')}. The most heavily weighted is founder-held revenue, the share of revenue from customers who mainly deal with the founder: ${fd1.bands['4']} is strong and ${fd1.bands['1']} is critical. Dependence on the founder drives earn-out size, lock-in length and how much of the price is paid in cash at completion.`,
     },
     {
       q: 'How do add-backs affect the price of a business?',
@@ -184,7 +185,7 @@ export default function ExitReadinessScoring() {
                 measures.
               </p>
               <p>
-                The overall score weights the five areas as shown below. 75 or more is strong, 50 to 74 adequate, 25 to
+                The overall score weights the areas as shown below. 75 or more is strong, 50 to 74 adequate, 25 to
                 49 weak and below 25 critical.
               </p>
               <p>
@@ -208,30 +209,30 @@ export default function ExitReadinessScoring() {
                   </tr>
                 </thead>
                 <tbody>
-                  {MODEL.modules.map((m) => (
-                    <tr key={m.id}>
-                      <td className="px-3 py-3 border-t border-navy/10 text-navy font-medium">{m.name}</td>
-                      <td className="px-3 py-3 border-t border-navy/10 text-navy">{m.weight}%</td>
-                      <td className="px-3 py-3 border-t border-navy/10 text-navy">{m.totalMeasures}</td>
-                      <td className="px-3 py-3 border-t border-navy/10 text-navy">
-                        {MODEL.indicators.filter((i) => i.module === m.id).length}
-                      </td>
+                  {SCORED_AREAS.map((a) => (
+                    <tr key={a.id}>
+                      <td className="px-3 py-3 border-t border-navy/10 text-navy font-medium">{a.name}</td>
+                      <td className="px-3 py-3 border-t border-navy/10 text-navy">{areaWeight(a)}%</td>
+                      <td className="px-3 py-3 border-t border-navy/10 text-navy">{areaTotalMeasures(a)}</td>
+                      <td className="px-3 py-3 border-t border-navy/10 text-navy">{areaIndicators(a).length}</td>
                     </tr>
                   ))}
                 </tbody>
               </table>
             </div>
 
-            {MODEL.modules.map((m) => {
-              const inds = MODEL.indicators.filter((i) => i.module === m.id);
-              const others = MODEL.otherMeasures.filter((o) => o.module === m.id);
+            {SCORED_AREAS.map((a) => {
+              const inds = areaIndicators(a);
+              const others = areaOtherMeasures(a);
               return (
-                <section key={m.id} className="pt-12 pb-4 border-t border-navy/10">
+                <section key={a.id} className="pt-12 pb-4 border-t border-navy/10">
                   <p className="font-mono text-xs text-accent-dark tracking-widest uppercase mb-2">
-                    {m.weight}% of the score
+                    {areaWeight(a)}% of the score
                   </p>
-                  <h2 className="font-serif text-display-md text-navy leading-tight mb-4 text-balance">{m.name}</h2>
-                  <p className="max-w-3xl text-body-lg text-navy-light leading-relaxed mb-8">{m.purpose}</p>
+                  <h2 className="font-serif text-display-md text-navy leading-tight mb-4 text-balance">{a.name}</h2>
+                  {areaPurpose(a).map((p) => (
+                    <p key={p} className="max-w-3xl text-body-lg text-navy-light leading-relaxed mb-8">{p}</p>
+                  ))}
                   <BandTable indicators={inds} />
                   {others.length > 0 && (
                     <p className="max-w-3xl text-sm text-navy-light leading-relaxed mb-4">

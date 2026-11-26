@@ -1,5 +1,6 @@
 import type { Answer, IndicatorResult, ReadinessResult } from '../../content/readiness/score';
 import { MODEL } from '../../content/readiness/model';
+import { areaResults } from '../../content/readiness/areas';
 
 export function describeAnswer(r: IndicatorResult, a: Answer | undefined): string {
   const ind = r.indicator;
@@ -25,7 +26,7 @@ export function summarise(result: ReadinessResult, answers: Record<string, Answe
     `Overall: ${shown(result.overall)} out of 100 (${result.rating}). ${result.answered} of ${MODEL.indicators.length} questions answered.`,
     '',
     'Area scores:',
-    ...result.modules.map((m) => `- ${m.name}: ${shown(m.score)}${m.score === null ? '' : ` (${m.rating})`}`),
+    ...areaResults(result).map((a) => `- ${a.name}: ${shown(a.score)}${a.score === null ? '' : ` (${a.rating})`}`),
   ];
   if (result.blockers.length) {
     lines.push('', `Deal issues (critical on a measure buyers treat as a blocker): ${result.blockers.map((b) => b.indicator.name).join(', ')}`);
