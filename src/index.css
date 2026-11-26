@@ -223,3 +223,44 @@ main .keep-dark :is(.blur-3xl, .blur-2xl) { display: block; }
 .prose-article .report-related ul { @apply my-0; }
 .prose-article .report-sources ul { @apply text-sm space-y-1.5; }
 .prose-article .report-sources li { @apply text-sm leading-relaxed; }
+
+/* ------------------------------------------------------------------
+   Home page restyle (.mh): three colours, two fonts.
+   Charcoal #1F2226 text, Paper #FAF7F2 background, Rose #B42D63 accent
+   (the logo pink #FF87B7 darkened at the same hue so white text on it
+   passes contrast). Scoped to the home page so shared components keep
+   their look elsewhere.
+   ------------------------------------------------------------------ */
+.mh {
+  --mh-text: #1F2226;
+  --mh-muted: #4A4E54;
+  --mh-bg: #FAF7F2;
+  --mh-line: #E6E0D6;
+  --mh-accent: #B42D63;
+  --mh-accent-hover: #9E2756;
+  background-color: var(--mh-bg);
+  color: var(--mh-text);
+}
+.mh section, .mh :is(.bg-white, .bg-sand-light, .bg-paper, .bg-navy-deepest) { background-color: var(--mh-bg); }
+.mh section + section { border-top: 1px solid var(--mh-line); }
+.mh :is(.text-navy, .text-white, .text-ink) { color: var(--mh-text); }
+.mh :is(.text-navy-light, .text-sand-light, .text-sand) { color: var(--mh-muted); }
+.mh :is(.text-accent, .text-accent-dark, .text-bronze) { color: var(--mh-accent); }
+.mh :is(.hover\:text-accent-dark, .hover\:text-accent, .group:hover .group-hover\:text-accent-dark):hover { color: var(--mh-accent); }
+.mh :is(.border-navy\/10, .border-navy\/5, .border-accent\/40, .border-sand\/30) { border-color: var(--mh-line); }
+.mh .divide-navy\/10 > * + * { border-color: var(--mh-line); }
+.mh :is(.shadow-lg, .shadow-xl, .shadow-2xl, .hover\:shadow-lg:hover, .hover\:shadow-xl:hover) { box-shadow: none; }
+.mh :is(.hover\:-translate-y-0\.5, .hover\:-translate-y-px):hover { transform: none; }
+/* Labels in the body font, not a typewriter face. */
+.mh .font-mono { font-family: Inter, system-ui, sans-serif; letter-spacing: 0.08em; }
+/* One button style: solid rose, white text, square-ish corners. */
+.mh a:is(.bg-accent, .bg-navy) { background-color: var(--mh-accent); color: #fff; border-radius: 4px; box-shadow: none; }
+.mh a:is(.bg-accent, .bg-navy):hover { background-color: var(--mh-accent-hover); transform: none; }
+.mh a:is(.bg-accent, .bg-navy) :is(svg) { color: #fff; }
+/* Type scale: one step down from the site's display sizes, for a calmer page. */
+.mh h2.text-display-md { font-size: clamp(1.875rem, 1.5vw + 1.25rem, 2.5rem); line-height: 1.15; }
+.mh .rounded-xl { border-radius: 8px; }
+/* The score section's example bars use the palette too. */
+.mh .bg-navy\/10 { background-color: var(--mh-line); }
+.mh .bg-navy:not(a) { background-color: var(--mh-text); }
+.mh .bg-accent:not(a) { background-color: var(--mh-accent); }
