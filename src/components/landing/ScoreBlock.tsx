@@ -1,34 +1,35 @@
 import { ArrowRight, Download, Gauge } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { FadeIn } from '../ui/motion';
-import { MODEL } from '../../content/readiness/model';
-
 // An example result, so owners can see what they get before they start. The five areas are the
-// real ones the score uses; the bands shown are made up for illustration.
-const SAMPLE_BANDS = [
-  { band: 'Weak', width: '42%', tone: 'bg-[#C9772E]' },
-  { band: 'Adequate', width: '64%', tone: 'bg-accent' },
-  { band: 'Strong', width: '88%', tone: 'bg-navy' },
-  { band: 'Adequate', width: '60%', tone: 'bg-accent' },
-  { band: 'Critical', width: '24%', tone: 'bg-[#A63D2F]' },
+// ones the score reports under; the figures are made up for illustration.
+const SAMPLE_AREAS = [
+  { name: 'Financial health', score: 68 },
+  { name: 'Operational maturity', score: 55 },
+  { name: 'Strategic position and growth', score: 42 },
+  { name: 'Market attractiveness', score: 74 },
+  { name: 'Diligence readiness', score: 59 },
 ];
 
 function SampleResult() {
   return (
     <div className="bg-white rounded-xl border border-navy/10 shadow-lg p-6 md:p-7 text-left" aria-label="Example result">
-      <div className="flex items-baseline justify-between mb-5">
-        <p className="font-mono text-xs uppercase tracking-[0.14em] text-navy-light">Example result</p>
-        <p className="font-serif text-navy"><span className="text-4xl">58</span><span className="text-navy-light"> / 100</span></p>
+      <div className="flex items-start justify-between gap-4 mb-5">
+        <p className="font-mono text-xs uppercase tracking-[0.14em] text-navy-light pt-2">Example result</p>
+        <div className="text-right">
+          <p className="font-serif text-navy leading-none"><span className="text-4xl">60</span><span className="text-navy-light"> / 100</span></p>
+          <p className="text-sm text-navy-light mt-1">Getting ready</p>
+        </div>
       </div>
       <ul className="space-y-3.5">
-        {MODEL.modules.slice(0, SAMPLE_BANDS.length).map((m, i) => (
-          <li key={m.id}>
-            <div className="flex justify-between text-sm mb-1.5">
-              <span className="text-navy font-medium">{m.name}</span>
-              <span className="text-navy-light">{SAMPLE_BANDS[i].band}</span>
+        {SAMPLE_AREAS.map((a) => (
+          <li key={a.name}>
+            <div className="flex justify-between gap-4 text-sm mb-1.5">
+              <span className="text-navy font-medium">{a.name}</span>
+              <span className="text-navy-light tabular-nums">{a.score}</span>
             </div>
             <div className="h-1.5 rounded-full bg-navy/10" aria-hidden="true">
-              <div className={`h-full rounded-full ${SAMPLE_BANDS[i].tone}`} style={{ width: SAMPLE_BANDS[i].width }} />
+              <div className="h-full rounded-full bg-navy" style={{ width: `${a.score}%` }} />
             </div>
           </li>
         ))}
@@ -38,9 +39,6 @@ function SampleResult() {
   );
 }
 
-// The Exit Readiness Score block: headline, one line and a button to /exit-readiness-score/.
-// Used on the home page, every sector and niche page (via LeadMagnetCta, which adds the checklist
-// download) and every insight article, so the offer reads the same wherever an owner meets it.
 export function ScoreBlock({ showChecklist = false, eyebrow = 'Not ready to talk yet?' }: { showChecklist?: boolean; eyebrow?: string }) {
   return (
     <section className="bg-sand-light py-16 md:py-20 border-t border-navy/10">

@@ -9,6 +9,7 @@ import { RelatedLinks } from '../components/landing/RelatedLinks';
 import { QuestionField } from '../components/readiness/QuestionField';
 import { ResultsPanel } from '../components/readiness/ResultsPanel';
 import { MODEL } from '../content/readiness/model';
+import { SCORED_AREAS, areaIndicators, areaPurpose, areaWeight } from '../content/readiness/areas';
 import { scoreAnswers, type Answer, type ReadinessResult } from '../content/readiness/score';
 import { SCORE_PAGE } from '../content/readiness/meta';
 import { SITE, canonicalFor } from '../seo/site-meta';
@@ -43,7 +44,7 @@ function Hero() {
 }
 
 function scoreFaqs() {
-  const w = MODEL.modules.map((m) => `${m.name.toLowerCase()} ${m.weight}%`).join(', ');
+  const w = SCORED_AREAS.map((a) => `${a.name.toLowerCase()} ${areaWeight(a)}%`).join(', ');
   const heavy = MODEL.indicators.filter((i) => i.weight > 1).map((i) => i.name.toLowerCase());
   return [
     {
@@ -52,7 +53,7 @@ function scoreFaqs() {
     },
     {
       q: 'How is the exit readiness score calculated?',
-      a: `Each of the ${ASKED} answers falls into one of four bands (strong, adequate, weak or critical) using published thresholds. Bands convert to a score out of 100, averaged within five areas weighted as follows: ${w}. Within their areas, ${heavy.join(', ')} count for more than the other measures.`,
+      a: `Each of the ${ASKED} answers falls into one of four bands (strong, adequate, weak or critical) using published thresholds. Bands convert to a score out of 100, averaged within the areas, which are weighted as follows: ${w}. Within their areas, ${heavy.join(', ')} count for more than the other measures.`,
     },
     {
       q: 'What is a good exit readiness score?',
@@ -142,10 +143,10 @@ export default function ExitReadinessScore() {
             <h2 className="font-serif text-display-md text-navy leading-tight mb-6 text-balance">How it works</h2>
             <div className="space-y-5 text-body-lg text-navy-light leading-relaxed">
               <p>
-                Buyers judge an owner-managed business on a fairly consistent set of questions: how much depends on
-                the founder, whether there is a team they can back, how much of the profit they can rely on, whether
-                the growth shows up in the numbers, and how cleanly the business will get through due diligence. This
-                tool asks {ASKED} of the {MODEL.totalMeasures} questions we use to score those five areas: the ones you can
+                Buyers judge an owner-managed business on a fairly consistent set of questions: how much of the
+                profit they can rely on, whether the business runs without the founder and has a team they can back,
+                whether the growth shows up in the numbers, and how cleanly it will get through due diligence. This
+                tool asks {ASKED} of the {MODEL.totalMeasures} questions we use to score those areas: the ones you can
                 answer without looking anything up.
               </p>
               <p>
@@ -168,29 +169,29 @@ export default function ExitReadinessScore() {
       <form id="questions" onSubmit={submit} className="bg-white pb-16 scroll-mt-24 print:hidden" noValidate>
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
-            {MODEL.modules.map((m) => (
-              <section key={m.id} className="pt-14">
+            {SCORED_AREAS.map((a) => (
+              <section key={a.id} className="pt-14">
                 <p className="font-mono text-xs text-accent-dark tracking-widest uppercase mb-2">
-                  {m.weight}% of the score
+                  {areaWeight(a)}% of the score
                 </p>
-                <h2 className="font-serif text-display-md text-navy leading-tight mb-3 text-balance">{m.name}</h2>
-                <p className="text-navy-light leading-relaxed mb-4 max-w-3xl">{m.purpose}</p>
+                <h2 className="font-serif text-display-md text-navy leading-tight mb-3 text-balance">{a.name}</h2>
+                {areaPurpose(a).map((p) => (
+                  <p key={p} className="text-navy-light leading-relaxed mb-4 max-w-3xl">{p}</p>
+                ))}
                 <div className="rounded-xl border border-navy/10 px-6 md:px-8">
-                  {MODEL.indicators
-                    .filter((i) => i.module === m.id)
-                    .map((ind) => {
-                      n += 1;
-                      return (
-                        <QuestionField
-                          key={ind.id}
-                          indicator={ind}
-                          number={n}
-                          answer={answers[ind.id]}
-                          raw={raw[ind.id] ?? ''}
-                          onChange={(next, rawText) => update(ind.id, next, rawText)}
-                        />
-                      );
-                    })}
+                  {areaIndicators(a).map((ind) => {
+                    n += 1;
+                    return (
+                      <QuestionField
+                        key={ind.id}
+                        indicator={ind}
+                        number={n}
+                        answer={answers[ind.id]}
+                        raw={raw[ind.id] ?? ''}
+                        onChange={(next, rawText) => update(ind.id, next, rawText)}
+                      />
+                    );
+                  })}
                 </div>
               </section>
             ))}

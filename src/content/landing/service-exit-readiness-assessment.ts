@@ -66,7 +66,7 @@ export const EXIT_READINESS_ASSESSMENT: ServiceLanding = {
     },
     {
       q: "What does an exit readiness assessment measure?",
-      a: "Five areas: founder dependency (25% of the score), management depth (20%), earnings quality (25%), growth evidence (15%) and due diligence readiness (15%), made up of 29 individual measures such as the share of revenue held by the founder personally, the largest customer's share of revenue, add-backs as a share of EBITDA and how long month-end close takes. We also record your objectives on timing, proceeds and your role after a deal, and test them against what the business can support.",
+      a: "Four areas: financial health (25% of the score), operational maturity (45%), strategic position and growth (15%) and diligence readiness (15%), made up of 29 individual measures such as the share of revenue held by the founder personally, the largest customer's share of revenue, add-backs as a share of EBITDA and how long month-end close takes. We also record your objectives on timing, proceeds and your role after a deal, and test them against what the business can support.",
     },
     {
       q: "What is the difference between an exit readiness assessment and a business valuation?",
@@ -90,8 +90,8 @@ export const EXIT_READINESS_ASSESSMENT: ServiceLanding = {
       heading: "What does the Exit Readiness Assessment measure?",
       cover: [],
       body: [
-        "The score is built from 29 measures in five areas. Founder dependency carries 25% of the score: the share of revenue from customers who deal mainly with the founder, the decisions only the founder takes, what happened the last time the founder was away, knowledge that sits only in the founder's head, and personal guarantees or licences in the founder's name. Management depth carries 20%: whether there is a named successor, who runs sales, operations, finance and people, how strong the finance function is, and whether key managers are tied in.",
-        "Earnings quality carries 25%: contracted or recurring revenue, the largest customer and the top five as a share of revenue, margin stability over three years, add-backs as a share of EBITDA, and cash conversion. Growth evidence carries 15%: customer revenue retention, revenue growth, pricing, pipeline records and how close the last two budgets came to actual results. Due diligence readiness carries 15%: month-end close, the monthly management pack, revenue under written contract, employment records, IP ownership and open legal and tax items.",
+        "The score is built from 29 measures in four areas. Financial health carries 25% of the score: contracted or recurring revenue, the largest customer and the top five as a share of revenue, margin stability over three years, add-backs as a share of EBITDA, and cash conversion. Operational maturity carries 45%: the share of revenue from customers who deal mainly with the founder, the decisions only the founder takes, what happened the last time the founder was away, knowledge that sits only in the founder's head, personal guarantees or licences in the founder's name, whether there is a named successor, who runs sales, operations, finance and people, how strong the finance function is, and whether key managers are tied in.",
+        "Strategic position and growth carries 15%: customer revenue retention, revenue growth, pricing, pipeline records and how close the last two budgets came to actual results. Diligence readiness carries 15%: month-end close, the monthly management pack, revenue under written contract, employment records, IP ownership and open legal and tax items.",
         "The thresholds for the core measures, with what counts as strong, adequate, weak and critical on each, are published on [how we score exit readiness](/resources/exit-readiness-scoring/).",
       ],
     },
