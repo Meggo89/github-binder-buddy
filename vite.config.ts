@@ -8,12 +8,14 @@ import fs from 'fs';
 const firstFile = (name: string, exts: string[]) =>
   exts.map((ext) => `/images/${name}.${ext}`).find((p) => fs.existsSync(path.resolve(__dirname, 'public' + p))) ?? '';
 const scalexitLogo = firstFile('scalexit-logo', ['svg', 'png']);
+const scalexitLogoDark = firstFile('scalexit-logo-dark', ['svg', 'png']);
 const scalexitCard = firstFile('scalexit-card', ['svg', 'png', 'webp', 'jpg']);
 
 export default defineConfig(({ isSsrBuild }) => ({
   plugins: [react()],
   define: {
     __SCALEXIT_LOGO__: JSON.stringify(scalexitLogo),
+    __SCALEXIT_LOGO_DARK__: JSON.stringify(scalexitLogoDark),
     __SCALEXIT_CARD__: JSON.stringify(scalexitCard),
   },
   resolve: {

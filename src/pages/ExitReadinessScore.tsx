@@ -223,7 +223,7 @@ export default function ExitReadinessScore() {
           {
             to: '/services/exit-readiness-assessment/',
             label: 'Exit Readiness Assessment',
-            description: 'The full assessment: all 29 measures, tested against your data and your team.',
+            description: 'The full assessment: five areas, tested against your data and your team.',
           },
           {
             to: '/resources/exit-readiness-scoring/',

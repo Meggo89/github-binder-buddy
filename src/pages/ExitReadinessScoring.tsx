@@ -58,7 +58,7 @@ function faqs() {
     },
     {
       q: 'How do buyers measure how much a business depends on its founder?',
-      a: `We use ${fd.length} measures: ${fd.join(', ')}. The most heavily weighted is founder-held revenue, the share of revenue from customers who mainly deal with the founder: ${fd1.bands['4']} is strong and ${fd1.bands['1']} is critical. Dependence on the founder drives earn-out size, lock-in length and how much of the price is paid in cash at completion.`,
+      a: `We look at ${fd.join(', ')}. The most heavily weighted is founder-held revenue, the share of revenue from customers who mainly deal with the founder: ${fd1.bands['4']} is strong and ${fd1.bands['1']} is critical. Dependence on the founder drives earn-out size, lock-in length and how much of the price is paid in cash at completion.`,
     },
     {
       q: 'How do add-backs affect the price of a business?',
@@ -165,7 +165,7 @@ export default function ExitReadinessScoring() {
                 <Link to="/exit-readiness-score/" className="text-navy underline decoration-accent/40 underline-offset-4">
                   Exit Readiness Score
                 </Link>
-                . We publish the structure, and the thresholds for the {MODEL.indicators.length} measures it uses, so
+                . We publish the structure, and the thresholds for the questions it asks, so
                 owners can see what they are measured against. The free score covers four of the five areas buyers
                 test. Our full{' '}
                 <Link to="/services/exit-readiness-assessment/" className="text-navy underline decoration-accent/40 underline-offset-4">

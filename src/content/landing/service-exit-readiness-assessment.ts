@@ -12,12 +12,12 @@ export const EXIT_READINESS_ASSESSMENT: ServiceLanding = {
   name: "Exit Readiness Assessment",
   title: "Exit Readiness Assessment UK | Mastella Advisory",
   metaDescription:
-    "Fixed-fee exit readiness assessment for UK owner-managed businesses. 29 buyer measures, verified against your data and senior team. Report in ten working days.",
+    "Fixed-fee exit readiness assessment for UK owner-managed businesses. Scored across five areas, verified against your data and senior team. Report in ten working days.",
   h1: "Exit Readiness Assessment",
   heroSubtitle:
-    "How a buyer would read your business, scored on 29 measures and verified against your numbers and your team. Fixed fee.",
+    "How a buyer would read your business, scored across five areas and verified against your numbers and your team. Fixed fee.",
   intro:
-    "The Exit Readiness Assessment scores your business on the 29 measures buyers test in a sale process. Each answer is checked against your accounts, your customer data and interviews with your senior team. The report shows where value is at risk, how a trade buyer or a private equity fund would respond to each weak area, which exit routes are realistic now, and what to fix first.",
+    "The Exit Readiness Assessment scores your business across five areas, the way buyers test it in a sale process. Each answer is checked against your accounts, your customer data and interviews with your senior team. The report shows where value is at risk, how a trade buyer or a private equity fund would respond to each weak area, which exit routes are realistic now, and what to fix first.",
   heroCta: { to: "/contact/", label: "Ask about an Assessment" },
   secondaryCta: { to: "/exit-readiness-score/", label: "Or start with the free score" },
   offer: {
@@ -35,7 +35,7 @@ export const EXIT_READINESS_ASSESSMENT: ServiceLanding = {
     {
       title: "Questionnaire and data request",
       detail:
-        "You answer the 29 questions from your own point of view, which takes about 20 minutes. Your finance lead or accountant completes a short workbook: customers by revenue for three years, three years of financials, and the senior team.",
+        "You answer the questionnaire from your own point of view, which takes about 20 minutes. Your finance lead or accountant completes a short workbook: customers by revenue for three years, three years of financials, and the senior team.",
     },
     {
       title: "Interviews",
@@ -67,7 +67,7 @@ export const EXIT_READINESS_ASSESSMENT: ServiceLanding = {
     },
     {
       q: "What does an exit readiness assessment measure?",
-      a: "Five areas: financial health, operational maturity, strategic position and growth, market attractiveness and diligence readiness, made up of 29 individual measures such as the share of revenue held by the founder personally, the largest customer's share of revenue, add-backs as a share of EBITDA and how long month-end close takes. We also record your objectives on timing, proceeds and your role after a deal, and test them against what the business can support.",
+      a: "Five areas: financial health, operational maturity, strategic position and growth, market attractiveness and diligence readiness, made up of individual measures such as the share of revenue held by the founder personally, the largest customer's share of revenue, add-backs as a share of EBITDA and how long month-end close takes. We also record your objectives on timing, proceeds and your role after a deal, and test them against what the business can support.",
     },
     {
       q: "What is the difference between an exit readiness assessment and a business valuation?",
@@ -91,7 +91,7 @@ export const EXIT_READINESS_ASSESSMENT: ServiceLanding = {
       heading: "What does the Exit Readiness Assessment measure?",
       cover: [],
       body: [
-        "The score is built from 29 measures in five areas: financial health, operational maturity, strategic position and growth, market attractiveness and diligence readiness. The measures include contracted or recurring revenue, the largest customer and the top five as a share of revenue, margin stability over three years, add-backs as a share of EBITDA, cash conversion, the share of revenue from customers who deal mainly with the founder, the decisions only the founder takes, what happened the last time the founder was away, knowledge that sits only in the founder's head, personal guarantees or licences in the founder's name, whether there is a named successor, who runs sales, operations, finance and people, how strong the finance function is, and whether key managers are tied in.",
+        "The score is built across five areas: financial health, operational maturity, strategic position and growth, market attractiveness and diligence readiness. The measures include contracted or recurring revenue, the largest customer and the top five as a share of revenue, margin stability over three years, add-backs as a share of EBITDA, cash conversion, the share of revenue from customers who deal mainly with the founder, the decisions only the founder takes, what happened the last time the founder was away, knowledge that sits only in the founder's head, personal guarantees or licences in the founder's name, whether there is a named successor, who runs sales, operations, finance and people, how strong the finance function is, and whether key managers are tied in.",
         "They also include customer revenue retention, revenue growth, pricing, pipeline records, how close the last two budgets came to actual results, month-end close, the monthly management pack, revenue under written contract, employment records, IP ownership and open legal and tax items.",
         "The free [Exit Readiness Score](/exit-readiness-score/) is separate and shorter. Its thresholds are published on [how we score exit readiness](/resources/exit-readiness-scoring/).",
       ],

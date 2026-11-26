@@ -4,8 +4,9 @@
 // scalexit.com. The free score must never be described as running on Scalexit.
 //
 // FILE SLOTS (see vite.config.ts; the build picks the files up automatically):
-// - Scalexit logo, unaltered: public/images/scalexit-logo.svg (or .png). Shown small beside the
-//   Part A sub-heading. Nothing shows until it is added.
+// - Scalexit logo, unaltered: public/images/scalexit-logo.svg (or .png) for light backgrounds, and
+//   public/images/scalexit-logo-dark.svg (or .png) for the charcoal home section. Shown small beside
+//   the Part A sub-heading. Nothing shows until it is added.
 // - Scalexit score card graphic, unaltered: public/images/scalexit-card.png (or .svg, .webp, .jpg).
 //   Shown beside the Part A copy with its caption. Nothing shows until it is added. Do not rebuild
 //   the card in code.
@@ -13,6 +14,7 @@ import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const LOGO = __SCALEXIT_LOGO__;
+const LOGO_DARK = __SCALEXIT_LOGO_DARK__;
 const CARD = __SCALEXIT_CARD__;
 
 const ASSESSMENT_CTA = { to: '/contact/', label: 'Ask about an exit readiness assessment' };
@@ -29,14 +31,17 @@ export function AssessmentCta({ className = '' }: { className?: string }) {
   );
 }
 
-function FullAssessment() {
+function FullAssessment({ dark = false }: { dark?: boolean }) {
   return (
     <div className="er-panel rounded-xl border border-navy/10 bg-white p-6 md:p-10">
       <div className={CARD ? 'grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,28rem)] lg:gap-12 items-start' : ''}>
         <div className={CARD ? '' : 'max-w-3xl'}>
           <div className="flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:gap-4 mb-5">
-            {LOGO && (
-              <img src={LOGO} alt="Scalexit" width={2100} height={400} className="er-logo h-6 w-auto shrink-0" loading="lazy" />
+            {dark && LOGO_DARK ? (
+              // The dark version has its own background and margin, so it is shown a little taller.
+              <img src={LOGO_DARK} alt="Scalexit" width={2000} height={547} className="h-10 w-auto shrink-0 rounded" loading="lazy" />
+            ) : (
+              LOGO && <img src={LOGO} alt="Scalexit" width={2100} height={400} className="h-6 w-auto shrink-0" loading="lazy" />
             )}
             <h3 className="font-serif text-2xl md:text-3xl text-navy leading-tight">The full Exit Readiness Assessment</h3>
           </div>
@@ -111,7 +116,7 @@ export function ExitReadinessSection() {
             {HEADING}
           </h2>
           <p className="text-body-lg text-navy-light leading-relaxed max-w-3xl mb-12">{INTRO}</p>
-          <FullAssessment />
+          <FullAssessment dark />
           <div className="mt-6">
             <FreeScore />
           </div>
