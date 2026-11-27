@@ -16,15 +16,17 @@ import { HOME_RECENT_WORK } from '../content/case-studies';
 
 // What buyers paid: published and derived prices from our own sector reports (first three rows).
 // Colours are written as fixed values so the paper theme's overrides leave the dark panel alone.
+// The panel carries its own charcoal so it sits as a dark card on a white band, next to the
+// charcoal exit readiness section.
 function BuyersPaid() {
   const reportCount = articles.filter((a) => a.category === 'Sector Report').length;
   const rows = HOME_EVIDENCE.filter((slug) => REPORT_EVIDENCE[slug]).slice(0, 3).map((slug) => ({ slug, ...REPORT_EVIDENCE[slug] }));
   return (
-    <section className="mh-bg-charcoal py-24 md:py-28">
+    <section className="mh-bg-white py-24 md:py-28">
       <div className="container mx-auto px-6">
         <div className="max-w-2xl mx-auto">
     <aside
-      className="relative overflow-hidden rounded-[8px] border border-[#FAF7F2]/[0.14] text-[#FAF7F2]"
+      className="relative overflow-hidden rounded-[8px] border border-[#FAF7F2]/[0.14] bg-[#1F2226] text-[#FAF7F2]"
       aria-labelledby="hero-ledger-heading"
     >
       {/* The five rising bars of the logo, as a quiet watermark. */}
@@ -126,6 +128,9 @@ function CredentialsBand() {
             </li>
           ))}
         </ul>
+        <p className="text-[#FFFFFF] text-base md:text-lg mt-8 max-w-3xl">
+          Deals across manufacturing and industrials, business services, healthcare, logistics, professional services and technology.
+        </p>
       </div>
     </section>
   );
@@ -277,20 +282,23 @@ const HOME_FAQ: FAQItem[] = [
 
 function RecentWork() {
   return (
-    <section className="mh-bg-blush py-24 md:py-28">
+    <section className="mh-bg-blush py-20 md:py-24">
       <div className="container mx-auto px-6">
         <FadeIn>
-          <div className="max-w-3xl mb-12">
-            <h2 className="font-serif text-display-md text-navy leading-tight text-balance">Recent work</h2>
+          <div className="max-w-3xl mb-10">
+            <h2 className="font-serif text-display-md text-navy leading-tight text-balance mb-4">Recent work</h2>
+            <p className="text-navy-light text-base md:text-lg leading-relaxed">
+              A selection of recent work. We have also advised on deals across manufacturing and industrials, business services, healthcare, logistics, professional services and technology.
+            </p>
           </div>
         </FadeIn>
-        {/* Mobile: one horizontally scrollable row, each card 85% wide so the next one shows. Desktop: two rows of three. */}
-        <Stagger className="flex gap-4 overflow-x-auto snap-x snap-mandatory -mx-6 px-6 pb-3 md:grid md:grid-cols-3 md:gap-6 md:overflow-visible md:mx-0 md:px-0 md:pb-0">
+        {/* Three cards: stacked on mobile, one row of three from md up. */}
+        <Stagger className="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-6">
           {HOME_RECENT_WORK.map((study) => (
-            <StaggerItem key={study.title} className="w-[85%] shrink-0 snap-start md:w-auto">
+            <StaggerItem key={study.title}>
               <Link
                 to="/case-studies/"
-                className="group flex flex-col h-full rounded-xl border border-[#E6E0D6] border-t-[3px] border-t-[#96506D] bg-[#FFFFFF] p-7"
+                className="group flex flex-col h-full rounded-xl border border-[#E6E0D6] border-t-[3px] border-t-[#96506D] bg-[#FFFFFF] p-6 md:p-7"
               >
                 <span className="self-start text-xs font-mono tracking-widest uppercase text-[#96506D] mb-4">
                   {study.tag}
@@ -362,8 +370,6 @@ export default function Home() {
 
       <CredentialsBand />
 
-      <RecentWork />
-
       <HowWeWork />
 
       <LeoBlock />
@@ -371,6 +377,8 @@ export default function Home() {
       <BuyersPaid />
 
       <ExitReadinessSection />
+
+      <RecentWork />
 
       <Services />
 
