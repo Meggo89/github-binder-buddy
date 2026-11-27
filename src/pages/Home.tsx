@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { PageLayout } from '../components/layout';
 import { FAQSection, type FAQItem } from '../components/FAQSection';
-import { FadeIn, Stagger, StaggerItem } from '../components/ui/motion';
+import { FadeIn } from '../components/ui/motion';
 import { useScrollTracking } from '../hooks/useScrollTracking';
 import { trackCTA } from '../utils/trackCTA';
 import { articles } from '../content/insights';
@@ -12,7 +12,6 @@ import leoMeggitt from '../assets/leo-meggitt.jpg';
 import { SECTORS } from '../content/landing';
 import { CtaSection } from '../components/landing/CtaSection';
 import { ExitReadinessSection } from '../components/scalexit/ExitReadinessSection';
-import { HOME_RECENT_WORK } from '../content/case-studies';
 
 // What buyers paid: published and derived prices from our own sector reports (first three rows).
 // Colours are written as fixed values so the paper theme's overrides leave the dark panel alone.
@@ -280,50 +279,6 @@ const HOME_FAQ: FAQItem[] = [
   },
 ];
 
-function RecentWork() {
-  return (
-    <section className="mh-bg-blush py-20 md:py-24">
-      <div className="container mx-auto px-6">
-        <FadeIn>
-          <div className="max-w-3xl mb-10">
-            <h2 className="font-serif text-display-md text-navy leading-tight text-balance mb-4">Recent work</h2>
-            <p className="text-navy-light text-base md:text-lg leading-relaxed">
-              A selection of recent work. We have also advised on deals across manufacturing and industrials, business services, healthcare, logistics, professional services and technology.
-            </p>
-          </div>
-        </FadeIn>
-        {/* Three cards: stacked on mobile, one row of three from md up. */}
-        <Stagger className="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-6">
-          {HOME_RECENT_WORK.map((study) => (
-            <StaggerItem key={study.title}>
-              <Link
-                to="/case-studies/"
-                className="group flex flex-col h-full rounded-xl border border-[#E6E0D6] border-t-[3px] border-t-[#96506D] bg-[#FFFFFF] p-6 md:p-7"
-              >
-                <span className="self-start text-xs font-mono tracking-widest uppercase text-[#96506D] mb-4">
-                  {study.tag}
-                </span>
-                <h3 className="font-serif text-xl text-[#1F2226] leading-snug mb-1 group-hover:text-[#96506D] transition-colors">
-                  {study.title}
-                </h3>
-                <p className="text-xs font-mono text-[#1F2226] tracking-widest uppercase mb-5">{study.sector}</p>
-                <p className="text-sm text-navy leading-relaxed">{study.outcome}</p>
-              </Link>
-            </StaggerItem>
-          ))}
-        </Stagger>
-        <Link
-          to="/case-studies/"
-          className="inline-flex items-center gap-2 text-navy font-medium mt-10 hover:text-accent-dark transition-colors"
-        >
-          See all our work
-          <ArrowRight className="h-4 w-4" />
-        </Link>
-      </div>
-    </section>
-  );
-}
-
 function LeoBlock() {
   return (
     <section className="mh-bg-blush py-24 md:py-28">
@@ -377,8 +332,6 @@ export default function Home() {
       <BuyersPaid />
 
       <ExitReadinessSection />
-
-      <RecentWork />
 
       <Services />
 
