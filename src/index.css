@@ -290,7 +290,7 @@ main .keep-dark :is(.blur-3xl, .blur-2xl) { display: block; }
    accent; gold #C9A05A (a muted Scalexit gold) is for figures only; blush
    #F4EDEA is the plum at 6% on cream. Section order: cream hero, plum
    credentials, white four steps, blush Leo, white buyers paid (a charcoal
-   card), charcoal exit readiness, blush recent work, cream services, white
+   card), charcoal exit readiness, cream services, white
    FAQ, plum closing call to action. Classes are repeated to beat the merged .mh rules.
    ------------------------------------------------------------------ */
 .mh { --mh-plum: #96506D; --mh-gold: #C9A05A; --mh-blush: #F4EDEA; }
