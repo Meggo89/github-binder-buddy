@@ -1,71 +1,49 @@
-// Generate public/sitemap.xml from the central SEO config + insight articles.
-// Run during build before vite so the sitemap ends up in dist/ via public/.
+// Write dist/sitemap.xml from the prerendered pages. Runs after prerender, so the sitemap lists
+// exactly the pages that were built: every indexable page (noindex pages such as the 404 are left
+// out), and no PDFs or Markdown copies.
+//
+// lastmod comes from src/seo/lastmod.json, which records a hash of each page's visible text and
+// the date it last changed. A page whose text no longer matches its hash gets today's date and a
+// warning; run `npm run lastmod` and commit the ledger to record the change.
 
 import fs from 'node:fs';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
 import { SitemapStream, streamToPromise } from 'sitemap';
 import { Readable } from 'node:stream';
-import { SITE, ROUTES, type RouteMeta } from '../src/seo/site-meta';
+import { SITE } from '../src/seo/site-meta';
 import { articles } from '../src/content/insights';
+import { DIST, indexablePages, readLedger, today } from './page-text';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const OUTPUT = path.resolve(__dirname, '..', 'public', 'sitemap.xml');
+const ledger = readLedger();
+const insightDates = new Map(
+  articles.map((a) => {
+    const d = new Date(a.dateModified ?? a.date);
+    return [`/insights/${a.slug}/`, Number.isNaN(d.getTime()) ? '' : d.toISOString().slice(0, 10)];
+  }),
+);
 
-type Entry = {
-  url: string;
-  changefreq?: RouteMeta['changefreq'];
-  priority?: number;
-  lastmod?: string;
-};
-
-function parseDate(input: string): string {
-  // Input dates are human-readable like "15 January 2026" - normalise to ISO.
-  const d = new Date(input);
-  if (Number.isNaN(d.getTime())) return SITE.lastmod;
-  return d.toISOString().slice(0, 10);
-}
-
-// Netlify pretty_urls serves /about as /about/ (301 from the non-slash form).
-// Sitemap URLs must match the served form to avoid GSC "Page with redirect".
-function withSlash(p: string): string {
-  if (p === '/') return '/';
-  return p.endsWith('/') ? p : `${p}/`;
-}
-
-async function run() {
-  const entries: Entry[] = ROUTES.map((r) => ({
-    url: withSlash(r.path),
-    changefreq: r.changefreq,
-    priority: r.priority,
-    lastmod: SITE.lastmod,
-  }));
-
-  for (const a of articles) {
-    entries.push({
-      url: `/insights/${a.slug}/`,
-      changefreq: 'monthly',
-      priority: 0.6,
-      lastmod: parseDate(a.date),
-    });
-    // Sector report PDFs are listed alongside their pages.
-    if (a.download?.href.endsWith('.pdf')) {
-      entries.push({
-        url: a.download.href,
-        changefreq: 'monthly',
-        priority: 0.5,
-        lastmod: parseDate(a.dateModified ?? a.date),
-      });
-    }
+const stale: string[] = [];
+const entries = indexablePages().map(({ route, hash }) => {
+  let lastmod = ledger[route]?.lastmod;
+  if (!lastmod || ledger[route].hash !== hash) {
+    lastmod = today();
+    stale.push(route);
   }
-
-  const stream = new SitemapStream({ hostname: SITE.domain });
-  const xml = await streamToPromise(Readable.from(entries).pipe(stream));
-  fs.writeFileSync(OUTPUT, xml.toString());
-  console.log(`sitemap: wrote ${entries.length} URLs to ${path.relative(process.cwd(), OUTPUT)}`);
-}
-
-run().catch((err) => {
-  console.error(err);
-  process.exit(1);
+  const published = insightDates.get(route);
+  if (published && published > lastmod) lastmod = published;
+  const depth = route === '/' ? 0 : route.split('/').filter(Boolean).length;
+  return {
+    url: route,
+    lastmod,
+    changefreq: route === '/' || route === '/insights/' || route === '/insights/sector-reports/' ? 'weekly' : 'monthly',
+    priority: depth === 0 ? 1.0 : depth === 1 ? 0.8 : 0.6,
+  };
 });
+
+const stream = new SitemapStream({ hostname: SITE.domain });
+const xml = await streamToPromise(Readable.from(entries).pipe(stream));
+fs.writeFileSync(path.join(DIST, 'sitemap.xml'), xml.toString());
+if (stale.length) {
+  console.warn(`sitemap: ${stale.length} page(s) changed since src/seo/lastmod.json was written, dated today: ${stale.slice(0, 5).join(', ')}${stale.length > 5 ? ', ...' : ''}. Run npm run lastmod and commit the ledger.`);
+}
+console.log(`sitemap: wrote ${entries.length} URLs to dist/sitemap.xml`);

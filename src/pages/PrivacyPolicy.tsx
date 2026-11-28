@@ -1,4 +1,5 @@
 import { SEO } from '../components/SEO';
+import { BreadcrumbSchema } from '../components/BreadcrumbSchema';
 import { PageLayout } from '../components/layout';
 
 function Hero() {
@@ -20,6 +21,7 @@ export default function PrivacyPolicy() {
         description="Mastella Advisory's privacy policy. How we collect, use, and protect your personal data."
         canonical="https://mastellagroup.com/privacy-policy/"
       />
+      <BreadcrumbSchema items={[{ name: 'Home', path: '/' }, { name: 'Privacy policy', path: '/privacy-policy' }]} />
 
       <section className="bg-white py-20 md:py-24">
         <div className="container mx-auto px-6">

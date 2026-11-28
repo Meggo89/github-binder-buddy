@@ -1,5 +1,6 @@
 import { ArrowRight } from 'lucide-react';
-import { Link, useParams, Navigate } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
+import NotFound from './NotFound';
 import { SEO } from '../components/SEO';
 import { StructuredData } from '../components/StructuredData';
 import { PageLayout } from '../components/layout';
@@ -38,7 +39,7 @@ function Hero({ name, h1, subtitle }: { name: string; h1: string; subtitle: stri
 export default function SectorPillarPage() {
   const { slug } = useParams<{ slug: string }>();
   const sector = slug ? getSector(slug) : undefined;
-  if (!sector) return <Navigate to="/sectors/" replace />;
+  if (!sector) return <NotFound />;
 
   const niches = getNichesForPillar(sector.slug);
   const canonical = canonicalFor(`/sectors/${sector.slug}`);

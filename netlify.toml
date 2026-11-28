@@ -57,13 +57,10 @@
     Content-Type = "text/markdown; charset=utf-8"
     Cache-Control = "public, max-age=0, must-revalidate"
 
-# SPA fallback for client-side routes that don't have a prerendered index.html.
-# The prerender step emits /about/index.html, /services/index.html, etc., which
-# Netlify serves directly - the fallback only fires for unknown paths.
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+# No catch-all redirect. Every page is prerendered to its own index.html, so an
+# unknown URL gets dist/404.html with a real 404 status (Netlify serves 404.html
+# automatically). A "/* /index.html 200" rule here would answer every unknown URL
+# with the home page and a 200, which search engines treat as a soft 404.
 
 [functions]
   # Bundle the notify-enquiry.mts function with esbuild so ESM + Node 20

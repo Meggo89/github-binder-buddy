@@ -1,4 +1,4 @@
-// Case studies shown on /case-studies/ and, for three of them, on the home page.
+// Case studies shown on /case-studies/.
 
 export type CaseStudy = {
   tag: string;
@@ -170,17 +170,4 @@ export const CASE_STUDY_GROUPS: { heading: string; studies: CaseStudy[] }[] = [
       byTitle('Alternative Fund Manager'),
     ],
   },
-];
-
-// Six case studies on the home page: the three sales shown before, then the next three in the
-// order they appear on /case-studies/. Outcomes are cut to one sentence of the existing wording.
-const short = (title: string, outcome: string): CaseStudy => ({ ...byTitle(title), outcome });
-
-export const HOME_RECENT_WORK: CaseStudy[] = [
-  short('Cold-chain Logistics & Container Leasing Operator', 'Completed sale to a strategic acquirer at a premium to initial expectations.'),
-  short('Logistics Business', "Completed a majority sale to a respected PE investor who committed to preserving the company's culture."),
-  short('DFM Platform', 'Majority sale to a PE-backed asset manager at a premium multiple, with founders retaining a meaningful minority stake.'),
-  short('Institutional Asset Manager', "Completed a full sale to a strategic acquirer at the founder's target valuation."),
-  short('Agricultural Group', 'Supporting execution of targeted acquisitions, with two deals in advanced due diligence.'),
-  short('HR Tech Platform', 'Secured approximately £2m in seed funding from a diversified investor base.'),
 ];

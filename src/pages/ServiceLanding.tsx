@@ -1,5 +1,6 @@
 import { ArrowRight } from 'lucide-react';
-import { Link, useParams, Navigate } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
+import NotFound from './NotFound';
 import { SEO } from '../components/SEO';
 import { StructuredData } from '../components/StructuredData';
 import { PageLayout } from '../components/layout';
@@ -95,7 +96,7 @@ function Steps({ steps }: { steps: ServiceStep[] }) {
 export default function ServiceLandingPage() {
   const { slug } = useParams<{ slug: string }>();
   const service = slug ? getServiceLanding(slug) : undefined;
-  if (!service) return <Navigate to="/services/" replace />;
+  if (!service) return <NotFound />;
 
   const canonical = canonicalFor(`/services/${service.slug}`);
 

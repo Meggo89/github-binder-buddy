@@ -289,9 +289,9 @@ main .keep-dark :is(.blur-3xl, .blur-2xl) { display: block; }
    Home page colour bands. Plum #96506D (the button colour) is the main
    accent; gold #C9A05A (a muted Scalexit gold) is for figures only; blush
    #F4EDEA is the plum at 6% on cream. Section order: cream hero, plum
-   credentials, blush recent work, white four steps, blush Leo, charcoal
-   buyers paid, charcoal exit readiness, cream services, white FAQ, plum
-   closing call to action. Classes are repeated to beat the merged .mh rules.
+   credentials, white four steps, blush Leo, white buyers paid (a charcoal
+   card), charcoal exit readiness, cream services, white
+   FAQ, plum closing call to action. Classes are repeated to beat the merged .mh rules.
    ------------------------------------------------------------------ */
 .mh { --mh-plum: #96506D; --mh-gold: #C9A05A; --mh-blush: #F4EDEA; }
 .mh section.mh-bg-blush.mh-bg-blush { background-color: var(--mh-blush); border-top-color: transparent; }

@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { PageLayout } from '../components/layout';
 import { FAQSection, type FAQItem } from '../components/FAQSection';
-import { FadeIn, Stagger, StaggerItem } from '../components/ui/motion';
+import { FadeIn } from '../components/ui/motion';
 import { useScrollTracking } from '../hooks/useScrollTracking';
 import { trackCTA } from '../utils/trackCTA';
 import { articles } from '../content/insights';
@@ -12,19 +12,20 @@ import leoMeggitt from '../assets/leo-meggitt.jpg';
 import { SECTORS } from '../content/landing';
 import { CtaSection } from '../components/landing/CtaSection';
 import { ExitReadinessSection } from '../components/scalexit/ExitReadinessSection';
-import { HOME_RECENT_WORK } from '../content/case-studies';
 
 // What buyers paid: published and derived prices from our own sector reports (first three rows).
 // Colours are written as fixed values so the paper theme's overrides leave the dark panel alone.
+// The panel carries its own charcoal so it sits as a dark card on a white band, next to the
+// charcoal exit readiness section.
 function BuyersPaid() {
   const reportCount = articles.filter((a) => a.category === 'Sector Report').length;
   const rows = HOME_EVIDENCE.filter((slug) => REPORT_EVIDENCE[slug]).slice(0, 3).map((slug) => ({ slug, ...REPORT_EVIDENCE[slug] }));
   return (
-    <section className="mh-bg-charcoal py-24 md:py-28">
+    <section className="mh-bg-white py-24 md:py-28">
       <div className="container mx-auto px-6">
         <div className="max-w-2xl mx-auto">
     <aside
-      className="relative overflow-hidden rounded-[8px] border border-[#FAF7F2]/[0.14] text-[#FAF7F2]"
+      className="relative overflow-hidden rounded-[8px] border border-[#FAF7F2]/[0.14] bg-[#1F2226] text-[#FAF7F2]"
       aria-labelledby="hero-ledger-heading"
     >
       {/* The five rising bars of the logo, as a quiet watermark. */}
@@ -126,6 +127,9 @@ function CredentialsBand() {
             </li>
           ))}
         </ul>
+        <p className="text-[#FFFFFF] text-base md:text-lg mt-8 max-w-3xl">
+          Deals across manufacturing and industrials, business services, healthcare, logistics, professional services and technology.
+        </p>
       </div>
     </section>
   );
@@ -275,47 +279,6 @@ const HOME_FAQ: FAQItem[] = [
   },
 ];
 
-function RecentWork() {
-  return (
-    <section className="mh-bg-blush py-24 md:py-28">
-      <div className="container mx-auto px-6">
-        <FadeIn>
-          <div className="max-w-3xl mb-12">
-            <h2 className="font-serif text-display-md text-navy leading-tight text-balance">Recent work</h2>
-          </div>
-        </FadeIn>
-        {/* Mobile: one horizontally scrollable row, each card 85% wide so the next one shows. Desktop: two rows of three. */}
-        <Stagger className="flex gap-4 overflow-x-auto snap-x snap-mandatory -mx-6 px-6 pb-3 md:grid md:grid-cols-3 md:gap-6 md:overflow-visible md:mx-0 md:px-0 md:pb-0">
-          {HOME_RECENT_WORK.map((study) => (
-            <StaggerItem key={study.title} className="w-[85%] shrink-0 snap-start md:w-auto">
-              <Link
-                to="/case-studies/"
-                className="group flex flex-col h-full rounded-xl border border-[#E6E0D6] border-t-[3px] border-t-[#96506D] bg-[#FFFFFF] p-7"
-              >
-                <span className="self-start text-xs font-mono tracking-widest uppercase text-[#96506D] mb-4">
-                  {study.tag}
-                </span>
-                <h3 className="font-serif text-xl text-[#1F2226] leading-snug mb-1 group-hover:text-[#96506D] transition-colors">
-                  {study.title}
-                </h3>
-                <p className="text-xs font-mono text-[#1F2226] tracking-widest uppercase mb-5">{study.sector}</p>
-                <p className="text-sm text-navy leading-relaxed">{study.outcome}</p>
-              </Link>
-            </StaggerItem>
-          ))}
-        </Stagger>
-        <Link
-          to="/case-studies/"
-          className="inline-flex items-center gap-2 text-navy font-medium mt-10 hover:text-accent-dark transition-colors"
-        >
-          See all our work
-          <ArrowRight className="h-4 w-4" />
-        </Link>
-      </div>
-    </section>
-  );
-}
-
 function LeoBlock() {
   return (
     <section className="mh-bg-blush py-24 md:py-28">
@@ -361,8 +324,6 @@ export default function Home() {
       />
 
       <CredentialsBand />
-
-      <RecentWork />
 
       <HowWeWork />
 
