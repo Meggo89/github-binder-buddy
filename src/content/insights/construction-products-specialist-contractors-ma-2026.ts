@@ -3,7 +3,7 @@ import type { Article } from './types';
 const article: Article = {
   slug: "construction-products-specialist-contractors-ma-2026",
   title: "Selling a UK construction products or specialist contractor business in 2026: who is buying and what they pay",
-  titleTag: "UK Construction Products and Specialist Contractors M&A 2026 | Mastella",
+  titleTag: "UK Construction Products & Specialist Contractors M&A 2026",
   standfirst: "Our research on 41 UK deals since January 2024, the prices in buyers' filed accounts, announcements and press reports, and the market conditions behind them. Prepared 25 November 2026.",
   excerpt: "Owners of building products manufacturers, merchants and specialist contractors in roofing, cladding, groundworks, piling, drylining, flooring, scaffolding and demolition are selling into a soft market with active buyers.",
   metaDescription: "Our research on 41 UK construction products and contractor deals since 2024: prices from buyers' accounts and who is buying.",

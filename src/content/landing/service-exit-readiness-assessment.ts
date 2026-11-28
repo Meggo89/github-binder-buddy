@@ -12,7 +12,7 @@ export const EXIT_READINESS_ASSESSMENT: ServiceLanding = {
   name: "Exit Readiness Assessment",
   title: "Exit Readiness Assessment UK | Mastella Advisory",
   metaDescription:
-    "Fixed-fee exit readiness assessment for UK owner-managed businesses. Scored across five areas, verified against your data and senior team. Report in ten working days.",
+    "Fixed-fee exit readiness assessment for UK owner-managed firms. Five areas scored, verified against your data and senior team. Report in ten working days.",
   h1: "Exit Readiness Assessment",
   heroSubtitle:
     "How a buyer would read your business, scored across five areas and verified against your numbers and your team. Fixed fee.",
