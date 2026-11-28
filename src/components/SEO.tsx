@@ -12,6 +12,8 @@ interface SEOProps {
   exactTitle?: boolean;
   // Named author for articles; defaults to the firm.
   author?: string;
+  // Keep the page out of search results (the 404 page).
+  noindex?: boolean;
 }
 
 export function SEO({
@@ -22,6 +24,7 @@ export function SEO({
   image = SITE.defaultOgImage,
   exactTitle = false,
   author = SITE.name,
+  noindex = false,
 }: SEOProps) {
   const siteTitle = exactTitle ? title : fullTitle(title);
   const markdownPath = markdownPathFor(canonical);
@@ -31,8 +34,8 @@ export function SEO({
       {/* Basic */}
       <title>{siteTitle}</title>
       <meta name="description" content={description} />
-      <link rel="canonical" href={canonical} />
-      {markdownPath && <link rel="alternate" type="text/markdown" href={`${SITE.domain}${markdownPath}`} />}
+      {!noindex && <link rel="canonical" href={canonical} />}
+      {!noindex && markdownPath && <link rel="alternate" type="text/markdown" href={`${SITE.domain}${markdownPath}`} />}
 
       {/* Open Graph */}
       <meta property="og:title" content={siteTitle} />
@@ -51,7 +54,7 @@ export function SEO({
 
       {/* Additional */}
       <meta name="author" content={author} />
-      <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+      <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1'} />
       <meta name="geo.region" content="GB" />
       <meta name="geo.placename" content="London" />
     </Helmet>

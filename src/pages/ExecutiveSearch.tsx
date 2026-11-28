@@ -2,6 +2,7 @@ import { ArrowRight, Target, Users, Search, TrendingUp } from 'lucide-react';
 import { ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import { SEO } from '../components/SEO';
+import { BreadcrumbSchema } from '../components/BreadcrumbSchema';
 import { PageLayout } from '../components/layout';
 import { FadeIn, Stagger, StaggerItem } from '../components/ui/motion';
 
@@ -55,6 +56,7 @@ export default function ExecutiveSearch() {
         description="Strategic leadership placement and interim management for companies pre and post exit. Executives with proven track records in M&A transitions."
         canonical="https://mastellagroup.com/executive-search/"
       />
+      <BreadcrumbSchema items={[{ name: 'Home', path: '/' }, { name: 'Executive search', path: '/executive-search' }]} />
 
       {/* Pre-exit */}
       <section className="bg-white py-24 md:py-32">

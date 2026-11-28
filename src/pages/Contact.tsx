@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Mail, MapPin, Phone, CheckCircle, Loader2 } from 'lucide-react';
 import { SEO } from '../components/SEO';
+import { BreadcrumbSchema } from '../components/BreadcrumbSchema';
 import { PageLayout } from '../components/layout';
 import { FadeIn } from '../components/ui/motion';
 import { submitNetlifyForm, notifyContactEnquiry } from '../utils/netlifyForms';
@@ -154,6 +155,7 @@ export default function Contact() {
         description="Get in touch with Mastella Advisory for a confidential, no-obligation first conversation about selling your business, its value or raising capital."
         canonical="https://mastellagroup.com/contact/"
       />
+      <BreadcrumbSchema items={[{ name: 'Home', path: '/' }, { name: 'Contact', path: '/contact' }]} />
 
       <section className="bg-white py-24 md:py-32">
         <div className="container mx-auto px-6">

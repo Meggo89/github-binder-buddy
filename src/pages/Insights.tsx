@@ -1,6 +1,7 @@
 import { ArrowRight, Clock } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { SEO } from '../components/SEO';
+import { BreadcrumbSchema } from '../components/BreadcrumbSchema';
 import { PageLayout } from '../components/layout';
 import { FadeIn, Stagger, StaggerItem } from '../components/ui/motion';
 import { articles, type Article } from '../content/insights';
@@ -68,6 +69,7 @@ export default function Insights() {
         description="Long-form analysis on exits, fundraising and valuation for founder-led businesses. Written by the Mastella team for founders, not other advisers."
         canonical="https://mastellagroup.com/insights/"
       />
+      <BreadcrumbSchema items={[{ name: 'Home', path: '/' }, { name: 'Insights', path: '/insights' }]} />
 
       {/* Sector reports */}
       <section className="bg-sand-light py-16 md:py-20" aria-labelledby="sector-reports-heading">

@@ -1,6 +1,7 @@
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { SEO } from '../components/SEO';
+import { BreadcrumbSchema } from '../components/BreadcrumbSchema';
 import { PageLayout } from '../components/layout';
 import { FadeIn, Stagger, StaggerItem } from '../components/ui/motion';
 import { CASE_STUDY_GROUPS, type CaseStudy } from '../content/case-studies';
@@ -68,6 +69,7 @@ export default function CaseStudies() {
         description="Real outcomes for real founders. Exit advisory, M&A transactions, and capital raises led by Mastella Advisory across six sectors."
         canonical="https://mastellagroup.com/case-studies/"
       />
+      <BreadcrumbSchema items={[{ name: 'Home', path: '/' }, { name: 'Case studies', path: '/case-studies' }]} />
 
       {/* Stats */}
       <section className="bg-white py-16 md:py-20 border-b border-navy/10">

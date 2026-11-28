@@ -1,6 +1,7 @@
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { SEO } from '../components/SEO';
+import { BreadcrumbSchema } from '../components/BreadcrumbSchema';
 import { PageLayout } from '../components/layout';
 import { FadeIn, Stagger, StaggerItem } from '../components/ui/motion';
 
@@ -46,6 +47,7 @@ export default function About() {
         description="Off-market M&A advisory for founder-led businesses worth £5M to £50M. Confidential sell-side, fundraising and exit readiness, led by senior advisers."
         canonical="https://mastellagroup.com/about/"
       />
+      <BreadcrumbSchema items={[{ name: 'Home', path: '/' }, { name: 'About', path: '/about' }]} />
 
       {/* Thesis */}
       <section className="bg-white py-24 md:py-32">

@@ -205,6 +205,19 @@ async function run() {
       writeRoute(m, headPatched, '');
     }
   }
+  // 404 page. Netlify serves dist/404.html, with a 404 status, for any URL that is not a file.
+  // noindex, and no canonical, so it can never be indexed as a copy of another page.
+  {
+    let head = patchHead(shell, { path: '/404.html', title: 'Page not found', description: 'This page does not exist or has moved.' });
+    head = head
+      .replace(/<meta\s+name="robots"\s+content="[^"]*"\s*\/?>/, '<meta name="robots" content="noindex, follow" />')
+      .replace(/\s*<link\s+rel="canonical"[^>]*>/, '')
+      .replace(/\s*<meta\s+property="og:url"[^>]*>/, '')
+      .replace(/\s*<meta\s+name="twitter:url"[^>]*>/, '');
+    const { html: body } = render('/404.html');
+    fs.writeFileSync(path.join(DIST, '404.html'), injectBody(head, body));
+  }
+
   console.log(
     `prerender: SSR'd ${ok}/${all.length} routes; avg body size ${Math.round(bytes / ok)} bytes; ` +
       `page JSON-LD added to ${schemaRoutes} routes; written to dist/`,

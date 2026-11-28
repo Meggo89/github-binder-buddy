@@ -1,5 +1,6 @@
 import { Download, CheckCircle2 } from 'lucide-react';
 import { SEO } from '../components/SEO';
+import { BreadcrumbSchema } from '../components/BreadcrumbSchema';
 import { PageLayout } from '../components/layout';
 import { FadeIn } from '../components/ui/motion';
 import { LeadMagnetForm } from '../components/forms/LeadMagnetForm';
@@ -42,6 +43,7 @@ export default function LeadMagnet() {
         description="The questions every UK founder should answer before starting an M&A process. Free download, no follow-up unless you ask."
         canonical="https://mastellagroup.com/lead-magnet/"
       />
+      <BreadcrumbSchema items={[{ name: 'Home', path: '/' }, { name: 'Exit readiness checklist', path: '/lead-magnet' }]} />
 
       <section className="bg-white py-20 md:py-24">
         <div className="container mx-auto px-6">
