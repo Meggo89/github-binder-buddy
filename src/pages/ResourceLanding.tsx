@@ -1,4 +1,5 @@
-import { useParams, Navigate } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
+import NotFound from './NotFound';
 import { SEO } from '../components/SEO';
 import { StructuredData } from '../components/StructuredData';
 import { PageLayout } from '../components/layout';
@@ -24,7 +25,7 @@ function Hero({ h1 }: { h1: string }) {
 export default function ResourceLandingPage() {
   const { slug } = useParams<{ slug: string }>();
   const resource = slug ? getResource(slug) : undefined;
-  if (!resource) return <Navigate to="/" replace />;
+  if (!resource) return <NotFound />;
 
   const canonical = canonicalFor(`/resources/${resource.slug}`);
 

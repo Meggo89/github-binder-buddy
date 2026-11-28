@@ -1,5 +1,6 @@
 import { ArrowRight } from 'lucide-react';
-import { Link, useParams, Navigate } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
+import NotFound from './NotFound';
 import { SEO } from '../components/SEO';
 import { StructuredData } from '../components/StructuredData';
 import { PageLayout } from '../components/layout';
@@ -39,7 +40,7 @@ export default function NicheLandingPage() {
   const { pillarSlug, slug } = useParams<{ pillarSlug: string; slug: string }>();
   const niche = pillarSlug && slug ? getNiche(pillarSlug, slug) : undefined;
   const pillar = pillarSlug ? getSector(pillarSlug) : undefined;
-  if (!niche || !pillar) return <Navigate to="/sectors/" replace />;
+  if (!niche || !pillar) return <NotFound />;
 
   const canonical = canonicalFor(`/sectors/${pillar.slug}/${niche.slug}`);
 

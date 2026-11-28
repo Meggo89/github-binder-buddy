@@ -1,6 +1,7 @@
 import { Fragment } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { useParams, Link, Navigate } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
+import NotFound from './NotFound';
 import { ArrowLeft, Calendar, Clock, Download, User } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { PageLayout } from '../components/layout';
@@ -19,7 +20,7 @@ export default function InsightArticle() {
   const article = getArticle(slug);
 
   if (!article) {
-    return <Navigate to="/insights/" replace />;
+    return <NotFound />;
   }
 
   const canonical = `https://mastellagroup.com/insights/${article.slug}/`;
@@ -52,7 +53,9 @@ export default function InsightArticle() {
     articleSection: article.category,
   };
 
-  const faqSchema = article.faqs && article.faqs.length > 0
+  // FAQPage only when every question is on the page: structured data must match what readers see.
+  const faqsVisible = Boolean(article.faqs?.length) && (article.faqs ?? []).every((f) => article.content.includes(f.q) || article.content.includes(f.q.replace(/&/g, '&amp;')));
+  const faqSchema = faqsVisible && article.faqs
     ? {
         '@context': 'https://schema.org',
         '@type': 'FAQPage',
@@ -77,7 +80,15 @@ export default function InsightArticle() {
           { '@type': 'ListItem', position: 3, name: reportMeta.label, item: canonical },
         ],
       }
-    : null;
+    : {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mastellagroup.com/' },
+          { '@type': 'ListItem', position: 2, name: 'Insights', item: 'https://mastellagroup.com/insights/' },
+          { '@type': 'ListItem', position: 3, name: article.title, item: canonical },
+        ],
+      };
 
   const markdownHref = markdownPathFor(`/insights/${article.slug}`);
   const links = INSIGHT_LINKS[article.slug];

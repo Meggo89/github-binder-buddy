@@ -43,7 +43,7 @@
     <!-- Google Search Console verification -->
     <meta name="google-site-verification" content="Hp7X0B-pF0vCa93ad2rDPjwdD_JViAt8qjTDMMcaxWE" />
 
-    <!-- Structured Data: Organization + WebSite + ProfessionalService -->
+    <!-- Structured Data: Organization + Person + WebSite + ProfessionalService -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -55,9 +55,9 @@
           "url": "https://mastellagroup.com",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://mastellagroup.com/favicon.svg",
-            "width": 512,
-            "height": 512
+            "url": "https://mastellagroup.com/favicon-192.png",
+            "width": 192,
+            "height": 192
           },
           "email": "leo@mastellagroup.com",
           "address": {
@@ -67,9 +67,19 @@
             "postalCode": "WC1X 9LP",
             "addressCountry": "GB"
           },
+          "founder": { "@id": "https://mastellagroup.com/team/#leo-meggitt" },
           "sameAs": [
             "https://www.linkedin.com/company/mastella-advisory"
           ]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://mastellagroup.com/team/#leo-meggitt",
+          "name": "Leo Meggitt",
+          "jobTitle": "Managing Director",
+          "worksFor": { "@id": "https://mastellagroup.com/#organization" },
+          "url": "https://mastellagroup.com/team/",
+          "sameAs": ["https://www.linkedin.com/in/leomeggitt/"]
         },
         {
           "@type": "WebSite",

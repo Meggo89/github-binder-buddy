@@ -85,7 +85,7 @@ export default function Team() {
     name: LEAD_ADVISOR.name,
     jobTitle: LEAD_ADVISOR.title,
     worksFor: { '@id': `${SITE.domain}/#organization` },
-    url: LEAD_ADVISOR.linkedin,
+    url: canonicalFor('/team'),
     sameAs: [LEAD_ADVISOR.linkedin],
     image: `${SITE.domain}${LEAD_ADVISOR.image}`,
     description: LEAD_ADVISOR.lead,

@@ -29,6 +29,7 @@ import ResourceLanding from './pages/ResourceLanding';
 import LeadMagnet from './pages/LeadMagnet';
 import ExitReadinessScore from './pages/ExitReadinessScore';
 import ExitReadinessScoring from './pages/ExitReadinessScoring';
+import NotFound from './pages/NotFound';
 
 export default function App() {
   usePageViewTracking();
@@ -62,6 +63,7 @@ export default function App() {
         <Route path="/resources/:slug" element={<ResourceLanding />} />
         <Route path="/exit-readiness-score" element={<ExitReadinessScore />} />
         <Route path="/lead-magnet" element={<LeadMagnet />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <CookieConsent />
     </>

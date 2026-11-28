@@ -1,6 +1,7 @@
 import { ArrowRight, Cpu, User } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { SEO } from '../components/SEO';
+import { BreadcrumbSchema } from '../components/BreadcrumbSchema';
 import { PageLayout } from '../components/layout';
 import { FadeIn } from '../components/ui/motion';
 import { ProcessOverviewIllustration } from '../components/illustrations';
@@ -30,6 +31,7 @@ export default function Process() {
         description="How we source buyers other advisers don't reach. Six-stage senior-led M&A process for founder-led businesses worth £5M to £50M in the UK and internationally."
         canonical="https://mastellagroup.com/process/"
       />
+      <BreadcrumbSchema items={[{ name: 'Home', path: '/' }, { name: 'Our process', path: '/process' }]} />
 
       {/* Overview */}
       <section className="bg-navy-deepest text-white py-20 md:py-24">

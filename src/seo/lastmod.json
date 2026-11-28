@@ -1,0 +1,458 @@
+{
+  "/": {
+    "hash": "1dfe685f8456edcc",
+    "lastmod": "2026-11-27"
+  },
+  "/about/": {
+    "hash": "5016e53550f07507",
+    "lastmod": "2026-11-23"
+  },
+  "/case-studies/": {
+    "hash": "24f145bc638f8231",
+    "lastmod": "2026-11-27"
+  },
+  "/contact/": {
+    "hash": "d030a859778ef510",
+    "lastmod": "2026-11-15"
+  },
+  "/executive-search/": {
+    "hash": "edb216296d1e3dcf",
+    "lastmod": "2026-10-12"
+  },
+  "/exit-readiness-score/": {
+    "hash": "1fee412ec482655e",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/": {
+    "hash": "7a0194ed97434228",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/12-months-before-you-sell/": {
+    "hash": "4c5ad145a0c1f6bd",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/accountancy-practices-ma-2026/": {
+    "hash": "e0433ddb8c4d9aef",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/accountant-valuation-vs-market-valuation/": {
+    "hash": "2ba8635a9f82db6e",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/ai-in-modern-ma-transactions/": {
+    "hash": "65c39f474b0ec482",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/badr-changes-april-2027-should-you-sell-before/": {
+    "hash": "d6ec584fd29a6386",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/building-services-compliance-ma-2026/": {
+    "hash": "a7636620fe54ef93",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/care-complex-care-ma-2026/": {
+    "hash": "2c68564ae849fa76",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/commercial-insurance-brokers-ma-2026/": {
+    "hash": "8667f3a9c33d0b04",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/comprehensive-guide-business-exits/": {
+    "hash": "e7b3db46f4f262b6",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/construction-products-specialist-contractors-ma-2026/": {
+    "hash": "d1f82edd18eb8c85",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/earn-outs-explained-uk/": {
+    "hash": "9e6cbe8add27feec",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/ebitda-add-backs-buyers-accept/": {
+    "hash": "3f8c3769a9bb3d7d",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/education-training-ma-2026/": {
+    "hash": "4a7c6e3fc65abb10",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/energy-services-renewables-ma-2026/": {
+    "hash": "191ccabd92835dc9",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/engineering-technical-services-ma-2026/": {
+    "hash": "4b56014ca1540809",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/estate-agency-lettings-property-ma-2026/": {
+    "hash": "478de8a40e31696a",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/events-exhibitions-venues-ma-2026/": {
+    "hash": "9baeee4b8c3d9725",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/facilities-management-cleaning-ma-2026/": {
+    "hash": "0ceb0af3611eb244",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/fire-security-life-safety-ma-2026/": {
+    "hash": "4abd8b2750c89f9e",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/food-drink-producers-ma-2026/": {
+    "hash": "ad5c37547cafbc57",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/founders-relief-2027-who-qualifies/": {
+    "hash": "a0dac3d2a55d59ba",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/future-of-ma-technology-sector/": {
+    "hash": "20076dfa506da920",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/heads-of-terms-what-is-binding/": {
+    "hash": "a241225c7c9898bd",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/healthcare-services-ma-2026/": {
+    "hash": "f02f81b1952eaf77",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/human-employment-ai-era/": {
+    "hash": "c04c94b546ddea54",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/insurance-broking-ma-2026/": {
+    "hash": "e99281308776d1b7",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/it-msp-cyber-ma-2026/": {
+    "hash": "dc064b40ecbbebac",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/legal-services-ma-2026/": {
+    "hash": "d8a0527bd06ed115",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/logistics-distribution-ma-2026/": {
+    "hash": "4e8638ec85ed65a7",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/marketing-digital-agencies-ma-2026/": {
+    "hash": "149ce6c05a7bc366",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/nurseries-childcare-ma-2026/": {
+    "hash": "a992e3c6f9fc6bf4",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/occupational-health-wellbeing-ma-2026/": {
+    "hash": "80c9f615c319204e",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/packaging-ma-2026/": {
+    "hash": "1b1d49d66c1f33e2",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/pet-care-animal-health-ma-2026/": {
+    "hash": "2ef9efc8ccde6639",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/plant-hire-equipment-rental-ma-2026/": {
+    "hash": "9ec3818a6d850ae8",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/post-merger-integration-success/": {
+    "hash": "03473a8117a3e62d",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/print-signage-promotional-ma-2026/": {
+    "hash": "0d2e59d435f96092",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/recruitment-staffing-ma-2026/": {
+    "hash": "04194c398beba6c2",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/rollover-equity-explained/": {
+    "hash": "55ac19d522747256",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/search-fund-vs-private-equity-vs-strategic/": {
+    "hash": "065b67ca378e0c46",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/sector-reports/": {
+    "hash": "96d2bb5c22a0dca4",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/sme-valuations-key-considerations/": {
+    "hash": "af5e1bcac38c0563",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/software-tech-enabled-ma-2026/": {
+    "hash": "255f9e8e3ba1a1c2",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/specialist-distribution-ma-2026/": {
+    "hash": "e1b44bdf9f6db955",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/specialist-manufacturing-ma-2026/": {
+    "hash": "5fee28101b9a411c",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/telecoms-unified-comms-ma-2026/": {
+    "hash": "723f87ed1a03849c",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/test-measurement-instruments-ma-2026/": {
+    "hash": "6b5c7310536a7176",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/travel-tour-operators-ma-2026/": {
+    "hash": "08a293ec387e180d",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/uk-search-funds-explained/": {
+    "hash": "dafb79c32e4bdb49",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/vehicle-fleet-automotive-ma-2026/": {
+    "hash": "4e1dc660179c57db",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/warranties-indemnities-business-sale/": {
+    "hash": "3a7bd37a5270dde8",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/waste-environmental-services-ma-2026/": {
+    "hash": "ffae4c8bf71558d9",
+    "lastmod": "2026-11-26"
+  },
+  "/insights/wealth-management-ifa-ma-2026/": {
+    "hash": "7635f26f3a274810",
+    "lastmod": "2026-11-26"
+  },
+  "/lead-magnet/": {
+    "hash": "f2f0044c3a221ee6",
+    "lastmod": "2026-11-26"
+  },
+  "/privacy-policy/": {
+    "hash": "0e5f689b3db19248",
+    "lastmod": "2026-06-19"
+  },
+  "/process/": {
+    "hash": "b3141cea3a0ccbf9",
+    "lastmod": "2026-11-23"
+  },
+  "/resources/business-broker-vs-m-a-advisor/": {
+    "hash": "81cf071b2afa7c24",
+    "lastmod": "2026-11-23"
+  },
+  "/resources/exit-readiness-scoring/": {
+    "hash": "8c20d8cc57bf8f31",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/": {
+    "hash": "32c36c09671723e8",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/business-services/": {
+    "hash": "58bd92390a68dd7e",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/business-services/cleaning-services/": {
+    "hash": "588c73f90eff4650",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/business-services/facilities-management/": {
+    "hash": "645b8583e630cd73",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/business-services/hr-payroll-services/": {
+    "hash": "c3a03dec3a652a10",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/business-services/recruitment-agencies/": {
+    "hash": "544286bcd0c32c91",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/healthcare-services/": {
+    "hash": "1a6137e7b08c3307",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/healthcare-services/care-homes-and-domiciliary-care/": {
+    "hash": "721a0b3479771c22",
+    "lastmod": "2026-11-23"
+  },
+  "/sectors/healthcare-services/dental-practices/": {
+    "hash": "d8cee25df53267e3",
+    "lastmod": "2026-11-23"
+  },
+  "/sectors/healthcare-services/mental-health-services/": {
+    "hash": "e45884e5b8371329",
+    "lastmod": "2026-11-23"
+  },
+  "/sectors/healthcare-services/occupational-health/": {
+    "hash": "549859c3d098ec21",
+    "lastmod": "2026-11-23"
+  },
+  "/sectors/healthcare-services/specialist-clinics/": {
+    "hash": "ebc07446e5e47370",
+    "lastmod": "2026-11-23"
+  },
+  "/sectors/healthcare-services/veterinary-practices/": {
+    "hash": "73a202d42657c15d",
+    "lastmod": "2026-11-23"
+  },
+  "/sectors/light-industrials/": {
+    "hash": "6453b02ecd004e8b",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/light-industrials/engineering-services/": {
+    "hash": "19749bbf0a271c0b",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/light-industrials/industrial-coatings-and-surface-treatment/": {
+    "hash": "36b88bd6ec9ca5d2",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/light-industrials/plant-hire-and-equipment-rental/": {
+    "hash": "6d1afa9d4404e628",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/light-industrials/process-engineering/": {
+    "hash": "3cdff031abe06716",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/light-industrials/specialist-manufacturing/": {
+    "hash": "f912a3fe17f71158",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/logistics-and-distribution/": {
+    "hash": "ce735553541d1a8d",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/logistics-and-distribution/cold-chain-logistics/": {
+    "hash": "2b8e67dda7163f71",
+    "lastmod": "2026-11-23"
+  },
+  "/sectors/logistics-and-distribution/container-leasing/": {
+    "hash": "773f07696ecb1d79",
+    "lastmod": "2026-11-23"
+  },
+  "/sectors/logistics-and-distribution/freight-forwarding/": {
+    "hash": "f99b91dd96126208",
+    "lastmod": "2026-11-23"
+  },
+  "/sectors/logistics-and-distribution/last-mile-delivery/": {
+    "hash": "730c0c50a98a8adf",
+    "lastmod": "2026-11-23"
+  },
+  "/sectors/logistics-and-distribution/marine-logistics/": {
+    "hash": "fd16d531b2bad4a2",
+    "lastmod": "2026-11-23"
+  },
+  "/sectors/logistics-and-distribution/third-party-logistics-3pl/": {
+    "hash": "ad6dc22d274afd47",
+    "lastmod": "2026-11-23"
+  },
+  "/sectors/logistics-and-distribution/warehousing-and-distribution/": {
+    "hash": "9dc48c3bc1dd4e82",
+    "lastmod": "2026-11-23"
+  },
+  "/sectors/professional-services/": {
+    "hash": "704216c5e31cbd95",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/professional-services/consulting-practices/": {
+    "hash": "968f8c55d7ce51dc",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/professional-services/insolvency-and-restructuring/": {
+    "hash": "fe4a002af3e77f79",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/professional-services/legal-practices/": {
+    "hash": "c0a110689c93dd11",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/professional-services/specialist-accounting-firms/": {
+    "hash": "883d4f1d311570aa",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/professional-services/surveying-and-property-advisory/": {
+    "hash": "726570bcc5718401",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/tech-enabled-services/": {
+    "hash": "9c3991484166830f",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/tech-enabled-services/ai-and-ml-services/": {
+    "hash": "99870bf3c2e45a93",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/tech-enabled-services/cybersecurity-services/": {
+    "hash": "c40ac2a9cf5dfb93",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/tech-enabled-services/data-and-analytics-services/": {
+    "hash": "128923e8f2ab84db",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/tech-enabled-services/digital-agencies/": {
+    "hash": "7a2951deae9a2eec",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/tech-enabled-services/it-managed-service-providers/": {
+    "hash": "7065a650480a9bdd",
+    "lastmod": "2026-11-26"
+  },
+  "/sectors/tech-enabled-services/vertical-saas/": {
+    "hash": "8af485db41cbd486",
+    "lastmod": "2026-11-26"
+  },
+  "/services/": {
+    "hash": "37504a709b6b6f05",
+    "lastmod": "2026-11-23"
+  },
+  "/services/company-valuation-uk/": {
+    "hash": "2585f5977987b0b5",
+    "lastmod": "2026-11-26"
+  },
+  "/services/exit-planning-advisor-uk/": {
+    "hash": "fc07d2dd72e6868c",
+    "lastmod": "2026-11-26"
+  },
+  "/services/exit-readiness-assessment/": {
+    "hash": "c839a21442719f14",
+    "lastmod": "2026-11-26"
+  },
+  "/services/growth-capital-advisor-uk/": {
+    "hash": "e316d2253fbbc3ff",
+    "lastmod": "2026-11-26"
+  },
+  "/services/how-to-sell-a-business/": {
+    "hash": "34332a1fc0fdd84e",
+    "lastmod": "2026-11-26"
+  },
+  "/services/m-and-a-advisor-uk/": {
+    "hash": "b19dd42ea51965c5",
+    "lastmod": "2026-11-26"
+  },
+  "/services/management-buyout-advisor-uk/": {
+    "hash": "081274345970b527",
+    "lastmod": "2026-11-26"
+  },
+  "/team/": {
+    "hash": "95cdf7c1a8c75c38",
+    "lastmod": "2026-11-24"
+  }
+}
